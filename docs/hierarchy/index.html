@@ -461,7 +461,11 @@ function fillRow(row, node) {
   }
 
   const button = nodeButton(code);
-  button.onclick = () => select(node);
+  button.onclick = () => {
+    // clicking a closed concept opens it as well as selecting it
+    if (node.children) expanded.add(node.data.id);
+    select(node);
+  };
   if (concept.parents.length > 1) {
     const badge = document.createElement("span");
     badge.className = "badge";
