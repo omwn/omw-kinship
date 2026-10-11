@@ -51,7 +51,7 @@ REPORTS = ROOT / "reports"
 VERSION = "0.1"
 EMAIL = "bond@ieee.org"
 LICENSE = "https://creativecommons.org/licenses/by-sa/3.0/"
-URL = "https://github.com/fcbond/omw-kinship"
+URL = "https://github.com/omwn/omw-kinship"
 CITATION = (
     "Temuulen Khishigsuren, Gábor Bella, Khuyagbaatar Batsuren, Abed Alhakim Freihat, "
     "Nandu Chandran Nair, Amarsanaa Ganbold, Hadi Khalilia, Yamini Chandrashekar and "
