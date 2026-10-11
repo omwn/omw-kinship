@@ -31,7 +31,6 @@ Usage: uv run scripts/kinbank_words.py [path/to/kinbank]
 from __future__ import annotations
 
 import csv
-import itertools
 import logging
 import re
 import sys
@@ -42,50 +41,20 @@ from pathlib import Path
 
 import build
 import langcodes
+from kintype import (  # noqa: F401  (kinbank_concepts uses them through this module)
+    CONCRETE,
+    DISJUNCTIONS,
+    FLIP,
+    Atom,
+    age_slot,
+    expand,
+    kindiv_atoms,
+)
 
 logger = logging.getLogger(__name__)
 
-#: an atom: (ego sex, ((age, letter), ...)), age "" where not distinguished
-Atom = tuple[str, tuple[tuple[str, str], ...]]
-
-#: Kinbank letters that stand for a choice of concrete kin letters
-DISJUNCTIONS = {"C": "SD", "P": "FM", "E": "HW", "G": "BZ", "Q": "BZ"}
-CONCRETE = set("FMBZSDHW")
-FLIP = {"F": "M", "M": "F", "B": "Z", "Z": "B", "S": "D", "D": "S", "H": "W", "W": "H"}
 GENERAL = re.compile(r"[CPEG]")
 KINBANK = re.compile(r"([mf])((?:[ey]?[A-Z])+)")
-
-
-def age_slot(letters: str) -> int | None:
-    """Return the index of the link whose relative age KinDiv distinguishes.
-
-    >>> age_slot("B"), age_slot("FB"), age_slot("BS"), age_slot("FBS"), age_slot("FBW")
-    (0, 1, 0, 2, 1)
-    >>> age_slot("FF") is None
-    True
-    """
-    parent, sibling, child, spouse = set("FM"), set("BZ"), set("SD"), set("HW")
-    sets = [parent, sibling, child, spouse]
-    shape = tuple(next(i for i, s in enumerate(sets) if c in s) for c in letters)
-    return {(1,): 0, (0, 1): 1, (1, 2): 0, (0, 1, 2): 2, (0, 1, 3): 1}.get(shape)
-
-
-def expand(egos: str, links: list[tuple[str, str]]) -> set[Atom]:
-    """Expand ego sexes, disjunctive letters and unspecified ages into atoms."""
-    atoms: set[Atom] = set()
-    choices = [DISJUNCTIONS.get(letter, letter) for _, letter in links]
-    for ego in egos:
-        for letters in itertools.product(*choices):
-            slot = age_slot("".join(letters))
-            ages = [""] * len(letters)
-            if slot is not None:
-                given = links[slot][0]
-                for age in (given,) if given else ("e", "y"):
-                    ages[slot] = age
-                    atoms.add((ego, tuple(zip(ages, letters))))
-            else:
-                atoms.add((ego, tuple(zip(ages, letters))))
-    return atoms
 
 
 def kinbank_atoms(parameter: str) -> set[Atom] | None:
@@ -111,72 +80,6 @@ def kinbank_atoms(parameter: str) -> set[Atom] | None:
         return None
     atoms = expand(ego, links)
     return {atom for atom in atoms if atom[1]}
-
-
-#: KinDiv kin terms as Kinbank letters (Q: sibling)
-KINDIV_LETTERS = {
-    "Fa": "F",
-    "Mo": "M",
-    "Pa": "P",
-    "Pr": "P",
-    "Br": "B",
-    "Ss": "Z",
-    "Sb": "Q",
-    "So": "S",
-    "Da": "D",
-    "Ch": "C",
-    "Hu": "H",
-    "Wi": "W",
-    "Sp": "E",
-}
-#: KinDiv nodes that are unions of kin types
-UNIONS = {
-    "Unc": ("Pa;Br", "Pa;Ss;Hu"),
-    "Aun": ("Pa;Ss", "Pa;Br;Wi"),
-    "BrL": ("Sp;Br", "Ss;Hu"),
-    "SsL": ("Sp;Ss", "Br;Wi"),
-}
-
-
-def kindiv_atoms(code: str, subdomain: str) -> set[Atom] | None:
-    """Atoms of a KinDiv concept, or None for nodes too broad to match (Rel, InL).
-
-    >>> sorted(kindiv_atoms("x;Fa;El;Br", "uncles and aunts"))
-    [('m', (('', 'F'), ('e', 'B')))]
-    >>> len(kindiv_atoms("Pa;Sb;Ch", "cousins"))   # 2 egos x 8 kin types x 2 ages
-    32
-    """
-    if "|" in code:
-        parts = [
-            kindiv_atoms(part, build.subdomain_of(part)) for part in code.split("|")
-        ]
-        return None if None in parts else set().union(*parts)
-    if code in UNIONS:
-        return set().union(*(kindiv_atoms(part, subdomain) for part in UNIONS[code]))
-    parts = code.split(";")
-    egos = {"x": "m", "o": "f"}.get(parts[0], "mf")
-    if parts[0] in ("x", "o"):
-        parts = parts[1:]
-    links: list[list[str]] = []
-    age = ""
-    for part in parts:
-        if part in ("El", "Yn"):
-            age = "e" if part == "El" else "y"
-            continue
-        if part == "Gr":
-            letter = "C" if subdomain == "grandchildren" else "P"
-            links.append(["", letter])
-        elif part == "Pb":
-            links.extend([["", "P"], ["", "Q"]])
-        elif part in KINDIV_LETTERS:
-            links.append(["", KINDIV_LETTERS[part]])
-        else:
-            return None
-        if age and subdomain != "cousins":
-            links[-1][0], age = age, ""
-    if age:  # cousins: the age is the cousin's, relative to ego
-        links[-1][0] = age
-    return expand(egos, [tuple(link) for link in links])
 
 
 def neighbours(atom: Atom) -> set[Atom]:

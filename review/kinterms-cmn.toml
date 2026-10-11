@@ -861,6 +861,28 @@ hypernyms = ["Rel"]
 ancestors = ["Rel"]
 comment = ""
 
+["o;Fa;Sb;So"]
+lemmas = []
+status = "unlexicalized: no cmn word; included for the hierarchy"
+english = ["cousin"]
+english_via = "Pa;Sb;Ch"
+label = "son of father's sibling (female anchor)"
+definition = "a son of a woman's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;So", "o;Pa;Sb;So"]
+ancestors = ["Fa;Sb;So", "o;Pa;Sb;So", "Fa;Sb;Ch", "Pa;Sb;So", "o;Br|o;Pa;Sb;So", "o;Pa;Sb;Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["x;Fa;Sb;Da"]
+lemmas = []
+status = "unlexicalized: no cmn word; included for the hierarchy"
+english = ["cousin"]
+english_via = "Pa;Sb;Ch"
+label = "daughter of father's sibling (male anchor)"
+definition = "a daughter of a man's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Da", "x;Pa;Sb;Da"]
+ancestors = ["Fa;Sb;Da", "x;Pa;Sb;Da", "Fa;Sb;Ch", "Pa;Sb;Da", "x;Pa;Sb;Da|x;Ss", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
@@ -1957,8 +1979,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "elder female cousin (female anchor)"
 definition = "a daughter of a woman's parent's sibling, who is older than her (a cousin)"
-hypernyms = ["El;Pa;Sb;Da"]
-ancestors = ["El;Pa;Sb;Da", "El;Pa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["El;Pa;Sb;Da", "o;Pa;Sb;Ch"]
+ancestors = ["El;Pa;Sb;Da", "o;Pa;Sb;Ch", "El;Pa;Sb;Ch", "Pa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch|Sb", "Pa;Sb;Da|Ss", "Rel"]
 comment = ""
 
 ["x;Yn;Pa;Sb;So"]
@@ -1975,8 +1997,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "younger female cousin (female anchor)"
 definition = "a daughter of a woman's parent's sibling, who is younger than her (a cousin)"
-hypernyms = ["Yn;Pa;Sb;Da"]
-ancestors = ["Yn;Pa;Sb;Da", "Pa;Sb;Da", "Yn;Pa;Sb;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Yn;Pa;Sb;Da", "o;Pa;Sb;Ch"]
+ancestors = ["Yn;Pa;Sb;Da", "o;Pa;Sb;Ch", "Pa;Sb;Ch", "Pa;Sb;Da", "Yn;Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Pa;Sb;Da|Ss", "Rel"]
 comment = ""
 
 ["Fa;Sb;Ch"]
@@ -2191,8 +2213,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "son of father's brother (female anchor)"
 definition = "a son of a woman's father's brother (a cousin)"
-hypernyms = ["Fa;Br;So", "o;Pa;Sb;So"]
-ancestors = ["Fa;Br;So", "o;Pa;Sb;So", "Fa;Br;Ch", "Fa;Sb;So", "Pa;Br;So", "Pa;Sb;So", "o;Br|o;Pa;Sb;So", "o;Pa;Sb;Ch", "Br|Pa;Sb;So", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Fa;Br;So", "o;Fa;Sb;So"]
+ancestors = ["Fa;Br;So", "o;Fa;Sb;So", "Fa;Br;Ch", "Fa;Sb;So", "Pa;Br;So", "o;Pa;Sb;So", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;So", "o;Br|o;Pa;Sb;So", "o;Pa;Sb;Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["x;Fa;Br;Da"]
@@ -2200,8 +2222,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "daughter of father's brother (male anchor)"
 definition = "a daughter of a man's father's brother (a cousin)"
-hypernyms = ["Fa;Br;Da", "x;Pa;Sb;Da"]
-ancestors = ["Fa;Br;Da", "x;Pa;Sb;Da", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "Pa;Sb;Da", "x;Pa;Sb;Da|x;Ss", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Fa;Br;Da", "x;Fa;Sb;Da"]
+ancestors = ["Fa;Br;Da", "x;Fa;Sb;Da", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "x;Pa;Sb;Da", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Da", "x;Pa;Sb;Da|x;Ss", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["o;Fa;Br;Da"]
@@ -2209,8 +2231,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "daughter of father's brother (female anchor)"
 definition = "a daughter of a woman's father's brother (a cousin)"
-hypernyms = ["Fa;Br;Da"]
-ancestors = ["Fa;Br;Da", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Fa;Br;Da", "o;Pa;Sb;Ch"]
+ancestors = ["Fa;Br;Da", "o;Pa;Sb;Ch", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "Pa;Sb;Ch", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch|Sb", "Pa;Sb;Da", "Pa;Sb;Da|Ss", "Rel"]
 comment = ""
 
 ["x;Mo;Ss;So"]
@@ -2245,8 +2267,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "daughter of mother's sister (female anchor)"
 definition = "a daughter of a woman's mother's sister (a cousin)"
-hypernyms = ["Mo;Ss;Da"]
-ancestors = ["Mo;Ss;Da", "Mo;Sb;Da", "Mo;Ss;Ch", "Pa;Ss;Da", "Mo;Sb;Ch", "Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Mo;Ss;Da", "o;Pa;Sb;Ch"]
+ancestors = ["Mo;Ss;Da", "o;Pa;Sb;Ch", "Mo;Sb;Da", "Mo;Ss;Ch", "Pa;Sb;Ch", "Pa;Ss;Da", "Mo;Sb;Ch", "Pa;Sb;Ch|Sb", "Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Da|Ss", "Rel"]
 comment = ""
 
 ["Fa;Sb;So"]

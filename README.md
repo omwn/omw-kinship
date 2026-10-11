@@ -23,6 +23,7 @@ the Open English WordNet, and words attested in other sources.
 | `reports/` | tables `build.py` writes for inspection: per-lexicon counts, ILI proposals, gap conflicts |
 | `review/` | one TOML file per language for human review of its kin terms |
 | `collection/` | the README, LICENSE and `citation.bib` copied into the release |
+| `FEATURES.md` | the kin-type code features and the algebra that combines them |
 | `docs/` | open questions |
 | `release/` | the built collection (gitignored: attach it to a GitHub release) |
 
@@ -81,11 +82,13 @@ inputs from clones of TUFS and Kinbank next to this repository.
 - **Gaps** become `lexicalized="false"` synsets, written only for languages that also
   have words. When a word and a gap are both recorded for the same concept, the word
   wins; `build.py` logs these cases.
-- **Hypernymy** comes from KinDiv's `relations` plus `data/extra-relations.tsv`.
-  KinDiv uses `Fa;Sb;So` and `Fa;Sb;Da` (son/daughter of father's sibling) in
-  `relations` and `gaps` but never listed them in `concepts`, apparently by
-  accident; `data/extra-concepts.tsv` adds them. `build.py` still bridges any
-  code missing from the concepts.
+- **Hypernymy** is containment: a concept is below every concept whose set of
+  genealogical positions contains its own (`FEATURES.md`). The stated relations,
+  KinDiv's `relations` plus `data/extra-relations.tsv`, place the nodes with no
+  positions (`Rel`, `InL`); the tests check that every stated relation is a
+  containment. KinDiv uses `Fa;Sb;So` and `Fa;Sb;Da` (son/daughter of father's
+  sibling) in `relations` and `gaps` but never listed them in `concepts`,
+  apparently by accident; `data/extra-concepts.tsv` adds them.
 - **Definitions** are generated from the kin-type code, e.g. "a son of a man's
   father's brother, who is older than him (a cousin)".
 

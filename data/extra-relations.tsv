@@ -1,14 +1,8 @@
 Subdomain	Hyponym_concept	Hypernym_concept
-kindiv	Gr;Pr	Rel
-kindiv	Gr;Ch	Rel
-kindiv	Sb	Rel
 kindiv	Pb	Rel
 uncles and aunts	Unc	Rel
 uncles and aunts	Aun	Rel
-kindiv	Sb;Ch	Rel
-kindiv	Pa;Sb;Ch	Rel
 parents	Pa	Rel
-children	Ch	Rel
 spouses	Sp	Rel
 in-laws	InL	Rel
 kindiv	Pa;Br	Unc

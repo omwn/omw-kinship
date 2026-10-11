@@ -5,7 +5,10 @@ Run with: uv run --with pytest pytest tests
 
 from __future__ import annotations
 
+import doctest
+
 import build
+import kintype
 import pytest
 
 
@@ -124,6 +127,53 @@ def test_every_concept_is_a_relative() -> None:
     concepts = build.read_concepts()
     ancestry = build.read_hierarchy(concepts)
     assert all("Rel" in ancestry[code] for code in concepts if code != "Rel")
+
+
+def test_stated_hypernyms_contain_their_hyponyms() -> None:
+    extent = build.positions(build.read_concepts())
+    wrong = [
+        (child, parent)
+        for child, parents in build.read_relations().items()
+        for parent in parents
+        if child in extent and parent in extent and not extent[child] < extent[parent]
+    ]
+    assert not wrong
+
+
+def test_hierarchy_includes_every_containment() -> None:
+    # the female-anchor cousins were missing from the stated relations
+    concepts = build.read_concepts()
+    ancestry = build.read_hierarchy(concepts)
+    extent = build.positions(concepts)
+    missing = [
+        (code, other)
+        for code, own in extent.items()
+        for other, theirs in extent.items()
+        if own < theirs and other not in ancestry[code]
+    ]
+    assert not missing
+    assert "o;Fa;Sb;So" in ancestry["o;Fa;Br;So"]
+
+
+def test_no_two_concepts_denote_the_same_positions() -> None:
+    extent = build.positions(build.read_concepts())
+    assert len(set(extent.values())) == len(extent)
+
+
+def test_extra_relations_are_nearest_links() -> None:
+    concepts = build.read_concepts()
+    nearest = build.nearest(set(concepts), build.read_hierarchy(concepts))
+    redundant = [
+        (row["Hyponym_concept"], row["Hypernym_concept"])
+        for row in build.read_tsv(build.DATA / "extra-relations.tsv")
+        if row["Hyponym_concept"] in concepts
+        and row["Hypernym_concept"] not in nearest[row["Hyponym_concept"]]
+    ]
+    assert not redundant
+
+
+def test_kintype_doctests() -> None:
+    assert doctest.testmod(kintype).failed == 0
 
 
 @pytest.fixture(scope="module")

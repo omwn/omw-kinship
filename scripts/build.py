@@ -33,6 +33,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from xml.sax.saxutils import escape, quoteattr
 
+from kintype import kindiv_atoms, subdomain_of
 from unidecode import unidecode
 
 logger = logging.getLogger(__name__)
@@ -136,36 +137,6 @@ def slug(code: str) -> str:
     parts with ``_``.
     """
     return code.replace(";", "-").replace("|", "_")
-
-
-def subdomain_of(code: str) -> str:
-    """Guess a kin type's subdomain from its shape (for concepts outside KinDiv).
-
-    >>> subdomain_of("Hu;Fa"), subdomain_of("x;Ss;Da"), subdomain_of("El;Fa;Br;So")
-    ('in-laws', 'nephews and nieces', 'cousins')
-    >>> subdomain_of("Fa|Fa;Br")
-    'mergers'
-    """
-    if "|" in code:
-        parts = {subdomain_of(part) for part in code.split("|")}
-        return parts.pop() if len(parts) == 1 else "mergers"
-    terms = [t for t in code.split(";") if t not in ("x", "o", "El", "Yn")]
-    if any(t in ("Hu", "Wi", "Sp") for t in terms):
-        return "spouses" if len(terms) == 1 else "in-laws"
-    role = "".join(
-        "P" if t in ("Fa", "Mo", "Pa") else "S" if t in ("Br", "Ss", "Sb") else "C"
-        for t in terms
-    )
-    return {
-        "P": "parents",
-        "S": "siblings",
-        "C": "children",
-        "PP": "grandparents",
-        "CC": "grandchildren",
-        "PS": "uncles and aunts",
-        "SC": "nephews and nieces",
-        "PSC": "cousins",
-    }.get(role, "relatives")
 
 
 def parse(code: str, subdomain: str) -> tuple[str, str, list[str]]:
@@ -317,23 +288,47 @@ def read_concepts() -> dict[str, Concept]:
     return concepts
 
 
-def read_hierarchy(concepts: dict[str, Concept]) -> dict[str, set[str]]:
-    """Return every concept's ancestors, bridging any nodes missing from `concepts`.
+def positions(concepts: dict[str, Concept]) -> dict[str, frozenset]:
+    """Map each concept to the positions it denotes; `Rel` and `InL` have none."""
+    return {
+        code: frozenset(atoms)
+        for code, concept in concepts.items()
+        if (atoms := kindiv_atoms(code, concept.subdomain))
+    }
 
-    Upstream KinDiv used ``Fa;Sb;So`` and ``Fa;Sb;Da`` in `relations` and `gaps`
-    without listing them in `concepts` (added in this fork); bridging keeps the
-    hierarchy intact should that happen again.
-    """
+
+def read_relations() -> dict[str, set[str]]:
+    """Read the stated hypernyms: KinDiv's `relations` and our extra ones."""
     parents: dict[str, set[str]] = defaultdict(set)
     for row in read_tsv(KINDIV / "relations") + read_tsv(DATA / "extra-relations.tsv"):
         if row["Hypernym_concept"] != "#":
             parents[row["Hyponym_concept"]].add(row["Hypernym_concept"])
+    return parents
 
-    def ancestors(code: str, seen: frozenset[str] = frozenset()) -> set[str]:
+
+def read_hierarchy(concepts: dict[str, Concept]) -> dict[str, set[str]]:
+    """Return every concept's ancestors.
+
+    A concept is below every concept whose positions strictly contain its own
+    (FEATURES.md), so the hierarchy of the kin-type grid follows from the codes.
+    The stated relations add the nodes that have no positions, `Rel` and `InL`.
+    They also bridge nodes missing from `concepts`: upstream KinDiv uses
+    ``Fa;Sb;So`` and ``Fa;Sb;Da`` in `relations` and `gaps` without listing them
+    in `concepts`.
+    """
+    parents = read_relations()
+    extent = positions(concepts)
+    for code, own in extent.items():
+        parents[code] |= {other for other, theirs in extent.items() if own < theirs}
+
+    def ancestors(code: str) -> set[str]:
         found: set[str] = set()
-        for parent in parents[code] - seen:
-            found |= {parent} | ancestors(parent, seen | {code})
-        return found
+        stack = [code]
+        while stack:
+            for parent in parents[stack.pop()] - found:
+                found.add(parent)
+                stack.append(parent)
+        return found - {code}
 
     return {code: ancestors(code) & concepts.keys() for code in concepts}
 
