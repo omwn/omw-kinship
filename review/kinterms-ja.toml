@@ -8,46 +8,48 @@
 #   existing_hidden counts the rest.
 
 ["Gr;Pr"]
-lemmas = ["sofubo"]
-transcribed = ["sofubo"]  # romanized in the source; no word in the native script here
+lemmas = ["祖父母"]
+pronunciations = ["祖父母: sofubo (romanization)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
 existing_by_ili = ["omw-ja omw-ja-10143172-n [i90292] 祖父母: 父あるいは母の親"]
+existing_by_lemma = ["祖父母 -> omw-ja omw-ja-10143172-n [i90292] 祖父母: 父あるいは母の親"]
 hypernyms = ["Ch;Ch|Pa;Pa"]
 ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
-sources = ["sofubo <- Kinbank"]
+sources = ["祖父母 <- Kinbank, omw-ja"]
 comment = ""
 
 ["Gr;Fa"]
-lemmas = ["おじいさん", "お爺ちゃん", "そふ"]
-english = ["gramps", "grandfather", "grandpa"]
+lemmas = ["おじいさん", "お爺ちゃん", "お祖父", "お祖父さん", "お祖父さん・お爺さん", "お祖父ちゃん", "お祖父様", "そふ", "御祖父", "御祖父さん", "御祖父様", "祖", "祖父", "祖父さま", "祖父さん", "祖父上", "祖父君", "祖父御", "祖父様"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
 existing_by_ili = ["omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "tufs-ja tufs-ja-10142391-n [i90287] おじいさん: (CILI) the father of your father or mother"]
-existing_by_lemma = ["おじいさん -> tufs-ja tufs-ja-10142391-n [i90287] おじいさん: (CILI) the father of your father or mother"]
+existing_by_lemma = ["おじいさん -> tufs-ja tufs-ja-10142391-n [i90287] おじいさん: (CILI) the father of your father or mother", "お祖父 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "お祖父さん -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "お祖父さん・お爺さん -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "お祖父ちゃん -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "お祖父様 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "御祖父 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "御祖父さん -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "御祖父様 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖 -> omw-ja omw-ja-09792555-n [i88207] ルーツ, 世祖, 先世, 先人, 先つ祖, 先祖, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "祖 -> omw-ja omw-ja-10102369-n [i90031] 先祖, 寛恕, 祖: あなたを子孫とする人", "祖 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父さま -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父さん -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父上 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父君 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父御 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親", "祖父様 -> omw-ja omw-ja-10142391-n [i90287] 御祖父さん, 御祖父, 御祖父様, 祖, お祖父ちゃん, お祖父さん, ...: 父あるいは母の父親"]
+existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
 ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["おじいさん <- TUFS, Wiktionary", "お爺ちゃん <- Wiktionary", "そふ <- Wiktionary"]
+sources = ["おじいさん <- TUFS, Wiktionary", "お爺ちゃん <- Wiktionary", "お祖父 <- omw-ja", "お祖父さん <- omw-ja", "お祖父さん・お爺さん <- omw-ja", "お祖父ちゃん <- omw-ja", "お祖父様 <- omw-ja", "そふ <- Wiktionary", "御祖父 <- omw-ja", "御祖父さん <- omw-ja", "御祖父様 <- omw-ja", "祖 <- omw-ja", "祖父 <- omw-ja", "祖父さま <- omw-ja", "祖父さん <- omw-ja", "祖父上 <- omw-ja", "祖父君 <- omw-ja", "祖父御 <- omw-ja", "祖父様 <- omw-ja"]
 comment = ""
 
 ["Gr;Mo"]
-lemmas = ["おばあさん", "お婆さん", "お婆ちゃん", "そぼ", "ばば"]
-english = ["grandma", "grandmother", "granny"]
+lemmas = ["おばあさん", "おばあちゃん", "お婆さん", "お婆ちゃん", "お祖母", "お祖母さま", "お祖母さん", "お祖母ちゃん", "お祖母様", "そぼ", "ばあちゃん", "ばば", "御祖母", "御祖母さん", "御祖母ちゃん", "祖母", "祖母さま", "祖母さん", "祖母様"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother"]
-existing_by_lemma = ["おばあさん -> tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother", "ばば -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["おばあさん -> tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother", "おばあちゃん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "おばあちゃん -> omw-ja omw-ja-10345015-n [i91538] おばあちゃん: あなたの祖母", "お祖母 -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "お祖母さま -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "お祖母さん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "お祖母ちゃん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "お祖母様 -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "ばあちゃん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "ばば -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "御祖母 -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "御祖母さん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "御祖母ちゃん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "祖母 -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "祖母さま -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "祖母さん -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親", "祖母様 -> omw-ja omw-ja-10142747-n [i90289] おばあちゃん, ばあちゃん, 御祖母ちゃん, 御祖母さん, 御祖母, お祖母ちゃん, ...: 父あるいは母の母親"]
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
 ancestors = ["Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["おばあさん <- TUFS", "お婆さん <- Wiktionary", "お婆ちゃん <- Wiktionary", "そぼ <- Wiktionary", "ばば <- Wiktionary"]
+sources = ["おばあさん <- TUFS", "おばあちゃん <- omw-ja", "お婆さん <- Wiktionary", "お婆ちゃん <- Wiktionary", "お祖母 <- omw-ja", "お祖母さま <- omw-ja", "お祖母さん <- omw-ja", "お祖母ちゃん <- omw-ja", "お祖母様 <- omw-ja", "そぼ <- Wiktionary", "ばあちゃん <- omw-ja", "ばば <- Wiktionary", "御祖母 <- omw-ja", "御祖母さん <- omw-ja", "御祖母ちゃん <- omw-ja", "祖母 <- omw-ja", "祖母さま <- omw-ja", "祖母さん <- omw-ja", "祖母様 <- omw-ja"]
 comment = ""
 
 ["Fa;Fa"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
@@ -58,7 +60,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -67,37 +69,40 @@ ancestors = ["Gr;Mo", "Mo;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Gr;Ch"]
-lemmas = ["まご"]
+lemmas = ["お孫さん", "まご", "令孫", "孫", "御孫さん"]
 pronunciations = ["まご: maago (romanization)"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
 existing_by_ili = ["omw-ja omw-ja-10141590-n [i90280] 令孫, お孫さん, 孫, 御孫さん: 息子または娘の子供"]
+existing_by_lemma = ["お孫さん -> omw-ja omw-ja-10141590-n [i90280] 令孫, お孫さん, 孫, 御孫さん: 息子または娘の子供", "令孫 -> omw-ja omw-ja-10141590-n [i90280] 令孫, お孫さん, 孫, 御孫さん: 息子または娘の子供", "孫 -> omw-ja omw-ja-10141590-n [i90280] 令孫, お孫さん, 孫, 御孫さん: 息子または娘の子供", "御孫さん -> omw-ja omw-ja-10141590-n [i90280] 令孫, お孫さん, 孫, 御孫さん: 息子または娘の子供"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["まご <- Wiktionary"]
+sources = ["お孫さん <- omw-ja", "まご <- Kinbank, Wiktionary", "令孫 <- omw-ja", "孫 <- omw-ja", "御孫さん <- omw-ja"]
 comment = ""
 
 ["Gr;So"]
-lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
+lemmas = ["孫息子"]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
 existing_by_ili = ["omw-ja omw-ja-10143299-n [i90293] 孫息子: 男の孫"]
+existing_by_lemma = ["孫息子 -> omw-ja omw-ja-10143299-n [i90293] 孫息子: 男の孫"]
 hypernyms = ["Ch;So|Pa;Fa", "Gr;Ch"]
 ancestors = ["Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+sources = ["孫息子 <- omw-ja"]
 comment = ""
 
 ["Gr;Da"]
-lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
+lemmas = ["孫娘"]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
 existing_by_ili = ["omw-ja omw-ja-10141732-n [i90281] 孫娘: 女性の孫"]
+existing_by_lemma = ["孫娘 -> omw-ja omw-ja-10141732-n [i90281] 孫娘: 女性の孫"]
 hypernyms = ["Ch;Da|Pa;Mo", "Gr;Ch"]
 ancestors = ["Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+sources = ["孫娘 <- omw-ja"]
 comment = ""
 
 ["So;Ch"]
@@ -125,7 +130,7 @@ comment = ""
 ["Sb"]
 lemmas = ["兄弟"]
 pronunciations = ["兄弟: kyōdai (romanization)"]
-english = ["sibling"]
+english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 existing_by_ili = ["omw-ja omw-ja-10595164-n [i92980] 兄弟: 兄弟や姉妹"]
@@ -133,13 +138,12 @@ existing_by_lemma = ["兄弟 -> omw-ja omw-ja-09876454-n [i88708] ブラザー, 
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["兄弟 <- TUFS"]
+sources = ["兄弟 <- Kinbank, TUFS, omw-ja"]
 comment = ""
 
 ["El;Br"]
 lemmas = ["あに", "お兄さん", "兄", "兄ちゃん"]
-english = ["brother"]
-english_via = "Br"
+english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 existing_by_ili = ["omw-ja omw-ja-09853467-n [i88560] : 兄", "tufs-ja tufs-ja-09853467-n [i88560] 兄, お兄さん: (CILI) an older brother"]
@@ -152,8 +156,7 @@ comment = ""
 
 ["El;Ss"]
 lemmas = ["あね", "おねえさん", "お姉さん", "姉", "姉ちゃん"]
-english = ["sister"]
-english_via = "Ss"
+english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 existing_by_ili = ["omw-ja omw-ja-09854218-n [i88564] : 姉", "tufs-ja tufs-ja-09854218-n [i88564] 姉: (CILI) an older sister"]
@@ -166,28 +169,26 @@ comment = ""
 
 ["Yn;Br"]
 lemmas = ["おとうと", "弟", "弟さん"]
-english = ["brother"]
-english_via = "Br"
+english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
 existing_by_ili = ["omw-ja omw-ja-10267311-n [i91053] 弟: 弟"]
 existing_by_lemma = ["おとうと -> tufs-ja tufs-ja-16809-n [-] 弟: (my) younger brother", "おとうと -> tufs-ja tufs-ja-16810-n [-] 弟さん: (someone else's) younger brother", "弟 -> omw-ja omw-ja-09876454-n [i88708] ブラザー, 兄ちゃん, 兄さん, 兄じゃ, 兄ぢゃ, 兄い, ...: 誰かと親を同じくする男性", "弟 -> omw-ja omw-ja-10267311-n [i91053] 弟: 弟", "弟 -> tufs-ja tufs-ja-16809-n [-] 弟: (my) younger brother", "弟さん -> tufs-ja tufs-ja-16810-n [-] 弟さん: (someone else's) younger brother"]
 hypernyms = ["Br", "Yn;Sb"]
 ancestors = ["Br", "Yn;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["おとうと <- Wiktionary", "弟 <- TUFS", "弟さん <- TUFS"]
+sources = ["おとうと <- Wiktionary", "弟 <- TUFS, omw-ja", "弟さん <- TUFS"]
 comment = ""
 
 ["Yn;Ss"]
-lemmas = ["いもうと", "妹", "妹さん"]
-english = ["sister"]
-english_via = "Ss"
+lemmas = ["いもうと", "妹", "妹さん", "妹君", "小妹"]
+english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 existing_by_ili = ["omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹"]
-existing_by_lemma = ["いもうと -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹 -> omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹", "妹 -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹さん -> omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹", "妹さん -> tufs-ja tufs-ja-16812-n [-] 妹さん: (someone else's) younger sister"]
+existing_by_lemma = ["いもうと -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹 -> omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹", "妹 -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹さん -> omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹", "妹さん -> tufs-ja tufs-ja-16812-n [-] 妹さん: (someone else's) younger sister", "妹君 -> omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹", "小妹 -> omw-ja omw-ja-10267865-n [i91057] 妹さん, 妹, 妹君, 小妹: 妹"]
 hypernyms = ["Ss", "Yn;Sb"]
 ancestors = ["Ss", "Yn;Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["いもうと <- Wiktionary", "妹 <- TUFS", "妹さん <- TUFS"]
+sources = ["いもうと <- Wiktionary", "妹 <- TUFS, omw-ja", "妹さん <- TUFS, omw-ja", "妹君 <- omw-ja", "小妹 <- omw-ja"]
 comment = ""
 
 ["Pa;Br"]
@@ -212,27 +213,29 @@ sources = ["おば <- Wiktionary"]
 comment = ""
 
 ["Sb;So"]
-lemmas = ["おい"]
+lemmas = ["おい", "猶子", "甥", "甥御", "甥御さん"]
 pronunciations = ["おい: oii (romanization)"]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
 existing_by_ili = ["omw-ja omw-ja-10353355-n [i91586] 猶子, 甥, 甥御さん, 甥御: 兄弟か姉妹の息子"]
+existing_by_lemma = ["猶子 -> omw-ja omw-ja-10353355-n [i91586] 猶子, 甥, 甥御さん, 甥御: 兄弟か姉妹の息子", "甥 -> omw-ja omw-ja-10353355-n [i91586] 猶子, 甥, 甥御さん, 甥御: 兄弟か姉妹の息子", "甥御 -> omw-ja omw-ja-10353355-n [i91586] 猶子, 甥, 甥御さん, 甥御: 兄弟か姉妹の息子", "甥御さん -> omw-ja omw-ja-10353355-n [i91586] 猶子, 甥, 甥御さん, 甥御: 兄弟か姉妹の息子"]
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["おい <- Wiktionary"]
+sources = ["おい <- Kinbank, Wiktionary", "猶子 <- omw-ja", "甥 <- omw-ja", "甥御 <- omw-ja", "甥御さん <- omw-ja"]
 comment = ""
 
 ["Sb;Da"]
-lemmas = ["めい"]
+lemmas = ["めい", "姪", "姪っ子", "姪御", "姪御さん"]
 pronunciations = ["めい: mei (romanization)"]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
 existing_by_ili = ["omw-ja omw-ja-10357613-n [i91615] 姪, 姪っ子, 姪御さん, 姪御: 兄弟や姉妹の娘"]
+existing_by_lemma = ["姪 -> omw-ja omw-ja-10357613-n [i91615] 姪, 姪っ子, 姪御さん, 姪御: 兄弟や姉妹の娘", "姪っ子 -> omw-ja omw-ja-10357613-n [i91615] 姪, 姪っ子, 姪御さん, 姪御: 兄弟や姉妹の娘", "姪御 -> omw-ja omw-ja-10357613-n [i91615] 姪, 姪っ子, 姪御さん, 姪御: 兄弟や姉妹の娘", "姪御さん -> omw-ja omw-ja-10357613-n [i91615] 姪, 姪っ子, 姪御さん, 姪御: 兄弟や姉妹の娘"]
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["めい <- Wiktionary"]
+sources = ["めい <- Kinbank, Wiktionary", "姪 <- omw-ja", "姪っ子 <- omw-ja", "姪御 <- omw-ja", "姪御さん <- omw-ja"]
 comment = ""
 
 ["Br;So"]
@@ -280,22 +283,22 @@ ancestors = ["Sb;Da", "Ss;Ch", "Da|Sb;Da", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch"
 comment = ""
 
 ["Pa;Sb;Ch"]
-lemmas = ["いとこ"]
+lemmas = ["いとこ", "従兄", "従兄弟", "従妹", "従姉", "従姉妹", "従弟"]
 pronunciations = ["いとこ: itoko (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
 existing_by_ili = ["omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供"]
-existing_by_lemma = ["いとこ -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供"]
+existing_by_lemma = ["いとこ -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供", "従兄 -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供", "従兄弟 -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供", "従妹 -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供", "従姉 -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供", "従姉妹 -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供", "従弟 -> omw-ja omw-ja-09972010-n [i89276] いとこ, 従兄, 従兄弟, 従妹, 従姉, 従姉妹, ...: おじやおばの子供"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["いとこ <- Wiktionary"]
+sources = ["いとこ <- Kinbank, Wiktionary, omw-ja", "従兄 <- omw-ja", "従兄弟 <- omw-ja", "従妹 <- omw-ja", "従姉 <- omw-ja", "従姉妹 <- omw-ja", "従弟 <- omw-ja"]
 comment = ""
 
 ["Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
 definition = "a son of one's parent's sibling (a cousin)"
@@ -306,7 +309,7 @@ comment = ""
 ["Pa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
 definition = "a daughter of one's parent's sibling (a cousin)"
@@ -317,7 +320,7 @@ comment = ""
 ["El;Pa;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder cousin"
 definition = "a child of one's parent's sibling, who is older than oneself (a cousin)"
@@ -328,7 +331,7 @@ comment = ""
 ["Yn;Pa;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger cousin"
 definition = "a child of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -338,7 +341,7 @@ comment = ""
 
 ["El;Pa;Sb;So"]
 lemmas = ["従兄", "従兄妹"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder male cousin"
 definition = "a son of one's parent's sibling, who is older than oneself (a cousin)"
@@ -350,7 +353,7 @@ comment = ""
 
 ["El;Pa;Sb;Da"]
 lemmas = ["従姉", "従姉弟"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder female cousin"
 definition = "a daughter of one's parent's sibling, who is older than oneself (a cousin)"
@@ -362,7 +365,7 @@ comment = ""
 
 ["Yn;Pa;Sb;So"]
 lemmas = ["従姉弟", "従弟"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger male cousin"
 definition = "a son of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -374,7 +377,7 @@ comment = ""
 
 ["Yn;Pa;Sb;Da"]
 lemmas = ["従兄妹", "従妹"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger female cousin"
 definition = "a daughter of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -387,7 +390,7 @@ comment = ""
 ["Fa;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "child of father's sibling"
 definition = "a child of one's father's sibling (a cousin)"
@@ -398,7 +401,7 @@ comment = ""
 ["Mo;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "child of mother's sibling"
 definition = "a child of one's mother's sibling (a cousin)"
@@ -409,7 +412,7 @@ comment = ""
 ["Pa;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "child of parent's brother"
 definition = "a child of one's parent's brother (a cousin)"
@@ -420,7 +423,7 @@ comment = ""
 ["Pa;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "child of parent's sister"
 definition = "a child of one's parent's sister (a cousin)"
@@ -431,7 +434,7 @@ comment = ""
 ["El;Mo;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of mother's sibling"
 definition = "a son of one's mother's sibling, who is older than oneself (a cousin)"
@@ -442,7 +445,7 @@ comment = ""
 ["Yn;Mo;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of mother's sibling"
 definition = "a son of one's mother's sibling, who is younger than oneself (a cousin)"
@@ -453,7 +456,7 @@ comment = ""
 ["El;Mo;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling, who is older than oneself (a cousin)"
@@ -464,7 +467,7 @@ comment = ""
 ["Yn;Mo;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling, who is younger than oneself (a cousin)"
@@ -473,136 +476,172 @@ ancestors = ["Mo;Sb;Da", "Yn;Pa;Sb;Da", "Mo;Sb;Ch", "Pa;Sb;Da", "Yn;Pa;Sb;Ch", "
 comment = ""
 
 ["Rel"]
-lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+lemmas = ["族戚", "族親", "眷属", "眷族", "縁戚", "縁故", "縁者", "縁辺", "縁類", "肉縁", "血族", "親", "親せき", "親戚", "親族", "親眷", "親類", "親類筋", "身より", "身寄", "身寄り", "類縁"]
+english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
 existing_by_ili = ["omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人"]
+existing_by_lemma = ["族戚 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "族親 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "眷属 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "眷族 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "縁戚 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "縁故 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "縁者 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "縁辺 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "縁類 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "肉縁 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "血族 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "血族 -> omw-ja omw-ja-10236114-n [i90857] 血族: 血液または起源による関係がある1つ", "親 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親 -> omw-ja omw-ja-10399491-n [i91858] ペアレント, 親, 親じゃ人, 親者人: 父親か母親", "親せき -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親戚 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親戚 -> omw-ja omw-ja-10236304-n [i90858] 一族, 一門, 家族, 親戚, 親族, 親類, ...: 互いに親族関係を持つ人", "親戚 -> omw-ja omw-ja-10236946-n [i90862] 親戚, 親類: 男性の親類", "親族 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親族 -> omw-ja omw-ja-10236304-n [i90858] 一族, 一門, 家族, 親戚, 親族, 親類, ...: 互いに親族関係を持つ人", "親眷 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親類 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親類 -> omw-ja omw-ja-10236304-n [i90858] 一族, 一門, 家族, 親戚, 親族, 親類, ...: 互いに親族関係を持つ人", "親類 -> omw-ja omw-ja-10236946-n [i90862] 親戚, 親類: 男性の親類", "親類筋 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "身より -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "身寄 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "身寄り -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "身寄り -> omw-ja omw-ja-10236304-n [i90858] 一族, 一門, 家族, 親戚, 親族, 親類, ...: 互いに親族関係を持つ人", "類縁 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人"]
+existing_hidden = 30  # other senses of these lemmas
 hypernyms = []
 ancestors = []
+sources = ["族戚 <- omw-ja", "族親 <- omw-ja", "眷属 <- omw-ja", "眷族 <- omw-ja", "縁戚 <- omw-ja", "縁故 <- omw-ja", "縁者 <- omw-ja", "縁辺 <- omw-ja", "縁類 <- omw-ja", "肉縁 <- omw-ja", "血族 <- omw-ja", "親 <- omw-ja", "親せき <- omw-ja", "親戚 <- omw-ja", "親族 <- omw-ja", "親眷 <- omw-ja", "親類 <- omw-ja", "親類筋 <- omw-ja", "身より <- omw-ja", "身寄 <- omw-ja", "身寄り <- omw-ja", "類縁 <- omw-ja"]
 comment = ""
 
 ["Unc"]
-lemmas = ["おじさん"]
+lemmas = ["おじ", "おじさん", "伯父", "伯父さん", "伯父上", "伯父君", "伯父貴", "伯父･叔父", "叔父", "叔父さん", "叔父上", "叔父君", "弟小父", "従父"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 existing_by_ili = ["omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟"]
-existing_by_lemma = ["おじさん -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "おじさん -> tufs-ja tufs-ja-16190-n [-] おじさん: (someone else's) uncle"]
+existing_by_lemma = ["おじ -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "おじさん -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "おじさん -> tufs-ja tufs-ja-16190-n [-] おじさん: (someone else's) uncle", "伯父 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "伯父さん -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "伯父上 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "伯父君 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "伯父貴 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "伯父･叔父 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "叔父 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "叔父さん -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "叔父上 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "叔父君 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "弟小父 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟", "従父 -> omw-ja omw-ja-10736091-n [i93825] おじさん, おじ, 伯父さん, 伯父, 伯父上, 伯父･叔父, ...: あなたの父または母の兄弟"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["おじさん <- TUFS"]
+sources = ["おじ <- omw-ja", "おじさん <- TUFS, omw-ja", "伯父 <- omw-ja", "伯父さん <- omw-ja", "伯父上 <- omw-ja", "伯父君 <- omw-ja", "伯父貴 <- omw-ja", "伯父･叔父 <- omw-ja", "叔父 <- omw-ja", "叔父さん <- omw-ja", "叔父上 <- omw-ja", "叔父君 <- omw-ja", "弟小父 <- omw-ja", "従父 <- omw-ja"]
 comment = ""
 
 ["Aun"]
-lemmas = ["おばさん"]
-english = ["aunt"]
+lemmas = ["おばさん", "伯母", "伯母さま", "伯母さん", "伯母御", "叔母", "叔母さま", "叔母さん", "叔母御", "叔母様"]
+english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 existing_by_ili = ["omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹"]
-existing_by_lemma = ["おばさん -> tufs-ja tufs-ja-16192-n [-] おばさん: (someone else's) aunt"]
+existing_by_lemma = ["おばさん -> tufs-ja tufs-ja-16192-n [-] おばさん: (someone else's) aunt", "伯母 -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "伯母さま -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "伯母さん -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "伯母御 -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "叔母 -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "叔母さま -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "叔母さん -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "叔母御 -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹", "叔母様 -> omw-ja omw-ja-09823502-n [i88357] 伯母さま, 伯母さん, 伯母, 伯母御, 叔母さま, 叔母さん, ...: 父や母の姉妹"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["おばさん <- TUFS"]
+sources = ["おばさん <- TUFS", "伯母 <- omw-ja", "伯母さま <- omw-ja", "伯母さん <- omw-ja", "伯母御 <- omw-ja", "叔母 <- omw-ja", "叔母さま <- omw-ja", "叔母さん <- omw-ja", "叔母御 <- omw-ja", "叔母様 <- omw-ja"]
 comment = ""
 
 ["Pa"]
-lemmas = ["両親"]
-pronunciations = ["両親: ryōshin (romanization)"]
+lemmas = ["ryōshin", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
+transcribed = ["ryōshin"]  # romanized in the source; no word in the native script here
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["omw-ja omw-ja-10399491-n [i91858] ペアレント, 親, 親じゃ人, 親者人: 父親か母親", "tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["両親 -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_by_lemma = ["ペアレント -> omw-ja omw-ja-10399491-n [i91858] ペアレント, 親, 親じゃ人, 親者人: 父親か母親", "両親 -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "親 -> omw-ja omw-ja-10235549-n [i90856] 族戚, 族親, 眷属, 眷族, 縁戚, 縁故, ...: 血縁や婚姻による関係のある人", "親 -> omw-ja omw-ja-10399491-n [i91858] ペアレント, 親, 親じゃ人, 親者人: 父親か母親", "親じゃ人 -> omw-ja omw-ja-10399491-n [i91858] ペアレント, 親, 親じゃ人, 親者人: 父親か母親", "親者人 -> omw-ja omw-ja-10399491-n [i91858] ペアレント, 親, 親じゃ人, 親者人: 父親か母親"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["両親 <- TUFS"]
+sources = ["ryōshin <- Kinbank", "ペアレント <- omw-ja", "両親 <- TUFS", "親 <- omw-ja", "親じゃ人 <- omw-ja", "親者人 <- omw-ja"]
 comment = ""
 
 ["Fa"]
-lemmas = ["お父さん", "父"]
-english = ["dad", "father"]
+lemmas = ["おとっつあん", "おやじ様", "お父さま", "お父さん", "お父っさん", "お父っつぁん", "お父様", "てて親", "ファーザー", "乃父", "厳親", "垂乳根", "実父", "師父", "御父さん", "御父っさん", "御父っつぁん", "御父様", "椿堂", "父", "父さん", "父っつぁん", "父上", "父君", "父御", "父様", "父親", "男親", "親父", "親父さま"]
+english = ["begetter", "dad", "father", "male parent"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)"]
-existing_by_lemma = ["お父さん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "お父さん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "父 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父 -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)"]
-existing_hidden = 4  # other senses of these lemmas
+existing_by_lemma = ["おとっつあん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "おやじ様 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "お父さま -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "お父さん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "お父さん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "お父っさん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "お父っつぁん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "お父様 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "てて親 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "ファーザー -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "乃父 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "厳親 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "実父 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "師父 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "御父さん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "御父っさん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "御父っつぁん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "御父様 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "椿堂 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父 -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "父さん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父っつぁん -> omw-ja omw-ja-09988063-n [i89370] ちゃん, パパ, お父ちゃん, 父っつぁん, 父ちゃん: 父親を指す略式語", "父っつぁん -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父上 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父君 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父御 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父様 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "父親 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "男親 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "親父 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "親父さま -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）"]
+existing_hidden = 7  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["お父さん <- TUFS", "父 <- TUFS"]
+sources = ["おとっつあん <- omw-ja", "おやじ様 <- omw-ja", "お父さま <- omw-ja", "お父さん <- TUFS, omw-ja", "お父っさん <- omw-ja", "お父っつぁん <- omw-ja", "お父様 <- omw-ja", "てて親 <- omw-ja", "ファーザー <- omw-ja", "乃父 <- omw-ja", "厳親 <- omw-ja", "垂乳根 <- omw-ja", "実父 <- omw-ja", "師父 <- omw-ja", "御父さん <- omw-ja", "御父っさん <- omw-ja", "御父っつぁん <- omw-ja", "御父様 <- omw-ja", "椿堂 <- omw-ja", "父 <- TUFS, omw-ja", "父さん <- omw-ja", "父っつぁん <- omw-ja", "父上 <- omw-ja", "父君 <- omw-ja", "父御 <- omw-ja", "父様 <- omw-ja", "父親 <- omw-ja", "男親 <- omw-ja", "親父 <- omw-ja", "親父さま <- omw-ja"]
 comment = ""
 
 ["Mo"]
-lemmas = ["お母さん", "母"]
-english = ["mom", "mother"]
+lemmas = ["おっ母", "お母さま", "お母さん", "お母様", "お袋", "かあ様", "マザー", "ムッター", "垂乳女", "垂乳根", "女親", "実母", "御母さん", "御母様", "慈母", "母", "母さん", "母じゃ人", "母ちゃん", "母上", "母君", "母御", "母様", "母者人", "母親"]
+english = ["female parent", "mom", "mother"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["お母さん -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "お母さん -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お母さん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母 -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "母 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["おっ母 -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "おっ母 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おっ母 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "お母さま -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お母さん -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "お母さん -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お母さん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "お母様 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お袋 -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "お袋 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "かあ様 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "マザー -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "ムッター -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "垂乳女 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "垂乳根 -> omw-ja omw-ja-10080869-n [i89901] おとっつあん, ファーザー, 乃父, 厳親, 垂乳根, 実父, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "女親 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "実母 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御母さん -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御母様 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "慈母 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "母 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母さん -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "母さん -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母じゃ人 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母ちゃん -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "母ちゃん -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母上 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母君 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母御 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母様 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母者人 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母親 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）"]
 existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["お母さん <- TUFS", "母 <- TUFS"]
+sources = ["おっ母 <- omw-ja", "お母さま <- omw-ja", "お母さん <- TUFS, omw-ja", "お母様 <- omw-ja", "お袋 <- omw-ja", "かあ様 <- omw-ja", "マザー <- omw-ja", "ムッター <- omw-ja", "垂乳女 <- omw-ja", "垂乳根 <- omw-ja", "女親 <- omw-ja", "実母 <- omw-ja", "御母さん <- omw-ja", "御母様 <- omw-ja", "慈母 <- omw-ja", "母 <- TUFS, omw-ja", "母さん <- omw-ja", "母じゃ人 <- omw-ja", "母ちゃん <- omw-ja", "母上 <- omw-ja", "母君 <- omw-ja", "母御 <- omw-ja", "母様 <- omw-ja", "母者人 <- omw-ja", "母親 <- omw-ja"]
 comment = ""
 
 ["Ch"]
-lemmas = ["kodomo"]
-transcribed = ["kodomo"]  # romanized in the source; no word in the native script here
-english = ["child"]
+lemmas = ["お子さん", "お子様", "子", "子ども", "子供", "子女", "子弟", "子種", "愛児"]
+pronunciations = ["子ども: kodomo (romanization)"]
+english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 existing_by_ili = ["omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "tufs-ja tufs-ja-09918248-n [i88965] 子ども: (CILI) a human offspring (son or daughter) of any age"]
+existing_by_lemma = ["お子さん -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "お子様 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子 -> omw-ja omw-ja-10756061-n [i93953] 子: 子爵の妻、あるいは未亡人", "子ども -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子ども -> tufs-ja tufs-ja-09918248-n [i88965] 子ども: (CILI) a human offspring (son or daughter) of any age", "子供 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子供 -> omw-ja omw-ja-09918762-n [i88967] 子供: 氏族や部族の一員", "子女 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子弟 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子種 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "愛児 -> omw-ja omw-ja-09918248-n [i88965] お子さん, 子ども, 子, 子供, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）"]
+existing_hidden = 12  # other senses of these lemmas
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["kodomo <- Kinbank"]
+sources = ["お子さん <- omw-ja", "お子様 <- omw-ja", "子 <- omw-ja", "子ども <- Kinbank, omw-ja", "子供 <- omw-ja", "子女 <- omw-ja", "子弟 <- omw-ja", "子種 <- omw-ja", "愛児 <- omw-ja"]
+comment = ""
+
+["So"]
+lemmas = ["お坊ちゃん", "お坊っちゃん", "ご令息", "ジュニア", "令息", "伜", "倅", "和郎", "坊", "坊さん", "坊ち", "坊ちゃん", "坊っちゃん", "坊や", "坊主", "坊様", "子息", "小僧", "小僮", "少童", "御令息", "御坊っちゃん", "息", "息子", "息子さん", "息男", "悴", "愚息", "男の児", "男の子", "男児", "男子", "童男"]
+english = ["boy", "son"]
+label = "son"
+definition = "a son of a person (a child)"
+existing_by_ili = ["omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子"]
+existing_by_lemma = ["お坊ちゃん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "お坊っちゃん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "ご令息 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "ジュニア -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "令息 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "伜 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "倅 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "和郎 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊さん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊ち -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊ちゃん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊っちゃん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊や -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊主 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "坊様 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "子息 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "小僧 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "小僮 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "少童 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "御令息 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "御坊っちゃん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "息 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "息子 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "息子さん -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "息男 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "悴 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "愚息 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "男の児 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "男の子 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "男児 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "男子 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子", "童男 -> omw-ja omw-ja-10624074-n [i93143] ジュニア, ご令息, 令息, 伜, 倅, 和郎, ...: 人間の男の子"]
+existing_hidden = 34  # other senses of these lemmas
+hypernyms = ["Br;So|So", "Ch"]
+ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
+sources = ["お坊ちゃん <- omw-ja", "お坊っちゃん <- omw-ja", "ご令息 <- omw-ja", "ジュニア <- omw-ja", "令息 <- omw-ja", "伜 <- omw-ja", "倅 <- omw-ja", "和郎 <- omw-ja", "坊 <- omw-ja", "坊さん <- omw-ja", "坊ち <- omw-ja", "坊ちゃん <- omw-ja", "坊っちゃん <- omw-ja", "坊や <- omw-ja", "坊主 <- omw-ja", "坊様 <- omw-ja", "子息 <- omw-ja", "小僧 <- omw-ja", "小僮 <- omw-ja", "少童 <- omw-ja", "御令息 <- omw-ja", "御坊っちゃん <- omw-ja", "息 <- omw-ja", "息子 <- omw-ja", "息子さん <- omw-ja", "息男 <- omw-ja", "悴 <- omw-ja", "愚息 <- omw-ja", "男の児 <- omw-ja", "男の子 <- omw-ja", "男児 <- omw-ja", "男子 <- omw-ja", "童男 <- omw-ja"]
+comment = ""
+
+["Da"]
+lemmas = ["お嬢さん", "ご令嬢", "令嬢", "娘", "娘さん", "娘子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
+english = ["daughter", "girl"]
+label = "daughter"
+definition = "a daughter of a person (a child)"
+existing_by_ili = ["omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供"]
+existing_by_lemma = ["お嬢さん -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "ご令嬢 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "令嬢 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "娘 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "娘さん -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "娘子 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "御令嬢 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "御嬢さん -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "息女 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供", "愛嬢 -> omw-ja omw-ja-09992837-n [i89398] ご令嬢, 令嬢, 娘さん, 娘, 娘子, お嬢さん, ...: 女性の子供"]
+existing_hidden = 12  # other senses of these lemmas
+hypernyms = ["Br;Da|Da", "Ch"]
+ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
+sources = ["お嬢さん <- omw-ja", "ご令嬢 <- omw-ja", "令嬢 <- omw-ja", "娘 <- omw-ja", "娘さん <- omw-ja", "娘子 <- omw-ja", "御令嬢 <- omw-ja", "御嬢さん <- omw-ja", "息女 <- omw-ja", "愛嬢 <- omw-ja"]
 comment = ""
 
 ["Sp"]
-lemmas = ["haigūsha"]
+lemmas = ["haigūsha", "パートナー", "ベターハーフ", "伴侶", "配偶者"]
 transcribed = ["haigūsha"]  # romanized in the source; no word in the native script here
-english = ["spouse"]
+english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["omw-ja omw-ja-10640620-n [i93233] ベターハーフ, パートナー, 伴侶, 配偶者: 結婚における人のパートナー"]
+existing_by_lemma = ["パートナー -> omw-ja omw-ja-10640620-n [i93233] ベターハーフ, パートナー, 伴侶, 配偶者: 結婚における人のパートナー", "ベターハーフ -> omw-ja omw-ja-10640620-n [i93233] ベターハーフ, パートナー, 伴侶, 配偶者: 結婚における人のパートナー", "伴侶 -> omw-ja omw-ja-10640620-n [i93233] ベターハーフ, パートナー, 伴侶, 配偶者: 結婚における人のパートナー", "配偶者 -> omw-ja omw-ja-10640620-n [i93233] ベターハーフ, パートナー, 伴侶, 配偶者: 結婚における人のパートナー"]
+existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["haigūsha <- Kinbank"]
+sources = ["haigūsha <- Kinbank", "パートナー <- omw-ja", "ベターハーフ <- omw-ja", "伴侶 <- omw-ja", "配偶者 <- omw-ja"]
 comment = ""
 
 ["Hu"]
-lemmas = ["ご主人"]
-english = ["husband"]
+lemmas = ["ご主人", "ご亭主", "ハズ", "ハズバンド", "主人", "亭主", "入夫", "夫", "夫の君", "女房持ち", "妻帯者", "宅", "宿六", "御亭主", "既婚男性", "旦つく", "旦那", "檀那", "背子", "良人"]
+english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
 existing_by_ili = ["omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性"]
-existing_by_lemma = ["ご主人 -> tufs-ja tufs-ja-16351-n [-] ご主人: (someone else's) hasband"]
+existing_by_lemma = ["ご主人 -> tufs-ja tufs-ja-16351-n [-] ご主人: (someone else's) hasband", "ご亭主 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "ハズ -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "ハズバンド -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "主人 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "亭主 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "入夫 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "夫 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "夫の君 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "女房持ち -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "妻帯者 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "宅 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "宿六 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "御亭主 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "既婚男性 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "旦つく -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "旦那 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "檀那 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "背子 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性", "良人 -> omw-ja omw-ja-10193967-n [i90626] ハズバンド, ハズ, 主人, ご亭主, 亭主, 入夫, ...: 結婚した男性"]
+existing_hidden = 13  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["ご主人 <- TUFS"]
+sources = ["ご主人 <- TUFS", "ご亭主 <- omw-ja", "ハズ <- omw-ja", "ハズバンド <- omw-ja", "主人 <- omw-ja", "亭主 <- omw-ja", "入夫 <- omw-ja", "夫 <- omw-ja", "夫の君 <- omw-ja", "女房持ち <- omw-ja", "妻帯者 <- omw-ja", "宅 <- omw-ja", "宿六 <- omw-ja", "御亭主 <- omw-ja", "既婚男性 <- omw-ja", "旦つく <- omw-ja", "旦那 <- omw-ja", "檀那 <- omw-ja", "背子 <- omw-ja", "良人 <- omw-ja"]
 comment = ""
 
 ["Wi"]
-lemmas = ["奥さん"]
-english = ["wife"]
+lemmas = ["おかみさん", "おっ母", "お上", "お上さん", "お方", "ご内儀", "ご内室", "ご新造", "フラウ", "ミセス", "ワイフ", "上さん", "上様", "亭主もち", "亭主持", "亭主持ち", "人妻", "令夫人", "令室", "令閨", "刀自", "嚊", "嚊左衛門", "夫人", "奥さん", "奥様", "女", "女君", "女性", "女房", "妻", "妻女", "妻室", "婦人", "嫁", "嫁さん", "嫁はん", "嬢子", "嬶", "室", "室家", "家内", "家妻", "家桜", "御っ母", "御上", "御上さん", "御内", "御内儀", "御内室", "愚妻", "細君", "裏方"]
+english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage"]
-existing_by_lemma = ["奥さん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "奥さん -> tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage"]
+existing_by_lemma = ["おかみさん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "おっ母 -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "おっ母 -> omw-ja omw-ja-10332385-n [i91462] ムッター, マザー, 垂乳女, 垂乳根, 女親, 実母, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おっ母 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "お上 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "お上さん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "お方 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "ご内儀 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "ご内室 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "ご新造 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "フラウ -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "ミセス -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "ワイフ -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "上さん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "上様 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "亭主もち -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "亭主持 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "亭主持ち -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "人妻 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "令夫人 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "令室 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "令閨 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "刀自 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嚊 -> omw-ja omw-ja-10323529-n [i91403] 嚊: 他人の妻に対する格式張らない言葉", "嚊 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嚊左衛門 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "夫人 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "奥さん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "奥さん -> tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage", "奥様 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "女 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "女君 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "女性 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "女房 -> omw-ja omw-ja-10375314-n [i91723] 女房: あなた自身の妻", "女房 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "妻 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "妻女 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "妻室 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "婦人 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嫁 -> omw-ja omw-ja-09874618-n [i88696] お嫁さん, 嫁, 嫁御, 嫁御前, 嫁御寮, 新妻, ...: 結婚したばかりの女性", "嫁 -> omw-ja omw-ja-09993040-n [i89399] 嫁: あなたの息子の妻", "嫁 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嫁さん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嫁はん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嬢子 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "嬶 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "室 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "室家 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "家内 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "家妻 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "家桜 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "御っ母 -> omw-ja omw-ja-10278128-n [i91123] マミー, ママ, 御っ母さん, 御っ母, 御母, おっ母さん, ...: 母を表す砕けた言葉", "御っ母 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "御上 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "御上さん -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "御内 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "御内儀 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "御内室 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "愚妻 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "細君 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性", "裏方 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性"]
+existing_hidden = 35  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["奥さん <- TUFS"]
+sources = ["おかみさん <- omw-ja", "おっ母 <- omw-ja", "お上 <- omw-ja", "お上さん <- omw-ja", "お方 <- omw-ja", "ご内儀 <- omw-ja", "ご内室 <- omw-ja", "ご新造 <- omw-ja", "フラウ <- omw-ja", "ミセス <- omw-ja", "ワイフ <- omw-ja", "上さん <- omw-ja", "上様 <- omw-ja", "亭主もち <- omw-ja", "亭主持 <- omw-ja", "亭主持ち <- omw-ja", "人妻 <- omw-ja", "令夫人 <- omw-ja", "令室 <- omw-ja", "令閨 <- omw-ja", "刀自 <- omw-ja", "嚊 <- omw-ja", "嚊左衛門 <- omw-ja", "夫人 <- omw-ja", "奥さん <- TUFS, omw-ja", "奥様 <- omw-ja", "女 <- omw-ja", "女君 <- omw-ja", "女性 <- omw-ja", "女房 <- omw-ja", "妻 <- omw-ja", "妻女 <- omw-ja", "妻室 <- omw-ja", "婦人 <- omw-ja", "嫁 <- omw-ja", "嫁さん <- omw-ja", "嫁はん <- omw-ja", "嬢子 <- omw-ja", "嬶 <- omw-ja", "室 <- omw-ja", "室家 <- omw-ja", "家内 <- omw-ja", "家妻 <- omw-ja", "家桜 <- omw-ja", "御っ母 <- omw-ja", "御上 <- omw-ja", "御上さん <- omw-ja", "御内 <- omw-ja", "御内儀 <- omw-ja", "御内室 <- omw-ja", "愚妻 <- omw-ja", "細君 <- omw-ja", "裏方 <- omw-ja"]
 comment = ""
 
 ["InL"]
-lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["in-law"]
+lemmas = ["姻戚"]
+english = ["in-law", "relative-in-law"]
 label = "in-law"
 definition = "a relative by marriage"
 existing_by_ili = ["omw-ja omw-ja-10207169-n [i90702] 姻戚: 婚姻による親戚"]
+existing_by_lemma = ["姻戚 -> omw-ja omw-ja-10207169-n [i90702] 姻戚: 婚姻による親戚"]
+existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["姻戚 <- omw-ja"]
 comment = ""
 
 ["Sp;Pa"]
@@ -616,33 +655,107 @@ ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Sp;Fa"]
-lemmas = ["girinochichi"]
+lemmas = ["girinochichi", "岳父", "義父", "舅"]
 transcribed = ["girinochichi"]  # romanized in the source; no word in the native script here
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
 existing_by_ili = ["omw-ja omw-ja-10082043-n [i89906] 岳父, 義父, 舅: 配偶者の父親"]
+existing_by_lemma = ["岳父 -> omw-ja omw-ja-10082043-n [i89906] 岳父, 義父, 舅: 配偶者の父親", "義父 -> omw-ja omw-ja-10082043-n [i89906] 岳父, 義父, 舅: 配偶者の父親", "義父 -> omw-ja omw-ja-10654701-n [i93310] 義父: 母の再婚による夫", "舅 -> omw-ja omw-ja-10082043-n [i89906] 岳父, 義父, 舅: 配偶者の父親"]
+existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["girinochichi <- Kinbank"]
+sources = ["girinochichi <- Kinbank", "岳父 <- omw-ja", "義父 <- omw-ja", "舅 <- omw-ja"]
 comment = ""
 
 ["Sp;Mo"]
-lemmas = ["girinohaha"]
+lemmas = ["girinohaha", "姑", "義母"]
 transcribed = ["girinohaha"]  # romanized in the source; no word in the native script here
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
 existing_by_ili = ["omw-ja omw-ja-10333317-n [i91467] 姑, 義母: 配偶者の母親"]
+existing_by_lemma = ["姑 -> omw-ja omw-ja-10333317-n [i91467] 姑, 義母: 配偶者の母親", "義母 -> omw-ja omw-ja-10333317-n [i91467] 姑, 義母: 配偶者の母親", "義母 -> omw-ja omw-ja-10654827-n [i93311] ステップマザー, まま母, 継母, 義母: 父の再婚による妻"]
+existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["girinohaha <- Kinbank"]
+sources = ["girinohaha <- Kinbank", "姑 <- omw-ja", "義母 <- omw-ja"]
+comment = ""
+
+["Ch;Sp"]
+lemmas = []
+status = "unlexicalized: no ja word; included for the hierarchy"
+english = ["child-in-law"]
+label = "child-in-law"
+definition = "a spouse of one's child (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Da;Hu"]
+lemmas = ["婿"]
+english = ["son-in-law"]
+label = "son-in-law"
+definition = "the husband of one's daughter (an in-law)"
+existing_by_ili = ["omw-ja omw-ja-10624915-n [i93147] 婿: 娘の夫"]
+existing_by_lemma = ["婿 -> omw-ja omw-ja-10147935-n [i90331] 別当, 婿, 新郎, 花婿: 最近結婚した男性", "婿 -> omw-ja omw-ja-10624915-n [i93147] 婿: 娘の夫"]
+existing_hidden = 1  # other senses of these lemmas
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["婿 <- omw-ja"]
+comment = ""
+
+["So;Wi"]
+lemmas = ["嫁"]
+english = ["daughter-in-law"]
+label = "daughter-in-law"
+definition = "the wife of one's son (an in-law)"
+existing_by_ili = ["omw-ja omw-ja-09993040-n [i89399] 嫁: あなたの息子の妻"]
+existing_by_lemma = ["嫁 -> omw-ja omw-ja-09874618-n [i88696] お嫁さん, 嫁, 嫁御, 嫁御前, 嫁御寮, 新妻, ...: 結婚したばかりの女性", "嫁 -> omw-ja omw-ja-09993040-n [i89399] 嫁: あなたの息子の妻", "嫁 -> omw-ja omw-ja-10780632-n [i94123] おかみさん, フラウ, ミセス, ワイフ, お上さん, お上, ...: 結婚している女性"]
+existing_hidden = 1  # other senses of these lemmas
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["嫁 <- omw-ja"]
+comment = ""
+
+["BrL"]
+lemmas = ["義兄"]
+english = ["brother-in-law"]
+label = "brother-in-law"
+definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
+existing_by_ili = ["omw-ja omw-ja-09877288-n [i88712] 義兄: 姻戚関係による兄弟"]
+existing_by_lemma = ["義兄 -> omw-ja omw-ja-09877288-n [i88712] 義兄: 姻戚関係による兄弟"]
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+sources = ["義兄 <- omw-ja"]
+comment = ""
+
+["SsL"]
+lemmas = []
+status = "unlexicalized: no ja word; included for the hierarchy"
+english = ["sister-in-law"]
+label = "sister-in-law (by marriage)"
+definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Sp;Ss"]
+lemmas = ["お義姉さん", "お義姉様", "姉姑", "小姑", "御義姉さん", "御義姉様", "義妹", "義姉", "義姉さん", "義姉様"]
+english = ["sister-in-law"]
+label = "spouse's sister"
+definition = "a sister of one's spouse (an in-law)"
+existing_by_ili = ["omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹"]
+existing_by_lemma = ["お義姉さん -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "お義姉様 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "姉姑 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "小姑 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "御義姉さん -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "御義姉様 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "義妹 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "義姉 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "義姉さん -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹", "義姉様 -> omw-ja omw-ja-10603766-n [i93022] 姉姑, 小姑, 御義姉さん, 御義姉様, 義妹, お義姉さん, ...: 自分の配偶者の姉妹"]
+hypernyms = ["Sp;Sb", "SsL"]
+ancestors = ["Sp;Sb", "SsL", "InL", "Rel"]
+sources = ["お義姉さん <- omw-ja", "お義姉様 <- omw-ja", "姉姑 <- omw-ja", "小姑 <- omw-ja", "御義姉さん <- omw-ja", "御義姉様 <- omw-ja", "義妹 <- omw-ja", "義姉 <- omw-ja", "義姉さん <- omw-ja", "義姉様 <- omw-ja"]
 comment = ""
 
 ["o;Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling (female anchor)"
 definition = "a son of a woman's father's sibling (a cousin)"
@@ -653,7 +766,7 @@ comment = ""
 ["x;Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling (male anchor)"
 definition = "a daughter of a man's father's sibling (a cousin)"
@@ -664,7 +777,7 @@ comment = ""
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father or father's brother"
 definition = "the father of a person or a brother of one's father"
@@ -675,7 +788,7 @@ comment = ""
 ["Mo|Mo;Ss"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or mother's sister"
 definition = "the mother of a person or a sister of one's mother"
@@ -686,7 +799,7 @@ comment = ""
 ["Fa;Ss;Ch|Mo;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's child or mother's brother's child"
 definition = "a child of one's father's sister or a child of one's mother's brother"
@@ -697,7 +810,7 @@ comment = ""
 ["Ch;Ch|Pa;Pa"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or parent's parent"
 definition = "a child of one's child or a parent of one's parent"
@@ -708,7 +821,7 @@ comment = ""
 ["Mo|Pa;Ss"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or parent's sister"
 definition = "the mother of a person or a sister of one's parent"
@@ -719,7 +832,7 @@ comment = ""
 ["Fa;Ss;So|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
@@ -730,7 +843,7 @@ comment = ""
 ["Pa;Sb;Ch|Sb"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's child or sibling"
 definition = "a child of one's parent's sibling or a sibling of a person"
@@ -741,7 +854,7 @@ comment = ""
 ["Br;So|So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's son or son"
 definition = "a son of one's brother or a son of a person"
@@ -752,7 +865,7 @@ comment = ""
 ["Fa;Ss;Da|Mo;Br;Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's daughter or mother's brother's daughter"
 definition = "a daughter of one's father's sister or a daughter of one's mother's brother"
@@ -763,7 +876,7 @@ comment = ""
 ["o;Br|x;Ss"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's brother or man's sister"
 definition = "a brother of a woman or a sister of a man"
@@ -774,7 +887,7 @@ comment = ""
 ["Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child or sibling's child"
 definition = "a child of a person or a child of one's sibling"
@@ -785,7 +898,7 @@ comment = ""
 ["Mo;Br|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or mother's brother's son"
 definition = "a brother of one's mother or a son of one's mother's brother"
@@ -796,7 +909,7 @@ comment = ""
 ["Br;Da|Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's daughter or daughter"
 definition = "a daughter of one's brother or a daughter of a person"
@@ -807,7 +920,7 @@ comment = ""
 ["El;Br|El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "elder brother or parent's sibling's son (older than self)"
 definition = "an elder brother of a person or a son of one's parent's sibling, who is older than oneself"
@@ -829,7 +942,7 @@ comment = ""
 ["Mo;Br|Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or sister's child"
 definition = "a brother of one's mother or a child of one's sister"
@@ -840,7 +953,7 @@ comment = ""
 ["o;Yn;Ss|x;Yn;Br"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's younger sister or man's younger brother"
 definition = "a younger sister of a woman or a younger brother of a man"
@@ -851,7 +964,7 @@ comment = ""
 ["Ch;So|Pa;Fa"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's son or parent's father"
 definition = "a son of one's child or the father of one's parent"
@@ -862,7 +975,7 @@ comment = ""
 ["o;Br|o;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's brother or woman's parent's sibling's son"
 definition = "a brother of a woman or a son of a woman's parent's sibling"
@@ -873,7 +986,7 @@ comment = ""
 ["x;Pa;Sb;Da|x;Ss"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's parent's sibling's daughter or man's sister"
 definition = "a daughter of a man's parent's sibling or a sister of a man"
@@ -884,7 +997,7 @@ comment = ""
 ["Sb;So|So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "sibling's son or son"
 definition = "a son of one's sibling or a son of a person"
@@ -895,7 +1008,7 @@ comment = ""
 ["Ch;Da|Pa;Mo"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's daughter or parent's mother"
 definition = "a daughter of one's child or the mother of one's parent"
@@ -906,7 +1019,7 @@ comment = ""
 ["Mo;Br|x;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or man's sister's child"
 definition = "a brother of one's mother or a child of a man's sister"
@@ -917,7 +1030,7 @@ comment = ""
 ["Fa;Fa|x;So;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's father or man's son's child"
 definition = "the father of one's father or a child of a man's son"
@@ -928,7 +1041,7 @@ comment = ""
 ["o;El;Ss|x;El;Br"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's elder sister or man's elder brother"
 definition = "an elder sister of a woman or an elder brother of a man"
@@ -939,7 +1052,7 @@ comment = ""
 ["Da|Sb;Da"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "daughter or sibling's daughter"
 definition = "a daughter of a person or a daughter of one's sibling"
@@ -950,7 +1063,7 @@ comment = ""
 ["Br;Ch|Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's child or child"
 definition = "a child of one's brother or a child of a person"
@@ -961,7 +1074,7 @@ comment = ""
 ["Mo;Fa|x;Da;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's father or man's daughter's child"
 definition = "the father of one's mother or a child of a man's daughter"
@@ -972,7 +1085,7 @@ comment = ""
 ["Fa;Mo|o;So;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's mother or woman's son's child"
 definition = "the mother of one's father or a child of a woman's son"
@@ -983,7 +1096,7 @@ comment = ""
 ["o;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sister's child"
 definition = "a child of a woman's sister (a nephew or niece)"
@@ -994,7 +1107,7 @@ comment = ""
 ["Br|Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother or parent's sibling's son"
 definition = "a brother of a person or a son of one's parent's sibling"
@@ -1005,7 +1118,7 @@ comment = ""
 ["Pa;Sb;Da|Ss"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's daughter or sister"
 definition = "a daughter of one's parent's sibling or a sister of a person"
@@ -1016,7 +1129,7 @@ comment = ""
 ["Ch;Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
@@ -1027,7 +1140,7 @@ comment = ""
 ["x;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's brother's child"
 definition = "a child of a man's brother (a nephew or niece)"
@@ -1035,10 +1148,21 @@ hypernyms = ["Br;Ch"]
 ancestors = ["Br;Ch", "Br;Ch|Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
+["Sp;Sb"]
+lemmas = []
+status = "unlexicalized: no ja word; included for the hierarchy"
+english = ["in-law", "relative-in-law"]
+english_via = "InL"
+label = "spouse's sibling"
+definition = "a sibling of one's spouse (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
 ["o;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"

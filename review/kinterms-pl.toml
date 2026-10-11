@@ -19,7 +19,7 @@ comment = ""
 
 ["Gr;Fa"]
 lemmas = ["dziadek", "dziadziuś"]
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
 existing_by_ili = ["omw-pl omw-pl-10142391-n [i90287] dziadek: (CILI) the father of your father or mother"]
@@ -27,25 +27,26 @@ existing_by_lemma = ["dziadek -> omw-pl omw-pl-10142391-n [i90287] dziadek: (CIL
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
 ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["dziadek <- Wiktionary", "dziadziuś <- Wiktionary"]
+sources = ["dziadek <- Wiktionary, omw-pl", "dziadziuś <- Wiktionary"]
 comment = ""
 
 ["Gr;Mo"]
-lemmas = ["babcia", "babka", "babunia"]
-english = ["grandma", "grandmother", "granny"]
+lemmas = ["babcia", "babka", "babula", "babulinka", "babunia"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["omw-pl omw-pl-10142747-n [i90289] babula, babulinka: (CILI) the mother of your father or mother"]
-existing_hidden = 7  # other senses of these lemmas
+existing_by_lemma = ["babula -> omw-pl omw-pl-10142747-n [i90289] babula, babulinka: (CILI) the mother of your father or mother", "babulinka -> omw-pl omw-pl-10142747-n [i90289] babula, babulinka: (CILI) the mother of your father or mother"]
+existing_hidden = 11  # other senses of these lemmas
 hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
 ancestors = ["Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["babcia <- Wiktionary", "babka <- Wiktionary", "babunia <- Wiktionary"]
+sources = ["babcia <- Wiktionary", "babka <- Wiktionary", "babula <- omw-pl", "babulinka <- omw-pl", "babunia <- Wiktionary"]
 comment = ""
 
 ["Fa;Fa"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
@@ -56,7 +57,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -73,7 +74,7 @@ existing_by_ili = ["omw-pl omw-pl-10141590-n [i90280] wnuczę: (CILI) a child of
 existing_by_lemma = ["wnuczę -> omw-pl omw-pl-10141590-n [i90280] wnuczę: (CILI) a child of your son or daughter"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["wnuczę <- Wiktionary"]
+sources = ["wnuczę <- Wiktionary, omw-pl"]
 comment = ""
 
 ["Gr;So"]
@@ -85,7 +86,7 @@ existing_by_ili = ["omw-pl omw-pl-10143299-n [i90293] wnuczek, wnuk: (CILI) a ma
 existing_by_lemma = ["wnuczek -> omw-pl omw-pl-10143299-n [i90293] wnuczek, wnuk: (CILI) a male grandchild", "wnuk -> omw-pl omw-pl-10143299-n [i90293] wnuczek, wnuk: (CILI) a male grandchild"]
 hypernyms = ["Ch;So|Pa;Fa", "Gr;Ch"]
 ancestors = ["Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["wnuczek <- Kinbank, Wiktionary", "wnuk <- Wiktionary"]
+sources = ["wnuczek <- Kinbank, Wiktionary, omw-pl", "wnuk <- Wiktionary, omw-pl"]
 comment = ""
 
 ["Gr;Da"]
@@ -97,7 +98,7 @@ existing_by_ili = ["omw-pl omw-pl-10141732-n [i90281] wnuczka: (CILI) a female g
 existing_by_lemma = ["wnuczka -> omw-pl omw-pl-10141732-n [i90281] wnuczka: (CILI) a female grandchild"]
 hypernyms = ["Ch;Da|Pa;Mo", "Gr;Ch"]
 ancestors = ["Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["wnuczka <- Kinbank, Wiktionary"]
+sources = ["wnuczka <- Kinbank, Wiktionary, omw-pl"]
 comment = ""
 
 ["So;Ch"]
@@ -168,7 +169,7 @@ comment = ""
 
 ["Br"]
 lemmas = ["brat"]
-english = ["brother"]
+english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_lemma = ["brat -> omw-pl omw-pl-09876454-n [i88708] brat, braciak: (CILI) a male with the same parents as someone else"]
@@ -179,7 +180,7 @@ comment = ""
 
 ["Ss"]
 lemmas = ["siostra"]
-english = ["sister"]
+english = ["female sibling", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 existing_by_lemma = ["siostra -> omw-pl omw-pl-10602985-n [i93018] sis, siostra: (CILI) a female person who has the same parents as another person"]
@@ -192,8 +193,7 @@ comment = ""
 ["El;Br"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["brother"]
-english_via = "Br"
+english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 hypernyms = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb"]
@@ -203,8 +203,7 @@ comment = ""
 ["El;Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["sister"]
-english_via = "Ss"
+english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 hypernyms = ["El;Sb", "Ss"]
@@ -214,8 +213,7 @@ comment = ""
 ["Yn;Br"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["brother"]
-english_via = "Br"
+english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
 hypernyms = ["Br", "Yn;Sb"]
@@ -225,8 +223,7 @@ comment = ""
 ["Yn;Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["sister"]
-english_via = "Ss"
+english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 hypernyms = ["Ss", "Yn;Sb"]
@@ -322,7 +319,7 @@ comment = ""
 
 ["Pa;Sb;So"]
 lemmas = ["kuzyn"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
 definition = "a son of one's parent's sibling (a cousin)"
@@ -334,7 +331,7 @@ comment = ""
 
 ["Pa;Sb;Da"]
 lemmas = ["kuzynka"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
 definition = "a daughter of one's parent's sibling (a cousin)"
@@ -346,7 +343,7 @@ comment = ""
 ["El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder male cousin"
 definition = "a son of one's parent's sibling, who is older than oneself (a cousin)"
@@ -357,7 +354,7 @@ comment = ""
 ["El;Pa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder female cousin"
 definition = "a daughter of one's parent's sibling, who is older than oneself (a cousin)"
@@ -368,7 +365,7 @@ comment = ""
 ["Yn;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger male cousin"
 definition = "a son of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -379,7 +376,7 @@ comment = ""
 ["Yn;Pa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger female cousin"
 definition = "a daughter of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -390,7 +387,7 @@ comment = ""
 ["Pa;Br;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of parent's brother"
 definition = "a son of one's parent's brother (a cousin)"
@@ -401,7 +398,7 @@ comment = ""
 ["Pa;Br;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of parent's brother"
 definition = "a daughter of one's parent's brother (a cousin)"
@@ -412,7 +409,7 @@ comment = ""
 ["Pa;Ss;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of parent's sister"
 definition = "a son of one's parent's sister (a cousin)"
@@ -423,7 +420,7 @@ comment = ""
 ["Pa;Ss;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of parent's sister"
 definition = "a daughter of one's parent's sister (a cousin)"
@@ -434,7 +431,7 @@ comment = ""
 ["Mo;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of mother's sibling"
 definition = "a son of one's mother's sibling (a cousin)"
@@ -445,7 +442,7 @@ comment = ""
 ["Mo;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling (a cousin)"
@@ -454,41 +451,44 @@ ancestors = ["Mo;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "
 comment = ""
 
 ["Rel"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+lemmas = ["członek rodziny"]
+english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
 existing_by_ili = ["omw-pl omw-pl-10235549-n [i90856] członek rodziny: (CILI) a person related by blood or marriage"]
+existing_by_lemma = ["członek rodziny -> omw-pl omw-pl-10235549-n [i90856] członek rodziny: (CILI) a person related by blood or marriage"]
 hypernyms = []
 ancestors = []
+sources = ["członek rodziny <- omw-pl"]
 comment = ""
 
 ["Unc"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
+lemmas = ["wujaszek", "wujcio", "wujko"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 existing_by_ili = ["omw-pl omw-pl-10736091-n [i93825] wujaszek, wujko, wujcio: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["wujaszek -> omw-pl omw-pl-10736091-n [i93825] wujaszek, wujko, wujcio: (CILI) the brother of your father or mother; the husband of your aunt", "wujcio -> omw-pl omw-pl-10736091-n [i93825] wujaszek, wujko, wujcio: (CILI) the brother of your father or mother; the husband of your aunt", "wujko -> omw-pl omw-pl-10736091-n [i93825] wujaszek, wujko, wujcio: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["wujaszek <- omw-pl", "wujcio <- omw-pl", "wujko <- omw-pl"]
 comment = ""
 
 ["Aun"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["aunt"]
+lemmas = ["ciocia", "ciotka"]
+english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 existing_by_ili = ["omw-pl omw-pl-09823502-n [i88357] ciotka, ciocia: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["ciocia -> omw-pl omw-pl-09823502-n [i88357] ciotka, ciocia: (CILI) the sister of your father or mother; the wife of your uncle", "ciotka -> omw-pl omw-pl-09823502-n [i88357] ciotka, ciocia: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["ciocia <- omw-pl", "ciotka <- omw-pl"]
 comment = ""
 
 ["Pa;Ss;Hu"]
 lemmas = ["pociotek"]
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of parent's sister"
 definition = "the husband of one's parent's sister (an uncle or aunt)"
@@ -500,7 +500,7 @@ comment = ""
 ["Pa;Br;Wi"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of parent's brother"
 definition = "the wife of one's parent's brother (an uncle or aunt)"
@@ -510,7 +510,7 @@ comment = ""
 
 ["Fa;Br;Wi"]
 lemmas = ["stryjenka"]
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's brother"
 definition = "the wife of one's father's brother (an uncle or aunt)"
@@ -520,69 +520,122 @@ sources = ["stryjenka <- https"]
 comment = ""
 
 ["Pa"]
-lemmas = ["rodzice"]
+lemmas = ["rodzic", "rodzice"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["omw-pl omw-pl-10399491-n [i91858] rodzic: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_by_lemma = ["rodzic -> omw-pl omw-pl-10126708-n [i90185] rodzic: (CILI) a natural father or mother", "rodzic -> omw-pl omw-pl-10399491-n [i91858] rodzic: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["rodzice <- Kinbank"]
+sources = ["rodzic <- omw-pl", "rodzice <- Kinbank"]
+comment = ""
+
+["Fa"]
+lemmas = ["rodziciel"]
+english = ["begetter", "dad", "father", "male parent"]
+label = "father"
+definition = "the father of a person (a parent)"
+existing_by_ili = ["omw-pl omw-pl-10080869-n [i89901] rodziciel: (CILI) a male parent (also used as a term of address to your father)"]
+existing_by_lemma = ["rodziciel -> omw-pl omw-pl-10080869-n [i89901] rodziciel: (CILI) a male parent (also used as a term of address to your father)"]
+hypernyms = ["Fa|Fa;Br", "Pa"]
+ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
+sources = ["rodziciel <- omw-pl"]
+comment = ""
+
+["Mo"]
+lemmas = ["mama", "matka", "rodzicielka"]
+english = ["female parent", "mom", "mother"]
+label = "mother"
+definition = "the mother of a person (a parent)"
+existing_by_ili = ["omw-pl omw-pl-10332385-n [i91462] matka, rodzicielka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["mama -> omw-pl omw-pl-10278128-n [i91123] matka, rodzicielka, mama: (CILI) informal terms for a mother", "mama -> omw-pl omw-pl-10300500-n [i91260] matka, rodzicielka, mama: (CILI) an informal use of the Latin word for mother; sometimes used by British schoolboys or used facetiously", "mama -> omw-pl omw-pl-10332385-n [i91462] matka, rodzicielka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "matka -> omw-pl omw-pl-10278128-n [i91123] matka, rodzicielka, mama: (CILI) informal terms for a mother", "matka -> omw-pl omw-pl-10300500-n [i91260] matka, rodzicielka, mama: (CILI) an informal use of the Latin word for mother; sometimes used by British schoolboys or used facetiously", "matka -> omw-pl omw-pl-10332385-n [i91462] matka, rodzicielka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "rodzicielka -> omw-pl omw-pl-10278128-n [i91123] matka, rodzicielka, mama: (CILI) informal terms for a mother", "rodzicielka -> omw-pl omw-pl-10300500-n [i91260] matka, rodzicielka, mama: (CILI) an informal use of the Latin word for mother; sometimes used by British schoolboys or used facetiously", "rodzicielka -> omw-pl omw-pl-10332385-n [i91462] matka, rodzicielka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_hidden = 2  # other senses of these lemmas
+hypernyms = ["Mo|Mo;Ss", "Pa"]
+ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
+sources = ["mama <- omw-pl", "matka <- omw-pl", "rodzicielka <- omw-pl"]
 comment = ""
 
 ["Ch"]
-lemmas = ["dziecko"]
-english = ["child"]
+lemmas = ["dziecię", "dziecko", "latorośl", "pociecha"]
+english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 existing_by_ili = ["omw-pl omw-pl-09918248-n [i88965] dziecię, pociecha, latorośl, dziecko: (CILI) a human offspring (son or daughter) of any age"]
-existing_by_lemma = ["dziecko -> omw-pl omw-pl-09918248-n [i88965] dziecię, pociecha, latorośl, dziecko: (CILI) a human offspring (son or daughter) of any age"]
-existing_hidden = 4  # other senses of these lemmas
+existing_by_lemma = ["dziecię -> omw-pl omw-pl-09918248-n [i88965] dziecię, pociecha, latorośl, dziecko: (CILI) a human offspring (son or daughter) of any age", "dziecko -> omw-pl omw-pl-09918248-n [i88965] dziecię, pociecha, latorośl, dziecko: (CILI) a human offspring (son or daughter) of any age", "latorośl -> omw-pl omw-pl-09918248-n [i88965] dziecię, pociecha, latorośl, dziecko: (CILI) a human offspring (son or daughter) of any age", "pociecha -> omw-pl omw-pl-09918248-n [i88965] dziecię, pociecha, latorośl, dziecko: (CILI) a human offspring (son or daughter) of any age"]
+existing_hidden = 13  # other senses of these lemmas
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["dziecko <- Kinbank"]
+sources = ["dziecię <- omw-pl", "dziecko <- Kinbank, omw-pl", "latorośl <- omw-pl", "pociecha <- omw-pl"]
+comment = ""
+
+["So"]
+lemmas = ["chłopak", "chłopiec", "syn"]
+english = ["boy", "son"]
+label = "son"
+definition = "a son of a person (a child)"
+existing_by_ili = ["omw-pl omw-pl-10624074-n [i93143] chłopiec, chłopak, syn: (CILI) a male human offspring"]
+existing_by_lemma = ["chłopak -> omw-pl omw-pl-10624074-n [i93143] chłopiec, chłopak, syn: (CILI) a male human offspring", "chłopiec -> omw-pl omw-pl-10624074-n [i93143] chłopiec, chłopak, syn: (CILI) a male human offspring", "syn -> omw-pl omw-pl-10624074-n [i93143] chłopiec, chłopak, syn: (CILI) a male human offspring"]
+existing_hidden = 2  # other senses of these lemmas
+hypernyms = ["Br;So|So", "Ch"]
+ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
+sources = ["chłopak <- omw-pl", "chłopiec <- omw-pl", "syn <- omw-pl"]
+comment = ""
+
+["Da"]
+lemmas = ["córka", "dziewczynka"]
+english = ["daughter", "girl"]
+label = "daughter"
+definition = "a daughter of a person (a child)"
+existing_by_ili = ["omw-pl omw-pl-09992837-n [i89398] dziewczynka, córka: (CILI) a female human offspring"]
+existing_by_lemma = ["córka -> omw-pl omw-pl-09992837-n [i89398] dziewczynka, córka: (CILI) a female human offspring", "dziewczynka -> omw-pl omw-pl-09992837-n [i89398] dziewczynka, córka: (CILI) a female human offspring"]
+existing_hidden = 4  # other senses of these lemmas
+hypernyms = ["Br;Da|Da", "Ch"]
+ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
+sources = ["córka <- omw-pl", "dziewczynka <- omw-pl"]
 comment = ""
 
 ["Sp"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["spouse"]
+lemmas = ["lepsza połowa"]
+english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["omw-pl omw-pl-10640620-n [i93233] lepsza połowa: (CILI) a person's partner in marriage"]
+existing_by_lemma = ["lepsza połowa -> omw-pl omw-pl-10640620-n [i93233] lepsza połowa: (CILI) a person's partner in marriage"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["lepsza połowa <- omw-pl"]
 comment = ""
 
 ["Hu"]
-lemmas = ["mąż"]
-english = ["husband"]
+lemmas = ["małżonek", "mąż", "ślubny"]
+english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
 existing_by_ili = ["omw-pl omw-pl-10193967-n [i90626] mąż, małżonek, ślubny: (CILI) a married man; a woman's partner in marriage"]
-existing_by_lemma = ["mąż -> omw-pl omw-pl-10193967-n [i90626] mąż, małżonek, ślubny: (CILI) a married man; a woman's partner in marriage"]
+existing_by_lemma = ["małżonek -> omw-pl omw-pl-10193967-n [i90626] mąż, małżonek, ślubny: (CILI) a married man; a woman's partner in marriage", "mąż -> omw-pl omw-pl-10193967-n [i90626] mąż, małżonek, ślubny: (CILI) a married man; a woman's partner in marriage", "ślubny -> omw-pl omw-pl-10193967-n [i90626] mąż, małżonek, ślubny: (CILI) a married man; a woman's partner in marriage"]
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["mąż <- Kinbank"]
+sources = ["małżonek <- omw-pl", "mąż <- Kinbank, omw-pl", "ślubny <- omw-pl"]
 comment = ""
 
 ["Wi"]
-lemmas = ["żona"]
-english = ["wife"]
+lemmas = ["małżonka", "ślubna", "żona"]
+english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["omw-pl omw-pl-10780632-n [i94123] żona, małżonka, ślubna: (CILI) a married woman; a man's partner in marriage"]
-existing_by_lemma = ["żona -> omw-pl omw-pl-10597889-n [i92994] żona, małżonka, ślubna: (CILI) an Italian title of address equivalent to Mrs. when used before a name", "żona -> omw-pl omw-pl-10743941-n [i93875] żona, małżonka, ślubna: (CILI) (legal terminology) the Latin word for wife", "żona -> omw-pl omw-pl-10780632-n [i94123] żona, małżonka, ślubna: (CILI) a married woman; a man's partner in marriage"]
+existing_by_lemma = ["małżonka -> omw-pl omw-pl-10597889-n [i92994] żona, małżonka, ślubna: (CILI) an Italian title of address equivalent to Mrs. when used before a name", "małżonka -> omw-pl omw-pl-10743941-n [i93875] żona, małżonka, ślubna: (CILI) (legal terminology) the Latin word for wife", "małżonka -> omw-pl omw-pl-10780632-n [i94123] żona, małżonka, ślubna: (CILI) a married woman; a man's partner in marriage", "ślubna -> omw-pl omw-pl-10597889-n [i92994] żona, małżonka, ślubna: (CILI) an Italian title of address equivalent to Mrs. when used before a name", "ślubna -> omw-pl omw-pl-10743941-n [i93875] żona, małżonka, ślubna: (CILI) (legal terminology) the Latin word for wife", "ślubna -> omw-pl omw-pl-10780632-n [i94123] żona, małżonka, ślubna: (CILI) a married woman; a man's partner in marriage", "żona -> omw-pl omw-pl-10597889-n [i92994] żona, małżonka, ślubna: (CILI) an Italian title of address equivalent to Mrs. when used before a name", "żona -> omw-pl omw-pl-10743941-n [i93875] żona, małżonka, ślubna: (CILI) (legal terminology) the Latin word for wife", "żona -> omw-pl omw-pl-10780632-n [i94123] żona, małżonka, ślubna: (CILI) a married woman; a man's partner in marriage"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["żona <- Kinbank"]
+sources = ["małżonka <- omw-pl", "ślubna <- omw-pl", "żona <- Kinbank, omw-pl"]
 comment = ""
 
 ["InL"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 label = "in-law"
 definition = "a relative by marriage"
 hypernyms = ["Rel"]
@@ -608,7 +661,7 @@ existing_by_ili = ["omw-pl omw-pl-10082043-n [i89906] teść: (CILI) the father 
 existing_by_lemma = ["teść -> omw-pl omw-pl-10082043-n [i89906] teść: (CILI) the father of your spouse"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["teść <- Kinbank"]
+sources = ["teść <- Kinbank, omw-pl"]
 comment = ""
 
 ["Sp;Mo"]
@@ -620,13 +673,81 @@ existing_by_ili = ["omw-pl omw-pl-10333317-n [i91467] teściowa: (CILI) the moth
 existing_by_lemma = ["teściowa -> omw-pl omw-pl-10333317-n [i91467] teściowa: (CILI) the mother of your spouse"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["teściowa <- Kinbank"]
+sources = ["teściowa <- Kinbank, omw-pl"]
+comment = ""
+
+["Ch;Sp"]
+lemmas = []
+status = "unlexicalized: no pl word; included for the hierarchy"
+english = ["child-in-law"]
+label = "child-in-law"
+definition = "a spouse of one's child (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Da;Hu"]
+lemmas = ["zięć"]
+english = ["son-in-law"]
+label = "son-in-law"
+definition = "the husband of one's daughter (an in-law)"
+existing_by_ili = ["omw-pl omw-pl-10624915-n [i93147] zięć: (CILI) the husband of your daughter"]
+existing_by_lemma = ["zięć -> omw-pl omw-pl-10624915-n [i93147] zięć: (CILI) the husband of your daughter"]
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["zięć <- omw-pl"]
+comment = ""
+
+["So;Wi"]
+lemmas = ["synowa"]
+english = ["daughter-in-law"]
+label = "daughter-in-law"
+definition = "the wife of one's son (an in-law)"
+existing_by_ili = ["omw-pl omw-pl-09993040-n [i89399] synowa: (CILI) the wife of your son"]
+existing_by_lemma = ["synowa -> omw-pl omw-pl-09993040-n [i89399] synowa: (CILI) the wife of your son"]
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["synowa <- omw-pl"]
+comment = ""
+
+["BrL"]
+lemmas = ["szwagier"]
+english = ["brother-in-law"]
+label = "brother-in-law"
+definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
+existing_by_ili = ["omw-pl omw-pl-09877288-n [i88712] szwagier: (CILI) a brother by marriage"]
+existing_by_lemma = ["szwagier -> omw-pl omw-pl-09877288-n [i88712] szwagier: (CILI) a brother by marriage"]
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+sources = ["szwagier <- omw-pl"]
+comment = ""
+
+["SsL"]
+lemmas = []
+status = "unlexicalized: no pl word; included for the hierarchy"
+english = ["sister-in-law"]
+label = "sister-in-law (by marriage)"
+definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Sp;Ss"]
+lemmas = ["szwagierka"]
+english = ["sister-in-law"]
+label = "spouse's sister"
+definition = "a sister of one's spouse (an in-law)"
+existing_by_ili = ["omw-pl omw-pl-10603766-n [i93022] szwagierka: (CILI) the sister of your spouse"]
+existing_by_lemma = ["szwagierka -> omw-pl omw-pl-10603766-n [i93022] szwagierka: (CILI) the sister of your spouse"]
+hypernyms = ["Sp;Sb", "SsL"]
+ancestors = ["Sp;Sb", "SsL", "InL", "Rel"]
+sources = ["szwagierka <- omw-pl"]
 comment = ""
 
 ["o;Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling (female anchor)"
 definition = "a son of a woman's father's sibling (a cousin)"
@@ -637,7 +758,7 @@ comment = ""
 ["x;Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling (male anchor)"
 definition = "a daughter of a man's father's sibling (a cousin)"
@@ -648,7 +769,7 @@ comment = ""
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father or father's brother"
 definition = "the father of a person or a brother of one's father"
@@ -659,7 +780,7 @@ comment = ""
 ["Mo|Mo;Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or mother's sister"
 definition = "the mother of a person or a sister of one's mother"
@@ -670,7 +791,7 @@ comment = ""
 ["Fa;Ss;Ch|Mo;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's child or mother's brother's child"
 definition = "a child of one's father's sister or a child of one's mother's brother"
@@ -681,7 +802,7 @@ comment = ""
 ["Ch;Ch|Pa;Pa"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or parent's parent"
 definition = "a child of one's child or a parent of one's parent"
@@ -692,7 +813,7 @@ comment = ""
 ["Mo|Pa;Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or parent's sister"
 definition = "the mother of a person or a sister of one's parent"
@@ -703,7 +824,7 @@ comment = ""
 ["Fa;Ss;So|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
@@ -714,7 +835,7 @@ comment = ""
 ["Pa;Sb;Ch|Sb"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's child or sibling"
 definition = "a child of one's parent's sibling or a sibling of a person"
@@ -725,7 +846,7 @@ comment = ""
 ["Br;So|So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's son or son"
 definition = "a son of one's brother or a son of a person"
@@ -736,7 +857,7 @@ comment = ""
 ["Fa;Ss;Da|Mo;Br;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's daughter or mother's brother's daughter"
 definition = "a daughter of one's father's sister or a daughter of one's mother's brother"
@@ -747,7 +868,7 @@ comment = ""
 ["o;Br|x;Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's brother or man's sister"
 definition = "a brother of a woman or a sister of a man"
@@ -758,7 +879,7 @@ comment = ""
 ["Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child or sibling's child"
 definition = "a child of a person or a child of one's sibling"
@@ -769,7 +890,7 @@ comment = ""
 ["Mo;Br|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or mother's brother's son"
 definition = "a brother of one's mother or a son of one's mother's brother"
@@ -780,7 +901,7 @@ comment = ""
 ["Br;Da|Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's daughter or daughter"
 definition = "a daughter of one's brother or a daughter of a person"
@@ -791,7 +912,7 @@ comment = ""
 ["El;Br|El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "elder brother or parent's sibling's son (older than self)"
 definition = "an elder brother of a person or a son of one's parent's sibling, who is older than oneself"
@@ -813,7 +934,7 @@ comment = ""
 ["Mo;Br|Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or sister's child"
 definition = "a brother of one's mother or a child of one's sister"
@@ -824,7 +945,7 @@ comment = ""
 ["o;Yn;Ss|x;Yn;Br"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's younger sister or man's younger brother"
 definition = "a younger sister of a woman or a younger brother of a man"
@@ -835,7 +956,7 @@ comment = ""
 ["Ch;So|Pa;Fa"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's son or parent's father"
 definition = "a son of one's child or the father of one's parent"
@@ -846,7 +967,7 @@ comment = ""
 ["o;Br|o;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's brother or woman's parent's sibling's son"
 definition = "a brother of a woman or a son of a woman's parent's sibling"
@@ -857,7 +978,7 @@ comment = ""
 ["x;Pa;Sb;Da|x;Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's parent's sibling's daughter or man's sister"
 definition = "a daughter of a man's parent's sibling or a sister of a man"
@@ -868,7 +989,7 @@ comment = ""
 ["Sb;So|So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "sibling's son or son"
 definition = "a son of one's sibling or a son of a person"
@@ -879,7 +1000,7 @@ comment = ""
 ["Ch;Da|Pa;Mo"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's daughter or parent's mother"
 definition = "a daughter of one's child or the mother of one's parent"
@@ -890,7 +1011,7 @@ comment = ""
 ["Mo;Br|x;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or man's sister's child"
 definition = "a brother of one's mother or a child of a man's sister"
@@ -901,7 +1022,7 @@ comment = ""
 ["Fa;Fa|x;So;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's father or man's son's child"
 definition = "the father of one's father or a child of a man's son"
@@ -912,7 +1033,7 @@ comment = ""
 ["o;El;Ss|x;El;Br"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's elder sister or man's elder brother"
 definition = "an elder sister of a woman or an elder brother of a man"
@@ -923,7 +1044,7 @@ comment = ""
 ["Da|Sb;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "daughter or sibling's daughter"
 definition = "a daughter of a person or a daughter of one's sibling"
@@ -934,7 +1055,7 @@ comment = ""
 ["Br;Ch|Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's child or child"
 definition = "a child of one's brother or a child of a person"
@@ -945,7 +1066,7 @@ comment = ""
 ["Mo;Fa|x;Da;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's father or man's daughter's child"
 definition = "the father of one's mother or a child of a man's daughter"
@@ -956,7 +1077,7 @@ comment = ""
 ["Fa;Mo|o;So;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's mother or woman's son's child"
 definition = "the mother of one's father or a child of a woman's son"
@@ -967,7 +1088,7 @@ comment = ""
 ["o;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sister's child"
 definition = "a child of a woman's sister (a nephew or niece)"
@@ -978,7 +1099,7 @@ comment = ""
 ["Br|Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother or parent's sibling's son"
 definition = "a brother of a person or a son of one's parent's sibling"
@@ -989,7 +1110,7 @@ comment = ""
 ["Pa;Sb;Da|Ss"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's daughter or sister"
 definition = "a daughter of one's parent's sibling or a sister of a person"
@@ -1000,7 +1121,7 @@ comment = ""
 ["Ch;Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
@@ -1011,7 +1132,7 @@ comment = ""
 ["x;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's brother's child"
 definition = "a child of a man's brother (a nephew or niece)"
@@ -1019,10 +1140,21 @@ hypernyms = ["Br;Ch"]
 ancestors = ["Br;Ch", "Br;Ch|Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
+["Sp;Sb"]
+lemmas = []
+status = "unlexicalized: no pl word; included for the hierarchy"
+english = ["in-law", "relative-in-law"]
+english_via = "InL"
+label = "spouse's sibling"
+definition = "a sibling of one's spouse (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
 ["o;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
@@ -1033,7 +1165,7 @@ comment = ""
 ["Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling"
 definition = "a son of one's father's sibling (a cousin)"
@@ -1044,7 +1176,7 @@ comment = ""
 ["Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"

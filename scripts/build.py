@@ -23,6 +23,7 @@ Usage: uv run scripts/build.py
 from __future__ import annotations
 
 import csv
+import json
 import logging
 import shutil
 import tarfile
@@ -48,6 +49,8 @@ DATA = ROOT / "data"
 CANDIDATES = DATA / "candidates"
 #: tables the build writes for inspection
 REPORTS = ROOT / "reports"
+#: the hierarchy browser, docs/hierarchy/index.html, and the data it shows
+BROWSER = ROOT / "docs" / "hierarchy"
 
 VERSION = "0.1"
 EMAIL = "bond@ieee.org"
@@ -464,6 +467,20 @@ def add_attestations(
             )
 
 
+def add_wordnets(languages: dict[str, Language], concepts: dict[str, Concept]) -> None:
+    """Add words from existing wordnets for the ILI-linked concepts.
+
+    `wordnet_words.py` collects them in `wordnet-words.tsv`: the lemmas of each
+    wordnet's synset for a concept's ILI (exact links only). Add them before
+    Kinbank, so a Kinbank romanization can attach to a word from a wordnet
+    (Japanese *kodomo* to 子供). Like every other word, they override a gap
+    KinDiv records for the same concept (`add_gaps`).
+    """
+    for row in read_tsv(CANDIDATES / "wordnet-words.tsv"):
+        name = register_language(row["language"], row["tag"])
+        add_word(languages, name, row["word"], concepts[row["concept"]], row["source"])
+
+
 def add_kinbank(languages: dict[str, Language], concepts: dict[str, Concept]) -> None:
     """Add the Kinbank terms that match a concept exactly (`kinbank-candidates.tsv`).
 
@@ -573,9 +590,10 @@ def add_romanization(
     Where the language has words in its own script for the concept (from
     KinDiv, TUFS, an attestation or a Kinbank source in that script), the
     romanization is the pronunciation of the one it transcribes: the only one,
-    or the one whose transliteration matches it best (`romanized_match`).
-    Otherwise it is the only record of the word, so it stays a lemma, marked as
-    a transcription.
+    or the one whose transliteration matches it best (`romanized_match`), and
+    Kinbank becomes a source of that word's sense too, since it attests the
+    word for the concept. Otherwise it is the only record of the word, so it
+    stays a lemma, marked as a transcription.
     """
     name = register_language(row["language"], row["tag"])
     language = languages.setdefault(name, Language(name, row["tag"]))
@@ -586,11 +604,12 @@ def add_romanization(
         and any(code == concept.code for code, _ in senses)
     ]
     matched = native if len(native) == 1 else romanized_match(row["form"], native)
+    source = f"Kinbank {row['kinbank_language']}: {row['positions']}"
     if matched:
         for word in matched:
             language.pronunciations[word].add((row["form"], "romanization"))
+            add_word(languages, name, word, concept, source)
         return
-    source = f"Kinbank {row['kinbank_language']}: {row['positions']}"
     add_word(languages, name, row["form"], concept, source)
     language.transcribed.add(" ".join(row["form"].translate(INVISIBLE).split()))
 
@@ -896,6 +915,68 @@ def write_collection(
     return stats
 
 
+def ili_status(concept: Concept) -> str:
+    """Whether a concept is linked to the ILI, proposed for it, or unattested."""
+    if concept.ili:
+        return "linked"
+    return "propose" if concept.languages else "unattested"
+
+
+def write_browser_data(
+    concepts: dict[str, Concept],
+    ancestry: dict[str, set[str]],
+    languages: dict[str, Language],
+) -> None:
+    """Write the data for the hierarchy browser as a script, `window.KINSHIP`.
+
+    A script rather than JSON, so the page also works opened from disk. Each
+    concept lists its nearest hypernyms. Each language lists its checked words
+    (`words`), the words found only in an existing wordnet, which nobody has
+    checked (`wordnet`), and its gaps no checked word overrides (`gaps`), so the
+    page can show the wordnet words, and the gaps they override, on request.
+    """
+    parents = nearest(set(concepts), ancestry)
+    from_wordnet = {row["source"] for row in read_tsv(CANDIDATES / "wordnet-words.tsv")}
+    data = {
+        "version": VERSION,
+        "concepts": {
+            code: {
+                "label": concept.label,
+                "definition": concept.definition,
+                "subdomain": concept.subdomain,
+                "ili": concept.ili or concept.near_ili,
+                "status": ili_status(concept),
+                "languages": len(concept.languages),
+                "gaps": len(concept.gaps),
+                "parents": sorted(parents[code], key=list(concepts).index),
+            }
+            for code, concept in concepts.items()
+        },
+        "languages": [],
+    }
+    for name in sorted(languages):
+        language = languages[name]
+        checked: dict[str, list[str]] = defaultdict(list)
+        unchecked: dict[str, list[str]] = defaultdict(list)
+        for form, senses in language.words.items():
+            for code in dict.fromkeys(code for code, _ in senses):
+                sources = {s for c, s in senses if c == code}
+                target = unchecked if sources <= from_wordnet else checked
+                target[code].append(form)
+        data["languages"].append(
+            {
+                "name": name,
+                "tag": language.tag,
+                "words": dict(checked),
+                "wordnet": dict(unchecked),
+                "gaps": sorted(language.gaps.keys() - checked.keys()),
+            }
+        )
+    BROWSER.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    (BROWSER / "data.js").write_text(f"window.KINSHIP = {text};\n", encoding="utf8")
+
+
 def write_gap_conflicts(languages: dict[str, Language]) -> None:
     """List words for concepts KinDiv records as gaps in the same language.
 
@@ -936,12 +1017,14 @@ def main() -> None:
     languages = read_languages(concepts)
     add_tufs(languages, concepts)
     add_attestations(languages, concepts)
+    add_wordnets(languages, concepts)
     add_kinbank(languages, concepts)
     add_gaps(languages, concepts)
     add_phrases(languages["English"], concepts)
 
     stats = write_collection(concepts, ancestry, languages)
     write_gap_conflicts(languages)
+    write_browser_data(concepts, ancestry, languages)
 
     with (REPORTS / "lexicons.tsv").open("w", encoding="utf8") as out:
         out.write(
@@ -959,14 +1042,9 @@ def main() -> None:
             "languages\tili_definition\n"
         )
         for concept in concepts.values():
-            if concept.ili:
-                status = "linked"
-            elif concept.languages:
-                status = "propose"
-            else:
-                status = "unattested"
             out.write(
-                f"{concept.code}\t{concept.label}\t{concept.subdomain}\t{status}\t"
+                f"{concept.code}\t{concept.label}\t{concept.subdomain}\t"
+                f"{ili_status(concept)}\t"
                 f"{concept.ili or concept.near_ili}\t{len(concept.languages)}\t"
                 f"{len(concept.gaps)}\t{', '.join(sorted(concept.languages))}\t"
                 f"{concept.definition}\n"

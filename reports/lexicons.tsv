@@ -1,6 +1,6 @@
 lexicon	language	tag	entries	senses	concepts	ili_linked	ili_proposed	gaps	phrases
 omw-kin-aan	Anambé	aan	6	6	6	6	0	0	0
-omw-kin-abz	Abui	abz	9	9	9	4	5	0	0
+omw-kin-abz	Abui	abz	19	19	11	6	5	0	0
 omw-kin-ace	Acehnese	ace	18	18	15	11	4	0	0
 omw-kin-ach	Acoli	ach	16	16	11	7	4	0	0
 omw-kin-acu	Achuar	acu	6	6	6	3	3	0	0
@@ -10,7 +10,7 @@ omw-kin-ady	Adyghe	ady	2	2	2	2	0	15	0
 omw-kin-ae	Avestan	ae	19	19	14	14	0	0	0
 omw-kin-aer	Eastern Arrernte	aer	2	2	2	0	2	0	0
 omw-kin-aey	Amele	aey	11	11	7	4	3	0	0
-omw-kin-af	Afrikaans	af	22	24	21	15	6	147	0
+omw-kin-af	Afrikaans	af	65	71	41	35	6	144	0
 omw-kin-agr	Aguaruna	agr	23	23	20	15	5	0	0
 omw-kin-agt	Central Cagayan Agta	agt	15	15	13	6	7	0	0
 omw-kin-agx	Aghul	agx	18	18	18	10	8	0	0
@@ -43,7 +43,7 @@ omw-kin-apm	Mescalero-Chiricahua Apache	apm	7	7	7	4	3	0	0
 omw-kin-apw	Western Apache	apw	12	12	11	5	6	48	0
 omw-kin-aqc	Archi	aqc	22	22	16	12	4	15	0
 omw-kin-aqt	Angaité	aqt	17	17	15	12	3	0	0
-omw-kin-ar	Arabic	ar	63	67	33	13	20	130	0
+omw-kin-ar	Arabic	ar	92	102	39	19	20	128	0
 omw-kin-ard	Arabana	ard	18	19	14	6	8	0	0
 omw-kin-ari	Arikara	ari	13	13	12	6	6	52	0
 omw-kin-arn	Mapudungun	arn	16	16	11	7	4	0	0
@@ -89,7 +89,7 @@ omw-kin-beu	Blagar	beu	3	3	3	1	2	0	0
 omw-kin-bez	Bena (Tanzania)	bez	11	11	11	5	6	0	0
 omw-kin-bfa	Bari	bfa	2	2	2	1	1	40	0
 omw-kin-bfz	Mahasu Pahari	bfz	29	29	18	14	4	0	0
-omw-kin-bg	Bulgarian	bg	28	29	26	13	13	96	0
+omw-kin-bg	Bulgarian	bg	44	46	33	20	13	96	0
 omw-kin-bgk	Bit	bgk	14	14	14	5	9	0	0
 omw-kin-bhq	Tukang Besi South	bhq	5	5	5	3	2	0	0
 omw-kin-bhw	Biak	bhw	16	16	13	4	9	0	0
@@ -106,7 +106,7 @@ omw-kin-bkz	Bungku	bkz	10	10	10	4	6	0	0
 omw-kin-blq	Paluai	blq	7	7	7	2	5	0	0
 omw-kin-bls	Balaesang	bls	10	10	10	5	5	0	0
 omw-kin-blw	Balangao	blw	10	10	9	4	5	0	0
-omw-kin-bn	Bengali	bn	92	92	50	20	30	69	0
+omw-kin-bn	Bengali	bn	213	219	62	32	30	69	0
 omw-kin-bnc	Bontok	bnc	9	9	7	3	4	0	0
 omw-kin-bnk	Bierebo	bnk	6	6	6	4	2	0	0
 omw-kin-bnm	Batanga	bnm	49	49	31	13	18	0	0
@@ -131,7 +131,7 @@ omw-kin-bxj	Bayungu	bxj	16	16	10	3	7	0	0
 omw-kin-bxk	Bukusu	bxk	19	19	19	8	11	0	0
 omw-kin-bzl	Boano (Sulawesi)	bzl	10	10	10	7	3	0	0
 omw-kin-bzr	Biri	bzr	29	29	14	8	6	0	0
-omw-kin-ca	Catalan	ca	27	27	19	15	4	151	0
+omw-kin-ca	Catalan	ca	59	73	39	35	4	148	0
 omw-kin-cag	Nivaclé	cag	18	18	15	13	2	0	0
 omw-kin-cal	Carolinian	cal	3	3	2	2	0	0	0
 omw-kin-cap	Chipaya	cap	13	13	11	9	2	47	0
@@ -163,12 +163,12 @@ omw-kin-cir	Tiri-Mea	cir	9	9	8	5	3	0	0
 omw-kin-cji	Chamalal	cji	26	26	20	16	4	0	0
 omw-kin-cjk	Chokwe	cjk	6	6	6	5	1	36	0
 omw-kin-ckb	Central Kurdish	ckb	18	18	18	8	10	0	0
-omw-kin-cmn	Mandarin	cmn	63	69	49	15	34	113	0
+omw-kin-cmn	Mandarin	cmn	112	146	58	24	34	109	0
 omw-kin-coc	Cocopa	coc	26	26	26	4	22	63	0
 omw-kin-cod	Cocama-Cocamilla	cod	17	17	17	10	7	0	0
 omw-kin-com	Comanche	com	20	20	15	7	8	58	0
 omw-kin-con	Cofán	con	13	13	11	11	0	0	0
-omw-kin-cop	Coptic	cop	2	2	2	2	0	15	0
+omw-kin-cop	Coptic	cop	118	144	20	20	0	14	0
 omw-kin-cr	Cree	cr	15	15	15	7	8	0	0
 omw-kin-crc	Lonwolwol	crc	14	14	11	5	6	0	0
 omw-kin-crk	Plains Cree	crk	15	15	15	7	8	40	0
@@ -188,14 +188,14 @@ omw-kin-cwd	Woods Cree	cwd	13	13	13	7	6	0	0
 omw-kin-cwe	Kwere	cwe	15	15	15	5	10	0	0
 omw-kin-cy	Welsh	cy	22	24	18	14	4	151	0
 omw-kin-cyb	Cayubaba	cyb	16	16	9	9	0	0	0
-omw-kin-da	Danish	da	35	35	28	16	12	139	0
+omw-kin-da	Danish	da	45	48	33	21	12	139	0
 omw-kin-dak	Dakota	dak	62	63	35	7	28	0	0
 omw-kin-daq	Dandami Maria	daq	19	19	19	6	13	0	0
 omw-kin-dbj	Ida'an	dbj	10	10	10	5	5	0	0
 omw-kin-dbl	Dyirbal	dbl	23	23	13	5	8	0	0
 omw-kin-dcr	Negerhollands	dcr	27	27	13	13	0	0	0
 omw-kin-ddj	Jaru	ddj	14	14	10	3	7	0	0
-omw-kin-de	German	de	50	52	27	23	4	147	0
+omw-kin-de	German	de	133	143	30	26	4	146	0
 omw-kin-del	Common Delaware	del	15	15	15	7	8	0	0
 omw-kin-den	Slave	den	18	18	18	2	16	0	0
 omw-kin-dgc	Casiguran-Nagtipunan Agta	dgc	10	10	10	4	6	0	0
@@ -224,32 +224,32 @@ omw-kin-duo	Dupaninan Agta	duo	17	17	10	7	3	0	0
 omw-kin-dwu	Dhuwal	dwu	39	41	19	6	13	0	0
 omw-kin-dz	Dzongkha	dz	23	23	17	9	8	0	0
 omw-kin-ee	Ewe	ee	16	16	13	2	11	109	0
-omw-kin-el	Greek	el	24	24	19	15	4	148	0
+omw-kin-el	Greek	el	40	43	33	29	4	146	0
 omw-kin-elx	Elamite	elx	7	7	5	5	0	0	0
 omw-kin-eme	Teko	eme	8	8	7	3	4	0	0
 omw-kin-emi	Mussau-Emira	emi	5	5	5	0	5	0	0
 omw-kin-emp	Northern Emberá	emp	18	18	18	14	4	0	0
-omw-kin-en	English	en	41	47	39	31	8	148	271
+omw-kin-en	English	en	75	81	43	35	8	148	267
 omw-kin-enf	Forest Enets	enf	10	10	8	8	0	0	0
 omw-kin-enm	Middle English	enm	14	14	10	8	2	0	0
 omw-kin-enq	Enga	enq	7	7	5	0	5	0	0
 omw-kin-eo	Esperanto	eo	16	16	16	10	6	140	0
 omw-kin-erg	Sie	erg	19	19	12	7	5	0	0
 omw-kin-erk	South Efate	erk	21	21	19	6	13	0	0
-omw-kin-es	Spanish	es	44	47	33	25	8	141	0
+omw-kin-es	Spanish	es	86	110	43	35	8	140	0
 omw-kin-et	Estonian	et	28	28	27	13	14	116	0
-omw-kin-eu	Basque	eu	23	23	19	10	9	42	0
+omw-kin-eu	Basque	eu	62	73	38	29	9	40	0
 omw-kin-eya	Eyak	eya	18	18	18	4	14	68	0
 omw-kin-fa	Persian	fa	39	39	28	14	14	120	0
 omw-kin-fa-AF	Dari	fa-AF	31	31	29	7	22	0	0
 omw-kin-fan	Fang (Equatorial Guinea)	fan	14	14	10	5	5	0	0
-omw-kin-fi	Finnish	fi	35	35	28	13	15	83	0
+omw-kin-fi	Finnish	fi	72	87	50	35	15	81	0
 omw-kin-fip	Fipa	fip	10	10	8	4	4	49	0
 omw-kin-fj	Fijian	fj	10	10	10	2	8	35	0
 omw-kin-fln	Flinders Island	fln	4	4	4	0	4	0	0
 omw-kin-fmp	Fe'fe'	fmp	33	33	11	11	0	0	0
 omw-kin-fo	Faroese	fo	9	9	8	4	4	51	0
-omw-kin-fr	French	fr	40	42	26	22	4	146	0
+omw-kin-fr	French	fr	78	94	39	35	4	144	0
 omw-kin-frr	North Frisian	frr	9	9	4	4	0	28	0
 omw-kin-frt	Kiai	frt	8	8	6	3	3	0	0
 omw-kin-fud	East Futuna	fud	17	17	13	5	8	0	0
@@ -262,7 +262,7 @@ omw-kin-gay	Gayo	gay	17	17	14	4	10	0	0
 omw-kin-gbd	Karadjeri	gbd	10	10	9	2	7	0	0
 omw-kin-gcc	Mali	gcc	8	8	8	7	1	0	0
 omw-kin-gcd	Ganggalida	gcd	21	21	15	1	14	0	0
-omw-kin-gd	Scottish Gaelic	gd	18	18	18	8	10	145	0
+omw-kin-gd	Scottish Gaelic	gd	45	53	34	24	10	143	0
 omw-kin-gdg	Ga'dang	gdg	10	10	9	5	4	0	0
 omw-kin-gdo	Godoberi	gdo	20	20	16	14	2	0	0
 omw-kin-gdr	Wipi	gdr	6	6	6	6	0	0	0
@@ -302,7 +302,7 @@ omw-kin-hay	Haya	hay	14	14	14	9	5	40	0
 omw-kin-hbn	Ebang	hbn	4	4	4	0	4	0	0
 omw-kin-hch	Huichol	hch	2	2	2	2	0	39	0
 omw-kin-hdn	Northern Haida	hdn	14	14	12	10	2	0	0
-omw-kin-he	Hebrew	he	15	15	14	8	6	154	0
+omw-kin-he	Hebrew	he	32	32	24	18	6	153	0
 omw-kin-heh	Hehe	heh	7	7	7	4	3	0	0
 omw-kin-hi	Hindi	hi	83	85	59	19	40	122	0
 omw-kin-hid	Hidatsa	hid	12	12	12	3	9	52	0
@@ -314,6 +314,7 @@ omw-kin-hmt	Hamtai	hmt	2	2	2	2	0	0	0
 omw-kin-hnj	Green Mong	hnj	11	13	13	3	10	0	0
 omw-kin-hnn	Hanunoo	hnn	8	8	8	8	0	42	0
 omw-kin-hop	Hopi	hop	13	13	10	7	3	40	0
+omw-kin-hr	Croatian	hr	56	58	32	32	0	0	0
 omw-kin-hu	Hungarian	hu	46	48	36	26	10	132	0
 omw-kin-hup	Hupa-Chilula	hup	20	20	20	11	9	0	0
 omw-kin-huz	Hunzib	huz	24	24	17	15	2	0	0
@@ -324,7 +325,7 @@ omw-kin-ia	Interlingua	ia	6	6	6	6	0	49	0
 omw-kin-iba	Iban	iba	12	12	12	10	2	38	0
 omw-kin-ibg	Ibanag	ibg	15	15	11	8	3	0	0
 omw-kin-ibl	Ibaloi	ibl	9	9	9	5	4	0	0
-omw-kin-id	Indonesian	id	23	25	20	15	5	34	0
+omw-kin-id	Indonesian	id	66	81	31	26	5	33	0
 omw-kin-idi	Idi	idi	5	5	5	1	4	0	0
 omw-kin-ig	Igbo	ig	7	7	6	5	1	0	0
 omw-kin-ign	Ignaciano	ign	21	21	13	12	1	0	0
@@ -336,15 +337,15 @@ omw-kin-inh	Ingush	inh	28	28	21	13	8	14	0
 omw-kin-io	Ido	io	18	18	18	12	6	130	0
 omw-kin-iow	Iowa-Oto	iow	12	12	12	3	9	0	0
 omw-kin-iry	Iraya	iry	11	11	10	9	1	0	0
-omw-kin-is	Icelandic	is	25	25	23	9	14	152	0
+omw-kin-is	Icelandic	is	52	67	33	19	14	151	0
 omw-kin-isd	Isnag	isd	12	12	11	8	3	0	0
-omw-kin-it	Italian	it	28	32	28	20	8	140	0
+omw-kin-it	Italian	it	67	78	41	33	8	139	0
 omw-kin-itb	Binongan Itneg	itb	10	10	10	6	4	0	0
 omw-kin-ito	Itonama	ito	19	19	12	12	0	0	0
 omw-kin-ivv	Itbayat	ivv	12	12	10	6	4	0	0
 omw-kin-iws	Sepik Iwam	iws	1	1	1	0	1	0	0
 omw-kin-izh	Ingrian	izh	21	21	19	12	7	28	0
-omw-kin-ja	Japanese	ja	51	54	29	23	6	150	0
+omw-kin-ja	Japanese	ja	339	351	39	33	6	150	0
 omw-kin-jae	Yabem	jae	17	17	11	2	9	0	0
 omw-kin-jam	Jamaican Creole English	jam	23	23	18	16	2	0	0
 omw-kin-jao	Yanyuwa	jao	19	19	15	3	12	0	0
@@ -360,7 +361,7 @@ omw-kin-ka	Georgian	ka	14	14	9	4	5	100	0
 omw-kin-kak	Ahin-Kayapa Kalanguya	kak	10	10	10	4	6	0	0
 omw-kin-kam	Kamba (Kenya)	kam	18	18	13	8	5	0	0
 omw-kin-kap	Bezhta	kap	32	32	23	13	10	0	0
-omw-kin-kaw	Kawi	kaw	6	6	4	3	1	0	0
+omw-kin-kaw	Kawi	kaw	49	52	16	15	1	0	0
 omw-kin-kay	Kamayurá	kay	16	16	16	4	12	0	0
 omw-kin-kca	Kazym Khanty	kca	41	41	29	16	13	0	0
 omw-kin-kcq	Doromu-Koki	kcq	4	4	4	0	4	0	0
@@ -475,14 +476,14 @@ omw-kin-loz	Lozi	loz	8	8	8	2	6	25	0
 omw-kin-lpa	Lelepa	lpa	20	20	13	6	7	0	0
 omw-kin-lre	Laurentian	lre	15	15	15	7	8	0	0
 omw-kin-lrv	Larevat	lrv	6	6	6	6	0	0	0
-omw-kin-lt	Lithuanian	lt	43	43	26	11	15	70	0
+omw-kin-lt	Lithuanian	lt	58	61	31	16	15	70	0
 omw-kin-ltg	Latgalian	ltg	2	2	2	2	0	21	0
 omw-kin-lu	Luba-Katanga	lu	11	11	11	3	8	0	0
 omw-kin-lua	Luba-Lulua	lua	24	24	17	12	5	0	0
 omw-kin-lue	Luvale	lue	6	6	6	2	4	0	0
 omw-kin-lui	Luiseno-Juaneño	lui	20	20	16	8	8	0	0
 omw-kin-lun	Lunda	lun	8	8	8	4	4	0	0
-omw-kin-lv	Latvian	lv	43	43	31	15	16	129	0
+omw-kin-lv	Latvian	lv	83	84	35	19	16	129	0
 omw-kin-lww	Lewo	lww	8	8	8	4	4	0	0
 omw-kin-lzl	Naman	lzl	6	6	6	6	0	0	0
 omw-kin-mad	Madurese	mad	11	11	11	9	2	0	0
@@ -561,7 +562,7 @@ omw-kin-mrs	Maragus	mrs	8	8	7	5	2	0	0
 omw-kin-mrv	Mangareva	mrv	20	22	19	10	9	0	0
 omw-kin-mrw	Maranao	mrw	11	11	9	5	4	0	0
 omw-kin-mrz	Marind	mrz	12	12	12	6	6	0	0
-omw-kin-ms	Malay	ms	30	30	19	15	4	107	0
+omw-kin-ms	Malay	ms	89	104	33	29	4	106	0
 omw-kin-msi	Sabah Malay	msi	14	14	10	7	3	0	0
 omw-kin-msn	Vurës	msn	2	2	2	0	2	0	0
 omw-kin-mt	Maltese	mt	4	4	4	4	0	36	0
@@ -576,7 +577,7 @@ omw-kin-mwl	Mirandese	mwl	2	2	2	2	0	15	0
 omw-kin-mwp	Kala Lagaw Ya	mwp	9	9	7	4	3	0	0
 omw-kin-mww	White Hmong	mww	22	28	28	9	19	0	0
 omw-kin-mxe	Mele-Fila	mxe	14	14	10	5	5	0	0
-omw-kin-my	Burmese	my	47	47	26	16	10	62	0
+omw-kin-my	Burmese	my	58	59	29	19	10	62	0
 omw-kin-mye	Myene	mye	20	20	15	9	6	0	0
 omw-kin-myu	Mundurukú	myu	11	11	8	6	2	0	0
 omw-kin-myv	Erzya	myv	47	47	27	18	9	0	0
@@ -588,7 +589,7 @@ omw-kin-nak	Nakanai	nak	12	12	9	2	7	0	0
 omw-kin-nal	Nalik	nal	4	4	3	1	2	0	0
 omw-kin-nan	Min Nan	nan	29	37	21	6	15	80	0
 omw-kin-nay	Narrinyeri	nay	3	3	3	3	0	0	0
-omw-kin-nb	Norwegian Bokmål	nb	27	27	27	11	16	45	0
+omw-kin-nb	Norwegian Bokmål	nb	39	41	33	17	16	45	0
 omw-kin-nbj	Ngarinman	nbj	13	13	10	4	6	0	0
 omw-kin-nci	Classical Nahuatl	nci	19	19	13	11	2	0	0
 omw-kin-ncm	Nambo	ncm	8	8	8	2	6	0	0
@@ -618,7 +619,7 @@ omw-kin-nms	Letemboi-Repanbitip	nms	5	5	5	3	2	0	0
 omw-kin-nmu	Northeast Maidu	nmu	18	18	18	8	10	0	0
 omw-kin-nmv	Ngamini-Yarluyandi-Karangura	nmv	16	16	11	6	5	0	0
 omw-kin-nmx	Nama (Papua New Guinea)	nmx	3	3	3	0	3	0	0
-omw-kin-nn	Norwegian Nynorsk	nn	11	11	11	1	10	39	0
+omw-kin-nn	Norwegian Nynorsk	nn	28	28	24	14	10	38	0
 omw-kin-nna	Nyangumarta	nna	11	11	9	3	6	0	0
 omw-kin-no	Norwegian	no	6	6	6	4	2	60	0
 omw-kin-nog	Nogai	nog	24	24	15	12	3	0	0
@@ -698,7 +699,7 @@ omw-kin-piu	Pintupi-Luritja	piu	18	18	10	6	4	0	0
 omw-kin-piv	Vaeakau-Taumako	piv	12	12	10	2	8	0	0
 omw-kin-pjt	Pitjantjatjara	pjt	22	22	13	6	7	0	0
 omw-kin-pkp	Pukapuka	pkp	8	8	8	2	6	0	0
-omw-kin-pl	Polish	pl	31	32	26	14	12	144	0
+omw-kin-pl	Polish	pl	60	62	38	26	12	144	0
 omw-kin-plg	Pilagá	plg	15	15	13	9	4	0	0
 omw-kin-plj	Pesse	plj	8	8	8	5	3	0	0
 omw-kin-plw	Brooke's Point Palawano	plw	7	7	7	6	1	0	0
@@ -745,7 +746,7 @@ omw-kin-rom	Romani	rom	2	2	2	2	0	15	0
 omw-kin-roo	Rotokas	roo	12	12	12	4	8	0	0
 omw-kin-rop	Kriol	rop	7	7	7	0	7	0	0
 omw-kin-rtm	Rotuman	rtm	17	17	17	9	8	0	0
-omw-kin-ru	Russian	ru	60	62	34	22	12	151	0
+omw-kin-ru	Russian	ru	162	164	43	31	12	149	0
 omw-kin-rue	Rusyn	rue	2	2	2	0	2	21	0
 omw-kin-ruf	Luguru	ruf	17	17	12	4	8	39	0
 omw-kin-rug	Roviana	rug	10	10	10	6	4	0	0
@@ -782,7 +783,7 @@ omw-kin-sij	Numbami	sij	9	9	9	0	9	0	0
 omw-kin-sja	Epena	sja	11	11	10	10	0	0	0
 omw-kin-sjo	Xibe	sjo	19	19	19	5	14	0	0
 omw-kin-sjw	Shawnee	sjw	16	16	16	4	12	40	0
-omw-kin-sk	Slovak	sk	25	25	19	14	5	104	0
+omw-kin-sk	Slovak	sk	52	54	29	24	5	102	0
 omw-kin-ske	Seke (Vanuatu)	ske	9	9	9	4	5	0	0
 omw-kin-ski	Sika	ski	6	6	5	3	2	0	0
 omw-kin-skt	Sakata	skt	4	4	4	3	1	0	0
@@ -802,7 +803,7 @@ omw-kin-soo	Nsong-Mpiin	soo	15	15	12	6	6	0	0
 omw-kin-sov	Sonsorol	sov	13	13	11	5	6	0	0
 omw-kin-spn	Sanapaná	spn	33	33	16	11	5	0	0
 omw-kin-spo	Spokane	spo	26	26	25	4	21	0	0
-omw-kin-sq	Albanian	sq	39	41	26	18	8	156	0
+omw-kin-sq	Albanian	sq	56	62	30	22	8	155	0
 omw-kin-srq	Sirionó	srq	18	18	11	8	3	0	0
 omw-kin-sru	Suruí	sru	10	10	10	4	6	0	0
 omw-kin-ssf	Thao	ssf	9	9	9	7	2	0	0
@@ -815,7 +816,7 @@ omw-kin-sub	Suku	sub	19	19	16	7	9	0	0
 omw-kin-sui	Suki	sui	8	8	8	6	2	0	0
 omw-kin-suk	Sukuma	suk	15	15	14	10	4	0	0
 omw-kin-suw	Sumbwa	suw	14	14	11	11	0	0	0
-omw-kin-sv	Swedish	sv	48	48	35	16	19	82	0
+omw-kin-sv	Swedish	sv	58	65	46	27	19	82	0
 omw-kin-sw	Swahili	sw	4	4	4	4	0	28	0
 omw-kin-sxr	Saaroa	sxr	15	15	15	13	2	0	0
 omw-kin-syb	Central Subanen	syb	5	5	5	5	0	0	0
@@ -845,7 +846,7 @@ omw-kin-tg	Tajik	tg	8	8	8	6	2	14	0
 omw-kin-tgc	Tigak	tgc	4	4	4	3	1	0	0
 omw-kin-tgp	Movono	tgp	8	8	8	8	0	0	0
 omw-kin-tgt	Central Tagbanwa	tgt	9	9	8	6	2	0	0
-omw-kin-th	Thai	th	25	25	22	12	10	97	0
+omw-kin-th	Thai	th	98	107	40	30	10	94	0
 omw-kin-thd	Thayore	thd	20	20	19	4	15	0	0
 omw-kin-ti	Tigrinya	ti	2	2	2	2	0	78	0
 omw-kin-tic	Tira	tic	3	3	3	0	3	0	0
@@ -874,7 +875,7 @@ omw-kin-tpn	Tupinambá	tpn	21	21	16	10	6	0	0
 omw-kin-tpw	Lingua Geral Paulista	tpw	19	19	19	1	18	0	0
 omw-kin-tpy	Trumai	tpy	13	13	13	12	1	40	0
 omw-kin-tqb	Tenetehara	tqb	14	14	14	4	10	68	0
-omw-kin-tr	Turkish	tr	44	44	39	19	20	124	0
+omw-kin-tr	Turkish	tr	127	139	50	30	20	124	0
 omw-kin-trn	Trinitario-Javeriano-Loretano	trn	12	12	11	11	0	0	0
 omw-kin-tru	Turoyo	tru	2	2	2	2	0	15	0
 omw-kin-try	Turung	try	25	25	25	7	18	0	0
@@ -882,7 +883,7 @@ omw-kin-ts	Tsonga	ts	10	10	10	2	8	0	0
 omw-kin-tsg	Tausug	tsg	21	21	12	6	6	0	0
 omw-kin-tsi	Southern-Coastal Tsimshian	tsi	17	17	9	8	1	0	0
 omw-kin-tsv	Tsogo	tsv	6	6	5	3	2	0	0
-omw-kin-tt	Tatar	tt	4	4	4	4	0	15	0
+omw-kin-tt	Tatar	tt	67	71	23	23	0	14	0
 omw-kin-ttj	Tooro	ttj	15	15	15	10	5	0	0
 omw-kin-ttv	Titan	ttv	1	1	1	1	0	0	0
 omw-kin-tub	Tübatulabal	tub	5	5	5	3	2	0	0
@@ -917,6 +918,7 @@ omw-kin-ur	Urdu	ur	72	72	44	15	29	15	0
 omw-kin-urk	Urak Lawoi'	urk	14	14	11	7	4	0	0
 omw-kin-ute	Ute-Southern Paiute	ute	16	16	15	8	7	0	0
 omw-kin-uur	Ura (Vanuatu)	uur	6	6	6	5	1	0	0
+omw-kin-uz	Uzbek	uz	29	30	14	14	0	56	0
 omw-kin-vao	Vao	vao	4	4	4	2	2	0	0
 omw-kin-var	Huarijio	var	15	15	12	7	5	0	0
 omw-kin-vbb	Southeast Babar	vbb	5	5	5	3	2	0	0
@@ -1011,7 +1013,7 @@ omw-kin-yrk	Tundra Nenets	yrk	18	18	17	10	7	0	0
 omw-kin-yrm	Yir-Yoront	yrm	5	5	4	2	2	0	0
 omw-kin-yua	Yucatec Maya	yua	9	9	9	4	5	54	0
 omw-kin-yub	Yugambal	yub	17	17	10	3	7	0	0
-omw-kin-yue	Cantonese	yue	44	49	29	5	24	120	0
+omw-kin-yue	Cantonese	yue	72	90	35	11	24	118	0
 omw-kin-yuk	Northern Yukian	yuk	30	30	24	11	13	0	0
 omw-kin-yum	Quechan	yum	21	21	19	4	15	0	0
 omw-kin-yur	Yurok	yur	17	17	17	13	4	47	0

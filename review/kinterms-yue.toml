@@ -8,9 +8,21 @@
 #   existing_hidden counts the rest.
 # `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its own knowledge, for a speaker to check (Jyutping romanization).
 
+["Gr;Fa"]
+lemmas = ["外公", "爺爺", "阿公", "阿爺"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
+label = "grandfather"
+definition = "the father of one's parent (a grandparent)"
+existing_by_ili = ["cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
+existing_by_lemma = ["外公 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother", "爺爺 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother", "阿公 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother", "阿爺 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
+hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
+ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+sources = ["外公 <- cantown-yue", "爺爺 <- cantown-yue", "阿公 <- cantown-yue", "阿爺 <- cantown-yue"]
+comment = ""
+
 ["Fa;Fa"]
 lemmas = ["爺爺", "祖父"]
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
@@ -22,7 +34,7 @@ comment = ""
 
 ["Mo;Fa"]
 lemmas = ["公公", "外公", "外祖父"]
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "maternal grandfather"
 definition = "the father of one's mother (a grandparent)"
@@ -34,7 +46,7 @@ comment = ""
 
 ["Fa;Mo"]
 lemmas = ["嫲嫲", "祖母"]
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "paternal grandmother"
 definition = "the mother of one's father (a grandparent)"
@@ -45,7 +57,7 @@ comment = ""
 
 ["Mo;Mo"]
 lemmas = ["外婆", "外祖母", "姥姥"]
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -157,7 +169,7 @@ proposed = ["兄弟"]
 jyutping = ["hing1 dai6"]
 confidence = ["medium"]
 notes = ["兄弟: 'brothers'; also 'brother' generally"]
-english = ["brother"]
+english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_lemma = ["兄弟 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else"]
@@ -172,7 +184,7 @@ proposed = ["姊妹"]
 jyutping = ["zi2 mui6"]
 confidence = ["medium"]
 notes = ["姊妹: 'sisters'"]
-english = ["sister"]
+english = ["female sibling", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
@@ -181,8 +193,7 @@ comment = ""
 
 ["El;Br"]
 lemmas = ["哥哥", "大佬", "阿哥"]
-english = ["brother"]
-english_via = "Br"
+english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 existing_by_lemma = ["哥哥 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else", "大佬 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else", "阿哥 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else"]
@@ -194,8 +205,7 @@ comment = ""
 
 ["El;Ss"]
 lemmas = ["姐姐", "家姐", "阿姊"]
-english = ["sister"]
-english_via = "Ss"
+english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 hypernyms = ["El;Sb", "Ss"]
@@ -205,8 +215,7 @@ comment = ""
 
 ["Yn;Br"]
 lemmas = ["弟弟", "細佬"]
-english = ["brother"]
-english_via = "Br"
+english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
 existing_by_lemma = ["弟弟 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else", "細佬 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else"]
@@ -220,8 +229,7 @@ lemmas = ["妹妹"]
 proposed = ["細妹"]
 jyutping = ["sai3 mui2"]
 confidence = ["high"]
-english = ["sister"]
-english_via = "Ss"
+english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 hypernyms = ["Ss", "Yn;Sb"]
@@ -232,7 +240,7 @@ comment = ""
 ["Pb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "auncle"
 definition = "a sibling of one's parent (an uncle or aunt)"
@@ -263,7 +271,7 @@ comment = ""
 ["Fa;Sb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's sibling"
 definition = "a sibling of one's father (an uncle or aunt)"
@@ -274,7 +282,7 @@ comment = ""
 ["Mo;Sb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's sibling"
 definition = "a sibling of one's mother (an uncle or aunt)"
@@ -377,7 +385,7 @@ comment = ""
 ["Fa;Yn;Sb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's younger sibling"
 definition = "a younger sibling of one's father (an uncle or aunt)"
@@ -388,7 +396,7 @@ comment = ""
 ["Mo;Yn;Sb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's younger sibling"
 definition = "a younger sibling of one's mother (an uncle or aunt)"
@@ -533,9 +541,21 @@ ancestors = ["Sb;Da", "Ss;Ch", "Da|Sb;Da", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch"
 sources = ["外甥女 <- Wiktionary", "甥女 <- Wiktionary"]
 comment = ""
 
+["Pa;Sb;Ch"]
+lemmas = ["堂兄", "堂哥", "堂大佬", "堂妹", "堂姐", "堂弟", "堂細佬", "堂阿哥", "老表", "表哥", "表妹", "表姐", "表弟"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
+label = "cousin"
+definition = "a child of one's parent's sibling (a cousin)"
+existing_by_ili = ["cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle"]
+existing_by_lemma = ["堂兄 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂哥 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂大佬 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂妹 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂姐 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂弟 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂細佬 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "堂阿哥 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "老表 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "表哥 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "表妹 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "表姐 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle", "表弟 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle"]
+hypernyms = ["Pa;Sb;Ch|Sb"]
+ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
+sources = ["堂兄 <- cantown-yue", "堂哥 <- cantown-yue", "堂大佬 <- cantown-yue", "堂妹 <- cantown-yue", "堂姐 <- cantown-yue", "堂弟 <- cantown-yue", "堂細佬 <- cantown-yue", "堂阿哥 <- cantown-yue", "老表 <- cantown-yue", "表哥 <- cantown-yue", "表妹 <- cantown-yue", "表姐 <- cantown-yue", "表弟 <- cantown-yue"]
+comment = ""
+
 ["El;Fa;Br;So"]
 lemmas = ["堂兄", "堂哥", "堂大佬"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of father's brother"
 definition = "a son of one's father's brother, who is older than oneself (a cousin)"
@@ -547,7 +567,7 @@ comment = ""
 
 ["Yn;Fa;Br;So"]
 lemmas = ["堂弟", "堂細佬"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of father's brother"
 definition = "a son of one's father's brother, who is younger than oneself (a cousin)"
@@ -559,7 +579,7 @@ comment = ""
 
 ["El;Fa;Br;Da"]
 lemmas = ["堂姊", "堂姐", "堂家姐"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of father's brother"
 definition = "a daughter of one's father's brother, who is older than oneself (a cousin)"
@@ -571,7 +591,7 @@ comment = ""
 
 ["Yn;Fa;Br;Da"]
 lemmas = ["堂妹"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of father's brother"
 definition = "a daughter of one's father's brother, who is younger than oneself (a cousin)"
@@ -583,7 +603,7 @@ comment = ""
 
 ["El;Fa;Ss;So"]
 lemmas = ["表兄", "表哥"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of father's sister"
 definition = "a son of one's father's sister, who is older than oneself (a cousin)"
@@ -595,7 +615,7 @@ comment = ""
 
 ["Yn;Fa;Ss;So"]
 lemmas = ["表弟"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of father's sister"
 definition = "a son of one's father's sister, who is younger than oneself (a cousin)"
@@ -607,7 +627,7 @@ comment = ""
 
 ["El;Fa;Ss;Da"]
 lemmas = ["表姐"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of father's sister"
 definition = "a daughter of one's father's sister, who is older than oneself (a cousin)"
@@ -619,7 +639,7 @@ comment = ""
 
 ["Yn;Fa;Ss;Da"]
 lemmas = ["表妹"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of father's sister"
 definition = "a daughter of one's father's sister, who is younger than oneself (a cousin)"
@@ -631,7 +651,7 @@ comment = ""
 
 ["El;Mo;Sb;So"]
 lemmas = ["表兄", "表哥"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of mother's sibling"
 definition = "a son of one's mother's sibling, who is older than oneself (a cousin)"
@@ -643,7 +663,7 @@ comment = ""
 
 ["Yn;Mo;Sb;So"]
 lemmas = ["表弟"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of mother's sibling"
 definition = "a son of one's mother's sibling, who is younger than oneself (a cousin)"
@@ -655,7 +675,7 @@ comment = ""
 
 ["El;Mo;Sb;Da"]
 lemmas = ["表姐"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling, who is older than oneself (a cousin)"
@@ -667,7 +687,7 @@ comment = ""
 
 ["Yn;Mo;Sb;Da"]
 lemmas = ["表妹"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling, who is younger than oneself (a cousin)"
@@ -683,7 +703,7 @@ proposed = ["親戚"]
 jyutping = ["can1 cik1"]
 confidence = ["high"]
 notes = ["親戚: 'relative'"]
-english = ["relative"]
+english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
 existing_hidden = 2  # other senses of these lemmas
@@ -692,31 +712,33 @@ ancestors = []
 comment = ""
 
 ["Unc"]
-lemmas = []
-status = "unlexicalized: no yue word; included for the hierarchy"
+lemmas = ["伯伯", "伯父", "叔父", "姑丈", "姨丈", "舅父", "阿伯", "阿叔"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 existing_by_ili = ["cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["伯伯 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "伯父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "叔父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姑丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姨丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "舅父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "阿伯 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "阿叔 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["伯伯 <- cantown-yue", "伯父 <- cantown-yue", "叔父 <- cantown-yue", "姑丈 <- cantown-yue", "姨丈 <- cantown-yue", "舅父 <- cantown-yue", "阿伯 <- cantown-yue", "阿叔 <- cantown-yue"]
 comment = ""
 
 ["Aun"]
-lemmas = []
-status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["aunt"]
+lemmas = ["伯娘", "伯母", "姑姐", "姑媽", "姨媽", "舅母", "阿姨", "阿嬸"]
+english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 existing_by_ili = ["cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["伯娘 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "伯母 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑姐 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "舅母 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿姨 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿嬸 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["伯娘 <- cantown-yue", "伯母 <- cantown-yue", "姑姐 <- cantown-yue", "姑媽 <- cantown-yue", "姨媽 <- cantown-yue", "舅母 <- cantown-yue", "阿姨 <- cantown-yue", "阿嬸 <- cantown-yue"]
 comment = ""
 
 ["Pa;Ss;Hu"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of parent's sister"
 definition = "the husband of one's parent's sister (an uncle or aunt)"
@@ -729,7 +751,7 @@ lemmas = []
 proposed = ["姑丈"]
 jyutping = ["gu1 zoeng2"]
 confidence = ["high"]
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of father's sister"
 definition = "the husband of one's father's sister (an uncle or aunt)"
@@ -743,7 +765,7 @@ lemmas = []
 proposed = ["姨丈"]
 jyutping = ["ji4 zoeng2"]
 confidence = ["high"]
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of mother's sister"
 definition = "the husband of one's mother's sister (an uncle or aunt)"
@@ -755,7 +777,7 @@ comment = ""
 ["Pa;Br;Wi"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of parent's brother"
 definition = "the wife of one's parent's brother (an uncle or aunt)"
@@ -766,7 +788,7 @@ comment = ""
 ["Fa;Br;Wi"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's brother"
 definition = "the wife of one's father's brother (an uncle or aunt)"
@@ -779,7 +801,7 @@ lemmas = []
 proposed = ["伯娘"]
 jyutping = ["baak3 noeng4"]
 confidence = ["high"]
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's elder brother"
 definition = "the wife of one's father's elder brother (an uncle or aunt)"
@@ -794,7 +816,7 @@ proposed = ["阿嬸"]
 jyutping = ["aa3 sam2"]
 confidence = ["high"]
 notes = ["阿嬸: also 嬸嬸 sam2 sam2"]
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's younger brother"
 definition = "the wife of one's father's younger brother (an uncle or aunt)"
@@ -822,7 +844,7 @@ proposed = ["爸爸", "父親", "老豆"]
 jyutping = ["baa4 baa1", "fu6 can1", "lou5 dau6"]
 confidence = ["high", "high", "high"]
 notes = ["爸爸: colloquial", "父親: formal", "老豆: slang"]
-english = ["dad", "father"]
+english = ["begetter", "dad", "father", "male parent"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_lemma = ["爸爸 -> cantown-yue cantown-yue-09988063-n [i89370] 爹哋, 爸爸: (CILI) an informal term for a father; probably derived from baby talk"]
@@ -831,18 +853,19 @@ ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
 comment = ""
 
 ["Mo"]
-lemmas = []
+lemmas = ["媽咪", "媽媽", "母親大人", "老媽子", "老母", "阿媽"]
 proposed = ["媽媽", "母親", "老母"]
 jyutping = ["maa4 maa1", "mou5 can1", "lou5 mou2"]
 confidence = ["high", "high", "high"]
 notes = ["媽媽: colloquial", "母親: formal", "老母: slang"]
-english = ["mom", "mother"]
+english = ["female parent", "mom", "mother"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["媽咪 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽咪 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親大人 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "老媽子 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老媽子 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "阿媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "阿媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
+sources = ["媽咪 <- cantown-yue", "媽媽 <- cantown-yue", "母親大人 <- cantown-yue", "老媽子 <- cantown-yue", "老母 <- cantown-yue", "阿媽 <- cantown-yue"]
 comment = ""
 
 ["Ch"]
@@ -851,7 +874,7 @@ proposed = ["子女"]
 jyutping = ["zi2 neoi5"]
 confidence = ["medium"]
 notes = ["子女: 'children', collective"]
-english = ["child"]
+english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 hypernyms = ["Br;Ch|Ch"]
@@ -864,7 +887,7 @@ proposed = ["仔", "兒子"]
 jyutping = ["zai2", "ji4 zi2"]
 confidence = ["high", "high"]
 notes = ["仔: 'son' (also 'boy')", "兒子: formal"]
-english = ["son"]
+english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
 hypernyms = ["Br;So|So", "Ch"]
@@ -872,23 +895,25 @@ ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Da"]
-lemmas = []
+lemmas = ["女", "女女"]
 proposed = ["囡", "女兒"]
 jyutping = ["neoi2", "neoi5 ji4"]
 confidence = ["high", "high"]
 notes = ["囡: 'daughter'", "女兒: formal"]
-english = ["daughter"]
+english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
 existing_by_ili = ["cantown-yue cantown-yue-09992837-n [i89398] 女女, 女: (CILI) a female human offspring"]
+existing_by_lemma = ["女 -> cantown-yue cantown-yue-09992837-n [i89398] 女女, 女: (CILI) a female human offspring", "女女 -> cantown-yue cantown-yue-09992837-n [i89398] 女女, 女: (CILI) a female human offspring"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
+sources = ["女 <- cantown-yue", "女女 <- cantown-yue"]
 comment = ""
 
 ["Sp"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["spouse"]
+english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 hypernyms = ["Rel"]
@@ -901,7 +926,7 @@ proposed = ["老公", "丈夫"]
 jyutping = ["lou5 gung1", "zoeng6 fu1"]
 confidence = ["high", "high"]
 notes = ["老公: colloquial", "丈夫: formal"]
-english = ["husband"]
+english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
 hypernyms = ["Sp"]
@@ -914,7 +939,7 @@ proposed = ["老婆", "太太", "妻子"]
 jyutping = ["lou5 po4", "taai3 taai2", "cai1 zi2"]
 confidence = ["high", "high", "high"]
 notes = ["老婆: colloquial", "太太: also 'Mrs'", "妻子: formal"]
-english = ["wife"]
+english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 hypernyms = ["Sp"]
@@ -924,7 +949,7 @@ comment = ""
 ["InL"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 label = "in-law"
 definition = "a relative by marriage"
 hypernyms = ["Rel"]
@@ -1055,7 +1080,7 @@ comment = ""
 ["o;Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling (female anchor)"
 definition = "a son of a woman's father's sibling (a cousin)"
@@ -1066,7 +1091,7 @@ comment = ""
 ["x;Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling (male anchor)"
 definition = "a daughter of a man's father's sibling (a cousin)"
@@ -1077,7 +1102,7 @@ comment = ""
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father or father's brother"
 definition = "the father of a person or a brother of one's father"
@@ -1088,7 +1113,7 @@ comment = ""
 ["Mo|Mo;Ss"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or mother's sister"
 definition = "the mother of a person or a sister of one's mother"
@@ -1099,7 +1124,7 @@ comment = ""
 ["Fa;Ss;Ch|Mo;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's child or mother's brother's child"
 definition = "a child of one's father's sister or a child of one's mother's brother"
@@ -1110,7 +1135,7 @@ comment = ""
 ["Ch;Ch|Pa;Pa"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or parent's parent"
 definition = "a child of one's child or a parent of one's parent"
@@ -1121,7 +1146,7 @@ comment = ""
 ["Mo|Pa;Ss"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or parent's sister"
 definition = "the mother of a person or a sister of one's parent"
@@ -1159,7 +1184,7 @@ comment = ""
 ["Fa;Ss;So|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
@@ -1184,7 +1209,7 @@ comment = ""
 ["Pa;Sb;Ch|Sb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's child or sibling"
 definition = "a child of one's parent's sibling or a sibling of a person"
@@ -1195,7 +1220,7 @@ comment = ""
 ["Br;So|So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's son or son"
 definition = "a son of one's brother or a son of a person"
@@ -1206,7 +1231,7 @@ comment = ""
 ["Fa;Ss;Da|Mo;Br;Da"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's daughter or mother's brother's daughter"
 definition = "a daughter of one's father's sister or a daughter of one's mother's brother"
@@ -1217,7 +1242,7 @@ comment = ""
 ["o;Br|x;Ss"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's brother or man's sister"
 definition = "a brother of a woman or a sister of a man"
@@ -1242,7 +1267,7 @@ comment = ""
 ["Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child or sibling's child"
 definition = "a child of a person or a child of one's sibling"
@@ -1253,7 +1278,7 @@ comment = ""
 ["Mo;Br|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or mother's brother's son"
 definition = "a brother of one's mother or a son of one's mother's brother"
@@ -1264,7 +1289,7 @@ comment = ""
 ["Br;Da|Da"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's daughter or daughter"
 definition = "a daughter of one's brother or a daughter of a person"
@@ -1275,7 +1300,7 @@ comment = ""
 ["El;Br|El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "elder brother or parent's sibling's son (older than self)"
 definition = "an elder brother of a person or a son of one's parent's sibling, who is older than oneself"
@@ -1297,7 +1322,7 @@ comment = ""
 ["Mo;Br|Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or sister's child"
 definition = "a brother of one's mother or a child of one's sister"
@@ -1308,7 +1333,7 @@ comment = ""
 ["o;Yn;Ss|x;Yn;Br"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's younger sister or man's younger brother"
 definition = "a younger sister of a woman or a younger brother of a man"
@@ -1319,7 +1344,7 @@ comment = ""
 ["Ch;So|Pa;Fa"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's son or parent's father"
 definition = "a son of one's child or the father of one's parent"
@@ -1344,7 +1369,7 @@ comment = ""
 ["o;Br|o;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's brother or woman's parent's sibling's son"
 definition = "a brother of a woman or a son of a woman's parent's sibling"
@@ -1355,7 +1380,7 @@ comment = ""
 ["x;Pa;Sb;Da|x;Ss"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's parent's sibling's daughter or man's sister"
 definition = "a daughter of a man's parent's sibling or a sister of a man"
@@ -1366,7 +1391,7 @@ comment = ""
 ["Sb;So|So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "sibling's son or son"
 definition = "a son of one's sibling or a son of a person"
@@ -1377,7 +1402,7 @@ comment = ""
 ["Ch;Da|Pa;Mo"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's daughter or parent's mother"
 definition = "a daughter of one's child or the mother of one's parent"
@@ -1388,7 +1413,7 @@ comment = ""
 ["Mo;Br|x;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or man's sister's child"
 definition = "a brother of one's mother or a child of a man's sister"
@@ -1399,7 +1424,7 @@ comment = ""
 ["Fa;Fa|x;So;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's father or man's son's child"
 definition = "the father of one's father or a child of a man's son"
@@ -1410,7 +1435,7 @@ comment = ""
 ["o;El;Ss|x;El;Br"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's elder sister or man's elder brother"
 definition = "an elder sister of a woman or an elder brother of a man"
@@ -1421,7 +1446,7 @@ comment = ""
 ["Da|Sb;Da"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "daughter or sibling's daughter"
 definition = "a daughter of a person or a daughter of one's sibling"
@@ -1432,7 +1457,7 @@ comment = ""
 ["Br;Ch|Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's child or child"
 definition = "a child of one's brother or a child of a person"
@@ -1443,7 +1468,7 @@ comment = ""
 ["Mo;Fa|x;Da;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's father or man's daughter's child"
 definition = "the father of one's mother or a child of a man's daughter"
@@ -1454,7 +1479,7 @@ comment = ""
 ["Fa;Mo|o;So;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's mother or woman's son's child"
 definition = "the mother of one's father or a child of a woman's son"
@@ -1465,7 +1490,7 @@ comment = ""
 ["o;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sister's child"
 definition = "a child of a woman's sister (a nephew or niece)"
@@ -1476,7 +1501,7 @@ comment = ""
 ["Br|Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother or parent's sibling's son"
 definition = "a brother of a person or a son of one's parent's sibling"
@@ -1487,7 +1512,7 @@ comment = ""
 ["Pa;Sb;Da|Ss"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's daughter or sister"
 definition = "a daughter of one's parent's sibling or a sister of a person"
@@ -1498,7 +1523,7 @@ comment = ""
 ["Ch;Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
@@ -1509,7 +1534,7 @@ comment = ""
 ["x;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's brother's child"
 definition = "a child of a man's brother (a nephew or niece)"
@@ -1520,7 +1545,7 @@ comment = ""
 ["Sp;Sb"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "spouse's sibling"
 definition = "a sibling of one's spouse (an in-law)"
@@ -1531,7 +1556,7 @@ comment = ""
 ["o;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no yue word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
@@ -1546,16 +1571,6 @@ label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
 hypernyms = ["Ch;Ch|Pa;Pa"]
 ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
-comment = ""
-
-["Gr;Fa"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "grandfather"
-definition = "the father of one's parent (a grandparent)"
-existing_by_ili = ["cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
-hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
-ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Fa;Pr"]
@@ -2159,16 +2174,6 @@ label = "younger sister's child (female anchor)"
 definition = "a child of a woman's younger sister (a nephew or niece)"
 hypernyms = ["Yn;Ss;Ch", "o;Ss;Ch"]
 ancestors = ["Yn;Ss;Ch", "o;Ss;Ch", "Ss;Ch", "o;Sb;Ch", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-comment = ""
-
-["Pa;Sb;Ch"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "cousin"
-definition = "a child of one's parent's sibling (a cousin)"
-existing_by_ili = ["cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle"]
-hypernyms = ["Pa;Sb;Ch|Sb"]
-ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["o;Pa;Sb;Ch"]

@@ -18,6 +18,18 @@ ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 sources = ["zu fu mu <- Kinbank"]
 comment = ""
 
+["Gr;Fa"]
+lemmas = ["外公", "外祖父", "爷爷", "祖父"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
+label = "grandfather"
+definition = "the father of one's parent (a grandparent)"
+existing_by_ili = ["omw-cmn omw-cmn-10142391-n [i90287] 外公, 外祖父, 爷爷, 祖父: (CILI) the father of your father or mother", "tufs-zh tufs-zh-10142391-n [i90287] 爷爷: (CILI) the father of your father or mother"]
+existing_by_lemma = ["外公 -> omw-cmn omw-cmn-10142391-n [i90287] 外公, 外祖父, 爷爷, 祖父: (CILI) the father of your father or mother", "外祖父 -> omw-cmn omw-cmn-10142391-n [i90287] 外公, 外祖父, 爷爷, 祖父: (CILI) the father of your father or mother", "爷爷 -> omw-cmn omw-cmn-10142391-n [i90287] 外公, 外祖父, 爷爷, 祖父: (CILI) the father of your father or mother", "爷爷 -> tufs-zh tufs-zh-10142391-n [i90287] 爷爷: (CILI) the father of your father or mother", "祖父 -> omw-cmn omw-cmn-10142391-n [i90287] 外公, 外祖父, 爷爷, 祖父: (CILI) the father of your father or mother"]
+hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
+ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+sources = ["外公 <- omw-cmn", "外祖父 <- omw-cmn", "爷爷 <- omw-cmn", "祖父 <- omw-cmn"]
+comment = ""
+
 ["Mo;Pr"]
 lemmas = ["外祖父母"]
 english = ["grandparent"]
@@ -29,9 +41,21 @@ ancestors = ["Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
 sources = ["外祖父母 <- https"]
 comment = ""
 
+["Gr;Mo"]
+lemmas = ["外婆", "外祖母", "奶奶", "祖母"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+label = "grandmother"
+definition = "the mother of one's parent (a grandparent)"
+existing_by_ili = ["omw-cmn omw-cmn-10142747-n [i90289] 外婆, 外祖母, 奶奶, 祖母: (CILI) the mother of your father or mother", "tufs-zh tufs-zh-10142747-n [i90289] 奶奶, 姥姥: (CILI) the mother of your father or mother"]
+existing_by_lemma = ["外婆 -> omw-cmn omw-cmn-10142747-n [i90289] 外婆, 外祖母, 奶奶, 祖母: (CILI) the mother of your father or mother", "外祖母 -> omw-cmn omw-cmn-10142747-n [i90289] 外婆, 外祖母, 奶奶, 祖母: (CILI) the mother of your father or mother", "奶奶 -> omw-cmn omw-cmn-10142747-n [i90289] 外婆, 外祖母, 奶奶, 祖母: (CILI) the mother of your father or mother", "奶奶 -> tufs-zh tufs-zh-10142747-n [i90289] 奶奶, 姥姥: (CILI) the mother of your father or mother", "祖母 -> omw-cmn omw-cmn-10142747-n [i90289] 外婆, 外祖母, 奶奶, 祖母: (CILI) the mother of your father or mother"]
+hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
+ancestors = ["Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+sources = ["外婆 <- omw-cmn", "外祖母 <- omw-cmn", "奶奶 <- omw-cmn", "祖母 <- omw-cmn"]
+comment = ""
+
 ["Fa;Fa"]
 lemmas = ["爷爷", "祖父"]
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
@@ -43,7 +67,7 @@ comment = ""
 
 ["Mo;Fa"]
 lemmas = ["外公", "外祖父", "老爷"]
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "maternal grandfather"
 definition = "the father of one's mother (a grandparent)"
@@ -55,7 +79,7 @@ comment = ""
 
 ["Fa;Mo"]
 lemmas = ["奶奶", "祖母"]
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "paternal grandmother"
 definition = "the mother of one's father (a grandparent)"
@@ -67,7 +91,7 @@ comment = ""
 
 ["Mo;Mo"]
 lemmas = ["外婆", "外祖母", "姥姥"]
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -138,7 +162,7 @@ label = "son's son"
 definition = "a son of one's son (a grandchild)"
 hypernyms = ["Gr;So", "So;Ch"]
 ancestors = ["Gr;So", "So;Ch", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫兒 <- Wiktionary", "孫子 <- Wiktionary"]
+sources = ["孫兒 <- Wiktionary", "孫子 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["So;Da"]
@@ -150,7 +174,7 @@ label = "son's daughter"
 definition = "a daughter of one's son (a grandchild)"
 hypernyms = ["Gr;Da", "So;Ch"]
 ancestors = ["Gr;Da", "So;Ch", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫女 <- Wiktionary"]
+sources = ["孫女 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Da;So"]
@@ -162,7 +186,7 @@ label = "daughter's son"
 definition = "a son of one's daughter (a grandchild)"
 hypernyms = ["Da;Ch", "Gr;So"]
 ancestors = ["Da;Ch", "Gr;So", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["外孫 <- Wiktionary"]
+sources = ["外孫 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Da;Da"]
@@ -174,12 +198,12 @@ label = "daughter's daughter"
 definition = "a daughter of one's daughter (a grandchild)"
 hypernyms = ["Da;Ch", "Gr;Da"]
 ancestors = ["Da;Ch", "Gr;Da", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["外孫女 <- Wiktionary"]
+sources = ["外孫女 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Sb"]
 lemmas = ["同胞"]
-english = ["sibling"]
+english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 hypernyms = ["Pa;Sb;Ch|Sb"]
@@ -190,7 +214,7 @@ comment = ""
 ["Br"]
 lemmas = ["xiong di"]
 transcribed = ["xiong di"]  # romanized in the source; no word in the native script here
-english = ["brother"]
+english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["tufs-zh tufs-zh-10286084-n [i91174] 兄弟: (CILI) a sibling who is male"]
@@ -202,19 +226,19 @@ comment = ""
 ["Ss"]
 lemmas = ["姐妹"]
 pronunciations = ["姐妹: jie mei (romanization)"]
-english = ["sister"]
+english = ["female sibling", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 existing_by_lemma = ["姐妹 -> omw-cmn omw-cmn-10602985-n [i93018] 妹, 妹妹, 姐妹, 姐姐: (CILI) a female person who has the same parents as another person", "姐妹 -> tufs-zh tufs-zh-09854218-n [i88564] 姐妹: (CILI) an older sister"]
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["姐妹 <- TUFS"]
+sources = ["姐妹 <- Kinbank, TUFS"]
 comment = ""
 
 ["El;Sb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "elder sibling"
 definition = "an elder sibling of a person"
@@ -225,7 +249,7 @@ comment = ""
 ["Yn;Sb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "younger sibling"
 definition = "a younger sibling of a person"
@@ -235,8 +259,7 @@ comment = ""
 
 ["El;Br"]
 lemmas = ["兄", "哥", "哥哥"]
-english = ["brother"]
-english_via = "Br"
+english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 existing_by_ili = ["tufs-zh tufs-zh-09853467-n [i88560] 哥哥: (CILI) an older brother"]
@@ -248,8 +271,7 @@ comment = ""
 
 ["El;Ss"]
 lemmas = ["姐姐", "阿姊"]
-english = ["sister"]
-english_via = "Ss"
+english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 existing_by_ili = ["tufs-zh tufs-zh-09854218-n [i88564] 姐妹: (CILI) an older sister"]
@@ -262,8 +284,7 @@ comment = ""
 
 ["Yn;Br"]
 lemmas = ["兄弟", "弟弟"]
-english = ["brother"]
-english_via = "Br"
+english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
 existing_by_lemma = ["兄弟 -> omw-cmn omw-cmn-09876454-n [i88708] 亲兄弟, 兄弟, 哥哥, 弟弟: (CILI) a male with the same parents as someone else", "兄弟 -> tufs-zh tufs-zh-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "兄弟 -> tufs-zh tufs-zh-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else", "弟弟 -> omw-cmn omw-cmn-09876454-n [i88708] 亲兄弟, 兄弟, 哥哥, 弟弟: (CILI) a male with the same parents as someone else"]
@@ -275,8 +296,7 @@ comment = ""
 
 ["Yn;Ss"]
 lemmas = ["妹妹"]
-english = ["sister"]
-english_via = "Ss"
+english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 existing_by_lemma = ["妹妹 -> omw-cmn omw-cmn-10602985-n [i93018] 妹, 妹妹, 姐妹, 姐姐: (CILI) a female person who has the same parents as another person"]
@@ -288,7 +308,7 @@ comment = ""
 ["Pb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "auncle"
 definition = "a sibling of one's parent (an uncle or aunt)"
@@ -319,7 +339,7 @@ comment = ""
 ["Fa;Sb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's sibling"
 definition = "a sibling of one's father (an uncle or aunt)"
@@ -330,7 +350,7 @@ comment = ""
 ["Mo;Sb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's sibling"
 definition = "a sibling of one's mother (an uncle or aunt)"
@@ -359,7 +379,7 @@ definition = "a brother of one's mother (an uncle or aunt)"
 existing_by_lemma = ["舅父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "舅父 -> tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br"]
 ancestors = ["Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
-sources = ["舅父 <- TUFS"]
+sources = ["舅父 <- Kinbank, TUFS"]
 comment = ""
 
 ["Fa;Ss"]
@@ -372,7 +392,7 @@ definition = "a sister of one's father (an uncle or aunt)"
 existing_by_lemma = ["姑姑 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Fa;Sb", "Pa;Ss"]
 ancestors = ["Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-sources = ["姑姑 <- TUFS"]
+sources = ["姑姑 <- Kinbank, TUFS"]
 comment = ""
 
 ["Mo;Ss"]
@@ -385,7 +405,7 @@ definition = "a sister of one's mother (an uncle or aunt)"
 existing_by_lemma = ["姨母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨母 -> tufs-zh tufs-zh-09823502-n [i88357] 婶母, 姨母: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Mo;Sb", "Mo|Mo;Ss", "Pa;Ss"]
 ancestors = ["Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-sources = ["姨母 <- TUFS"]
+sources = ["姨母 <- Kinbank, TUFS"]
 comment = ""
 
 ["Pa;El;Br"]
@@ -413,7 +433,7 @@ comment = ""
 ["Fa;Yn;Sb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's younger sibling"
 definition = "a younger sibling of one's father (an uncle or aunt)"
@@ -431,7 +451,7 @@ definition = "an elder brother of one's father (an uncle or aunt)"
 existing_by_lemma = ["伯父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "伯父 -> tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Fa;Br", "Pa;El;Br"]
 ancestors = ["Fa;Br", "Pa;El;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
-sources = ["伯父 <- TUFS"]
+sources = ["伯父 <- Kinbank, TUFS"]
 comment = ""
 
 ["Fa;Yn;Br"]
@@ -444,7 +464,20 @@ definition = "a younger brother of one's father (an uncle or aunt)"
 existing_by_lemma = ["叔父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "叔父 -> tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br"]
 ancestors = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
-sources = ["叔父 <- TUFS"]
+sources = ["叔父 <- Kinbank, TUFS"]
+comment = ""
+
+["Sb;So"]
+lemmas = ["侄", "侄子", "外甥"]
+pronunciations = ["外甥: wai sheng (romanization)"]
+english = ["nephew"]
+label = "nephew"
+definition = "a son of one's sibling (a nephew or niece)"
+existing_by_ili = ["omw-cmn omw-cmn-10353355-n [i91586] 侄, 侄子, 外甥: (CILI) a son of your brother or sister"]
+existing_by_lemma = ["侄 -> omw-cmn omw-cmn-10353355-n [i91586] 侄, 侄子, 外甥: (CILI) a son of your brother or sister", "侄子 -> omw-cmn omw-cmn-10353355-n [i91586] 侄, 侄子, 外甥: (CILI) a son of your brother or sister", "外甥 -> omw-cmn omw-cmn-10353355-n [i91586] 侄, 侄子, 外甥: (CILI) a son of your brother or sister"]
+hypernyms = ["Sb;Ch", "Sb;So|So"]
+ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+sources = ["侄 <- omw-cmn", "侄子 <- omw-cmn", "外甥 <- omw-cmn"]
 comment = ""
 
 ["Br;So"]
@@ -456,7 +489,7 @@ label = "brother's son"
 definition = "a son of one's brother (a nephew or niece)"
 hypernyms = ["Br;Ch", "Br;So|So", "Sb;So"]
 ancestors = ["Br;Ch", "Br;So|So", "Sb;So", "Br;Ch|Ch", "Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["姪子 <- Wiktionary"]
+sources = ["姪子 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Br;Da"]
@@ -468,7 +501,7 @@ label = "brother's daughter"
 definition = "a daughter of one's brother (a nephew or niece)"
 hypernyms = ["Br;Ch", "Br;Da|Da", "Sb;Da"]
 ancestors = ["Br;Ch", "Br;Da|Da", "Sb;Da", "Br;Ch|Ch", "Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["姪女 <- Wiktionary"]
+sources = ["姪女 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Ss;So"]
@@ -481,7 +514,7 @@ definition = "a son of one's sister (a nephew or niece)"
 existing_by_lemma = ["外甥 -> omw-cmn omw-cmn-10353355-n [i91586] 侄, 侄子, 外甥: (CILI) a son of your brother or sister"]
 hypernyms = ["Sb;So", "Ss;Ch"]
 ancestors = ["Sb;So", "Ss;Ch", "Mo;Br|Ss;Ch", "Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["外甥 <- Wiktionary"]
+sources = ["外甥 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Ss;Da"]
@@ -493,202 +526,221 @@ label = "sister's daughter"
 definition = "a daughter of one's sister (a nephew or niece)"
 hypernyms = ["Sb;Da", "Ss;Ch"]
 ancestors = ["Sb;Da", "Ss;Ch", "Da|Sb;Da", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["外甥女 <- Wiktionary", "甥女 <- Wiktionary"]
+sources = ["外甥女 <- Kinbank, Wiktionary", "甥女 <- Wiktionary"]
+comment = ""
+
+["Pa;Sb;Ch"]
+lemmas = ["堂兄", "堂兄弟姊妹", "堂哥", "堂妹", "堂姊", "堂姐", "堂弟", "表兄", "表兄弟姊妹", "表哥", "表妹", "表姊", "表姐", "表弟"]
+pronunciations = ["堂哥: tang ge (romanization)", "堂妹: tang mei (romanization)", "堂姐: tang jie (romanization)", "堂弟: tang di (romanization)", "表哥: gu biao ge (romanization)", "表哥: yi biao ge (romanization)", "表妹: gu biao mei (romanization)", "表妹: yi biao mei (romanization)", "表姐: gu biao jie (romanization)", "表姐: yi biao jie (romanization)", "表弟: gu biao di (romanization)", "表弟: yi biao di (romanization)"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
+label = "cousin"
+definition = "a child of one's parent's sibling (a cousin)"
+existing_by_ili = ["omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
+existing_by_lemma = ["堂兄 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂兄弟姊妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂哥 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂姊 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂姐 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂弟 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表兄 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表兄弟姊妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表哥 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表姊 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表姐 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表弟 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
+hypernyms = ["Pa;Sb;Ch|Sb"]
+ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
+sources = ["堂兄 <- omw-cmn", "堂兄弟姊妹 <- omw-cmn", "堂哥 <- omw-cmn", "堂妹 <- omw-cmn", "堂姊 <- omw-cmn", "堂姐 <- omw-cmn", "堂弟 <- omw-cmn", "表兄 <- omw-cmn", "表兄弟姊妹 <- omw-cmn", "表哥 <- omw-cmn", "表妹 <- omw-cmn", "表姊 <- omw-cmn", "表姐 <- omw-cmn", "表弟 <- omw-cmn"]
 comment = ""
 
 ["El;Fa;Br;So"]
 lemmas = ["堂兄", "堂哥"]
 pronunciations = ["堂哥: tang ge (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of father's brother"
 definition = "a son of one's father's brother, who is older than oneself (a cousin)"
 existing_by_lemma = ["堂兄 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂哥 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["El;Pa;Sb;So", "Fa;Br;So"]
 ancestors = ["El;Pa;Sb;So", "Fa;Br;So", "El;Br|El;Pa;Sb;So", "El;Pa;Sb;Ch", "Fa;Br;Ch", "Fa;Sb;So", "Pa;Br;So", "Pa;Sb;So", "Br|Pa;Sb;So", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["堂兄 <- Wiktionary", "堂哥 <- Wiktionary"]
+sources = ["堂兄 <- Wiktionary", "堂哥 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Yn;Fa;Br;So"]
 lemmas = ["堂弟"]
 pronunciations = ["堂弟: tang di (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of father's brother"
 definition = "a son of one's father's brother, who is younger than oneself (a cousin)"
 existing_by_lemma = ["堂弟 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Fa;Br;So", "Yn;Pa;Sb;So"]
 ancestors = ["Fa;Br;So", "Yn;Pa;Sb;So", "Fa;Br;Ch", "Fa;Sb;So", "Pa;Br;So", "Pa;Sb;So", "Yn;Pa;Sb;Ch", "Br|Pa;Sb;So", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["堂弟 <- Wiktionary"]
+sources = ["堂弟 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["El;Fa;Br;Da"]
 lemmas = ["堂姊", "堂姐"]
 pronunciations = ["堂姐: tang jie (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of father's brother"
 definition = "a daughter of one's father's brother, who is older than oneself (a cousin)"
 existing_by_lemma = ["堂姊 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "堂姐 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["El;Pa;Sb;Da", "Fa;Br;Da"]
 ancestors = ["El;Pa;Sb;Da", "Fa;Br;Da", "El;Pa;Sb;Ch", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "Pa;Sb;Da", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["堂姊 <- Wiktionary", "堂姐 <- Wiktionary"]
+sources = ["堂姊 <- Wiktionary", "堂姐 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Yn;Fa;Br;Da"]
 lemmas = ["堂妹"]
 pronunciations = ["堂妹: tang mei (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of father's brother"
 definition = "a daughter of one's father's brother, who is younger than oneself (a cousin)"
 existing_by_lemma = ["堂妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Fa;Br;Da", "Yn;Pa;Sb;Da"]
 ancestors = ["Fa;Br;Da", "Yn;Pa;Sb;Da", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "Pa;Sb;Da", "Yn;Pa;Sb;Ch", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["堂妹 <- Wiktionary"]
+sources = ["堂妹 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["El;Fa;Ss;So"]
 lemmas = ["表兄", "表哥"]
 pronunciations = ["表哥: gu biao ge (romanization)", "表哥: yi biao ge (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of father's sister"
 definition = "a son of one's father's sister, who is older than oneself (a cousin)"
 existing_by_lemma = ["表兄 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表哥 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["El;Pa;Sb;So", "Fa;Ss;So"]
 ancestors = ["El;Pa;Sb;So", "Fa;Ss;So", "El;Br|El;Pa;Sb;So", "El;Pa;Sb;Ch", "Fa;Sb;So", "Fa;Ss;Ch", "Fa;Ss;So|Mo;Br;So", "Pa;Sb;So", "Pa;Ss;So", "Br|Pa;Sb;So", "Fa;Sb;Ch", "Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;Ch", "Pa;Ss;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表兄 <- Wiktionary", "表哥 <- Wiktionary"]
+sources = ["表兄 <- Wiktionary", "表哥 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Yn;Fa;Ss;So"]
 lemmas = ["表弟"]
 pronunciations = ["表弟: gu biao di (romanization)", "表弟: yi biao di (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of father's sister"
 definition = "a son of one's father's sister, who is younger than oneself (a cousin)"
 existing_by_lemma = ["表弟 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Fa;Ss;So", "Yn;Pa;Sb;So"]
 ancestors = ["Fa;Ss;So", "Yn;Pa;Sb;So", "Fa;Sb;So", "Fa;Ss;Ch", "Fa;Ss;So|Mo;Br;So", "Pa;Sb;So", "Pa;Ss;So", "Yn;Pa;Sb;Ch", "Br|Pa;Sb;So", "Fa;Sb;Ch", "Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;Ch", "Pa;Ss;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表弟 <- Wiktionary"]
+sources = ["表弟 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["El;Fa;Ss;Da"]
 lemmas = ["表姊", "表姐"]
 pronunciations = ["表姐: gu biao jie (romanization)", "表姐: yi biao jie (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of father's sister"
 definition = "a daughter of one's father's sister, who is older than oneself (a cousin)"
 existing_by_lemma = ["表姊 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表姐 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["El;Pa;Sb;Da", "Fa;Ss;Da"]
 ancestors = ["El;Pa;Sb;Da", "Fa;Ss;Da", "El;Pa;Sb;Ch", "Fa;Sb;Da", "Fa;Ss;Ch", "Fa;Ss;Da|Mo;Br;Da", "Pa;Sb;Da", "Pa;Ss;Da", "Fa;Sb;Ch", "Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Ss;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表姊 <- Wiktionary", "表姐 <- Wiktionary"]
+sources = ["表姊 <- Wiktionary", "表姐 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Yn;Fa;Ss;Da"]
 lemmas = ["表妹"]
 pronunciations = ["表妹: gu biao mei (romanization)", "表妹: yi biao mei (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of father's sister"
 definition = "a daughter of one's father's sister, who is younger than oneself (a cousin)"
 existing_by_lemma = ["表妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Fa;Ss;Da", "Yn;Pa;Sb;Da"]
 ancestors = ["Fa;Ss;Da", "Yn;Pa;Sb;Da", "Fa;Sb;Da", "Fa;Ss;Ch", "Fa;Ss;Da|Mo;Br;Da", "Pa;Sb;Da", "Pa;Ss;Da", "Yn;Pa;Sb;Ch", "Fa;Sb;Ch", "Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Ss;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表妹 <- TUFS, Wiktionary"]
+sources = ["表妹 <- Kinbank, TUFS, Wiktionary"]
 comment = ""
 
 ["El;Mo;Sb;So"]
 lemmas = ["表兄", "表哥"]
 pronunciations = ["表哥: gu biao ge (romanization)", "表哥: yi biao ge (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of mother's sibling"
 definition = "a son of one's mother's sibling, who is older than oneself (a cousin)"
 existing_by_lemma = ["表兄 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表哥 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["El;Pa;Sb;So", "Mo;Sb;So"]
 ancestors = ["El;Pa;Sb;So", "Mo;Sb;So", "El;Br|El;Pa;Sb;So", "El;Pa;Sb;Ch", "Mo;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表兄 <- Wiktionary", "表哥 <- Wiktionary"]
+sources = ["表兄 <- Wiktionary", "表哥 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Yn;Mo;Sb;So"]
 lemmas = ["表弟"]
 pronunciations = ["表弟: gu biao di (romanization)", "表弟: yi biao di (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of mother's sibling"
 definition = "a son of one's mother's sibling, who is younger than oneself (a cousin)"
 existing_by_lemma = ["表弟 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Mo;Sb;So", "Yn;Pa;Sb;So"]
 ancestors = ["Mo;Sb;So", "Yn;Pa;Sb;So", "Mo;Sb;Ch", "Pa;Sb;So", "Yn;Pa;Sb;Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表弟 <- Wiktionary"]
+sources = ["表弟 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["El;Mo;Sb;Da"]
 lemmas = ["表姊", "表姐"]
 pronunciations = ["表姐: gu biao jie (romanization)", "表姐: yi biao jie (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling, who is older than oneself (a cousin)"
 existing_by_lemma = ["表姊 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle", "表姐 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["El;Pa;Sb;Da", "Mo;Sb;Da"]
 ancestors = ["El;Pa;Sb;Da", "Mo;Sb;Da", "El;Pa;Sb;Ch", "Mo;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表姊 <- Wiktionary", "表姐 <- Wiktionary"]
+sources = ["表姊 <- Wiktionary", "表姐 <- Kinbank, Wiktionary"]
 comment = ""
 
 ["Yn;Mo;Sb;Da"]
 lemmas = ["表妹"]
 pronunciations = ["表妹: gu biao mei (romanization)", "表妹: yi biao mei (romanization)"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling, who is younger than oneself (a cousin)"
 existing_by_lemma = ["表妹 -> omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Mo;Sb;Da", "Yn;Pa;Sb;Da"]
 ancestors = ["Mo;Sb;Da", "Yn;Pa;Sb;Da", "Mo;Sb;Ch", "Pa;Sb;Da", "Yn;Pa;Sb;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表妹 <- TUFS, Wiktionary"]
+sources = ["表妹 <- Kinbank, TUFS, Wiktionary"]
 comment = ""
 
 ["Rel"]
-lemmas = []
-status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+lemmas = ["亲属", "亲戚", "家属"]
+english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
 existing_by_ili = ["omw-cmn omw-cmn-10235549-n [i90856] 亲属, 亲戚, 家属: (CILI) a person related by blood or marriage"]
+existing_by_lemma = ["亲属 -> omw-cmn omw-cmn-10235549-n [i90856] 亲属, 亲戚, 家属: (CILI) a person related by blood or marriage", "亲戚 -> omw-cmn omw-cmn-10235549-n [i90856] 亲属, 亲戚, 家属: (CILI) a person related by blood or marriage", "家属 -> omw-cmn omw-cmn-10235549-n [i90856] 亲属, 亲戚, 家属: (CILI) a person related by blood or marriage"]
+existing_hidden = 5  # other senses of these lemmas
 hypernyms = []
 ancestors = []
+sources = ["亲属 <- omw-cmn", "亲戚 <- omw-cmn", "家属 <- omw-cmn"]
 comment = ""
 
 ["Unc"]
-lemmas = []
-status = "unlexicalized: no cmn word; included for the hierarchy"
+lemmas = ["伯伯", "伯父", "叔伯", "叔叔", "叔父", "姑丈", "姑父", "姨丈", "姨父", "舅父", "舅舅"]
+pronunciations = ["伯父: bo fu (romanization)", "叔父: shu fu (romanization)", "舅父: jiu fu (romanization)"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 existing_by_ili = ["omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["伯伯 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "伯父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "伯父 -> tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt", "叔伯 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "叔叔 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "叔父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "叔父 -> tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt", "姑丈 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姑父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姨丈 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姨父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "舅父 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt", "舅父 -> tufs-zh tufs-zh-10736091-n [i93825] 伯父, 叔父, 姑夫, 舅父, 姨夫: (CILI) the brother of your father or mother; the husband of your aunt", "舅舅 -> omw-cmn omw-cmn-10736091-n [i93825] 伯伯, 伯父, 叔伯, 叔叔, 叔父, 姑丈, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["伯伯 <- omw-cmn", "伯父 <- omw-cmn", "叔伯 <- omw-cmn", "叔叔 <- omw-cmn", "叔父 <- omw-cmn", "姑丈 <- omw-cmn", "姑父 <- omw-cmn", "姨丈 <- omw-cmn", "姨父 <- omw-cmn", "舅父 <- omw-cmn", "舅舅 <- omw-cmn"]
 comment = ""
 
 ["Aun"]
-lemmas = []
-status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["aunt"]
+lemmas = ["伯母", "叔母", "妗", "妗母", "姑", "姑妈", "姑姑", "姑母", "姨", "姨妈", "姨母", "婶婶", "婶子", "婶母", "老大妈", "舅妈", "舅母", "阿姨"]
+pronunciations = ["姑姑: gu mu (romanization)", "姨母: yi ma (romanization)"]
+english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 existing_by_ili = ["omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "tufs-zh tufs-zh-09823502-n [i88357] 婶母, 姨母: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["伯母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "伯母 -> tufs-zh tufs-zh-16870-n [-] 伯母", "叔母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "妗 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "妗母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑妈 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑姑 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨妈 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨母 -> tufs-zh tufs-zh-09823502-n [i88357] 婶母, 姨母: (CILI) the sister of your father or mother; the wife of your uncle", "婶婶 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "婶子 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "婶母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "婶母 -> tufs-zh tufs-zh-09823502-n [i88357] 婶母, 姨母: (CILI) the sister of your father or mother; the wife of your uncle", "老大妈 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "舅妈 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "舅母 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿姨 -> omw-cmn omw-cmn-09823502-n [i88357] 伯母, 叔母, 妗, 妗母, 姑, 姑妈, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["伯母 <- omw-cmn", "叔母 <- omw-cmn", "妗 <- omw-cmn", "妗母 <- omw-cmn", "姑 <- omw-cmn", "姑妈 <- omw-cmn", "姑姑 <- omw-cmn", "姑母 <- omw-cmn", "姨 <- omw-cmn", "姨妈 <- omw-cmn", "姨母 <- omw-cmn", "婶婶 <- omw-cmn", "婶子 <- omw-cmn", "婶母 <- omw-cmn", "老大妈 <- omw-cmn", "舅妈 <- omw-cmn", "舅母 <- omw-cmn", "阿姨 <- omw-cmn"]
 comment = ""
 
 ["Pa;Ss;Hu"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of parent's sister"
 definition = "the husband of one's parent's sister (an uncle or aunt)"
@@ -698,7 +750,7 @@ comment = ""
 
 ["Fa;Ss;Hu"]
 lemmas = ["姑夫"]
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of father's sister"
 definition = "the husband of one's father's sister (an uncle or aunt)"
@@ -710,7 +762,7 @@ comment = ""
 
 ["Mo;Ss;Hu"]
 lemmas = ["姨夫"]
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of mother's sister"
 definition = "the husband of one's mother's sister (an uncle or aunt)"
@@ -723,7 +775,7 @@ comment = ""
 ["Pa;Br;Wi"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of parent's brother"
 definition = "the wife of one's parent's brother (an uncle or aunt)"
@@ -734,7 +786,7 @@ comment = ""
 ["Fa;Br;Wi"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's brother"
 definition = "the wife of one's father's brother (an uncle or aunt)"
@@ -744,7 +796,7 @@ comment = ""
 
 ["Fa;El;Br;Wi"]
 lemmas = ["伯母"]
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's elder brother"
 definition = "the wife of one's father's elder brother (an uncle or aunt)"
@@ -756,7 +808,7 @@ comment = ""
 
 ["Fa;Yn;Br;Wi"]
 lemmas = ["婶母"]
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's younger brother"
 definition = "the wife of one's father's younger brother (an uncle or aunt)"
@@ -767,94 +819,112 @@ sources = ["婶母 <- TUFS"]
 comment = ""
 
 ["Pa"]
-lemmas = ["父母"]
+lemmas = ["双亲之一", "父亲或母亲", "父母"]
 pronunciations = ["父母: fu mu (romanization)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["omw-cmn omw-cmn-10399491-n [i91858] 双亲之一, 父亲或母亲: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["父母 -> tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_by_lemma = ["双亲之一 -> omw-cmn omw-cmn-10399491-n [i91858] 双亲之一, 父亲或母亲: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "父亲或母亲 -> omw-cmn omw-cmn-10399491-n [i91858] 双亲之一, 父亲或母亲: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "父母 -> tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["父母 <- TUFS"]
+sources = ["双亲之一 <- omw-cmn", "父亲或母亲 <- omw-cmn", "父母 <- Kinbank, TUFS"]
 comment = ""
 
 ["Fa"]
-lemmas = ["父亲", "爸爸"]
-english = ["dad", "father"]
+lemmas = ["父", "父亲", "爸爸", "爹"]
+english = ["begetter", "dad", "father", "male parent"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)", "tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)"]
-existing_by_lemma = ["父亲 -> omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)", "父亲 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爸爸 -> omw-cmn omw-cmn-09988063-n [i89370] 爸, 爸爸, 爹, 爹爹: (CILI) an informal term for a father; probably derived from baby talk", "爸爸 -> omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)", "爸爸 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)"]
+existing_by_lemma = ["父 -> omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)", "父亲 -> omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)", "父亲 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爸爸 -> omw-cmn omw-cmn-09988063-n [i89370] 爸, 爸爸, 爹, 爹爹: (CILI) an informal term for a father; probably derived from baby talk", "爸爸 -> omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)", "爸爸 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爹 -> omw-cmn omw-cmn-09988063-n [i89370] 爸, 爸爸, 爹, 爹爹: (CILI) an informal term for a father; probably derived from baby talk", "爹 -> omw-cmn omw-cmn-10080869-n [i89901] 父, 父亲, 爸爸, 爹: (CILI) a male parent (also used as a term of address to your father)"]
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["父亲 <- TUFS", "爸爸 <- TUFS"]
+sources = ["父 <- omw-cmn", "父亲 <- TUFS, omw-cmn", "爸爸 <- TUFS, omw-cmn", "爹 <- omw-cmn"]
 comment = ""
 
 ["Mo"]
-lemmas = ["妈妈"]
-english = ["mom", "mother"]
+lemmas = ["妈妈", "娘", "母", "母亲"]
+english = ["female parent", "mom", "mother"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["omw-cmn omw-cmn-10332385-n [i91462] 妈妈, 娘, 母, 母亲: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["妈妈 -> omw-cmn omw-cmn-10332385-n [i91462] 妈妈, 娘, 母, 母亲: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "妈妈 -> tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["妈妈 -> omw-cmn omw-cmn-10332385-n [i91462] 妈妈, 娘, 母, 母亲: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "妈妈 -> tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "娘 -> omw-cmn omw-cmn-10332385-n [i91462] 妈妈, 娘, 母, 母亲: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母 -> omw-cmn omw-cmn-10332385-n [i91462] 妈妈, 娘, 母, 母亲: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母亲 -> omw-cmn omw-cmn-10332385-n [i91462] 妈妈, 娘, 母, 母亲: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["妈妈 <- TUFS"]
+sources = ["妈妈 <- TUFS, omw-cmn", "娘 <- omw-cmn", "母 <- omw-cmn", "母亲 <- omw-cmn"]
 comment = ""
 
 ["Ch"]
-lemmas = ["hai zi"]
-transcribed = ["hai zi"]  # romanized in the source; no word in the native script here
-english = ["child"]
+lemmas = ["儿子或女儿", "后代", "孩子", "小孩", "小孩儿", "小孩子"]
+pronunciations = ["孩子: hai zi (romanization)"]
+english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 existing_by_ili = ["omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age", "tufs-zh tufs-zh-09918248-n [i88965] 孩子: (CILI) a human offspring (son or daughter) of any age"]
+existing_by_lemma = ["儿子或女儿 -> omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age", "后代 -> omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age", "后代 -> omw-cmn omw-cmn-10373998-n [i91712] 后代, 后嗣, 后裔, 子孙: (CILI) the immediate descendants of a person", "孩子 -> omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age", "孩子 -> tufs-zh tufs-zh-09918248-n [i88965] 孩子: (CILI) a human offspring (son or daughter) of any age", "小孩 -> omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age", "小孩儿 -> omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age", "小孩子 -> omw-cmn omw-cmn-09918248-n [i88965] 儿子或女儿, 后代, 孩子, 小孩, 小孩儿, 小孩子: (CILI) a human offspring (son or daughter) of any age"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["hai zi <- Kinbank"]
+sources = ["儿子或女儿 <- omw-cmn", "后代 <- omw-cmn", "孩子 <- Kinbank, omw-cmn", "小孩 <- omw-cmn", "小孩儿 <- omw-cmn", "小孩子 <- omw-cmn"]
+comment = ""
+
+["Da"]
+lemmas = ["女儿"]
+english = ["daughter", "girl"]
+label = "daughter"
+definition = "a daughter of a person (a child)"
+existing_by_ili = ["omw-cmn omw-cmn-09992837-n [i89398] 女儿: (CILI) a female human offspring"]
+existing_by_lemma = ["女儿 -> omw-cmn omw-cmn-09992837-n [i89398] 女儿: (CILI) a female human offspring"]
+existing_hidden = 1  # other senses of these lemmas
+hypernyms = ["Br;Da|Da", "Ch"]
+ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
+sources = ["女儿 <- omw-cmn"]
 comment = ""
 
 ["Sp"]
-lemmas = []
-status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["spouse"]
+lemmas = ["夫妻", "配偶"]
+english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["omw-cmn omw-cmn-10640620-n [i93233] 夫妻, 配偶: (CILI) a person's partner in marriage"]
+existing_by_lemma = ["夫妻 -> omw-cmn omw-cmn-10640620-n [i93233] 夫妻, 配偶: (CILI) a person's partner in marriage", "配偶 -> omw-cmn omw-cmn-10640620-n [i93233] 夫妻, 配偶: (CILI) a person's partner in marriage"]
+existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["夫妻 <- omw-cmn", "配偶 <- omw-cmn"]
 comment = ""
 
 ["Hu"]
-lemmas = ["丈夫"]
-english = ["husband"]
+lemmas = ["丈夫", "先生", "相公", "老公"]
+english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
 existing_by_ili = ["omw-cmn omw-cmn-10193967-n [i90626] 丈夫, 先生, 相公, 老公: (CILI) a married man; a woman's partner in marriage", "tufs-zh tufs-zh-10193967-n [i90626] 丈夫: (CILI) a married man; a woman's partner in marriage"]
-existing_by_lemma = ["丈夫 -> omw-cmn omw-cmn-10193967-n [i90626] 丈夫, 先生, 相公, 老公: (CILI) a married man; a woman's partner in marriage", "丈夫 -> tufs-zh tufs-zh-10193967-n [i90626] 丈夫: (CILI) a married man; a woman's partner in marriage"]
+existing_by_lemma = ["丈夫 -> omw-cmn omw-cmn-10193967-n [i90626] 丈夫, 先生, 相公, 老公: (CILI) a married man; a woman's partner in marriage", "丈夫 -> tufs-zh tufs-zh-10193967-n [i90626] 丈夫: (CILI) a married man; a woman's partner in marriage", "先生 -> omw-cmn omw-cmn-10193967-n [i90626] 丈夫, 先生, 相公, 老公: (CILI) a married man; a woman's partner in marriage", "相公 -> omw-cmn omw-cmn-10193967-n [i90626] 丈夫, 先生, 相公, 老公: (CILI) a married man; a woman's partner in marriage", "老公 -> omw-cmn omw-cmn-10193967-n [i90626] 丈夫, 先生, 相公, 老公: (CILI) a married man; a woman's partner in marriage"]
+existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["丈夫 <- TUFS"]
+sources = ["丈夫 <- TUFS, omw-cmn", "先生 <- omw-cmn", "相公 <- omw-cmn", "老公 <- omw-cmn"]
 comment = ""
 
 ["Wi"]
-lemmas = ["妻子", "老婆"]
-english = ["wife"]
+lemmas = ["太太", "妻子", "爱人", "老婆"]
+english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage"]
-existing_by_lemma = ["妻子 -> omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "妻子 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage", "老婆 -> omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "老婆 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage"]
+existing_by_lemma = ["太太 -> omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "妻子 -> omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "妻子 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage", "爱人 -> omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "老婆 -> omw-cmn omw-cmn-10780632-n [i94123] 太太, 妻子, 爱人, 老婆: (CILI) a married woman; a man's partner in marriage", "老婆 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage"]
+existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["妻子 <- TUFS", "老婆 <- TUFS"]
+sources = ["太太 <- omw-cmn", "妻子 <- TUFS, omw-cmn", "爱人 <- omw-cmn", "老婆 <- TUFS, omw-cmn"]
 comment = ""
 
 ["InL"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 label = "in-law"
 definition = "a relative by marriage"
 hypernyms = ["Rel"]
@@ -864,7 +934,7 @@ comment = ""
 ["o;Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling (female anchor)"
 definition = "a son of a woman's father's sibling (a cousin)"
@@ -875,7 +945,7 @@ comment = ""
 ["x;Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling (male anchor)"
 definition = "a daughter of a man's father's sibling (a cousin)"
@@ -886,7 +956,7 @@ comment = ""
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father or father's brother"
 definition = "the father of a person or a brother of one's father"
@@ -897,7 +967,7 @@ comment = ""
 ["Mo|Mo;Ss"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or mother's sister"
 definition = "the mother of a person or a sister of one's mother"
@@ -908,7 +978,7 @@ comment = ""
 ["Fa;Ss;Ch|Mo;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's child or mother's brother's child"
 definition = "a child of one's father's sister or a child of one's mother's brother"
@@ -919,7 +989,7 @@ comment = ""
 ["Ch;Ch|Pa;Pa"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or parent's parent"
 definition = "a child of one's child or a parent of one's parent"
@@ -930,7 +1000,7 @@ comment = ""
 ["Mo|Pa;Ss"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or parent's sister"
 definition = "the mother of a person or a sister of one's parent"
@@ -941,7 +1011,7 @@ comment = ""
 ["Fa;Ss;So|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
@@ -952,7 +1022,7 @@ comment = ""
 ["Pa;Sb;Ch|Sb"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's child or sibling"
 definition = "a child of one's parent's sibling or a sibling of a person"
@@ -963,7 +1033,7 @@ comment = ""
 ["Br;So|So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's son or son"
 definition = "a son of one's brother or a son of a person"
@@ -974,7 +1044,7 @@ comment = ""
 ["Fa;Ss;Da|Mo;Br;Da"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's daughter or mother's brother's daughter"
 definition = "a daughter of one's father's sister or a daughter of one's mother's brother"
@@ -985,7 +1055,7 @@ comment = ""
 ["o;Br|x;Ss"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's brother or man's sister"
 definition = "a brother of a woman or a sister of a man"
@@ -996,7 +1066,7 @@ comment = ""
 ["Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child or sibling's child"
 definition = "a child of a person or a child of one's sibling"
@@ -1007,7 +1077,7 @@ comment = ""
 ["Mo;Br|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or mother's brother's son"
 definition = "a brother of one's mother or a son of one's mother's brother"
@@ -1018,7 +1088,7 @@ comment = ""
 ["Br;Da|Da"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's daughter or daughter"
 definition = "a daughter of one's brother or a daughter of a person"
@@ -1029,7 +1099,7 @@ comment = ""
 ["El;Br|El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "elder brother or parent's sibling's son (older than self)"
 definition = "an elder brother of a person or a son of one's parent's sibling, who is older than oneself"
@@ -1051,7 +1121,7 @@ comment = ""
 ["Mo;Br|Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or sister's child"
 definition = "a brother of one's mother or a child of one's sister"
@@ -1062,7 +1132,7 @@ comment = ""
 ["o;Yn;Ss|x;Yn;Br"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's younger sister or man's younger brother"
 definition = "a younger sister of a woman or a younger brother of a man"
@@ -1073,7 +1143,7 @@ comment = ""
 ["Ch;So|Pa;Fa"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's son or parent's father"
 definition = "a son of one's child or the father of one's parent"
@@ -1084,7 +1154,7 @@ comment = ""
 ["o;Br|o;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's brother or woman's parent's sibling's son"
 definition = "a brother of a woman or a son of a woman's parent's sibling"
@@ -1095,7 +1165,7 @@ comment = ""
 ["x;Pa;Sb;Da|x;Ss"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's parent's sibling's daughter or man's sister"
 definition = "a daughter of a man's parent's sibling or a sister of a man"
@@ -1106,7 +1176,7 @@ comment = ""
 ["Sb;So|So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "sibling's son or son"
 definition = "a son of one's sibling or a son of a person"
@@ -1117,7 +1187,7 @@ comment = ""
 ["Ch;Da|Pa;Mo"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's daughter or parent's mother"
 definition = "a daughter of one's child or the mother of one's parent"
@@ -1128,7 +1198,7 @@ comment = ""
 ["Mo;Br|x;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or man's sister's child"
 definition = "a brother of one's mother or a child of a man's sister"
@@ -1139,7 +1209,7 @@ comment = ""
 ["Fa;Fa|x;So;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's father or man's son's child"
 definition = "the father of one's father or a child of a man's son"
@@ -1150,7 +1220,7 @@ comment = ""
 ["o;El;Ss|x;El;Br"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's elder sister or man's elder brother"
 definition = "an elder sister of a woman or an elder brother of a man"
@@ -1161,7 +1231,7 @@ comment = ""
 ["Da|Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "daughter or sibling's daughter"
 definition = "a daughter of a person or a daughter of one's sibling"
@@ -1172,7 +1242,7 @@ comment = ""
 ["Br;Ch|Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's child or child"
 definition = "a child of one's brother or a child of a person"
@@ -1183,7 +1253,7 @@ comment = ""
 ["Mo;Fa|x;Da;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's father or man's daughter's child"
 definition = "the father of one's mother or a child of a man's daughter"
@@ -1194,7 +1264,7 @@ comment = ""
 ["Fa;Mo|o;So;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's mother or woman's son's child"
 definition = "the mother of one's father or a child of a woman's son"
@@ -1205,7 +1275,7 @@ comment = ""
 ["o;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sister's child"
 definition = "a child of a woman's sister (a nephew or niece)"
@@ -1216,7 +1286,7 @@ comment = ""
 ["Br|Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother or parent's sibling's son"
 definition = "a brother of a person or a son of one's parent's sibling"
@@ -1227,7 +1297,7 @@ comment = ""
 ["Pa;Sb;Da|Ss"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's daughter or sister"
 definition = "a daughter of one's parent's sibling or a sister of a person"
@@ -1238,7 +1308,7 @@ comment = ""
 ["Ch;Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
@@ -1249,7 +1319,7 @@ comment = ""
 ["x;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's brother's child"
 definition = "a child of a man's brother (a nephew or niece)"
@@ -1260,22 +1330,12 @@ comment = ""
 ["o;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
 hypernyms = ["Sb;Ch"]
 ancestors = ["Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-comment = ""
-
-["Gr;Fa"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "grandfather"
-definition = "the father of one's parent (a grandparent)"
-existing_by_ili = ["omw-cmn omw-cmn-10142391-n [i90287] 外公, 外祖父, 爷爷, 祖父: (CILI) the father of your father or mother", "tufs-zh tufs-zh-10142391-n [i90287] 爷爷: (CILI) the father of your father or mother"]
-hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
-ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Fa;Pr"]
@@ -1303,16 +1363,6 @@ label = "grandparent (female anchor)"
 definition = "a parent of a woman's parent (a grandparent)"
 hypernyms = ["Gr;Pr"]
 ancestors = ["Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-comment = ""
-
-["Gr;Mo"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "grandmother"
-definition = "the mother of one's parent (a grandparent)"
-existing_by_ili = ["omw-cmn omw-cmn-10142747-n [i90289] 外婆, 外祖母, 奶奶, 祖母: (CILI) the mother of your father or mother", "tufs-zh tufs-zh-10142747-n [i90289] 奶奶, 姥姥: (CILI) the mother of your father or mother"]
-hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
-ancestors = ["Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["x;Gr;Fa"]
@@ -1666,16 +1716,6 @@ hypernyms = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["Sb;So"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "nephew"
-definition = "a son of one's sibling (a nephew or niece)"
-existing_by_ili = ["omw-cmn omw-cmn-10353355-n [i91586] 侄, 侄子, 外甥: (CILI) a son of your brother or sister"]
-hypernyms = ["Sb;Ch", "Sb;So|So"]
-ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-comment = ""
-
 ["Sb;Da"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
@@ -1845,16 +1885,6 @@ label = "younger sister's child (female anchor)"
 definition = "a child of a woman's younger sister (a nephew or niece)"
 hypernyms = ["Yn;Ss;Ch", "o;Ss;Ch"]
 ancestors = ["Yn;Ss;Ch", "o;Ss;Ch", "Ss;Ch", "o;Sb;Ch", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-comment = ""
-
-["Pa;Sb;Ch"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "cousin"
-definition = "a child of one's parent's sibling (a cousin)"
-existing_by_ili = ["omw-cmn omw-cmn-09972010-n [i89276] 堂兄, 堂兄弟姊妹, 堂哥, 堂妹, 堂姊, 堂姐, ...: (CILI) the child of your aunt or uncle"]
-hypernyms = ["Pa;Sb;Ch|Sb"]
-ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["o;Pa;Sb;Ch"]

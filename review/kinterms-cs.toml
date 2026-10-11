@@ -9,7 +9,7 @@
 
 ["Gr;Fa"]
 lemmas = ["děd", "děda", "dědeček"]
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
 hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
@@ -19,7 +19,7 @@ comment = ""
 
 ["Gr;Mo"]
 lemmas = ["babička"]
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
@@ -30,7 +30,7 @@ comment = ""
 ["Fa;Fa"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
@@ -41,7 +41,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -125,7 +125,7 @@ comment = ""
 
 ["Sb"]
 lemmas = ["sourozenec"]
-english = ["sibling"]
+english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 hypernyms = ["Pa;Sb;Ch|Sb"]
@@ -135,7 +135,7 @@ comment = ""
 
 ["Br"]
 lemmas = ["bratr"]
-english = ["brother"]
+english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
@@ -145,7 +145,7 @@ comment = ""
 
 ["Ss"]
 lemmas = ["sestra"]
-english = ["sister"]
+english = ["female sibling", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
@@ -156,8 +156,7 @@ comment = ""
 ["El;Br"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["brother"]
-english_via = "Br"
+english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 hypernyms = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb"]
@@ -167,8 +166,7 @@ comment = ""
 ["El;Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["sister"]
-english_via = "Ss"
+english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 hypernyms = ["El;Sb", "Ss"]
@@ -178,8 +176,7 @@ comment = ""
 ["Yn;Br"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["brother"]
-english_via = "Br"
+english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
 hypernyms = ["Br", "Yn;Sb"]
@@ -189,8 +186,7 @@ comment = ""
 ["Yn;Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["sister"]
-english_via = "Ss"
+english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 hypernyms = ["Ss", "Yn;Sb"]
@@ -283,7 +279,7 @@ comment = ""
 
 ["Pa;Sb;So"]
 lemmas = ["bratranec"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
 definition = "a son of one's parent's sibling (a cousin)"
@@ -294,7 +290,7 @@ comment = ""
 
 ["Pa;Sb;Da"]
 lemmas = ["sestřenice"]
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
 definition = "a daughter of one's parent's sibling (a cousin)"
@@ -306,7 +302,7 @@ comment = ""
 ["El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder male cousin"
 definition = "a son of one's parent's sibling, who is older than oneself (a cousin)"
@@ -317,7 +313,7 @@ comment = ""
 ["El;Pa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder female cousin"
 definition = "a daughter of one's parent's sibling, who is older than oneself (a cousin)"
@@ -328,7 +324,7 @@ comment = ""
 ["Yn;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger male cousin"
 definition = "a son of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -339,7 +335,7 @@ comment = ""
 ["Yn;Pa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger female cousin"
 definition = "a daughter of one's parent's sibling, who is younger than oneself (a cousin)"
@@ -350,7 +346,7 @@ comment = ""
 ["Pa;Br;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of parent's brother"
 definition = "a son of one's parent's brother (a cousin)"
@@ -361,7 +357,7 @@ comment = ""
 ["Pa;Br;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of parent's brother"
 definition = "a daughter of one's parent's brother (a cousin)"
@@ -372,7 +368,7 @@ comment = ""
 ["Pa;Ss;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of parent's sister"
 definition = "a son of one's parent's sister (a cousin)"
@@ -383,7 +379,7 @@ comment = ""
 ["Pa;Ss;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of parent's sister"
 definition = "a daughter of one's parent's sister (a cousin)"
@@ -394,7 +390,7 @@ comment = ""
 ["Mo;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of mother's sibling"
 definition = "a son of one's mother's sibling (a cousin)"
@@ -405,7 +401,7 @@ comment = ""
 ["Mo;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of mother's sibling"
 definition = "a daughter of one's mother's sibling (a cousin)"
@@ -416,7 +412,7 @@ comment = ""
 ["Rel"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
 hypernyms = []
@@ -436,7 +432,7 @@ comment = ""
 ["Aun"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["aunt"]
+english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 hypernyms = ["Rel"]
@@ -455,7 +451,7 @@ comment = ""
 
 ["Ch"]
 lemmas = ["dítě"]
-english = ["child"]
+english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 hypernyms = ["Br;Ch|Ch"]
@@ -465,7 +461,7 @@ comment = ""
 
 ["Sp"]
 lemmas = ["choť"]
-english = ["spouse"]
+english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 hypernyms = ["Rel"]
@@ -476,7 +472,7 @@ comment = ""
 ["InL"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["in-law"]
+english = ["in-law", "relative-in-law"]
 label = "in-law"
 definition = "a relative by marriage"
 hypernyms = ["Rel"]
@@ -516,7 +512,7 @@ comment = ""
 ["o;Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling (female anchor)"
 definition = "a son of a woman's father's sibling (a cousin)"
@@ -527,7 +523,7 @@ comment = ""
 ["x;Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling (male anchor)"
 definition = "a daughter of a man's father's sibling (a cousin)"
@@ -538,7 +534,7 @@ comment = ""
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father or father's brother"
 definition = "the father of a person or a brother of one's father"
@@ -549,7 +545,7 @@ comment = ""
 ["Mo|Mo;Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or mother's sister"
 definition = "the mother of a person or a sister of one's mother"
@@ -560,7 +556,7 @@ comment = ""
 ["Fa;Ss;Ch|Mo;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's child or mother's brother's child"
 definition = "a child of one's father's sister or a child of one's mother's brother"
@@ -571,7 +567,7 @@ comment = ""
 ["Ch;Ch|Pa;Pa"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or parent's parent"
 definition = "a child of one's child or a parent of one's parent"
@@ -582,7 +578,7 @@ comment = ""
 ["Mo|Pa;Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or parent's sister"
 definition = "the mother of a person or a sister of one's parent"
@@ -593,7 +589,7 @@ comment = ""
 ["Fa;Ss;So|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
@@ -604,7 +600,7 @@ comment = ""
 ["Pa;Sb;Ch|Sb"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's child or sibling"
 definition = "a child of one's parent's sibling or a sibling of a person"
@@ -615,7 +611,7 @@ comment = ""
 ["Br;So|So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's son or son"
 definition = "a son of one's brother or a son of a person"
@@ -626,7 +622,7 @@ comment = ""
 ["Fa;Ss;Da|Mo;Br;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "father's sister's daughter or mother's brother's daughter"
 definition = "a daughter of one's father's sister or a daughter of one's mother's brother"
@@ -637,7 +633,7 @@ comment = ""
 ["o;Br|x;Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's brother or man's sister"
 definition = "a brother of a woman or a sister of a man"
@@ -648,7 +644,7 @@ comment = ""
 ["Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child or sibling's child"
 definition = "a child of a person or a child of one's sibling"
@@ -659,7 +655,7 @@ comment = ""
 ["Mo;Br|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or mother's brother's son"
 definition = "a brother of one's mother or a son of one's mother's brother"
@@ -670,7 +666,7 @@ comment = ""
 ["Br;Da|Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's daughter or daughter"
 definition = "a daughter of one's brother or a daughter of a person"
@@ -681,7 +677,7 @@ comment = ""
 ["El;Br|El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "elder brother or parent's sibling's son (older than self)"
 definition = "an elder brother of a person or a son of one's parent's sibling, who is older than oneself"
@@ -703,7 +699,7 @@ comment = ""
 ["Mo;Br|Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or sister's child"
 definition = "a brother of one's mother or a child of one's sister"
@@ -714,7 +710,7 @@ comment = ""
 ["o;Yn;Ss|x;Yn;Br"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's younger sister or man's younger brother"
 definition = "a younger sister of a woman or a younger brother of a man"
@@ -725,7 +721,7 @@ comment = ""
 ["Ch;So|Pa;Fa"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's son or parent's father"
 definition = "a son of one's child or the father of one's parent"
@@ -736,7 +732,7 @@ comment = ""
 ["o;Br|o;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's brother or woman's parent's sibling's son"
 definition = "a brother of a woman or a son of a woman's parent's sibling"
@@ -747,7 +743,7 @@ comment = ""
 ["x;Pa;Sb;Da|x;Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's parent's sibling's daughter or man's sister"
 definition = "a daughter of a man's parent's sibling or a sister of a man"
@@ -758,7 +754,7 @@ comment = ""
 ["Sb;So|So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "sibling's son or son"
 definition = "a son of one's sibling or a son of a person"
@@ -769,7 +765,7 @@ comment = ""
 ["Ch;Da|Pa;Mo"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's daughter or parent's mother"
 definition = "a daughter of one's child or the mother of one's parent"
@@ -780,7 +776,7 @@ comment = ""
 ["Mo;Br|x;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or man's sister's child"
 definition = "a brother of one's mother or a child of a man's sister"
@@ -791,7 +787,7 @@ comment = ""
 ["Fa;Fa|x;So;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's father or man's son's child"
 definition = "the father of one's father or a child of a man's son"
@@ -802,7 +798,7 @@ comment = ""
 ["o;El;Ss|x;El;Br"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "woman's elder sister or man's elder brother"
 definition = "an elder sister of a woman or an elder brother of a man"
@@ -813,7 +809,7 @@ comment = ""
 ["Da|Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "daughter or sibling's daughter"
 definition = "a daughter of a person or a daughter of one's sibling"
@@ -824,7 +820,7 @@ comment = ""
 ["Br;Ch|Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's child or child"
 definition = "a child of one's brother or a child of a person"
@@ -835,7 +831,7 @@ comment = ""
 ["Mo;Fa|x;Da;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's father or man's daughter's child"
 definition = "the father of one's mother or a child of a man's daughter"
@@ -846,7 +842,7 @@ comment = ""
 ["Fa;Mo|o;So;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's mother or woman's son's child"
 definition = "the mother of one's father or a child of a woman's son"
@@ -857,7 +853,7 @@ comment = ""
 ["o;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sister's child"
 definition = "a child of a woman's sister (a nephew or niece)"
@@ -868,7 +864,7 @@ comment = ""
 ["Br|Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother or parent's sibling's son"
 definition = "a brother of a person or a son of one's parent's sibling"
@@ -879,7 +875,7 @@ comment = ""
 ["Pa;Sb;Da|Ss"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's daughter or sister"
 definition = "a daughter of one's parent's sibling or a sister of a person"
@@ -890,7 +886,7 @@ comment = ""
 ["Ch;Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
@@ -901,7 +897,7 @@ comment = ""
 ["x;Br;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "man's brother's child"
 definition = "a child of a man's brother (a nephew or niece)"
@@ -912,7 +908,7 @@ comment = ""
 ["o;Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
@@ -923,7 +919,7 @@ comment = ""
 ["Fa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "son of father's sibling"
 definition = "a son of one's father's sibling (a cousin)"
@@ -934,7 +930,7 @@ comment = ""
 ["Fa;Sb;Da"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["cousin"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"

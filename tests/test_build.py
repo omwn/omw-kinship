@@ -267,3 +267,12 @@ def test_script_of() -> None:
     assert build.script_of("堂姐") == "Hani"
     assert build.script_of("tang jie") == "Latn"
     assert build.script_of("お兄さん") == "Jpan"
+
+
+def test_wordnet_words_are_for_exactly_linked_concepts() -> None:
+    concepts = build.read_concepts()
+    rows = build.read_tsv(build.CANDIDATES / "wordnet-words.tsv")
+    assert rows
+    wrong = [r for r in rows if concepts[r["concept"]].ili != r["ili"]]
+    assert not wrong
+    assert not any(r["source"].startswith("tufs-") for r in rows)

@@ -7,35 +7,49 @@
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
 
+["Gr;Pr"]
+lemmas = ["datuk", "nenek"]
+english = ["grandparent"]
+label = "grandparent"
+definition = "a parent of one's parent (a grandparent)"
+existing_by_ili = ["omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother"]
+existing_by_lemma = ["datuk -> omw-id omw-id-10142391-n [i90287] nenda, nenenda, datuk, nenekanda: (CILI) the father of your father or mother", "datuk -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "nenek -> omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "nenek -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "nenek -> tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother"]
+existing_hidden = 3  # other senses of these lemmas
+hypernyms = ["Ch;Ch|Pa;Pa"]
+ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
+sources = ["datuk <- omw-id", "nenek <- omw-id"]
+comment = ""
+
 ["Gr;Fa"]
-lemmas = ["engkong", "kakek"]
-english = ["gramps", "grandfather", "grandpa"]
+lemmas = ["datuk", "engkong", "kakek", "nenda", "nenekanda", "nenenda"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
 existing_by_ili = ["omw-id omw-id-10142391-n [i90287] nenda, nenenda, datuk, nenekanda: (CILI) the father of your father or mother", "tufs-id tufs-id-10142391-n [i90287] kakek: (CILI) the father of your father or mother"]
-existing_by_lemma = ["kakek -> tufs-id tufs-id-10142391-n [i90287] kakek: (CILI) the father of your father or mother"]
+existing_by_lemma = ["datuk -> omw-id omw-id-10142391-n [i90287] nenda, nenenda, datuk, nenekanda: (CILI) the father of your father or mother", "datuk -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "kakek -> tufs-id tufs-id-10142391-n [i90287] kakek: (CILI) the father of your father or mother", "nenda -> omw-id omw-id-10142391-n [i90287] nenda, nenenda, datuk, nenekanda: (CILI) the father of your father or mother", "nenekanda -> omw-id omw-id-10142391-n [i90287] nenda, nenenda, datuk, nenekanda: (CILI) the father of your father or mother", "nenenda -> omw-id omw-id-10142391-n [i90287] nenda, nenenda, datuk, nenekanda: (CILI) the father of your father or mother"]
+existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
 ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["engkong <- Wiktionary", "kakek <- Kinbank, TUFS, Wiktionary"]
+sources = ["datuk <- omw-id", "engkong <- Wiktionary", "kakek <- Kinbank, TUFS, Wiktionary", "nenda <- omw-id", "nenekanda <- omw-id", "nenenda <- omw-id"]
 comment = ""
 
 ["Gr;Mo"]
-lemmas = ["nenek", "nénék"]
-english = ["grandma", "grandmother", "granny"]
+lemmas = ["nek", "nenek", "nénék"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother"]
-existing_by_lemma = ["nenek -> omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "nenek -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "nenek -> tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother", "nénék -> omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "nénék -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "nénék -> tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother"]
+existing_by_lemma = ["nek -> omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "nenek -> omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "nenek -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "nenek -> tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother", "nénék -> omw-id omw-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "nénék -> omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother", "nénék -> tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother"]
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
 ancestors = ["Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["nenek <- TUFS, Wiktionary", "nénék <- Kinbank"]
+sources = ["nek <- omw-id", "nenek <- TUFS, Wiktionary, omw-id", "nénék <- Kinbank"]
 comment = ""
 
 ["Fa;Fa"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["gramps", "grandfather", "grandpa"]
+english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Gr;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
@@ -46,7 +60,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["grandma", "grandmother", "granny"]
+english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 english_via = "Gr;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -55,33 +69,46 @@ ancestors = ["Gr;Mo", "Mo;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Gr;Ch"]
-lemmas = ["tjutju"]
+lemmas = ["cucu", "cucunda", "tjutju"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
 existing_by_ili = ["omw-id omw-id-10141590-n [i90280] cucu, cucunda: (CILI) a child of your son or daughter"]
+existing_by_lemma = ["cucu -> omw-id omw-id-10141590-n [i90280] cucu, cucunda: (CILI) a child of your son or daughter", "cucu -> omw-id omw-id-10143299-n [i90293] cucu: (CILI) a male grandchild", "cucunda -> omw-id omw-id-10141590-n [i90280] cucu, cucunda: (CILI) a child of your son or daughter"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["tjutju <- Kinbank"]
+sources = ["cucu <- omw-id", "cucunda <- omw-id", "tjutju <- Kinbank"]
+comment = ""
+
+["Gr;So"]
+lemmas = ["cucu"]
+english = ["grandson"]
+label = "grandson"
+definition = "a son of one's child (a grandchild)"
+existing_by_ili = ["omw-id omw-id-10143299-n [i90293] cucu: (CILI) a male grandchild"]
+existing_by_lemma = ["cucu -> omw-id omw-id-10141590-n [i90280] cucu, cucunda: (CILI) a child of your son or daughter", "cucu -> omw-id omw-id-10143299-n [i90293] cucu: (CILI) a male grandchild"]
+hypernyms = ["Ch;So|Pa;Fa", "Gr;Ch"]
+ancestors = ["Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+sources = ["cucu <- omw-id"]
 comment = ""
 
 ["Sb"]
-lemmas = ["saudara"]
-english = ["sibling"]
+lemmas = ["adik", "adik-beradik", "saudara", "saudara kandung"]
+english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 existing_by_ili = ["omw-id omw-id-10595164-n [i92980] adik, adik-beradik, saudara kandung: (CILI) a person's brother or sister"]
-existing_by_lemma = ["saudara -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara -> omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage", "saudara -> tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister", "saudara -> tufs-id tufs-id-10286084-n [i91174] saudara: (CILI) a sibling who is male", "saudara -> tufs-id tufs-id-09876454-n [i88708] saudara: (CILI) a male with the same parents as someone else"]
-existing_hidden = 8  # other senses of these lemmas
+existing_by_lemma = ["adik -> omw-id omw-id-09876454-n [i88708] adik, adinda, kakanda, kanda, abang: (CILI) a male with the same parents as someone else", "adik -> omw-id omw-id-10595164-n [i92980] adik, adik-beradik, saudara kandung: (CILI) a person's brother or sister", "adik -> omw-id omw-id-10654321-n [i93307] adik, saudara tiri: (CILI) a brother who has only one parent in common with you", "adik-beradik -> omw-id omw-id-10595164-n [i92980] adik, adik-beradik, saudara kandung: (CILI) a person's brother or sister", "saudara -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara -> omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage", "saudara -> tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister", "saudara -> tufs-id tufs-id-10286084-n [i91174] saudara: (CILI) a sibling who is male", "saudara -> tufs-id tufs-id-09876454-n [i88708] saudara: (CILI) a male with the same parents as someone else", "saudara kandung -> omw-id omw-id-10595164-n [i92980] adik, adik-beradik, saudara kandung: (CILI) a person's brother or sister"]
+existing_hidden = 9  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["saudara <- TUFS"]
+sources = ["adik <- omw-id", "adik-beradik <- omw-id", "saudara <- TUFS", "saudara kandung <- omw-id"]
 comment = ""
 
 ["Br"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["brother"]
+english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["tufs-id tufs-id-10286084-n [i91174] saudara: (CILI) a sibling who is male"]
@@ -92,7 +119,7 @@ comment = ""
 ["Ss"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["sister"]
+english = ["female sibling", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
@@ -101,7 +128,7 @@ comment = ""
 
 ["El;Sb"]
 lemmas = ["kakak"]
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "elder sibling"
 definition = "an elder sibling of a person"
@@ -114,7 +141,7 @@ comment = ""
 
 ["Yn;Sb"]
 lemmas = ["adik"]
-english = ["sibling"]
+english = ["sib", "sibling"]
 english_via = "Sb"
 label = "younger sibling"
 definition = "a younger sibling of a person"
@@ -125,22 +152,21 @@ sources = ["adik <- Kinbank"]
 comment = ""
 
 ["El;Br"]
-lemmas = ["kakak laki-laki"]
-english = ["brother"]
-english_via = "Br"
+lemmas = ["abang", "kakak laki-laki"]
+english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 existing_by_ili = ["omw-id omw-id-09853467-n [i88560] abang: (CILI) an older brother", "tufs-id tufs-id-09853467-n [i88560] kakak, kakak laki-laki: (CILI) an older brother"]
-existing_by_lemma = ["kakak laki-laki -> tufs-id tufs-id-09853467-n [i88560] kakak, kakak laki-laki: (CILI) an older brother"]
+existing_by_lemma = ["abang -> omw-id omw-id-09853467-n [i88560] abang: (CILI) an older brother", "abang -> omw-id omw-id-09876454-n [i88708] adik, adinda, kakanda, kanda, abang: (CILI) a male with the same parents as someone else", "kakak laki-laki -> tufs-id tufs-id-09853467-n [i88560] kakak, kakak laki-laki: (CILI) an older brother"]
+existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb"]
 ancestors = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["kakak laki-laki <- TUFS"]
+sources = ["abang <- omw-id", "kakak laki-laki <- TUFS"]
 comment = ""
 
 ["El;Ss"]
 lemmas = ["kakak perempuan"]
-english = ["sister"]
-english_via = "Ss"
+english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 existing_by_ili = ["tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister"]
@@ -263,7 +289,7 @@ comment = ""
 
 ["Sb;Ch"]
 lemmas = ["kemanakan"]
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "nibling"
 definition = "a child of one's sibling (a nephew or niece)"
@@ -273,145 +299,266 @@ ancestors = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 sources = ["kemanakan <- Kinbank"]
 comment = ""
 
+["Sb;So"]
+lemmas = ["anak buah"]
+english = ["nephew"]
+label = "nephew"
+definition = "a son of one's sibling (a nephew or niece)"
+existing_by_ili = ["omw-id omw-id-10353355-n [i91586] anak buah: (CILI) a son of your brother or sister"]
+existing_by_lemma = ["anak buah -> omw-id omw-id-10353355-n [i91586] anak buah: (CILI) a son of your brother or sister"]
+existing_hidden = 1  # other senses of these lemmas
+hypernyms = ["Sb;Ch", "Sb;So|So"]
+ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+sources = ["anak buah <- omw-id"]
+comment = ""
+
+["Sb;Da"]
+lemmas = ["kemanakan"]
+english = ["niece"]
+label = "niece"
+definition = "a daughter of one's sibling (a nephew or niece)"
+existing_by_ili = ["omw-id omw-id-10357613-n [i91615] kemanakan: (CILI) a daughter of your brother or sister"]
+existing_by_lemma = ["kemanakan -> omw-id omw-id-10357613-n [i91615] kemanakan: (CILI) a daughter of your brother or sister"]
+hypernyms = ["Da|Sb;Da", "Sb;Ch"]
+ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+sources = ["kemanakan <- omw-id"]
+comment = ""
+
 ["Pa;Sb;Ch"]
-lemmas = ["saudara sepupu", "sepupu"]
-english = ["cousin"]
+lemmas = ["adik sepupu", "misan", "saudara", "saudara sepupu", "sepupu"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
 existing_by_ili = ["omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "tufs-id tufs-id-09972010-n [i89276] saudara sepupu: (CILI) the child of your aunt or uncle"]
-existing_by_lemma = ["saudara sepupu -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara sepupu -> tufs-id tufs-id-09972010-n [i89276] saudara sepupu: (CILI) the child of your aunt or uncle", "sepupu -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle"]
+existing_by_lemma = ["adik sepupu -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "misan -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara -> omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage", "saudara -> tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister", "saudara -> tufs-id tufs-id-10286084-n [i91174] saudara: (CILI) a sibling who is male", "saudara -> tufs-id tufs-id-09876454-n [i88708] saudara: (CILI) a male with the same parents as someone else", "saudara sepupu -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara sepupu -> tufs-id tufs-id-09972010-n [i89276] saudara sepupu: (CILI) the child of your aunt or uncle", "sepupu -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle"]
+existing_hidden = 8  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["saudara sepupu <- TUFS", "sepupu <- Kinbank"]
+sources = ["adik sepupu <- omw-id", "misan <- omw-id", "saudara <- omw-id", "saudara sepupu <- TUFS, omw-id", "sepupu <- Kinbank, omw-id"]
 comment = ""
 
 ["Rel"]
-lemmas = []
-status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+lemmas = ["anak sanak", "keluarga", "saudara"]
+english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
 existing_by_ili = ["omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage"]
+existing_by_lemma = ["anak sanak -> omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage", "keluarga -> omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage", "keluarga -> omw-id omw-id-10236304-n [i90858] famili, kelamin, keluarga, kerabat, rumpun, sanak saudara: (CILI) a person having kinship with another or others", "keluarga -> tufs-id tufs-id-10236304-n [i90858] keluarga: (CILI) a person having kinship with another or others", "saudara -> omw-id omw-id-09972010-n [i89276] adik sepupu, misan, saudara sepupu, saudara, sepupu: (CILI) the child of your aunt or uncle", "saudara -> omw-id omw-id-10235549-n [i90856] saudara, anak sanak, keluarga: (CILI) a person related by blood or marriage", "saudara -> tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister", "saudara -> tufs-id tufs-id-10286084-n [i91174] saudara: (CILI) a sibling who is male", "saudara -> tufs-id tufs-id-09876454-n [i88708] saudara: (CILI) a male with the same parents as someone else"]
+existing_hidden = 20  # other senses of these lemmas
 hypernyms = []
 ancestors = []
+sources = ["anak sanak <- omw-id", "keluarga <- omw-id", "saudara <- omw-id"]
 comment = ""
 
 ["Unc"]
-lemmas = ["paman"]
+lemmas = ["ayahanda", "paman", "wak"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 existing_by_ili = ["omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt", "tufs-id tufs-id-10736091-n [i93825] paman: (CILI) the brother of your father or mother; the husband of your aunt"]
-existing_by_lemma = ["paman -> omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt", "paman -> tufs-id tufs-id-10736091-n [i93825] paman: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["ayahanda -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "ayahanda -> omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt", "paman -> omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt", "paman -> tufs-id tufs-id-10736091-n [i93825] paman: (CILI) the brother of your father or mother; the husband of your aunt", "wak -> omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "wak -> omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["paman <- TUFS"]
+sources = ["ayahanda <- omw-id", "paman <- TUFS, omw-id", "wak <- omw-id"]
 comment = ""
 
 ["Aun"]
-lemmas = ["bibi"]
-english = ["aunt"]
+lemmas = ["bibi", "makcik", "tante", "wak"]
+english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 existing_by_ili = ["omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "tufs-id tufs-id-09823502-n [i88357] bibi: (CILI) the sister of your father or mother; the wife of your uncle"]
-existing_by_lemma = ["bibi -> omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "bibi -> tufs-id tufs-id-09823502-n [i88357] bibi: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["bibi -> omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "bibi -> tufs-id tufs-id-09823502-n [i88357] bibi: (CILI) the sister of your father or mother; the wife of your uncle", "makcik -> omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "tante -> omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "wak -> omw-id omw-id-09823502-n [i88357] bibi, tante, wak, makcik: (CILI) the sister of your father or mother; the wife of your uncle", "wak -> omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["bibi <- TUFS"]
+sources = ["bibi <- TUFS, omw-id", "makcik <- omw-id", "tante <- omw-id", "wak <- omw-id"]
 comment = ""
 
 ["Pa"]
-lemmas = ["orang tua"]
+lemmas = ["asal", "orang tua"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["omw-id omw-id-10399491-n [i91858] asal, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["orang tua -> omw-id omw-id-10399491-n [i91858] asal, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "orang tua -> tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_hidden = 5  # other senses of these lemmas
+existing_by_lemma = ["asal -> omw-id omw-id-10399491-n [i91858] asal, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> omw-id omw-id-10399491-n [i91858] asal, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "orang tua -> tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_hidden = 16  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["orang tua <- TUFS"]
+sources = ["asal <- omw-id", "orang tua <- TUFS, omw-id"]
 comment = ""
 
 ["Fa"]
-lemmas = ["ayah", "babak"]
-english = ["dad", "father"]
+lemmas = ["aba", "abah", "ayah", "ayahanda", "babak", "bapa", "papa"]
+english = ["begetter", "dad", "father", "male parent"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "tufs-id tufs-id-10080869-n [i89901] ayah: (CILI) a male parent (also used as a term of address to your father)"]
-existing_by_lemma = ["ayah -> omw-id omw-id-09988063-n [i89370] pak, abah, ayah, bapa: (CILI) an informal term for a father; probably derived from baby talk", "ayah -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "ayah -> omw-id omw-id-10102800-n [i90033] ayah, bapa, leluhur, nenek moyang, pengasas: (CILI) the founder of a family", "ayah -> tufs-id tufs-id-10080869-n [i89901] ayah: (CILI) a male parent (also used as a term of address to your father)"]
-existing_hidden = 9  # other senses of these lemmas
+existing_by_lemma = ["aba -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "abah -> omw-id omw-id-09988063-n [i89370] pak, abah, ayah, bapa: (CILI) an informal term for a father; probably derived from baby talk", "abah -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "ayah -> omw-id omw-id-09988063-n [i89370] pak, abah, ayah, bapa: (CILI) an informal term for a father; probably derived from baby talk", "ayah -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "ayah -> omw-id omw-id-10102800-n [i90033] ayah, bapa, leluhur, nenek moyang, pengasas: (CILI) the founder of a family", "ayah -> tufs-id tufs-id-10080869-n [i89901] ayah: (CILI) a male parent (also used as a term of address to your father)", "ayahanda -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "ayahanda -> omw-id omw-id-10736091-n [i93825] ayahanda, paman, wak: (CILI) the brother of your father or mother; the husband of your aunt", "bapa -> omw-id omw-id-09988063-n [i89370] pak, abah, ayah, bapa: (CILI) an informal term for a father; probably derived from baby talk", "bapa -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)", "bapa -> omw-id omw-id-10102800-n [i90033] ayah, bapa, leluhur, nenek moyang, pengasas: (CILI) the founder of a family", "bapa -> omw-id omw-id-10406391-n [i91899] bapa: (CILI) any of the early biblical characters regarded as fathers of the human race", "papa -> omw-id omw-id-10080869-n [i89901] abah, aba, ayah, ayahanda, bapa, papa: (CILI) a male parent (also used as a term of address to your father)"]
+existing_hidden = 12  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["ayah <- TUFS", "babak <- Kinbank"]
+sources = ["aba <- omw-id", "abah <- omw-id", "ayah <- TUFS, omw-id", "ayahanda <- omw-id", "babak <- Kinbank", "bapa <- omw-id", "papa <- omw-id"]
 comment = ""
 
 ["Mo"]
-lemmas = ["ibu"]
-english = ["mom", "mother"]
+lemmas = ["emak", "ibu", "ibunda", "mama", "mami"]
+english = ["female parent", "mom", "mother"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "tufs-id tufs-id-10332385-n [i91462] ibu: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["ibu -> omw-id omw-id-10278128-n [i91123] ibu, induk, mak, mama, emak: (CILI) informal terms for a mother", "ibu -> omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibu -> tufs-id tufs-id-10332385-n [i91462] ibu: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["emak -> omw-id omw-id-10278128-n [i91123] ibu, induk, mak, mama, emak: (CILI) informal terms for a mother", "emak -> omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibu -> omw-id omw-id-10278128-n [i91123] ibu, induk, mak, mama, emak: (CILI) informal terms for a mother", "ibu -> omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibu -> tufs-id tufs-id-10332385-n [i91462] ibu: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibunda -> omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mama -> omw-id omw-id-10278128-n [i91123] ibu, induk, mak, mama, emak: (CILI) informal terms for a mother", "mama -> omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mami -> omw-id omw-id-10332385-n [i91462] emak, ibu, ibunda, mama, mami: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["ibu <- Kinbank, TUFS"]
+sources = ["emak <- omw-id", "ibu <- Kinbank, TUFS, omw-id", "ibunda <- omw-id", "mama <- omw-id", "mami <- omw-id"]
 comment = ""
 
 ["Ch"]
-lemmas = ["anak"]
-english = ["child"]
+lemmas = ["anak", "budak", "kanak-kanak"]
+english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 existing_by_ili = ["omw-id omw-id-09918248-n [i88965] anak, budak, kanak-kanak: (CILI) a human offspring (son or daughter) of any age", "tufs-id tufs-id-09918248-n [i88965] anak: (CILI) a human offspring (son or daughter) of any age"]
-existing_by_lemma = ["anak -> omw-id omw-id-09918248-n [i88965] anak, budak, kanak-kanak: (CILI) a human offspring (son or daughter) of any age", "anak -> omw-id omw-id-09918762-n [i88967] anak, putra: (CILI) a member of a clan or tribe", "anak -> omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring", "anak -> omw-id omw-id-10373998-n [i91712] anak, progeni, zuriat, anak-anak, keturunan: (CILI) the immediate descendants of a person", "anak -> tufs-id tufs-id-09918248-n [i88965] anak: (CILI) a human offspring (son or daughter) of any age"]
-existing_hidden = 13  # other senses of these lemmas
+existing_by_lemma = ["anak -> omw-id omw-id-09918248-n [i88965] anak, budak, kanak-kanak: (CILI) a human offspring (son or daughter) of any age", "anak -> omw-id omw-id-09918762-n [i88967] anak, putra: (CILI) a member of a clan or tribe", "anak -> omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring", "anak -> omw-id omw-id-10373998-n [i91712] anak, progeni, zuriat, anak-anak, keturunan: (CILI) the immediate descendants of a person", "anak -> tufs-id tufs-id-09918248-n [i88965] anak: (CILI) a human offspring (son or daughter) of any age", "budak -> omw-id omw-id-09918248-n [i88965] anak, budak, kanak-kanak: (CILI) a human offspring (son or daughter) of any age", "kanak-kanak -> omw-id omw-id-09918248-n [i88965] anak, budak, kanak-kanak: (CILI) a human offspring (son or daughter) of any age"]
+existing_hidden = 24  # other senses of these lemmas
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["anak <- Kinbank"]
+sources = ["anak <- Kinbank, omw-id", "budak <- omw-id", "kanak-kanak <- omw-id"]
+comment = ""
+
+["Da"]
+lemmas = ["amoi", "anak", "anak dara", "anak gadis"]
+english = ["daughter", "girl"]
+label = "daughter"
+definition = "a daughter of a person (a child)"
+existing_by_ili = ["omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring"]
+existing_by_lemma = ["amoi -> omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring", "anak -> omw-id omw-id-09918248-n [i88965] anak, budak, kanak-kanak: (CILI) a human offspring (son or daughter) of any age", "anak -> omw-id omw-id-09918762-n [i88967] anak, putra: (CILI) a member of a clan or tribe", "anak -> omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring", "anak -> omw-id omw-id-10373998-n [i91712] anak, progeni, zuriat, anak-anak, keturunan: (CILI) the immediate descendants of a person", "anak -> tufs-id tufs-id-09918248-n [i88965] anak: (CILI) a human offspring (son or daughter) of any age", "anak dara -> omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring", "anak gadis -> omw-id omw-id-09992837-n [i89398] anak, amoi, anak dara, anak gadis: (CILI) a female human offspring"]
+existing_hidden = 20  # other senses of these lemmas
+hypernyms = ["Br;Da|Da", "Ch"]
+ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
+sources = ["amoi <- omw-id", "anak <- omw-id", "anak dara <- omw-id", "anak gadis <- omw-id"]
 comment = ""
 
 ["Sp"]
-lemmas = []
-status = "unlexicalized: no id word; included for the hierarchy"
-english = ["spouse"]
+lemmas = ["jodoh", "kawan hidup", "orang tua", "pasangan", "suami", "teman hidup"]
+english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage"]
+existing_by_lemma = ["jodoh -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "kawan hidup -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "orang tua -> omw-id omw-id-10399491-n [i91858] asal, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "orang tua -> tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "pasangan -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "suami -> omw-id omw-id-10193967-n [i90626] laki, suami: (CILI) a married man; a woman's partner in marriage", "suami -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "suami -> tufs-id tufs-id-10193967-n [i90626] suami: (CILI) a married man; a woman's partner in marriage", "teman hidup -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage"]
+existing_hidden = 16  # other senses of these lemmas
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["jodoh <- omw-id", "kawan hidup <- omw-id", "orang tua <- omw-id", "pasangan <- omw-id", "suami <- omw-id", "teman hidup <- omw-id"]
+comment = ""
+
+["Hu"]
+lemmas = ["laki", "suami"]
+english = ["hubby", "husband", "married man"]
+label = "husband"
+definition = "the husband of a person (a spouse)"
+existing_by_ili = ["omw-id omw-id-10193967-n [i90626] laki, suami: (CILI) a married man; a woman's partner in marriage", "tufs-id tufs-id-10193967-n [i90626] suami: (CILI) a married man; a woman's partner in marriage"]
+existing_by_lemma = ["laki -> omw-id omw-id-10193967-n [i90626] laki, suami: (CILI) a married man; a woman's partner in marriage", "suami -> omw-id omw-id-10193967-n [i90626] laki, suami: (CILI) a married man; a woman's partner in marriage", "suami -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "suami -> tufs-id tufs-id-10193967-n [i90626] suami: (CILI) a married man; a woman's partner in marriage"]
+existing_hidden = 1  # other senses of these lemmas
+hypernyms = ["Sp"]
+ancestors = ["Sp", "Rel"]
+sources = ["laki <- omw-id", "suami <- TUFS, omw-id"]
+comment = ""
+
+["Wi"]
+lemmas = ["bini", "istri"]
+english = ["married woman", "wife"]
+label = "wife"
+definition = "the wife of a person (a spouse)"
+existing_by_ili = ["omw-id omw-id-10780632-n [i94123] bini, istri: (CILI) a married woman; a man's partner in marriage", "tufs-id tufs-id-10780632-n [i94123] nyonya, istri: (CILI) a married woman; a man's partner in marriage"]
+existing_by_lemma = ["bini -> omw-id omw-id-10780632-n [i94123] bini, istri: (CILI) a married woman; a man's partner in marriage", "istri -> omw-id omw-id-10780632-n [i94123] bini, istri: (CILI) a married woman; a man's partner in marriage", "istri -> tufs-id tufs-id-10780632-n [i94123] nyonya, istri: (CILI) a married woman; a man's partner in marriage"]
+hypernyms = ["Sp"]
+ancestors = ["Sp", "Rel"]
+sources = ["bini <- omw-id", "istri <- TUFS, omw-id"]
+comment = ""
+
+["InL"]
+lemmas = []
+status = "unlexicalized: no id word; included for the hierarchy"
+english = ["in-law", "relative-in-law"]
+label = "in-law"
+definition = "a relative by marriage"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
 comment = ""
 
-["Hu"]
-lemmas = ["suami"]
-english = ["husband"]
-label = "husband"
-definition = "the husband of a person (a spouse)"
-existing_by_ili = ["omw-id omw-id-10193967-n [i90626] laki, suami: (CILI) a married man; a woman's partner in marriage", "tufs-id tufs-id-10193967-n [i90626] suami: (CILI) a married man; a woman's partner in marriage"]
-existing_by_lemma = ["suami -> omw-id omw-id-10193967-n [i90626] laki, suami: (CILI) a married man; a woman's partner in marriage", "suami -> omw-id omw-id-10640620-n [i93233] jodoh, orang tua, pasangan, suami, teman hidup, kawan hidup: (CILI) a person's partner in marriage", "suami -> tufs-id tufs-id-10193967-n [i90626] suami: (CILI) a married man; a woman's partner in marriage"]
-existing_hidden = 1  # other senses of these lemmas
-hypernyms = ["Sp"]
-ancestors = ["Sp", "Rel"]
-sources = ["suami <- TUFS"]
+["Sp;Pa"]
+lemmas = []
+status = "unlexicalized: no id word; included for the hierarchy"
+english = ["parent-in-law"]
+label = "parent-in-law"
+definition = "a parent of one's spouse (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
 comment = ""
 
-["Wi"]
-lemmas = ["istri"]
-english = ["wife"]
-label = "wife"
-definition = "the wife of a person (a spouse)"
-existing_by_ili = ["omw-id omw-id-10780632-n [i94123] bini, istri: (CILI) a married woman; a man's partner in marriage", "tufs-id tufs-id-10780632-n [i94123] nyonya, istri: (CILI) a married woman; a man's partner in marriage"]
-existing_by_lemma = ["istri -> omw-id omw-id-10780632-n [i94123] bini, istri: (CILI) a married woman; a man's partner in marriage", "istri -> tufs-id tufs-id-10780632-n [i94123] nyonya, istri: (CILI) a married woman; a man's partner in marriage"]
-hypernyms = ["Sp"]
-ancestors = ["Sp", "Rel"]
-sources = ["istri <- TUFS"]
+["Sp;Fa"]
+lemmas = ["ayah mertua"]
+english = ["father-in-law"]
+label = "father-in-law"
+definition = "the father of one's spouse (an in-law)"
+existing_by_ili = ["omw-id omw-id-10082043-n [i89906] ayah mertua: (CILI) the father of your spouse"]
+existing_by_lemma = ["ayah mertua -> omw-id omw-id-10082043-n [i89906] ayah mertua: (CILI) the father of your spouse"]
+hypernyms = ["Sp;Pa"]
+ancestors = ["Sp;Pa", "InL", "Rel"]
+sources = ["ayah mertua <- omw-id"]
+comment = ""
+
+["Sp;Mo"]
+lemmas = ["ibu mertua", "ibu tiri"]
+english = ["mother-in-law"]
+label = "mother-in-law"
+definition = "the mother of one's spouse (an in-law)"
+existing_by_ili = ["omw-id omw-id-10333317-n [i91467] ibu tiri, ibu mertua: (CILI) the mother of your spouse"]
+existing_by_lemma = ["ibu mertua -> omw-id omw-id-10333317-n [i91467] ibu tiri, ibu mertua: (CILI) the mother of your spouse", "ibu tiri -> omw-id omw-id-10333317-n [i91467] ibu tiri, ibu mertua: (CILI) the mother of your spouse", "ibu tiri -> omw-id omw-id-10654827-n [i93311] ibu tiri: (CILI) the wife of your father by a subsequent marriage"]
+hypernyms = ["Sp;Pa"]
+ancestors = ["Sp;Pa", "InL", "Rel"]
+sources = ["ibu mertua <- omw-id", "ibu tiri <- omw-id"]
+comment = ""
+
+["Ch;Sp"]
+lemmas = []
+status = "unlexicalized: no id word; included for the hierarchy"
+english = ["child-in-law"]
+label = "child-in-law"
+definition = "a spouse of one's child (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Da;Hu"]
+lemmas = ["menantu"]
+english = ["son-in-law"]
+label = "son-in-law"
+definition = "the husband of one's daughter (an in-law)"
+existing_by_ili = ["omw-id omw-id-10624915-n [i93147] menantu: (CILI) the husband of your daughter"]
+existing_by_lemma = ["menantu -> omw-id omw-id-09993040-n [i89399] menantu: (CILI) the wife of your son", "menantu -> omw-id omw-id-10624915-n [i93147] menantu: (CILI) the husband of your daughter"]
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["menantu <- omw-id"]
+comment = ""
+
+["So;Wi"]
+lemmas = ["menantu"]
+english = ["daughter-in-law"]
+label = "daughter-in-law"
+definition = "the wife of one's son (an in-law)"
+existing_by_ili = ["omw-id omw-id-09993040-n [i89399] menantu: (CILI) the wife of your son"]
+existing_by_lemma = ["menantu -> omw-id omw-id-09993040-n [i89399] menantu: (CILI) the wife of your son", "menantu -> omw-id omw-id-10624915-n [i93147] menantu: (CILI) the husband of your daughter"]
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["menantu <- omw-id"]
 comment = ""
 
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father or father's brother"
 definition = "the father of a person or a brother of one's father"
@@ -422,7 +569,7 @@ comment = ""
 ["Mo|Mo;Ss"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or mother's sister"
 definition = "the mother of a person or a sister of one's mother"
@@ -433,7 +580,7 @@ comment = ""
 ["Ch;Ch|Pa;Pa"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or parent's parent"
 definition = "a child of one's child or a parent of one's parent"
@@ -444,7 +591,7 @@ comment = ""
 ["Mo|Pa;Ss"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother or parent's sister"
 definition = "the mother of a person or a sister of one's parent"
@@ -455,7 +602,7 @@ comment = ""
 ["Pa;Sb;Ch|Sb"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's child or sibling"
 definition = "a child of one's parent's sibling or a sibling of a person"
@@ -466,7 +613,7 @@ comment = ""
 ["Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child or sibling's child"
 definition = "a child of a person or a child of one's sibling"
@@ -477,7 +624,7 @@ comment = ""
 ["Mo;Br|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or mother's brother's son"
 definition = "a brother of one's mother or a son of one's mother's brother"
@@ -485,10 +632,21 @@ hypernyms = ["Rel"]
 ancestors = ["Rel"]
 comment = ""
 
+["Br;Da|Da"]
+lemmas = []
+status = "unlexicalized: no id word; included for the hierarchy"
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "brother's daughter or daughter"
+definition = "a daughter of one's brother or a daughter of a person"
+hypernyms = ["Br;Ch|Ch", "Da|Sb;Da"]
+ancestors = ["Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
+comment = ""
+
 ["El;Br|El;Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "elder brother or parent's sibling's son (older than self)"
 definition = "an elder brother of a person or a son of one's parent's sibling, who is older than oneself"
@@ -499,7 +657,7 @@ comment = ""
 ["Mo;Br|Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or sister's child"
 definition = "a brother of one's mother or a child of one's sister"
@@ -510,7 +668,7 @@ comment = ""
 ["Ch;So|Pa;Fa"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's son or parent's father"
 definition = "a son of one's child or the father of one's parent"
@@ -518,10 +676,21 @@ hypernyms = ["Ch;Ch|Pa;Pa"]
 ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
+["Sb;So|So"]
+lemmas = []
+status = "unlexicalized: no id word; included for the hierarchy"
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "sibling's son or son"
+definition = "a son of one's sibling or a son of a person"
+hypernyms = ["Ch|Sb;Ch"]
+ancestors = ["Ch|Sb;Ch", "Rel"]
+comment = ""
+
 ["Ch;Da|Pa;Mo"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's daughter or parent's mother"
 definition = "a daughter of one's child or the mother of one's parent"
@@ -532,7 +701,7 @@ comment = ""
 ["Mo;Br|x;Ss;Ch"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "mother's brother or man's sister's child"
 definition = "a brother of one's mother or a child of a man's sister"
@@ -543,7 +712,7 @@ comment = ""
 ["Fa;Fa|x;So;Ch"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "father's father or man's son's child"
 definition = "the father of one's father or a child of a man's son"
@@ -551,10 +720,21 @@ hypernyms = ["Ch;Ch|Pa;Pa"]
 ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
+["Da|Sb;Da"]
+lemmas = []
+status = "unlexicalized: no id word; included for the hierarchy"
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "daughter or sibling's daughter"
+definition = "a daughter of a person or a daughter of one's sibling"
+hypernyms = ["Ch|Sb;Ch"]
+ancestors = ["Ch|Sb;Ch", "Rel"]
+comment = ""
+
 ["Br;Ch|Ch"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother's child or child"
 definition = "a child of one's brother or a child of a person"
@@ -565,7 +745,7 @@ comment = ""
 ["Br|Pa;Sb;So"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "brother or parent's sibling's son"
 definition = "a brother of a person or a son of one's parent's sibling"
@@ -576,7 +756,7 @@ comment = ""
 ["Pa;Sb;Da|Ss"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "parent's sibling's daughter or sister"
 definition = "a daughter of one's parent's sibling or a sister of a person"
@@ -587,22 +767,12 @@ comment = ""
 ["Ch;Ch|Sb;Ch"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["relative"]
+english = ["relation", "relative"]
 english_via = "Rel"
 label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-comment = ""
-
-["Gr;Pr"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "grandparent"
-definition = "a parent of one's parent (a grandparent)"
-existing_by_ili = ["omw-id omw-id-10143172-n [i90292] datuk, nenek: (CILI) a parent of your father or mother"]
-hypernyms = ["Ch;Ch|Pa;Pa"]
-ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Fa;Pr"]

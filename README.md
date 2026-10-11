@@ -24,7 +24,7 @@ the Open English WordNet, and words attested in other sources.
 | `review/` | one TOML file per language for human review of its kin terms |
 | `collection/` | the README, LICENSE and `citation.bib` copied into the release |
 | `FEATURES.md` | the kin-type code features and the algebra that combines them |
-| `docs/` | open questions |
+| `docs/` | open questions, and the hierarchy browser `docs/hierarchy/` |
 | `release/` | the built collection (gitignored: attach it to a GitHub release) |
 
 ## Building
@@ -34,13 +34,19 @@ uv run scripts/tufs_words.py         # ../tufs -> data/candidates/tufs-candidate
 uv run scripts/tufs_curation.py      # candidates -> data/tufs-kindiv.tsv
 uv run scripts/kinbank_words.py      # ../kinbank -> data/candidates/kinbank-candidates.tsv
 uv run scripts/kinbank_concepts.py   # ../kinbank -> data/candidates/kinbank-new-concepts.tsv
-uv run scripts/build.py              # release/omw-kin-0.1/ and .tar.xz, reports/
+uv run scripts/wordnet_words.py      # Cygnet's wordnets -> data/candidates/wordnet-words.tsv
+uv run scripts/build.py              # release/omw-kin-0.1/ and .tar.xz, reports/, docs/hierarchy/data.js
 uv run scripts/kin_review.py         # review/kinterms-<lang>.toml
 uv run --with pytest --with langcodes --with language_data --with unidecode pytest tests
 ```
 
 Only `build.py` is needed to rebuild the release; the others refresh its
 inputs from clones of TUFS and Kinbank next to this repository.
+
+`docs/hierarchy/index.html` browses the concept hierarchy, drawing each concept
+as its kin-type features (FEATURES.md), with one language's words and gaps
+marked on it. Open it from disk or serve `docs/` with GitHub Pages; `build.py`
+writes the data it reads, `docs/hierarchy/data.js`.
 
 ## Model
 
@@ -73,7 +79,8 @@ inputs from clones of TUFS and Kinbank next to this repository.
   the language's own lexicon. Once CILI assigns ILIs to the proposals,
   `expand` will work for every concept.
 - **Words** become entries, with one sense per concept they express. The sense's
-  `dc:source` is the provenance (KinDiv, TUFS, OEWN or Wiktionary).
+  `dc:source` is the provenance (KinDiv, TUFS, Kinbank, an existing wordnet such
+  as `omw-ja:2.0`, or Wiktionary).
 - **English phrases**: every concept English has no word for (197 of 236) gets
   its compositional phrase in `omw-kin-en`, e.g. "father's sister's husband",
   "man's parent's father", "father's brother's son (older than self)". The phrase
@@ -172,6 +179,21 @@ offspring, so it is not used. TUFS forms are NFC-normalized (TUFS writes Arabic
 shadda before tanwīn), and one typo (ar زوح for زوج) is corrected.
 
 TUFS `as` is Syrian Arabic (`apc`), not Assamese; `pb` is merged into `pt`.
+
+## Existing wordnets
+
+A concept linked to an existing ILI can take its words from any wordnet with a
+synset for that ILI: Japanese 息子 for *son*, 娘 for *daughter*. KinDiv covers
+only consanguineal kin outside the nuclear family, so these fill most of the
+parents, children and spouses. `wordnet_words.py` reads the wordnets Cygnet is
+built from (`~/git/cygnet/wordnets.toml`, loaded by `cygnet_wordnets.py` into a
+database of their own), except the TUFS lexicons, which are read directly, and
+writes every lemma of every synset for a linked concept's ILI to
+`data/candidates/wordnet-words.tsv`. Only exact ILI links count: OEWN's *uncle* and
+*aunt* also cover relatives by marriage, so their words go to `Unc` and `Aun`
+(by blood or marriage), not to KinDiv's `Pa;Br` and `Pa;Ss`. Like every other word, a wordnet word overrides a gap
+KinDiv records for the same concept; `reports/gap-conflicts.tsv` lists such
+clashes.
 
 ## Hmong
 

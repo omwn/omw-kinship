@@ -1,13 +1,30 @@
 language	tag	concept	word	word_source	gap_evidence
 Afrikaans	af	Br;Ch	broerskind	Kinbank v_boersafri1274: fBD;fBS;feBD;feBS;fyBD;fyBS;mBD;mBS;meBD;meBS;myBD;myBS	Wiktionary
+Afrikaans	af	Gr;Pr	grootouer	inaf:0.1	Wiktionary
+Afrikaans	af	Pa;Sb;Ch	eerste neef	inaf:0.1	Wiktionary
+Afrikaans	af	Pa;Sb;Ch	neef	inaf:0.1	Wiktionary
+Afrikaans	af	Pa;Sb;Ch	neef- Duits	inaf:0.1	Wiktionary
+Afrikaans	af	Pa;Sb;Ch	tweede neef	inaf:0.1	Wiktionary
+Afrikaans	af	Sb	broer of suster	inaf:0.1	Wiktionary
+Afrikaans	af	Sb	sib	inaf:0.1	Wiktionary
 Afrikaans	af	Ss;Ch	susterskind	Kinbank v_boersafri1274: fZD;fZS;feZD;feZS;fyZD;fyZS;mZD;mZS;meZD;meZS;myZD;myZS	Wiktionary
 Akkadian	akk	o;Yn;Ss	ahâtatum	Kinbank v_akkadianakka1240: fyZ	Wiktionary
 Akkadian	akk	x;Yn;Ss	ahätatum	Kinbank v_akkadianakka1240: myZ	Wiktionary
+Albanian	sq	Gr;Pr	gjyshër	omw-sq:2.0	Wiktionary
 Albanian	sq	Pa;Br	ungj	Kinbank v_albanianalba1267: fFB;fFeB;fFyB;fMB;fMeB;fMyB;mFB;mFeB;mFyB;mMB;mMeB;mMyB	Wiktionary
+Albanian	sq	Pa;Sb;Ch	kushëri	omw-sq:2.0	Wiktionary
+Albanian	sq	Pa;Sb;Ch	kushëri i pare	omw-sq:2.0	Wiktionary
 Albanian	sq	Pa;Sb;Ch	kušə'ri	Kinbank v_albaniantosktosk1239: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
 Aleut	ale	o;Ss	agiitudax	Petrivelli, Patricia J. "Unangam Aleut social system." Arctic Anthropology 41, no. 2 (2004): 126-139.	Murdock data
 Aleut	ale	x;Br	agiitudax	Petrivelli, Patricia J. "Unangam Aleut social system." Arctic Anthropology 41, no. 2 (2004): 126-139.	Murdock data
 Amharic	am	Gr;Pr	አያት	Gelaye, Getie. "Semantic Analysis of Amharic Kinship Terms in Gojjam: An Anthropological Approach." Africa: Rivista trimestrale di studi e documentazione dell’Istituto italiano per l’Africa e l’Oriente 53, no. 1 (1998): 71-92.	Murdock data
+Amharic	am	Gr;Pr	አያት	Kinbank v_amharicamha1245: fPP;mPP	Murdock data
+Arabic	ar	Gr;Pr	جدّ	omw-arb:2.0	Wiktionary & Native speaker
+Arabic	ar	Gr;Pr	جدّة	omw-arb:2.0	Wiktionary & Native speaker
+Arabic	ar	Sb	أخ	omw-arb:2.0	Wiktionary & Native speaker
+Arabic	ar	Sb	أُخْت	omw-arb:2.0	Wiktionary & Native speaker
+Arabic	ar	Sb	شقِيق	omw-arb:2.0	Wiktionary & Native speaker
+Arabic	ar	Sb	شقِيقة	omw-arb:2.0	Wiktionary & Native speaker
 Armenian	hy	Pa;Sb;Ch	zarmikˀ	Kinbank v_easternarmenianeast2283: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
 Armenian	hy	Pa;Sb;Ch	zarmuhi	Kinbank v_easternarmenianeast2283: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
 Armenian	hy	Sb	kʰuyr-yeɣbayr	Kinbank v_easternarmenianeast2283: fG;mG	Wiktionary
@@ -20,17 +37,56 @@ Assamese	as	Fa;Br	bar bopāi	Kinbank v_assameseassa1263: fFB;mFB	Wiktionary
 Assamese	as	Pa;Ss	jeṭhai	Kinbank v_assameseassa1263: fFZ;fFeZ;fFyZ;fMZ;fMeZ;fMyZ;mFZ;mFeZ;mFyZ;mMZ;mMeZ;mMyZ	Wiktionary
 Assamese	as	Ss	bhani	Kinbank v_assameseassa1263: fZ;feZ;fyZ;mZ;meZ;myZ	Wiktionary
 Balinese	ban	Pa;El;Ss	meme	Kinbank p_balinesebali1278: fFeZ;fMeZ;mFeZ;mMeZ	Murdock data
+Basque	eu	Gr;Pr	aitona-amona	omw-eu:2.0	Wiktionary
+Basque	eu	Sb	anai-arreba	omw-eu:2.0	Wiktionary
 Basque	eu	Sb	aurhíde	Kinbank v_basquebasq1248: fG;mG	Wiktionary
+Basque	eu	Yn;Br	anai gaztea	omw-eu:2.0	Wiktionary
+Basque	eu	Yn;Br	anaitxo	omw-eu:2.0	Wiktionary
+Basque	eu	Yn;Br	neba gaztea	omw-eu:2.0	Wiktionary
+Basque	eu	Yn;Br	nebatxo	omw-eu:2.0	Wiktionary
 Bengali	bn	Fa;Br	cācā	Kinbank v_bengalibeng1280: fFB;mFB	Murdock data
-Bengali	bn	Gr;Fa	amar dádá	Kinbank p_morgan1871bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
-Bengali	bn	Gr;Fa	dādā	Kinbank v_bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
 Bengali	bn	Gr;Fa	nānā	Kinbank v_bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
+Bengali	bn	Gr;Fa	ঠাকুর্দা	Kinbank p_morgan1871bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
+Bengali	bn	Gr;Fa	ঠাকুর্দা	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Fa	দাদু	Kinbank v_bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
+Bengali	bn	Gr;Fa	দাদু	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Fa	পিতামহ	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Fa	মাতামহ	bangla-wordnet-bn:0.1	Murdock data
 Bengali	bn	Gr;Mo	amar didy	Kinbank p_morgan1871bengalibeng1280: fFM;fMM;mFM;mMM	Murdock data
 Bengali	bn	Gr;Mo	nānī	Kinbank v_bengalibeng1280: fFM;fMM;mFM;mMM	Murdock data
+Bengali	bn	Gr;Mo	ঠাকুমা	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Mo	দিদা	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Mo	পিতামহী	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Mo	প্রমাতা	bangla-wordnet-bn:0.1	Murdock data
+Bengali	bn	Gr;Mo	মাতামহ	bangla-wordnet-bn:0.1	Murdock data
 Bengali	bn	o;El;Ss	amar burro diddy	Kinbank p_morgan1871bengalibeng1280: feZ	Wiktionary
 Bengali	bn	x;El;Ss	amar burro didy	Kinbank p_morgan1871bengalibeng1280: meZ	Wiktionary
 Bunun	bnn	Gr;Ch	baluvä'aö	Kinbank v_bununbunu1267: fCC;fDS;fSD;fSS;mCC;mDS;mSD;mSS	Murdock data
+Cantonese	yue	Gr;Fa	外公	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Gr;Fa	爺爺	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Gr;Fa	阿公	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Gr;Fa	阿爺	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂兄	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂哥	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂大佬	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂妹	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂姐	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂弟	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂細佬	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	堂阿哥	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	老表	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	表哥	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	表妹	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	表姐	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Pa;Sb;Ch	表弟	cantown-yue:1.0	Wiktionary
+Catalan	ca	Gr;Ch	nét	omw-ca:2.0	Wiktionary
+Catalan	ca	Gr;Pr	avi	omw-ca:2.0	Wiktionary
+Catalan	ca	Gr;Pr	avis	omw-ca:2.0	Wiktionary
+Catalan	ca	Pa;Sb;Ch	cosina	omw-ca:2.0	Wiktionary
+Catalan	ca	Pa;Sb;Ch	cosí	omw-ca:2.0	Wiktionary
+Catalan	ca	Pa;Sb;Ch	cosí germà	omw-ca:2.0	Wiktionary
 Catalan	ca	Sb	germans	Kinbank v_standardcatalanstan1289: fG;mG	Wiktionary
+Catalan	ca	Sb	germà	omw-ca:2.0	Wiktionary
 Chamorro	ch	Gr;Da	nieta	Kinbank p_chamarrocham1312: fDD;fSD;mDD;mSD	Murdock data
 Chamorro	ch	Gr;So	nieto	Kinbank p_chamarrocham1312: fDS;fSS;mDS;mSS	Murdock data
 Cherokee	chr	Gr;Fa	ah-ge-dooʼ-tse	Kinbank p_morgan1871mountaincherokeecher1273: fFF;fMF;mFF;mMF	Murdock data
@@ -45,6 +101,13 @@ Choctaw	cho	o;Fa;Ss	up-pukʼ-nǐ	Kinbank p_morgan1871choctaw1choc1276: fFeZ;fFy
 Choctaw	cho	x;Fa;Ss	a-hucʼ-ni	Kinbank p_morgan1871choctaw2choc1276: mFeZ;mFyZ	Murdock data
 Choctaw	cho	x;Fa;Ss	a-hukʼ-ne	Kinbank p_morgan1871choctaw1choc1276: mFeZ;mFyZ	Murdock data
 Comanche	com	Gr;Mo	kaku'	Kinbank v_comanchecoma1245: fFM;fMM;mFM;mMM	Murdock data
+Coptic	cop	Sb	ϭⲟⲧ	copwn-cop:1.0	Wiktionary
+Coptic	cop	Sb	ⲁⲉⲓⲏⲥ	copwn-cop:1.0	Wiktionary
+Coptic	cop	Sb	ⲗⲉⲗⲟⲩ	copwn-cop:1.0	Wiktionary
+Coptic	cop	Sb	ⲙⲛⲧⲁⲥ	copwn-cop:1.0	Wiktionary
+Coptic	cop	Sb	ⲥⲁϩ	copwn-cop:1.0	Wiktionary
+Coptic	cop	Sb	ⲥⲟⲛ	copwn-cop:1.0	Wiktionary
+Coptic	cop	Sb	ⲥⲱⲛⲉ	copwn-cop:1.0	Wiktionary
 Crow	cro	Gr;Fa	me-nup-hˑisʼ-sä-ka	Kinbank p_morgan1871crowcrow1244: fFF;fMF;mFF;mMF	Murdock data
 Crow	cro	Mo;Br	bä-säʼ-na	Kinbank p_morgan1871crowcrow1244: fMeB;fMyB;mMeB;mMyB	Murdock data
 Cubeo	cub	Mo;Sb	pacomaco	Kinbank v_cubeocube1242: fMZ;fMeB;fMeZ;fMyB;fMyZ;mMZ;mMeB;mMeZ;mMyB;mMyZ	Murdock data
@@ -73,15 +136,37 @@ Fijian	fj	Fa;Fa	tubuqu	Kinbank p_fijianfiji1243: fFF;mFF	Murdock data
 Fijian	fj	Gr;Mo	buqu	Kinbank p_fijianfiji1243: fFM;fMM;mFM;mMM	Murdock data
 Fijian	fj	Mo;Fa	tukaqu	Kinbank p_fijianfiji1243: fMF;mMF	Murdock data
 Finnish	fi	Sb	sisarukset	Kinbank v_finnishfinn1318: fG;mG	Wiktionary
+Finnish	fi	Sb	sisarus	finnish-fi:2.0.1	Wiktionary
+Finnish	fi	Sb;Da	sisarentytär	finnish-fi:2.0.1	Wiktionary
+Finnish	fi	Sb;Da	veljentytär	finnish-fi:2.0.1	Wiktionary
+Finnish	fi	Sb;So	sisarenpoika	finnish-fi:2.0.1	Wiktionary
+Finnish	fi	Sb;So	veljenpoika	finnish-fi:2.0.1	Wiktionary
+French	fr	Pa;Sb;Ch	cousin	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Pa;Sb;Ch	cousin germain	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Pa;Sb;Ch	cousine	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Sb	fratrie	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Sb	frère	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Sb	germain	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Sb	sœur	omw-fr:2.0	Wiktionary & Native speaker
+French	fr	Sb	sœur fratrie	omw-fr:2.0	Wiktionary & Native speaker
 Georgian	ka	Pa;Br	ბიძა	Wiktionary	Murdock data
 Georgian	ka	Pa;Br	ძია	Wiktionary	Murdock data
 German	de	Gr;Pr	Großeltern	Kinbank v_standardgermanstan1295: fPP;mPP	Wiktionary
+German	de	Gr;Pr	Großeltern	odenet:1.4	Wiktionary
+German	de	Gr;Pr	Oma und Opa	odenet:1.4	Wiktionary
+German	de	Pa;Sb;Ch	Cousin	odenet:1.4	Wiktionary
+German	de	Pa;Sb;Ch	Vetter	odenet:1.4	Wiktionary
+German	de	Sb	Brüder und Schwestern	odenet:1.4	Wiktionary
 German	de	Sb	Geschwister	Kinbank v_standardgermanstan1295: fG;mG	Wiktionary
 German	de	Sb	Geschwister	TUFS Basic Vocabulary (de, word 1015)	Wiktionary
+German	de	Sb	Geschwister	odenet:1.4	Wiktionary
 German	de	Sb	Geschwisterkind	Kinbank v_standardgermanstan1295: fG;mG	Wiktionary
+Greek	el	Gr;Pr	παππούς-γιαγιά	greek-el:20	Wiktionary
+Greek	el	Pa;Sb;Ch	ξαδερφός	greek-el:20	Wiktionary
 Greek	el	Sb	adlphia	Kinbank v_moderngreekmode1248: fG;mG	Wiktionary
 Hano	lml	Gr;Pr	zimbing	Kinbank p_barabethanohano1246a: fFF;fFM;fMF;fMM;mFF;mFM;mMF;mMM	Murdock data
 Hawaiian	haw	Yn;Sb	kaikaina	Kinbank v_hawaiianshawa1245: fyB;fyZ;myB;myZ	Wiktionary
+Hebrew	he	Sb	אֲחָאִים	omw-he:2.0	Wiktionary
 Hindi	hi	Gr;Da	meri poti´	Kinbank p_morgan1871hindihind1269: fDD;fSD;mDD;mSD	Wiktionary & Native speaker
 Hindi	hi	Gr;Fa	merá dádá	Kinbank p_morgan1871hindihind1269: fFF;fMF;mFF;mMF	Wiktionary & Native speaker
 Hindi	hi	Gr;Mo	meri dádi	Kinbank p_morgan1871hindihind1269: fFM;fMM;mFM;mMM	Wiktionary & Native speaker
@@ -96,12 +181,26 @@ Hindi	hi	x;Ss;So	merá bháujá	Kinbank p_morgan1871hindihind1269: meZS;myZS	Wik
 Iban	iba	Pa;Br	aya	Kinbank p_ibaniban1264: fFeB;fFyB;fMeB;fMyB;mFeB;mFyB;mMeB;mMyB	Murdock data
 Iban	iba	Pa;Ss	ibo	Kinbank p_ibaniban1264: fFeZ;fFyZ;fMeZ;fMyZ;mFeZ;mFyZ;mMeZ;mMyZ	Murdock data
 Icelandic	is	Gr;Ch	barnabarn	Kinbank v_icelandicicel1247: fCC;fDD;fDS;fSD;fSS;mCC;mDD;mDS;mSD;mSS	Wiktionary
+Icelandic	is	Pa;Sb;Ch	frændfólk	omw-is:2.0	Wiktionary
+Icelandic	is	Pa;Sb;Ch	frændi	omw-is:2.0	Wiktionary
+Icelandic	is	Pa;Sb;Ch	frænka	omw-is:2.0	Wiktionary
+Icelandic	is	Pa;Sb;Ch	skyldmenni	omw-is:2.0	Wiktionary
 Icelandic	is	Pa;Sb;Ch	systkinabörn	Kinbank v_icelandicicel1247: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
+Icelandic	is	Pa;Sb;Ch	ættingi	omw-is:2.0	Wiktionary
+Icelandic	is	Sb;So	bróður/systursonur	omw-is:2.0	Wiktionary
+Indonesian	id	Gr;Pr	datuk	omw-id:2.0	Wiktionary
+Indonesian	id	Gr;Pr	nenek	omw-id:2.0	Wiktionary
 Ingush	inh	Sb	yiš-woša	Kinbank v_ingushingu1240: fG;mG	Wiktionary
 Irish	ga	Pa;Br	uncail	Wiktionary	Murdock data
 Irish	ga	Pa;Ss	aintín	Wiktionary	Murdock data
-Japanese	ja	Gr;Pr	sofubo	Kinbank v_japanesenucl1643: fPP;mPP	Wiktionary
+Italian	it	Pa;Sb;Ch	cugino	omw-it:2.0	Wiktionary & Native speaker
+Italian	it	Pa;Sb;Ch	cugino	omw-iwn:2.0	Wiktionary & Native speaker
+Italian	it	Pa;Sb;Ch	cugino di primo grado	omw-it:2.0	Wiktionary & Native speaker
+Japanese	ja	Gr;Pr	祖父母	Kinbank v_japanesenucl1643: fPP;mPP	Wiktionary
+Japanese	ja	Gr;Pr	祖父母	omw-ja:2.0	Wiktionary
+Japanese	ja	Sb	兄弟	Kinbank v_japanesenucl1643: fG;mG	Wiktionary
 Japanese	ja	Sb	兄弟	TUFS Basic Vocabulary (ja, word 1627)	Wiktionary
+Japanese	ja	Sb	兄弟	omw-ja:2.0	Wiktionary
 Javanese	jv	El;Sb	raka	Kinbank p_javanesejava1254: feB;feZ;meB;meZ	Wiktionary
 Kannada	kn	o;Yn;Ss	nǎnnǎ tǎngi	Kinbank p_morgan1871canaresenucl1305: fyZ	Native speaker
 Kannada	kn	x;Yn;Ss	nǎnnǎ tǎnga	Kinbank p_morgan1871canaresenucl1305: myZ	Native speaker
@@ -120,8 +219,10 @@ Kiowa Apache	apk	Fa;Sb	cìbédjé	Kinbank v_kiowaapachekiow1264: fFB;fFZ;fFeB;fF
 Komba	kpf	Gr;Ch	kasoc	Kinbank p_kombakomb1273: fDD;fDS;fSD;fSS;mDD;mDS;mSD;mSS	Murdock data
 Korean	ko	Br	형제	TUFS Basic Vocabulary (ko, word 797)	Wiktionary
 Korean	ko	Fa;Br	samchon	Kinbank v_koreankore1280: fFB;mFB	Murdock data
+Korean	ko	Fa;Ss	고모	Kinbank v_koreankore1280: fFZ;mFZ	Murdock data
 Korean	ko	Fa;Ss	고모	TUFS Basic Vocabulary (ko, word 807)	Murdock data
 Korean	ko	Fa;Ss	고모	Wiktionary	Murdock data
+Korean	ko	Gr;Da	손녀	Kinbank v_koreankore1280: fDD;fSD;mDD;mSD	Murdock data
 Korean	ko	Gr;Da	손녀	Wiktionary	Murdock data
 Korean	ko	Gr;Fa	할아버님	Wiktionary	Murdock data
 Korean	ko	Gr;Fa	할아버지	TUFS Basic Vocabulary (ko, word 799)	Murdock data
@@ -132,6 +233,7 @@ Korean	ko	Gr;Mo	할머님	Wiktionary	Murdock data
 Korean	ko	Gr;Pr	jo-bumo-nim	Kinbank v_koreankore1280: fPP;mPP	Wiktionary
 Korean	ko	Gr;So	sonja	Kinbank v_koreankore1280: fDS;fSS;mDS;mSS	Wiktionary
 Korean	ko	Mo;Br	oi-samchon	Kinbank v_koreankore1280: fMB;mMB	Murdock data
+Korean	ko	Mo;Ss	이모	Kinbank v_koreankore1280: fMZ;mMZ	Murdock data
 Korean	ko	Mo;Ss	이모	TUFS Basic Vocabulary (ko, word 1009)	Murdock data
 Korean	ko	Mo;Ss	이모	Wiktionary	Murdock data
 Korean	ko	Sb	nam-mae	Kinbank v_koreankore1280: fG;mG	Wiktionary
@@ -176,14 +278,43 @@ Lisu	lis	Mo;Yn;Ss	jɛma	Kinbank p_lisulisu1250c: fMyZ;mMyZ	Murdock data
 Lisu	lis	Mo;Yn;Ss	ma̠jo̠	Kinbank p_lisulisu1250a: fMyZ;mMyZ	Murdock data
 Lisu	lis	Mo;Yn;Ss	ma̠ʐo̠	Kinbank p_lisulisu1250b: fMyZ;mMyZ	Murdock data
 Luxembourgish	lb	Gr;Pr	grousselteren	Kinbank v_luxembourgishluxe1241: fPP;mPP	Wiktionary
+Malay	ms	Gr;Pr	datuk	omw-zsm:2.0	Wiktionary
+Malay	ms	Gr;Pr	nenek	omw-zsm:2.0	Wiktionary
+Malay	ms	Sb	adik	omw-zsm:2.0	Wiktionary
 Malay	ms	Sb	adik-beradik	TUFS Basic Vocabulary (ms, word 1627)	Wiktionary
+Malay	ms	Sb	adik-beradik	omw-zsm:2.0	Wiktionary
 Malayalam	ml	Mo;Pr	ammatu	Kinbank v_malayalammala1464: fMF;fMM;mMF;mMM	Native speaker
 Malayalam	ml	Mo;Pr	muttaccan	Kinbank v_malayalammala1464: fMF;fMM;mMF;mMM	Native speaker
 Manchu	mnc	Gr;Da	ᠣᠮᠣᠯᠣ ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ	Wiktionary	Murdock data
 Manchu	mnc	Gr;So	ᠣᠮᠣᠯᠣ	Wiktionary	Murdock data
 Mandan	mhq	Gr;Ch	p-tä-weʼ-hä-kä	Kinbank p_morgan1871mandanmand1446: fDD;fDS;fSD;fSS;mDD;mDS;mSD;mSS	Murdock data
+Mandarin	cmn	Gr;Fa	外公	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Fa	外祖父	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Fa	爷爷	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Fa	祖父	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Mo	外婆	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Mo	外祖母	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Mo	奶奶	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Mo	祖母	omw-cmn:2.0	Wiktionary
 Mandarin	cmn	Gr;Pr	zu fu mu	Kinbank v_mandarinchinamand1415: fPP;mPP	Wiktionary
 Mandarin	cmn	Mo;Pr	外祖父母	https://en.wiktionary.org/wiki/外祖父母	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂兄	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂兄弟姊妹	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂哥	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂妹	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂姊	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂姐	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂弟	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表兄	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表兄弟姊妹	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表哥	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表妹	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表姊	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表姐	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表弟	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Sb;So	侄	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Sb;So	侄子	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Sb;So	外甥	omw-cmn:2.0	Wiktionary
 Maori	mi	Gr;Pr	tipuna	Kinbank p_maorimaor1246: fFF;fFM;fMF;fMM;mFF;mFM;mMF;mMM	Murdock data
 Maori	mi	Gr;Pr	tupuna	Kinbank v_maorimaor1246: fPP;mPP	Murdock data
 Maori	mi	Gr;Pr	tupuna matua	Kinbank p_maorimaor1246: fFF;fFM;fMF;fMM;mFF;mFM;mMF;mMM	Murdock data
@@ -199,7 +330,9 @@ Marathi	mr	x;Ss;So	mäzhä patanyä	Kinbank p_morgan1871marathimara1378: meZS;my
 Mayo	mfy	Pa;Br	kúmuri	Kinbank v_mayomayo1264: fFB;fFeB;fFyB;fMB;fMeB;fMyB;mFB;mFeB;mFyB;mMB;mMeB;mMyB	Murdock data
 Mayo	mfy	Pa;Ss	né'esa	Kinbank v_mayomayo1264: fFZ;fFeZ;fFyZ;fMZ;fMeZ;fMyZ;mFZ;mFeZ;mFyZ;mMZ;mMeZ;mMyZ	Murdock data
 Mongolian	mn	Fa;Sb	авга	Wiktionary	Murdock data
+Mongolian	mn	Gr;Fa	өвөө	Kinbank p_khalkhamongolianmong1331: fFF;fMF;mFF;mMF	Murdock data
 Mongolian	mn	Gr;Fa	өвөө	Wiktionary	Murdock data
+Mongolian	mn	Gr;Mo	эмээ	Kinbank p_khalkhamongolianmong1331: fFM;fMM;mFM;mMM	Murdock data
 Mongolian	mn	Gr;Mo	эмээ	Wiktionary	Murdock data
 Mongolian	mn	Mo;Sb	нагац	Wiktionary	Murdock data
 Mongolian	mn	Sb	ах дүү	TUFS Basic Vocabulary (mn, word 275)	Wiktionary & Native speaker
@@ -218,6 +351,8 @@ Northern Sami	se	Ss;Da	oɑppanieidɑ	Kinbank v_northernsaminort2671: fZD;feZD;fy
 Northern Sami	se	Ss;So	oɑppabar̃dni	Kinbank v_northernsaminort2671: fZS;feZS;fyZS;mZS;meZS;myZS	Wiktionary
 Norwegian Bokmål	nb	Sb;Da	niese	Kinbank v_norwegianbokmalnorw1259: fBD;fZD;feBD;feZD;fyBD;fyZD;mBD;mZD;meBD;meZD;myBD;myZD	Wiktionary
 Norwegian Bokmål	nb	Sb;So	nevø	Kinbank v_norwegianbokmalnorw1259: fBS;fZS;feBS;feZS;fyBS;fyZS;mBS;mZS;meBS;meZS;myBS;myZS	Wiktionary
+Norwegian Bokmål	nb	Sb;So	nevø	norwegian-nb:1.0	Wiktionary
+Norwegian Nynorsk	nn	Sb;So	nevø	omw-nn:2.0	Wiktionary
 Nyoro	nyo	El;Sb	mukuru	Kinbank v_nyoronyor1246: feB;feZ;meB;meZ	Murdock data
 Nyoro	nyo	Gr;Pr	isenkuru	Kinbank v_nyoronyor1246: fFF;fMF;fPP;mFF;mMF;mPP	Murdock data
 Nyoro	nyo	Yn;Sb	muto	Kinbank v_nyoronyor1246: fyB;fyZ;myB;myZ	Murdock data
@@ -227,7 +362,17 @@ Polish	pl	Gr;Pr	dziadkowie	Kinbank v_polishpoli1260: fPP;mPP	Wiktionary
 Polish	pl	Pa;Br	wujek	Kinbank v_polishpoli1260: fFB;fFeB;fFyB;fMB;fMeB;fMyB;mFB;mFeB;mFyB;mMB;mMeB;mMyB	Wiktionary
 Polish	pl	Pa;Ss	ciotka	Kinbank v_polishpoli1260: fFZ;fFeZ;fFyZ;fMZ;fMeZ;fMyZ;mFZ;mFeZ;mFyZ;mMZ;mMeZ;mMyZ	Wiktionary
 Portuguese	pt	Sb	irmãos	TUFS Basic Vocabulary (pb, word 1073)	Wiktionary
-Russian	ru	Gr;Ch	vnuk	Kinbank v_russianruss1263: fCC;fDS;fSS;mCC;mDS;mSS	Wiktionary
+Russian	ru	Gr;Ch	внуки	Kinbank v_russianruss1263: fCC;fDS;fSS;mCC;mDS;mSS	Wiktionary
+Russian	ru	Gr;Ch	внуки	russian-ru:2.0	Wiktionary
+Russian	ru	Gr;Ch	внуки и внучки	russian-ru:2.0	Wiktionary
+Russian	ru	Pa;Sb;Ch	двоюродный брат или сестра	russian-ru:2.0	Wiktionary
+Russian	ru	Pa;Sb;Ch	двоюродный родственник	russian-ru:2.0	Wiktionary
+Russian	ru	Sb	родные братья и сестры	russian-ru:2.0	Wiktionary
+Russian	ru	Sb	родные сестры и братья	russian-ru:2.0	Wiktionary
+Scottish Gaelic	gd	Sb;Da	neach-tòiseachaidh	usgw-gd:0.9	Wiktionary
+Scottish Gaelic	gd	Sb;Da	nighean-bràthar	usgw-gd:0.9	Wiktionary
+Scottish Gaelic	gd	Sb;So	mac-bràthair	usgw-gd:0.9	Wiktionary
+Scottish Gaelic	gd	Sb;So	nighean-peathar	usgw-gd:0.9	Wiktionary
 Seri	sei	Fa;Br	-aitš	Kinbank v_seriseri1257: fFB;fFeB;fFyB;mFB;mFeB;mFyB	Murdock data
 Seri	sei	Fa;Br	-maʔax	Kinbank v_seriseri1257: fFB;fFeB;fFyB;mFB;mFeB;mFyB	Murdock data
 Seri	sei	Gr;Fa	-aaš	Kinbank v_seriseri1257: fFF;fMF;mFF;mMF	Murdock data
@@ -238,13 +383,27 @@ Seri	sei	Mo;Ss	-ntāk	Kinbank v_seriseri1257: fMZ;fMeZ;fMyZ;mMZ;mMeZ;mMyZ	Murdo
 Seri	sei	Mo;Ss	-tmaʔax	Kinbank v_seriseri1257: fMZ;fMeZ;fMyZ;mMZ;mMeZ;mMyZ	Murdock data
 Serrano	ser	Gr;Pr	-curi'	Kinbank v_kitanemukserr1255b: fPP;mPP	Murdock data
 Sindhi	sd	Fa;Yn;Br	chācho	Kinbank v_sindhisind1272: fFyB;mFyB	Murdock data
+Slovak	sk	Gr;Pr	starý rodič	omw-sk:2.0	Wiktionary
+Slovak	sk	Sb	súrodenec	omw-sk:2.0	Wiktionary
 Slovene	sl	Gr;Pr	stâri stârsi	Kinbank v_slovenianslov1268: fPP;mPP	Wiktionary
+Spanish	es	Gr;Ch	nieto	omw-es:2.0	Wiktionary & Native speaker
 Spanish	es	Gr;Ch	nietos	Kinbank v_standardspanishstan1288: fCC;mCC	Wiktionary & Native speaker
+Spanish	es	Gr;Pr	abuela	omw-es:2.0	Wiktionary & Native speaker
+Spanish	es	Gr;Pr	abuelo	omw-es:2.0	Wiktionary & Native speaker
 Spanish	es	Gr;Pr	abuelos	Kinbank v_standardspanishstan1288: fPP;mPP	Wiktionary & Native speaker
+Spanish	es	Gr;Pr	abuelos	omw-es:2.0	Wiktionary & Native speaker
+Spanish	es	Pa;Sb;Ch	prima	omw-es:2.0	Wiktionary & Native speaker
+Spanish	es	Pa;Sb;Ch	primo	omw-es:2.0	Wiktionary & Native speaker
+Spanish	es	Pa;Sb;Ch	primo carnal	omw-es:2.0	Wiktionary & Native speaker
+Spanish	es	Pa;Sb;Ch	primo hermano	omw-es:2.0	Wiktionary & Native speaker
+Spanish	es	Sb	hermana	omw-es:2.0	Wiktionary & Native speaker
 Spanish	es	Sb	hermano	Kinbank v_standardspanishstan1288: fB;fG;mB;mG	Wiktionary & Native speaker
+Spanish	es	Sb	hermano	omw-es:2.0	Wiktionary & Native speaker
 Swedish	sv	Gr;Fa	far-far	Kinbank v_swedishswed1254: fFF;fMF;mFF;mMF	Wiktionary
 Swedish	sv	Gr;Fa	mor-far	Kinbank v_swedishswed1254: fFF;fMF;mFF;mMF	Wiktionary
+Swedish	sv	Gr;Fa	morfar	omw-sv:2.0	Wiktionary
 Swedish	sv	Gr;Mo	far-mor	Kinbank v_swedishswed1254: fFM;fMM;mFM;mMM	Wiktionary
+Swedish	sv	Gr;Mo	farmor	omw-sv:2.0	Wiktionary
 Swedish	sv	Gr;Mo	mor-mor	Kinbank v_swedishswed1254: fFM;fMM;mFM;mMM	Wiktionary
 Swedish	sv	Mo;Pr	morförälder	https://en.wiktionary.org/wiki/morförälder	Wiktionary
 Tagalog	tl	Gr;Pr	nuno	Kinbank p_tagalogtaga1270: fFF;fFM;fMF;fMM;mFF;mFM;mMF;mMM	Wiktionary
@@ -252,6 +411,8 @@ Tajik	tg	Yn;Sb	uko	Kinbank v_tajiktaji1245: fyB;fyZ;myB;myZ	Wiktionary
 Tamil	ta	Fa;Ss	en attai	Kinbank p_morgan1871tamiltami1289: fFeZ;fFyZ;mFeZ;mFyZ	Wiktionary
 Tamil	ta	Mo;Br	ammān	Kinbank v_tamiltami1289: fMB;fMeB;fMyB;mMB;mMeB;mMyB	Wiktionary
 Tamil	ta	Mo;Br	en mǎmǎn	Kinbank p_morgan1871tamiltami1289: fMeB;fMyB;mMeB;mMyB	Wiktionary
+Tatar	tt	Sb	туган абыйлар һәм апалар	tatwordnet-tt:1.1	Wiktionary
+Tatar	tt	Sb	туган апалар һәм абыйлар	tatwordnet-tt:1.1	Wiktionary
 Telugu	te	Fa;Br	daaddayya	Kinbank v_telugutelu1262: fFB;fFeB;fFyB;mFB;mFeB;mFyB	Murdock data
 Telugu	te	Fa;Br	dadda	Kinbank v_telugutelu1262: fFB;fFeB;fFyB;mFB;mFeB;mFyB	Murdock data
 Telugu	te	Fa;Br	doDDayya	Kinbank v_telugutelu1262: fFB;fFeB;fFyB;mFB;mFeB;mFyB	Murdock data
@@ -268,15 +429,31 @@ Telugu	te	Gr;Mo	maataamahi	Kinbank v_telugutelu1262: fFM;fMM;mFM;mMM	Murdock dat
 Telugu	te	Gr;Mo	naayanamma	Kinbank v_telugutelu1262: fFM;fMM;mFM;mMM	Murdock data
 Telugu	te	Mo;Pr	మాతామహులు	https://en.wiktionary.org/wiki/మాతామహులు	Murdock data
 Telugu	te	Mo;Ss	doDDamma	Kinbank v_telugutelu1262: fMZ;fMeZ;fMyZ;mMZ;mMeZ;mMyZ	Murdock data
+Thai	th	Gr;Fa	ตา	omw-th:2.0	Wiktionary
+Thai	th	Gr;Fa	ปู่	omw-th:2.0	Wiktionary
+Thai	th	Gr;Fa	พ่ออุ๊ย	omw-th:2.0	Wiktionary
+Thai	th	Gr;Fa	พ่อเฒ่า	omw-th:2.0	Wiktionary
+Thai	th	Gr;Mo	ยาย	omw-th:2.0	Wiktionary
+Thai	th	Gr;Mo	ย่า	omw-th:2.0	Wiktionary
+Thai	th	Gr;Mo	แม่อุ๊ย	omw-th:2.0	Wiktionary
+Thai	th	Gr;Mo	แม่เฒ่า	omw-th:2.0	Wiktionary
+Thai	th	Gr;Pr	ปู่ยาตายาย	omw-th:2.0	Wiktionary
+Thai	th	Gr;Pr	พ่ออุ๊ยแม่อุ๊ย	omw-th:2.0	Wiktionary
+Thai	th	Gr;Pr	พ่อเฒ่าแม่เฒ่า	omw-th:2.0	Wiktionary
 Thai	th	Sb	พี่น้อง	TUFS Basic Vocabulary (th, word 292)	Wiktionary
+Thai	th	Sb	พี่น้อง	omw-th:2.0	Wiktionary
 Tlingit	tli	Br	-éekˀ	Kinbank v_tlingittlin1245: fB;feB;mB;meB	Murdock data
 Tlingit	tli	Ss	-dlaakˀ	Kinbank v_tlingittlin1245: fZ;feZ;mZ;meZ	Murdock data
 Tlingit	tli	Yn;Sb	-kéekˀ	Kinbank v_tlingittlin1245: fyB;fyZ;myB;myZ	Murdock data
 Tokelau	tkl	Pa;Ss	matua	Kinbank v_tokelautoke1240: fFZ;fFeZ;fFyZ;fMZ;fMeZ;fMyZ;mFZ;mFeZ;mFyZ;mMZ;mMeZ;mMyZ	Murdock data
 Tucano	tuo	Fa;Br	yeé pajké mami	Kinbank v_tucanotuca1252: fFeB;fFyB;mFeB;mFyB	Murdock data
 Turkish	tr	Gr;Ch	torun	Kinbank p_turkishnucl1301: fDD;fDS;fSD;fSS;mDD;mDS;mSD;mSS	Wiktionary
+Turkish	tr	Gr;Ch	torun	kenet:1.0	Wiktionary
+Turkish	tr	Pa;Sb;Ch	böle	kenet:1.0	Wiktionary
 Turkish	tr	Pa;Sb;Ch	kuzen	Kinbank p_turkishnucl1301: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
 Turkish	tr	Pa;Sb;Ch	kuzen	TUFS Basic Vocabulary (tr, word 1784)	Wiktionary
+Turkish	tr	Pa;Sb;Ch	kuzen	kenet:1.0	Wiktionary
+Turkish	tr	Pa;Sb;Ch	kuzin	kenet:1.0	Wiktionary
 Vietnamese	vi	Mo;Pr	ngoại	https://en.wiktionary.org/wiki/ngoại	Wiktionary
 Vietnamese	vi	Sb	anh em	TUFS Basic Vocabulary (vi, word 493)	Wiktionary
 Vietnamese	vi	Ss	chị em	TUFS Basic Vocabulary (vi, word 507)	Wiktionary
