@@ -156,7 +156,7 @@ def test_language_lexicon_has_no_relations_or_proposals(data) -> None:
     assert "<SynsetRelation" not in text
     assert 'ili="in"' not in text
     assert "<ILIDefinition>" not in text
-    assert 'id="kindiv-cmn-Fa-Ss-Hu" ili=""' in text
+    assert 'id="omw-kin-cmn-Fa-Ss-Hu" ili=""' in text
     assert text.count('lexicalized="false"') == counts["gaps"]
 
 
@@ -175,8 +175,8 @@ def test_phrases_are_unlexicalized_senses_on_unlexicalized_synsets(data) -> None
     lines: list[str] = []
     build.write_language(lines, languages["English"], concepts)
     text = "\n".join(lines)
-    assert 'synset="kindiv-en-Fa-Ss-Hu" lexicalized="false"/>' in text
-    synset = next(line for line in lines if '<Synset id="kindiv-en-Fa-Ss-Hu"' in line)
+    assert 'synset="omw-kin-en-Fa-Ss-Hu" lexicalized="false"/>' in text
+    synset = next(line for line in lines if '<Synset id="omw-kin-en-Fa-Ss-Hu"' in line)
     assert 'ili=""' in synset
     assert 'lexicalized="false"' in synset
     assert 'lexfile="noun.kin"' in synset

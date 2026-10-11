@@ -1,4 +1,4 @@
-# KinDiv kinship terms for cmn, from the built lexicon kindiv-cmn.
+# OMW kinship terms for cmn, from the built lexicon omw-kin-cmn.
 # One table per concept. Edit `comment`; leave the rest as generated.
 # hypernyms: direct hypernyms in the shared (mul) hierarchy; ancestors: all of them, nearest first.
 # Concepts with no word here are included where the hierarchy needs them (status `unlexicalized`).
@@ -2087,24 +2087,6 @@ hypernyms = ["Pa;Sb;Da", "Pa;Ss;Ch"]
 ancestors = ["Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
-["Fa;Sb;So"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "son of father's sibling"
-definition = "a son of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Fa;Sb;Da"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "daughter of father's sibling"
-definition = "a daughter of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
 ["Mo;Sb;So"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
@@ -2265,4 +2247,22 @@ label = "daughter of mother's sister (female anchor)"
 definition = "a daughter of a woman's mother's sister (a cousin)"
 hypernyms = ["Mo;Ss;Da"]
 ancestors = ["Mo;Ss;Da", "Mo;Sb;Da", "Mo;Ss;Ch", "Pa;Ss;Da", "Mo;Sb;Ch", "Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Fa;Sb;So"]
+lemmas = []
+status = "recorded gap (KinDiv): no word for this"
+label = "son of father's sibling"
+definition = "a son of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Fa;Sb;Da"]
+lemmas = []
+status = "recorded gap (KinDiv): no word for this"
+label = "daughter of father's sibling"
+definition = "a daughter of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""

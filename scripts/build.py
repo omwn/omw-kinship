@@ -678,7 +678,7 @@ def attrs(pairs: list[tuple[str, str]]) -> str:
     return "".join(f" {name}={quoteattr(value)}" for name, value in pairs if value)
 
 
-BASE = "kindiv"
+BASE = "omw-kin"
 #: kin terms share OEWN's noun.person with every other kind of person; WN-LMF's
 #: lexfile attribute is free text, so they get a file of their own
 LEXFILE = "noun.kin"
@@ -710,7 +710,7 @@ def write_base(
     the concepts be looked up by code. New-ILI candidates carry their
     ``ILIDefinition`` here, once, rather than in every language.
     """
-    lines.append(lexicon_open(BASE, "KinDiv concepts", "mul"))
+    lines.append(lexicon_open(BASE, "OMW kinship concepts", "mul"))
     for code in concepts:
         entry_id = f"{BASE}-e-{slug(code)}"
         lines.append(f'    <LexicalEntry id="{entry_id}">')
@@ -772,7 +772,7 @@ def write_language(
     It has one synset per concept it lexicalizes, and an unlexicalized one per
     recorded gap or compositional phrase (the phrase is an unlexicalized sense),
     but no relations: the hierarchy lives in the shared lexicon and
-    is reached through the ILI (``wn.Wordnet(..., expand="kindiv")``). New-ILI
+    is reached through the ILI (``wn.Wordnet(..., expand="omw-kin")``). New-ILI
     candidates are proposed once, in the shared lexicon, so here they have an
     empty ``ili``; ``dc:identifier`` holds the kin-type code either way.
     """
@@ -784,7 +784,7 @@ def write_language(
     def local_id(code: str) -> str:
         return f"{lexicon_id}-{slug(code)}"
 
-    lines.append(lexicon_open(lexicon_id, f"KinDiv {language.name}", language.tag))
+    lines.append(lexicon_open(lexicon_id, f"OMW kinship {language.name}", language.tag))
     senses = 0
     forms = sorted(language.words.keys() | language.phrases.keys())
     for index, form in enumerate(forms, 1):
@@ -954,7 +954,7 @@ def main() -> None:
         )
         for language, c in stats:
             out.write(
-                f"kindiv-{language.tag}\t{language.name}\t{language.tag}\t{c['entries']}\t"
+                f"{BASE}-{language.tag}\t{language.name}\t{language.tag}\t{c['entries']}\t"
                 f"{c['senses']}\t{c['concepts']}\t{c['linked']}\t{c['proposed']}\t{c['gaps']}\t{c['phrases']}\n"
             )
 

@@ -1,4 +1,4 @@
-# KinDiv kinship terms for en, from the built lexicon kindiv-en.
+# OMW kinship terms for en, from the built lexicon omw-kin-en.
 # One table per concept. Edit `comment`; leave the rest as generated.
 # hypernyms: direct hypernyms in the shared (mul) hierarchy; ancestors: all of them, nearest first.
 # Concepts with no word here are included where the hierarchy needs them (status `unlexicalized`).
@@ -594,7 +594,7 @@ label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)"]
 existing_by_lemma = ["dad -> oewn oewn-10007601-n [i89370] dad, dada, daddy, pa, papa, pappa, ...: an informal term for a father; probably derived from baby talk", "dad -> tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)", "father -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "father -> oewn oewn-10122569-n [i90033] forefather, father, sire: the founder of a family", "father -> tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)"]
-existing_hidden = 5  # other senses of these lemmas
+existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
 sources = ["dad <- TUFS", "father <- OEWN, TUFS"]
@@ -632,6 +632,7 @@ label = "son"
 definition = "a son of a person (a child)"
 existing_by_ili = ["oewn oewn-10643436-n [i93143] son, boy: a male human offspring"]
 existing_by_lemma = ["son -> oewn oewn-10643436-n [i93143] son, boy: a male human offspring"]
+existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
 sources = ["son <- OEWN"]
@@ -2257,26 +2258,6 @@ hypernyms = ["Pa;Sb;Da", "Pa;Ss;Ch"]
 ancestors = ["Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
-["Fa;Sb;So"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-phrase = "father's sibling's son"  # unlexicalized
-label = "son of father's sibling"
-definition = "a son of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Fa;Sb;Da"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-phrase = "father's sibling's daughter"  # unlexicalized
-label = "daughter of father's sibling"
-definition = "a daughter of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
 ["Mo;Sb;So"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
@@ -2655,4 +2636,24 @@ label = "younger, daughter of mother's brother"
 definition = "a daughter of one's mother's brother, who is younger than oneself (a cousin)"
 hypernyms = ["Mo;Br;Da", "Yn;Mo;Sb;Da"]
 ancestors = ["Mo;Br;Da", "Yn;Mo;Sb;Da", "Fa;Ss;Da|Mo;Br;Da", "Mo;Br;Ch", "Mo;Sb;Da", "Pa;Br;Da", "Yn;Pa;Sb;Da", "Fa;Ss;Ch|Mo;Br;Ch", "Mo;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Da", "Yn;Pa;Sb;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Fa;Sb;So"]
+lemmas = []
+status = "recorded gap (KinDiv): no word for this"
+phrase = "father's sibling's son"  # unlexicalized
+label = "son of father's sibling"
+definition = "a son of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Fa;Sb;Da"]
+lemmas = []
+status = "recorded gap (KinDiv): no word for this"
+phrase = "father's sibling's daughter"  # unlexicalized
+label = "daughter of father's sibling"
+definition = "a daughter of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""

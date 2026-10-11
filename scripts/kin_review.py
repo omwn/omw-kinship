@@ -50,11 +50,11 @@ def read_lexicon(tag: str) -> tuple[dict, set[str], dict[str, str]]:
     A phrase is an unlexicalized sense: English *father's sister's husband* names
     a kin type English has no word for.
     """
-    lexicon = f"kindiv-{tag}"
+    lexicon = f"{build.BASE}-{tag}"
     path = (
         ROOT
         / "release"
-        / f"kindiv-{build.VERSION}"
+        / f"{build.BASE}-{build.VERSION}"
         / lexicon
         / f"{lexicon}-{build.VERSION}.xml"
     )
@@ -128,11 +128,11 @@ def read_sounds(tag: str) -> dict[str, list[tuple[str, str]]]:
     ``source-transcription`` marks a lemma that is itself a transcription (a
     Kinbank romanization with no word in the language's own script).
     """
-    lexicon = f"kindiv-{tag}"
+    lexicon = f"{build.BASE}-{tag}"
     path = (
         ROOT
         / "release"
-        / f"kindiv-{build.VERSION}"
+        / f"{build.BASE}-{build.VERSION}"
         / lexicon
         / f"{lexicon}-{build.VERSION}.xml"
     )
@@ -231,7 +231,7 @@ def write(
     listed = set(words) | set(proposed) | gaps
     above = {a for code in listed for a in ancestors(code, parents)}
     lines = [
-        f"# KinDiv kinship terms for {tag}, from the built lexicon kindiv-{tag}.",
+        f"# OMW kinship terms for {tag}, from the built lexicon {build.BASE}-{tag}.",
         "# One table per concept. Edit `comment`; leave the rest as generated.",
         (
             "# hypernyms: direct hypernyms in the shared (mul) hierarchy;"

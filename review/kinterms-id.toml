@@ -1,4 +1,4 @@
-# KinDiv kinship terms for id, from the built lexicon kindiv-id.
+# OMW kinship terms for id, from the built lexicon omw-kin-id.
 # One table per concept. Edit `comment`; leave the rest as generated.
 # hypernyms: direct hypernyms in the shared (mul) hierarchy; ancestors: all of them, nearest first.
 # Concepts with no word here are included where the hierarchy needs them (status `unlexicalized`).

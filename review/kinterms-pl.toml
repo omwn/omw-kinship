@@ -1,4 +1,4 @@
-# KinDiv kinship terms for pl, from the built lexicon kindiv-pl.
+# OMW kinship terms for pl, from the built lexicon omw-kin-pl.
 # One table per concept. Edit `comment`; leave the rest as generated.
 # hypernyms: direct hypernyms in the shared (mul) hierarchy; ancestors: all of them, nearest first.
 # Concepts with no word here are included where the hierarchy needs them (status `unlexicalized`).
@@ -429,28 +429,6 @@ label = "daughter of parent's sister"
 definition = "a daughter of one's parent's sister (a cousin)"
 hypernyms = ["Pa;Sb;Da", "Pa;Ss;Ch"]
 ancestors = ["Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Fa;Sb;So"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
-english_via = "Pa;Sb;Ch"
-label = "son of father's sibling"
-definition = "a son of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Fa;Sb;Da"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin"]
-english_via = "Pa;Sb;Ch"
-label = "daughter of father's sibling"
-definition = "a daughter of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["Mo;Sb;So"]
@@ -1028,6 +1006,28 @@ label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
 hypernyms = ["Sb;Ch"]
 ancestors = ["Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+comment = ""
+
+["Fa;Sb;So"]
+lemmas = []
+status = "unlexicalized: no pl word; included for the hierarchy"
+english = ["cousin"]
+english_via = "Pa;Sb;Ch"
+label = "son of father's sibling"
+definition = "a son of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Fa;Sb;Da"]
+lemmas = []
+status = "unlexicalized: no pl word; included for the hierarchy"
+english = ["cousin"]
+english_via = "Pa;Sb;Ch"
+label = "daughter of father's sibling"
+definition = "a daughter of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["Fa;Pr"]

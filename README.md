@@ -33,7 +33,7 @@ uv run scripts/tufs_words.py         # ../tufs -> data/candidates/tufs-candidate
 uv run scripts/tufs_curation.py      # candidates -> data/tufs-kindiv.tsv
 uv run scripts/kinbank_words.py      # ../kinbank -> data/candidates/kinbank-candidates.tsv
 uv run scripts/kinbank_concepts.py   # ../kinbank -> data/candidates/kinbank-new-concepts.tsv
-uv run scripts/build.py              # release/kindiv-0.1/ and .tar.xz, reports/
+uv run scripts/build.py              # release/omw-kin-0.1/ and .tar.xz, reports/
 uv run scripts/kin_review.py         # review/kinterms-<lang>.toml
 uv run --with pytest --with langcodes --with language_data --with unidecode pytest tests
 ```
@@ -43,12 +43,12 @@ inputs from clones of TUFS and Kinbank next to this repository.
 
 ## Model
 
-- **`kindiv`** (language `mul`) is the interlingual concept layer, like KinDiv's
+- **`omw-kin`** (language `mul`) is the interlingual concept layer, like KinDiv's
   own. It has one synset per concept (310), all `lexicalized="false"`, with the
   definition, the ILI or an ILI proposal (`ili="in"` + `ILIDefinition`, written
   only here), and the whole hypernym hierarchy. WN-LMF requires entries, so each
   concept's lemma is its kin-type code (`Fa;Br;So`), as an unlexicalized sense.
-- **`kindiv-<tag>`** (1,028 lexicons: 171 from KinDiv, TUFS and hmong-ontology, the rest from Kinbank) are
+- **`omw-kin-<tag>`** (1,028 lexicons: 171 from KinDiv, TUFS and hmong-ontology, the rest from Kinbank) are
   standalone lexicons of words: one synset per concept the language lexicalizes,
   carrying the concept's ILI where it has one (empty otherwise), and
   `dc:identifier="KinDiv:Fa;Br;So"`. They have **no relations**. The hierarchy
@@ -56,15 +56,15 @@ inputs from clones of TUFS and Kinbank next to this repository.
   `dc:identifier`:
 
   ```python
-  base = wn.Wordnet("kindiv")
+  base = wn.Wordnet("omw-kin")
   concept = {s.metadata()["identifier"]: s for s in base.synsets()}
-  pl = wn.Wordnet("kindiv-pl")
+  pl = wn.Wordnet("omw-kin-pl")
   wujek = pl.synsets("wujek")[0]
   concept[wujek.metadata()["identifier"]].hypernyms()
   # KinDiv:Mo;Sb, KinDiv:Pa;Br, KinDiv:Mo;Br|Mo;Br;So, KinDiv:Mo;Br|x;Ss;Ch
   ```
 
-  Wn's `expand="kindiv"` does **not** give the hierarchy yet. It matches
+  Wn's `expand="omw-kin"` does **not** give the hierarchy yet. It matches
   synsets by ILI, and a proposed concept (`ili="in"`) has none until CILI
   assigns one, so only the 35 ILI-linked concepts are reached, and even their
   paths skip proposed ancestors (*dziadek* "grandfather" reaches *grandparent*
@@ -74,10 +74,10 @@ inputs from clones of TUFS and Kinbank next to this repository.
 - **Words** become entries, with one sense per concept they express. The sense's
   `dc:source` is the provenance (KinDiv, TUFS, OEWN or Wiktionary).
 - **English phrases**: every concept English has no word for (197 of 236) gets
-  its compositional phrase in `kindiv-en`, e.g. "father's sister's husband",
+  its compositional phrase in `omw-kin-en`, e.g. "father's sister's husband",
   "man's parent's father", "father's brother's son (older than self)". The phrase
   is an unlexicalized sense (`lexicalized="false"`) on an unlexicalized synset
-  marked `dc:type="phrase"`, so `kindiv-en` names every concept.
+  marked `dc:type="phrase"`, so `omw-kin-en` names every concept.
 - **Gaps** become `lexicalized="false"` synsets, written only for languages that also
   have words. When a word and a gap are both recorded for the same concept, the word
   wins; `build.py` logs these cases.
@@ -89,7 +89,7 @@ inputs from clones of TUFS and Kinbank next to this repository.
 - **Definitions** are generated from the kin-type code, e.g. "a son of a man's
   father's brother, who is older than him (a cousin)".
 
-A LexiconExtension design (languages extending `kindiv`) was tried and dropped:
+A LexiconExtension design (languages extending `omw-kin`) was tried and dropped:
 wn 1.1 checks every extension's base before adding anything, so extensions shipped
 with their base in one file or collection are silently skipped.
 
