@@ -12,11 +12,11 @@ from __future__ import annotations
 
 import csv
 import os
+import tomllib
 from collections.abc import Callable
 from functools import cache
 from pathlib import Path
 
-import tomllib
 import wn
 
 CYGNET = Path(os.environ.get("CYGNET_DIR", Path.home() / "git" / "cygnet"))

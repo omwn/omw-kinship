@@ -1,13 +1,12 @@
 """Tests for the KinDiv wordnet builder.
 
-Run with: uv run --with pytest pytest wn
+Run with: uv run --with pytest pytest tests
 """
 
 from __future__ import annotations
 
-import pytest
-
 import build
+import pytest
 
 
 @pytest.mark.parametrize(
@@ -98,7 +97,7 @@ def test_broad_uncle_and_aunt_are_linked_and_above_kindiv_nodes() -> None:
 def test_tufs_rows_name_known_concepts_and_languages() -> None:
     concepts = build.read_concepts()
     tags = set(build.LANGUAGE_TAGS.values())
-    for row in build.read_tsv(build.HERE / "tufs-kindiv.tsv"):
+    for row in build.read_tsv(build.DATA / "tufs-kindiv.tsv"):
         assert row["tag"] in tags
         assert not row["concept"] or row["concept"] in concepts
         # a row without a concept must say why

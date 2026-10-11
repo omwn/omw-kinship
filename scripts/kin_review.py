@@ -14,7 +14,7 @@ tables with no lemmas, since a gap is a claim to check too.
 For Cantonese, ``review/kinterms-yue-proposed.tsv`` adds proposed terms (characters and
 Jyutping) that are not yet in the build.
 
-Usage: uv run kin_review.py [tag ...]   (default: en cmn ja id cs yue; run build.py first)
+Usage: uv run scripts/kin_review.py [tag ...]   (default: en cmn ja id cs yue; run build.py first)
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ from xml.etree import ElementTree
 import build
 import cygnet_wordnets
 
-HERE = Path(__file__).resolve().parent
+ROOT = build.ROOT
 DC = "{https://globalwordnet.github.io/schemas/dc/}"
 
 
@@ -52,7 +52,7 @@ def read_lexicon(tag: str) -> tuple[dict, set[str], dict[str, str]]:
     """
     lexicon = f"kindiv-{tag}"
     path = (
-        HERE
+        ROOT
         / "release"
         / f"kindiv-{build.VERSION}"
         / lexicon
@@ -130,7 +130,7 @@ def read_sounds(tag: str) -> dict[str, list[tuple[str, str]]]:
     """
     lexicon = f"kindiv-{tag}"
     path = (
-        HERE
+        ROOT
         / "release"
         / f"kindiv-{build.VERSION}"
         / lexicon
@@ -206,7 +206,7 @@ def english_for(code: str, english: dict, ancestry: dict) -> tuple[list[str], st
 
 def proposals(tag: str) -> dict[str, list[dict[str, str]]]:
     """Proposed terms not yet in the build (only Cantonese so far)."""
-    path = HERE / "review" / f"kinterms-{tag}-proposed.tsv"
+    path = ROOT / "review" / f"kinterms-{tag}-proposed.tsv"
     found: dict[str, list[dict[str, str]]] = defaultdict(list)
     if path.exists():
         with path.open(encoding="utf8") as handle:
@@ -317,7 +317,7 @@ def write(
         lines += hierarchy_lines(code, parents)
         lines.append('comment = ""')
         lines.append("")
-    out = HERE / "review" / f"kinterms-{tag}.toml"
+    out = ROOT / "review" / f"kinterms-{tag}.toml"
     out.write_text("\n".join(lines), encoding="utf8")
     return out
 
@@ -330,10 +330,10 @@ def main() -> None:
     parents = build.nearest(set(concepts), ancestry)
     english, _, _ = read_lexicon("en")
     english = {code: list(lemmas) for code, lemmas in english.items()}
-    (HERE / "review").mkdir(exist_ok=True)
+    (ROOT / "review").mkdir(exist_ok=True)
     for tag in tags:
         path = write(tag, concepts, parents, ancestry, english)
-        print(path.relative_to(HERE), file=sys.stderr)
+        print(path.relative_to(ROOT), file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ Writes ``tufs-candidates.tsv``: one row per TUFS word form, with the KinDiv
 concepts that the same form already has in the same language (``auto``). This is
 the starting point for the hand-checked ``tufs-kindiv.tsv`` that `build.py` reads.
 
-Usage: uv run wn/tufs_words.py [path/to/tufs]
+Usage: uv run scripts/tufs_words.py [path/to/tufs]
 """
 
 from __future__ import annotations
@@ -168,7 +168,7 @@ def raw_kin_words(tufsdata: Path) -> set[tuple[str, str, str]]:
 
 def main() -> None:
     """Write tufs-candidates.tsv."""
-    tufs = Path(sys.argv[1] if len(sys.argv) > 1 else build.DATA.parent / "tufs")
+    tufs = Path(sys.argv[1] if len(sys.argv) > 1 else build.ROOT.parent / "tufs")
     concepts = build.read_concepts()
     languages = build.read_languages(concepts)
     by_tag: dict[tuple[str, str], set[str]] = defaultdict(set)
@@ -204,7 +204,7 @@ def main() -> None:
                     ";".join(map(build.slug, auto)),
                 )
             )
-    with (build.HERE / "tufs-candidates.tsv").open("w", encoding="utf8") as out:
+    with (build.CANDIDATES / "tufs-candidates.tsv").open("w", encoding="utf8") as out:
         out.write("tufs_cid\ttufs_gloss\ttufs_lang\ttufs_wid\ttag\tform\tauto\n")
         for row in sorted(rows):
             out.write("\t".join(row) + "\n")

@@ -109,3 +109,5 @@ cousins	woman's father's sister's son (older than self)	o;El;Fa;Ss;So	Kinbank: 8
 cousins	woman's mother's sister's son (older than self)	o;El;Mo;Ss;So	Kinbank: 6 languages, 5 families, 3 macroareas	
 cousins	woman's mother's brother's son	o;Mo;Br;So	Kinbank: 5 languages, 5 families, 4 macroareas	
 parents	man's mother	x;Mo	Kinbank: 5 languages, 5 families, 4 macroareas	
+cousins	son of father's sibling	Fa;Sb;So	Wiktionary	
+cousins	daughter of father's sibling	Fa;Sb;Da	Wiktionary	

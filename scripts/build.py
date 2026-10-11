@@ -17,7 +17,7 @@ Every other lexicalized concept is written as a new-ILI candidate (``ili="in"``)
 with an ``ILIDefinition``, and listed in ``ili-proposals.tsv`` with its
 attestation counts.
 
-Usage: uv run wn/build.py
+Usage: uv run scripts/build.py
 """
 
 from __future__ import annotations
@@ -37,13 +37,21 @@ from unidecode import unidecode
 
 logger = logging.getLogger(__name__)
 
-HERE = Path(__file__).resolve().parent
-DATA = HERE.parent
+#: the repository root
+ROOT = Path(__file__).resolve().parent.parent
+#: KinDiv, unchanged from upstream
+KINDIV = ROOT / "sources" / "kindiv"
+#: our curated tables
+DATA = ROOT / "data"
+#: words and concepts extracted from Kinbank and TUFS, for review
+CANDIDATES = DATA / "candidates"
+#: tables the build writes for inspection
+REPORTS = ROOT / "reports"
 
 VERSION = "0.1"
 EMAIL = "bond@ieee.org"
 LICENSE = "https://creativecommons.org/licenses/by-sa/3.0/"
-URL = "https://github.com/fcbond/KinDiv"
+URL = "https://github.com/fcbond/omw-kinship"
 CITATION = (
     "Temuulen Khishigsuren, Gábor Bella, Khuyagbaatar Batsuren, Abed Alhakim Freihat, "
     "Nandu Chandran Nair, Amarsanaa Ganbold, Hadi Khalilia, Yamini Chandrashekar and "
@@ -117,7 +125,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 #: KinDiv language names to BCP 47 tags, from `langcodes.find` and checked by hand
 #: (Laboya is Lamboya, lmy, not Labo, mwi, as langcodes guesses).
 LANGUAGE_TAGS = {
-    row["language"]: row["tag"] for row in read_tsv(HERE / "languages.tsv")
+    row["language"]: row["tag"] for row in read_tsv(DATA / "languages.tsv")
 }
 
 
@@ -288,7 +296,7 @@ def read_concepts() -> dict[str, Concept]:
     covers relatives by marriage as well as by blood. Their definitions are given,
     not composed from the code.
     """
-    rows = read_tsv(DATA / "concepts") + read_tsv(HERE / "extra-concepts.tsv")
+    rows = read_tsv(KINDIV / "concepts") + read_tsv(DATA / "extra-concepts.tsv")
     concepts = {
         row["Abreviation"]: Concept(
             code=row["Abreviation"],
@@ -300,7 +308,7 @@ def read_concepts() -> dict[str, Concept]:
         )
         for row in rows
     }
-    for row in read_tsv(HERE / "concept-ili.tsv"):
+    for row in read_tsv(DATA / "concept-ili.tsv"):
         concept = concepts[row["concept"]]
         if row["relation"] == "exact":
             concept.ili = row["ili"]
@@ -317,7 +325,7 @@ def read_hierarchy(concepts: dict[str, Concept]) -> dict[str, set[str]]:
     hierarchy intact should that happen again.
     """
     parents: dict[str, set[str]] = defaultdict(set)
-    for row in read_tsv(DATA / "relations") + read_tsv(HERE / "extra-relations.tsv"):
+    for row in read_tsv(KINDIV / "relations") + read_tsv(DATA / "extra-relations.tsv"):
         if row["Hypernym_concept"] != "#":
             parents[row["Hyponym_concept"]].add(row["Hypernym_concept"])
 
@@ -390,7 +398,7 @@ def read_languages(concepts: dict[str, Concept]) -> dict[str, Language]:
     """Read KinDiv's words (plus `extra-words.tsv`); gaps come later (`add_gaps`)."""
     by_label = {c.label: c for c in concepts.values()}
     languages: dict[str, Language] = {}
-    for row in read_tsv(DATA / "words") + read_tsv(HERE / "extra-words.tsv"):
+    for row in read_tsv(KINDIV / "words") + read_tsv(DATA / "extra-words.tsv"):
         # one Kannada cell holds two comma-separated words
         for form in row["Word"].split(","):
             add_word(
@@ -411,7 +419,7 @@ def add_gaps(languages: dict[str, Language], concepts: dict[str, Concept]) -> No
     and a clash between its new words and those gaps is then reported. Gaps of
     languages with no words are counted on the concept but not written.
     """
-    for row in read_tsv(DATA / "gaps"):
+    for row in read_tsv(KINDIV / "gaps"):
         code = row["Gap concept"]
         if code not in concepts:
             continue
@@ -427,7 +435,7 @@ def add_tufs(languages: dict[str, Language], concepts: dict[str, Concept]) -> No
     rows stay in the table for review but are not added.
     """
     name_of = {tag: name for name, tag in LANGUAGE_TAGS.items()}
-    for row in read_tsv(HERE / "tufs-kindiv.tsv"):
+    for row in read_tsv(DATA / "tufs-kindiv.tsv"):
         if row["concept"] and row["confidence"] != "low":
             source = (
                 f"TUFS Basic Vocabulary ({row['tufs_lang']}, word {row['tufs_wid']})"
@@ -449,7 +457,7 @@ def add_attestations(
     Each row was checked against the source it cites; only ``exact`` matches are
     kept (the table also records broader and narrower near-misses).
     """
-    for row in read_tsv(HERE / "attested-words.tsv"):
+    for row in read_tsv(DATA / "attested-words.tsv"):
         if row["match"] == "exact":
             name = register_language(row["language"], row["tag"])
             add_word(
@@ -470,7 +478,7 @@ def add_kinbank(languages: dict[str, Language], concepts: dict[str, Concept]) ->
     `kinbank_words.py`) are handled after all other words are in: IPA by
     `add_transcriptions`, romanizations by `add_romanization`.
     """
-    rows = read_tsv(HERE / "kinbank-candidates.tsv")
+    rows = read_tsv(CANDIDATES / "kinbank-candidates.tsv")
     for row in rows:
         if not row["transcription"] and not row["broader_synonym"]:
             name = register_language(row["language"], row["tag"])
@@ -874,7 +882,7 @@ def write_collection(
 
     Every lexicon gets its own package, so a language can be installed alone.
     """
-    collection = HERE / "release" / f"{BASE}-{VERSION}"
+    collection = ROOT / "release" / f"{BASE}-{VERSION}"
     shutil.rmtree(collection, ignore_errors=True)
     lines: list[str] = []
     write_base(lines, concepts, ancestry)
@@ -886,7 +894,7 @@ def write_collection(
             (languages[name], write_language(lines, languages[name], concepts))
         )
         write_package(collection, f"{BASE}-{languages[name].tag}", lines)
-    for extra in (HERE / "collection").iterdir():
+    for extra in (ROOT / "collection").iterdir():
         shutil.copy(extra, collection / extra.name)
     with tarfile.open(collection.parent / f"{collection.name}.tar.xz", "w:xz") as tar:
         tar.add(collection, arcname=collection.name)
@@ -914,7 +922,7 @@ def write_gap_conflicts(languages: dict[str, Language]) -> None:
                             language.gaps[code],
                         )
                     )
-    with (HERE / "gap-conflicts.tsv").open("w", encoding="utf8") as out:
+    with (REPORTS / "gap-conflicts.tsv").open("w", encoding="utf8") as out:
         out.write("language\ttag\tconcept\tword\tword_source\tgap_evidence\n")
         for row in sorted(rows):
             out.write("\t".join(row) + "\n")
@@ -940,7 +948,7 @@ def main() -> None:
     stats = write_collection(concepts, ancestry, languages)
     write_gap_conflicts(languages)
 
-    with (HERE / "lexicons.tsv").open("w", encoding="utf8") as out:
+    with (REPORTS / "lexicons.tsv").open("w", encoding="utf8") as out:
         out.write(
             "lexicon\tlanguage\ttag\tentries\tsenses\tconcepts\tili_linked\tili_proposed\tgaps\tphrases\n"
         )
@@ -950,7 +958,7 @@ def main() -> None:
                 f"{c['senses']}\t{c['concepts']}\t{c['linked']}\t{c['proposed']}\t{c['gaps']}\t{c['phrases']}\n"
             )
 
-    with (HERE / "ili-proposals.tsv").open("w", encoding="utf8") as out:
+    with (REPORTS / "ili-proposals.tsv").open("w", encoding="utf8") as out:
         out.write(
             "concept\tlabel\tsubdomain\tstatus\tili\tn_languages\tn_gaps\t"
             "languages\tili_definition\n"

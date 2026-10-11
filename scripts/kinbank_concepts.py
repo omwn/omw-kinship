@@ -22,8 +22,8 @@ concepts that pass the admission rule (see `selected`) to ``extra-concepts.tsv``
 and their hierarchy, computed from the kin types they cover, to
 ``extra-relations.tsv``.
 
-Usage: uv run wn/kinbank_concepts.py [path/to/kinbank]
-       uv run wn/kinbank_concepts.py --write
+Usage: uv run scripts/kinbank_concepts.py [path/to/kinbank]
+       uv run scripts/kinbank_concepts.py --write
 """
 
 from __future__ import annotations
@@ -118,7 +118,7 @@ def to_code(ego: str, letters: str, age: str) -> str:
 def main() -> None:
     """Write kinbank-new-concepts.tsv."""
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    root = Path(sys.argv[1] if len(sys.argv) > 1 else build.DATA.parent / "kinbank")
+    root = Path(sys.argv[1] if len(sys.argv) > 1 else build.ROOT.parent / "kinbank")
     concepts = build.read_concepts()
     known = {
         frozenset(atoms)
@@ -153,7 +153,9 @@ def main() -> None:
             codes = sorted(to_code(*p) for p in parts)
             rows.append((atoms, codes))
     rows.sort(key=lambda r: (-len(families[r[0]]), -len(examples[r[0]])))
-    with (build.HERE / "kinbank-new-concepts.tsv").open("w", encoding="utf8") as out:
+    with (build.CANDIDATES / "kinbank-new-concepts.tsv").open(
+        "w", encoding="utf8"
+    ) as out:
         out.write("union_of\tfamilies\tmacroareas\tlanguages\texamples\n")
         for atoms, codes in rows:
             out.write(
@@ -206,7 +208,7 @@ def write() -> None:
     """Append the admitted concepts, and their hierarchy, to the extra-* tables."""
     concepts = build.read_concepts()
     new = []
-    for row in selected(build.read_tsv(build.HERE / "kinbank-new-concepts.tsv")):
+    for row in selected(build.read_tsv(build.CANDIDATES / "kinbank-new-concepts.tsv")):
         code = "|".join(row["union_of"].split(" | "))
         if code in concepts:
             continue
@@ -226,7 +228,7 @@ def write() -> None:
         atoms[code] = frozenset(kw.kindiv_atoms(code, subdomain))
     parents = hypernyms(atoms)
     new_codes = {code for _, _, code, _ in new}
-    with (build.HERE / "extra-concepts.tsv").open("a", encoding="utf8") as out:
+    with (build.DATA / "extra-concepts.tsv").open("a", encoding="utf8") as out:
         for subdomain, label, code, source in new:
             definition = build.define(code, subdomain) if "|" in code else ""
             out.write(f"{subdomain}\t{label}\t{code}\t{source}\t{definition}\n")
@@ -238,7 +240,7 @@ def write() -> None:
     for subdomain, _, code, _ in new:
         if not parents[code]:  # nothing narrower than Rel/InL contains it
             relations.add((code, "InL" if subdomain == "in-laws" else "Rel"))
-    with (build.HERE / "extra-relations.tsv").open("a", encoding="utf8") as out:
+    with (build.DATA / "extra-relations.tsv").open("a", encoding="utf8") as out:
         for child, parent in sorted(relations):
             out.write(f"kinbank\t{child}\t{parent}\n")
     logger.info("added %d concepts and %d relations", len(new), len(relations))

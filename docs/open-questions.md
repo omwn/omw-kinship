@@ -4,7 +4,7 @@ Design points that are not settled. Each says what the build does now.
 
 ## 1. Which ILI for *brother* and *sister*?
 
-**Now.** `concept-ili.tsv` links `Br` and `Ss` to Princeton's *male sibling* and
+**Now.** `data/concept-ili.tsv` links `Br` and `Ss` to Princeton's *male sibling* and
 *female sibling*. The existing wordnets put the words *brother* and *sister* one
 level down, in their hyponyms:
 

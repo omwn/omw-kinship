@@ -25,7 +25,7 @@ everywhere.
 
 Writes ``kinbank-candidates.tsv``.
 
-Usage: uv run wn/kinbank_words.py [path/to/kinbank]
+Usage: uv run scripts/kinbank_words.py [path/to/kinbank]
 """
 
 from __future__ import annotations
@@ -40,9 +40,8 @@ from collections import defaultdict
 from functools import cache
 from pathlib import Path
 
-import langcodes
-
 import build
+import langcodes
 
 logger = logging.getLogger(__name__)
 
@@ -354,7 +353,7 @@ def verified_extents(
 def main() -> None:
     """Write kinbank-candidates.tsv."""
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    root = Path(sys.argv[1] if len(sys.argv) > 1 else build.DATA.parent / "kinbank")
+    root = Path(sys.argv[1] if len(sys.argv) > 1 else build.ROOT.parent / "kinbank")
     cldf = root / "kinbank" / "cldf"
     concepts = build.read_concepts()
     by_atoms: dict[frozenset[Atom], list[str]] = defaultdict(list)
@@ -387,7 +386,9 @@ def main() -> None:
                         transcription(form, tag, language_id),
                     )
                 )
-    with (build.HERE / "kinbank-candidates.tsv").open("w", encoding="utf8") as out:
+    with (build.CANDIDATES / "kinbank-candidates.tsv").open(
+        "w", encoding="utf8"
+    ) as out:
         out.write(
             "concept\ttag\tiso639_3\tlanguage\tform\tkinbank_language\tpositions"
             "\tbroader_synonym\ttranscription\n"

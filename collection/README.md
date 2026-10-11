@@ -1,8 +1,9 @@
 # KinDiv wordnets
 
 Kinship terms in 1,028 languages, as WN-LMF wordnets for the
-[`wn`](https://wn.readthedocs.io) library. Built from
-[KinDiv](https://github.com/fcbond/KinDiv), the database of lexical diversity in
+[`wn`](https://wn.readthedocs.io) library, built by
+[omw-kinship](https://github.com/fcbond/omw-kinship) from
+[KinDiv](https://github.com/kbatsuren/KinDiv), the database of lexical diversity in
 the kinship domain, extended with parents, children, spouses and in-laws, and with
 kinship words from the TUFS Basic Vocabulary, Kinbank and White (2021) for Hmong.
 

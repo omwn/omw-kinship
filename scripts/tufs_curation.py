@@ -17,7 +17,7 @@ Each candidate gets, in order:
    left out (a title, an adjective, ...);
 4. failing all of those, the default concept for its TUFS concept id.
 
-Usage: uv run wn/tufs_curation.py
+Usage: uv run scripts/tufs_curation.py
 """
 
 from __future__ import annotations
@@ -266,9 +266,9 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     columns = ["tufs_cid", "tufs_gloss", "tufs_lang", "tufs_wid", "tag", "form"]
     used = set()
-    with (build.HERE / "tufs-kindiv.tsv").open("w", encoding="utf8") as out:
+    with (build.DATA / "tufs-kindiv.tsv").open("w", encoding="utf8") as out:
         out.write("\t".join(columns) + "\tconcept\tmethod\tconfidence\tnote\n")
-        for row in build.read_tsv(build.HERE / "tufs-candidates.tsv"):
+        for row in build.read_tsv(build.CANDIDATES / "tufs-candidates.tsv"):
             used.add((row["tufs_lang"], row["form"]))
             found = mappings(row)
             if not found:
