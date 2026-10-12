@@ -34,14 +34,6 @@ in-laws	Ss;Hu	BrL
 in-laws	SsL	InL
 in-laws	Sp;Ss	SsL
 in-laws	Br;Wi	SsL
-cousins	o;Fa;Sb;So	Fa;Sb;So
-cousins	x;Fa;Sb;Da	Fa;Sb;Da
-cousins	x;El;Fa;Sb;So	Fa;Sb;So
-cousins	x;Yn;Fa;Sb;So	Fa;Sb;So
-cousins	o;Fa;Sb;So	o;Pa;Sb;So
-cousins	x;Fa;Sb;Da	x;Pa;Sb;Da
-cousins	x;El;Fa;Sb;So	x;El;Pa;Sb;So
-cousins	x;Yn;Fa;Sb;So	x;Yn;Pa;Sb;So
 kinbank	Br	Br|Pa;Sb;So
 kinbank	Br;Ch	Br;Ch|Ch
 kinbank	Br;Ch|Ch	Ch|Sb;Ch
@@ -157,7 +149,6 @@ kinbank	o;Fa;Ss;Da	o;Fa;Ss;Da|o;Mo;Br;Da
 kinbank	o;Fa;Ss;Da|o;Mo;Br;Da	Fa;Ss;Da|Mo;Br;Da
 kinbank	o;Fa;Ss;Da|o;Mo;Br;Da	o;Pa;Sb;Ch
 kinbank	o;Fa;Ss;So	Fa;Ss;So
-kinbank	o;Fa;Ss;So	o;Fa;Sb;So
 kinbank	o;Fa;Ss;So	o;Fa;Ss;So|o;Mo;Br;So
 kinbank	o;Fa;Ss;So|o;Mo;Br;So	Fa;Ss;So|Mo;Br;So
 kinbank	o;Fa;Ss;So|o;Mo;Br;So	o;Pa;Sb;So
@@ -198,7 +189,6 @@ kinbank	x;El;Mo;Ss;Da	El;Mo;Ss;Da
 kinbank	x;El;Mo;Ss;Da	x;Mo;Ss;Da
 kinbank	x;Fa	Fa
 kinbank	x;Fa;Ss;Da	Fa;Ss;Da
-kinbank	x;Fa;Ss;Da	x;Fa;Sb;Da
 kinbank	x;Fa;Ss;Da	x;Fa;Ss;Da|x;Mo;Br;Da
 kinbank	x;Fa;Ss;Da|x;Mo;Br;Da	Fa;Ss;Da|Mo;Br;Da
 kinbank	x;Fa;Ss;Da|x;Mo;Br;Da	x;Pa;Sb;Da

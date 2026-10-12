@@ -31,10 +31,6 @@ in-laws	spouse's brother	Sp;Br	OEWN 2025
 in-laws	sister's husband	Ss;Hu	OEWN 2025	
 in-laws	spouse's sister	Sp;Ss	OEWN 2025	
 in-laws	brother's wife	Br;Wi	OEWN 2025	
-cousins	son of father's sibling (female speaking)	o;Fa;Sb;So	Hmong, White (2021: 288); pending confirmation (CHECK in hmong-ontology/kindiv-proposals.tsv)	
-cousins	daughter of father's sibling (male speaking)	x;Fa;Sb;Da	Hmong, White (2021: 288); pending confirmation (CHECK in hmong-ontology/kindiv-proposals.tsv)	
-cousins	elder son of father's sibling (male speaking)	x;El;Fa;Sb;So	Hmong, White (2021: 288); pending confirmation (CHECK in hmong-ontology/kindiv-proposals.tsv)	
-cousins	younger son of father's sibling (male speaking)	x;Yn;Fa;Sb;So	Hmong, White (2021: 288); pending confirmation (CHECK in hmong-ontology/kindiv-proposals.tsv)	
 mergers	father or father's brother	Fa|Fa;Br	Kinbank: 230 languages, 73 families, 7 macroareas	the father of a person or a brother of one's father
 mergers	mother or mother's sister	Mo|Mo;Ss	Kinbank: 176 languages, 52 families, 7 macroareas	the mother of a person or a sister of one's mother
 cousins	father's sister's child or mother's brother's child	Fa;Ss;Ch|Mo;Br;Ch	Kinbank: 84 languages, 34 families, 6 macroareas	a child of one's father's sister or a child of one's mother's brother

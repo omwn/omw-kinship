@@ -152,7 +152,7 @@ def test_hierarchy_includes_every_containment() -> None:
         if own < theirs and other not in ancestry[code]
     ]
     assert not missing
-    assert "o;Fa;Sb;So" in ancestry["o;Fa;Br;So"]
+    assert "o;Pa;Sb;So" in ancestry["o;Fa;Br;So"]
 
 
 def test_no_two_concepts_denote_the_same_positions() -> None:

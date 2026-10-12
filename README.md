@@ -1,6 +1,6 @@
 # OMW Kinship
 
-A multilingual wordnet of kinship terms: 310 kin-type concepts, linked to the
+A multilingual wordnet of kinship terms: 306 kin-type concepts, linked to the
 Collaborative Interlingual Index where possible, with words for them in 1,028
 languages. It is packaged as a [`wn`](https://wn.readthedocs.io) collection of
 WN-LMF 1.4 lexicons.
@@ -51,7 +51,7 @@ writes the data it reads, `docs/hierarchy/data.js`.
 ## Model
 
 - **`omw-kin`** (language `mul`) is the interlingual concept layer, like KinDiv's
-  own. It has one synset per concept (310), all `lexicalized="false"`, with the
+  own. It has one synset per concept (306), all `lexicalized="false"`, with the
   definition, the ILI or an ILI proposal (`ili="in"` + `ILIDefinition`, written
   only here), and the whole hypernym hierarchy. WN-LMF requires entries, so each
   concept's lemma is its kin-type code (`Fa;Br;So`), as an unlexicalized sense.
@@ -202,11 +202,12 @@ with its source URL and quoted evidence; only `exact` rows are built. It include
 the 28 White Hmong / Green Mong kin terms mapped in
 `../hmong-ontology/kinship-kindiv.tsv` (White 2021, Table 29, p. 288).
 
-Four concepts come from `../hmong-ontology/kindiv-proposals.tsv`, motivated by
-Hmong *nus*, *muam*, *tij laug* and *kwv*: `o;Fa;Sb;So`, `x;Fa;Sb;Da`,
-`x;El;Fa;Sb;So`, `x;Yn;Fa;Sb;So`. They rest on those terms covering the child of
-a father's sister as well as a father's brother, which Nathan White has still to
-confirm. If he does not, they collapse to the existing `Fa;Br;*` concepts.
+Hmong *nus*, *muam*, *tij laug* and *kwv* cover siblings and the father's
+brother's children, but not the father's sister's (Nathan White, p.c.), so they
+need no new concepts: *nus* is `o;Fa;Br;So` and *muam* `x;Fa;Br;Da` (exact);
+*tij laug* and *kwv* are male-anchored, so `El;Fa;Br;So` and `Yn;Fa;Br;So` are
+broader and not built. The four concepts once proposed for them
+(`../hmong-ontology/kindiv-proposals.tsv`) are withdrawn.
 
 ## Kinbank
 
