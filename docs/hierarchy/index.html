@@ -9,6 +9,8 @@
 :root {
   color-scheme: light;
   --page: #f9f9f7;
+  --draft-bg: rgba(237, 161, 0, 0.14);
+  --draft-border: rgba(237, 161, 0, 0.55);
   --surface: #fcfcfb;
   --ink: #0b0b0b;
   --ink-2: #52514e;
@@ -84,6 +86,12 @@ button, input { font: inherit; color: inherit; }
 
 .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 40px; }
 header h1 { font-size: 20px; margin: 0 0 4px; font-weight: 650; }
+header p.draft {
+  margin: 0 0 8px; padding: 6px 10px; max-width: 75ch;
+  color: var(--ink); background: var(--draft-bg);
+  border: 1px solid var(--draft-border); border-radius: 6px;
+}
+header p.draft strong { letter-spacing: 0.06em; }
 header p { margin: 0; color: var(--ink-2); max-width: 75ch; }
 
 .controls {
@@ -233,6 +241,7 @@ footer { margin-top: 18px; font-size: 12px; color: var(--muted); }
 <div class="wrap">
   <header>
     <h1>OMW kinship hierarchy</h1>
+    <p class="draft" role="note"><strong>DRAFT</strong> — this hierarchy is still being checked: concepts, codes, links and words may change.</p>
     <p>Each concept is shown as its kin-type features: <span class="chips"><span class="chip anchor">x</span><span class="chip age">El</span><span class="chip specific">Br</span></span> is a man's elder brother. A concept sits below every concept whose positions contain its own, so many concepts appear under more than one hypernym. See <a href="https://github.com/omwn/omw-kinship/blob/main/FEATURES.md">FEATURES.md</a> for the algebra.</p>
   </header>
 
