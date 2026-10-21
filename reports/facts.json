@@ -1,0 +1,109 @@
+{
+  "concepts": {
+    "total": 306,
+    "kindiv": 198,
+    "restored": 2,
+    "kindiv_restored": 200,
+    "added": 32,
+    "kinbank": 74,
+    "kinbank_single": 38,
+    "kinbank_mergers": 36
+  },
+  "ili": {
+    "linked": 35,
+    "proposed": 264,
+    "unattested": 7,
+    "kindiv_exact": 16
+  },
+  "attestation": {
+    "kindiv_unattested": 43,
+    "still_unattested": 7,
+    "newly_attested": 36
+  },
+  "lexicons": {
+    "total": 1030,
+    "with_gaps": 256
+  },
+  "kindiv": {
+    "concepts": 198,
+    "words": 1900,
+    "senses": 1881,
+    "lemmas": 1775,
+    "word_languages": 168,
+    "gaps": 37370,
+    "gap_languages": 700
+  },
+  "hierarchy": {
+    "multiple_hypernyms": 198,
+    "derived_links": 4,
+    "named_nodes": 6,
+    "named_disjunctions": 4
+  },
+  "concept_languages": {
+    "fa_fa_br": 172
+  },
+  "gaps": {
+    "contradicted": 482,
+    "words": 448,
+    "gaps": 268,
+    "languages": 111,
+    "sources": 312,
+    "source_words": 294,
+    "source_gaps": 226,
+    "source_languages": 100,
+    "wordnets": 170,
+    "wordnet_words": 168,
+    "wordnet_gaps": 64,
+    "wordnet_languages": 29,
+    "wordnet_neutral": 116,
+    "wordnet_neutral_gaps": 42
+  },
+  "romanizations": {
+    "words": 2224,
+    "languages": 65,
+    "pronunciations": 356,
+    "lemmas": 1868,
+    "both": 0
+  },
+  "wordnet_words": {
+    "words": 2522,
+    "senses": 2496,
+    "lemmas": 2348,
+    "languages": 40
+  },
+  "kinbank": {
+    "kindiv_compared": 393,
+    "kindiv_agree": 368,
+    "kindiv_agree_pct": 93.6,
+    "kindiv_disagree": 25,
+    "kindiv_exact": 365,
+    "kindiv_equal": 3,
+    "kindiv_broader": 19,
+    "kindiv_narrower": 2,
+    "kindiv_overlapping": 0,
+    "kindiv_disjoint": 4,
+    "kindiv_no_extent": 0,
+    "transcribing_varieties": 2,
+    "families": {
+      "x_ss_da": 32,
+      "hu_fa": 14,
+      "fa_fa_br": 73,
+      "cross_cousin": 34,
+      "grandparent_grandchild": 23,
+      "opposite_sex_sibling": 12,
+      "omaha": 12
+    },
+    "varieties": 1314,
+    "glottocodes": 1189,
+    "half_sibling_languages": 13,
+    "half_sibling_general_families": 4
+  },
+  "tufs": {
+    "languages": 23
+  },
+  "admission": {
+    "min_families": 5,
+    "min_macroareas": 3,
+    "min_families_merger": 8
+  }
+}

@@ -133,6 +133,18 @@ LANGUAGE_TAGS = {
 }
 
 
+def clean(form: str) -> str:
+    """Normalize a written form: NFC, no invisible debris, single spaces.
+
+    Sources mix precomposed and decomposed letters (Latvian *brālis* is spelled
+    both ways), which would otherwise make two entries of one word.
+
+    >>> clean("bra\u0304lis ") == "br\u0101lis"
+    True
+    """
+    return unicodedata.normalize("NFC", " ".join(form.translate(INVISIBLE).split()))
+
+
 def slug(code: str) -> str:
     """Turn a kin-type code into an XML-safe id: ``x;Fa;Br;So`` -> ``x-Fa-Br-So``.
 
@@ -324,16 +336,20 @@ def read_hierarchy(concepts: dict[str, Concept]) -> dict[str, set[str]]:
     for code, own in extent.items():
         parents[code] |= {other for other, theirs in extent.items() if own < theirs}
 
-    def ancestors(code: str) -> set[str]:
-        found: set[str] = set()
-        stack = [code]
-        while stack:
-            for parent in parents[stack.pop()] - found:
-                found.add(parent)
-                stack.append(parent)
-        return found - {code}
+    return {
+        code: (closure(code, parents) - {code}) & concepts.keys() for code in concepts
+    }
 
-    return {code: ancestors(code) & concepts.keys() for code in concepts}
+
+def closure(code: str, parents: dict[str, set[str]]) -> set[str]:
+    """Every concept reachable from `code` by following `parents` upwards."""
+    found: set[str] = set()
+    stack = [code]
+    while stack:
+        for parent in parents.get(stack.pop(), set()) - found:
+            found.add(parent)
+            stack.append(parent)
+    return found
 
 
 def nearest(included: set[str], ancestry: dict[str, set[str]]) -> dict[str, set[str]]:
@@ -386,7 +402,7 @@ def add_word(
 ) -> None:
     """Record that `form` in language `name` lexicalizes `concept`."""
     language = languages.setdefault(name, Language(name, LANGUAGE_TAGS[name]))
-    form = " ".join(form.translate(INVISIBLE).split())
+    form = clean(form)
     if form and (concept.code, source) not in language.words[form]:
         language.words[form].append((concept.code, source))
         concept.languages.add(name)
@@ -607,11 +623,11 @@ def add_romanization(
     source = f"Kinbank {row['kinbank_language']}: {row['positions']}"
     if matched:
         for word in matched:
-            language.pronunciations[word].add((row["form"], "romanization"))
+            language.pronunciations[word].add((clean(row["form"]), "romanization"))
             add_word(languages, name, word, concept, source)
         return
     add_word(languages, name, row["form"], concept, source)
-    language.transcribed.add(" ".join(row["form"].translate(INVISIBLE).split()))
+    language.transcribed.add(clean(row["form"]))
 
 
 def add_transcriptions(
@@ -637,7 +653,7 @@ def add_transcriptions(
             continue
         name = register_language(row["language"], row["tag"])
         language = languages.setdefault(name, Language(name, row["tag"]))
-        form = row["form"].replace("®", "").strip()
+        form = unicodedata.normalize("NFC", row["form"].replace("®", "").strip())
         targets = []
         # of several written forms (Großmutter, Oma), the one it transcribes
         pairs = written[row["tag"], row["concept"]]
@@ -647,11 +663,12 @@ def add_transcriptions(
                 f"Kinbank {pair['kinbank_language']}: {pair['positions']};"
                 f" Kinbank {row['kinbank_language']}: {row['positions']}"
             )
-            if pair["form"] not in language.words:
+            written_form = clean(pair["form"])
+            if written_form not in language.words:
                 add_word(
-                    languages, name, pair["form"], concepts[row["concept"]], source
+                    languages, name, written_form, concepts[row["concept"]], source
                 )
-            targets.append(pair["form"])
+            targets.append(written_form)
         if not targets:
             words = [
                 w
@@ -977,30 +994,31 @@ def write_browser_data(
     (BROWSER / "data.js").write_text(f"window.KINSHIP = {text};\n", encoding="utf8")
 
 
+def gap_conflicts(languages: dict[str, Language]) -> list[tuple[str, ...]]:
+    """Words for concepts KinDiv records as gaps in the same language.
+
+    One row per word, concept and source: (language, tag, concept, word, word
+    source, gap evidence), sorted.
+    """
+    return sorted(
+        (language.name, language.tag, code, form, source, language.gaps[code])
+        for language in languages.values()
+        for form, meanings in language.words.items()
+        for code, source in meanings
+        if code in language.gaps
+    )
+
+
 def write_gap_conflicts(languages: dict[str, Language]) -> None:
-    """List words for concepts KinDiv records as gaps in the same language.
+    """Write `gap-conflicts.tsv` (`gap_conflicts`).
 
     The word wins in the wordnet; the table is for checking which source is
     wrong (or whether the word is a transparent compound KinDiv discounted).
     """
-    rows = []
-    for language in languages.values():
-        for form, meanings in language.words.items():
-            for code, source in meanings:
-                if code in language.gaps:
-                    rows.append(
-                        (
-                            language.name,
-                            language.tag,
-                            code,
-                            form,
-                            source,
-                            language.gaps[code],
-                        )
-                    )
+    rows = gap_conflicts(languages)
     with (REPORTS / "gap-conflicts.tsv").open("w", encoding="utf8") as out:
         out.write("language\ttag\tconcept\tword\tword_source\tgap_evidence\n")
-        for row in sorted(rows):
+        for row in rows:
             out.write("\t".join(row) + "\n")
     logger.info(
         "%d words contradict a KinDiv gap in %d languages: see gap-conflicts.tsv",
@@ -1009,9 +1027,12 @@ def write_gap_conflicts(languages: dict[str, Language]) -> None:
     )
 
 
-def main() -> None:
-    """Build the collection, ili-proposals.tsv and lexicons.tsv."""
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+def pipeline() -> tuple[dict[str, Concept], dict[str, set[str]], dict[str, Language]]:
+    """Read every source in order: concepts, their hierarchy, and the languages.
+
+    Word sources go in the order their docstrings rely on (wordnets before
+    Kinbank, gaps after every word source), then English gets its phrases.
+    """
     concepts = read_concepts()
     ancestry = read_hierarchy(concepts)
     languages = read_languages(concepts)
@@ -1021,6 +1042,13 @@ def main() -> None:
     add_kinbank(languages, concepts)
     add_gaps(languages, concepts)
     add_phrases(languages["English"], concepts)
+    return concepts, ancestry, languages
+
+
+def main() -> None:
+    """Build the collection, ili-proposals.tsv and lexicons.tsv."""
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    concepts, ancestry, languages = pipeline()
 
     stats = write_collection(concepts, ancestry, languages)
     write_gap_conflicts(languages)

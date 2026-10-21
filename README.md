@@ -37,6 +37,7 @@ uv run scripts/kinbank_concepts.py   # ../kinbank -> data/candidates/kinbank-new
 uv run scripts/wordnet_words.py      # Cygnet's wordnets -> data/candidates/wordnet-words.tsv
 uv run scripts/build.py              # release/omw-kin-0.1/ and .tar.xz, reports/, docs/hierarchy/data.js
 uv run scripts/kin_review.py         # review/kinterms-<lang>.toml
+uv run scripts/facts.py              # every figure the paper cites -> reports/facts.json
 uv run --with pytest --with langcodes --with language_data --with unidecode pytest tests
 ```
 
