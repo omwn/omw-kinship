@@ -24,7 +24,8 @@ the Open English WordNet, and words attested in other sources.
 | `review/` | one TOML file per language for human review of its kin terms |
 | `collection/` | the README, LICENSE and `citation.bib` copied into the release |
 | `FEATURES.md` | the kin-type code features and the algebra that combines them |
-| `docs/` | open questions, and the hierarchy browser `docs/hierarchy/` |
+| `docs/` | open questions, the hierarchy browser `docs/hierarchy/`, and the Cygnet site |
+| `etc/` | the Cygnet site's `wordnets.toml` and `local.json` |
 | `release/` | the built collection (gitignored: attach it to a GitHub release) |
 
 ## Building
@@ -48,6 +49,24 @@ inputs from clones of TUFS and Kinbank next to this repository.
 as its kin-type features (FEATURES.md), with one language's words and gaps
 marked on it. Open it from disk or serve `docs/` with GitHub Pages; `build.py`
 writes the data it reads, `docs/hierarchy/data.js`.
+
+### The Cygnet site
+
+`docs/` is also a [Cygnet](https://github.com/omwn/cygnet) site, browsing the
+collection with OEWN as its English base:
+
+```
+bash scripts/cygnet.sh   # release/omw-kin-0.1/ -> docs/kin-cygnet.db.gz, docs/kin-provenance.db.gz
+bash run.sh              # serve docs/ locally
+```
+
+It needs a clone of Cygnet next to this repository. The databases are
+gitignored: attach them to the GitHub release, and the Pages workflow
+(`.github/workflows/pages.yml`) downloads them when it deploys. Each concept has
+a stable link by its synset id, which is what an ILI proposal's `dc:source`
+points to: `https://omwn.org/omw-kinship/#/search?id=omw-kin-Fa-Br-So`.
+Concepts linked to an existing ILI are merged into the CILI concept, so they
+are reached by searching for the ILI instead (`#/search?q=i90292`).
 
 ## Model
 
@@ -145,17 +164,16 @@ goes on `Sp;Ss`; the broad `SsL` is a new-ILI candidate.
 | status | concepts |
 |---|--:|
 | linked to an existing ILI | 35 |
-| attested, new-ILI candidate (`ili="in"` + `ILIDefinition`) | 144 |
-| unattested: occurs only as a gap, or a structural node no source attests | 51 |
+| attested, new-ILI candidate (`ili="in"` + `ILIDefinition`) | 264 |
+| unattested: occurs only as a gap, or a structural node no source attests | 7 |
 
 `reports/ili-proposals.tsv` lists every concept with its status, the number of languages
 that lexicalize it, the number with a gap, and the proposed ILI definition. Of the
-139 candidates, 47 are attested in only one language.
+264 candidates, 21 are attested in only one language.
 
-The 43 unattested concepts are mostly speaker-sex variants (grandparents,
-grandchildren, uncles and aunts), plus *maternal grandparent*, the
-elder/younger-sibling's-child set, and four cousin types. They should not be
-proposed to CILI unless an attestation is found.
+The 7 unattested concepts are anchor-sex variants of grandparents (`o;Gr;Pr`,
+`o;Gr;Fa`, `o;Gr;Mo`, `x;Fa;Fa`) and of uncles and aunts (`x;Pa;Br`, `o;Pa;Br`,
+`o;Pa;Ss`). They should not be proposed to CILI unless an attestation is found.
 
 ## TUFS
 

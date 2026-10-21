@@ -1,0 +1,39 @@
+{
+  "title": "OMW Kinship",
+  "name": "omw-kin",
+  "tagline": "Kinship terms in a thousand languages",
+  "icon": "👪",
+
+  "searchLanguage": "en",
+  "displayLanguage": "en",
+
+  "databases": {
+    "main": {
+      "filename": "kin-cygnet.db.gz",
+      "url": "https://github.com/omwn/omw-kinship/releases/latest/download/kin-cygnet.db.gz",
+      "description": "The kinship concepts, with their hierarchy, definitions and words in every language."
+    },
+    "provenance": {
+      "filename": "kin-provenance.db.gz",
+      "url": "https://github.com/omwn/omw-kinship/releases/latest/download/kin-provenance.db.gz",
+      "description": "Provenance records tracing every data point back to its source and original identifier."
+    }
+  },
+
+  "logo": {
+    "src": "",
+    "url": "https://github.com/omwn/omw-kinship",
+    "alt": ""
+  },
+
+  "about": {
+    "intro": "<p>OMW Kinship is a multilingual wordnet of kinship terms: one concept per kin type (such as <em>father's brother's son</em>), linked to the Collaborative Interlingual Index where possible, with words for them in over a thousand languages. It grew out of KinDiv, the database of lexical diversity in the kinship domain, extended with Kinbank, the TUFS Basic Vocabulary and the Open English WordNet.</p><p>Source and data on <a href='https://github.com/omwn/omw-kinship' style='text-decoration:underline'>GitHub</a>; the concept hierarchy can also be browsed as kin-type diagrams in the <a href='hierarchy/' style='text-decoration:underline'>hierarchy browser</a>.</p>",
+    "citation": "If you use OMW Kinship, please cite Khishigsuren et al. (2022) for KinDiv and Passmore et al. (2023) for Kinbank.  For the interface, please cite Maudslay and Bond (2026).",
+    "languageData": "Concepts and words come from KinDiv (Khishigsuren et al. 2022), Kinbank (Passmore et al. 2023), the TUFS Basic Vocabulary and the Open English WordNet."
+  },
+
+  "publications": [
+    "Temuulen Khishigsuren, Gábor Bella, Khuyagbaatar Batsuren, Abed Alhakim Freihat, Nandu Chandran Nair, Amarsanaa Ganbold, Hadi Khalilia, Yamini Chandrashekar and Fausto Giunchiglia (2022) Using Linguistic Typology to Enrich Multilingual Lexicons: the Case of Lexical Gaps in Kinship. In Proceedings of the Thirteenth Language Resources and Evaluation Conference, Marseille, France. European Language Resources Association.",
+    "Sam Passmore et al. (2023) <a href='https://doi.org/10.1371/journal.pone.0283218'>Kinbank: A global database of kinship terminology</a>. <em>PLOS ONE</em> 18(5): e0283218."
+  ]
+}
