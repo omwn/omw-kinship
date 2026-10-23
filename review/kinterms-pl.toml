@@ -744,28 +744,6 @@ ancestors = ["Sp;Sb", "SsL", "InL", "Rel"]
 sources = ["szwagierka <- omw-pl"]
 comment = ""
 
-["o;Fa;Sb;So"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin", "cousin-german", "first cousin", "full cousin"]
-english_via = "Pa;Sb;Ch"
-label = "son of father's sibling (female anchor)"
-definition = "a son of a woman's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;So", "o;Pa;Sb;So"]
-ancestors = ["Fa;Sb;So", "o;Pa;Sb;So", "Fa;Sb;Ch", "Pa;Sb;So", "o;Br|o;Pa;Sb;So", "o;Pa;Sb;Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["x;Fa;Sb;Da"]
-lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["cousin", "cousin-german", "first cousin", "full cousin"]
-english_via = "Pa;Sb;Ch"
-label = "daughter of father's sibling (male anchor)"
-definition = "a daughter of a man's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Da", "x;Pa;Sb;Da"]
-ancestors = ["Fa;Sb;Da", "x;Pa;Sb;Da", "Fa;Sb;Ch", "Pa;Sb;Da", "x;Pa;Sb;Da|x;Ss", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
 ["Fa|Fa;Br"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
@@ -2242,8 +2220,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "son of father's brother (female anchor)"
 definition = "a son of a woman's father's brother (a cousin)"
-hypernyms = ["Fa;Br;So", "o;Fa;Sb;So"]
-ancestors = ["Fa;Br;So", "o;Fa;Sb;So", "Fa;Br;Ch", "Fa;Sb;So", "Pa;Br;So", "o;Pa;Sb;So", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;So", "o;Br|o;Pa;Sb;So", "o;Pa;Sb;Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Fa;Br;So", "o;Pa;Sb;So"]
+ancestors = ["Fa;Br;So", "o;Pa;Sb;So", "Fa;Br;Ch", "Fa;Sb;So", "Pa;Br;So", "Pa;Sb;So", "o;Br|o;Pa;Sb;So", "o;Pa;Sb;Ch", "Br|Pa;Sb;So", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["x;Fa;Br;Da"]
@@ -2251,8 +2229,8 @@ lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "daughter of father's brother (male anchor)"
 definition = "a daughter of a man's father's brother (a cousin)"
-hypernyms = ["Fa;Br;Da", "x;Fa;Sb;Da"]
-ancestors = ["Fa;Br;Da", "x;Fa;Sb;Da", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "x;Pa;Sb;Da", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Da", "x;Pa;Sb;Da|x;Ss", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Fa;Br;Da", "x;Pa;Sb;Da"]
+ancestors = ["Fa;Br;Da", "x;Pa;Sb;Da", "Fa;Br;Ch", "Fa;Sb;Da", "Pa;Br;Da", "Pa;Sb;Da", "x;Pa;Sb;Da|x;Ss", "Fa;Sb;Ch", "Pa;Br;Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["o;Fa;Br;Da"]

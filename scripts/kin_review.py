@@ -9,7 +9,9 @@ One file per language in ``review/``, one table per concept the language has a
 word for: the lemmas, the concept's English lemmas (or those of its closest
 broader concept, with ``english_via``), its label and definition, where each
 lemma comes from, and an empty ``comment``. KinDiv's recorded gaps follow as
-tables with no lemmas, since a gap is a claim to check too.
+tables with no lemmas, since a gap is a claim to check too. For the languages
+of the NTU wordnet (``../NTUMC``), each table also says which of its lemmas
+that wordnet lacks, for merging them into it.
 
 For Cantonese, ``review/kinterms-yue-proposed.tsv`` adds proposed terms (characters and
 Jyutping) that are not yet in the build.
@@ -21,17 +23,31 @@ from __future__ import annotations
 
 import csv
 import json
+import sqlite3
 import sys
+import unicodedata
 from collections import defaultdict
 from functools import cache
 from pathlib import Path
 from xml.etree import ElementTree
 
-import build
 import cygnet_wordnets
+
+import build
 
 ROOT = build.ROOT
 DC = "{https://globalwordnet.github.io/schemas/dc/}"
+#: the NTU wordnet, and CILI's map from ILIs to the Princeton 3.0 synsets it uses
+NTUMC_DB = ROOT.parent / "NTUMC" / "build" / "wn-ntumc.db"
+ILI_MAP = ROOT.parent / "cili" / "ili-map-pwn30.tab"
+#: lexicon tag -> NTUMC language columns (four Japanese words are filed as "jap")
+NTUMC_LANGS = {
+    "en": ("eng",),
+    "cmn": ("cmn",),
+    "ja": ("jpn", "jap"),
+    "id": ("ind",),
+    "cs": ("ces",),
+}
 
 
 def s(value: str) -> str:
@@ -119,6 +135,66 @@ def existing_lines(tag: str, ili: str, lemmas: list[str]) -> list[str]:
         lines.append(f"existing_by_lemma = {array(hits)}")
     if hidden:
         lines.append(f"existing_hidden = {hidden}  # other senses of these lemmas")
+    return lines
+
+
+def key(lemma: str) -> str:
+    """A lemma as compared with NTUMC's: NFC, case-folded."""
+    return unicodedata.normalize("NFC", lemma).casefold()
+
+
+@cache
+def ntumc(tag: str) -> tuple[dict[str, list[str]], frozenset[str]] | None:
+    """The NTU wordnet's lemmas in a language, by synset, and the set of all.
+
+    None if NTUMC lacks the language or its database is not built.
+    """
+    columns = NTUMC_LANGS.get(tag)
+    if not columns or not NTUMC_DB.exists():
+        return None
+    by_synset: dict[str, list[str]] = defaultdict(list)
+    with sqlite3.connect(NTUMC_DB) as con:
+        for synset, lemma in con.execute(
+            "SELECT s.synset, w.lemma FROM sense s JOIN word w USING (wordid)"
+            f" WHERE w.lang IN ({', '.join('?' * len(columns))})",
+            columns,
+        ):
+            by_synset[synset].append(lemma)
+    known = frozenset(key(lemma) for lemmas in by_synset.values() for lemma in lemmas)
+    return dict(by_synset), known
+
+
+@cache
+def ili_synsets() -> dict[str, str]:
+    """ILI -> its Princeton 3.0 synset, as NTUMC names them (``10143172-n``)."""
+    if not ILI_MAP.exists():
+        return {}
+    with ILI_MAP.open(encoding="utf8") as handle:
+        return dict(line.split()[:2] for line in handle if line.strip())
+
+
+def ntumc_lines(tag: str, ili: str, lemmas: list[str]) -> list[str]:
+    """What the NTU wordnet has for a concept, and which of our lemmas it lacks.
+
+    ``ntumc``: its lemmas in the concept's synset, found by ILI, so a concept
+    without an ILI has none. ``new_senses``: our lemmas it has, but not for this
+    concept; ``new_words``: those it does not have at all.
+    """
+    found = ntumc(tag)
+    if found is None:
+        return []
+    by_synset, known = found
+    synset = ili_synsets().get(ili, "") if ili else ""
+    theirs = by_synset.get(synset, [])
+    lines = [f"ntumc = {array([f'{w} <- {synset}' for w in theirs])}"] if theirs else []
+    have = {key(w) for w in theirs}
+    missing = [w for w in lemmas if key(w) not in have]
+    senses = [w for w in missing if key(w) in known]
+    words = [w for w in missing if key(w) not in known]
+    if senses:
+        lines.append(f"new_senses = {array(senses)}")
+    if words:
+        lines.append(f"new_words = {array(words)}")
     return lines
 
 
@@ -255,6 +331,12 @@ def write(
         ),
         "#   existing_hidden counts the rest.",
     ]
+    if ntumc(tag) is not None:
+        lines += [
+            "# ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a",
+            "#   concept without one). Not yet in it: new_senses, words it has but not",
+            "#   for this concept; new_words, words it does not have at all.",
+        ]
     if proposed:
         lines.append(
             "# `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its"
@@ -296,6 +378,7 @@ def write(
         lines.append(f"definition = {s(concept.definition)}")
         mine = list(words.get(code, {})) + [p["lemma"] for p in proposed.get(code, [])]
         lines += existing_lines(tag, concept.ili, mine)
+        lines += ntumc_lines(tag, concept.ili, list(words.get(code, {})))
         lines += hierarchy_lines(code, parents)
         sources = [
             f"{w} <- {', '.join(sorted(src))}" for w, src in words.get(code, {}).items()
@@ -314,6 +397,7 @@ def write(
         lines.append(f"label = {s(concept.label)}")
         lines.append(f"definition = {s(concept.definition)}")
         lines += existing_lines(tag, concept.ili, [])
+        lines += ntumc_lines(tag, concept.ili, [])
         lines += hierarchy_lines(code, parents)
         lines.append('comment = ""')
         lines.append("")
