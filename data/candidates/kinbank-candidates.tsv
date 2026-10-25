@@ -216,8 +216,6 @@ Br	mye	mye	Myene	onwângwẽ	v_myenemyen1241	fB;mB
 Br	myv	myv	Erzya	brat	v_erzyamordvinerzy1239	fB;mB		romanization
 Br	mzp	mzp	Movima	al-lakʷa	v_movimamovi1243	fB;feB;mB;meB	al-len	
 Br	nb	nob	Norwegian Bokmål	bror	v_norwegianbokmalnorw1259	fB;feB;fyB;mB;meB;myB		
-Br	nbj	nbj	Ngarinman	ngapa	v_ngarinymanngar1235	fB;feB;mB;meB	karlaty	
-Br	nbj	nbj	Ngarinman	papa	v_ngarinymanngar1235	fB;feB;mB;meB	karlaty	
 Br	nci	nci	Classical Nahuatl	iknitl	v_aztecclas1250	fB;feB;fyB;mB;meB;myB		
 Br	ne	nep	Eastern Pahari	bhái	v_easternpaharinepalieast1436	fB;feB;mB;meB		romanization
 Br	ne	nep	Eastern Pahari	dái	v_easternpaharinepalieast1436	fB;feB;mB;meB		romanization
@@ -246,7 +244,6 @@ Br	pam	pam	Pampanga	capatát á laláqui	p_pampangakampampanganpamp1243	feB;fyB;
 Br	pem	pem	Phende	pangiayala	v_phendephen1239	fB;mB	pangi	
 Br	pgu	pgu	Pagu	ilanga	p_pagupagu1249	feB;fyB;meB;myB		
 Br	piu	piu	Pintupi-Luritja	puratya	v_pintupiluritjapint1250	fB;mB		
-Br	pjt	pjt	Pitjantjatjara	kurta	v_pitjantjatjarapitj1243	fB;feB;mB;meB	marlanypa	
 Br	pl	pol	Polish	brat	v_polishpoli1260	fB;feB;fyB;mB;meB;myB		
 Br	pnb	pnb	Western Panjabi	bharā prā	v_westernpanjabiwest2386	fB;feB;mB;meB		romanization
 Br	pnb	pnb	Western Panjabi	bhāyī	v_westernpanjabiwest2386	fB;feB;mB;meB		romanization
@@ -327,10 +324,8 @@ Br	wrh	wrh	Wiradhuri	kaka	v_wiradjuriwira1262	fB;mB
 Br	wrh	wrh	Wiradhuri	kaka-min	v_wiradjuriwira1262	fB;mB		
 Br	wrh	wrh	Wiradhuri	kakan	v_wiradjuriwira1262	fB;mB		
 Br	wrh	wrh	Wiradhuri	kakåŋ	v_wiradjuriwira1262	fB;mB		
-Br	wrh	wrh	Wiradhuri	kalkal	v_wiradjuriwira1262	fB;feB;mB;meB		
 Br	wrh	wrh	Wiradhuri	kalmany	v_wiradjuriwira1262	feB;fyB;meB;myB		
 Br	wrh	wrh	Wiradhuri	kalmayin	v_wiradjuriwira1262	fB;mB		
-Br	wrh	wrh	Wiradhuri	kalpuman	v_wiradjuriwira1262	fB;fyB;mB;myB		
 Br	wrh	wrh	Wiradhuri	kalpåman	v_wiradjuriwira1262	fB;mB		
 Br	wrh	wrh	Wiradhuri	kaluman	v_wiradjuriwira1262	fB;mB		
 Br	wrh	wrh	Wiradhuri	kampang	v_wiradjuriwira1262	fB;mB		
@@ -2294,6 +2289,8 @@ El;Br	msi	msi	Sabah Malay	abang	p_bruneisabahmalaymalaysaba1263	feB;meB	lusud sa
 El;Br	my	mya	Burmese	akou	v_burmesenucl1310	feB;meB		romanization
 El;Br	mye	mye	Myene	onèró zaḿi	v_myenemyen1241	feB;meB	onwângwẽ	
 El;Br	nay	nay	Narrinyeri	gelanowi	v_ngarrindjerinarr1259	feB;meB	tarti	
+El;Br	nbj	nbj	Ngarinman	ngapa	v_ngarinymanngar1235	fB;feB;mB;meB		
+El;Br	nbj	nbj	Ngarinman	papa	v_ngarinymanngar1235	fB;feB;mB;meB		
 El;Br	nen	nen	Nengone	remama	p_nengoneneng1238	feB;meB	mama	
 El;Br	nju	nju	Ngadjunmaya	dudoːloː	v_ngadjumayangad1258	feB;meB	puyu	
 El;Br	nju	nju	Ngadjunmaya	merudina	v_ngadjumayangad1258	feB;meB	puyu	
@@ -2334,6 +2331,7 @@ El;Br	pej	pej	Northern Pomo	agi'	v_northernpomonort2966	feB;meB
 El;Br	pit	pit	Pitta Pitta	t̪it̪i	v_pittapittapitt1247	feB;meB	thithi	
 El;Br	piu	piu	Pintupi-Luritja	kaaka	v_pintupiluritjapint1250	feB;meB	puratya	
 El;Br	piu	piu	Pintupi-Luritja	kut̪a	v_pintupiluritjapint1250	feB;meB	puratya	
+El;Br	pjt	pjt	Pitjantjatjara	kurta	v_pitjantjatjarapitj1243	fB;feB;mB;meB		
 El;Br	pri	pri	Paicî	pwi ciè	p_paicipaic1239	feB;meB	ciè	
 El;Br	psw	psw	Port Sandwich	roxangk	p_portsandwichport1285	feB;meB		
 El;Br	ptn	ptn	Patani	ftene timoli	p_patanipata1260	feB;meB		
@@ -2418,6 +2416,7 @@ El;Br	wim	wim	Wik-Mungkan	wunya	v_wikmungkanwikm1247	feB;meB	kuunty
 El;Br	wrg	wrg	Warrongo	muki	v_warunguwaru1264	feB;meB		
 El;Br	wrh	wrh	Wiradhuri	gaagang	v_wiradjuriwira1262	feB;meB	kaakang	
 El;Br	wrh	wrh	Wiradhuri	kaaka	v_wiradjuriwira1262	feB;meB	kaakang	
+El;Br	wrh	wrh	Wiradhuri	kalkal	v_wiradjuriwira1262	fB;feB;mB;meB	kaakang	
 El;Br	wrh	wrh	Wiradhuri	kaːkaː	v_wiradjuriwira1262	feB;meB	kaakang	
 El;Br	wrh	wrh	Wiradhuri	kulmine	v_wiradjuriwira1262	feB;meB	kaakang	
 El;Br	wrh	wrh	Wiradhuri	kulpomun	v_wiradjuriwira1262	feB;meB	kaakang	
@@ -2820,6 +2819,7 @@ El;Ss	mr	mar	Marathi	ākkā	v_marathimara1378	feZ;meZ	bahiṇa	romanization
 El;Ss	mrz	mrz	Marind	maɣay-anum	p_marindnucl1622	feZ;meZ		
 El;Ss	msi	msi	Sabah Malay	kakak	p_bruneisabahmalaymalaysaba1263	feZ;meZ	lusud sa tian	
 El;Ss	my	mya	Burmese	ama	v_burmesenucl1310	feZ;meZ		romanization
+El;Ss	nbj	nbj	Ngarinman	kawurlu	v_ngarinymanngar1235	fZ;feZ;mZ;meZ	kapuku	
 El;Ss	nha	nha	Nhanda	naɹanbaɹ	v_nhantanhan1238	feZ;meZ		
 El;Ss	nha	nha	Nhanda	nhadumba	v_nhantanhan1238	feZ;meZ		
 El;Ss	nha	nha	Nhanda	nharrumba	v_nhantanhan1238	feZ;meZ		
@@ -2852,6 +2852,7 @@ El;Ss	par	par	Panamint	patsi	v_tumpishashoshonipana1305	feZ;meZ
 El;Ss	pit	pit	Pitta Pitta	kaɹko	v_pittapittapitt1247	feZ;meZ	kaku	
 El;Ss	pit	pit	Pitta Pitta	yaku	v_pittapittapitt1247	feZ;meZ	kaku	
 El;Ss	piu	piu	Pintupi-Luritja	kangkuru	v_pintupiluritjapint1250	feZ;meZ	nyarrumpa	
+El;Ss	pjt	pjt	Pitjantjatjara	kangkuru	v_pitjantjatjarapitj1243	fZ;feZ;mZ;meZ	pirnku	
 El;Ss	pot	pot	Potawatomi	n'-mis-sǎʼ	p_morgan1871potawatomipotawattamiepota1247	feZ;meZ		
 El;Ss	pri	pri	Paicî	tôô ciè	p_paicipaic1239	feZ;meZ	ciè	
 El;Ss	ptn	ptn	Patani	rimo timoli	p_patanipata1260	feZ;meZ		
@@ -4135,9 +4136,7 @@ Fa;Br	ha	hau	Hausa	Bappā	v_hausahaus1257	fFB;mFB
 Fa;Br	ha	hau	Hausa	baffa	v_hausahaus1257	fFB;fFeB;fFyB;mFB;mFeB;mFyB		
 Fa;Br	haw	haw	Hawaiian	kǔ-ǔ´ mä-kǔ-ǎ-kä´-na	p_morgan1871hawaiianhawa1245	fFeB;fFyB;mFeB;mFyB		
 Fa;Br	hay	hay	Haya	tá:t'ento	v_hayahaya1250	fFB;fFeB;fFyB;mFB;mFeB;mFyB		
-Fa;Br	hi	hin	Hindi	cācā	v_hindihind1269	fFB;fFyB;mFB;mFyB		romanization
 Fa;Br	hi	hin	Hindi	merá chachá	p_morgan1871hindihind1269	fFeB;fFyB;mFeB;mFyB		romanization
-Fa;Br	hi	hin	Hindi	tāū	v_hindihind1269	fFB;fFeB;mFB;mFeB		romanization
 Fa;Br	hu	hun	Hungarian	apai nagybáczi	v_magyarhung1274	fFB;fFeB;fFyB;mFB;mFeB;mFyB		
 Fa;Br	hy	hye	Eastern Armenian	horełbayr	v_armeniannucl1235	fFB;fFeB;fFyB;mFB;mFeB;mFyB		romanization
 Fa;Br	hy	hye	Eastern Armenian	horyeɣbayr	v_easternarmenianeast2283	fFB;fFeB;fFyB;mFB;mFeB;mFyB		romanization
@@ -4416,6 +4415,7 @@ Fa;El;Br	gu	guj	Gujarati	mōṭā bāpu	v_gujaratiguja1252	fFeB;mFeB	kākā	roma
 Fa;El;Br	gug	gug	Paraguayan Guaraní	che r-u r-yke'y	v_paraguayanguaranipara1311	fFeB;mFeB	tua rɨkeʔɨ- tɨ'vɨra	
 Fa;El;Br	haq	haq	Ha	baba mkubwa	v_hahaaa1252	fFeB;mFeB	datamuto	
 Fa;El;Br	heh	heh	Hehe	dada muvina	v_hehehehe1240	fFeB;mFeB	dada	
+Fa;El;Br	hi	hin	Hindi	tāū	v_hindihind1269	fFB;fFeB;mFB;mFeB		romanization
 Fa;El;Br	hz	her	Herero	honini	v_hererohere1253	fFeB;mFeB	o-hokuru	
 Fa;El;Br	kcq	kcq	Doromu-Koki	Baba Tora	v_doromukokidoro1266	fFeB;mFeB		
 Fa;El;Br	kej	kej	Kadar	mutappan	v_kadarkada1242	fFeB;mFeB		
@@ -5530,6 +5530,7 @@ Fa;Yn;Br	gug	gug	Paraguayan Guaraní	che r-u r-yvy	v_paraguayanguaranipara1311	f
 Fa;Yn;Br	gwj	gwj	/Gwi	bàā-ǀùà	p_guigwigwii1239	fFyB;mFyB		
 Fa;Yn;Br	haq	haq	Ha	baba mdogo	v_hahaaa1252	fFyB;mFyB	datamuto	
 Fa;Yn;Br	heh	heh	Hehe	dada mudodo	v_hehehehe1240	fFyB;mFyB	dada	
+Fa;Yn;Br	hi	hin	Hindi	cācā	v_hindihind1269	fFB;fFyB;mFB;mFyB		romanization
 Fa;Yn;Br	idi	idi	Idi	meyaŋg	p_idinucl1597	fFyB;mFyB		
 Fa;Yn;Br	kcq	kcq	Doromu-Koki	Baba Keika	v_doromukokidoro1266	fFyB;mFyB		
 Fa;Yn;Br	kej	kej	Kadar	kuttyappan	v_kadarkada1242	fFyB;mFyB		
@@ -10608,7 +10609,8 @@ Mo;El;Ss	nak	nak	Nakanai	tila uru	p_nakanainaka1262	fMeZ;mMeZ
 Mo;El;Ss	ngk	ngk	Ngalkbun	moɭaʔ	p_dalabonngal1292	fMeZ;mMeZ		
 Mo;El;Ss	ngk	ngk	Ngalkbun	mulaʔ	p_dalabonngal1292	fMeZ;mMeZ		
 Mo;El;Ss	nmv	nmv	Ngamini-Yarluyandi-Karangura	ŋandi pina	v_yarluyandingam1265	fMeZ;mMeZ	ngandi	
-Mo;El;Ss	npi	npi	Nepali	ṭhuli āmā	v_nepalinepa1254	fMeZ;mMeZ	barīāmā	romanization
+Mo;El;Ss	npi	npi	Nepali	barīāmā	v_nepalinepa1254	fMZ;fMeZ;mMZ;mMeZ		romanization
+Mo;El;Ss	npi	npi	Nepali	ṭhuli āmā	v_nepalinepa1254	fMeZ;mMeZ		romanization
 Mo;El;Ss	nqn	nqn	Nen	ama kitong	p_nennenn1238	fMeZ;mMeZ		
 Mo;El;Ss	nxe	nxe	Nage	ine ta'a ka'e	p_nagenage1237	fMeZ;mMeZ	ine	
 Mo;El;Ss	nyf	nyf	Giryama	hmam'zhere	v_giryamagiry1241	fMeZ;mMeZ		
@@ -11171,9 +11173,6 @@ Mo;Ss	mrj	mrj	Western Mari	čəčə äkä	v_hillmariwest2392	fMZ;mMZ	äkä	roman
 Mo;Ss	mus	mus	Creek	chuch-kǔʼ-ce	p_morgan1871creekcree1270	fMeZ;fMyZ;mMeZ;mMyZ		
 Mo;Ss	ncm	ncm	Nambo	bavali	p_nambonamb1293	fMeZ;fMyZ;mMeZ;mMyZ		
 Mo;Ss	non	non	Old Norse	mōðir-systir	v_oldnorseoldn1244	fMZ;fMeZ;fMyZ;mMZ;mMeZ;mMyZ		
-Mo;Ss	npi	npi	Nepali	barīāmā	v_nepalinepa1254	fMZ;fMeZ;mMZ;mMeZ		romanization
-Mo;Ss	npi	npi	Nepali	chēmā	v_nepalinepa1254	fMZ;fMyZ;mMZ;mMyZ		romanization
-Mo;Ss	npi	npi	Nepali	sanima	v_nepalinepa1254	fMZ;fMyZ;mMZ;mMyZ		romanization
 Mo;Ss	nus	nus	Nuer	Malen	v_nuernuer1246	fMZ;mMZ		
 Mo;Ss	nv	nav	Navajo	amá	v_navajonava1243	fMZ;fMeZ;fMyZ;mMZ;mMeZ;mMyZ		
 Mo;Ss	nyi	nyi	Ama (Sudan)	atanenen	v_amaamas1236	fMZ;mMZ		
@@ -11423,7 +11422,9 @@ Mo;Yn;Ss	ml	mal	Malayalam	cittamma	v_malayalammala1464	fMyZ;mMyZ		romanization
 Mo;Yn;Ss	nak	nak	Nakanai	tila bisi	p_nakanainaka1262	fMyZ;mMyZ		
 Mo;Yn;Ss	nio	nio	Nganasan	ŋaaga	v_nganasanngan1291	fMyZ;mMyZ		
 Mo;Yn;Ss	nmv	nmv	Ngamini-Yarluyandi-Karangura	ŋandi kulawaɖa	v_yarluyandingam1265	fMyZ;mMyZ	ngandi	
-Mo;Yn;Ss	npi	npi	Nepali	kānchiāmā	v_nepalinepa1254	fMyZ;mMyZ	barīāmā	romanization
+Mo;Yn;Ss	npi	npi	Nepali	chēmā	v_nepalinepa1254	fMZ;fMyZ;mMZ;mMyZ		romanization
+Mo;Yn;Ss	npi	npi	Nepali	kānchiāmā	v_nepalinepa1254	fMyZ;mMyZ		romanization
+Mo;Yn;Ss	npi	npi	Nepali	sanima	v_nepalinepa1254	fMZ;fMyZ;mMZ;mMyZ		romanization
 Mo;Yn;Ss	nqn	nqn	Nen	ama toge	p_nennenn1238	fMyZ;mMyZ		
 Mo;Yn;Ss	ntp	ntp	Northern Tepehuan	dyišíka	v_northerntepehuannort2959	fMyZ;mMyZ	vovóítya	
 Mo;Yn;Ss	ntp	ntp	Northern Tepehuan	dïišííka	v_northerntepehuannort2959	fMyZ;mMyZ	vovóítya	
@@ -12013,8 +12014,6 @@ Pa;Br	ums	ums	Pendau	posiama' -onyo	p_pendaupend1242	fFeB;fFyB;fMeB;fMyB;mFeB;mF
 Pa;Br	ums	ums	Pendau	posiamao	p_pendaupend1242	fFeB;fFyB;fMeB;fMyB;mFeB;mFyB;mMeB;mMyB		
 Pa;Br	vep	vep	Veps	däd'	v_vepsveps1250	fFB;fMB;mFB;mMB		
 Pa;Br	vko	vko	Kodeoha	lakiama	p_kodeohakode1237	fFeB;fFyB;fMeB;fMyB;mFeB;mFyB;mMeB;mMyB		
-Pa;Br	wa	wln	Walloon	mônok	v_wallonwall1255	fFB;fFeB;fFyB;fMB;fMeB;mFB;mFeB;mFyB;mMB;mMeB		
-Pa;Br	wa	wln	Walloon	mônonk	v_wallonwall1255	fFB;fFeB;fFyB;fMB;fMyB;mFB;mFeB;mFyB;mMB;mMyB		
 Pa;Br	wbp	wbp	Warlpiri	ŋamiɳi	v_warlpiriwarl1254	fFB;fFeB;fFyB;fMB;fMeB;fMyB;mFB;mFeB;mFyB;mMB;mMeB;mMyB		
 Pa;Br	wlo	wlo	Wolio	pinoama	p_woliowoli1241	fFeB;fFyB;fMeB;fMyB;mFeB;mFyB;mMeB;mMyB		
 Pa;Br	wow	wow	Wawonii	maama	p_wawoniiwawo1239	fFeB;fFyB;fMeB;fMyB;mFeB;mFyB;mMeB;mMyB		
@@ -12968,7 +12967,6 @@ Sb	msi	msi	Sabah Malay	lusud sa tian	p_bruneisabahmalaymalaysaba1263	feB;feZ;fyB
 Sb	myv	myv	Erzya	eykakšt	v_erzyaerzy1239	fG;mG		romanization
 Sb	mzh	mzh	Wichí Lhamtés Güisnay	-pun'hʷaʔ	v_wichiwich1264	fG;mG		
 Sb	mzp	mzp	Movima	al-len	v_movimamovi1243	fG;mG		
-Sb	nbj	nbj	Ngarinman	karlaty	v_ngarinymanngar1235	fB;fZ;fyB;fyZ;mB;mZ;myB;myZ		
 Sb	ngo	ngo	Tanzania-Mozambique Ngoni	mkwa	v_ngoningon1269	fG;mG		
 Sb	nia	nia	Nias	talifusö	v_niasnias1242	fB;fZ;mB;mZ		
 Sb	nl	nld	Dutch	.	v_dutchdutc1256	fG;mG		
@@ -15065,8 +15063,7 @@ Ss	myv	myv	Erzya	patʸa	v_erzyaerzy1239	fZ;feZ;mZ;meZ	eykakšt	romanization
 Ss	myv	myv	Erzya	patʹat-sazort	v_erzyamordvinerzy1239	fZ;mZ		romanization
 Ss	mzp	mzp	Movima	al-kʷeya	v_movimamovi1243	fZ;feZ;mZ;meZ	al-len	
 Ss	nb	nob	Norwegian Bokmål	søster	v_norwegianbokmalnorw1259	fZ;feZ;fyZ;mZ;meZ;myZ		
-Ss	nbj	nbj	Ngarinman	kapuku	v_ngarinymanngar1235	fZ;mZ	karlaty	
-Ss	nbj	nbj	Ngarinman	kawurlu	v_ngarinymanngar1235	fZ;feZ;mZ;meZ	karlaty	
+Ss	nbj	nbj	Ngarinman	kapuku	v_ngarinymanngar1235	fZ;mZ		
 Ss	nci	nci	Classical Nahuatl	weltihtli	v_aztecclas1250	fZ;feZ;fyZ;mZ;meZ;myZ		
 Ss	nci	nci	Classical Nahuatl	weltitl	v_aztecclas1250	fZ;feZ;fyZ;mZ;meZ;myZ		
 Ss	ne	nep	Eastern Pahari	bahini	v_easternpaharinepalieast1436	fZ;feZ;mZ;meZ		romanization
@@ -15097,8 +15094,7 @@ Ss	pa	pan	Eastern Panjabi	pàìN	v_panjabipanj1256	fZ;mZ		romanization
 Ss	pam	pam	Pampanga	capatát á babaí	p_pampangakampampanganpamp1243	feZ;fyZ;meZ;myZ		
 Ss	pem	pem	Phende	pangiamukhetu	v_phendephen1239	fZ;mZ	pangi	
 Ss	pgu	pgu	Pagu	bilanga	p_pagupagu1249	feZ;fyZ;meZ;myZ		
-Ss	pjt	pjt	Pitjantjatjara	kangkuru	v_pitjantjatjarapitj1243	fZ;feZ;mZ;meZ	marlany	
-Ss	pjt	pjt	Pitjantjatjara	pirnku	v_pitjantjatjarapitj1243	fZ;mZ	marlany	
+Ss	pjt	pjt	Pitjantjatjara	pirnku	v_pitjantjatjarapitj1243	fZ;mZ		
 Ss	pl	pol	Polish	siostra	v_polishpoli1260	fZ;feZ;fyZ;mZ;meZ;myZ		
 Ss	pnb	pnb	Western Panjabi	bhaiṇa	v_westernpanjabiwest2386	fZ;feZ;mZ;meZ		romanization
 Ss	pnb	pnb	Western Panjabi	paiṇa	v_westernpanjabiwest2386	fZ;feZ;mZ;meZ		romanization
@@ -15121,7 +15117,6 @@ Ss	ro	ron	Romanian	sorǎ	v_romanianroma1327	fZ;fyZ;mZ;myZ
 Ss	rtm	rtm	Rotuman	sæŋhɔni	v_rotumansrotu1241	fZ;mZ		
 Ss	ru	rus	Russian	sestra	v_russianruss1263	fZ;feZ;fyZ;mZ;meZ;myZ		romanization
 Ss	ru	rus	Russian	сестра	p_russianruss1263a	feZ;fyZ;meZ;myZ		
-Ss	rwr	rwr	Marwari (India)	bahin	v_marwariindiamarw1260	fZ;fyZ;mZ;myZ		
 Ss	sd	snd	Sindhi	bheṇu	v_sindhisind1272	fZ;fyZ;mZ;myZ		romanization
 Ss	se	sme	North Saami	oabbá	v_northsaaminort2671	fZ;mZ	oarbinaččat	
 Ss	se	sme	North Saami	oɑbba	v_northernsaminort2671	fZ;mZ	oɑr̃binɑččɑt	
@@ -16439,7 +16434,7 @@ Yn;Br	pa	pan	Eastern Panjabi	choTaa pràà	v_panjabipanj1256	fyB;myB	bhai	romani
 Yn;Br	pao	pao	Northern Paiute	wannka'a	v_northernpaiutenort2954	fyB;myB		
 Yn;Br	pao	pao	Northern Paiute	waŋŋa'a	v_northernpaiutenort2954	fyB;myB		
 Yn;Br	pcf	pcf	Paliyan	thampi	v_paliyanpali1274	fyB;myB		
-Yn;Br	pjt	pjt	Pitjantjatjara	marlanymananyi	v_pitjantjatjarapitj1243	fyB;myB	kurta	
+Yn;Br	pjt	pjt	Pitjantjatjara	marlanymananyi	v_pitjantjatjarapitj1243	fyB;myB	marlanypa	
 Yn;Br	plg	plg	Pilagá	l-anoḳ-ole-k	v_pilagapila1245	fyB;myB	l-a'ḳaya	
 Yn;Br	plj	plj	Pesse	win yees	v_polcipolc1243	fyB;myB	yees	
 Yn;Br	pnb	pnb	Western Panjabi	nikka prā	v_westernpanjabiwest2386	fyB;myB	bharā prā	romanization
@@ -16510,6 +16505,7 @@ Yn;Br	wrh	wrh	Wiradhuri	galbuumayn	v_wiradjuriwira1262	fyB;myB	kaakang
 Yn;Br	wrh	wrh	Wiradhuri	galmayn	v_wiradjuriwira1262	fyB;myB	kaakang	
 Yn;Br	wrh	wrh	Wiradhuri	kakamin	v_wiradjuriwira1262	fyB;myB	kaakang	
 Yn;Br	wrh	wrh	Wiradhuri	kalkaman	v_wiradjuriwira1262	fyB;myB	kaakang	
+Yn;Br	wrh	wrh	Wiradhuri	kalpuman	v_wiradjuriwira1262	fB;fyB;mB;myB	kaakang	
 Yn;Br	wrh	wrh	Wiradhuri	kalpuumany	v_wiradjuriwira1262	fyB;myB	kaakang	
 Yn;Br	wrh	wrh	Wiradhuri	kampal	v_wiradjuriwira1262	fyB;myB	kaakang	
 Yn;Br	wrl	wrl	Warlmanpa	kukurnu	v_warlmanpawarl1255	fyB;myB	ngatyanguru	
@@ -16731,6 +16727,7 @@ Yn;Sb	mye	mye	Myene	nkova	v_myenemyen1241	fyB;fyZ;myB;myZ
 Yn;Sb	mye	mye	Myene	nkovuni	v_myenemyen1241	fyB;fyZ;myB;myZ		
 Yn;Sb	mzp	mzp	Movima	a-na	v_movimamovi1243	fyB;fyZ;myB;myZ	al-len	
 Yn;Sb	mzq	mzq	Mori Atas	andi	p_moriatasmori1269	fyB;fyZ;myB;myZ		
+Yn;Sb	nbj	nbj	Ngarinman	karlaty	v_ngarinymanngar1235	fB;fZ;fyB;fyZ;mB;mZ;myB;myZ		
 Yn;Sb	nio	nio	Nganasan	ŋaaŋku	v_nganasanngan1291	fyB;fyZ;myB;myZ		
 Yn;Sb	nly	nly	Nyamal	marrka	v_nyamalnyam1271	fyB;fyZ;myB;myZ		
 Yn;Sb	nmv	nmv	Ngamini-Yarluyandi-Karangura	kulawarta	v_yarluyandingam1265	fyB;fyZ;myB;myZ		
@@ -16748,6 +16745,8 @@ Yn;Sb	pee	pee	Taje	tuai	p_tanampedagitajetaje1237b	fyB;fyZ;myB;myZ
 Yn;Sb	pem	pem	Phende	mukombo	v_phendephen1239	fyB;fyZ;myB;myZ	pangi	
 Yn;Sb	pit	pit	Pitta Pitta	waŋi	v_pittapittapitt1247	fyB;fyZ;myB;myZ	wangi	
 Yn;Sb	piu	piu	Pintupi-Luritja	mal̪anypa	v_pintupiluritjapint1250	fyB;fyZ;myB;myZ		
+Yn;Sb	pjt	pjt	Pitjantjatjara	marlany	v_pitjantjatjarapitj1243	fZ;fyB;fyZ;mZ;myB;myZ		
+Yn;Sb	pjt	pjt	Pitjantjatjara	marlanypa	v_pitjantjatjarapitj1243	fB;fyB;fyZ;mB;myB;myZ		
 Yn;Sb	pkp	pkp	Pukapuka	tua-tua	p_pukapukapuka1242	fyB;fyZ;myB;myZ		
 Yn;Sb	pyu	pyu	Puyuma	maranak	v_puyumapuyu1239	fyB;fyZ;myB;myZ	maroadi	
 Yn;Sb	rap	rap	Rapanui	taina	p_rapanuieasterislandrapa1244	fyB;fyZ;myB;myZ		
@@ -16780,6 +16779,7 @@ Yn;Sb	tli	tli	Tlingit	-kéekˀ	v_tlingittlin1245	fyB;fyZ;myB;myZ
 Yn;Sb	tll	tll	Tetela	kushi	v_tetelatete1250	fyB;fyZ;myB;myZ		
 Yn;Sb	tr	tur	Turkish	kardeš	p_turkishnucl1301	fyB;fyZ;myB;myZ		
 Yn;Sb	trn	trn	Trinitario-Javeriano-Loretano	ati	v_trinitariotrin1274	fyB;fyZ;myB;myZ	-ati	
+Yn;Sb	ts	tso	Tsonga	ndisana	v_tsongatson1249	fB;fyB;fyZ;mB;myB;myZ		
 Yn;Sb	tsg	tsg	Tausug	manghud	p_tausugtaus1251a	fyB;fyZ;myB;myZ		
 Yn;Sb	txe	txe	Totoli	tuali	p_totolitoto1304	fyB;fyZ;myB;myZ		
 Yn;Sb	txm	txm	Tomini	tuai -nyo	p_tialotominitomi1243	fyB;fyZ;myB;myZ		
@@ -16987,6 +16987,7 @@ Yn;Ss	prt	prt	Prai	khu:n ʔau mä:	v_praiphai1238	fyZ;myZ	khuən ńjaj ʔaw mɛ:
 Yn;Ss	prt	prt	Prai	khu:n ʔaw mɛ:	v_praiphai1238	fyZ;myZ	khuən ńjaj ʔaw mɛ:	
 Yn;Ss	ptn	ptn	Patani	rimo	p_patanipata1260	fyZ;myZ		
 Yn;Ss	pui	pui	Puinave	-hã-wãi i-tɨt	v_puinavepuin1248	fyZ;myZ	-hã-wãi	
+Yn;Ss	rwr	rwr	Marwari (India)	bahin	v_marwariindiamarw1260	fZ;fyZ;mZ;myZ		
 Yn;Ss	sa	san	Sanskrit	anujā	v_sanskritsans1269	fyZ;myZ	svasṛ	romanization
 Yn;Ss	sa	san	Sanskrit	avarajā	v_sanskritsans1269	fyZ;myZ	svasṛ	romanization
 Yn;Ss	scs	scs	North Slavey	sedə	v_delinenort2942	fyZ;myZ		

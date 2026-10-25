@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["langcodes", "language_data"]
+# dependencies = ["langcodes", "language_data", "unidecode"]
 # ///
 """Find Kinbank terms that lexicalize KinDiv concepts exactly.
 
@@ -236,9 +236,29 @@ def verified_extents(
         for parameter in parameters:
             elicited |= kinbank_atoms(parameter) or set()
             filled[parameter] += 1
-    # a general position (sibling, child, parent, spouse) filled with several
-    # words records alternatives ("hermano/hermana"), not one broad term
-    alternatives = {p for p, n in filled.items() if n > 1 and GENERAL.search(p[1:])}
+    # a general position filled with several words records alternatives, not one
+    # broad term: a sibling, child, parent or spouse ("hermano/hermana"), or a
+    # position that two of its words split between disjoint refinements (Hindi
+    # cācā and tāū under fFB, where fFyB has cācā and fFeB tāū); words whose
+    # refinements overlap or are missing are synonyms (Hungarian fivér and
+    # fiútestvér, both under fB and feB; Bengali bon beside bona)
+    atoms_of = {p: kinbank_atoms(p) for p in filled}
+
+    def refinements(form: str, position: str) -> frozenset[str]:
+        atoms = atoms_of[position]
+        return frozenset(
+            q for q in words[form] if atoms and atoms_of[q] and atoms_of[q] < atoms
+        )
+
+    def is_split(position: str) -> bool:
+        parts = {refinements(f, position) for f, ps in words.items() if position in ps}
+        parts.discard(frozenset())
+        return any(a.isdisjoint(b) for a in parts for b in parts if a != b)
+
+    split = {p for p in filled if is_split(p)}
+    alternatives = {
+        p for p, n in filled.items() if n > 1 and (GENERAL.search(p[1:]) or p in split)
+    }
     extent = {
         form: word_atoms(parameters - alternatives or parameters)
         for form, parameters in words.items()

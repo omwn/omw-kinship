@@ -243,7 +243,12 @@ records the term used at each genealogical position in 1,314 languages.
 concept's, where the language was also asked about every neighbouring position
 (other ego sex, other sex or side of each link, other relative age), so the term
 is known not to extend there. A general position (sibling, child, parent, spouse)
-holding several words is read as a list of alternatives, not one broad term.
+holding several words is read as a list of alternatives, not one broad term, and
+so is a position that two of its words split between disjoint narrower ones:
+Hindi *cācā* and *tāū* are both under father's brother (fFB), but *cācā* alone
+under fFyB and *tāū* under fFeB, so they are the younger and the elder. Words
+whose narrower positions overlap stay synonyms of the broad term (Hungarian
+*fivér*, *fiútestvér*).
 
 `build.py` adds the 12,767 matches (925 languages) that carry no
 `broader_synonym` flag. A flag means another word covers the term's positions
