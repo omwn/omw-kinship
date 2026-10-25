@@ -228,6 +228,12 @@ need no new concepts: *nus* is `o;Fa;Br;So` and *muam* `x;Fa;Br;Da` (exact);
 broader and not built. The four concepts once proposed for them
 (`../hmong-ontology/kindiv-proposals.tsv`) are withdrawn.
 
+*npawg* and *muam npaws* (Green Mong *muam npawg*) are marked `review` and not
+built. White glosses them 'maternal cousin' (`Mo;Sb;So`, `Mo;Sb;Da`), but
+Heimbach (1979: 494-495) gives them for the father's sister's children too, and
+only for a male speaker, a concept KinDiv has no code for. They are withheld in
+hmong-ontology (`data/withheld.tsv`) until Nathan White has checked again.
+
 ## Kinbank
 
 [Kinbank](https://github.com/kinbank/kinbank) (Passmore et al. 2023, CC BY 4.0)
