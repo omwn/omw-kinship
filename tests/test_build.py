@@ -287,3 +287,17 @@ def test_wordnet_words_are_for_exactly_linked_concepts() -> None:
     wrong = [r for r in rows if concepts[r["concept"]].ili != r["ili"]]
     assert not wrong
     assert not any(r["source"].startswith("tufs-") for r in rows)
+
+
+@pytest.mark.parametrize(
+    ("table", "column"),
+    [("concept-concepticon.tsv", "concepticon"), ("concept-wikidata.tsv", "wikidata")],
+)
+def test_external_links_name_our_concepts_once_each(table: str, column: str) -> None:
+    """Every external concept is linked once, to a concept we have, by a known relation."""
+    concepts = build.read_concepts()
+    rows = build.read_tsv(build.DATA / table)
+    assert {row["concept"] for row in rows} <= set(concepts)
+    assert {row["relation"] for row in rows} <= {"exact", "broader", "narrower"}
+    ids = [row[column] for row in rows]
+    assert len(ids) == len(set(ids))

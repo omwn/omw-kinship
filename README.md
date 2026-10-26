@@ -139,6 +139,38 @@ Only `exact` rows become `ili=`. A `broader` row (OEWN *uncle*/*aunt* also cover
 relatives by marriage) is kept only as `dc:relation` plus a note. Which ILI
 *brother* and *sister* should link to is open: see `docs/open-questions.md`.
 
+## Concepticon links
+
+`data/concept-concepticon.tsv` links concepts to
+[Concepticon](https://concepticon.clld.org/) concept sets (List, Cysouw and Forkel 2016), the
+concept IDs that Lexibank, IDS and Kinbank use. It is a hand-curated draft,
+not yet used by the build. `relation` says how the Concepticon set relates to
+our concept, as in `concept-ili.tsv`: `exact`, `broader` (it covers more, e.g.
+PATERNAL UNCLE 3763 also includes the husband of a father's sister) or
+`narrower` (e.g. BROTHER-IN-LAW (HUSBAND'S OLDER BROTHER) 2698 under `Hu;Br`).
+Several sets can link to one concept. The notes record where Concepticon's
+definition and gloss disagree.
+
+## Wikidata links
+
+`data/concept-wikidata.tsv` links concepts to Wikidata kinship items, with the
+same `relation` column. It is a draft too, not yet used by the build. The links
+were found mechanically by `scripts/wikidata_concepts.py`, which writes
+`data/candidates/wikidata-candidates.tsv` (`--fetch` refreshes the saved items
+in `data/candidates/wikidata-p4316.tsv`): 217 kinship items have a SPARQL path (property P4316,
+"kinship equivalent in SPARQL"), and running each path over a synthetic family
+whose members are labelled with their positions gives the set of positions the
+item covers, which is compared with each concept's. The family has a male and a
+female ego and gives every married person a husband and a wife, since our
+spouse codes do not fix the spouse's sex. 85 items link to 84 concepts (78
+exact). Most of the rest are great-grandparents and more distant kin, step and
+god relations, which we do not have. The notes record two kinds of problem on
+the Wikidata side: every path with an age filter compares the birth dates the
+wrong way round (*elder brother* Q3972282 returns younger brothers), and
+*uncle*, *brother-in-law*, *son-in-law* and their counterparts count same-sex
+spouses, so they are broader than our traditional nodes (`docs/open-questions.md`,
+question 6).
+
 ## Beyond KinDiv
 
 KinDiv covers only consanguineal kin outside the nuclear family.

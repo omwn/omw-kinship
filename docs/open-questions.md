@@ -267,7 +267,12 @@ and `fW` "female ego's wife" (781) look like evidence, but 97% and 99% of those
 words are also under `fH` and `mW`: the language's word for *husband* or *wife*
 filed under both ego sexes, not a record of same-sex marriage. No source
 elicits `Br;Hu` or `Ss;Wi`. Evidence would have to come from dictionaries and
-current usage, which is where the change shows.
+current usage, which is where the change shows. Wikidata has already moved:
+the SPARQL path (P4316) of *brother-in-law* (Q2914212) is any spouse's brother
+or any sibling's husband, which is option (b)'s inclusive node, and it has
+separate items for *brother's husband* (Q115068466) and *sister's wife*
+(Q115068839). Its *son-in-law* and *uncle* likewise count same-sex spouses
+(`data/concept-wikidata.tsv`).
 
 **Options.**
 - (a) Widen the nodes to `BrL = Sp;Br | Sb;Hu` and `SsL = Sp;Ss | Sb;Wi`. This

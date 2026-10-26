@@ -1,0 +1,110 @@
+concept	concepticon	concepticon_gloss	relation	note
+Rel	1644	RELATIVES	broader	also counts relatives by adoption
+Pa	505	PARENTS	exact	the gloss is plural
+Fa	1217	FATHER	exact	
+Mo	1216	MOTHER	exact	
+x;Fa	3906	FATHER (OF A MAN)	exact	
+o;Fa	3905	FATHER (OF A WOMAN)	exact	
+x;Mo	3908	MOTHER (OF A MAN)	exact	
+Ch	1801	CHILD (DESCENDANT)	exact	
+Ch	2099	CHILD	broader	also 'a young human'
+So	1620	SON	exact	
+Da	1357	DAUGHTER	exact	defined as 'an animal's female offspring (including that of a human)'
+x;So	3779	SON (OF MALE EGO)	exact	
+o;So	3939	SON OF WOMAN	exact	
+x;Da	3778	DAUGHTER (OF MALE EGO)	exact	
+o;Da	3930	DAUGHTER (OF WOMAN)	exact	
+Sp	2514	SPOUSE	exact	
+Hu	1200	HUSBAND	exact	
+Wi	1199	WIFE	exact	
+Sb	1640	SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+Br	1262	BROTHER	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+Ss	1263	SISTER	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+x;Br	559	BROTHER (OF MAN)	exact	
+o;Br	560	BROTHER (OF WOMAN)	exact	
+x;Ss	561	SISTER (OF MAN)	exact	
+o;Ss	562	SISTER (OF WOMAN)	exact	
+El;Sb	405	OLDER SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+Yn;Sb	427	YOUNGER SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+El;Br	1759	OLDER BROTHER	exact	
+Yn;Br	1760	YOUNGER BROTHER	exact	
+El;Ss	1758	OLDER SISTER	exact	
+Yn;Ss	1761	YOUNGER SISTER	exact	
+x;El;Br	2414	OLDER BROTHER (OF MAN)	exact	
+o;El;Br	2415	OLDER BROTHER (OF WOMAN)	exact	
+x;El;Ss	2418	OLDER SISTER (OF MAN)	exact	
+o;El;Ss	2419	OLDER SISTER (OF WOMAN)	exact	
+x;Yn;Br	2416	YOUNGER BROTHER (OF MAN)	exact	
+o;Yn;Br	2417	YOUNGER BROTHER (OF WOMAN)	exact	
+x;Yn;Ss	2420	YOUNGER SISTER (OF MAN)	exact	
+o;Yn;Ss	2421	YOUNGER SISTER (OF WOMAN)	exact	
+o;El;Ss|x;El;Br	3037	SAME-SEX OLDER SIBLING	exact	
+o;Yn;Ss|x;Yn;Br	3038	SAME-SEX YOUNGER SIBLING	exact	
+o;Br|x;Ss	3039	DIFFERENT-SEX OLDER SIBLING	narrower	only an older opposite-sex sibling
+o;Br|x;Ss	3040	DIFFERENT-SEX YOUNGER SIBLING	narrower	only a younger opposite-sex sibling
+Pa;Pa	305	GRANDPARENTS	exact	the gloss is plural; replaces GRANDPARENT 2399
+Pa;Fa	1383	GRANDFATHER	exact	
+Pa;Mo	1496	GRANDMOTHER	exact	
+Fa;Fa	2560	PATERNAL GRANDFATHER	exact	
+Mo;Fa	2178	MATERNAL GRANDFATHER	exact	
+Fa;Mo	3015	PATERNAL GRANDMOTHER	exact	
+Mo;Mo	2177	MATERNAL GRANDMOTHER	exact	
+Ch;Ch	1617	GRANDCHILD	exact	
+Ch;So	1618	GRANDSON	exact	
+Ch;Da	1619	GRANDDAUGHTER	exact	
+So;So	2702	GRANDSON (SON'S SON)	exact	
+So;Ch	3909	GRANDCHILD (SON'S OFFSPRING)	exact	
+Da;Ch	2703	GRANDCHILD (DAUGHTER'S OFFSPRING)	exact	
+o;Ch;Ch	3782	GRANDCHILD (OF FEMALE EGO)	exact	
+Pb	2682	AUNT OR UNCLE	exact	the definition says 'the brother or mother of someone's father or mother'
+Pa;Br	1327	UNCLE	exact	English uncle, but defined by blood only
+Pa;Ss	1272	AUNT	exact	English aunt, but defined by blood only
+Fa;Br	1985	PATERNAL UNCLE (FATHER'S BROTHER)	exact	
+Fa;Br	3763	PATERNAL UNCLE	broader	also the husband of a father's sister
+Mo;Br	2692	MATERNAL UNCLE (MOTHER'S BROTHER)	exact	replaces MOTHER'S BROTHER 1984
+Mo;Br	3220	MATERNAL UNCLE	exact	a near-duplicate of 2692
+Fa;Ss	2691	PATERNAL AUNT (FATHER'S SISTER)	exact	replaces FATHER'S SISTER 170
+Fa;Ss	2175	PATERNAL AUNT	broader	also the wife of a father's brother
+Mo;Ss	2693	MATERNAL AUNT (MOTHER'S SISTER)	exact	replaces MOTHER'S SISTER 171
+Mo;Ss	2176	MATERNAL AUNT	broader	also the wife of a mother's brother
+Fa;El;Br	2173	PATERNAL UNCLE (FATHER'S OLDER BROTHER)	exact	
+Fa;Yn;Br	2174	PATERNAL UNCLE (FATHER'S YOUNGER BROTHER)	exact	
+Fa;El;Ss	3041	PATERNAL AUNT (FATHER'S OLDER SISTER)	exact	
+Mo;El;Br	3249	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	exact	
+Mo;Yn;Br	3250	MATERNAL UNCLE (MOTHER'S YOUNGER BROTHER)	exact	
+Mo;El;Ss	3042	MATERNAL AUNT (MOTHER'S OLDER SISTER)	exact	
+Mo;Yn;Ss	3043	MATERNAL AUNT (MOTHER'S YOUNGER SISTER)	exact	
+Fa;Ss;Hu	2690	UNCLE (HUSBAND OF FATHER'S SISTER)	exact	
+Mo;Ss;Hu	2694	MATERNAL UNCLE (HUSBAND OF ONE'S MATERNAL AUNT)	exact	
+Fa;El;Br;Wi	2170	PATERNAL AUNT (WIFE OF FATHER'S OLDER BROTHER)	exact	
+Fa;Yn;Br;Wi	2171	PATERNAL AUNT (WIFE OF FATHER'S YOUNGER BROTHER)	exact	
+Pa;Br;Wi	2172	MATERNAL AUNT (WIFE OF MOTHER'S BROTHER)	narrower	only the wife of a mother's brother; we have no Mo;Br;Wi
+Sb;Ch	173	SIBLING'S CHILD	exact	
+Sb;Ch	3890	NEPHEW OR NIECE	exact	a near-duplicate of 173
+Sb;So	1063	NEPHEW	exact	
+Sb;Da	1642	NIECE	exact	
+Pa;Sb;Ch	1643	COUSIN	exact	
+Pa;Sb;So	3822	MALE COUSIN	exact	
+Pa;Sb;Da	3823	FEMALE COUSIN	exact	
+Fa;Ss;Ch|Mo;Br;Ch	3162	CROSS-COUSIN	exact	
+Sp;Pa	306	PARENTS-IN-LAW	exact	the gloss is plural
+Sp;Fa	1055	FATHER-IN-LAW	exact	
+Sp;Mo	1050	MOTHER-IN-LAW	exact	
+Wi;Fa	2255	FATHER-IN-LAW (OF MAN)	broader	Concepticon's set is any spouse's father; ours is the traditional reading (open question 6)
+Hu;Fa	2254	FATHER-IN-LAW (OF WOMAN)	broader	Concepticon's set is any spouse's father; ours is the traditional reading (open question 6)
+Wi;Mo	2257	MOTHER-IN-LAW (OF MAN)	broader	Concepticon's set is any spouse's mother; ours is the traditional reading (open question 6)
+Hu;Mo	2256	MOTHER-IN-LAW (OF WOMAN)	broader	Concepticon's set is any spouse's mother; ours is the traditional reading (open question 6)
+Ch;Sp	1060	CHILD-IN-LAW	exact	
+Da;Hu	1056	SON-IN-LAW	broader	defined through the child's husband's sex alone, so it includes a son's husband or a daughter's wife (open question 6)
+So;Wi	1057	DAUGHTER-IN-LAW	broader	defined through the child's wife's sex alone, so it includes a son's husband or a daughter's wife (open question 6)
+Sp;Br	2314	BROTHER-IN-LAW	exact	glossed BROTHER-IN-LAW but defined as a spouse's brother only
+Sp;Ss	2317	SISTER-IN-LAW	exact	glossed SISTER-IN-LAW but defined as a spouse's sister only
+Wi;Br	2380	BROTHER-IN-LAW (OF MAN)	broader	Concepticon's set is any spouse's brother; ours is the traditional reading (open question 6)
+SsL	3781	SISTER-IN-LAW (OF FEMALE EGO)	narrower	a woman's husband's sister or brother's wife
+Hu;Br	2698	BROTHER-IN-LAW (HUSBAND'S OLDER BROTHER)	narrower	the husband's older brother; the definition says 'husband of one's older brother'
+Hu;Br	2699	BROTHER-IN-LAW (HUSBAND'S YOUNGER BROTHER)	narrower	the husband's younger brother; the definition says 'husband of one's younger brother'
+Hu;Ss	2700	SISTER-IN-LAW (HUSBAND'S OLDER SISTER)	narrower	the husband's older sister; the definition says 'husband of one's older sister'
+Hu;Ss	2701	SISTER-IN-LAW (HUSBAND'S YOUNGER SISTER)	narrower	the husband's younger sister; the definition says 'husband of one's younger sister'
+Ss;Hu	2696	BROTHER-IN-LAW (OLDER SISTER'S HUSBAND)	narrower	only an older sister's husband
+Ss;Hu	2697	BROTHER-IN-LAW (YOUNGER SISTER'S HUSBAND)	narrower	only a younger sister's husband
+Br;Wi	2695	SISTER-IN-LAW (OLDER BROTHER'S WIFE)	narrower	only an older brother's wife

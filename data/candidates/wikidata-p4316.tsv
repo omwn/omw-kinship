@@ -1,0 +1,221 @@
+qid	label	path	ili	concepticon
+Q7560	mother	?person wdt:P25 ?relative		1216
+Q7565	father	?person wdt:P22 ?relative		1217
+Q7566	parent	?person (wdt:P22|wdt:P25) ?relative		505
+Q31184	sibling	?person wdt:P3373 ?relative		1640
+Q76477	niece or nephew	?person wdt:P3373/wdt:P40 ?relative		3890
+Q76557	uncle	?person (wdt:P22|wdt:P25) ?parent . { ?parent wdt:P3373 ?relative } UNION { ?parent wdt:P3373/wdt:P26 ?relative } . ?relative wdt:P21 wd:Q6581097		1327
+Q76666	first cousin	?person (wdt:P25|wdt:P22)/wdt:P3373/wdt:P40 ?relative	i89276	
+Q159979	twin	?person p:P3373 [ rdf:type wikibase:BestRank ; ps:P3373 ?relative ; pq:P1039 wd:Q159979 ]		1005
+Q159979	twin	?person wdt:P3373 ?relative ; wdt:P569 ?dob . ?relative wdt:P569 ?dob		1005
+Q167918	grandparent	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25) ?relative		2399
+Q177232	son	?person wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q188830	wife	?person wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		1199
+Q212878	husband	?person wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581097		1200
+Q223973	godparent	?person wdt:P1290 ?relative		
+Q308194	daughter	?person wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q595094	sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072		1263
+Q723868	mother-in-law	?person wdt:P26/wdt:P25 ?relative		1050
+Q1196129	spouse	?person wdt:P26 ?relative		2514
+Q1282201	stepfather	?person wdt:P3448 ?relative . ?relative wdt:P21 wd:Q6581097		237
+Q1498282	co-father-in-law	?person wdt:P40/wdt:P26/wdt:P22 ?relative		
+Q1666087	co-brother-in-law	?person (wdt:P3373/wdt:P26/wdt:P3373)|(wdt:P26/wdt:P3373/wdt:P26) ?relative . ?relative wdt:P21 wd:Q6581097		
+Q2096646	child-in-law	?person wdt:P40/wdt:P26 ?relative		1060
+Q2500619	great-grandparent	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22) ?relative		
+Q2500620	great-grandmother	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P25 ?relative		
+Q2500621	great-grandfather	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P22 ?relative		
+Q2914212	brother-in-law	{ ?person wdt:P26/wdt:P3373 ?relative } UNION { ?person wdt:P3373/wdt:P26 ?relative } . ?relative wdt:P21 wd:Q6581097		2314
+Q3103421	stepchild	?person ^wdt:P3448 ?relative		3910
+Q3238556	sister-in-law	{ ?person wdt:P26/wdt:P3373 ?relative } UNION { ?person wdt:P3373/wdt:P26 ?relative } . ?relative wdt:P21 wd:Q6581072		2317
+Q3403377	niece	?person wdt:P3373/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		1642
+Q3603531	grandchild	?person wdt:P40/wdt:P40 ?relative		1617
+Q3744857	godchild	?person ^wdt:P1290 ?relative		
+Q3752578	son-in-law	?person wdt:P40/wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581097		1056
+Q3813877	granduncle	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097	i90317	
+Q3972282	elder brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)	i88560	1759
+Q4113830	grandniece	?person wdt:P3373/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072	i90316	
+Q4113832	great-nephew	?person wdt:P3373/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097	i90315	
+Q4120409	mother's brother	?person wdt:P25/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097		2692
+Q4346792	stepson	?person ^wdt:P3448 ?relative . ?relative wdt:P21 wd:Q6581097	i93313	1059
+Q4838063	stepmother	?person wdt:P3448 ?relative . ?relative wdt:P21 wd:Q6581072		236
+Q4994787	maternal grandmother	?person wdt:P25/wdt:P25 ?relative		2177
+Q4994791	maternal grandfather	?person wdt:P25/wdt:P22 ?relative		2178
+Q5992509	father's sister	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072		170
+Q6035384	mother's sister	?person wdt:P25/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072		171
+Q6715170	father's older brother	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?father wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		2173
+Q6793920	son of mother's brother	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097		
+Q6793951	daughter of mother's brother	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072		
+Q9235758	grandmother	?person (wdt:P22|wdt:P25)/wdt:P25 ?relative		1496
+Q9347053	wife of father's brother	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P21 wd:Q6581097 . ?uncle wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q10082670	elder sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)	i88564	1758
+Q10291472	younger brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)	i91053	1760
+Q10861465	brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097		1262
+Q10912818	father's younger brother	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?father wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		2174
+Q10943095	younger sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)	i91057	1761
+Q11921506	grandson	?person wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		1618
+Q11972456	grandaunt	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072	i90308	
+Q12051531	female first cousin	?person (wdt:P25|wdt:P22)/wdt:P3373/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		3823
+Q12091051	wife of mother's brother	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P21 wd:Q6581097 . ?uncle wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		2172
+Q12150903	husband's mother	?person wdt:P26 ?spouse . ?spouse wdt:P21 wd:Q6581097 . ?spouse wdt:P25 ?relative		
+Q12150991	wife's sister	?person wdt:P26 ?wife . ?wife wdt:P3373 ?relative . ?wife wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581072		
+Q12158205	father's brother	?person wdt:P22/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097		1985
+Q12160962	wife's father	?person wdt:P26 ?wife . ?wife wdt:P22 ?relative . ?wife wdt:P21 wd:Q6581072		
+Q12183411	daughter's son	?person wdt:P40 ?daugther . ?daugther wdt:P21 wd:Q6581072 . ?daugther wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q12224539	husband of sister of wife	?person wdt:P26 ?wife . ?wife wdt:P3373 ?wsister . ?wsister wdt:P26 ?relative . ?wife wdt:P21 wd:Q6581072 . ?wsister wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q12224539	husband of sister of wife	?person wdt:P26/wdt:P3373/wdt:P26 ?relative . ?person wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097		
+Q12433519	paternal grandmother	?person wdt:P22/wdt:P25 ?relative		3015
+Q12438956	son's daughter	?person wdt:P40 ?son . ?son wdt:P21 wd:Q6581097 . ?son wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q12443619	sororal nephew	?person wdt:P3373 ?sister . ?sister wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097 . ?sister wdt:P21 wd:Q6581072		
+Q13182364	wife of brother of husband	?person wdt:P26 ?husband . ?husband wdt:P21 wd:Q6581097 . ?husband wdt:P3373 ?hbrother . ?hbrother wdt:P21 wd:Q6581097 . ?hbrother wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q13182364	wife of brother of husband	?person wdt:P26/wdt:P3373/wdt:P26 ?relative . ?person wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581072		
+Q13183045	great-granddaughter	?person wdt:P40/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q13184281	brother's wife	?person wdt:P3373 ?brother . ?brother wdt:P21 wd:Q6581097 . ?brother wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q13184390	sister's husband	?person wdt:P3373 ?sister . ?sister wdt:P21 wd:Q6581072 . ?sister wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q13204680	father-in-law	?person wdt:P26/wdt:P22 ?relative		1055
+Q15224724	nephew	?person wdt:P3373/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097	i91586	1063
+Q15657883	son's son	?person wdt:P40 ?son . ?son wdt:P21 wd:Q6581097 . ?son wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		2702
+Q15697293	wife of brother of wife	?person wdt:P26 ?wife . ?wife wdt:P21 wd:Q6581072 . ?wife wdt:P3373 ?wbrother . ?wbrother wdt:P21 wd:Q6581097 . ?wbrother wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q18489480	daughter-in-law	?person wdt:P40/wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		1057
+Q19595226	paternal half-brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P22 ?father . ?relative wdt:P22 ?father . ?person wdt:P25 ?mother1 . ?relative wdt:P25 ?mother2 . FILTER (?mother1!=?mother2)		
+Q19595227	maternal half-brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P25 ?mother . ?relative wdt:P25 ?mother . ?person wdt:P22 ?father1 . ?relative wdt:P22 ?father2 . FILTER (?father1!=?father2)		
+Q19595228	paternal half-sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P22 ?father . ?relative wdt:P22 ?father . ?person wdt:P25 ?mother1 . ?relative wdt:P25 ?mother2 . FILTER (?mother1!=?mother2)		
+Q19595229	maternal half-sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P25 ?mother . ?relative wdt:P25 ?mother . ?person wdt:P22 ?father1 . ?relative wdt:P22 ?father2 . FILTER (?father1!=?father2)		
+Q19671714	lineal descendant	?person wdt:P40+ ?relative		
+Q19680017	great-grandson	?person wdt:P40/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q19682162	paternal grandfather	?person wdt:P22/wdt:P22 ?relative		2560
+Q19682171	paternal great-grandparent	?person wdt:P22/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22) ?relative		
+Q19682183	great-great-grandson	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q19682184	paternal great-great-grandfather	?person wdt:P22/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22)/wdt:P22 ?relative		
+Q19756330	granddaughter	?person wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		1619
+Q19822352	stepparent	?person wdt:P3448 ?relative		
+Q19822354	stepdaughter	?person ^wdt:P3448 ?relative . ?relative wdt:P21 wd:Q6581072		1058
+Q20094017	wife's mother	?person wdt:P26 ?wife . ?wife wdt:P25 ?relative . ?wife wdt:P21 wd:Q6581072		
+Q20827872	great-great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q20827882	great-great-great-grandparent	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q23045211	fraternal nephew	?person wdt:P3373 ?brother . ?brother wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097 . ?brother wdt:P21 wd:Q6581097		
+Q23045278	fraternal niece	?person wdt:P3373 ?brother . ?brother wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072 . ?brother wdt:P21 wd:Q6581097		
+Q23045293	sororal niece	?person wdt:P3373 ?sister . ?sister wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072 . ?sister wdt:P21 wd:Q6581072		
+Q23045425	husband's brother	?person wdt:P26 ?husband . ?husband wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?husband wdt:P21 wd:Q6581097		
+Q23045435	husband's sister	?person wdt:P26 ?husband . ?husband wdt:P3373 ?relative . ?husband wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072		
+Q23045444	wife's brother	?person wdt:P26 ?wife . ?wife wdt:P3373 ?relative . ?wife wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q23067029	co-sister-in-law	?person (wdt:P3373/wdt:P26/wdt:P3373)|(wdt:P26/wdt:P3373/wdt:P26) ?relative . ?relative wdt:P21 wd:Q1666087		
+Q23214318	husband of sister of husband	?person wdt:P26 ?husband . ?husband wdt:P3373 ?hsister . ?hsister wdt:P26 ?relative . ?husband wdt:P21 wd:Q6581097 . ?hsister wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q23708554	spouse's aunt	?person (wdt:P22|wdt:P25)/wdt:P3373/wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q23868497	husband's father	?person wdt:P26 ?husband . ?husband wdt:P22 ?relative . ?husband wdt:P21 wd:Q6581097		
+Q25377643	double cousin	?person wdt:P22/wdt:P3373/wdt:P40 ?relative . wdt:P25/wdt:P3373/wdt:P40 ?relative		
+Q25536898	son of father's brother	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097		
+Q26004701	maternal great-grandparent	?person wdt:P25/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22) ?relative		
+Q26237579	great-grandchild	?person wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q27164515	great-great-grandparent	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22) ?relative		
+Q27965080	paternal half-sibling	?person wdt:P3373 ?relative . ?person wdt:P22 ?father . ?relative wdt:P22 ?father . ?person wdt:P25 ?mother1 . ?relative wdt:P25 ?mother2 . FILTER (?mother1!=?mother2)		
+Q27965083	maternal half-sibling	?person wdt:P3373 ?relative . ?person wdt:P25 ?mother . ?relative wdt:P25 ?mother . ?person wdt:P22 ?father1 . ?relative wdt:P22 ?father2 . FILTER (?father1!=?father2)		
+Q28017613	paternal grandparent	?person wdt:P22/(wdt:P22|wdt:P25) ?relative		
+Q28017614	maternal grandparent	?person wdt:P25/(wdt:P22|wdt:P25) ?relative		
+Q28017737	godfather	?person wdt:P1290 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q28017739	godmother	?person wdt:P1290 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q28324773	grandparent-in-law	?person wdt:P26/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25) ?relative		
+Q28466210	younger sibling	?person wdt:P3373 ?relative . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		427
+Q28466211	elder sibling	?person wdt:P3373 ?relative . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		405
+Q29514218	child	?person wdt:P40 ?relative		1801
+Q30254751	maternal first cousin	?person wdt:P25/wdt:P3373/wdt:P40 ?relative		
+Q30868674	spouse's uncle	?person (wdt:P22|wdt:P25)/wdt:P3373/wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q31819505	male first cousin	?person (wdt:P25|wdt:P22)/wdt:P3373/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		3822
+Q41798757	full sibling	?person wdt:P3373 ?relative . ?person wdt:P22/wdt:P40 ?relative . ?person wdt:P25/wdt:P40 ?relative		
+Q41798817	godson	?person ^wdt:P1290 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q41798832	goddaughter	?person ^wdt:P1290 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q41805469	parent's brother	?person (wdt:P22|wdt:P25)/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q41805477	parent's sister	?person (wdt:P22|wdt:P25)/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q41823427	paternal grandfather's father	?person wdt:P22/wdt:P22/wdt:P22 ?relative		
+Q41854901	paternal great-grandmother	?person wdt:P22/wdt:P22/wdt:P25 ?relative		
+Q41855114	father's mother's father	?person wdt:P22/wdt:P25/wdt:P22 ?relative		
+Q41855362	father's mother's mother	?person wdt:P22/wdt:P25/wdt:P25 ?relative		
+Q42213179	current spouse	?person wdt:P26 ?relative . FILTER NOT EXISTS { ?person wdt:P570 [] } FILTER NOT EXISTS { ?relative wdt:P570 [] } FILTER NOT EXISTS { ?person p:P26 ?st1 . ?st1 pq:P582 [] . ?st1 ps:P26 ?relative } FILTER NOT EXISTS { ?relative p:P26 ?st2 . ?st2 pq:P582 [] . ?st2 ps:P26 ?person }		
+Q42240727	maternal great-grandfather	?person wdt:P25/wdt:P22/wdt:P22 ?relative		
+Q42240735	maternal great-grandmother	?person wdt:P25/wdt:P22/wdt:P25 ?relative		
+Q42240748	mother's mother's father	?person wdt:P25/wdt:P25/wdt:P22 ?relative		
+Q42240762	mother's mother's mother	?person wdt:P25/wdt:P25/wdt:P25 ?relative		
+Q42297295	great-great-granddaughter	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q42301043	tangge	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		
+Q42301900	tangdi	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		
+Q42301906	tangjie	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		
+Q42301908	tangmei	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		
+Q42302432	daughter's daughter	?person wdt:P40 ?daugther . ?daugther wdt:P21 wd:Q6581072 . ?daugther wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q53277248	great-great-great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q58837291	great-great-grandfather	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P22 ?relative		
+Q69358853	great-great-great-great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q87755927	co-sibling-in-law	?person (wdt:P3373/wdt:P26/wdt:P3373)|(wdt:P26/wdt:P3373/wdt:P26) ?relative		
+Q88998721	great-great-great-great-grandparent	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998725	5th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998728	6th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998730	7th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998733	8th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998736	9th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998738	10th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998743	11th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998746	12th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998749	13th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998752	14th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998754	15th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998756	16th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998758	17th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998760	18th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998762	19th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998765	20th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998768	21st great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998771	22nd great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998775	23rd great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998778	24th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998781	25th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998784	26th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998786	27th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998789	28th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998793	29th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998796	30th great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998800	31st great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998805	32nd great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998810	33rd great-grandparent	?person (wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22)/(wdt:P25|wdt:P22) ?relative		
+Q88998817	5th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999041	7th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999043	6th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999047	8th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999048	9th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999050	10th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999052	11th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999053	12th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999054	13th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999057	14th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999058	15th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999060	17th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999061	16th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999063	18th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999064	19th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999066	20th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999068	21st great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999070	22nd great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999071	23rd great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999073	24th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999074	25th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999076	26th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999077	27th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999079	29th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999080	28th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999082	30th great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999083	31st great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999085	32nd great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q88999086	33rd great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
+Q105654167	son of father's sister	?person wdt:P22/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q110674791	non-binary spouse	?person wdt:P26 ?relative . ?relative wdt:P21 wd:Q48270		
+Q113884697	double cross-cousin	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?person wdt:P22/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072		
+Q113884725	double parallel cousin	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?person wdt:P25/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072		
+Q113884805	female double cousin	?person wdt:P22/wdt:P3373/wdt:P40 ?relative . wdt:P25/wdt:P3373/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q113884821	male double cousin	?person wdt:P22/wdt:P3373/wdt:P40 ?relative . wdt:P25/wdt:P3373/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q113884914	female double parallel cousin	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?person wdt:P25/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581072		
+Q113884956	male double parallel cousin	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?person wdt:P25/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q113885498	male double cross cousin	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?person wdt:P22/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q113885545	female double cross-cousin	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?person wdt:P22/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581072		
+Q115068466	brother's husband	?person wdt:P3373 ?brother . ?brother wdt:P21 wd:Q6581097 . ?brother wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581097		
+Q115068839	sister's wife	?person wdt:P3373 ?sister . ?sister wdt:P21 wd:Q6581072 . ?sister wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581072		
+Q116914618	daughter of father's brother	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072		
+Q123678550	daughter of father's sister	?person wdt:P22/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581072		
+Q123678551	son of mother's sister	?person wdt:P25/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581097		
+Q123678552	daughter of mother's sister	?person wdt:P25/wdt:P3373 ?aunt . ?aunt wdt:P40 ?relative . ?aunt wdt:P21 wd:Q6581072 . ?relative wdt:P21 wd:Q6581072		

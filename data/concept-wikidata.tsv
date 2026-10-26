@@ -1,0 +1,86 @@
+concept	wikidata	wikidata_label	relation	note
+Pa;Pa	Q167918	grandparent	exact	
+Fa;Pa	Q28017613	paternal grandparent	exact	
+Mo;Pa	Q28017614	maternal grandparent	exact	
+Pa;Mo	Q9235758	grandmother	exact	
+Fa;Fa	Q19682162	paternal grandfather	exact	
+Mo;Fa	Q4994791	maternal grandfather	exact	
+Fa;Mo	Q12433519	paternal grandmother	exact	
+Mo;Mo	Q4994787	maternal grandmother	exact	
+Ch;Ch	Q3603531	grandchild	exact	
+Ch;So	Q11921506	grandson	exact	
+Ch;Da	Q19756330	granddaughter	exact	
+So;So	Q15657883	son's son	exact	
+So;Da	Q12438956	son's daughter	exact	
+Da;So	Q12183411	daughter's son	exact	
+Da;Da	Q42302432	daughter's daughter	exact	
+Sb	Q31184	sibling	exact	
+Sb	Q41798757	full sibling	narrower	full siblings only; our Sb also covers half siblings
+Br	Q10861465	brother	exact	
+Ss	Q595094	sister	exact	
+El;Sb	Q28466211	elder sibling	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Yn;Sb	Q28466210	younger sibling	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+El;Br	Q3972282	elder brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+El;Ss	Q10082670	elder sister	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Yn;Br	Q10291472	younger brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Yn;Ss	Q10943095	younger sister	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Pa;Br	Q41805469	parent's brother	exact	
+Pa;Ss	Q41805477	parent's sister	exact	
+Fa;Br	Q12158205	father's brother	exact	
+Mo;Br	Q4120409	mother's brother	exact	
+Fa;Ss	Q5992509	father's sister	exact	
+Mo;Ss	Q6035384	mother's sister	exact	
+Fa;El;Br	Q6715170	father's older brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Fa;Yn;Br	Q10912818	father's younger brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Sb;Ch	Q76477	niece or nephew	exact	
+Sb;So	Q15224724	nephew	exact	
+Sb;Da	Q3403377	niece	exact	
+Br;So	Q23045211	fraternal nephew	exact	
+Br;Da	Q23045278	fraternal niece	exact	
+Ss;So	Q12443619	sororal nephew	exact	
+Ss;Da	Q23045293	sororal niece	exact	
+Pa;Sb;Ch	Q76666	first cousin	exact	
+Pa;Sb;So	Q31819505	male first cousin	exact	
+Pa;Sb;Da	Q12051531	female first cousin	exact	
+Mo;Sb;Ch	Q30254751	maternal first cousin	exact	
+Fa;Br;So	Q25536898	son of father's brother	exact	
+Fa;Br;Da	Q116914618	daughter of father's brother	exact	
+Fa;Ss;So	Q105654167	son of father's sister	exact	
+Fa;Ss;Da	Q123678550	daughter of father's sister	exact	
+Mo;Br;So	Q6793920	son of mother's brother	exact	
+Mo;Br;Da	Q6793951	daughter of mother's brother	exact	
+Mo;Ss;So	Q123678551	son of mother's sister	exact	
+Mo;Ss;Da	Q123678552	daughter of mother's sister	exact	
+El;Fa;Br;So	Q42301043	tangge	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Yn;Fa;Br;So	Q42301900	tangdi	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+El;Fa;Br;Da	Q42301906	tangjie	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Yn;Fa;Br;Da	Q42301908	tangmei	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age
+Unc	Q76557	uncle	broader	its path also counts a parent's sibling's husband of either sex (a parent's brother's husband)
+Pa;Br;Wi	Q12091051	wife of mother's brother	narrower	only the wife of a mother's brother; we have no Mo;Br;Wi
+Fa;Br;Wi	Q9347053	wife of father's brother	exact	
+Pa	Q7566	parent	exact	
+Fa	Q7565	father	exact	
+Mo	Q7560	mother	exact	
+Ch	Q29514218	child	exact	
+So	Q177232	son	exact	
+Da	Q308194	daughter	exact	
+Sp	Q1196129	spouse	exact	
+Hu	Q212878	husband	exact	
+Wi	Q188830	wife	exact	
+Sp;Fa	Q13204680	father-in-law	exact	
+Sp;Mo	Q723868	mother-in-law	exact	
+Ch;Sp	Q2096646	child-in-law	exact	
+Da;Hu	Q3752578	son-in-law	broader	its path is any child's husband, so it includes a son's husband
+So;Wi	Q18489480	daughter-in-law	broader	its path is any child's wife, so it includes a daughter's wife
+BrL	Q2914212	brother-in-law	broader	its path is any spouse's brother or any sibling's husband, so it includes a brother's husband (open question 6)
+SsL	Q3238556	sister-in-law	broader	its path is any spouse's sister or any sibling's wife, so it includes a sister's wife (open question 6)
+Ss;Hu	Q13184390	sister's husband	exact	
+Br;Wi	Q13184281	brother's wife	exact	
+Wi;Mo	Q20094017	wife's mother	exact	
+Hu;Fa	Q23868497	husband's father	exact	
+Hu;Mo	Q12150903	husband's mother	exact	
+Wi;Fa	Q12160962	wife's father	exact	
+Wi;Br	Q23045444	wife's brother	exact	
+Hu;Ss	Q23045435	husband's sister	exact	
+Hu;Br	Q23045425	husband's brother	exact	
+Wi;Ss	Q12150991	wife's sister	exact	
