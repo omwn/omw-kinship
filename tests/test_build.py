@@ -116,6 +116,17 @@ def test_tufs_words_are_added_but_low_confidence_ones_are_not() -> None:
     assert "өвгөн" not in languages["Mongolian"].words
 
 
+def test_words_held_back_for_review_are_left_out_from_any_source() -> None:
+    """Hmong npawg is marked review, so hmnont's word for cousin is dropped too."""
+    concepts = build.read_concepts()
+    languages: dict[str, build.Language] = {}
+    name = build.register_language("White Hmong", "mww")
+    build.add_word(languages, name, "npawg", concepts["Pa;Sb;Ch"], "hmnont:0.1")
+    build.add_word(languages, name, "kwv tij", concepts["Pa;Sb;Ch"], "hmnont:0.1")
+    assert "npawg" not in languages[name].words
+    assert "kwv tij" in languages[name].words
+
+
 def test_affinal_uncles_and_aunts_are_uncles_and_in_laws() -> None:
     ancestry = build.read_hierarchy(build.read_concepts())
     assert {"Pa;Ss;Hu", "Unc", "InL", "Rel"} <= ancestry["Fa;Ss;Hu"]

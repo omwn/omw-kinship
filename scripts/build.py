@@ -31,6 +31,7 @@ import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass, field
 from difflib import SequenceMatcher
+from functools import cache
 from pathlib import Path
 from xml.sax.saxutils import escape, quoteattr
 
@@ -397,12 +398,31 @@ def add_phrases(language: Language, concepts: dict[str, Concept]) -> None:
             language.phrases[text] = code
 
 
+@cache
+def held_back() -> frozenset[tuple[str, str]]:
+    """(tag, form) of the words marked ``review`` in `attested-words.tsv`.
+
+    Their meaning is in doubt (Hmong *npawg*, d5627cb), so they are left out
+    whatever source offers them, an existing wordnet included.
+    """
+    return frozenset(
+        (row["tag"], clean(row["word"]))
+        for row in read_tsv(DATA / "attested-words.tsv")
+        if row["match"] == "review"
+    )
+
+
 def add_word(
     languages: dict[str, Language], name: str, form: str, concept: Concept, source: str
 ) -> None:
-    """Record that `form` in language `name` lexicalizes `concept`."""
+    """Record that `form` in language `name` lexicalizes `concept`.
+
+    A word held back for review (`held_back`) is not recorded.
+    """
     language = languages.setdefault(name, Language(name, LANGUAGE_TAGS[name]))
     form = clean(form)
+    if (language.tag, form) in held_back():
+        return
     if form and (concept.code, source) not in language.words[form]:
         language.words[form].append((concept.code, source))
         concept.languages.add(name)
