@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["langcodes", "language_data"]
+# dependencies = ["langcodes", "language_data", "unidecode"]
 # ///
 """Find recurring Kinbank meanings that KinDiv has no concept for.
 
@@ -115,17 +115,25 @@ def to_code(ego: str, letters: str, age: str) -> str:
     return ";".join(prefix + tokens)
 
 
-def main() -> None:
-    """Write kinbank-new-concepts.tsv."""
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    root = Path(sys.argv[1] if len(sys.argv) > 1 else build.ROOT.parent / "kinbank")
+def unmatched(
+    cldf: Path,
+) -> tuple[
+    dict[frozenset, set[str]], dict[frozenset, set[str]], dict[frozenset, list[str]]
+]:
+    """Kinbank meanings no concept has: their families, macroareas and examples.
+
+    A meaning is the extent of a verified term (`kinbank_words.verified_extents`)
+    that no concept has and no broader synonym in its language covers. Each maps
+    to the families it occurs in (isolates by glottocode), its macroareas, and
+    one "Language form" example per language.
+    """
     concepts = build.read_concepts()
     known = {
         frozenset(atoms)
         for code, concept in concepts.items()
         if (atoms := kw.kindiv_atoms(code, concept.subdomain))
     }
-    languages, forms = kw.read_kinbank(root / "kinbank" / "cldf")
+    languages, forms = kw.read_kinbank(cldf)
 
     families: dict[frozenset, set[str]] = defaultdict(set)
     areas: dict[frozenset, set[str]] = defaultdict(set)
@@ -140,6 +148,14 @@ def main() -> None:
             families[atoms].add(language["Family"] or language["Glottocode"])
             areas[atoms].add(language["Macroarea"])
             examples[atoms].append(f"{language['Name']} {form}")
+    return families, areas, examples
+
+
+def main() -> None:
+    """Write kinbank-new-concepts.tsv."""
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    root = Path(sys.argv[1] if len(sys.argv) > 1 else build.ROOT.parent / "kinbank")
+    families, areas, examples = unmatched(root / "kinbank" / "cldf")
 
     recurrent = [
         atoms

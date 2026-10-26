@@ -388,6 +388,9 @@ def kinbank_clone_facts(cldf: Path) -> dict[str, int]:
     ``half_sibling_languages`` fill any half- or step-sibling position;
     ``half_sibling_general_families`` are the families with a single word for
     every half sibling (one form at mhB, mhZ, fhB and fhZ).
+    ``unmatched_extensions`` are the distinct meanings of verified terms that
+    no concept has and no broader synonym covers (`kinbank_concepts.unmatched`),
+    ``unmatched_one_family`` those found in a single language family.
     """
     languages = {row["ID"]: row for row in cldf_rows(cldf / "languages.csv")}
     half: dict[tuple[str, str], set[str]] = defaultdict(set)
@@ -402,6 +405,8 @@ def kinbank_clone_facts(cldf: Path) -> dict[str, int]:
         for (language, _), found in half.items()
         if ANY_HALF <= found
     }
+    families, _, _ = kinbank_concepts.unmatched(cldf)
+    one_family = sum(len(found) == 1 for found in families.values())
     return {
         "varieties": len(languages),
         "glottocodes": len(
@@ -409,6 +414,9 @@ def kinbank_clone_facts(cldf: Path) -> dict[str, int]:
         ),
         "half_sibling_languages": len(filled),
         "half_sibling_general_families": len(general),
+        "unmatched_extensions": len(families),
+        "unmatched_one_family": one_family,
+        "unmatched_one_family_pct": percent(one_family, len(families)),
     }
 
 

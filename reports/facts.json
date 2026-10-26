@@ -96,7 +96,10 @@
     "varieties": 1314,
     "glottocodes": 1189,
     "half_sibling_languages": 13,
-    "half_sibling_general_families": 4
+    "half_sibling_general_families": 4,
+    "unmatched_extensions": 1313,
+    "unmatched_one_family": 981,
+    "unmatched_one_family_pct": 74.7
   },
   "tufs": {
     "languages": 23
