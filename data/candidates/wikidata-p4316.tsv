@@ -42,7 +42,7 @@ Q4994787	maternal grandmother	?person wdt:P25/wdt:P25 ?relative		2177
 Q4994791	maternal grandfather	?person wdt:P25/wdt:P22 ?relative		2178
 Q5992509	father's sister	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072		170
 Q6035384	mother's sister	?person wdt:P25/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072		171
-Q6715170	father's older brother	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?father wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		2173
+Q6715170	father's older brother	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?father wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		2173
 Q6793920	son of mother's brother	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097		
 Q6793951	daughter of mother's brother	?person wdt:P25/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072		
 Q9235758	grandmother	?person (wdt:P22|wdt:P25)/wdt:P25 ?relative		1496
@@ -50,7 +50,7 @@ Q9347053	wife of father's brother	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:
 Q10082670	elder sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)	i88564	1758
 Q10291472	younger brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)	i91053	1760
 Q10861465	brother	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097		1262
-Q10912818	father's younger brother	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?father wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		2174
+Q10912818	father's younger brother	?person wdt:P22 ?father . ?father wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581097 . ?father wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		2174
 Q10943095	younger sister	?person wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)	i91057	1761
 Q11921506	grandson	?person wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581097		1618
 Q11972456	grandaunt	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P3373 ?relative . ?relative wdt:P21 wd:Q6581072	i90308	
@@ -114,8 +114,8 @@ Q28017614	maternal grandparent	?person wdt:P25/(wdt:P22|wdt:P25) ?relative
 Q28017737	godfather	?person wdt:P1290 ?relative . ?relative wdt:P21 wd:Q6581097		
 Q28017739	godmother	?person wdt:P1290 ?relative . ?relative wdt:P21 wd:Q6581072		
 Q28324773	grandparent-in-law	?person wdt:P26/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25) ?relative		
-Q28466210	younger sibling	?person wdt:P3373 ?relative . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		427
-Q28466211	elder sibling	?person wdt:P3373 ?relative . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		405
+Q28466210	younger sibling	?person wdt:P3373 ?relative . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		427
+Q28466211	elder sibling	?person wdt:P3373 ?relative . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		405
 Q29514218	child	?person wdt:P40 ?relative		1801
 Q30254751	maternal first cousin	?person wdt:P25/wdt:P3373/wdt:P40 ?relative		
 Q30868674	spouse's uncle	?person (wdt:P22|wdt:P25)/wdt:P3373/wdt:P26 ?relative . ?relative wdt:P21 wd:Q6581097		
@@ -135,10 +135,10 @@ Q42240735	maternal great-grandmother	?person wdt:P25/wdt:P22/wdt:P25 ?relative
 Q42240748	mother's mother's father	?person wdt:P25/wdt:P25/wdt:P22 ?relative		
 Q42240762	mother's mother's mother	?person wdt:P25/wdt:P25/wdt:P25 ?relative		
 Q42297295	great-great-granddaughter	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
-Q42301043	tangge	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		
-Q42301900	tangdi	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		
-Q42301906	tangjie	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		
-Q42301908	tangmei	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		
+Q42301043	tangge	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		
+Q42301900	tangdi	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581097 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		
+Q42301906	tangjie	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1>?dob2)		
+Q42301908	tangmei	?person wdt:P22/wdt:P3373 ?uncle . ?uncle wdt:P40 ?relative . ?uncle wdt:P21 wd:Q6581097 . ?relative wdt:P21 wd:Q6581072 . ?person wdt:P569 ?dob1 . ?relative wdt:P569 ?dob2 . FILTER(?dob1<?dob2)		
 Q42302432	daughter's daughter	?person wdt:P40 ?daugther . ?daugther wdt:P21 wd:Q6581072 . ?daugther wdt:P40 ?relative . ?relative wdt:P21 wd:Q6581072		
 Q53277248	great-great-great-grandchild	?person wdt:P40/wdt:P40/wdt:P40/wdt:P40/wdt:P40 ?relative		
 Q58837291	great-great-grandfather	?person (wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/(wdt:P22|wdt:P25)/wdt:P22 ?relative		

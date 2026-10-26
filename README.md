@@ -165,8 +165,9 @@ female ego and gives every married person a husband and a wife, since our
 spouse codes do not fix the spouse's sex. 85 items link to 84 concepts (78
 exact). Most of the rest are great-grandparents and more distant kin, step and
 god relations, which we do not have. The notes record two kinds of problem on
-the Wikidata side: every path with an age filter compares the birth dates the
-wrong way round (*elder brother* Q3972282 returns younger brothers), and
+the Wikidata side: every path with an age filter compared the birth dates the
+wrong way round (*elder brother* Q3972282 returned younger brothers; 8 of the
+12 are fixed, and a fix for the 4 semi-protected ones is requested), and
 *uncle*, *brother-in-law*, *son-in-law* and their counterparts count same-sex
 spouses, so they are broader than our traditional nodes (`docs/open-questions.md`,
 question 6).

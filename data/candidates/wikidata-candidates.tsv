@@ -42,7 +42,7 @@ Q4994787	maternal grandmother	exact	Mo;Mo				2177
 Q4994791	maternal grandfather	exact	Mo;Fa				2178
 Q5992509	father's sister	exact	Fa;Ss				170
 Q6035384	mother's sister	exact	Mo;Ss				171
-Q6715170	father's older brother	exact	Fa;Yn;Br	dated			2173
+Q6715170	father's older brother	exact	Fa;El;Br	dated			2173
 Q6793920	son of mother's brother	exact	Mo;Br;So				
 Q6793951	daughter of mother's brother	exact	Mo;Br;Da				
 Q9235758	grandmother	exact	Pa;Mo				1496
@@ -50,7 +50,7 @@ Q9347053	wife of father's brother	exact	Fa;Br;Wi
 Q10082670	elder sister	exact	Yn;Ss	dated		i88564	1758
 Q10291472	younger brother	exact	El;Br	dated		i91053	1760
 Q10861465	brother	exact	Br				1262
-Q10912818	father's younger brother	exact	Fa;El;Br	dated			2174
+Q10912818	father's younger brother	exact	Fa;Yn;Br	dated			2174
 Q10943095	younger sister	exact	El;Ss	dated		i91057	1761
 Q11921506	grandson	exact	Ch;So				1618
 Q11972456	grandaunt	empty				i90308	
@@ -114,8 +114,8 @@ Q28017614	maternal grandparent	exact	Mo;Pa
 Q28017737	godfather	empty					
 Q28017739	godmother	empty					
 Q28324773	grandparent-in-law	empty					
-Q28466210	younger sibling	exact	El;Sb	dated			427
-Q28466211	elder sibling	exact	Yn;Sb	dated			405
+Q28466210	younger sibling	exact	Yn;Sb	dated			427
+Q28466211	elder sibling	exact	El;Sb	dated			405
 Q29514218	child	exact	Ch				1801
 Q30254751	maternal first cousin	exact	Mo;Sb;Ch				
 Q30868674	spouse's uncle	none			16 positions; within -; contains Pa;Ss;Hu		
@@ -135,10 +135,10 @@ Q42240735	maternal great-grandmother	empty
 Q42240748	mother's mother's father	empty					
 Q42240762	mother's mother's mother	empty					
 Q42297295	great-great-granddaughter	empty					
-Q42301043	tangge	exact	Yn;Fa;Br;So	dated			
-Q42301900	tangdi	exact	El;Fa;Br;So	dated			
-Q42301906	tangjie	exact	Yn;Fa;Br;Da	dated			
-Q42301908	tangmei	exact	El;Fa;Br;Da	dated			
+Q42301043	tangge	exact	El;Fa;Br;So	dated			
+Q42301900	tangdi	exact	Yn;Fa;Br;So	dated			
+Q42301906	tangjie	exact	El;Fa;Br;Da	dated			
+Q42301908	tangmei	exact	Yn;Fa;Br;Da	dated			
 Q42302432	daughter's daughter	exact	Da;Da				
 Q53277248	great-great-great-grandchild	empty					
 Q58837291	great-great-grandfather	empty					
