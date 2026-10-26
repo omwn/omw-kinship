@@ -246,3 +246,46 @@ Some of these are already chains in the current notation (*consuegro*,
 features. Kinbank elicits few of them (13 languages for half siblings, step
 siblings only negatively); dictionaries and OEWN (*widow*, *widower*, *orphan*,
 *stepmother*, *foster brother*) are the likely sources.
+
+## 6. Same-sex marriage and the in-law terms
+
+**Now.** The codes can already say it: `Sp` is `Hu|Wi`, nothing stops a man
+having a husband (`x;Hu` has positions), and `Br;Hu` "brother's husband" is a
+chain like any other. What is fixed is what the named in-law nodes cover:
+
+    BrL = Sp;Br | Ss;Hu        SsL = Sp;Ss | Br;Wi
+
+So `BrL` (*brother-in-law*, `i88712`) is a spouse's brother or a sister's
+husband, but not a brother's husband, though in English today *brother-in-law*
+covers him too. `SsL` likewise leaves out a sister's wife. These are the
+traditional extents, which are also the ones KinDiv and the definitions in
+`data/extra-concepts.tsv` describe.
+
+**What the sources have.** Nothing that tests it. KinDiv has no same-sex
+spouse positions. Kinbank's VariKin cells `mH` "male ego's husband" (715 words)
+and `fW` "female ego's wife" (781) look like evidence, but 97% and 99% of those
+words are also under `fH` and `mW`: the language's word for *husband* or *wife*
+filed under both ego sexes, not a record of same-sex marriage. No source
+elicits `Br;Hu` or `Ss;Wi`. Evidence would have to come from dictionaries and
+current usage, which is where the change shows.
+
+**Options.**
+- (a) Widen the nodes to `BrL = Sp;Br | Sb;Hu` and `SsL = Sp;Ss | Sb;Wi`. This
+  fits current English, but silently changes the meaning for every language
+  whose word is mapped to them, including historical sources (Akkadian, Old
+  Aramaic) whose words cannot be assumed to cover the new positions.
+- (b) Add inclusive nodes above the traditional ones, e.g. `Sp;Br|Sb;Hu`, with
+  `BrL` as a hyponym. The hierarchy is already a lattice, so this costs
+  nothing structurally. A word goes on the inclusive node only when a source
+  shows the extended use; otherwise it stays on the narrow one. This records
+  the change as two senses, not a rewrite, and the English *brother-in-law*
+  could have both, with the narrow one dated or the wide one marked as recent.
+- (c) Leave the nodes alone and note the extension in the definitions. This
+  is cheapest, but it is not visible to the position algebra or to matching.
+
+The same question arises wherever a term's extent depends on the sex of a
+spouse: *husband* and *wife* themselves (`x;Hu`, `o;Wi`) and *son-in-law*
+(`Ch;Hu`, which counts a son's husband only if `Ch` does). Option (b) is the one that generalizes:
+the change is a new, wider concept, and the evidence decides which words reach
+it. More generally, wordnets have no model of change over time, so any
+choice here is a choice about which period a sense describes.
