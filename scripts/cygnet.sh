@@ -15,7 +15,7 @@
 
 set -euo pipefail
 
-VERSION="0.1"
+VERSION="0.2"
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 CYGNET_DIR="$(cd "$PROJECT_DIR/../cygnet" && pwd)"
 CYGNET_WORK="$PROJECT_DIR/build/cygnet-work"

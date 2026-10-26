@@ -20,7 +20,7 @@ The hierarchy is reached through the ILI:
 ```python
 import wn
 
-wn.add("omw-kin-0.1.tar.xz")
+wn.add("omw-kin-0.2.tar.xz")
 zh = wn.Wordnet("omw-kin-cmn", expand="omw-kin")
 zh.synsets("哥哥")[0].hypernym_paths()
 ```

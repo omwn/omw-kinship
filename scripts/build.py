@@ -52,7 +52,7 @@ REPORTS = ROOT / "reports"
 #: the hierarchy browser, docs/hierarchy/index.html, and the data it shows
 BROWSER = ROOT / "docs" / "hierarchy"
 
-VERSION = "0.1"
+VERSION = "0.2"
 EMAIL = "bond@ieee.org"
 LICENSE = "https://creativecommons.org/licenses/by-sa/3.0/"
 URL = "https://github.com/omwn/omw-kinship"

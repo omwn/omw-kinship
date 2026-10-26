@@ -43,33 +43,33 @@
     "fa_fa_br": 172
   },
   "gaps": {
-    "contradicted": 482,
-    "words": 448,
-    "gaps": 268,
-    "languages": 111,
+    "contradicted": 504,
+    "words": 471,
+    "gaps": 283,
+    "languages": 112,
     "sources": 312,
-    "source_words": 294,
+    "source_words": 295,
     "source_gaps": 226,
     "source_languages": 100,
-    "wordnets": 170,
-    "wordnet_words": 168,
-    "wordnet_gaps": 64,
-    "wordnet_languages": 29,
-    "wordnet_neutral": 116,
-    "wordnet_neutral_gaps": 42
+    "wordnets": 192,
+    "wordnet_words": 189,
+    "wordnet_gaps": 80,
+    "wordnet_languages": 33,
+    "wordnet_neutral": 131,
+    "wordnet_neutral_gaps": 50
   },
   "romanizations": {
     "words": 2226,
     "languages": 65,
-    "pronunciations": 356,
-    "lemmas": 1870,
+    "pronunciations": 335,
+    "lemmas": 1891,
     "both": 0
   },
   "wordnet_words": {
-    "words": 2522,
-    "senses": 2496,
-    "lemmas": 2348,
-    "languages": 40
+    "words": 2762,
+    "senses": 2703,
+    "lemmas": 2519,
+    "languages": 47
   },
   "kinbank": {
     "kindiv_compared": 393,

@@ -31,8 +31,9 @@ from kinbank_words import iso_to_tag
 
 logger = logging.getLogger(__name__)
 
-#: lexicons left out: TUFS is read directly (`tufs_words.py`)
-SKIP_PREFIXES = ("tufs-",)
+#: lexicons left out: TUFS is read directly (`tufs_words.py`), and this
+#: wordnet itself, which Cygnet now includes
+SKIP_PREFIXES = ("tufs-", "omw-kin")
 
 
 def cygnet_languages() -> list[str]:

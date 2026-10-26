@@ -36,7 +36,7 @@ uv run scripts/tufs_curation.py      # candidates -> data/tufs-kindiv.tsv
 uv run scripts/kinbank_words.py      # ../kinbank -> data/candidates/kinbank-candidates.tsv
 uv run scripts/kinbank_concepts.py   # ../kinbank -> data/candidates/kinbank-new-concepts.tsv
 uv run scripts/wordnet_words.py      # Cygnet's wordnets -> data/candidates/wordnet-words.tsv
-uv run scripts/build.py              # release/omw-kin-0.1/ and .tar.xz, reports/, docs/hierarchy/data.js
+uv run scripts/build.py              # release/omw-kin-0.2/ and .tar.xz, reports/, docs/hierarchy/data.js
 uv run scripts/kin_review.py         # review/kinterms-<lang>.toml
 uv run scripts/facts.py              # every figure the paper cites -> reports/facts.json
 uv run --with pytest --with langcodes --with language_data --with unidecode pytest tests
@@ -56,7 +56,7 @@ writes the data it reads, `docs/hierarchy/data.js`.
 collection with OEWN as its English base:
 
 ```
-bash scripts/cygnet.sh   # release/omw-kin-0.1/ -> docs/kin-cygnet.db.gz, docs/kin-provenance.db.gz
+bash scripts/cygnet.sh   # release/omw-kin-0.2/ -> docs/kin-cygnet.db.gz, docs/kin-provenance.db.gz
 bash run.sh              # serve docs/ locally
 ```
 

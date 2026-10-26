@@ -45,20 +45,11 @@ Basque	eu	Yn;Br	anaitxo	omw-eu:2.0	Wiktionary
 Basque	eu	Yn;Br	neba gaztea	omw-eu:2.0	Wiktionary
 Basque	eu	Yn;Br	nebatxo	omw-eu:2.0	Wiktionary
 Bengali	bn	Fa;Br	cācā	Kinbank v_bengalibeng1280: fFB;mFB	Murdock data
+Bengali	bn	Gr;Fa	amar dádá	Kinbank p_morgan1871bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
+Bengali	bn	Gr;Fa	dādā	Kinbank v_bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
 Bengali	bn	Gr;Fa	nānā	Kinbank v_bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
-Bengali	bn	Gr;Fa	ঠাকুর্দা	Kinbank p_morgan1871bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
-Bengali	bn	Gr;Fa	ঠাকুর্দা	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Fa	দাদু	Kinbank v_bengalibeng1280: fFF;fMF;mFF;mMF	Murdock data
-Bengali	bn	Gr;Fa	দাদু	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Fa	পিতামহ	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Fa	মাতামহ	bangla-wordnet-bn:0.1	Murdock data
 Bengali	bn	Gr;Mo	amar didy	Kinbank p_morgan1871bengalibeng1280: fFM;fMM;mFM;mMM	Murdock data
 Bengali	bn	Gr;Mo	nānī	Kinbank v_bengalibeng1280: fFM;fMM;mFM;mMM	Murdock data
-Bengali	bn	Gr;Mo	ঠাকুমা	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Mo	দিদা	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Mo	পিতামহী	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Mo	প্রমাতা	bangla-wordnet-bn:0.1	Murdock data
-Bengali	bn	Gr;Mo	মাতামহ	bangla-wordnet-bn:0.1	Murdock data
 Bengali	bn	o;El;Ss	amar burro diddy	Kinbank p_morgan1871bengalibeng1280: feZ	Wiktionary
 Bengali	bn	x;El;Ss	amar burro didy	Kinbank p_morgan1871bengalibeng1280: meZ	Wiktionary
 Bunun	bnn	Gr;Ch	baluvä'aö	Kinbank v_bununbunu1267: fCC;fDS;fSD;fSS;mCC;mDS;mSD;mSS	Murdock data
@@ -188,19 +179,23 @@ Icelandic	is	Pa;Sb;Ch	skyldmenni	omw-is:2.0	Wiktionary
 Icelandic	is	Pa;Sb;Ch	systkinabörn	Kinbank v_icelandicicel1247: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
 Icelandic	is	Pa;Sb;Ch	ættingi	omw-is:2.0	Wiktionary
 Icelandic	is	Sb;So	bróður/systursonur	omw-is:2.0	Wiktionary
-Indonesian	id	Gr;Pr	datuk	omw-id:2.0	Wiktionary
-Indonesian	id	Gr;Pr	nenek	omw-id:2.0	Wiktionary
+Indonesian	id	Gr;Pr	datuk	wnb-id:1.5	Wiktionary
+Indonesian	id	Gr;Pr	nenek	wnb-id:1.5	Wiktionary
 Ingush	inh	Sb	yiš-woša	Kinbank v_ingushingu1240: fG;mG	Wiktionary
+Irish	ga	Gr;Ch	garleanbh	gfong:0.1	Wiktionary
+Irish	ga	Gr;Ch	garpháiste	gfong:0.1	Wiktionary
+Irish	ga	Gr;Pr	seantuismitheoir	gfong:0.1	Wiktionary
 Irish	ga	Pa;Br	uncail	Wiktionary	Murdock data
 Irish	ga	Pa;Ss	aintín	Wiktionary	Murdock data
 Italian	it	Pa;Sb;Ch	cugino	omw-it:2.0	Wiktionary & Native speaker
 Italian	it	Pa;Sb;Ch	cugino	omw-iwn:2.0	Wiktionary & Native speaker
 Italian	it	Pa;Sb;Ch	cugino di primo grado	omw-it:2.0	Wiktionary & Native speaker
 Japanese	ja	Gr;Pr	祖父母	Kinbank v_japanesenucl1643: fPP;mPP	Wiktionary
-Japanese	ja	Gr;Pr	祖父母	omw-ja:2.0	Wiktionary
-Japanese	ja	Sb	兄弟	Kinbank v_japanesenucl1643: fG;mG	Wiktionary
+Japanese	ja	Gr;Pr	祖父母	wnja:2.1	Wiktionary
+Japanese	ja	Sb	kyōdai	Kinbank v_japanesenucl1643: fG;mG	Wiktionary
 Japanese	ja	Sb	兄弟	TUFS Basic Vocabulary (ja, word 1627)	Wiktionary
-Japanese	ja	Sb	兄弟	omw-ja:2.0	Wiktionary
+Japanese	ja	Sb	兄弟	wnja:2.1	Wiktionary
+Japanese	ja	Sb	兄弟姉妹	wnja:2.1	Wiktionary
 Javanese	jv	El;Sb	raka	Kinbank p_javanesejava1254: feB;feZ;meB;meZ	Wiktionary
 Kannada	kn	o;Yn;Ss	nǎnnǎ tǎngi	Kinbank p_morgan1871canaresenucl1305: fyZ	Native speaker
 Kannada	kn	x;Yn;Ss	nǎnnǎ tǎnga	Kinbank p_morgan1871canaresenucl1305: myZ	Native speaker
@@ -244,6 +239,11 @@ Kurdish	ku	Mo;Ss	xolat	Kinbank v_northernkurdishnort2641: fMZ;fMeZ;fMyZ;mMZ;mMeZ
 Kutenai	kut	Fa;Ss	nu-pweʼ-ä-tsiu	Kinbank p_morgan1871kootenaykute1249: fFeZ;fFyZ;mFeZ;mFyZ	Murdock data
 Kwoma	kmo	Gr;Ch	nyija	Kinbank p_kwomakwom1262: fDD;fDS;fSD;fSS;mDD;mDS;mSD;mSS	Murdock data
 Latin	la	Br;Ch	fratuelis	Kinbank p_latinlati1261a: feBD;feBS;fyBD;fyBS;meBD;meBS;myBD;myBS	Wiktionary
+Latin	la	Sb	frater	latin-revised-la:2.0	Wiktionary
+Latin	la	Sb;Da	nepos	latin-revised-la:2.0	Wiktionary
+Latin	la	Sb;Da	neptia	latin-revised-la:2.0	Wiktionary
+Latin	la	Sb;Da	sobrina	latin-revised-la:2.0	Wiktionary
+Latin	la	Sb;So	nepos	latin-revised-la:2.0	Wiktionary
 Latin	la	Ss;Ch	sobrinus	Kinbank p_latinlati1261a: feZD;feZS;fyZD;fyZS;meZD;meZS;myZD;myZS	Wiktionary
 Latvian	lv	Pa;Sb;Ch	brālēns	Kinbank v_latvianlatv1249: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
 Latvian	lv	Pa;Sb;Ch	māsīca	Kinbank v_latvianlatv1249: fFBD;fFBS;fFBeD;fFBeS;fFByD;fFByS;fFZD;fFZS;fFZeD;fFZeS;fFZyD;fFZyS;fFeBD;fFeBS;fFeZD;fFeZS;fFyBD;fFyBS;fFyZD;fFyZS;fMBD;fMBS;fMBeD;fMBeS;fMByD;fMByS;fMZD;fMZS;fMZeD;fMZeS;fMZyD;fMZyS;fMeBD;fMeBS;fMeZD;fMeZS;fMyBD;fMyBS;fMyZD;fMyZS;mFBD;mFBS;mFBeD;mFBeS;mFByD;mFByS;mFZD;mFZS;mFZeD;mFZeS;mFZyD;mFZyS;mFeBD;mFeBS;mFeZD;mFeZS;mFyBD;mFyBS;mFyZD;mFyZS;mMBD;mMBS;mMBeD;mMBeS;mMByD;mMByS;mMZD;mMZS;mMZeD;mMZeS;mMZyD;mMZyS;mMeBD;mMeBS;mMeZD;mMeZS;mMyBD;mMyBS;mMyZD;mMyZS	Wiktionary
@@ -278,43 +278,43 @@ Lisu	lis	Mo;Yn;Ss	jɛma	Kinbank p_lisulisu1250c: fMyZ;mMyZ	Murdock data
 Lisu	lis	Mo;Yn;Ss	ma̠jo̠	Kinbank p_lisulisu1250a: fMyZ;mMyZ	Murdock data
 Lisu	lis	Mo;Yn;Ss	ma̠ʐo̠	Kinbank p_lisulisu1250b: fMyZ;mMyZ	Murdock data
 Luxembourgish	lb	Gr;Pr	grousselteren	Kinbank v_luxembourgishluxe1241: fPP;mPP	Wiktionary
-Malay	ms	Gr;Pr	datuk	omw-zsm:2.0	Wiktionary
-Malay	ms	Gr;Pr	nenek	omw-zsm:2.0	Wiktionary
-Malay	ms	Sb	adik	omw-zsm:2.0	Wiktionary
+Malay	ms	Gr;Pr	datuk	wnb-zsm:1.5	Wiktionary
+Malay	ms	Gr;Pr	nenek	wnb-zsm:1.5	Wiktionary
 Malay	ms	Sb	adik-beradik	TUFS Basic Vocabulary (ms, word 1627)	Wiktionary
-Malay	ms	Sb	adik-beradik	omw-zsm:2.0	Wiktionary
+Malay	ms	Sb	adik-beradik	wnb-zsm:1.5	Wiktionary
+Malay	ms	Sb	saudara kandung	wnb-zsm:1.5	Wiktionary
 Malayalam	ml	Mo;Pr	ammatu	Kinbank v_malayalammala1464: fMF;fMM;mMF;mMM	Native speaker
 Malayalam	ml	Mo;Pr	muttaccan	Kinbank v_malayalammala1464: fMF;fMM;mMF;mMM	Native speaker
 Manchu	mnc	Gr;Da	ᠣᠮᠣᠯᠣ ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ	Wiktionary	Murdock data
 Manchu	mnc	Gr;So	ᠣᠮᠣᠯᠣ	Wiktionary	Murdock data
 Mandan	mhq	Gr;Ch	p-tä-weʼ-hä-kä	Kinbank p_morgan1871mandanmand1446: fDD;fDS;fSD;fSS;mDD;mDS;mSD;mSS	Murdock data
-Mandarin	cmn	Gr;Fa	外公	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Fa	外祖父	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Fa	爷爷	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Fa	祖父	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Mo	外婆	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Mo	外祖母	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Mo	奶奶	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Gr;Mo	祖母	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Gr;Fa	外公	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Fa	外祖父	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Fa	爷爷	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Fa	祖父	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Mo	外婆	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Mo	外祖母	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Mo	奶奶	cow:1.1	Wiktionary
+Mandarin	cmn	Gr;Mo	祖母	cow:1.1	Wiktionary
 Mandarin	cmn	Gr;Pr	zu fu mu	Kinbank v_mandarinchinamand1415: fPP;mPP	Wiktionary
 Mandarin	cmn	Mo;Pr	外祖父母	https://en.wiktionary.org/wiki/外祖父母	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂兄	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂兄弟姊妹	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂哥	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂妹	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂姊	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂姐	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	堂弟	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表兄	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表兄弟姊妹	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表哥	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表妹	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表姊	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表姐	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Pa;Sb;Ch	表弟	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Sb;So	侄	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Sb;So	侄子	omw-cmn:2.0	Wiktionary
-Mandarin	cmn	Sb;So	外甥	omw-cmn:2.0	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂兄	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂兄弟姊妹	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂哥	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂妹	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂姊	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂姐	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	堂弟	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表兄	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表兄弟姊妹	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表哥	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表妹	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表姊	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表姐	cow:1.1	Wiktionary
+Mandarin	cmn	Pa;Sb;Ch	表弟	cow:1.1	Wiktionary
+Mandarin	cmn	Sb;So	侄	cow:1.1	Wiktionary
+Mandarin	cmn	Sb;So	侄子	cow:1.1	Wiktionary
+Mandarin	cmn	Sb;So	外甥	cow:1.1	Wiktionary
 Maori	mi	Gr;Pr	tipuna	Kinbank p_maorimaor1246: fFF;fFM;fMF;fMM;mFF;mFM;mMF;mMM	Murdock data
 Maori	mi	Gr;Pr	tupuna	Kinbank v_maorimaor1246: fPP;mPP	Murdock data
 Maori	mi	Gr;Pr	tupuna matua	Kinbank p_maorimaor1246: fFF;fFM;fMF;fMM;mFF;mFM;mMF;mMM	Murdock data
@@ -330,10 +330,17 @@ Marathi	mr	x;Ss;So	mäzhä patanyä	Kinbank p_morgan1871marathimara1378: meZS;my
 Mayo	mfy	Pa;Br	kúmuri	Kinbank v_mayomayo1264: fFB;fFeB;fFyB;fMB;fMeB;fMyB;mFB;mFeB;mFyB;mMB;mMeB;mMyB	Murdock data
 Mayo	mfy	Pa;Ss	né'esa	Kinbank v_mayomayo1264: fFZ;fFeZ;fFyZ;fMZ;fMeZ;fMyZ;mFZ;mFeZ;mFyZ;mMZ;mMeZ;mMyZ	Murdock data
 Mongolian	mn	Fa;Sb	авга	Wiktionary	Murdock data
+Mongolian	mn	Gr;Ch	ач	monwn-mn:1.0	Wiktionary & Native speaker
+Mongolian	mn	Gr;Da	зээ охин	monwn-mn:1.0	Wiktionary & Native speaker
 Mongolian	mn	Gr;Fa	өвөө	Kinbank p_khalkhamongolianmong1331: fFF;fMF;mFF;mMF	Murdock data
 Mongolian	mn	Gr;Fa	өвөө	Wiktionary	Murdock data
+Mongolian	mn	Gr;Fa	өвөө	monwn-mn:1.0	Murdock data
+Mongolian	mn	Gr;Mo	эмэг эх	monwn-mn:1.0	Murdock data
 Mongolian	mn	Gr;Mo	эмээ	Kinbank p_khalkhamongolianmong1331: fFM;fMM;mFM;mMM	Murdock data
 Mongolian	mn	Gr;Mo	эмээ	Wiktionary	Murdock data
+Mongolian	mn	Gr;So	ач	monwn-mn:1.0	Wiktionary & Native speaker
+Mongolian	mn	Gr;So	ач хүү	monwn-mn:1.0	Wiktionary & Native speaker
+Mongolian	mn	Gr;So	зээ хүү	monwn-mn:1.0	Wiktionary & Native speaker
 Mongolian	mn	Mo;Sb	нагац	Wiktionary	Murdock data
 Mongolian	mn	Sb	ах дүү	TUFS Basic Vocabulary (mn, word 275)	Wiktionary & Native speaker
 Mongolian	mn	Ss	эгч дүүс	TUFS Basic Vocabulary (mn, word 283)	Wiktionary & Native speaker
@@ -361,7 +368,22 @@ Persian	fa	o;Da;Da	doxtær-pesæ	Kinbank v_westernfarsiwest2369: fDD	Wiktionary
 Polish	pl	Gr;Pr	dziadkowie	Kinbank v_polishpoli1260: fPP;mPP	Wiktionary
 Polish	pl	Pa;Br	wujek	Kinbank v_polishpoli1260: fFB;fFeB;fFyB;fMB;fMeB;fMyB;mFB;mFeB;mFyB;mMB;mMeB;mMyB	Wiktionary
 Polish	pl	Pa;Ss	ciotka	Kinbank v_polishpoli1260: fFZ;fFeZ;fFyZ;fMZ;fMeZ;fMyZ;mFZ;mFeZ;mFyZ;mMZ;mMeZ;mMyZ	Wiktionary
+Portuguese	pt	Gr;Ch	neta	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Gr;Ch	neto	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Gr;Pr	avó	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Gr;Pr	avós	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Gr;Pr	avô	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Pa;Sb;Ch	prima	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Pa;Sb;Ch	primo	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Sb	irmã	own-pt:2026.04.07	Wiktionary
+Portuguese	pt	Sb	irmão	own-pt:2026.04.07	Wiktionary
 Portuguese	pt	Sb	irmãos	TUFS Basic Vocabulary (pb, word 1073)	Wiktionary
+Romanian	ro	Gr;Ch	nepot	romanian-ro:1.1	Murdock data
+Romanian	ro	Gr;Pr	bun	romanian-ro:1.1	Wiktionary
+Romanian	ro	Gr;Pr	bunic	romanian-ro:1.1	Wiktionary
+Romanian	ro	Pa;Sb;Ch	verișor	romanian-ro:1.1	Wiktionary
+Romanian	ro	Pa;Sb;Ch	văr	romanian-ro:1.1	Wiktionary
+Romanian	ro	Sb	frate	romanian-ro:1.1	Wiktionary
 Russian	ru	Gr;Ch	внуки	Kinbank v_russianruss1263: fCC;fDS;fSS;mCC;mDS;mSS	Wiktionary
 Russian	ru	Gr;Ch	внуки	russian-ru:2.0	Wiktionary
 Russian	ru	Gr;Ch	внуки и внучки	russian-ru:2.0	Wiktionary

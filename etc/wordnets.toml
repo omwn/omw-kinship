@@ -6,4 +6,4 @@ en = ["https://en-word.net/static/english-wordnet-2025-plus.xml.gz"]
 # The collection is listed under 'mul': one concepts lexicon (omw-kin) and one
 # lexicon per language, joined on dc:identifier.  scripts/cygnet.sh pre-stages
 # the locally built release, so this URL is only fetched if that is missing.
-mul = ["https://github.com/omwn/omw-kinship/releases/latest/download/omw-kin-0.1.tar.xz"]
+mul = ["https://github.com/omwn/omw-kinship/releases/latest/download/omw-kin-0.2.tar.xz"]
