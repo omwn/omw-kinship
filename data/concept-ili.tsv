@@ -1,10 +1,10 @@
 concept	ili	relation	oewn_lemma	note
-Gr;Pr	i90292	exact	grandparent	a parent of your father or mother
-Gr;Fa	i90287	exact	grandfather	the father of your father or mother
-Gr;Mo	i90289	exact	grandmother	the mother of your father or mother
-Gr;Ch	i90280	exact	grandchild	a child of your son or daughter
-Gr;So	i90293	exact	grandson	a male grandchild
-Gr;Da	i90281	exact	granddaughter	a female grandchild
+Pa;Pa	i90292	exact	grandparent	a parent of your father or mother
+Pa;Fa	i90287	exact	grandfather	the father of your father or mother
+Pa;Mo	i90289	exact	grandmother	the mother of your father or mother
+Ch;Ch	i90280	exact	grandchild	a child of your son or daughter
+Ch;So	i90293	exact	grandson	a male grandchild
+Ch;Da	i90281	exact	granddaughter	a female grandchild
 Sb	i92980	exact	sibling	a person's brother or sister
 Br	i91174	exact	male sibling	a sibling who is male; OEWN brother (i88708) is narrower: full siblings only
 Ss	i89922	exact	female sibling	a person's sister; OEWN sister (i93018) is narrower: full siblings only

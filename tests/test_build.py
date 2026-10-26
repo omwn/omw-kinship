@@ -15,8 +15,8 @@ import pytest
 @pytest.mark.parametrize(
     ("code", "subdomain", "expected"),
     [
-        ("Gr;Fa", "grandparents", "the father of one's parent (a grandparent)"),
-        ("Gr;Ch", "grandchildren", "a child of one's child (a grandchild)"),
+        ("Pa;Fa", "grandparents", "the father of one's parent (a grandparent)"),
+        ("Ch;Ch", "grandchildren", "a child of one's child (a grandchild)"),
         ("Pb", "uncles and aunts", "a sibling of one's parent (an uncle or aunt)"),
         ("x;Fa;Br;So", "cousins", "a son of a man's father's brother (a cousin)"),
         (

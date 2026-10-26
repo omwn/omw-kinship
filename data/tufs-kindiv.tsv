@@ -27,53 +27,53 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16192	おばさん	ms	1580	ms	ibu saudara	Aun	curated	high	
 16192	おばさん	my	1580	my	ဒေါ်ဒေါ်	Aun	curated	low	familiar term of address
 16192	おばさん	my	1580	my	အဒေါ်	Aun	curated	medium	
-16223	おじいさん	ar	291	ar	جَدٌّ	Gr;Fa	kindiv	high	
-16223	おじいさん	as	472	apc	جدّ	Gr;Fa	curated	high	Syrian Arabic
-16223	おじいさん	de	1017	de	Großvater	Gr;Fa	kindiv	high	
-16223	おじいさん	en	1044	en	grandfather	Gr;Fa	kindiv	high	
-16223	おじいさん	es	994	es	abuelo	Gr;Fa	kindiv	high	
-16223	おじいさん	fr	1160	fr	grand-père	Gr;Fa	kindiv	high	
-16223	おじいさん	id	695	id	kakek	Gr;Fa	kindiv	high	
-16223	おじいさん	ja	1572	ja	おじいさん	Gr;Fa	kindiv	high	
-16223	おじいさん	km	290	km	តា	Gr;Fa	kindiv	high	
-16223	おじいさん	ko	799	ko	할아버지	Gr;Fa	kindiv	high	
-16223	おじいさん	lo	297	lo	ພໍ່ເຖົ້າ	Gr;Fa	curated	low	literally 'old father'; also father-in-law
-16223	おじいさん	mn	277	mn	өвгөн	Gr;Fa	curated	low	primarily 'old man'
-16223	おじいさん	ms	1572	ms	datuk	Gr;Fa	kindiv	high	
-16223	おじいさん	my	1572	my	ဖိုးဖိုး	Gr;Fa	curated	high	familiar
-16223	おじいさん	my	1572	my	အဖိုး	Gr;Fa	curated	high	
-16223	おじいさん	pb	1075	pt	avô	Gr;Fa	kindiv	high	
-16223	おじいさん	pt	291	pt	avô	Gr;Fa	kindiv	high	
-16223	おじいさん	ru	900	ru	дедушка	Gr;Fa	curated	high	
+16223	おじいさん	ar	291	ar	جَدٌّ	Pa;Fa	kindiv	high	
+16223	おじいさん	as	472	apc	جدّ	Pa;Fa	curated	high	Syrian Arabic
+16223	おじいさん	de	1017	de	Großvater	Pa;Fa	kindiv	high	
+16223	おじいさん	en	1044	en	grandfather	Pa;Fa	kindiv	high	
+16223	おじいさん	es	994	es	abuelo	Pa;Fa	kindiv	high	
+16223	おじいさん	fr	1160	fr	grand-père	Pa;Fa	kindiv	high	
+16223	おじいさん	id	695	id	kakek	Pa;Fa	kindiv	high	
+16223	おじいさん	ja	1572	ja	おじいさん	Pa;Fa	kindiv	high	
+16223	おじいさん	km	290	km	តា	Pa;Fa	kindiv	high	
+16223	おじいさん	ko	799	ko	할아버지	Pa;Fa	kindiv	high	
+16223	おじいさん	lo	297	lo	ພໍ່ເຖົ້າ	Pa;Fa	curated	low	literally 'old father'; also father-in-law
+16223	おじいさん	mn	277	mn	өвгөн	Pa;Fa	curated	low	primarily 'old man'
+16223	おじいさん	ms	1572	ms	datuk	Pa;Fa	kindiv	high	
+16223	おじいさん	my	1572	my	ဖိုးဖိုး	Pa;Fa	curated	high	familiar
+16223	おじいさん	my	1572	my	အဖိုး	Pa;Fa	curated	high	
+16223	おじいさん	pb	1075	pt	avô	Pa;Fa	kindiv	high	
+16223	おじいさん	pt	291	pt	avô	Pa;Fa	kindiv	high	
+16223	おじいさん	ru	900	ru	дедушка	Pa;Fa	curated	high	
 16223	おじいさん	th	294	th	ตา	Mo;Fa	kindiv	high	
 16223	おじいさん	th	294	th	ปู่	Fa;Fa	kindiv	high	
-16223	おじいさん	tl	1014	tl	lolo	Gr;Fa	kindiv	high	
-16223	おじいさん	tr	1788	tr	dede	Gr;Fa	kindiv	high	
+16223	おじいさん	tl	1014	tl	lolo	Pa;Fa	kindiv	high	
+16223	おじいさん	tr	1788	tr	dede	Pa;Fa	kindiv	high	
 16223	おじいさん	ur	342	ur	دادا	Fa;Fa	curated	high	
 16223	おじいさん	vi	496	vi	ông ngoại	Mo;Fa	curated	high	
 16223	おじいさん	vi	497	vi	ông nội	Fa;Fa	curated	high	
 16223	おじいさん	zh	313	cmn	爷爷	Fa;Fa	curated	high	
-16229	おばあさん	ar	290	ar	جَدَّةٌ	Gr;Mo	kindiv	high	
-16229	おばあさん	as	471	apc	ستّ	Gr;Mo	curated	high	Syrian Arabic
-16229	おばあさん	de	1016	de	Großmutter	Gr;Mo	kindiv	high	
-16229	おばあさん	en	1043	en	grandmother	Gr;Mo	kindiv	high	
-16229	おばあさん	es	993	es	abuela	Gr;Mo	kindiv	high	
-16229	おばあさん	fr	1812	fr	grand-mère	Gr;Mo	kindiv	high	
-16229	おばあさん	id	160	id	nenek	Gr;Mo	kindiv	high	
-16229	おばあさん	ja	1581	ja	おばあさん	Gr;Mo	curated	high	
-16229	おばあさん	km	289	km	យាយ	Gr;Mo	kindiv	high	
-16229	おばあさん	ko	798	ko	할머니	Gr;Mo	kindiv	high	
-16229	おばあさん	lo	296	lo	ແມ່ເຖົ້າ	Gr;Mo	curated	low	literally 'old mother'; also mother-in-law
-16229	おばあさん	mn	276	mn	эмгэн	Gr;Mo	curated	low	primarily 'old woman'
-16229	おばあさん	ms	1581	ms	nénék	Gr;Mo	curated	high	
-16229	おばあさん	my	1581	my	ဖွားဖွား	Gr;Mo	curated	high	familiar
-16229	おばあさん	my	1581	my	အဖွား	Gr;Mo	curated	high	
-16229	おばあさん	pb	1074	pt	avó	Gr;Mo	kindiv	high	
-16229	おばあさん	pt	290	pt	avó	Gr;Mo	kindiv	high	
-16229	おばあさん	ru	899	ru	бабушка	Gr;Mo	curated	high	
+16229	おばあさん	ar	290	ar	جَدَّةٌ	Pa;Mo	kindiv	high	
+16229	おばあさん	as	471	apc	ستّ	Pa;Mo	curated	high	Syrian Arabic
+16229	おばあさん	de	1016	de	Großmutter	Pa;Mo	kindiv	high	
+16229	おばあさん	en	1043	en	grandmother	Pa;Mo	kindiv	high	
+16229	おばあさん	es	993	es	abuela	Pa;Mo	kindiv	high	
+16229	おばあさん	fr	1812	fr	grand-mère	Pa;Mo	kindiv	high	
+16229	おばあさん	id	160	id	nenek	Pa;Mo	kindiv	high	
+16229	おばあさん	ja	1581	ja	おばあさん	Pa;Mo	curated	high	
+16229	おばあさん	km	289	km	យាយ	Pa;Mo	kindiv	high	
+16229	おばあさん	ko	798	ko	할머니	Pa;Mo	kindiv	high	
+16229	おばあさん	lo	296	lo	ແມ່ເຖົ້າ	Pa;Mo	curated	low	literally 'old mother'; also mother-in-law
+16229	おばあさん	mn	276	mn	эмгэн	Pa;Mo	curated	low	primarily 'old woman'
+16229	おばあさん	ms	1581	ms	nénék	Pa;Mo	curated	high	
+16229	おばあさん	my	1581	my	ဖွားဖွား	Pa;Mo	curated	high	familiar
+16229	おばあさん	my	1581	my	အဖွား	Pa;Mo	curated	high	
+16229	おばあさん	pb	1074	pt	avó	Pa;Mo	kindiv	high	
+16229	おばあさん	pt	290	pt	avó	Pa;Mo	kindiv	high	
+16229	おばあさん	ru	899	ru	бабушка	Pa;Mo	curated	high	
 16229	おばあさん	th	293	th	ยาย	Mo;Mo	kindiv	high	
 16229	おばあさん	th	293	th	ย่า	Fa;Mo	kindiv	high	
-16229	おばあさん	tl	1013	tl	lola	Gr;Mo	kindiv	high	
+16229	おばあさん	tl	1013	tl	lola	Pa;Mo	kindiv	high	
 16229	おばあさん	tr	1787	tr	baba anne	Fa;Mo	curated	high	usually written babaanne
 16229	おばあさん	ur	343	ur	دادی	Fa;Mo	curated	high	
 16229	おばあさん	vi	494	vi	bà ngoại	Mo;Mo	curated	high	
@@ -274,7 +274,7 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16593	祖父（母方）	zh	554	cmn	老爷	Mo;Fa	curated	medium	regional (northern); also 'master'
 16647	息子	ar	517	ar	اِبْنٌ	So	default	high	
 16647	息子	as	480	apc	إبن	So	default	high	
-16751	孫	ar	1240	ar	حَفِيدٌ	Gr;So	kindiv	high	
+16751	孫	ar	1240	ar	حَفِيدٌ	Ch;So	kindiv	high	
 16780	兄弟	ar	289	ar	أَخٌ	Br	kindiv	high	
 16780	兄弟	as	469	apc	أخّ	Br	curated	high	Syrian Arabic
 16780	兄弟	de	1015	de	Geschwister	Sb	curated	high	

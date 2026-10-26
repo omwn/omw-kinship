@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.10"
-# dependencies = []
+# dependencies = ["unidecode"]
 # ///
 """Turn tufs-candidates.tsv into the checked mapping tufs-kindiv.tsv.
 
@@ -42,18 +42,18 @@ CURATED: dict[tuple[str, str], list[tuple[str, str, str]]] = {
     ("my", "ဦးဦး"): [("Unc", L, "familiar term of address")],
     ("my", "အဒေါ်"): [("Aun", M, "")],
     ("my", "ဒေါ်ဒေါ်"): [("Aun", L, "familiar term of address")],
-    ("as", "جدّ"): [("Gr;Fa", H, "Syrian Arabic")],
-    ("as", "ستّ"): [("Gr;Mo", H, "Syrian Arabic")],
-    ("lo", "ພໍ່ເຖົ້າ"): [("Gr;Fa", L, "literally 'old father'; also father-in-law")],
-    ("lo", "ແມ່ເຖົ້າ"): [("Gr;Mo", L, "literally 'old mother'; also mother-in-law")],
-    ("mn", "өвгөн"): [("Gr;Fa", L, "primarily 'old man'")],
-    ("mn", "эмгэн"): [("Gr;Mo", L, "primarily 'old woman'")],
-    ("my", "အဖိုး"): [("Gr;Fa", H, "")],
-    ("my", "ဖိုးဖိုး"): [("Gr;Fa", H, "familiar")],
-    ("my", "အဖွား"): [("Gr;Mo", H, "")],
-    ("my", "ဖွားဖွား"): [("Gr;Mo", H, "familiar")],
-    ("ru", "дедушка"): [("Gr;Fa", H, "")],
-    ("ru", "бабушка"): [("Gr;Mo", H, "")],
+    ("as", "جدّ"): [("Pa;Fa", H, "Syrian Arabic")],
+    ("as", "ستّ"): [("Pa;Mo", H, "Syrian Arabic")],
+    ("lo", "ພໍ່ເຖົ້າ"): [("Pa;Fa", L, "literally 'old father'; also father-in-law")],
+    ("lo", "ແມ່ເຖົ້າ"): [("Pa;Mo", L, "literally 'old mother'; also mother-in-law")],
+    ("mn", "өвгөн"): [("Pa;Fa", L, "primarily 'old man'")],
+    ("mn", "эмгэн"): [("Pa;Mo", L, "primarily 'old woman'")],
+    ("my", "အဖိုး"): [("Pa;Fa", H, "")],
+    ("my", "ဖိုးဖိုး"): [("Pa;Fa", H, "familiar")],
+    ("my", "အဖွား"): [("Pa;Mo", H, "")],
+    ("my", "ဖွားဖွား"): [("Pa;Mo", H, "familiar")],
+    ("ru", "дедушка"): [("Pa;Fa", H, "")],
+    ("ru", "бабушка"): [("Pa;Mo", H, "")],
     ("ur", "دادا"): [("Fa;Fa", H, "")],
     ("ur", "دادی"): [("Fa;Mo", H, "")],
     ("vi", "ông ngoại"): [("Mo;Fa", H, "")],
@@ -61,9 +61,9 @@ CURATED: dict[tuple[str, str], list[tuple[str, str, str]]] = {
     ("vi", "bà ngoại"): [("Mo;Mo", H, "")],
     ("vi", "bà nội"): [("Fa;Mo", H, "")],
     ("zh", "爷爷"): [("Fa;Fa", H, "")],
-    ("ja", "おばあさん"): [("Gr;Mo", H, "")],
+    ("ja", "おばあさん"): [("Pa;Mo", H, "")],
     ("tr", "baba anne"): [("Fa;Mo", H, "usually written babaanne")],
-    ("ms", "nénék"): [("Gr;Mo", H, "")],
+    ("ms", "nénék"): [("Pa;Mo", H, "")],
     ("as", "أخّ"): [("Br", H, "Syrian Arabic")],
     ("de", "Geschwister"): [("Sb", H, "")],
     ("id", "saudara"): [("Sb", M, "also 'relative'")],

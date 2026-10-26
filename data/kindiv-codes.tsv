@@ -1,0 +1,21 @@
+kindiv	code	note
+Gr;Pr	Pa;Pa	Pr and Gr are both Pa
+Gr;Fa	Pa;Fa	Gr is Pa in the grandparents subdomain
+Gr;Mo	Pa;Mo	Gr is Pa in the grandparents subdomain
+Fa;Pr	Fa;Pa	Pr is Pa
+Mo;Pr	Mo;Pa	Pr is Pa
+x;Gr;Pr	x;Pa;Pa	Pr and Gr are both Pa
+o;Gr;Pr	o;Pa;Pa	Pr and Gr are both Pa
+x;Gr;Fa	x;Pa;Fa	Gr is Pa in the grandparents subdomain
+o;Gr;Fa	o;Pa;Fa	Gr is Pa in the grandparents subdomain
+x;Gr;Mo	x;Pa;Mo	Gr is Pa in the grandparents subdomain
+o;Gr;Mo	o;Pa;Mo	Gr is Pa in the grandparents subdomain
+Gr;Ch	Ch;Ch	Gr is Ch in the grandchildren subdomain
+Gr;So	Ch;So	Gr is Ch in the grandchildren subdomain
+Gr;Da	Ch;Da	Gr is Ch in the grandchildren subdomain
+x;Gr;Ch	x;Ch;Ch	Gr is Ch in the grandchildren subdomain
+o;Gr;Ch	o;Ch;Ch	Gr is Ch in the grandchildren subdomain
+x;Gr;So	x;Ch;So	Gr is Ch in the grandchildren subdomain
+o;Gr;So	o;Ch;So	Gr is Ch in the grandchildren subdomain
+x;Gr;Da	x;Ch;Da	Gr is Ch in the grandchildren subdomain
+o;Gr;Da	o;Ch;Da	Gr is Ch in the grandchildren subdomain

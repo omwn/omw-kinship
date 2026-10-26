@@ -25,53 +25,53 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16192	おばさん	ms	1580	ms	ibu saudara	
 16192	おばさん	my	1580	my	ဒေါ်ဒေါ်	
 16192	おばさん	my	1580	my	အဒေါ်	
-16223	おじいさん	ar	291	ar	جَدٌّ	Gr-Fa
+16223	おじいさん	ar	291	ar	جَدٌّ	Pa-Fa
 16223	おじいさん	as	472	apc	جدّ	
-16223	おじいさん	de	1017	de	Großvater	Gr-Fa
-16223	おじいさん	en	1044	en	grandfather	Gr-Fa
-16223	おじいさん	es	994	es	abuelo	Gr-Fa
-16223	おじいさん	fr	1160	fr	grand-père	Gr-Fa
-16223	おじいさん	id	695	id	kakek	Gr-Fa
-16223	おじいさん	ja	1572	ja	おじいさん	Gr-Fa
-16223	おじいさん	km	290	km	តា	Gr-Fa
-16223	おじいさん	ko	799	ko	할아버지	Gr-Fa
+16223	おじいさん	de	1017	de	Großvater	Pa-Fa
+16223	おじいさん	en	1044	en	grandfather	Pa-Fa
+16223	おじいさん	es	994	es	abuelo	Pa-Fa
+16223	おじいさん	fr	1160	fr	grand-père	Pa-Fa
+16223	おじいさん	id	695	id	kakek	Pa-Fa
+16223	おじいさん	ja	1572	ja	おじいさん	Pa-Fa
+16223	おじいさん	km	290	km	តា	Pa-Fa
+16223	おじいさん	ko	799	ko	할아버지	Pa-Fa
 16223	おじいさん	lo	297	lo	ພໍ່ເຖົ້າ	
 16223	おじいさん	mn	277	mn	өвгөн	
-16223	おじいさん	ms	1572	ms	datuk	Gr-Fa
+16223	おじいさん	ms	1572	ms	datuk	Pa-Fa
 16223	おじいさん	my	1572	my	ဖိုးဖိုး	
 16223	おじいさん	my	1572	my	အဖိုး	
-16223	おじいさん	pb	1075	pt	avô	Gr-Fa
-16223	おじいさん	pt	291	pt	avô	Gr-Fa
+16223	おじいさん	pb	1075	pt	avô	Pa-Fa
+16223	おじいさん	pt	291	pt	avô	Pa-Fa
 16223	おじいさん	ru	900	ru	дедушка	
 16223	おじいさん	th	294	th	ตา	Mo-Fa
 16223	おじいさん	th	294	th	ปู่	Fa-Fa
-16223	おじいさん	tl	1014	tl	lolo	Gr-Fa
-16223	おじいさん	tr	1788	tr	dede	Gr-Fa
+16223	おじいさん	tl	1014	tl	lolo	Pa-Fa
+16223	おじいさん	tr	1788	tr	dede	Pa-Fa
 16223	おじいさん	ur	342	ur	دادا	
 16223	おじいさん	vi	496	vi	ông ngoại	
 16223	おじいさん	vi	497	vi	ông nội	
 16223	おじいさん	zh	313	cmn	爷爷	
-16229	おばあさん	ar	290	ar	جَدَّةٌ	Gr-Mo
+16229	おばあさん	ar	290	ar	جَدَّةٌ	Pa-Mo
 16229	おばあさん	as	471	apc	ستّ	
-16229	おばあさん	de	1016	de	Großmutter	Gr-Mo
-16229	おばあさん	en	1043	en	grandmother	Gr-Mo
-16229	おばあさん	es	993	es	abuela	Gr-Mo
-16229	おばあさん	fr	1812	fr	grand-mère	Gr-Mo
-16229	おばあさん	id	160	id	nenek	Gr-Mo
+16229	おばあさん	de	1016	de	Großmutter	Pa-Mo
+16229	おばあさん	en	1043	en	grandmother	Pa-Mo
+16229	おばあさん	es	993	es	abuela	Pa-Mo
+16229	おばあさん	fr	1812	fr	grand-mère	Pa-Mo
+16229	おばあさん	id	160	id	nenek	Pa-Mo
 16229	おばあさん	ja	1581	ja	おばあさん	
-16229	おばあさん	km	289	km	យាយ	Gr-Mo
-16229	おばあさん	ko	798	ko	할머니	Gr-Mo
+16229	おばあさん	km	289	km	យាយ	Pa-Mo
+16229	おばあさん	ko	798	ko	할머니	Pa-Mo
 16229	おばあさん	lo	296	lo	ແມ່ເຖົ້າ	
 16229	おばあさん	mn	276	mn	эмгэн	
 16229	おばあさん	ms	1581	ms	nénék	
 16229	おばあさん	my	1581	my	ဖွားဖွား	
 16229	おばあさん	my	1581	my	အဖွား	
-16229	おばあさん	pb	1074	pt	avó	Gr-Mo
-16229	おばあさん	pt	290	pt	avó	Gr-Mo
+16229	おばあさん	pb	1074	pt	avó	Pa-Mo
+16229	おばあさん	pt	290	pt	avó	Pa-Mo
 16229	おばあさん	ru	899	ru	бабушка	
 16229	おばあさん	th	293	th	ยาย	Mo-Mo
 16229	おばあさん	th	293	th	ย่า	Fa-Mo
-16229	おばあさん	tl	1013	tl	lola	Gr-Mo
+16229	おばあさん	tl	1013	tl	lola	Pa-Mo
 16229	おばあさん	tr	1787	tr	baba anne	
 16229	おばあさん	ur	343	ur	دادی	
 16229	おばあさん	vi	494	vi	bà ngoại	
@@ -272,7 +272,7 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16593	祖父（母方）	zh	554	cmn	老爷	
 16647	息子	ar	517	ar	اِبْنٌ	
 16647	息子	as	480	apc	إبن	
-16751	孫	ar	1240	ar	حَفِيدٌ	Gr-So
+16751	孫	ar	1240	ar	حَفِيدٌ	Ch-So
 16780	兄弟	ar	289	ar	أَخٌ	Br
 16780	兄弟	as	469	apc	أخّ	
 16780	兄弟	de	1015	de	Geschwister	

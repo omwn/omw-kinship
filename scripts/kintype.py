@@ -86,7 +86,6 @@ KINDIV_LETTERS = {
     "Fa": "F",
     "Mo": "M",
     "Pa": "P",
-    "Pr": "P",
     "Br": "B",
     "Ss": "Z",
     "Sb": "Q",
@@ -129,10 +128,7 @@ def kindiv_atoms(code: str, subdomain: str) -> set[Atom] | None:
         if part in ("El", "Yn"):
             age = "e" if part == "El" else "y"
             continue
-        if part == "Gr":
-            letter = "C" if subdomain == "grandchildren" else "P"
-            links.append(["", letter])
-        elif part == "Pb":
+        if part == "Pb":
             links.extend([["", "P"], ["", "Q"]])
         elif part in KINDIV_LETTERS:
             links.append(["", KINDIV_LETTERS[part]])

@@ -1,7 +1,7 @@
 # Kin-type features
 
 Every concept is named by a kin-type code in the notation of Murdock (1970), as
-KinDiv uses it: `Fa;Br;So` is "father's brother's son", `x;El;Ss` is "a man's
+[KinDiv](https://github.com/kbatsuren/KinDiv) (Khishigsuren et al. 2022) uses it: `Fa;Br;So` is "father's brother's son", `x;El;Ss` is "a man's
 elder sister", and `Fa|Fa;Br` is "father or father's brother". This file gives
 the meaning of the codes as an algebra over genealogical positions, then lists
 every feature.
@@ -46,7 +46,7 @@ elder and the younger brother.
 Each kin term denotes a set of links. A specific term denotes one link; a
 general term denotes the choice of several:
 
-    L(Fa) = {F}   L(Mo) = {M}   L(Pa) = L(Pr) = {F, M}
+    L(Fa) = {F}   L(Mo) = {M}   L(Pa) = {F, M}
     L(Br) = {B}   L(Ss) = {Z}   L(Sb) = {B, Z}
     L(So) = {S}   L(Da) = {D}   L(Ch) = {S, D}
     L(Hu) = {H}   L(Wi) = {W}   L(Sp) = {H, W}
@@ -124,13 +124,13 @@ Some codes have the same meaning:
 
     Pa  = Fa|Mo           Sb = Br|Ss          Ch = So|Da         Sp = Hu|Wi
     Br  = El;Br | Yn;Br   Sb = x;Sb | o;Sb
-    Pb  = Pa;Sb           Gr;Pr = Pa;Pa       Gr;So = Ch;So (grandchildren)
+    Pb  = Pa;Sb
 
 Only one of each set of equivalent codes is used for a concept.
 
 ### Mapping to Kinbank
 
-Kinbank writes positions as strings of letters, which map directly onto the same
+[Kinbank](https://github.com/kinbank/kinbank) (Passmore et al. 2023) writes positions as strings of letters, which map directly onto the same
 model: ego sex `m`/`f` is the anchor, and `F M B Z S D H W` are the eight links.
 `e` or `y` before a letter gives relative age. Kinbank's general letters `P`
 (parent), `C` (child), `G` (sibling) and `E` (spouse) correspond to `Pa`, `Ch`,
@@ -142,8 +142,8 @@ age outside the slot is ignored: `mFeBS` is treated as `mFBS`.
 
 - **`Rel` and `InL`** have no set of positions: any relative, and any relative by
   marriage, at any distance. Their place in the hierarchy is stated by hand.
-- **`Gr`** and the cousin use of **`El`/`Yn`** depend on the concept's subdomain,
-  not just on the code (see below). `build.py` passes the subdomain along with the
+- The cousin use of **`El`/`Yn`** depends on the concept's subdomain, not just
+  on the code (see below). `build.py` passes the subdomain along with the
   code.
 - **Positions are genealogical only.** Step-relations, adoption, half-siblings,
   social or classificatory uses, and register (*dad* vs *father*) are not features.
@@ -183,16 +183,14 @@ age outside the slot is ignored: `mFeBS` is treated as `mFBS`.
 | feature | links | example |
 |---|---|---|
 | `Pa` | parent: `Fa` or `Mo` | `Pa;Sb;Ch` "first cousin" |
-| `Pr` | parent, the form KinDiv uses at the end of grandparent codes | `Fa;Pr` "paternal grandparent" |
 | `Sb` | sibling: `Br` or `Ss` | `Sb;Ch` "sibling's child" |
-| `Ch` | child: `So` or `Da` | `Gr;Ch` "grandchild" |
+| `Ch` | child: `So` or `Da` | `Ch;Ch` "grandchild" |
 | `Sp` | spouse: `Hu` or `Wi` | `Sp;Pa` "parent-in-law" |
 
 ### Abbreviations
 
 | feature | stands for | example |
 |---|---|---|
-| `Gr` | one generation away: `Ch` in the grandchildren subdomain, `Pa` everywhere else | `Gr;Mo` "grandmother" (`Pa;Mo`), `Gr;Da` "granddaughter" (`Ch;Da`) |
 | `Pb` | parent's sibling, `Pa;Sb` | `Pb` "uncle or aunt" (KinDiv's *auncle*) |
 
 ### Named nodes
@@ -217,10 +215,29 @@ unions have a set of positions; `Rel` and `InL` do not.
 | `\|` | union of codes | `Fa\|Fa;Br` "father or father's brother" |
 
 In ids, `;` becomes `-` and `|` becomes `_`, so `Fa|Fa;Br` is the synset
-`omw-kin-Fa_Fa-Br`. The `dc:identifier` keeps the code as it is
-(`KinDiv:Fa|Fa;Br`).
+`omw-kin-Fa_Fa-Br`. The `dc:identifier` is the code as it is
+(`Fa|Fa;Br`).
 
-## Reference
+### KinDiv's codes
+
+KinDiv writes some codes differently, and `data/kindiv-codes.tsv` maps them to
+ours when its files are read. KinDiv uses `Pr` for parent at the end of
+grandparent codes (`Fa;Pr`) and `Gr` for the first link of a grandparent or
+grandchild code (`Gr;Mo`, `Gr;Da`); both meant the same as `Pa` (or `Ch` for a
+grandchild), so we write `Fa;Pa`, `Pa;Mo` and `Ch;Da`.
+
+## References
+
+Khishigsuren, Temuulen, Gábor Bella, Khuyagbaatar Batsuren, Abed Alhakim
+Freihat, Nandu Chandran Nair, Amarsanaa Ganbold, Hadi Khalilia, Yamini
+Chandrashekar and Fausto Giunchiglia (2022). Using linguistic typology to
+enrich multilingual lexicons: the case of lexical gaps in kinship. In
+*Proceedings of the Thirteenth Language Resources and Evaluation Conference*,
+Marseille, France. European Language Resources Association.
 
 Murdock, George P. (1970). Kin term patterns and their distribution. *Ethnology*
 9(2): 165–208.
+
+Passmore, Sam, et al. (2023). Kinbank: a global database of kinship
+terminology. *PLOS ONE* 18(5): e0283218.
+<https://doi.org/10.1371/journal.pone.0283218>

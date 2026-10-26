@@ -27,7 +27,7 @@ zh.synsets("哥哥")[0].hypernym_paths()
 
 35 concepts have an ILI now; the other attested ones are proposed to the
 Collaborative Interlingual Index. Until they are accepted, every synset's
-`dc:identifier` (e.g. `KinDiv:Fa;Br;So`) links it to its concept in `omw-kin`.
+`dc:identifier` (e.g. `Fa;Br;So`) links it to its concept in `omw-kin`.
 
 Sources: KinDiv (CC BY-SA 3.0); Kinbank (CC BY 4.0); TUFS Basic Vocabulary, Tokyo University of
 Foreign Studies (CC BY 4.0); Open English WordNet (CC BY 4.0); Wiktionary

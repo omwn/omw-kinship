@@ -10,7 +10,7 @@
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
 
-["Gr;Pr"]
+["Pa;Pa"]
 lemmas = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -22,7 +22,7 @@ ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 sources = ["grandparent <- Kinbank, Wiktionary, oewn"]
 comment = ""
 
-["Gr;Fa"]
+["Pa;Fa"]
 lemmas = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 pronunciations = ["grandfather: ˈɡɹænfɑː.ðə (IPA)"]
 label = "grandfather"
@@ -30,32 +30,32 @@ definition = "the father of one's parent (a grandparent)"
 existing_by_ili = ["oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "tufs-en tufs-en-10142391-n [i90287] grandfather: (CILI) the father of your father or mother"]
 existing_by_lemma = ["gramps -> oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "grandad -> oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "granddad -> oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "granddaddy -> oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "grandfather -> oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "grandfather -> tufs-en tufs-en-10142391-n [i90287] grandfather: (CILI) the father of your father or mother", "grandpa -> oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother"]
 ntumc = ["grandfather <- 10142391-n", "gramps <- 10142391-n", "granddad <- 10142391-n", "grandad <- 10142391-n", "granddaddy <- 10142391-n", "grandpa <- 10142391-n"]
-hypernyms = ["Ch;So|Pa;Fa", "Gr;Pr"]
-ancestors = ["Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
+ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 sources = ["gramps <- Wiktionary, oewn", "grandad <- oewn", "granddad <- oewn", "granddaddy <- oewn", "grandfather <- TUFS, Wiktionary, oewn", "grandpa <- Wiktionary, oewn"]
 comment = ""
 
-["Fa;Pr"]
+["Fa;Pa"]
 lemmas = []
 status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "father's parent"  # unlexicalized
 label = "paternal grandparent"
 definition = "a parent of one's father (a grandparent)"
-hypernyms = ["Gr;Pr"]
-ancestors = ["Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Pa"]
+ancestors = ["Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["Mo;Pr"]
+["Mo;Pa"]
 lemmas = []
 status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "mother's parent"  # unlexicalized
 label = "maternal grandparent"
 definition = "a parent of one's mother (a grandparent)"
-hypernyms = ["Gr;Pr"]
-ancestors = ["Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Pa"]
+ancestors = ["Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["Gr;Mo"]
+["Pa;Mo"]
 lemmas = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
 pronunciations = ["grandmother: ˈɡɹænmʌðə (IPA)"]
 label = "grandmother"
@@ -64,8 +64,8 @@ existing_by_ili = ["oewn oewn-10162267-n [i90289] grandma, grandmother, granny, 
 existing_by_lemma = ["gran -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "grandma -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "grandmother -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "grandmother -> tufs-en tufs-en-10142747-n [i90289] grandmother: (CILI) the mother of your father or mother", "grannie -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "granny -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "nan -> oewn oewn-10364746-n [i91538] nan: your grandmother", "nan -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "nanna -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother"]
 existing_hidden = 6  # other senses of these lemmas
 ntumc = ["granny <- 10142747-n", "nan <- 10142747-n", "grandma <- 10142747-n", "grandmother <- 10142747-n", "grannie <- 10142747-n", "gran <- 10142747-n", "nanna <- 10142747-n"]
-hypernyms = ["Ch;Da|Pa;Mo", "Gr;Pr"]
-ancestors = ["Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
+ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 sources = ["gran <- oewn", "grandma <- Wiktionary, oewn", "grandmother <- TUFS, Wiktionary, oewn", "grannie <- oewn", "granny <- Wiktionary, oewn", "nan <- oewn", "nanna <- oewn"]
 comment = ""
 
@@ -75,8 +75,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "father's father"  # unlexicalized
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
-hypernyms = ["Fa;Fa|x;So;Ch", "Fa;Pr", "Gr;Fa"]
-ancestors = ["Fa;Fa|x;So;Ch", "Fa;Pr", "Gr;Fa", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Gr;Pr", "Rel"]
+hypernyms = ["Fa;Fa|x;So;Ch", "Fa;Pa", "Pa;Fa"]
+ancestors = ["Fa;Fa|x;So;Ch", "Fa;Pa", "Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Rel"]
 comment = ""
 
 ["Mo;Mo"]
@@ -85,11 +85,11 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "mother's mother"  # unlexicalized
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
-hypernyms = ["Gr;Mo", "Mo;Pr"]
-ancestors = ["Gr;Mo", "Mo;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Mo;Pa", "Pa;Mo"]
+ancestors = ["Mo;Pa", "Pa;Mo", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["Gr;Ch"]
+["Ch;Ch"]
 lemmas = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -102,7 +102,7 @@ ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["grandchild <- Kinbank, Wiktionary, oewn", "grandkid <- Wiktionary"]
 comment = ""
 
-["Gr;So"]
+["Ch;So"]
 lemmas = ["grandson"]
 pronunciations = ["grandson: ˈɡɹænsʌn (IPA)"]
 label = "grandson"
@@ -110,12 +110,12 @@ definition = "a son of one's child (a grandchild)"
 existing_by_ili = ["oewn oewn-10162819-n [i90293] grandson: a male grandchild"]
 existing_by_lemma = ["grandson -> oewn oewn-10162819-n [i90293] grandson: a male grandchild"]
 ntumc = ["grandson <- 10143299-n"]
-hypernyms = ["Ch;So|Pa;Fa", "Gr;Ch"]
-ancestors = ["Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
+ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["grandson <- Wiktionary, oewn"]
 comment = ""
 
-["Gr;Da"]
+["Ch;Da"]
 lemmas = ["granddaughter"]
 pronunciations = ["granddaughter: ˈɡɹændɔːtə (IPA)"]
 label = "granddaughter"
@@ -123,8 +123,8 @@ definition = "a daughter of one's child (a grandchild)"
 existing_by_ili = ["oewn oewn-10161252-n [i90281] granddaughter: a female grandchild"]
 existing_by_lemma = ["granddaughter -> oewn oewn-10161252-n [i90281] granddaughter: a female grandchild"]
 ntumc = ["granddaughter <- 10141732-n"]
-hypernyms = ["Ch;Da|Pa;Mo", "Gr;Ch"]
-ancestors = ["Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
+ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["granddaughter <- Wiktionary, oewn"]
 comment = ""
 
@@ -134,8 +134,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "son's child"  # unlexicalized
 label = "son's child"
 definition = "a child of one's son (a grandchild)"
-hypernyms = ["Gr;Ch"]
-ancestors = ["Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Ch"]
+ancestors = ["Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Da;Ch"]
@@ -144,8 +144,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "daughter's child"  # unlexicalized
 label = "daughter's child"
 definition = "a child of one's daughter (a grandchild)"
-hypernyms = ["Gr;Ch"]
-ancestors = ["Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Ch"]
+ancestors = ["Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["So;So"]
@@ -154,8 +154,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "son's son"  # unlexicalized
 label = "son's son"
 definition = "a son of one's son (a grandchild)"
-hypernyms = ["Gr;So", "So;Ch"]
-ancestors = ["Gr;So", "So;Ch", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;So", "So;Ch"]
+ancestors = ["Ch;So", "So;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["So;Da"]
@@ -164,8 +164,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "son's daughter"  # unlexicalized
 label = "son's daughter"
 definition = "a daughter of one's son (a grandchild)"
-hypernyms = ["Gr;Da", "So;Ch"]
-ancestors = ["Gr;Da", "So;Ch", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Da", "So;Ch"]
+ancestors = ["Ch;Da", "So;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Da;So"]
@@ -174,8 +174,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "daughter's son"  # unlexicalized
 label = "daughter's son"
 definition = "a son of one's daughter (a grandchild)"
-hypernyms = ["Da;Ch", "Gr;So"]
-ancestors = ["Da;Ch", "Gr;So", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;So", "Da;Ch"]
+ancestors = ["Ch;So", "Da;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Da;Da"]
@@ -184,8 +184,8 @@ status = "unlexicalized: no en word; included for the hierarchy"
 phrase = "daughter's daughter"  # unlexicalized
 label = "daughter's daughter"
 definition = "a daughter of one's daughter (a grandchild)"
-hypernyms = ["Da;Ch", "Gr;Da"]
-ancestors = ["Da;Ch", "Gr;Da", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Da", "Da;Ch"]
+ancestors = ["Ch;Da", "Da;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Sb"]
@@ -1233,64 +1233,64 @@ hypernyms = ["Sb;Ch"]
 ancestors = ["Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["x;Gr;Pr"]
+["x;Pa;Pa"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "man's parent's parent"  # unlexicalized
 label = "grandparent (male anchor)"
 definition = "a parent of a man's parent (a grandparent)"
-hypernyms = ["Gr;Pr"]
-ancestors = ["Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Pa"]
+ancestors = ["Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["o;Gr;Pr"]
+["o;Pa;Pa"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's parent's parent"  # unlexicalized
 label = "grandparent (female anchor)"
 definition = "a parent of a woman's parent (a grandparent)"
-hypernyms = ["Gr;Pr"]
-ancestors = ["Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Pa"]
+ancestors = ["Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["x;Gr;Fa"]
+["x;Pa;Fa"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "man's parent's father"  # unlexicalized
 label = "grandfather (male anchor)"
 definition = "the father of a man's parent (a grandparent)"
-hypernyms = ["Gr;Fa", "x;Gr;Pr"]
-ancestors = ["Gr;Fa", "x;Gr;Pr", "Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Fa", "x;Pa;Pa"]
+ancestors = ["Pa;Fa", "x;Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["o;Gr;Fa"]
+["o;Pa;Fa"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's parent's father"  # unlexicalized
 label = "grandfather (female anchor)"
 definition = "the father of a woman's parent (a grandparent)"
-hypernyms = ["Gr;Fa", "o;Gr;Pr"]
-ancestors = ["Gr;Fa", "o;Gr;Pr", "Ch;So|Pa;Fa", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Fa", "o;Pa;Pa"]
+ancestors = ["Pa;Fa", "o;Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["x;Gr;Mo"]
+["x;Pa;Mo"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "man's parent's mother"  # unlexicalized
 label = "grandmother (male anchor)"
 definition = "the mother of a man's parent (a grandparent)"
-hypernyms = ["Gr;Mo", "x;Gr;Pr"]
-ancestors = ["Gr;Mo", "x;Gr;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Mo", "x;Pa;Pa"]
+ancestors = ["Pa;Mo", "x;Pa;Pa", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["o;Gr;Mo"]
+["o;Pa;Mo"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's parent's mother"  # unlexicalized
 label = "grandmother (female anchor)"
 definition = "the mother of a woman's parent (a grandparent)"
-hypernyms = ["Gr;Mo", "o;Gr;Pr"]
-ancestors = ["Gr;Mo", "o;Gr;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa;Mo", "o;Pa;Pa"]
+ancestors = ["Pa;Mo", "o;Pa;Pa", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["x;Fa;Fa"]
@@ -1299,8 +1299,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's father's father"  # unlexicalized
 label = "paternal grandfather (male anchor)"
 definition = "the father of a man's father (a grandparent)"
-hypernyms = ["Fa;Fa", "x;Gr;Fa"]
-ancestors = ["Fa;Fa", "x;Gr;Fa", "Fa;Fa|x;So;Ch", "Fa;Pr", "Gr;Fa", "x;Gr;Pr", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Gr;Pr", "Rel"]
+hypernyms = ["Fa;Fa", "x;Pa;Fa"]
+ancestors = ["Fa;Fa", "x;Pa;Fa", "Fa;Fa|x;So;Ch", "Fa;Pa", "Pa;Fa", "x;Pa;Pa", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Rel"]
 comment = ""
 
 ["o;Fa;Fa"]
@@ -1309,8 +1309,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's father's father"  # unlexicalized
 label = "paternal grandfather (female anchor)"
 definition = "the father of a woman's father (a grandparent)"
-hypernyms = ["Fa;Fa", "o;Gr;Fa"]
-ancestors = ["Fa;Fa", "o;Gr;Fa", "Fa;Fa|x;So;Ch", "Fa;Pr", "Gr;Fa", "o;Gr;Pr", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Gr;Pr", "Rel"]
+hypernyms = ["Fa;Fa", "o;Pa;Fa"]
+ancestors = ["Fa;Fa", "o;Pa;Fa", "Fa;Fa|x;So;Ch", "Fa;Pa", "Pa;Fa", "o;Pa;Pa", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Rel"]
 comment = ""
 
 ["x;Mo;Mo"]
@@ -1319,8 +1319,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's mother's mother"  # unlexicalized
 label = "maternal grandmother (male anchor)"
 definition = "the mother of a man's mother (a grandparent)"
-hypernyms = ["Mo;Mo", "x;Gr;Mo"]
-ancestors = ["Mo;Mo", "x;Gr;Mo", "Gr;Mo", "Mo;Pr", "x;Gr;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Mo;Mo", "x;Pa;Mo"]
+ancestors = ["Mo;Mo", "x;Pa;Mo", "Mo;Pa", "Pa;Mo", "x;Pa;Pa", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["o;Mo;Mo"]
@@ -1329,68 +1329,68 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's mother's mother"  # unlexicalized
 label = "maternal grandmother (female anchor)"
 definition = "the mother of a woman's mother (a grandparent)"
-hypernyms = ["Mo;Mo", "o;Gr;Mo"]
-ancestors = ["Mo;Mo", "o;Gr;Mo", "Gr;Mo", "Mo;Pr", "o;Gr;Pr", "Ch;Da|Pa;Mo", "Gr;Pr", "Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Mo;Mo", "o;Pa;Mo"]
+ancestors = ["Mo;Mo", "o;Pa;Mo", "Mo;Pa", "Pa;Mo", "o;Pa;Pa", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
-["x;Gr;Ch"]
+["x;Ch;Ch"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "man's child's child"  # unlexicalized
 label = "grandchild (male anchor)"
 definition = "a child of a man's child (a grandchild)"
-hypernyms = ["Gr;Ch"]
-ancestors = ["Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Ch"]
+ancestors = ["Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["o;Gr;Ch"]
+["o;Ch;Ch"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's child's child"  # unlexicalized
 label = "grandchild (female anchor)"
 definition = "a child of a woman's child (a grandchild)"
-hypernyms = ["Gr;Ch"]
-ancestors = ["Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Ch"]
+ancestors = ["Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["x;Gr;So"]
+["x;Ch;So"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "man's child's son"  # unlexicalized
 label = "grandson (male anchor)"
 definition = "a son of a man's child (a grandchild)"
-hypernyms = ["Gr;So", "x;Gr;Ch"]
-ancestors = ["Gr;So", "x;Gr;Ch", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;So", "x;Ch;Ch"]
+ancestors = ["Ch;So", "x;Ch;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["o;Gr;So"]
+["o;Ch;So"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's child's son"  # unlexicalized
 label = "grandson (female anchor)"
 definition = "a son of a woman's child (a grandchild)"
-hypernyms = ["Gr;So", "o;Gr;Ch"]
-ancestors = ["Gr;So", "o;Gr;Ch", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;So", "o;Ch;Ch"]
+ancestors = ["Ch;So", "o;Ch;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["x;Gr;Da"]
+["x;Ch;Da"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "man's child's daughter"  # unlexicalized
 label = "granddaughter (male anchor)"
 definition = "a daughter of a man's child (a grandchild)"
-hypernyms = ["Gr;Da", "x;Gr;Ch"]
-ancestors = ["Gr;Da", "x;Gr;Ch", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Da", "x;Ch;Ch"]
+ancestors = ["Ch;Da", "x;Ch;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["o;Gr;Da"]
+["o;Ch;Da"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's child's daughter"  # unlexicalized
 label = "granddaughter (female anchor)"
 definition = "a daughter of a woman's child (a grandchild)"
-hypernyms = ["Gr;Da", "o;Gr;Ch"]
-ancestors = ["Gr;Da", "o;Gr;Ch", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Ch;Da", "o;Ch;Ch"]
+ancestors = ["Ch;Da", "o;Ch;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;So;Ch"]
@@ -1399,8 +1399,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's son's child"  # unlexicalized
 label = "son's child (male anchor)"
 definition = "a child of a man's son (a grandchild)"
-hypernyms = ["Fa;Fa|x;So;Ch", "So;Ch", "x;Gr;Ch"]
-ancestors = ["Fa;Fa|x;So;Ch", "So;Ch", "x;Gr;Ch", "Ch;Ch|Pa;Pa", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Fa;Fa|x;So;Ch", "So;Ch", "x;Ch;Ch"]
+ancestors = ["Fa;Fa|x;So;Ch", "So;Ch", "x;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["o;So;Ch"]
@@ -1409,8 +1409,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's son's child"  # unlexicalized
 label = "son's child (female anchor)"
 definition = "a child of a woman's son (a grandchild)"
-hypernyms = ["Fa;Mo|o;So;Ch", "So;Ch", "o;Gr;Ch"]
-ancestors = ["Fa;Mo|o;So;Ch", "So;Ch", "o;Gr;Ch", "Ch;Ch|Pa;Pa", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Fa;Mo|o;So;Ch", "So;Ch", "o;Ch;Ch"]
+ancestors = ["Fa;Mo|o;So;Ch", "So;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;Da;Ch"]
@@ -1419,8 +1419,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's daughter's child"  # unlexicalized
 label = "daughter's child (male anchor)"
 definition = "a child of a man's daughter (a grandchild)"
-hypernyms = ["Da;Ch", "Mo;Fa|x;Da;Ch", "x;Gr;Ch"]
-ancestors = ["Da;Ch", "Mo;Fa|x;Da;Ch", "x;Gr;Ch", "Ch;Ch|Pa;Pa", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Da;Ch", "Mo;Fa|x;Da;Ch", "x;Ch;Ch"]
+ancestors = ["Da;Ch", "Mo;Fa|x;Da;Ch", "x;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["o;Da;Ch"]
@@ -1429,8 +1429,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's daughter's child"  # unlexicalized
 label = "daughter's child (female anchor)"
 definition = "a child of a woman's daughter (a grandchild)"
-hypernyms = ["Da;Ch", "o;Gr;Ch"]
-ancestors = ["Da;Ch", "o;Gr;Ch", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Da;Ch", "o;Ch;Ch"]
+ancestors = ["Da;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;So;So"]
@@ -1439,8 +1439,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's son's son"  # unlexicalized
 label = "son's son (male anchor)"
 definition = "a son of a man's son (a grandchild)"
-hypernyms = ["So;So", "x;Gr;So", "x;So;Ch"]
-ancestors = ["So;So", "x;Gr;So", "x;So;Ch", "Fa;Fa|x;So;Ch", "Gr;So", "So;Ch", "x;Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["So;So", "x;Ch;So", "x;So;Ch"]
+ancestors = ["So;So", "x;Ch;So", "x;So;Ch", "Ch;So", "Fa;Fa|x;So;Ch", "So;Ch", "x;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["o;So;So"]
@@ -1449,8 +1449,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's son's son"  # unlexicalized
 label = "son's son (female anchor)"
 definition = "a son of a woman's son (a grandchild)"
-hypernyms = ["So;So", "o;Gr;So", "o;So;Ch"]
-ancestors = ["So;So", "o;Gr;So", "o;So;Ch", "Fa;Mo|o;So;Ch", "Gr;So", "So;Ch", "o;Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["So;So", "o;Ch;So", "o;So;Ch"]
+ancestors = ["So;So", "o;Ch;So", "o;So;Ch", "Ch;So", "Fa;Mo|o;So;Ch", "So;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;So;Da"]
@@ -1459,8 +1459,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's son's daughter"  # unlexicalized
 label = "son's daughter (male anchor)"
 definition = "a daughter of a man's son (a grandchild)"
-hypernyms = ["So;Da", "x;Gr;Da", "x;So;Ch"]
-ancestors = ["So;Da", "x;Gr;Da", "x;So;Ch", "Fa;Fa|x;So;Ch", "Gr;Da", "So;Ch", "x;Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["So;Da", "x;Ch;Da", "x;So;Ch"]
+ancestors = ["So;Da", "x;Ch;Da", "x;So;Ch", "Ch;Da", "Fa;Fa|x;So;Ch", "So;Ch", "x;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["o;So;Da"]
@@ -1469,8 +1469,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's son's daughter"  # unlexicalized
 label = "son's daughter (female anchor)"
 definition = "a daughter of a woman's son (a grandchild)"
-hypernyms = ["So;Da", "o;Gr;Da", "o;So;Ch"]
-ancestors = ["So;Da", "o;Gr;Da", "o;So;Ch", "Fa;Mo|o;So;Ch", "Gr;Da", "So;Ch", "o;Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["So;Da", "o;Ch;Da", "o;So;Ch"]
+ancestors = ["So;Da", "o;Ch;Da", "o;So;Ch", "Ch;Da", "Fa;Mo|o;So;Ch", "So;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;Da;So"]
@@ -1479,8 +1479,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's daughter's son"  # unlexicalized
 label = "daughter's son (male anchor)"
 definition = "a son of a man's daughter (a grandchild)"
-hypernyms = ["Da;So", "x;Da;Ch", "x;Gr;So"]
-ancestors = ["Da;So", "x;Da;Ch", "x;Gr;So", "Da;Ch", "Gr;So", "Mo;Fa|x;Da;Ch", "x;Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Da;So", "x;Ch;So", "x;Da;Ch"]
+ancestors = ["Da;So", "x;Ch;So", "x;Da;Ch", "Ch;So", "Da;Ch", "Mo;Fa|x;Da;Ch", "x;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["o;Da;So"]
@@ -1489,8 +1489,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's daughter's son"  # unlexicalized
 label = "daughter's son (female anchor)"
 definition = "a son of a woman's daughter (a grandchild)"
-hypernyms = ["Da;So", "o;Da;Ch", "o;Gr;So"]
-ancestors = ["Da;So", "o;Da;Ch", "o;Gr;So", "Da;Ch", "Gr;So", "o;Gr;Ch", "Ch;So|Pa;Fa", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Da;So", "o;Ch;So", "o;Da;Ch"]
+ancestors = ["Da;So", "o;Ch;So", "o;Da;Ch", "Ch;So", "Da;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;Da;Da"]
@@ -1499,8 +1499,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "man's daughter's daughter"  # unlexicalized
 label = "daughter's daughter (male anchor)"
 definition = "a daughter of a man's daughter (a grandchild)"
-hypernyms = ["Da;Da", "x;Da;Ch", "x;Gr;Da"]
-ancestors = ["Da;Da", "x;Da;Ch", "x;Gr;Da", "Da;Ch", "Gr;Da", "Mo;Fa|x;Da;Ch", "x;Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Da;Da", "x;Ch;Da", "x;Da;Ch"]
+ancestors = ["Da;Da", "x;Ch;Da", "x;Da;Ch", "Ch;Da", "Da;Ch", "Mo;Fa|x;Da;Ch", "x;Ch;Ch", "Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["o;Da;Da"]
@@ -1509,8 +1509,8 @@ status = "recorded gap (KinDiv): no word for this"
 phrase = "woman's daughter's daughter"  # unlexicalized
 label = "daughter's daughter (female anchor)"
 definition = "a daughter of a woman's daughter (a grandchild)"
-hypernyms = ["Da;Da", "o;Da;Ch", "o;Gr;Da"]
-ancestors = ["Da;Da", "o;Da;Ch", "o;Gr;Da", "Da;Ch", "Gr;Da", "o;Gr;Ch", "Ch;Da|Pa;Mo", "Gr;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+hypernyms = ["Da;Da", "o;Ch;Da", "o;Da;Ch"]
+ancestors = ["Da;Da", "o;Ch;Da", "o;Da;Ch", "Ch;Da", "Da;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["x;Br"]

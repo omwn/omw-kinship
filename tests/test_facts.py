@@ -75,7 +75,7 @@ EXTENT = {
     "o;Yn;Br": frozenset({"oyB"}),
     "o;Br": frozenset({"oeB", "oyB"}),
     "Da;Da": frozenset({"DD"}),
-    "Gr;Da": frozenset({"DD", "SD"}),
+    "Ch;Da": frozenset({"DD", "SD"}),
     "Mo": frozenset({"M"}),
 }
 
@@ -101,11 +101,11 @@ def test_equal_extent_agrees() -> None:
 def test_broader_disagrees() -> None:
     """Danish datterdatter: KinDiv's daughter's daughter, Kinbank's granddaughter."""
     kindiv = {("mi", "datterdatter"): {"Da;Da"}}
-    assert verdict(kindiv, "datterdatter", "Gr;Da") == {"broader": 1}
+    assert verdict(kindiv, "datterdatter", "Ch;Da") == {"broader": 1}
 
 
 def test_narrower_and_disjoint_disagree() -> None:
-    kindiv = {("mi", "x"): {"Gr;Da"}, ("mi", "y"): {"Mo"}}
+    kindiv = {("mi", "x"): {"Ch;Da"}, ("mi", "y"): {"Mo"}}
     assert verdict(kindiv, "x", "Da;Da") == {"narrower": 1}
     assert verdict(kindiv, "y", "o;Br") == {"disjoint": 1}
 

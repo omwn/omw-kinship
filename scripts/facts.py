@@ -50,7 +50,7 @@ FAMILY_EXAMPLES = {
 #: concepts whose number of languages the paper gives (Table 1)
 LANGUAGE_EXAMPLES = {"fa_fa_br": "Fa|Fa;Br"}
 #: the gender-neutral concepts where wordnet words contradict the most gaps
-NEUTRAL = ("Pa;Sb;Ch", "Sb", "Gr;Pr")
+NEUTRAL = ("Pa;Sb;Ch", "Sb", "Pa;Pa")
 #: Kinbank's half-sibling positions: mhB, fehZ, mhB_FS, ...
 HALF = re.compile(r"[mf][ey]?h[BZ]")
 #: Kinbank's step-sibling positions: mFWS_notBorhB, ...
@@ -89,7 +89,7 @@ def kindiv_forms() -> list[tuple[str, str, str]]:
     """
     return [
         (row["Language"], form, b.relabel(row["Concept"]))
-        for row in b.read_tsv(b.KINDIV / "words")
+        for row in b.read_kindiv("words")
         for form in map(b.clean, row["Word"].split(","))
         if form
     ]
@@ -101,10 +101,10 @@ def kindiv_codes() -> list[str]:
     Upstream KinDiv uses ``Fa;Sb;So`` and ``Fa;Sb;Da`` in `relations` and `gaps`
     but leaves them out of `concepts`; `extra-concepts.tsv` restores them.
     """
-    kindiv = [row["Abreviation"] for row in b.read_tsv(b.KINDIV / "concepts")]
-    used = {row["Gap concept"] for row in b.read_tsv(b.KINDIV / "gaps")} | {
+    kindiv = [row["Abreviation"] for row in b.read_kindiv("concepts")]
+    used = {row["Gap concept"] for row in b.read_kindiv("gaps")} | {
         code
-        for row in b.read_tsv(b.KINDIV / "relations")
+        for row in b.read_kindiv("relations")
         for code in (row["Hyponym_concept"], row["Hypernym_concept"])
     }
     extra = [row["Abreviation"] for row in b.read_tsv(b.DATA / "extra-concepts.tsv")]
@@ -118,7 +118,7 @@ def concept_facts(concepts: dict[str, b.Concept]) -> dict[str, int]:
     (restored); the nuclear family, in-laws and named nodes we add (from OEWN and
     TUFS); and the ones Kinbank evidence admits, single kin types or mergers.
     """
-    kindiv = [row["Abreviation"] for row in b.read_tsv(b.KINDIV / "concepts")]
+    kindiv = [row["Abreviation"] for row in b.read_kindiv("concepts")]
     restored = kindiv_codes()[len(kindiv) :]
     extra = b.read_tsv(b.DATA / "extra-concepts.tsv")
     kinbank = [row for row in extra if row["Source"].startswith("Kinbank")]
@@ -156,9 +156,9 @@ def ili_facts(concepts: dict[str, b.Concept]) -> dict[str, int]:
 def attestation_facts(concepts: dict[str, b.Concept]) -> dict[str, int]:
     """KinDiv's concepts with no KinDiv word, and how many still have none."""
     by_label = {concept.label: code for code, concept in concepts.items()}
-    rows = b.read_tsv(b.KINDIV / "words")
+    rows = b.read_kindiv("words")
     with_words = {by_label[b.relabel(row["Concept"])] for row in rows}
-    kindiv = [row["Abreviation"] for row in b.read_tsv(b.KINDIV / "concepts")]
+    kindiv = [row["Abreviation"] for row in b.read_kindiv("concepts")]
     unattested = [code for code in kindiv if code not in with_words]
     still = [code for code in unattested if not concepts[code].languages]
     return {
@@ -177,11 +177,11 @@ def kindiv_facts() -> dict[str, int]:
     several forms. Gaps are distinct (language, concept) pairs, as the file
     repeats some.
     """
-    words = b.read_tsv(b.KINDIV / "words")
+    words = b.read_kindiv("words")
     forms = kindiv_forms()
-    gaps = b.read_tsv(b.KINDIV / "gaps")
+    gaps = b.read_kindiv("gaps")
     return {
-        "concepts": len(b.read_tsv(b.KINDIV / "concepts")),
+        "concepts": len(b.read_kindiv("concepts")),
         "words": len(words),
         "senses": len(set(forms)),
         "lemmas": len({(language, form) for language, form, _ in forms}),

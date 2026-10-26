@@ -77,7 +77,7 @@ def read_lexicon(tag: str) -> tuple[dict, set[str], dict[str, str]]:
     root = ElementTree.parse(path).getroot()
     code_of, gaps = {}, set()
     for synset in root.iter("Synset"):
-        code = synset.get(DC + "identifier").removeprefix("KinDiv:")
+        code = synset.get(DC + "identifier")
         code_of[synset.get("id")] = code
         if "lexical gap" in (synset.get("note") or ""):
             gaps.add(code)

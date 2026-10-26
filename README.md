@@ -16,7 +16,7 @@ the Open English WordNet, and words attested in other sources.
 | path | contents |
 |---|---|
 | `sources/kindiv/` | KinDiv's `concepts`, `relations`, `words` and `gaps`, unchanged from upstream |
-| `data/` | our curated tables: extra concepts, relations and words, ILI links, languages, the TUFS mapping, attested words |
+| `data/` | our curated tables: extra concepts, relations and words, ILI links, languages, the TUFS mapping, attested words, KinDiv's codes written as ours (`kindiv-codes.tsv`) |
 | `data/candidates/` | words and concepts extracted from Kinbank and TUFS by the scripts |
 | `scripts/` | the extraction scripts and `build.py` |
 | `tests/` | pytest tests for the scripts |
@@ -78,7 +78,7 @@ are reached by searching for the ILI instead (`#/search?q=i90292`).
 - **`omw-kin-<tag>`** (1,028 lexicons: 171 from KinDiv, TUFS and hmong-ontology, the rest from Kinbank) are
   standalone lexicons of words: one synset per concept the language lexicalizes,
   carrying the concept's ILI where it has one (empty otherwise), and
-  `dc:identifier="KinDiv:Fa;Br;So"`. They have **no relations**. The hierarchy
+  `dc:identifier="Fa;Br;So"`. They have **no relations**. The hierarchy
   is in the shared lexicon; join a language synset to its concept on
   `dc:identifier`:
 
@@ -88,7 +88,7 @@ are reached by searching for the ILI instead (`#/search?q=i90292`).
   pl = wn.Wordnet("omw-kin-pl")
   wujek = pl.synsets("wujek")[0]
   concept[wujek.metadata()["identifier"]].hypernyms()
-  # KinDiv:Mo;Sb, KinDiv:Pa;Br, KinDiv:Mo;Br|Mo;Br;So, KinDiv:Mo;Br|x;Ss;Ch
+  # Mo;Sb, Pa;Br, Mo;Br|Mo;Br;So, Mo;Br|x;Ss;Ch
   ```
 
   Wn's `expand="omw-kin"` does **not** give the hierarchy yet. It matches
@@ -171,8 +171,8 @@ goes on `Sp;Ss`; the broad `SsL` is a new-ILI candidate.
 that lexicalize it, the number with a gap, and the proposed ILI definition. Of the
 264 candidates, 21 are attested in only one language.
 
-The 7 unattested concepts are anchor-sex variants of grandparents (`o;Gr;Pr`,
-`o;Gr;Fa`, `o;Gr;Mo`, `x;Fa;Fa`) and of uncles and aunts (`x;Pa;Br`, `o;Pa;Br`,
+The 7 unattested concepts are anchor-sex variants of grandparents (`o;Pa;Pa`,
+`o;Pa;Fa`, `o;Pa;Mo`, `x;Fa;Fa`) and of uncles and aunts (`x;Pa;Br`, `o;Pa;Br`,
 `o;Pa;Ss`). They should not be proposed to CILI unless an attestation is found.
 
 ## TUFS

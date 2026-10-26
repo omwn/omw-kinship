@@ -75,7 +75,6 @@ NOUNS = {
     "Fa": "father",
     "Mo": "mother",
     "Pa": "parent",
-    "Pr": "parent",
     "Hu": "husband",
     "Wi": "wife",
     "Sp": "spouse",
@@ -125,6 +124,25 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
     """Read a KinDiv TSV; quoted fields may span lines (Manchu script)."""
     with path.open(encoding="utf8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
+
+
+#: KinDiv codes we write differently: its ``Pr`` and ``Gr`` are our ``Pa``, or
+#: ``Ch`` for ``Gr`` in a grandchild code (``Gr;So`` is ``Ch;So``)
+KINDIV_CODES = {
+    row["kindiv"]: row["code"] for row in read_tsv(DATA / "kindiv-codes.tsv")
+}
+#: the columns of KinDiv's files that hold kin-type codes
+CODE_COLUMNS = ("Abreviation", "Hyponym_concept", "Hypernym_concept", "Gap concept")
+
+
+def read_kindiv(name: str) -> list[dict[str, str]]:
+    """Read one of KinDiv's files, with its codes rewritten as ours."""
+    rows = read_tsv(KINDIV / name)
+    for row in rows:
+        for column in CODE_COLUMNS:
+            if column in row:
+                row[column] = KINDIV_CODES.get(row[column], row[column])
+    return rows
 
 
 #: KinDiv language names to BCP 47 tags, from `langcodes.find` and checked by hand
@@ -178,11 +196,6 @@ def parse(code: str, subdomain: str) -> tuple[str, str, list[str]]:
                 relative_age = "older" if part == "El" else "younger"
             else:
                 pending = ("elder" if part == "El" else "younger") + " "
-        elif part == "Gr":
-            chain.append(
-                pending + ("child" if subdomain == "grandchildren" else "parent")
-            )
-            pending = ""
         elif part == "Pb":
             chain.extend(["parent", "sibling"])
         else:
@@ -230,7 +243,7 @@ def phrase(code: str, subdomain: str) -> str:
 
     >>> phrase("Fa;Ss;Hu", "uncles and aunts")
     "father's sister's husband"
-    >>> phrase("x;Gr;Fa", "grandparents")
+    >>> phrase("x;Pa;Fa", "grandparents")
     "man's parent's father"
     >>> phrase("El;Fa;Br;So", "cousins")
     "father's brother's son (older than self)"
@@ -283,7 +296,7 @@ def read_concepts() -> dict[str, Concept]:
     covers relatives by marriage as well as by blood. Their definitions are given,
     not composed from the code.
     """
-    rows = read_tsv(KINDIV / "concepts") + read_tsv(DATA / "extra-concepts.tsv")
+    rows = read_kindiv("concepts") + read_tsv(DATA / "extra-concepts.tsv")
     concepts = {
         row["Abreviation"]: Concept(
             code=row["Abreviation"],
@@ -316,7 +329,7 @@ def positions(concepts: dict[str, Concept]) -> dict[str, frozenset]:
 def read_relations() -> dict[str, set[str]]:
     """Read the stated hypernyms: KinDiv's `relations` and our extra ones."""
     parents: dict[str, set[str]] = defaultdict(set)
-    for row in read_tsv(KINDIV / "relations") + read_tsv(DATA / "extra-relations.tsv"):
+    for row in read_kindiv("relations") + read_tsv(DATA / "extra-relations.tsv"):
         if row["Hypernym_concept"] != "#":
             parents[row["Hyponym_concept"]].add(row["Hypernym_concept"])
     return parents
@@ -432,7 +445,7 @@ def read_languages(concepts: dict[str, Concept]) -> dict[str, Language]:
     """Read KinDiv's words (plus `extra-words.tsv`); gaps come later (`add_gaps`)."""
     by_label = {c.label: c for c in concepts.values()}
     languages: dict[str, Language] = {}
-    for row in read_tsv(KINDIV / "words") + read_tsv(DATA / "extra-words.tsv"):
+    for row in read_kindiv("words") + read_tsv(DATA / "extra-words.tsv"):
         # one Kannada cell holds two comma-separated words
         for form in row["Word"].split(","):
             add_word(
@@ -453,7 +466,7 @@ def add_gaps(languages: dict[str, Language], concepts: dict[str, Concept]) -> No
     and a clash between its new words and those gaps is then reported. Gaps of
     languages with no words are counted on the concept but not written.
     """
-    for row in read_tsv(KINDIV / "gaps"):
+    for row in read_kindiv("gaps"):
         code = row["Gap concept"]
         if code not in concepts:
             continue
@@ -789,7 +802,7 @@ def write_base(
             f' lexicalized="false" lexfile="{LEXFILE}"'
             + attrs(
                 [
-                    ("dc:identifier", f"KinDiv:{code}"),
+                    ("dc:identifier", code),
                     ("dc:subject", concept.subdomain),
                     ("dc:description", concept.label),
                     ("dc:source", concept.source),
@@ -884,7 +897,7 @@ def write_language(
             + ("" if code in attested else ' lexicalized="false"')
             + attrs(
                 [
-                    ("dc:identifier", f"KinDiv:{code}"),
+                    ("dc:identifier", code),
                     ("dc:description", concept.label),
                     ("dc:source", language.gaps[code] if gap else ""),
                     ("note", f"lexical gap: no {language.name} word" if gap else ""),
