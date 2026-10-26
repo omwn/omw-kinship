@@ -29,6 +29,6 @@ zh.synsets("哥哥")[0].hypernym_paths()
 Collaborative Interlingual Index. Until they are accepted, every synset's
 `dc:identifier` (e.g. `Fa;Br;So`) links it to its concept in `omw-kin`.
 
-Sources: KinDiv (CC BY-SA 3.0); Kinbank (CC BY 4.0); TUFS Basic Vocabulary, Tokyo University of
+Sources: KinDiv (CC BY-SA 3.0); Kinbank (CC BY 4.0); Wikidata lexemes (CC0); TUFS Basic Vocabulary, Tokyo University of
 Foreign Studies (CC BY 4.0); Open English WordNet (CC BY 4.0); Wiktionary
 (CC BY-SA).

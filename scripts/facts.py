@@ -224,7 +224,7 @@ def gap_facts(languages: dict[str, b.Language]) -> dict[str, int]:
 
     Three units: ``contradicted``, ``sources`` and ``wordnets`` count rows of
     the table (a word, a concept and one of its sources, `build.gap_conflicts`),
-    those from an existing wordnet counted apart; ``*_words`` count distinct
+    those from an existing wordnet and from Wikidata counted apart; ``*_words`` count distinct
     (language, word) pairs and ``*_gaps`` distinct (language, concept) gaps. A
     word or gap with both kinds of source counts under both.
     """
@@ -232,7 +232,12 @@ def gap_facts(languages: dict[str, b.Language]) -> dict[str, int]:
         row["source"] for row in b.read_tsv(b.CANDIDATES / "wordnet-words.tsv")
     }
     rows = b.gap_conflicts(languages)
-    sources = [row for row in rows if row[4] not in from_wordnet]
+    wikidata = [row for row in rows if row[4].startswith(b.WIKIDATA)]
+    sources = [
+        row
+        for row in rows
+        if row[4] not in from_wordnet and not row[4].startswith(b.WIKIDATA)
+    ]
     wordnets = [row for row in rows if row[4] in from_wordnet]
 
     def words(found: list[tuple[str, ...]]) -> int:
@@ -256,6 +261,10 @@ def gap_facts(languages: dict[str, b.Language]) -> dict[str, int]:
         "wordnet_languages": len({row[0] for row in wordnets}),
         "wordnet_neutral": sum(row[2] in NEUTRAL for row in wordnets),
         "wordnet_neutral_gaps": gaps([row for row in wordnets if row[2] in NEUTRAL]),
+        "wikidata": len(wikidata),
+        "wikidata_words": words(wikidata),
+        "wikidata_gaps": gaps(wikidata),
+        "wikidata_languages": len({row[0] for row in wikidata}),
     }
 
 
@@ -436,10 +445,17 @@ def facts(kinbank: Path | None) -> dict[str, Group]:
 
     ``wordnet_words`` counts the rows of `wordnet-words.tsv` (a word, a concept
     and the wordnet it comes from), ``senses`` its distinct (language, word,
-    concept) triples and ``lemmas`` its distinct (language, word) pairs.
+    concept) triples and ``lemmas`` its distinct (language, word) pairs;
+    ``wikidata_words`` counts the lexemes of `wikidata-words.tsv` the build uses
+    in the same way, and ``labels_held`` the labels it does not use.
     """
     concepts, ancestry, languages = b.pipeline()
     wordnet = b.read_tsv(b.CANDIDATES / "wordnet-words.tsv")
+    wikidata = [
+        row
+        for row in b.read_tsv(b.CANDIDATES / "wikidata-words.tsv")
+        if row["kind"] == "lexeme" and row["note"] not in b.WIKIDATA_STYLES_LEFT_OUT
+    ]
     tufs = b.read_tsv(b.DATA / "tufs-kindiv.tsv")
     kinbank_group = kinbank_facts(concepts)
     cldf = kinbank / "kinbank" / "cldf" if kinbank else None
@@ -472,6 +488,18 @@ def facts(kinbank: Path | None) -> dict[str, Group]:
             ),
             "lemmas": len({(row["tag"], b.clean(row["word"])) for row in wordnet}),
             "languages": len({row["tag"] for row in wordnet}),
+        },
+        "wikidata_words": {
+            "words": len(wikidata),
+            "senses": len(
+                {(row["tag"], b.clean(row["word"]), row["concept"]) for row in wikidata}
+            ),
+            "lemmas": len({(row["tag"], b.clean(row["word"])) for row in wikidata}),
+            "languages": len({row["tag"] for row in wikidata}),
+            "labels_held": sum(
+                row["kind"] == "label"
+                for row in b.read_tsv(b.CANDIDATES / "wikidata-words.tsv")
+            ),
         },
         "kinbank": kinbank_group,
         "tufs": {"languages": len({row["tufs_lang"] for row in tufs})},

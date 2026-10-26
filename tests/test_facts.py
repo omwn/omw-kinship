@@ -48,7 +48,7 @@ def test_unattested_concepts_are_kindivs(found: dict) -> None:
 def test_gap_conflicts_match_report(found: dict) -> None:
     """The gap figures split the rows of gap-conflicts.tsv by source."""
     gaps = found["gaps"]
-    assert gaps["sources"] + gaps["wordnets"] == gaps["contradicted"]
+    assert gaps["sources"] + gaps["wordnets"] + gaps["wikidata"] == gaps["contradicted"]
     rows = build.read_tsv(build.REPORTS / "gap-conflicts.tsv")
     assert gaps["contradicted"] == len(rows)
     assert gaps["languages"] == len({row["language"] for row in rows})

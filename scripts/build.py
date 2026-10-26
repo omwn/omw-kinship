@@ -530,6 +530,36 @@ def add_wordnets(languages: dict[str, Language], concepts: dict[str, Concept]) -
         add_word(languages, name, row["word"], concepts[row["concept"]], row["source"])
 
 
+#: Wikidata language styles (P6191) whose senses are not the kin term itself
+WIKIDATA_STYLES_LEFT_OUT = {
+    "humorous",
+    "irony",
+    "metaphorical language",
+    "pejorative",
+    "slang",
+}
+#: the source of every word from Wikidata starts with this
+WIKIDATA = "Wikidata "
+
+
+def add_wikidata(languages: dict[str, Language], concepts: dict[str, Concept]) -> None:
+    """Add Wikidata lexemes for the concepts linked to a Wikidata item.
+
+    `wikidata_words.py` collects them in `wikidata-words.tsv`, with the items'
+    single-word labels. Only the lexemes are added: labels name items and are
+    often descriptions or the wrong sense (Telugu *akka* "elder sister" as the
+    label of *sibling*). Senses whose language style makes them a joke, an
+    insult, slang or a metaphor are left out. Like the wordnet words, nobody has
+    checked them.
+    """
+    for row in read_tsv(CANDIDATES / "wikidata-words.tsv"):
+        if row["kind"] == "lexeme" and row["note"] not in WIKIDATA_STYLES_LEFT_OUT:
+            name = register_language(row["language"], row["tag"])
+            add_word(
+                languages, name, row["word"], concepts[row["concept"]], row["source"]
+            )
+
+
 def add_kinbank(languages: dict[str, Language], concepts: dict[str, Concept]) -> None:
     """Add the Kinbank terms that match a concept exactly (`kinbank-candidates.tsv`).
 
@@ -638,8 +668,9 @@ def add_romanization(
 
     Where the language has words in its own script for the concept (from
     KinDiv, TUFS, an attestation or a Kinbank source in that script), the
-    romanization is the pronunciation of the one it transcribes: the only one,
-    or the one whose transliteration matches it best (`romanized_match`), and
+    romanization is the pronunciation of the one it transcribes: the only one
+    (unless only Wikidata gives it), or the one whose transliteration matches it
+    best (`romanized_match`), and
     Kinbank becomes a source of that word's sense too, since it attests the
     word for the concept. Otherwise it is the only record of the word, so it
     stays a lemma, marked as a transcription.
@@ -652,7 +683,20 @@ def add_romanization(
         if script_of(word) not in ("", "Latn")
         and any(code == concept.code for code, _ in senses)
     ]
-    matched = native if len(native) == 1 else romanized_match(row["form"], native)
+    # a word only Wikidata gives must also look like the romanization: its 祖
+    # "ancestor" is not what Kinbank's zu fu mu "grandparents" transcribes
+    only_wikidata = {
+        word
+        for word in native
+        if all(
+            s.startswith(WIKIDATA) for c, s in language.words[word] if c == concept.code
+        )
+    }
+    matched = (
+        native
+        if len(native) == 1 and not only_wikidata
+        else romanized_match(row["form"], native)
+    )
     source = f"Kinbank {row['kinbank_language']}: {row['positions']}"
     if matched:
         for word in matched:
@@ -981,8 +1025,8 @@ def write_browser_data(
 
     A script rather than JSON, so the page also works opened from disk. Each
     concept lists its nearest hypernyms. Each language lists its checked words
-    (`words`), the words found only in an existing wordnet, which nobody has
-    checked (`wordnet`), and its gaps no checked word overrides (`gaps`), so the
+    (`words`), the words found only in an existing wordnet or Wikidata, which
+    nobody has checked (`wordnet`), and its gaps no checked word overrides (`gaps`), so the
     page can show the wordnet words, and the gaps they override, on request.
     """
     parents = nearest(set(concepts), ancestry)
@@ -1011,7 +1055,8 @@ def write_browser_data(
         for form, senses in language.words.items():
             for code in dict.fromkeys(code for code, _ in senses):
                 sources = {s for c, s in senses if c == code}
-                target = unchecked if sources <= from_wordnet else checked
+                harvested = {s for s in sources if s.startswith(WIKIDATA)}
+                target = unchecked if sources - harvested <= from_wordnet else checked
                 target[code].append(form)
         data["languages"].append(
             {
@@ -1072,6 +1117,7 @@ def pipeline() -> tuple[dict[str, Concept], dict[str, set[str]], dict[str, Langu
     add_tufs(languages, concepts)
     add_attestations(languages, concepts)
     add_wordnets(languages, concepts)
+    add_wikidata(languages, concepts)
     add_kinbank(languages, concepts)
     add_gaps(languages, concepts)
     add_phrases(languages["English"], concepts)

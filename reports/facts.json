@@ -21,8 +21,8 @@
     "newly_attested": 36
   },
   "lexicons": {
-    "total": 1030,
-    "with_gaps": 256
+    "total": 1108,
+    "with_gaps": 258
   },
   "kindiv": {
     "concepts": 198,
@@ -43,12 +43,12 @@
     "fa_fa_br": 172
   },
   "gaps": {
-    "contradicted": 504,
-    "words": 471,
-    "gaps": 283,
-    "languages": 112,
-    "sources": 312,
-    "source_words": 295,
+    "contradicted": 584,
+    "words": 525,
+    "gaps": 304,
+    "languages": 115,
+    "sources": 313,
+    "source_words": 296,
     "source_gaps": 226,
     "source_languages": 100,
     "wordnets": 192,
@@ -56,13 +56,17 @@
     "wordnet_gaps": 80,
     "wordnet_languages": 33,
     "wordnet_neutral": 131,
-    "wordnet_neutral_gaps": 50
+    "wordnet_neutral_gaps": 50,
+    "wikidata": 79,
+    "wikidata_words": 73,
+    "wikidata_gaps": 46,
+    "wikidata_languages": 23
   },
   "romanizations": {
     "words": 2226,
     "languages": 65,
-    "pronunciations": 335,
-    "lemmas": 1891,
+    "pronunciations": 402,
+    "lemmas": 1824,
     "both": 0
   },
   "wordnet_words": {
@@ -70,6 +74,13 @@
     "senses": 2703,
     "lemmas": 2519,
     "languages": 47
+  },
+  "wikidata_words": {
+    "words": 2256,
+    "senses": 2217,
+    "lemmas": 2078,
+    "languages": 189,
+    "labels_held": 3092
   },
   "kinbank": {
     "kindiv_compared": 393,

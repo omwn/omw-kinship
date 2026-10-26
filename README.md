@@ -36,6 +36,8 @@ uv run scripts/tufs_curation.py      # candidates -> data/tufs-kindiv.tsv
 uv run scripts/kinbank_words.py      # ../kinbank -> data/candidates/kinbank-candidates.tsv
 uv run scripts/kinbank_concepts.py   # ../kinbank -> data/candidates/kinbank-new-concepts.tsv
 uv run scripts/wordnet_words.py      # Cygnet's wordnets -> data/candidates/wordnet-words.tsv
+uv run scripts/wikidata_concepts.py  # Wikidata kinship items -> data/candidates/wikidata-candidates.tsv
+uv run scripts/wikidata_words.py     # Wikidata lexemes and labels -> data/candidates/wikidata-words.tsv
 uv run scripts/build.py              # release/omw-kin-0.2/ and .tar.xz, reports/, docs/hierarchy/data.js
 uv run scripts/kin_review.py         # review/kinterms-<lang>.toml
 uv run scripts/facts.py              # every figure the paper cites -> reports/facts.json
@@ -246,6 +248,18 @@ writes every lemma of every synset for a linked concept's ILI to
 (by blood or marriage), not to KinDiv's `Pa;Br` and `Pa;Ss`. Like every other word, a wordnet word overrides a gap
 KinDiv records for the same concept; `reports/gap-conflicts.tsv` lists such
 clashes.
+
+Wikidata adds more. `wikidata_words.py` takes, for every concept linked
+`exact` to a Wikidata item (`data/concept-wikidata.tsv`), the noun lexemes with
+a sense whose "item for this sense" (P5137) is that item, e.g. Tamil அண்ணா
+"elder brother", and the item's single-word labels, and writes them to
+`data/candidates/wikidata-words.tsv`. The build adds only the lexemes, leaving
+out senses whose language style (P6191) is humorous, ironic, metaphorical,
+pejorative or slang; the labels are kept for review, since many are
+descriptions or name the wrong sense (Telugu *akka* "elder sister" as the label
+of *sibling*). Like the wordnet words, the Wikidata words are unchecked: the
+hierarchy browser shows them only with "Include words from existing
+wordnets".
 
 ## Hmong
 
