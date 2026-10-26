@@ -11,16 +11,16 @@
 #   for this concept; new_words, words it does not have at all.
 
 ["Pa;Pa"]
-lemmas = ["zu fu mu"]
+lemmas = ["zu fu mu", "祖"]
 transcribed = ["zu fu mu"]  # romanized in the source; no word in the native script here
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
 ntumc = ["祖父 或 祖母 <- 10143172-n", "祖父母 <- 10143172-n", "祖父或祖母 <- 10143172-n"]
-new_words = ["zu fu mu"]
+new_words = ["zu fu mu", "祖"]
 hypernyms = ["Ch;Ch|Pa;Pa"]
 ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
-sources = ["zu fu mu <- Kinbank"]
+sources = ["zu fu mu <- Kinbank", "祖 <- Wikidata L662833-S1"]
 comment = ""
 
 ["Pa;Fa"]
@@ -50,7 +50,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["外婆", "外祖母", "奶奶", "祖母"]
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["cow cow-10142747-n [i90289] 外婆, 外祖母, 祖母, 奶奶: 父亲或母亲的母亲", "tufs-zh tufs-zh-10142747-n [i90289] 奶奶, 姥姥: (CILI) the mother of your father or mother"]
@@ -88,21 +88,22 @@ sources = ["外公 <- Wiktionary", "外祖父 <- Wiktionary", "老爷 <- TUFS"]
 comment = ""
 
 ["Fa;Mo"]
-lemmas = ["奶奶", "祖母"]
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+lemmas = ["奶奶", "妈妈", "媽媽", "嫲", "嬤", "祖母"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "paternal grandmother"
 definition = "the mother of one's father (a grandparent)"
-existing_by_lemma = ["奶奶 -> cow cow-10142747-n [i90289] 外婆, 外祖母, 祖母, 奶奶: 父亲或母亲的母亲", "奶奶 -> tufs-zh tufs-zh-10142747-n [i90289] 奶奶, 姥姥: (CILI) the mother of your father or mother", "祖母 -> cow cow-10142747-n [i90289] 外婆, 外祖母, 祖母, 奶奶: 父亲或母亲的母亲"]
-new_senses = ["奶奶", "祖母"]
+existing_by_lemma = ["奶奶 -> cow cow-10142747-n [i90289] 外婆, 外祖母, 祖母, 奶奶: 父亲或母亲的母亲", "奶奶 -> tufs-zh tufs-zh-10142747-n [i90289] 奶奶, 姥姥: (CILI) the mother of your father or mother", "妈妈 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "妈妈 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "妈妈 -> tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "祖母 -> cow cow-10142747-n [i90289] 外婆, 外祖母, 祖母, 奶奶: 父亲或母亲的母亲"]
+new_senses = ["奶奶", "妈妈", "祖母"]
+new_words = ["媽媽", "嫲", "嬤"]
 hypernyms = ["Fa;Mo|o;So;Ch", "Fa;Pa", "Pa;Mo"]
 ancestors = ["Fa;Mo|o;So;Ch", "Fa;Pa", "Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Pa;Pa", "Rel"]
-sources = ["奶奶 <- TUFS, Wiktionary", "祖母 <- Wiktionary"]
+sources = ["奶奶 <- TUFS, Wiktionary", "妈妈 <- Wikidata L643820-S4", "媽媽 <- Wikidata L643820-S4", "嫲 <- Wikidata L672778-S3 (Mandarin dialects)", "嬤 <- Wikidata L672778-S3 (Mandarin dialects)", "祖母 <- Wiktionary"]
 comment = ""
 
 ["Mo;Mo"]
 lemmas = ["外婆", "外祖母", "姥姥"]
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -115,15 +116,15 @@ sources = ["外婆 <- Wiktionary", "外祖母 <- Wiktionary", "姥姥 <- TUFS, W
 comment = ""
 
 ["Ch;Ch"]
-lemmas = ["孫"]
+lemmas = ["孙", "孫"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
 ntumc = ["孙子 <- 10141590-n", "外孙 <- 10141590-n", "孙女 <- 10141590-n", "孙儿 <- 10141590-n"]
-new_words = ["孫"]
+new_words = ["孙", "孫"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫 <- Wiktionary"]
+sources = ["孙 <- Wikidata L662838-S1", "孫 <- Wikidata L662838-S1, Wiktionary"]
 comment = ""
 
 ["Ch;So"]
@@ -258,7 +259,7 @@ comment = ""
 ["Ss"]
 lemmas = ["姐妹"]
 pronunciations = ["姐妹: jie mei (romanization)"]
-english = ["female sibling", "sister"]
+english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 existing_by_lemma = ["姐妹 -> cow cow-10602985-n [i93018] 姐妹, 姐姐, 妹, 妹妹: 有相同父母的女性", "姐妹 -> cow cow-10595164-n [i92980] 兄弟, 兄弟姐妹, 姐妹: 一个人的兄弟姐妹", "姐妹 -> tufs-zh tufs-zh-09854218-n [i88564] 姐妹: (CILI) an older sister"]
@@ -302,7 +303,7 @@ ntumc = ["兄 <- 09853467-n", "哥哥 <- 09853467-n", "兄长 <- 09853467-n"]
 new_senses = ["哥"]
 hypernyms = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb"]
 ancestors = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["兄 <- Wiktionary, cow", "兄长 <- cow", "哥 <- Wiktionary", "哥哥 <- TUFS, Wiktionary, cow"]
+sources = ["兄 <- Wikidata L663168-S1, Wiktionary, cow", "兄长 <- cow", "哥 <- Wiktionary", "哥哥 <- TUFS, Wiktionary, cow"]
 comment = ""
 
 ["El;Ss"]
@@ -321,7 +322,7 @@ sources = ["姐 <- cow", "姐姐 <- TUFS, Wiktionary, cow", "阿姊 <- Wiktionar
 comment = ""
 
 ["Yn;Br"]
-lemmas = ["兄弟", "弟弟"]
+lemmas = ["兄弟", "弟", "弟弟"]
 pronunciations = ["兄弟: xiong di (romanization)"]
 english = ["little brother"]
 label = "younger brother"
@@ -331,9 +332,10 @@ existing_by_lemma = ["兄弟 -> cow cow-09876454-n [i88708] 亲兄弟, 兄弟, �
 existing_hidden = 3  # other senses of these lemmas
 ntumc = ["弟弟 <- 10267311-n"]
 new_senses = ["兄弟"]
+new_words = ["弟"]
 hypernyms = ["Br", "Yn;Sb"]
 ancestors = ["Br", "Yn;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["兄弟 <- TUFS, Wiktionary", "弟弟 <- Wiktionary, cow"]
+sources = ["兄弟 <- TUFS, Wiktionary", "弟 <- Wikidata L656252-S1", "弟弟 <- Wiktionary, cow"]
 comment = ""
 
 ["Yn;Ss"]
@@ -893,7 +895,7 @@ sources = ["婶母 <- TUFS"]
 comment = ""
 
 ["Pa"]
-lemmas = ["双亲之一", "家长", "父亲或母亲", "父母"]
+lemmas = ["亲", "双亲之一", "家长", "父亲或母亲", "父母", "親"]
 pronunciations = ["父母: fu mu (romanization)"]
 english = ["parent", "parents"]
 label = "parent"
@@ -901,38 +903,43 @@ definition = "a father or mother of a person"
 existing_by_ili = ["cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 existing_by_lemma = ["双亲之一 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "家长 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "父亲或母亲 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "父母 -> tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 ntumc = ["父 或 母 <- 10399491-n", "父亲或母亲 <- 10399491-n", "家长 <- 10399491-n", "父或母 <- 10399491-n", "父亲 或 母亲 <- 10399491-n", "双亲之一 <- 10399491-n", "双亲 之一 <- 10399491-n"]
-new_senses = ["父母"]
+new_senses = ["亲", "父母"]
+new_words = ["親"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["双亲之一 <- cow", "家长 <- cow", "父亲或母亲 <- cow", "父母 <- Kinbank, TUFS"]
+sources = ["亲 <- Wikidata L655428-S1", "双亲之一 <- cow", "家长 <- cow", "父亲或母亲 <- cow", "父母 <- Kinbank, TUFS", "親 <- Wikidata L655428-S1"]
 comment = ""
 
 ["Fa"]
-lemmas = ["父", "父亲", "爸爸", "爹"]
-english = ["begetter", "dad", "father", "male parent"]
+lemmas = ["严", "嚴", "父", "父亲", "父親", "爸", "爸爸", "爹"]
+english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)"]
-existing_by_lemma = ["父 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "父 -> cow cow-80000240-n [-] 父: a respectful term for a male creator or founder of an enterprise, institute, nation, product, etc", "父亲 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "父亲 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爸爸 -> cow cow-09988063-n [i89370] 爸, 爹爹, 爹, 爸爸: 爸爸的非正式名称, 或取自婴儿语", "爸爸 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "爸爸 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爹 -> cow cow-09988063-n [i89370] 爸, 爹爹, 爹, 爸爸: 爸爸的非正式名称, 或取自婴儿语", "爹 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）"]
+existing_by_lemma = ["父 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "父 -> cow cow-80000240-n [-] 父: a respectful term for a male creator or founder of an enterprise, institute, nation, product, etc", "父亲 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "父亲 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爸 -> cow cow-09988063-n [i89370] 爸, 爹爹, 爹, 爸爸: 爸爸的非正式名称, 或取自婴儿语", "爸爸 -> cow cow-09988063-n [i89370] 爸, 爹爹, 爹, 爸爸: 爸爸的非正式名称, 或取自婴儿语", "爸爸 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）", "爸爸 -> tufs-zh tufs-zh-10080869-n [i89901] 爸爸, 父亲: (CILI) a male parent (also used as a term of address to your father)", "爹 -> cow cow-09988063-n [i89370] 爸, 爹爹, 爹, 爸爸: 爸爸的非正式名称, 或取自婴儿语", "爹 -> cow cow-10080869-n [i89901] 父亲, 爹, 爸爸, 父: 男性家长（也用来称谓爸爸）"]
 existing_hidden = 1  # other senses of these lemmas
 ntumc = ["父亲 <- 10080869-n", "爹 <- 10080869-n", "爸爸 <- 10080869-n", "父 <- 10080869-n"]
+new_senses = ["严", "爸"]
+new_words = ["嚴", "父親"]
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["父 <- cow", "父亲 <- TUFS, cow", "爸爸 <- TUFS, cow", "爹 <- cow"]
+sources = ["严 <- Wikidata L652974-S2", "嚴 <- Wikidata L652974-S2", "父 <- Wikidata L643889-S1, cow", "父亲 <- TUFS, Wikidata L643840-S1, cow", "父親 <- Wikidata L643840-S1", "爸 <- Wikidata L643859-S1", "爸爸 <- TUFS, Wikidata L312659-S1, cow", "爹 <- cow"]
 comment = ""
 
 ["Mo"]
-lemmas = ["妈妈", "娘", "母", "母亲"]
-english = ["female parent", "mom", "mother"]
+lemmas = ["妈", "妈妈", "娘", "媽", "媽媽", "嫲", "嬤", "嬷", "母", "母亲", "母親"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["妈妈 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "妈妈 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "妈妈 -> tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "娘 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "娘 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "母 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "母亲 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "母亲 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法"]
+existing_by_lemma = ["妈 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "妈妈 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "妈妈 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "妈妈 -> tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "娘 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "娘 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "母 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "母亲 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "母亲 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法"]
 existing_hidden = 1  # other senses of these lemmas
 ntumc = ["母亲 <- 10332385-n", "母 <- 10332385-n", "娘 <- 10332385-n", "妈妈 <- 10332385-n"]
+new_senses = ["妈"]
+new_words = ["媽", "媽媽", "嫲", "嬤", "嬷", "母親"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["妈妈 <- TUFS, cow", "娘 <- cow", "母 <- cow", "母亲 <- cow"]
+sources = ["妈 <- Wikidata L643858-S1", "妈妈 <- TUFS, Wikidata L643820-S1, cow", "娘 <- cow", "媽 <- Wikidata L643858-S1", "媽媽 <- Wikidata L643820-S1", "嫲 <- Wikidata L672778-S1", "嬤 <- Wikidata L672777-S2, Wikidata L672778-S1", "嬷 <- Wikidata L672777-S2", "母 <- Wikidata L642752-S1, cow", "母亲 <- Wikidata L643860-S1, cow", "母親 <- Wikidata L643860-S1"]
 comment = ""
 
 ["Ch"]
@@ -947,7 +954,7 @@ existing_hidden = 1  # other senses of these lemmas
 ntumc = ["小孩 <- 09918248-n", "小孩儿 <- 09918248-n", "儿子或女儿 <- 09918248-n", "儿子 或 女儿 <- 09918248-n", "后代 <- 09918248-n", "儿童 <- 09918248-n", "孩子 <- 09918248-n", "小孩子 <- 09918248-n", "子 <- 09918248-n", "儿 <- 09918248-n"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["儿 <- cow", "儿子或女儿 <- cow", "后代 <- cow", "子 <- cow", "孩子 <- Kinbank, cow", "小孩 <- cow", "小孩儿 <- cow", "小孩子 <- cow"]
+sources = ["儿 <- cow", "儿子或女儿 <- cow", "后代 <- cow", "子 <- Wikidata L486797-S2, cow", "孩子 <- Kinbank, cow", "小孩 <- cow", "小孩儿 <- cow", "小孩子 <- cow"]
 comment = ""
 
 ["So"]
@@ -961,7 +968,7 @@ existing_hidden = 1  # other senses of these lemmas
 ntumc = ["儿子 <- 10624074-n", "子弟 <- 10624074-n", "子 <- 10624074-n"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["子 <- cow", "子弟 <- cow"]
+sources = ["子 <- Wikidata L486797-S3, cow", "子弟 <- cow"]
 comment = ""
 
 ["Da"]
@@ -992,7 +999,7 @@ sources = ["夫妻 <- cow", "配偶 <- cow"]
 comment = ""
 
 ["Hu"]
-lemmas = ["丈夫", "先生", "相公", "老公"]
+lemmas = ["丈夫", "先生", "夫", "相公", "老公"]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -1000,23 +1007,26 @@ existing_by_ili = ["cow cow-10193967-n [i90626] 先生, 老公, 相公, 丈夫: 
 existing_by_lemma = ["丈夫 -> cow cow-10193967-n [i90626] 先生, 老公, 相公, 丈夫: 已婚男子；女性的婚姻伴侣", "丈夫 -> tufs-zh tufs-zh-10193967-n [i90626] 丈夫: (CILI) a married man; a woman's partner in marriage", "先生 -> cow cow-10193967-n [i90626] 先生, 老公, 相公, 丈夫: 已婚男子；女性的婚姻伴侣", "相公 -> cow cow-10193967-n [i90626] 先生, 老公, 相公, 丈夫: 已婚男子；女性的婚姻伴侣", "老公 -> cow cow-10193967-n [i90626] 先生, 老公, 相公, 丈夫: 已婚男子；女性的婚姻伴侣"]
 existing_hidden = 2  # other senses of these lemmas
 ntumc = ["相公 <- 10193967-n", "先生 <- 10193967-n", "老公 <- 10193967-n", "夫婿 <- 10193967-n", "丈夫 <- 10193967-n"]
+new_words = ["夫"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["丈夫 <- TUFS, cow", "先生 <- cow", "相公 <- cow", "老公 <- cow"]
+sources = ["丈夫 <- TUFS, cow", "先生 <- cow", "夫 <- Wikidata L657004-S3", "相公 <- cow", "老公 <- cow"]
 comment = ""
 
 ["Wi"]
-lemmas = ["太太", "妻子", "爱人", "老婆"]
+lemmas = ["太太", "妇", "妈妈", "妻子", "婦", "媽媽", "爱人", "老婆"]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage"]
-existing_by_lemma = ["太太 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "妻子 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "妻子 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage", "爱人 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "老婆 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "老婆 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage"]
+existing_by_lemma = ["太太 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "妈妈 -> cow cow-10332385-n [i91462] 母亲, 母, 娘, 妈妈: 生了孩子的女子（也用来称谓妈妈）", "妈妈 -> cow cow-10278128-n [i91123] 妈, 妈咪, 妈妈, 娘, 母亲: 母亲的非正式说法", "妈妈 -> tufs-zh tufs-zh-10332385-n [i91462] 妈妈: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "妻子 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "妻子 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage", "爱人 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "老婆 -> cow cow-10780632-n [i94123] 太太, 老婆, 妻子, 爱人: 结婚的女性；女人的婚姻伴侣", "老婆 -> tufs-zh tufs-zh-10780632-n [i94123] 老婆, 妻子: (CILI) a married woman; a man's partner in marriage"]
 existing_hidden = 2  # other senses of these lemmas
 ntumc = ["太太 <- 10780632-n", "老婆 <- 10780632-n", "妻子 <- 10780632-n", "爱人 <- 10780632-n"]
+new_senses = ["妈妈"]
+new_words = ["妇", "婦", "媽媽"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["太太 <- cow", "妻子 <- TUFS, cow", "爱人 <- cow", "老婆 <- TUFS, cow"]
+sources = ["太太 <- cow", "妇 <- Wikidata L657008-S2", "妈妈 <- Wikidata L643820-S3", "妻子 <- TUFS, cow", "婦 <- Wikidata L657008-S2", "媽媽 <- Wikidata L643820-S3", "爱人 <- cow", "老婆 <- TUFS, cow"]
 comment = ""
 
 ["InL"]

@@ -454,7 +454,8 @@ def facts(kinbank: Path | None) -> dict[str, Group]:
     wikidata = [
         row
         for row in b.read_tsv(b.CANDIDATES / "wikidata-words.tsv")
-        if row["kind"] == "lexeme" and row["note"] not in b.WIKIDATA_STYLES_LEFT_OUT
+        if row["kind"] == "lexeme"
+        and not set(row["note"].split(", ")) & b.WIKIDATA_STYLES_LEFT_OUT
     ]
     tufs = b.read_tsv(b.DATA / "tufs-kindiv.tsv")
     kinbank_group = kinbank_facts(concepts)

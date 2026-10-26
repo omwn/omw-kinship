@@ -60,6 +60,19 @@ def array(values: list[str]) -> str:
     return "[" + ", ".join(s(v) for v in values) + "]"
 
 
+def source_name(source: str) -> str:
+    """A short name for a sense's source; Wikidata keeps its sense and style.
+
+    >>> source_name("Kinbank v_englishstan1293: fF;mF"), source_name("oewn:2025")
+    ('Kinbank', 'oewn')
+    >>> source_name("Wikidata L1234-S1 (informal)")
+    'Wikidata L1234-S1 (informal)'
+    """
+    if source.startswith(build.WIKIDATA):
+        return source
+    return source.split(":")[0].split()[0]
+
+
 def read_lexicon(tag: str) -> tuple[dict, set[str], dict[str, str]]:
     """Code -> lemma -> sources, the codes recorded as gaps, and code -> phrase.
 
@@ -90,7 +103,7 @@ def read_lexicon(tag: str) -> tuple[dict, set[str], dict[str, str]]:
                 phrases[code_of[sense.get("synset")]] = lemma
                 continue
             sources = {
-                src.split(":")[0].split()[0]
+                source_name(src)
                 for src in (sense.get(DC + "source") or "").split("; ")
                 if src
             }

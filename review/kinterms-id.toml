@@ -42,7 +42,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["nek", "nenek", "nénék"]
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["wnb-id wnb-id-10142747-n [i90289] nek, nenek: (CILI) the mother of your father or mother", "tufs-id tufs-id-10142747-n [i90289] nenek: (CILI) the mother of your father or mother"]
@@ -68,7 +68,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -131,7 +131,7 @@ comment = ""
 ["Ss"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
-english = ["female sibling", "sister"]
+english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
@@ -415,7 +415,7 @@ comment = ""
 
 ["Fa"]
 lemmas = ["aba", "abah", "ayah", "ayahanda", "babak", "bapa", "papa"]
-english = ["begetter", "dad", "father", "male parent"]
+english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["wnb-id wnb-id-10080869-n [i89901] bapa, ayah, abah, papa, ayahanda, aba: (CILI) a male parent (also used as a term of address to your father)", "tufs-id tufs-id-10080869-n [i89901] ayah: (CILI) a male parent (also used as a term of address to your father)"]
@@ -429,17 +429,18 @@ sources = ["aba <- wnb-id", "abah <- wnb-id", "ayah <- TUFS, wnb-id", "ayahanda 
 comment = ""
 
 ["Mo"]
-lemmas = ["bonda", "emak", "ibu", "ibunda", "mama", "mami", "ummi"]
-english = ["female parent", "mom", "mother"]
+lemmas = ["bonda", "emak", "ibu", "ibunda", "mama", "mami", "umi", "ummi"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "tufs-id tufs-id-10332385-n [i91462] ibu: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 existing_by_lemma = ["bonda -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "emak -> wnb-id wnb-id-10278128-n [i91123] induk, emak, mama, ibu, mak: (CILI) informal terms for a mother", "emak -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibu -> wnb-id wnb-id-10278128-n [i91123] induk, emak, mama, ibu, mak: (CILI) informal terms for a mother", "ibu -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibu -> tufs-id tufs-id-10332385-n [i91462] ibu: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ibunda -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mama -> wnb-id wnb-id-10278128-n [i91123] induk, emak, mama, ibu, mak: (CILI) informal terms for a mother", "mama -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mami -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ummi -> wnb-id wnb-id-10332385-n [i91462] ummi, bonda, emak, mami, ibunda, mama, ...: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 existing_hidden = 4  # other senses of these lemmas
 ntumc = ["ummi <- 10332385-n", "bonda <- 10332385-n", "emak <- 10332385-n", "mami <- 10332385-n", "ibunda <- 10332385-n", "mama <- 10332385-n", "ibu <- 10332385-n"]
+new_words = ["umi"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["bonda <- wnb-id", "emak <- wnb-id", "ibu <- Kinbank, TUFS, wnb-id", "ibunda <- wnb-id", "mama <- wnb-id", "mami <- wnb-id", "ummi <- wnb-id"]
+sources = ["bonda <- wnb-id", "emak <- wnb-id", "ibu <- Kinbank, TUFS, wnb-id", "ibunda <- wnb-id", "mama <- wnb-id", "mami <- wnb-id", "umi <- Wikidata L1322047-S1", "ummi <- wnb-id"]
 comment = ""
 
 ["Ch"]
@@ -453,7 +454,7 @@ existing_hidden = 20  # other senses of these lemmas
 ntumc = ["budak-budak <- 09918248-n", "budak <- 09918248-n", "anak <- 09918248-n", "kanak-kanak <- 09918248-n"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["anak <- Kinbank, wnb-id", "budak <- wnb-id", "kanak-kanak <- wnb-id"]
+sources = ["anak <- Kinbank, Wikidata L489259-S1, wnb-id", "budak <- wnb-id", "kanak-kanak <- wnb-id"]
 comment = ""
 
 ["So"]

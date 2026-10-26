@@ -806,8 +806,7 @@ Czech	cs	Br	bratr	Wikidata L408000-S1	lexeme
 Czech	cs	Br	bratřík	Wikidata L408001-S1	lexeme	diminutive
 Czech	cs	Br	bratříček	Wikidata L408002-S1	lexeme	diminutive
 Czech	cs	Br	brácha	Wikidata L407994-S1	lexeme	Common Czech
-Czech	cs	Br	bráška	Wikidata L407995-S1	lexeme	diminutive
-Czech	cs	Br	bráška	Wikidata L407995-S1	lexeme	Common Czech
+Czech	cs	Br	bráška	Wikidata L407995-S1	lexeme	Common Czech, diminutive
 Czech	cs	Br;So	synovec	Wikidata Q23045211 label	label	
 Czech	cs	Br;Wi	švagrová	Wikidata L408020-S1	lexeme	
 Czech	cs	Ch	dítě	Wikidata Q29514218 label	label	
@@ -822,23 +821,16 @@ Czech	cs	Ch;So	vnuk	Wikidata L407639-S1	lexeme
 Czech	cs	Da	dcera	Wikidata Q308194 label	label	
 Czech	cs	Da	dcera	Wikidata L407626-S1	lexeme	
 Czech	cs	Da	dcerka	Wikidata L407628-S1	lexeme	diminutive
-Czech	cs	Da	dcerunka	Wikidata L407634-S1	lexeme	diminutive
-Czech	cs	Da	dcerunka	Wikidata L407634-S1	lexeme	expressive term
-Czech	cs	Da	dceruška	Wikidata L407630-S1	lexeme	diminutive
-Czech	cs	Da	dceruška	Wikidata L407630-S1	lexeme	expressive term
+Czech	cs	Da	dcerunka	Wikidata L407634-S1	lexeme	diminutive, expressive term
+Czech	cs	Da	dceruška	Wikidata L407630-S1	lexeme	diminutive, expressive term
 Czech	cs	Fa	otec	Wikidata Q7565 label	label	
-Czech	cs	Fa	fotr	Wikidata L407587-S1	lexeme	augmentative
-Czech	cs	Fa	fotr	Wikidata L407587-S1	lexeme	Common Czech
-Czech	cs	Fa	fotřík	Wikidata L407588-S1	lexeme	augmentative
-Czech	cs	Fa	fotřík	Wikidata L407588-S1	lexeme	Common Czech
+Czech	cs	Fa	fotr	Wikidata L407587-S1	lexeme	Common Czech, augmentative
+Czech	cs	Fa	fotřík	Wikidata L407588-S1	lexeme	Common Czech, augmentative
 Czech	cs	Fa	otec	Wikidata L5944-S1	lexeme	
-Czech	cs	Fa	papá	Wikidata L407589-S1	lexeme	old-fashioned
-Czech	cs	Fa	papá	Wikidata L407589-S1	lexeme	informal
-Czech	cs	Fa	tatík	Wikidata L407584-S1	lexeme	diminutive
-Czech	cs	Fa	tatík	Wikidata L407584-S1	lexeme	expressive term
+Czech	cs	Fa	papá	Wikidata L407589-S1	lexeme	informal, old-fashioned
+Czech	cs	Fa	tatík	Wikidata L407584-S1	lexeme	diminutive, expressive term
 Czech	cs	Fa	tatínek	Wikidata L407585-S1	lexeme	diminutive
-Czech	cs	Fa	tatíček	Wikidata L407586-S1	lexeme	diminutive
-Czech	cs	Fa	tatíček	Wikidata L407586-S1	lexeme	expressive term
+Czech	cs	Fa	tatíček	Wikidata L407586-S1	lexeme	diminutive, expressive term
 Czech	cs	Fa	táta	Wikidata L50763-S1	lexeme	informal
 Czech	cs	Hu	manžel	Wikidata Q212878 label	label	
 Czech	cs	Hu	choť	Wikidata L412002-S1	lexeme	
@@ -849,18 +841,13 @@ Czech	cs	Hu	mužíček	Wikidata L411117-S2	lexeme	diminutive
 Czech	cs	Hu;Ss	švagrová	Wikidata L408020-S2	lexeme	
 Czech	cs	Mo	matka	Wikidata Q7560 label	label	
 Czech	cs	Mo	maminka	Wikidata L407577-S1	lexeme	diminutive
-Czech	cs	Mo	mamička	Wikidata L407574-S1	lexeme	diminutive
-Czech	cs	Mo	mamička	Wikidata L407574-S1	lexeme	expressive term
-Czech	cs	Mo	mamá	Wikidata L407576-S1	lexeme	old-fashioned
-Czech	cs	Mo	mamá	Wikidata L407576-S1	lexeme	informal
-Czech	cs	Mo	matinka	Wikidata L407572-S1	lexeme	diminutive
-Czech	cs	Mo	matinka	Wikidata L407572-S1	lexeme	expressive term
-Czech	cs	Mo	matička	Wikidata L407571-S1	lexeme	diminutive
-Czech	cs	Mo	matička	Wikidata L407571-S1	lexeme	expressive term
+Czech	cs	Mo	mamička	Wikidata L407574-S1	lexeme	diminutive, expressive term
+Czech	cs	Mo	mamá	Wikidata L407576-S1	lexeme	informal, old-fashioned
+Czech	cs	Mo	matinka	Wikidata L407572-S1	lexeme	diminutive, expressive term
+Czech	cs	Mo	matička	Wikidata L407571-S1	lexeme	diminutive, expressive term
 Czech	cs	Mo	matka	Wikidata L5945-S1	lexeme	
 Czech	cs	Mo	máma	Wikidata L407573-S1	lexeme	informal
-Czech	cs	Mo	máti	Wikidata L407575-S1	lexeme	old-fashioned
-Czech	cs	Mo	máti	Wikidata L407575-S1	lexeme	book expression
+Czech	cs	Mo	máti	Wikidata L407575-S1	lexeme	book expression, old-fashioned
 Czech	cs	Pa	rodič	Wikidata Q7566 label	label	
 Czech	cs	Pa;Br	strýc	Wikidata Q41805469 label	label	
 Czech	cs	Pa;Mo	babička	Wikidata Q9235758 label	label	
@@ -901,10 +888,8 @@ Czech	cs	Wi	manželka	Wikidata Q188830 label	label
 Czech	cs	Wi	choť	Wikidata L412003-S1	lexeme	
 Czech	cs	Wi	manželka	Wikidata L412005-S1	lexeme	
 Czech	cs	Wi	žena	Wikidata L411078-S2	lexeme	
-Czech	cs	Wi	ženuška	Wikidata L411080-S2	lexeme	diminutive
-Czech	cs	Wi	ženuška	Wikidata L411080-S2	lexeme	expressive term
-Czech	cs	Wi	žínka	Wikidata L411079-S2	lexeme	diminutive
-Czech	cs	Wi	žínka	Wikidata L411079-S2	lexeme	expressive term
+Czech	cs	Wi	ženuška	Wikidata L411080-S2	lexeme	diminutive, expressive term
+Czech	cs	Wi	žínka	Wikidata L411079-S2	lexeme	diminutive, expressive term
 Czech	cs	Wi;Br	švagr	Wikidata L408019-S2	lexeme	
 Czech	cs	Wi;Fa	tchán	Wikidata Q12160962 label	label	
 Czech	cs	Wi;Ss	švagrová	Wikidata L408020-S2	lexeme	
@@ -1134,8 +1119,7 @@ German	de	Pa;Mo	Großmutter	Wikidata Q9235758 label	label
 German	de	Pa;Mo	Grossmutter	Wikidata L34048-S1	lexeme	
 German	de	Pa;Mo	Großmutter	Wikidata L34048-S1	lexeme	
 German	de	Pa;Mo	Oma	Wikidata L2350-S1	lexeme	informal
-German	de	Pa;Mo	Omi	Wikidata L777208-S1	lexeme	diminutive
-German	de	Pa;Mo	Omi	Wikidata L777208-S1	lexeme	informal
+German	de	Pa;Mo	Omi	Wikidata L777208-S1	lexeme	diminutive, informal
 German	de	Pa;Pa	Grosseltern	Wikidata Q167918 label	label	
 German	de	Pa;Pa	Großelternteil	Wikidata Q167918 label	label	
 German	de	Pa;Pa	Großelternteil	Wikidata L618245-S1	lexeme	
@@ -1173,8 +1157,7 @@ German	de	Ss	Schwesterherz	Wikidata L656531-S1	lexeme	informal
 German	de	Wi	Ehefrau	Wikidata Q188830 label	label	
 German	de	Wi	Ehefrau	Wikidata L252570-S1	lexeme	
 German	de	Wi	Frau	Wikidata L2945-S2	lexeme	
-German	de	Wi	Weib	Wikidata L590943-S2	lexeme	archaism
-German	de	Wi	Weib	Wikidata L590943-S2	lexeme	humorous
+German	de	Wi	Weib	Wikidata L590943-S2	lexeme	archaism, humorous
 German	de	Wi;Br	Schwager	Wikidata Q23045444 label	label	
 German	de	Wi;Fa	Schwiegervater	Wikidata Q12160962 label	label	
 German	de	Wi;Fa	Schwiegervater	Wikidata L590815-S3	lexeme	
@@ -1289,8 +1272,7 @@ English	en	Pa	parent	Wikidata L5232-S1	lexeme
 English	en	Pa;Br	uncle	Wikidata L3628-S2	lexeme	
 English	en	Pa;Mo	grandmother	Wikidata Q9235758 label	label	
 English	en	Pa;Mo	gran	Wikidata L321381-S1	lexeme	informal
-English	en	Pa;Mo	grandam	Wikidata L1582809-S1	lexeme	archaism
-English	en	Pa;Mo	grandam	Wikidata L1582809-S1	lexeme	informal
+English	en	Pa;Mo	grandam	Wikidata L1582809-S1	lexeme	archaism, informal
 English	en	Pa;Mo	grandma	Wikidata L321390-S1	lexeme	informal
 English	en	Pa;Mo	grandmother	Wikidata L5496-S1	lexeme	
 English	en	Pa;Mo	grannam	Wikidata L1582810-S1	lexeme	informal
@@ -2217,8 +2199,8 @@ Japanese	ja	El;Sb	兄姉	Wikidata Q28466211 label	label
 Japanese	ja	El;Ss	姉	Wikidata Q10082670 label	label	
 Japanese	ja	El;Ss	あね	Wikidata L348199-S1	lexeme	
 Japanese	ja	El;Ss	ねえ	Wikidata L984313-S1	lexeme	
-Japanese	ja	El;Ss	姉	Wikidata L984313-S1	lexeme	
 Japanese	ja	El;Ss	姉	Wikidata L348199-S1	lexeme	
+Japanese	ja	El;Ss	姉	Wikidata L984313-S1	lexeme	
 Japanese	ja	Fa	父	Wikidata Q7565 label	label	
 Japanese	ja	Fa	おとうさん	Wikidata L405866-S1	lexeme	formal register
 Japanese	ja	Fa	お父さん	Wikidata L405866-S1	lexeme	formal register
@@ -2274,13 +2256,11 @@ Japanese	ja	Pa	親	Wikidata L1080964-S1	lexeme
 Japanese	ja	Pa;Br	親の兄弟	Wikidata Q41805469 label	label	
 Japanese	ja	Pa;Mo	祖母	Wikidata Q9235758 label	label	
 Japanese	ja	Pa;Mo	おばあさん	Wikidata L1073126-S1	lexeme	
-Japanese	ja	Pa;Mo	おばあちゃん	Wikidata L1562356-S1	lexeme	informal
+Japanese	ja	Pa;Mo	おばあちゃん	Wikidata L1562356-S1	lexeme	informal, respectful language
 Japanese	ja	Pa;Mo	おばあちゃん	Wikidata L1073124-S1	lexeme	
-Japanese	ja	Pa;Mo	おばあちゃん	Wikidata L1562356-S1	lexeme	respectful language
 Japanese	ja	Pa;Mo	お婆ちゃん	Wikidata L1073124-S1	lexeme	
 Japanese	ja	Pa;Mo	お祖母さん	Wikidata L1073126-S1	lexeme	
-Japanese	ja	Pa;Mo	お祖母ちゃん	Wikidata L1562356-S1	lexeme	informal
-Japanese	ja	Pa;Mo	お祖母ちゃん	Wikidata L1562356-S1	lexeme	respectful language
+Japanese	ja	Pa;Mo	お祖母ちゃん	Wikidata L1562356-S1	lexeme	informal, respectful language
 Japanese	ja	Pa;Mo	そぼ	Wikidata L1317371-S1	lexeme	literary language
 Japanese	ja	Pa;Mo	ばあちゃん	Wikidata L1562353-S1	lexeme	informal
 Japanese	ja	Pa;Mo	祖母	Wikidata L1317371-S1	lexeme	literary language
@@ -2341,8 +2321,8 @@ Japanese	ja	Wi;Ss	義姉妹	Wikidata Q12150991 label	label
 Japanese	ja	Yn;Br	弟	Wikidata Q10291472 label	label	
 Japanese	ja	Yn;Br	おと	Wikidata L1414551-S1	lexeme	
 Japanese	ja	Yn;Br	おとうと	Wikidata L348183-S1	lexeme	
-Japanese	ja	Yn;Br	弟	Wikidata L1414551-S1	lexeme	
 Japanese	ja	Yn;Br	弟	Wikidata L348183-S1	lexeme	
+Japanese	ja	Yn;Br	弟	Wikidata L1414551-S1	lexeme	
 Japanese	ja	Yn;Fa;Br;Da	堂妹	Wikidata Q42301908 label	label	
 Japanese	ja	Yn;Fa;Br;So	堂弟	Wikidata Q42301900 label	label	
 Japanese	ja	Yn;Sb	弟妹	Wikidata Q28466210 label	label	
@@ -2352,9 +2332,9 @@ Japanese	ja	Yn;Ss	いもうと	Wikidata L348198-S1	lexeme
 Japanese	ja	Yn;Ss	いもうとご	Wikidata L626056-S1	lexeme	
 Japanese	ja	Yn;Ss	いもうとさん	Wikidata L984315-S1	lexeme	
 Japanese	ja	Yn;Ss	まい	Wikidata L1414549-S1	lexeme	
+Japanese	ja	Yn;Ss	妹	Wikidata L348198-S1	lexeme	
 Japanese	ja	Yn;Ss	妹	Wikidata L1414548-S1	lexeme	
 Japanese	ja	Yn;Ss	妹	Wikidata L1414549-S1	lexeme	
-Japanese	ja	Yn;Ss	妹	Wikidata L348198-S1	lexeme	
 Japanese	ja	Yn;Ss	妹さん	Wikidata L984315-S1	lexeme	
 Japanese	ja	Yn;Ss	妹御	Wikidata L626056-S1	lexeme	
 Lojban	jbo	Ch	panzi	Wikidata Q29514218 label	label	
@@ -3928,8 +3908,7 @@ Russian	ru	Da	дочуля	Wikidata L107504-S1	lexeme
 Russian	ru	Da	дочурка	Wikidata L107506-S1	lexeme	
 Russian	ru	Da	дочурочка	Wikidata L107507-S1	lexeme	diminutive
 Russian	ru	Da	дочь	Wikidata L1117219-S1	lexeme	
-Russian	ru	Da	дщерь	Wikidata L108017-S1	lexeme	irony
-Russian	ru	Da	дщерь	Wikidata L108017-S1	lexeme	archaism
+Russian	ru	Da	дщерь	Wikidata L108017-S1	lexeme	archaism, irony
 Russian	ru	El;Br	братан	Wikidata L93300-S2	lexeme	informal
 Russian	ru	Fa	отец	Wikidata Q7565 label	label	
 Russian	ru	Fa	отец	Wikidata L57779-S1	lexeme	
@@ -4208,13 +4187,13 @@ Serbian (Latin)	sh	Hu	Suprug	Wikidata Q212878 label	label
 Serbian (Latin)	sh	Hu	супруг	Wikidata Q212878 label	label	
 Serbian (Latin)	sh	Mo	majka	Wikidata Q7560 label	label	
 Serbian (Latin)	sh	Mo	мајка	Wikidata Q7560 label	label	
-Serbian (Latin)	sh	Mo	majka	Wikidata L1586792-S1	lexeme	
 Serbian (Latin)	sh	Mo	majka	Wikidata L226791-S1	lexeme	
+Serbian (Latin)	sh	Mo	majka	Wikidata L1586792-S1	lexeme	
 Serbian (Latin)	sh	Mo	mater	Wikidata L1590932-S1	lexeme	
 Serbian (Latin)	sh	Mo	мама	Wikidata L1414724-S1	lexeme	
 Serbian (Latin)	sh	Mo	матер	Wikidata L1590932-S1	lexeme	
-Serbian (Latin)	sh	Mo	мајка	Wikidata L1586792-S1	lexeme	
 Serbian (Latin)	sh	Mo	мајка	Wikidata L226791-S1	lexeme	
+Serbian (Latin)	sh	Mo	мајка	Wikidata L1586792-S1	lexeme	
 Serbian (Latin)	sh	Mo	مايقا	Wikidata L226791-S1	lexeme	
 Serbian (Latin)	sh	Mo;Br	ујак	Wikidata Q4120409 label	label	
 Serbian (Latin)	sh	Mo;Br	ujak	Wikidata L1590507-S1	lexeme	
@@ -4720,8 +4699,7 @@ Tamil	ta	Sb;So	மருமகன்	Wikidata L1175182-S2	lexeme
 Tamil	ta	So	மகன்	Wikidata Q177232 label	label	
 Tamil	ta	So	பிள்ளை	Wikidata L408425-S2	lexeme	
 Tamil	ta	So	புதல்வன்	Wikidata L346361-S1	lexeme	
-Tamil	ta	So	மக	Wikidata L1327334-S2	lexeme	informal
-Tamil	ta	So	மக	Wikidata L1327334-S2	lexeme	archaism
+Tamil	ta	So	மக	Wikidata L1327334-S2	lexeme	archaism, informal
 Tamil	ta	So	மகன்	Wikidata L41791-S1	lexeme	
 Tamil	ta	So	மைந்தன்	Wikidata L1160667-S1	lexeme	
 Tamil	ta	Sp;Mo	அத்தை	Wikidata L1174107-S2	lexeme	

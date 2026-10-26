@@ -19,7 +19,7 @@ existing_by_lemma = ["grandparent -> oewn oewn-10162692-n [i90292] grandparent: 
 ntumc = ["grandparent <- 10143172-n"]
 hypernyms = ["Ch;Ch|Pa;Pa"]
 ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
-sources = ["grandparent <- Kinbank, Wiktionary, oewn"]
+sources = ["grandparent <- Kinbank, Wikidata L5494-S1, Wiktionary, oewn"]
 comment = ""
 
 ["Pa;Fa"]
@@ -56,7 +56,7 @@ ancestors = ["Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Pa;Mo"]
-lemmas = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+lemmas = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 pronunciations = ["grandmother: ˈɡɹænmʌðə (IPA)"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -64,9 +64,10 @@ existing_by_ili = ["oewn oewn-10162267-n [i90289] grandma, grandmother, granny, 
 existing_by_lemma = ["gran -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "grandma -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "grandmother -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "grandmother -> tufs-en tufs-en-10142747-n [i90289] grandmother: (CILI) the mother of your father or mother", "grannie -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "granny -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "nan -> oewn oewn-10364746-n [i91538] nan: your grandmother", "nan -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "nanna -> oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother"]
 existing_hidden = 6  # other senses of these lemmas
 ntumc = ["granny <- 10142747-n", "nan <- 10142747-n", "grandma <- 10142747-n", "grandmother <- 10142747-n", "grannie <- 10142747-n", "gran <- 10142747-n", "nanna <- 10142747-n"]
+new_words = ["grandam", "grannam"]
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["gran <- oewn", "grandma <- Wiktionary, oewn", "grandmother <- TUFS, Wiktionary, oewn", "grannie <- oewn", "granny <- Wiktionary, oewn", "nan <- oewn", "nanna <- oewn"]
+sources = ["gran <- Wikidata L321381-S1 (informal), oewn", "grandam <- Wikidata L1582809-S1 (archaism, informal)", "grandma <- Wikidata L321390-S1 (informal), Wiktionary, oewn", "grandmother <- TUFS, Wikidata L5496-S1, Wiktionary, oewn", "grannam <- Wikidata L1582810-S1 (informal)", "grannie <- oewn", "granny <- Wikidata L321399-S1 (informal), Wiktionary, oewn", "nan <- oewn", "nanna <- oewn"]
 comment = ""
 
 ["Fa;Fa"]
@@ -99,7 +100,7 @@ ntumc = ["grandchild <- 10141590-n"]
 new_words = ["grandkid"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["grandchild <- Kinbank, Wiktionary, oewn", "grandkid <- Wiktionary"]
+sources = ["grandchild <- Kinbank, Wikidata L12944-S1, Wiktionary, oewn", "grandkid <- Wikidata L585776-S1 (informal), Wiktionary"]
 comment = ""
 
 ["Ch;So"]
@@ -112,7 +113,7 @@ existing_by_lemma = ["grandson -> oewn oewn-10162819-n [i90293] grandson: a male
 ntumc = ["grandson <- 10143299-n"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["grandson <- Wiktionary, oewn"]
+sources = ["grandson <- Wikidata L12942-S1, Wiktionary, oewn"]
 comment = ""
 
 ["Ch;Da"]
@@ -125,7 +126,7 @@ existing_by_lemma = ["granddaughter -> oewn oewn-10161252-n [i90281] granddaught
 ntumc = ["granddaughter <- 10141732-n"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["granddaughter <- Wiktionary, oewn"]
+sources = ["granddaughter <- Wikidata L12943-S1, Wiktionary, oewn"]
 comment = ""
 
 ["So;Ch"]
@@ -197,7 +198,7 @@ existing_by_lemma = ["sib -> oewn oewn-10614572-n [i92980] sibling, sib: a perso
 ntumc = ["sib <- 10595164-n", "sibling <- 10595164-n"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["sib <- oewn", "sibling <- Kinbank, Wiktionary, oewn, omniglot"]
+sources = ["sib <- oewn", "sibling <- Kinbank, Wikidata L72060-S1, Wiktionary, oewn, omniglot"]
 comment = ""
 
 ["Br"]
@@ -212,22 +213,22 @@ ntumc = ["male sibling <- 10286084-n"]
 new_senses = ["brother"]
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["brother <- TUFS, omniglot", "male sibling <- oewn"]
+sources = ["brother <- TUFS, Wikidata L3627-S1, omniglot", "male sibling <- oewn"]
 comment = ""
 
 ["Ss"]
-lemmas = ["female sibling", "sister"]
+lemmas = ["female sibling", "sis", "sister"]
 pronunciations = ["sister: sĭs'tər (respelling)"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 existing_by_ili = ["oewn oewn-10103950-n [i89922] female sibling: a person's sister"]
-existing_by_lemma = ["female sibling -> oewn oewn-10103950-n [i89922] female sibling: a person's sister", "sister -> oewn oewn-10622393-n [i93018] sister, sis: a female person who has the same parents as another person", "sister -> tufs-en tufs-en-09854218-n [i88564] sister: (CILI) an older sister"]
+existing_by_lemma = ["female sibling -> oewn oewn-10103950-n [i89922] female sibling: a person's sister", "sis -> oewn oewn-10622393-n [i93018] sister, sis: a female person who has the same parents as another person", "sister -> oewn oewn-10622393-n [i93018] sister, sis: a female person who has the same parents as another person", "sister -> tufs-en tufs-en-09854218-n [i88564] sister: (CILI) an older sister"]
 existing_hidden = 3  # other senses of these lemmas
 ntumc = ["female sibling <- 10084181-n"]
-new_senses = ["sister"]
+new_senses = ["sis", "sister"]
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["female sibling <- oewn", "sister <- TUFS, omniglot"]
+sources = ["female sibling <- oewn", "sis <- Wikidata L327840-S1 (informal)", "sister <- TUFS, Wikidata L3626-S1, omniglot"]
 comment = ""
 
 ["El;Sb"]
@@ -309,7 +310,7 @@ existing_hidden = 1  # other senses of these lemmas
 new_senses = ["uncle"]
 hypernyms = ["Pb", "Unc"]
 ancestors = ["Pb", "Unc", "Rel"]
-sources = ["uncle <- TUFS, Wiktionary"]
+sources = ["uncle <- TUFS, Wikidata L3628-S2, Wiktionary"]
 comment = ""
 
 ["Pa;Ss"]
@@ -321,7 +322,7 @@ existing_by_lemma = ["aunt -> oewn oewn-09842904-n [i88357] aunt, auntie, aunty:
 new_senses = ["aunt"]
 hypernyms = ["Aun", "Mo|Pa;Ss", "Pb"]
 ancestors = ["Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-sources = ["aunt <- TUFS, Wiktionary"]
+sources = ["aunt <- TUFS, Wikidata L3265-S1, Wiktionary"]
 comment = ""
 
 ["Fa;Br"]
@@ -414,7 +415,7 @@ existing_by_lemma = ["nephew -> oewn oewn-10373054-n [i91586] nephew: a son of y
 ntumc = ["nephew <- 10353355-n"]
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["nephew <- Kinbank, Wiktionary, oewn"]
+sources = ["nephew <- Kinbank, Wikidata L24714-S1, Wiktionary, oewn"]
 comment = ""
 
 ["Sb;Da"]
@@ -427,7 +428,7 @@ existing_by_lemma = ["niece -> oewn oewn-10377312-n [i91615] niece: a daughter o
 ntumc = ["niece <- 10357613-n"]
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["niece <- Kinbank, Wiktionary, oewn"]
+sources = ["niece <- Kinbank, Wikidata L24713-S1, Wiktionary, oewn"]
 comment = ""
 
 ["Br;So"]
@@ -614,37 +615,37 @@ ntumc = ["parent <- 10399491-n"]
 new_words = ["parents"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["parent <- Kinbank, OEWN, oewn", "parents <- TUFS"]
+sources = ["parent <- Kinbank, OEWN, Wikidata L5232-S1, oewn", "parents <- TUFS"]
 comment = ""
 
 ["Fa"]
-lemmas = ["begetter", "dad", "father", "male parent"]
+lemmas = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 pronunciations = ["father: ˈfɑː.ðə (IPA)"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)"]
-existing_by_lemma = ["begetter -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "dad -> oewn oewn-10007601-n [i89370] dad, dada, daddy, pa, papa, pappa, ...: an informal term for a father; probably derived from baby talk", "dad -> tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)", "father -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "father -> oewn oewn-10122569-n [i90033] forefather, father, sire: the founder of a family", "father -> tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)", "male parent -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)"]
-existing_hidden = 6  # other senses of these lemmas
+existing_by_lemma = ["begetter -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "dad -> oewn oewn-10007601-n [i89370] dad, dada, daddy, pa, papa, pappa, ...: an informal term for a father; probably derived from baby talk", "dad -> tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)", "father -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "father -> oewn oewn-10122569-n [i90033] forefather, father, sire: the founder of a family", "father -> tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)", "male parent -> oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "old man -> oewn oewn-10395101-n [i91724] old man: an informal term for your father", "pa -> oewn oewn-10007601-n [i89370] dad, dada, daddy, pa, papa, pappa, ...: an informal term for a father; probably derived from baby talk", "papa -> oewn oewn-10007601-n [i89370] dad, dada, daddy, pa, papa, pappa, ...: an informal term for a father; probably derived from baby talk", "pop -> oewn oewn-10007601-n [i89370] dad, dada, daddy, pa, papa, pappa, ...: an informal term for a father; probably derived from baby talk"]
+existing_hidden = 20  # other senses of these lemmas
 ntumc = ["father <- 10080869-n", "male parent <- 10080869-n", "begetter <- 10080869-n"]
-new_senses = ["dad"]
+new_senses = ["dad", "old man", "pa", "pap", "papa", "pop"]
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["begetter <- oewn", "dad <- TUFS", "father <- OEWN, TUFS, oewn", "male parent <- oewn"]
+sources = ["begetter <- oewn", "dad <- TUFS, Wikidata L7768-S1", "father <- OEWN, TUFS, Wikidata L3624-S1, oewn", "male parent <- oewn", "old man <- Wikidata L1073121-S2 (informal)", "pa <- Wikidata L324925-S1 (informal)", "pap <- Wikidata L1522954-S1 (informal)", "papa <- Wikidata L325004-S1 (informal)", "pop <- Wikidata L1522963-S1 (informal)"]
 comment = ""
 
 ["Mo"]
-lemmas = ["female parent", "mom", "mother"]
+lemmas = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 pronunciations = ["mother: ˈmʌðə (IPA)"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["oewn oewn-10352098-n [i91462] mother, female parent: a woman who has given birth to a child (also used as a term of address to your mother)", "tufs-en tufs-en-10332385-n [i91462] mother, mom: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["female parent -> oewn oewn-10352098-n [i91462] mother, female parent: a woman who has given birth to a child (also used as a term of address to your mother)", "mom -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mom -> tufs-en tufs-en-10332385-n [i91462] mother, mom: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mother -> oewn oewn-10352098-n [i91462] mother, female parent: a woman who has given birth to a child (also used as a term of address to your mother)", "mother -> tufs-en tufs-en-10332385-n [i91462] mother, mom: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_hidden = 4  # other senses of these lemmas
+existing_by_lemma = ["female parent -> oewn oewn-10352098-n [i91462] mother, female parent: a woman who has given birth to a child (also used as a term of address to your mother)", "ma -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mama -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mammy -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mom -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mom -> tufs-en tufs-en-10332385-n [i91462] mother, mom: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "momma -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mommy -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mother -> oewn oewn-10352098-n [i91462] mother, female parent: a woman who has given birth to a child (also used as a term of address to your mother)", "mother -> tufs-en tufs-en-10332385-n [i91462] mother, mom: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mum -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother", "mummy -> oewn oewn-10297825-n [i91123] ma, mama, mamma, mom, momma, mommy, ...: informal terms for a mother"]
+existing_hidden = 14  # other senses of these lemmas
 ntumc = ["mother <- 10332385-n", "female parent <- 10332385-n"]
-new_senses = ["mom"]
+new_senses = ["ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mum", "mummy"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["female parent <- oewn", "mom <- TUFS", "mother <- OEWN, TUFS, oewn"]
+sources = ["female parent <- oewn", "ma <- Wikidata L323484-S2 (informal)", "mam <- Wikidata L1001503-S1", "mama <- Wikidata L230019-S1 (informal)", "mammy <- Wikidata L1406325-S1 (informal)", "mom <- TUFS, Wikidata L11530-S2", "momma <- Wikidata L313589-S1 (informal)", "mommy <- Wikidata L324092-S1", "mother <- OEWN, TUFS, Wikidata L3625-S1, oewn", "mum <- Wikidata L1001504-S1, Wikidata L1001555-S2", "mummy <- Wikidata L1461487-S1 (informal)"]
 comment = ""
 
 ["Ch"]
@@ -657,7 +658,7 @@ existing_hidden = 6  # other senses of these lemmas
 ntumc = ["kid <- 09918248-n", "child <- 09918248-n"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["child <- Kinbank, OEWN, oewn", "kid <- oewn"]
+sources = ["child <- Kinbank, OEWN, Wikidata L3341-S2, oewn", "kid <- oewn"]
 comment = ""
 
 ["So"]
@@ -671,7 +672,7 @@ existing_hidden = 4  # other senses of these lemmas
 ntumc = ["boy <- 10624074-n", "son <- 10624074-n"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["boy <- oewn", "son <- OEWN, oewn"]
+sources = ["boy <- oewn", "son <- OEWN, Wikidata L3644-S1, oewn"]
 comment = ""
 
 ["Da"]
@@ -685,7 +686,7 @@ existing_hidden = 6  # other senses of these lemmas
 ntumc = ["daughter <- 09992837-n", "girl <- 09992837-n"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["daughter <- OEWN, oewn", "girl <- oewn"]
+sources = ["daughter <- OEWN, Wikidata L3643-S1, oewn", "girl <- oewn"]
 comment = ""
 
 ["Sp"]
@@ -698,7 +699,7 @@ existing_hidden = 11  # other senses of these lemmas
 ntumc = ["mate <- 10640620-n", "partner <- 10640620-n", "spouse <- 10640620-n", "married person <- 10640620-n", "better half <- 10640620-n"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["better half <- oewn", "married person <- oewn", "mate <- oewn", "partner <- oewn", "spouse <- Kinbank, OEWN, oewn"]
+sources = ["better half <- oewn", "married person <- oewn", "mate <- oewn", "partner <- oewn", "spouse <- Kinbank, OEWN, Wikidata L72061-S1, oewn"]
 comment = ""
 
 ["Hu"]
@@ -710,7 +711,7 @@ existing_by_lemma = ["hubby -> oewn oewn-10213586-n [i90626] husband, hubby, mar
 ntumc = ["husband <- 10193967-n", "hubby <- 10193967-n", "married man <- 10193967-n"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["hubby <- oewn", "husband <- OEWN, TUFS, oewn", "married man <- oewn"]
+sources = ["hubby <- Wikidata L322109-S1 (informal), oewn", "husband <- OEWN, TUFS, Wikidata L4140-S1, oewn", "married man <- oewn"]
 comment = ""
 
 ["Wi"]
@@ -722,7 +723,7 @@ existing_by_lemma = ["married woman -> oewn oewn-10800308-n [i94123] wife, marri
 ntumc = ["wife <- 10780632-n", "married woman <- 10780632-n"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["married woman <- oewn", "wife <- OEWN, TUFS, oewn"]
+sources = ["married woman <- oewn", "wife <- OEWN, TUFS, Wikidata L4139-S1, oewn"]
 comment = ""
 
 ["InL"]
@@ -756,7 +757,7 @@ existing_by_lemma = ["father-in-law -> oewn oewn-10101812-n [i89906] father-in-l
 ntumc = ["father-in-law <- 10082043-n"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["father-in-law <- Kinbank, OEWN, oewn"]
+sources = ["father-in-law <- Kinbank, OEWN, Wikidata L320495-S1, oewn"]
 comment = ""
 
 ["Sp;Mo"]
@@ -768,7 +769,7 @@ existing_by_lemma = ["mother-in-law -> oewn oewn-10353030-n [i91467] mother-in-l
 ntumc = ["mother-in-law <- 10333317-n"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["mother-in-law <- Kinbank, OEWN, oewn"]
+sources = ["mother-in-law <- Kinbank, OEWN, Wikidata L184895-S1, oewn"]
 comment = ""
 
 ["Ch;Sp"]
@@ -931,6 +932,17 @@ label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
 hypernyms = ["Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;So"]
 ancestors = ["Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Hu;Mo"]
+lemmas = ["mother-in-law"]
+label = "husband's mother"
+definition = "the mother of one's husband (an in-law)"
+existing_by_lemma = ["mother-in-law -> oewn oewn-10353030-n [i91467] mother-in-law: the mother of your spouse"]
+new_senses = ["mother-in-law"]
+hypernyms = ["Sp;Mo"]
+ancestors = ["Sp;Mo", "Sp;Pa", "InL", "Rel"]
+sources = ["mother-in-law <- Wikidata L184895-S2"]
 comment = ""
 
 ["Pa;Sb;Ch|Sb"]

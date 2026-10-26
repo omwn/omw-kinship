@@ -10,8 +10,8 @@ takes two kinds of word from it:
 
 - **lexemes**: a Wikidata lexeme with a sense whose "item for this sense"
   (P5137) is the item, e.g. Tamil அண்ணா "elder brother". These are dictionary
-  entries; only nouns are kept. A sense's "language style" (P6191, e.g.
-  *colloquial*) is kept as a note.
+  entries; only nouns are kept. A sense's "language styles" (P6191, e.g.
+  *informal*) are kept as a note, joined with commas.
 - **labels**: the item's label in each language, when it is a single word. A
   label names the item, so many are descriptions (Swedish *förälders förälder*
   "parent's parent"); those with a space, slash, comma or bracket are left out,
@@ -38,7 +38,7 @@ from kinbank_words import iso_to_tag
 logger = logging.getLogger(__name__)
 
 ENDPOINT = "https://query.wikidata.org/sparql"
-USER_AGENT = "omw-kinship/0.2 (https://github.com/omwn/omw-kinship)"
+USER_AGENT = f"omw-kinship/{build.VERSION} (https://github.com/omwn/omw-kinship)"
 NOUN = "http://www.wikidata.org/entity/Q1084"
 LEXEMES = """
 SELECT ?item ?sense ?lemma ?category ?iso ?ietf ?style WHERE {{
@@ -125,11 +125,13 @@ def main() -> None:
         if row["relation"] == "exact"
     }
     items = " ".join(f"wd:{q}" for q in concept_of)
-    rows: dict[tuple[str, ...], None] = {}  # ordered, without duplicates
+    #: (language, tag, concept, word, source, kind) -> the sense's styles
+    rows: dict[tuple[str, ...], set[str]] = {}
 
     def add(tag: str, item: str, word: str, source: str, kind: str, note: str) -> None:
         name = langcodes.Language.get(tag).display_name()
-        rows[(name, tag, concept_of[item], word, source, kind, note)] = None
+        key = (name, tag, concept_of[item], word, source, kind)
+        rows.setdefault(key, set()).update({note} if note else set())
 
     lexemes = run(LEXEMES.format(items=items))
     for row in lexemes:
@@ -161,7 +163,7 @@ def main() -> None:
     with out.open("w", encoding="utf8") as handle:
         handle.write("language\ttag\tconcept\tword\tsource\tkind\tnote\n")
         for row in sorted(rows, key=lambda r: (r[1], r[2], r[5], r[3])):
-            handle.write("\t".join(row) + "\n")
+            handle.write("\t".join((*row, ", ".join(sorted(rows[row])))) + "\n")
     logger.info(
         "wrote %d rows (%d languages) to %s",
         len(rows),

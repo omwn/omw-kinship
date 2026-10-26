@@ -33,7 +33,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["babcia", "babka", "babunia"]
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["plwn plwn-syn-f3ba3965-aac4-11ed-aae5-0242ac130002 [i90289] babka, babcia: matka któregoś z rodziców."]
@@ -58,7 +58,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -177,12 +177,12 @@ existing_by_lemma = ["brat -> plwn plwn-syn-f35ff36b-aac4-11ed-aae5-0242ac130002
 existing_hidden = 5  # other senses of these lemmas
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["brat <- Kinbank, Wiktionary"]
+sources = ["brat <- Kinbank, Wikidata L1227192-S1, Wiktionary"]
 comment = ""
 
 ["Ss"]
 lemmas = ["siostra"]
-english = ["female sibling", "sister"]
+english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 existing_by_lemma = ["siostra -> plwn plwn-syn-f3c18675-aac4-11ed-aae5-0242ac130002 [i93018] sis, siostra: osoba najbliżej spokrewniona w linii bocznej, córka tych samych rodziców lub jednego rodzica.", "siostra -> plwn plwn-syn-f3be7a42-aac4-11ed-aae5-0242ac130002 [-] pielęgniarka, siostra: pracowniczka zawodu medycznego, sprawująca opiekę medyczną nad pacjentem i asystująca lekarzowi oraz wykonująca samodzielnie niektóre czynności diagnostyczne i związane z leczeniem i rehabilitacją (zazwyczaj według zaleceń lekarza)."]
@@ -544,7 +544,7 @@ comment = ""
 
 ["Fa"]
 lemmas = ["ojciec", "rodziciel", "tata", "tato"]
-english = ["begetter", "dad", "father", "male parent"]
+english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["plwn plwn-syn-f3bcb564-aac4-11ed-aae5-0242ac130002 [i89901] rodziciel, tato, tata, ojciec: mężczyzna, który jest rodzicem dziecka, sprawuje funkcję głównego, najważniejszego opiekuna dziecka, jest ważną figurą kształtującą młodego człowieka; najczęściej: najbliższy krewny, mężczyzna, który począł dziecko."]
@@ -552,12 +552,12 @@ existing_by_lemma = ["ojciec -> plwn plwn-syn-f3bcbe6e-aac4-11ed-aae5-0242ac1300
 existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["ojciec <- plwn", "rodziciel <- plwn", "tata <- plwn", "tato <- plwn"]
+sources = ["ojciec <- Wikidata L30898-S1, plwn", "rodziciel <- plwn", "tata <- plwn", "tato <- plwn"]
 comment = ""
 
 ["Mo"]
 lemmas = ["mama", "matka"]
-english = ["female parent", "mom", "mother"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["plwn plwn-syn-f3bcb3c5-aac4-11ed-aae5-0242ac130002 [i91462] matka, mama: kobieta, która urodziła lub wychowuje dziecko."]
@@ -565,7 +565,7 @@ existing_by_lemma = ["mama -> plwn plwn-syn-f3bcb3c5-aac4-11ed-aae5-0242ac130002
 existing_hidden = 8  # other senses of these lemmas
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["mama <- plwn", "matka <- plwn"]
+sources = ["mama <- plwn", "matka <- Wikidata L62050-S1, plwn"]
 comment = ""
 
 ["Ch"]
@@ -578,7 +578,7 @@ existing_by_lemma = ["dziecię -> plwn plwn-syn-f3609345-aac4-11ed-aae5-0242ac13
 existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["dziecię <- plwn", "dziecko <- Kinbank, plwn", "latorośl <- plwn", "pociecha <- plwn", "pocieszka <- plwn"]
+sources = ["dziecię <- plwn", "dziecko <- Kinbank, Wikidata L11220-S2, plwn", "latorośl <- plwn", "pociecha <- plwn", "pocieszka <- plwn"]
 comment = ""
 
 ["So"]

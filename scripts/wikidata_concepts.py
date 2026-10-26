@@ -53,7 +53,7 @@ MALE, FEMALE = WD.Q6581097, WD.Q6581072
 #: the sex each Kinbank letter implies
 SEX = {"F": "m", "M": "f", "B": "m", "Z": "f", "S": "m", "D": "f", "H": "m", "W": "f"}
 ENDPOINT = "https://query.wikidata.org/sparql"
-USER_AGENT = "omw-kinship/0.2 (https://github.com/omwn/omw-kinship)"
+USER_AGENT = f"omw-kinship/{build.VERSION} (https://github.com/omwn/omw-kinship)"
 ITEMS_QUERY = """
 SELECT ?item ?label ?path ?ili ?concepticon WHERE {
   ?item wdt:P4316 ?path .

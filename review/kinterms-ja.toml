@@ -41,19 +41,19 @@ sources = ["おじいさん <- TUFS, Wiktionary", "お爺ちゃん <- Wiktionary
 comment = ""
 
 ["Pa;Mo"]
-lemmas = ["おばあさん", "お婆さん", "お婆ちゃん", "お祖母", "お祖母さま", "お祖母様", "そぼ", "ばば", "バアチャン", "婆さん", "御祖母", "御祖母さん", "御祖母ちゃん", "祖母", "祖母さま", "祖母様"]
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+lemmas = ["おばあさん", "おばあちゃん", "お婆さん", "お婆ちゃん", "お祖母", "お祖母さま", "お祖母さん", "お祖母ちゃん", "お祖母様", "そぼ", "ばあちゃん", "ばば", "バアチャン", "婆さん", "御祖母", "御祖母さん", "御祖母ちゃん", "祖母", "祖母さま", "祖母ちゃん", "祖母様"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother"]
-existing_by_lemma = ["おばあさん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "おばあさん -> tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother", "お婆さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お婆ちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お婆ちゃん -> wnja wnja-10345015-n [i91538] 御祖母ちゃん: あなたの祖母", "お祖母 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お祖母さま -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お祖母様 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "そぼ -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "ばば -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "バアチャン -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "婆さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母ちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母ちゃん -> wnja wnja-10345015-n [i91538] 御祖母ちゃん: あなたの祖母", "祖母 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "祖母さま -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "祖母様 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親"]
-existing_hidden = 7  # other senses of these lemmas
+existing_by_lemma = ["おばあさん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "おばあさん -> tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother", "おばあちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "おばあちゃん -> wnja wnja-10345015-n [i91538] 御祖母ちゃん: あなたの祖母", "お婆さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お婆ちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お婆ちゃん -> wnja wnja-10345015-n [i91538] 御祖母ちゃん: あなたの祖母", "お祖母 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お祖母さま -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お祖母さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お祖母ちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "お祖母ちゃん -> wnja wnja-10345015-n [i91538] 御祖母ちゃん: あなたの祖母", "お祖母様 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "そぼ -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "ばあちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "ばば -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "バアチャン -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "婆さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母さん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母ちゃん -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "御祖母ちゃん -> wnja wnja-10345015-n [i91538] 御祖母ちゃん: あなたの祖母", "祖母 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "祖母さま -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "祖母様 -> wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親"]
+existing_hidden = 8  # other senses of these lemmas
 ntumc = ["お祖母 <- 10142747-n", "お祖母様 <- 10142747-n", "祖母様 <- 10142747-n", "祖母 <- 10142747-n", "ばあちゃん <- 10142747-n", "お祖母ちゃん <- 10142747-n", "お祖母さま <- 10142747-n", "お祖母さん <- 10142747-n", "御祖母 <- 10142747-n", "御祖母ちゃん <- 10142747-n", "おばあちゃん <- 10142747-n", "祖母さん <- 10142747-n", "祖母さま <- 10142747-n", "御祖母さん <- 10142747-n"]
 new_senses = ["お婆さん", "ばば", "婆さん"]
-new_words = ["おばあさん", "お婆ちゃん", "そぼ", "バアチャン"]
+new_words = ["おばあさん", "お婆ちゃん", "そぼ", "バアチャン", "祖母ちゃん"]
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["おばあさん <- TUFS", "お婆さん <- Wiktionary", "お婆ちゃん <- Wiktionary", "お祖母 <- wnja", "お祖母さま <- wnja", "お祖母様 <- wnja", "そぼ <- Wiktionary", "ばば <- Wiktionary", "バアチャン <- wnja", "婆さん <- wnja", "御祖母 <- wnja", "御祖母さん <- wnja", "御祖母ちゃん <- wnja", "祖母 <- wnja", "祖母さま <- wnja", "祖母様 <- wnja"]
+sources = ["おばあさん <- TUFS, Wikidata L1073126-S1", "おばあちゃん <- Wikidata L1073124-S1, Wikidata L1562356-S1 (informal, respectful language)", "お婆さん <- Wiktionary", "お婆ちゃん <- Wikidata L1073124-S1, Wiktionary", "お祖母 <- wnja", "お祖母さま <- wnja", "お祖母さん <- Wikidata L1073126-S1", "お祖母ちゃん <- Wikidata L1562356-S1 (informal, respectful language)", "お祖母様 <- wnja", "そぼ <- Wikidata L1317371-S1 (literary language), Wiktionary", "ばあちゃん <- Wikidata L1562353-S1 (informal)", "ばば <- Wiktionary", "バアチャン <- wnja", "婆さん <- wnja", "御祖母 <- wnja", "御祖母さん <- wnja", "御祖母ちゃん <- wnja", "祖母 <- Wikidata L1317371-S1 (literary language), wnja", "祖母さま <- wnja", "祖母ちゃん <- Wikidata L1562353-S1 (informal)", "祖母様 <- wnja"]
 comment = ""
 
 ["Fa;Fa"]
@@ -70,7 +70,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["gran", "grandma", "grandmother", "grannie", "granny", "nan", "nanna"]
+english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -90,33 +90,35 @@ ntumc = ["令孫 <- 10141590-n", "お孫さん <- 10141590-n", "御孫さん <- 
 new_words = ["まご"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["まご <- Kinbank, Wiktionary", "令孫 <- wnja", "孫 <- wnja", "御孫さん <- wnja"]
+sources = ["まご <- Kinbank, Wikidata L622607-S1, Wiktionary", "令孫 <- wnja", "孫 <- Wikidata L622607-S1, wnja", "御孫さん <- wnja"]
 comment = ""
 
 ["Ch;So"]
-lemmas = ["孫息子"]
+lemmas = ["まごむすこ", "孫息子"]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
 existing_by_ili = ["wnja wnja-10143299-n [i90293] 孫息子: 男の孫"]
-existing_by_lemma = ["孫息子 -> wnja wnja-10143299-n [i90293] 孫息子: 男の孫"]
+existing_by_lemma = ["まごむすこ -> wnja wnja-10143299-n [i90293] 孫息子: 男の孫", "孫息子 -> wnja wnja-10143299-n [i90293] 孫息子: 男の孫"]
 ntumc = ["孫息子 <- 10143299-n"]
+new_words = ["まごむすこ"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫息子 <- wnja"]
+sources = ["まごむすこ <- Wikidata L1115610-S1", "孫息子 <- Wikidata L1115610-S1, wnja"]
 comment = ""
 
 ["Ch;Da"]
-lemmas = ["孫娘"]
+lemmas = ["まごむすめ", "孫娘"]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
 existing_by_ili = ["wnja wnja-10141732-n [i90281] 孫娘: 女性の孫"]
-existing_by_lemma = ["孫娘 -> wnja wnja-10141732-n [i90281] 孫娘: 女性の孫"]
+existing_by_lemma = ["まごむすめ -> wnja wnja-10141732-n [i90281] 孫娘: 女性の孫", "孫娘 -> wnja wnja-10141732-n [i90281] 孫娘: 女性の孫"]
 ntumc = ["孫娘 <- 10141732-n"]
+new_words = ["まごむすめ"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫娘 <- wnja"]
+sources = ["まごむすめ <- Wikidata L1115611-S1", "孫娘 <- Wikidata L1115611-S1, wnja"]
 comment = ""
 
 ["So;Ch"]
@@ -142,78 +144,110 @@ ancestors = ["Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Sb"]
-lemmas = ["kyōdai", "兄弟", "兄弟姉妹"]
-transcribed = ["kyōdai"]  # romanized in the source; no word in the native script here
+lemmas = ["きょうだい", "けいてい", "兄弟", "兄弟姉妹"]
+pronunciations = ["きょうだい: kyōdai (romanization)"]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 existing_by_ili = ["wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹"]
-existing_by_lemma = ["兄弟 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄弟 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "兄弟 -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "兄弟 -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else", "兄弟姉妹 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹"]
-existing_hidden = 1  # other senses of these lemmas
+existing_by_lemma = ["きょうだい -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "きょうだい -> wnja wnja-10602985-n [i93018] 姉妹, 姉妹: もう一人と同じ両親を持つ女性", "きょうだい -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "きょうだい -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "きょうだい -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else", "けいてい -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "けいてい -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "兄弟 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄弟 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "兄弟 -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "兄弟 -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else", "兄弟姉妹 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹"]
+existing_hidden = 8  # other senses of these lemmas
 ntumc = ["兄弟 <- 10595164-n", "兄弟姉妹 <- 10595164-n"]
-new_words = ["kyōdai"]
+new_words = ["きょうだい", "けいてい"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["kyōdai <- Kinbank", "兄弟 <- TUFS, wnja", "兄弟姉妹 <- wnja"]
+sources = ["きょうだい <- Kinbank, Wikidata L626058-S1", "けいてい <- Wikidata L1475602-S1 (standard language)", "兄弟 <- TUFS, Wikidata L1475602-S1 (standard language), Wikidata L626058-S1, wnja", "兄弟姉妹 <- wnja"]
+comment = ""
+
+["Br"]
+lemmas = ["きょうだい", "兄弟"]
+pronunciations = ["きょうだい: kyōdai (romanization)"]
+english = ["brother", "male sibling"]
+label = "brother"
+definition = "a brother of a person (a sibling)"
+existing_by_ili = ["tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male"]
+existing_by_lemma = ["きょうだい -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "きょうだい -> wnja wnja-10602985-n [i93018] 姉妹, 姉妹: もう一人と同じ両親を持つ女性", "きょうだい -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "きょうだい -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "きょうだい -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else", "兄弟 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄弟 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "兄弟 -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "兄弟 -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else"]
+existing_hidden = 5  # other senses of these lemmas
+new_senses = ["兄弟"]
+new_words = ["きょうだい"]
+hypernyms = ["Br|Pa;Sb;So", "Sb"]
+ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+sources = ["きょうだい <- Wikidata L626058-S2", "兄弟 <- Wikidata L626058-S2"]
+comment = ""
+
+["Ss"]
+lemmas = ["しまい", "シスター", "姉妹"]
+english = ["female sibling", "sis", "sister"]
+label = "sister"
+definition = "a sister of a person (a sibling)"
+existing_by_lemma = ["しまい -> wnja wnja-10602985-n [i93018] 姉妹, 姉妹: もう一人と同じ両親を持つ女性", "姉妹 -> wnja wnja-10602985-n [i93018] 姉妹, 姉妹: もう一人と同じ両親を持つ女性"]
+existing_hidden = 10  # other senses of these lemmas
+new_senses = ["シスター", "姉妹"]
+new_words = ["しまい"]
+hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
+ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+sources = ["しまい <- Wikidata L406337-S1", "シスター <- Wikidata L1368723-S1", "姉妹 <- Wikidata L406337-S1"]
 comment = ""
 
 ["El;Br"]
-lemmas = ["あに", "お兄さん", "兄", "兄い", "兄さん", "兄じゃ", "兄じゃ人", "兄ちゃん", "兄人", "兄君", "兄御", "兄様", "兄者", "兄者人", "兄貴", "大兄", "実兄"]
+lemmas = ["あに", "お兄さん", "けい", "兄", "兄い", "兄さん", "兄じゃ", "兄じゃ人", "兄ちゃん", "兄人", "兄君", "兄御", "兄様", "兄者", "兄者人", "兄貴", "大兄", "実兄"]
 english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
 existing_by_ili = ["wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "tufs-ja tufs-ja-09853467-n [i88560] 兄, お兄さん: (CILI) an older brother"]
 existing_by_lemma = ["あに -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "あに -> wnja wnja-09877288-n [i88712] 義兄, 義兄: 姻戚関係による兄弟", "あに -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "あに -> tufs-ja tufs-ja-09853467-n [i88560] 兄, お兄さん: (CILI) an older brother", "お兄さん -> tufs-ja tufs-ja-09853467-n [i88560] 兄, お兄さん: (CILI) an older brother", "兄 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄 -> tufs-ja tufs-ja-09853467-n [i88560] 兄, お兄さん: (CILI) an older brother", "兄い -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄い -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄さん -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄さん -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄じゃ -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄じゃ -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄じゃ人 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄じゃ人 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄ちゃん -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄ちゃん -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄人 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄人 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄君 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄君 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄御 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄御 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄様 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄様 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄者 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄者 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄者人 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄者人 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "兄貴 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄貴 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "大兄 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "大兄 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟", "実兄 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "実兄 -> wnja wnja-09853467-n [i88560] 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, 兄ちゃん, ...: 年上の兄弟"]
-existing_hidden = 3  # other senses of these lemmas
+existing_hidden = 25  # other senses of these lemmas
 ntumc = ["大兄 <- 09853467-n", "兄ちゃん <- 09853467-n", "兄貴 <- 09853467-n", "実兄 <- 09853467-n", "兄 <- 09853467-n", "兄者人 <- 09853467-n", "兄さん <- 09853467-n", "兄御 <- 09853467-n", "兄じゃ人 <- 09853467-n", "兄じゃ <- 09853467-n", "兄者 <- 09853467-n", "兄様 <- 09853467-n", "兄君 <- 09853467-n", "兄人 <- 09853467-n", "兄い <- 09853467-n"]
-new_words = ["あに", "お兄さん"]
+new_words = ["あに", "お兄さん", "けい"]
 hypernyms = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb"]
 ancestors = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["あに <- Wiktionary", "お兄さん <- TUFS, Wiktionary", "兄 <- TUFS, wnja", "兄い <- wnja", "兄さん <- wnja", "兄じゃ <- wnja", "兄じゃ人 <- wnja", "兄ちゃん <- Wiktionary, wnja", "兄人 <- wnja", "兄君 <- wnja", "兄御 <- wnja", "兄様 <- wnja", "兄者 <- wnja", "兄者人 <- wnja", "兄貴 <- wnja", "大兄 <- wnja", "実兄 <- wnja"]
+sources = ["あに <- Wikidata L348184-S1, Wiktionary", "お兄さん <- TUFS, Wiktionary", "けい <- Wikidata L1414555-S1", "兄 <- TUFS, Wikidata L1414555-S1, Wikidata L348184-S1, wnja", "兄い <- wnja", "兄さん <- wnja", "兄じゃ <- wnja", "兄じゃ人 <- wnja", "兄ちゃん <- Wiktionary, wnja", "兄人 <- wnja", "兄君 <- wnja", "兄御 <- wnja", "兄様 <- wnja", "兄者 <- wnja", "兄者人 <- wnja", "兄貴 <- wnja", "大兄 <- wnja", "実兄 <- wnja"]
 comment = ""
 
 ["El;Ss"]
-lemmas = ["あね", "おねえさん", "お姉さん", "姉", "姉ちゃん"]
+lemmas = ["あね", "おねえさん", "お姉さん", "ねえ", "姉", "姉ちゃん"]
 english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 existing_by_ili = ["wnja wnja-09854218-n [i88564] 姉: 年上の姉妹", "tufs-ja tufs-ja-09854218-n [i88564] 姉: (CILI) an older sister"]
-existing_by_lemma = ["あね -> tufs-ja tufs-ja-09854218-n [i88564] 姉: (CILI) an older sister", "おねえさん -> wnja wnja-10603766-n [i93022] お義姉さん, お義姉様, 姉姑, 小姑, 小姑, 御義姉さん, ...: 自分の配偶者の姉妹", "姉 -> wnja wnja-09854218-n [i88564] 姉: 年上の姉妹", "姉 -> tufs-ja tufs-ja-09854218-n [i88564] 姉: (CILI) an older sister"]
-existing_hidden = 7  # other senses of these lemmas
+existing_by_lemma = ["あね -> tufs-ja tufs-ja-09854218-n [i88564] 姉: (CILI) an older sister", "おねえさん -> wnja wnja-10603766-n [i93022] お義姉さん, お義姉様, 姉姑, 小姑, 小姑, 御義姉さん, ...: 自分の配偶者の姉妹", "ねえ -> wnja wnja-09854218-n [i88564] 姉: 年上の姉妹", "姉 -> wnja wnja-09854218-n [i88564] 姉: 年上の姉妹", "姉 -> tufs-ja tufs-ja-09854218-n [i88564] 姉: (CILI) an older sister"]
+existing_hidden = 8  # other senses of these lemmas
 ntumc = ["姉 <- 09854218-n"]
 new_senses = ["お姉さん"]
-new_words = ["あね", "おねえさん", "姉ちゃん"]
+new_words = ["あね", "おねえさん", "ねえ", "姉ちゃん"]
 hypernyms = ["El;Sb", "Ss"]
 ancestors = ["El;Sb", "Ss", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["あね <- Wiktionary", "おねえさん <- Wiktionary", "お姉さん <- TUFS", "姉 <- TUFS, wnja", "姉ちゃん <- Wiktionary"]
+sources = ["あね <- Wikidata L348199-S1, Wiktionary", "おねえさん <- Wiktionary", "お姉さん <- TUFS", "ねえ <- Wikidata L984313-S1", "姉 <- TUFS, Wikidata L348199-S1, Wikidata L984313-S1, wnja", "姉ちゃん <- Wiktionary"]
 comment = ""
 
 ["Yn;Br"]
-lemmas = ["おとうと", "弟", "弟さん"]
+lemmas = ["おと", "おとうと", "弟", "弟さん"]
 english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
 existing_by_ili = ["wnja wnja-10267311-n [i91053] 弟: 年下の兄弟"]
-existing_by_lemma = ["おとうと -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "おとうと -> wnja wnja-10267311-n [i91053] 弟: 年下の兄弟", "おとうと -> tufs-ja tufs-ja-16809-n [-] 弟: (my) younger brother", "おとうと -> tufs-ja tufs-ja-16810-n [-] 弟さん: (someone else's) younger brother", "弟 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "弟 -> wnja wnja-10267311-n [i91053] 弟: 年下の兄弟", "弟 -> tufs-ja tufs-ja-16809-n [-] 弟: (my) younger brother", "弟さん -> tufs-ja tufs-ja-16810-n [-] 弟さん: (someone else's) younger brother"]
+existing_by_lemma = ["おと -> tufs-ja tufs-ja-58166-n [-] 音: sound", "おとうと -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "おとうと -> wnja wnja-10267311-n [i91053] 弟: 年下の兄弟", "おとうと -> tufs-ja tufs-ja-16809-n [-] 弟: (my) younger brother", "おとうと -> tufs-ja tufs-ja-16810-n [-] 弟さん: (someone else's) younger brother", "弟 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "弟 -> wnja wnja-10267311-n [i91053] 弟: 年下の兄弟", "弟 -> tufs-ja tufs-ja-16809-n [-] 弟: (my) younger brother", "弟さん -> tufs-ja tufs-ja-16810-n [-] 弟さん: (someone else's) younger brother"]
+existing_hidden = 9  # other senses of these lemmas
 ntumc = ["実弟 <- 10267311-n", "弟 <- 10267311-n"]
-new_words = ["おとうと", "弟さん"]
+new_words = ["おと", "おとうと", "弟さん"]
 hypernyms = ["Br", "Yn;Sb"]
 ancestors = ["Br", "Yn;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["おとうと <- Wiktionary", "弟 <- TUFS, wnja", "弟さん <- TUFS"]
+sources = ["おと <- Wikidata L1414551-S1", "おとうと <- Wikidata L348183-S1, Wiktionary", "弟 <- TUFS, Wikidata L1414551-S1, Wikidata L348183-S1, wnja", "弟さん <- TUFS"]
 comment = ""
 
 ["Yn;Ss"]
-lemmas = ["いもうと", "妹", "妹さん", "妹君", "小妹"]
+lemmas = ["いも", "いもうと", "いもうとご", "いもうとさん", "まい", "妹", "妹さん", "妹君", "妹御", "小妹"]
 english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 existing_by_ili = ["wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹"]
-existing_by_lemma = ["いもうと -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "いもうと -> wnja wnja-10603766-n [i93022] お義姉さん, お義姉様, 姉姑, 小姑, 小姑, 御義姉さん, ...: 自分の配偶者の姉妹", "いもうと -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹 -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "妹 -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹さん -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "妹さん -> tufs-ja tufs-ja-16812-n [-] 妹さん: (someone else's) younger sister", "妹君 -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "小妹 -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹"]
+existing_by_lemma = ["いもうと -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "いもうと -> wnja wnja-10603766-n [i93022] お義姉さん, お義姉様, 姉姑, 小姑, 小姑, 御義姉さん, ...: 自分の配偶者の姉妹", "いもうと -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "いもうとさん -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "いもうとさん -> tufs-ja tufs-ja-16812-n [-] 妹さん: (someone else's) younger sister", "妹 -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "妹 -> tufs-ja tufs-ja-16811-n [-] 妹: (my) younger sister", "妹さん -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "妹さん -> tufs-ja tufs-ja-16812-n [-] 妹さん: (someone else's) younger sister", "妹君 -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹", "小妹 -> wnja wnja-10267865-n [i91057] 妹, 妹さん, 妹君, 小妹: 年下の姉妹"]
+existing_hidden = 5  # other senses of these lemmas
 ntumc = ["小妹 <- 10267865-n", "妹さん <- 10267865-n", "妹君 <- 10267865-n", "妹 <- 10267865-n"]
-new_words = ["いもうと"]
+new_words = ["いも", "いもうと", "いもうとご", "いもうとさん", "まい", "妹御"]
 hypernyms = ["Ss", "Yn;Sb"]
 ancestors = ["Ss", "Yn;Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["いもうと <- Wiktionary", "妹 <- TUFS, wnja", "妹さん <- TUFS, wnja", "妹君 <- wnja", "小妹 <- wnja"]
+sources = ["いも <- Wikidata L1414548-S1", "いもうと <- Wikidata L348198-S1, Wiktionary", "いもうとご <- Wikidata L626056-S1", "いもうとさん <- Wikidata L984315-S1", "まい <- Wikidata L1414549-S1", "妹 <- TUFS, Wikidata L1414548-S1, Wikidata L1414549-S1, Wikidata L348198-S1, wnja", "妹さん <- TUFS, Wikidata L984315-S1, wnja", "妹君 <- wnja", "妹御 <- Wikidata L626056-S1", "小妹 <- wnja"]
 comment = ""
 
 ["Pa;Br"]
@@ -240,6 +274,34 @@ new_words = ["おば"]
 hypernyms = ["Aun", "Mo|Pa;Ss", "Pb"]
 ancestors = ["Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 sources = ["おば <- Wiktionary"]
+comment = ""
+
+["Fa;El;Br"]
+lemmas = ["おじさん", "伯父さん"]
+english = ["uncle"]
+english_via = "Pa;Br"
+label = "father's elder brother"
+definition = "an elder brother of one's father (an uncle or aunt)"
+existing_by_lemma = ["おじさん -> wnja wnja-80002346-n [-] 伯父貴, 伯父君, 伯父上, 伯父, 伯父さん: 父または母の兄; 父または母の姉の夫", "おじさん -> wnja wnja-80002347-n [-] 叔父上, 叔父君, 弟小父, 叔父, 叔父さん: 父または母の弟; 父または母の妹の夫", "おじさん -> tufs-ja tufs-ja-16190-n [-] おじさん: (someone else's) uncle", "伯父さん -> wnja wnja-80002346-n [-] 伯父貴, 伯父君, 伯父上, 伯父, 伯父さん: 父または母の兄; 父または母の姉の夫"]
+existing_hidden = 1  # other senses of these lemmas
+new_senses = ["おじさん", "伯父さん"]
+hypernyms = ["Fa;Br", "Pa;El;Br"]
+ancestors = ["Fa;Br", "Pa;El;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
+sources = ["おじさん <- Wikidata L1073117-S1", "伯父さん <- Wikidata L1073117-S1"]
+comment = ""
+
+["Fa;Yn;Br"]
+lemmas = ["おじ", "叔父"]
+english = ["uncle"]
+english_via = "Pa;Br"
+label = "father's younger brother"
+definition = "a younger brother of one's father (an uncle or aunt)"
+existing_by_lemma = ["おじ -> wnja wnja-80002346-n [-] 伯父貴, 伯父君, 伯父上, 伯父, 伯父さん: 父または母の兄; 父または母の姉の夫", "おじ -> wnja wnja-80002347-n [-] 叔父上, 叔父君, 弟小父, 叔父, 叔父さん: 父または母の弟; 父または母の妹の夫", "叔父 -> wnja wnja-80002347-n [-] 叔父上, 叔父君, 弟小父, 叔父, 叔父さん: 父または母の弟; 父または母の妹の夫"]
+new_senses = ["叔父"]
+new_words = ["おじ"]
+hypernyms = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br"]
+ancestors = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
+sources = ["おじ <- Wikidata L626374-S1", "叔父 <- Wikidata L626374-S1"]
 comment = ""
 
 ["Sb;So"]
@@ -567,144 +629,149 @@ sources = ["おばさん <- TUFS", "伯母 <- wnja", "伯母さま <- wnja", "�
 comment = ""
 
 ["Pa"]
-lemmas = ["ryōshin", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
-transcribed = ["ryōshin"]  # romanized in the source; no word in the native script here
+lemmas = ["おや", "りょうしん", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
+pronunciations = ["りょうしん: ryōshin (romanization)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["ペアレント -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "両親 -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "親 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "親 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "親 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親じゃ人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親者人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類"]
-existing_hidden = 1  # other senses of these lemmas
+existing_by_lemma = ["おや -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "おや -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "おや -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "おや -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "りょうしん -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "りょうしん -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "ペアレント -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "両親 -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "親 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "親 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "親 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親じゃ人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親者人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類"]
+existing_hidden = 4  # other senses of these lemmas
 ntumc = ["親者人 <- 10399491-n", "ペアレント <- 10399491-n", "親 <- 10399491-n", "親じゃ人 <- 10399491-n"]
-new_words = ["ryōshin", "両親"]
+new_senses = ["おや"]
+new_words = ["りょうしん", "両親"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["ryōshin <- Kinbank", "ペアレント <- wnja", "両親 <- TUFS", "親 <- wnja", "親じゃ人 <- wnja", "親者人 <- wnja"]
+sources = ["おや <- Wikidata L1080964-S1", "りょうしん <- Kinbank, Wikidata L348238-S1", "ペアレント <- wnja", "両親 <- TUFS, Wikidata L348238-S1", "親 <- Wikidata L1080964-S1, wnja", "親じゃ人 <- wnja", "親者人 <- wnja"]
 comment = ""
 
 ["Fa"]
-lemmas = ["おとっつあん", "おやじ様", "お父さん", "お父っさん", "お父っつぁん", "てて親", "ファーザー", "乃父", "厳親", "垂乳根", "実父", "師父", "御父さん", "御父っさん", "御父っつぁん", "御父様", "椿堂", "父", "父さん", "父っつぁん", "父上", "父君", "父御", "父様", "父親", "男親", "親父", "親父さま"]
-english = ["begetter", "dad", "father", "male parent"]
+lemmas = ["おとうさん", "おとっつあん", "おやじ様", "お父さん", "お父っさん", "お父っつぁん", "ちち", "てて親", "とうさん", "パパ", "ファーザー", "乃父", "厳親", "垂乳根", "実父", "師父", "御父さん", "御父っさん", "御父っつぁん", "御父様", "椿堂", "父", "父さん", "父っつぁん", "父上", "父君", "父御", "父様", "父親", "男親", "親父", "親父さま"]
+english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)"]
-existing_by_lemma = ["おとっつあん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "おやじ様 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父さん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "お父っさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父っつぁん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "てて親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "ファーザー -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "乃父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "厳親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "実父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "師父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父っさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父っつぁん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父様 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "椿堂 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父 -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父っつぁん -> wnja wnja-09988063-n [i89370] お父ちゃん, チャン, パパ, 父ちゃん, 父っつぁん: 父親を指す略式語; 幼児語に派生すると思われる", "父っつぁん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父上 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父君 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父御 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父様 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "男親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "親父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "親父さま -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）"]
-existing_hidden = 8  # other senses of these lemmas
+existing_by_lemma = ["おとうさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "おとうさん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "おとっつあん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "おやじ様 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父さん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "お父っさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父っつぁん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "ちち -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "ちち -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "てて親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "とうさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "パパ -> wnja wnja-09988063-n [i89370] お父ちゃん, チャン, パパ, 父ちゃん, 父っつぁん: 父親を指す略式語; 幼児語に派生すると思われる", "ファーザー -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "乃父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "厳親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "実父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "師父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父っさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父っつぁん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "御父様 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "椿堂 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父 -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父っつぁん -> wnja wnja-09988063-n [i89370] お父ちゃん, チャン, パパ, 父ちゃん, 父っつぁん: 父親を指す略式語; 幼児語に派生すると思われる", "父っつぁん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父上 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父君 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父御 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父様 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "父親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "男親 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "親父 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "親父さま -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）"]
+existing_hidden = 22  # other senses of these lemmas
 ntumc = ["御父っさん <- 10080869-n", "父 <- 10080869-n", "御父さん <- 10080869-n", "椿堂 <- 10080869-n", "お父っさん <- 10080869-n", "実父 <- 10080869-n", "御父っつぁん <- 10080869-n", "おとっつあん <- 10080869-n", "お父さん <- 10080869-n", "お父さま <- 10080869-n", "親父さま <- 10080869-n", "お父っつぁん <- 10080869-n", "お父様 <- 10080869-n", "男親 <- 10080869-n", "厳親 <- 10080869-n", "父さん <- 10080869-n", "御父様 <- 10080869-n", "てて親 <- 10080869-n", "師父 <- 10080869-n", "おやじ様 <- 10080869-n", "親父 <- 10080869-n", "父親 <- 10080869-n", "父っつぁん <- 10080869-n", "父様 <- 10080869-n", "ファーザー <- 10080869-n", "父上 <- 10080869-n", "父君 <- 10080869-n", "父御 <- 10080869-n", "垂乳根 <- 10080869-n", "乃父 <- 10080869-n", "おやじ <- 10080869-n", "オヤジ <- 10080869-n"]
+new_senses = ["パパ"]
+new_words = ["おとうさん", "ちち", "とうさん"]
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["おとっつあん <- wnja", "おやじ様 <- wnja", "お父さん <- TUFS", "お父っさん <- wnja", "お父っつぁん <- wnja", "てて親 <- wnja", "ファーザー <- wnja", "乃父 <- wnja", "厳親 <- wnja", "垂乳根 <- wnja", "実父 <- wnja", "師父 <- wnja", "御父さん <- wnja", "御父っさん <- wnja", "御父っつぁん <- wnja", "御父様 <- wnja", "椿堂 <- wnja", "父 <- TUFS, wnja", "父さん <- wnja", "父っつぁん <- wnja", "父上 <- wnja", "父君 <- wnja", "父御 <- wnja", "父様 <- wnja", "父親 <- wnja", "男親 <- wnja", "親父 <- wnja", "親父さま <- wnja"]
+sources = ["おとうさん <- Wikidata L405866-S1 (formal register)", "おとっつあん <- wnja", "おやじ様 <- wnja", "お父さん <- TUFS, Wikidata L405866-S1 (formal register)", "お父っさん <- wnja", "お父っつぁん <- wnja", "ちち <- Wikidata L349088-S1 (informal)", "てて親 <- wnja", "とうさん <- Wikidata L1462990-S1", "パパ <- Wikidata L1398751-S1 (informal)", "ファーザー <- wnja", "乃父 <- wnja", "厳親 <- wnja", "垂乳根 <- wnja", "実父 <- wnja", "師父 <- wnja", "御父さん <- wnja", "御父っさん <- wnja", "御父っつぁん <- wnja", "御父様 <- wnja", "椿堂 <- wnja", "父 <- TUFS, Wikidata L349088-S1 (informal), wnja", "父さん <- Wikidata L1462990-S1, wnja", "父っつぁん <- wnja", "父上 <- wnja", "父君 <- wnja", "父御 <- wnja", "父様 <- wnja", "父親 <- wnja", "男親 <- wnja", "親父 <- wnja", "親父さま <- wnja"]
 comment = ""
 
 ["Mo"]
-lemmas = ["おっ母", "お母さん", "かあ様", "マザー", "ムッター", "垂乳女", "垂乳根", "女親", "実母", "御母さん", "御母様", "御袋", "慈母", "母", "母さん", "母じゃ人", "母ちゃん", "母上", "母君", "母御", "母様", "母者人", "母親"]
-english = ["female parent", "mom", "mother"]
+lemmas = ["おかあさん", "おっ母", "お母さん", "かあ様", "はは", "ははおや", "マザー", "ママ", "ムッター", "垂乳女", "垂乳根", "女親", "実母", "御母さん", "御母様", "御袋", "慈母", "母", "母さん", "母じゃ人", "母ちゃん", "母上", "母君", "母御", "母様", "母者人", "母親"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["おっ母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "おっ母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おっ母 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "お母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "お母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お母さん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "かあ様 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "マザー -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "ムッター -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "垂乳女 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "垂乳根 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "女親 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "実母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "御母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御母様 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御袋 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "御袋 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "慈母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母じゃ人 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母ちゃん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "母ちゃん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母上 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母君 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母御 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母様 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母者人 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母親 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）"]
-existing_hidden = 7  # other senses of these lemmas
+existing_by_lemma = ["おかあさん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "おかあさん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おかあさん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "おっ母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "おっ母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おっ母 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "お母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "お母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お母さん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "かあ様 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "はは -> wnja wnja-09988063-n [i89370] お父ちゃん, チャン, パパ, 父ちゃん, 父っつぁん: 父親を指す略式語; 幼児語に派生すると思われる", "はは -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "はは -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "はは -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "ははおや -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "マザー -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "ママ -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "ムッター -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "垂乳女 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "垂乳根 -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "垂乳根 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "女親 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "実母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "御母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御母様 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "御袋 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "御袋 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "慈母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母 -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母じゃ人 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母ちゃん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "母ちゃん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母上 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母君 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母御 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母様 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母者人 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "母親 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）"]
+existing_hidden = 19  # other senses of these lemmas
 ntumc = ["御母さん <- 10332385-n", "ムッター <- 10332385-n", "母ちゃん <- 10332385-n", "マザー <- 10332385-n", "実母 <- 10332385-n", "母親 <- 10332385-n", "お袋 <- 10332385-n", "お母さん <- 10332385-n", "お母様 <- 10332385-n", "母君 <- 10332385-n", "母さん <- 10332385-n", "母御 <- 10332385-n", "おっ母 <- 10332385-n", "母上 <- 10332385-n", "母様 <- 10332385-n", "女親 <- 10332385-n", "母じゃ人 <- 10332385-n", "お母さま <- 10332385-n", "かあ様 <- 10332385-n", "母 <- 10332385-n", "母者人 <- 10332385-n", "垂乳女 <- 10332385-n", "慈母 <- 10332385-n", "垂乳根 <- 10332385-n", "御母様 <- 10332385-n"]
-new_words = ["御袋"]
+new_senses = ["ママ"]
+new_words = ["おかあさん", "はは", "ははおや", "御袋"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["おっ母 <- wnja", "お母さん <- TUFS", "かあ様 <- wnja", "マザー <- wnja", "ムッター <- wnja", "垂乳女 <- wnja", "垂乳根 <- wnja", "女親 <- wnja", "実母 <- wnja", "御母さん <- wnja", "御母様 <- wnja", "御袋 <- wnja", "慈母 <- wnja", "母 <- TUFS, wnja", "母さん <- wnja", "母じゃ人 <- wnja", "母ちゃん <- wnja", "母上 <- wnja", "母君 <- wnja", "母御 <- wnja", "母様 <- wnja", "母者人 <- wnja", "母親 <- wnja"]
+sources = ["おかあさん <- Wikidata L405867-S1 (polite language)", "おっ母 <- wnja", "お母さん <- TUFS, Wikidata L405867-S1 (polite language)", "かあ様 <- wnja", "はは <- Wikidata L349087-S1", "ははおや <- Wikidata L1080968-S1", "マザー <- wnja", "ママ <- Wikidata L1398750-S1", "ムッター <- wnja", "垂乳女 <- wnja", "垂乳根 <- wnja", "女親 <- wnja", "実母 <- wnja", "御母さん <- wnja", "御母様 <- wnja", "御袋 <- wnja", "慈母 <- wnja", "母 <- TUFS, Wikidata L349087-S1, wnja", "母さん <- wnja", "母じゃ人 <- wnja", "母ちゃん <- wnja", "母上 <- wnja", "母君 <- wnja", "母御 <- wnja", "母様 <- wnja", "母者人 <- wnja", "母親 <- Wikidata L1080968-S1, wnja"]
 comment = ""
 
 ["Ch"]
-lemmas = ["kodomo", "お子さん", "お子様", "児", "子供", "子女", "子弟", "子種", "愛児"]
-transcribed = ["kodomo"]  # romanized in the source; no word in the native script here
+lemmas = ["おこさん", "お子さん", "お子様", "こ", "こども", "児", "子", "子供", "子女", "子弟", "子種", "愛児"]
+pronunciations = ["こども: kodomo (romanization)"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
 existing_by_ili = ["wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "tufs-ja tufs-ja-09918248-n [i88965] 子ども: (CILI) a human offspring (son or daughter) of any age"]
-existing_by_lemma = ["お子さん -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "お子様 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "児 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子供 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子供 -> wnja wnja-09918762-n [i88967] 子供: 氏族や部族の一員", "子女 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子弟 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子種 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "愛児 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）"]
-existing_hidden = 8  # other senses of these lemmas
+existing_by_lemma = ["おこさん -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "お子さん -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "お子様 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "こ -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "こ -> tufs-ja tufs-ja-14338-n [-] 五: five", "こども -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "こども -> wnja wnja-09918762-n [i88967] 子供: 氏族や部族の一員", "こども -> tufs-ja tufs-ja-09918248-n [i88965] 子ども: (CILI) a human offspring (son or daughter) of any age", "児 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子供 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子供 -> wnja wnja-09918762-n [i88967] 子供: 氏族や部族の一員", "子女 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子弟 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "子種 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）", "愛児 -> wnja wnja-09918248-n [i88965] 児, 子供, お子さん, お子様, 子女, 子弟, ...: 様々な年齢の人間の子供（息子あるいは娘）"]
+existing_hidden = 34  # other senses of these lemmas
 ntumc = ["お子様 <- 09918248-n", "子 <- 09918248-n", "子ども <- 09918248-n", "お子さん <- 09918248-n", "愛児 <- 09918248-n", "子弟 <- 09918248-n", "子女 <- 09918248-n", "子供 <- 09918248-n", "子種 <- 09918248-n"]
 new_senses = ["児"]
-new_words = ["kodomo"]
+new_words = ["おこさん", "こ", "こども"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["kodomo <- Kinbank", "お子さん <- wnja", "お子様 <- wnja", "児 <- wnja", "子供 <- wnja", "子女 <- wnja", "子弟 <- wnja", "子種 <- wnja", "愛児 <- wnja"]
+sources = ["おこさん <- Wikidata L622609-S1", "お子さん <- Wikidata L622609-S1, wnja", "お子様 <- wnja", "こ <- Wikidata L690624-S1", "こども <- Kinbank, Wikidata L55-S1", "児 <- wnja", "子 <- Wikidata L690624-S1", "子供 <- Wikidata L55-S1, wnja", "子女 <- wnja", "子弟 <- wnja", "子種 <- wnja", "愛児 <- wnja"]
 comment = ""
 
 ["So"]
-lemmas = ["ジュニア", "令息", "倅", "和郎", "坊", "坊さん", "坊ち", "坊っちゃん", "坊や", "坊主", "坊様", "子息", "小僧", "小僮", "小童", "御令息", "御坊ちゃん", "息", "息子", "息子さん", "息男", "悴", "愚息", "男の子", "男児", "男子", "童男"]
+lemmas = ["なん", "むすこ", "ジュニア", "令息", "倅", "和郎", "坊", "坊さん", "坊ち", "坊っちゃん", "坊や", "坊主", "坊様", "子息", "小僧", "小僮", "小童", "御令息", "御坊ちゃん", "息", "息子", "息子さん", "息男", "悴", "愚息", "男", "男の子", "男児", "男子", "童男"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
 existing_by_ili = ["wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子"]
-existing_by_lemma = ["ジュニア -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "令息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "倅 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "和郎 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊さん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊ち -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊っちゃん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊や -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊主 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊様 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "子息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "小僧 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "小僮 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "小童 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "御令息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "御坊ちゃん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息子 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息子さん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息男 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "悴 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "愚息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男の子 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男児 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男子 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男子 -> wnja wnja-10285938-n [i91173] 男子: 男の子供", "童男 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子"]
-existing_hidden = 32  # other senses of these lemmas
+existing_by_lemma = ["むすこ -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "ジュニア -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "令息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "倅 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "和郎 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊さん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊ち -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊っちゃん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊や -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊主 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "坊様 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "子息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "小僧 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "小僮 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "小童 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "御令息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "御坊ちゃん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息子 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息子さん -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "息男 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "悴 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "愚息 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男の子 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男児 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男子 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子", "男子 -> wnja wnja-10285938-n [i91173] 男子: 男の子供", "童男 -> wnja wnja-10624074-n [i93143] 男の子, 坊や, 小僧, 和郎, 和郎, 坊, ...: 人間の男の子"]
+existing_hidden = 47  # other senses of these lemmas
 ntumc = ["ご令息 <- 10624074-n", "令息 <- 10624074-n", "小僮 <- 10624074-n", "小僧 <- 10624074-n", "男の児 <- 10624074-n", "男の子 <- 10624074-n", "男児 <- 10624074-n", "男子 <- 10624074-n", "坊や <- 10624074-n", "和郎 <- 10624074-n", "愚息 <- 10624074-n", "坊さん <- 10624074-n", "息 <- 10624074-n", "御令息 <- 10624074-n", "倅 <- 10624074-n", "息子 <- 10624074-n", "坊 <- 10624074-n", "息男 <- 10624074-n", "お坊っちゃん <- 10624074-n", "坊ち <- 10624074-n", "坊主 <- 10624074-n", "息子さん <- 10624074-n", "坊ちゃん <- 10624074-n", "坊様 <- 10624074-n", "子息 <- 10624074-n", "お坊ちゃん <- 10624074-n", "御坊っちゃん <- 10624074-n", "童男 <- 10624074-n", "少童 <- 10624074-n", "伜 <- 10624074-n", "坊っちゃん <- 10624074-n", "ジュニア <- 10624074-n", "悴 <- 10624074-n"]
-new_senses = ["小童"]
-new_words = ["御坊ちゃん"]
+new_senses = ["小童", "男"]
+new_words = ["なん", "むすこ", "御坊ちゃん"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["ジュニア <- wnja", "令息 <- wnja", "倅 <- wnja", "和郎 <- wnja", "坊 <- wnja", "坊さん <- wnja", "坊ち <- wnja", "坊っちゃん <- wnja", "坊や <- wnja", "坊主 <- wnja", "坊様 <- wnja", "子息 <- wnja", "小僧 <- wnja", "小僮 <- wnja", "小童 <- wnja", "御令息 <- wnja", "御坊ちゃん <- wnja", "息 <- wnja", "息子 <- wnja", "息子さん <- wnja", "息男 <- wnja", "悴 <- wnja", "愚息 <- wnja", "男の子 <- wnja", "男児 <- wnja", "男子 <- wnja", "童男 <- wnja"]
+sources = ["なん <- Wikidata L1343450-S2", "むすこ <- Wikidata L622605-S1", "ジュニア <- wnja", "令息 <- wnja", "倅 <- wnja", "和郎 <- wnja", "坊 <- wnja", "坊さん <- wnja", "坊ち <- wnja", "坊っちゃん <- wnja", "坊や <- wnja", "坊主 <- wnja", "坊様 <- wnja", "子息 <- wnja", "小僧 <- wnja", "小僮 <- wnja", "小童 <- wnja", "御令息 <- wnja", "御坊ちゃん <- wnja", "息 <- wnja", "息子 <- Wikidata L622605-S1, wnja", "息子さん <- wnja", "息男 <- wnja", "悴 <- wnja", "愚息 <- wnja", "男 <- Wikidata L1343450-S2", "男の子 <- wnja", "男児 <- wnja", "男子 <- wnja", "童男 <- wnja"]
 comment = ""
 
 ["Da"]
-lemmas = ["令嬢", "娘", "娘さん", "嬢子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
+lemmas = ["むすめ", "令嬢", "娘", "娘さん", "嬢子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
 existing_by_ili = ["wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供"]
-existing_by_lemma = ["令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "御嬢さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "息女 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "愛嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供"]
-existing_hidden = 10  # other senses of these lemmas
+existing_by_lemma = ["むすめ -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "御嬢さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "息女 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "愛嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供"]
+existing_hidden = 13  # other senses of these lemmas
 ntumc = ["ご令嬢 <- 09992837-n", "息女 <- 09992837-n", "御嬢さん <- 09992837-n", "娘子 <- 09992837-n", "娘さん <- 09992837-n", "御令嬢 <- 09992837-n", "お嬢さん <- 09992837-n", "娘 <- 09992837-n", "愛嬢 <- 09992837-n", "令嬢 <- 09992837-n"]
 new_senses = ["嬢子"]
+new_words = ["むすめ"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["令嬢 <- wnja", "娘 <- wnja", "娘さん <- wnja", "嬢子 <- wnja", "御令嬢 <- wnja", "御嬢さん <- wnja", "息女 <- wnja", "愛嬢 <- wnja"]
+sources = ["むすめ <- Wikidata L622606-S1", "令嬢 <- wnja", "娘 <- Wikidata L622606-S1, wnja", "娘さん <- wnja", "嬢子 <- wnja", "御令嬢 <- wnja", "御嬢さん <- wnja", "息女 <- wnja", "愛嬢 <- wnja"]
 comment = ""
 
 ["Sp"]
-lemmas = ["haigūsha", "パートナー", "ベターハーフ", "伴侶", "配偶者"]
-transcribed = ["haigūsha"]  # romanized in the source; no word in the native script here
+lemmas = ["はいぐうしゃ", "パートナー", "ベターハーフ", "伴侶", "配偶者"]
+pronunciations = ["はいぐうしゃ: haigūsha (romanization)"]
 english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー"]
-existing_by_lemma = ["パートナー -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "ベターハーフ -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "伴侶 -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "配偶者 -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー"]
+existing_by_lemma = ["はいぐうしゃ -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "パートナー -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "ベターハーフ -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "伴侶 -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "配偶者 -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー"]
 existing_hidden = 3  # other senses of these lemmas
 ntumc = ["パートナー <- 10640620-n", "ベターハーフ <- 10640620-n", "配偶者 <- 10640620-n", "伴侶 <- 10640620-n"]
-new_words = ["haigūsha"]
+new_words = ["はいぐうしゃ"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["haigūsha <- Kinbank", "パートナー <- wnja", "ベターハーフ <- wnja", "伴侶 <- wnja", "配偶者 <- wnja"]
+sources = ["はいぐうしゃ <- Kinbank, Wikidata L1411567-S1", "パートナー <- wnja", "ベターハーフ <- wnja", "伴侶 <- wnja", "配偶者 <- Wikidata L1411567-S1, wnja"]
 comment = ""
 
 ["Hu"]
-lemmas = ["ご主人", "ご亭主", "ハズ", "ハズバンド", "主", "主人", "亭主", "入夫", "夫", "夫の君", "女房持ち", "妻帯者", "宅", "宿六", "御亭主", "既婚男性", "旦つく", "旦那", "背子", "良人"]
+lemmas = ["おっと", "おとうさん", "お父さん", "ごしゅじん", "ご主人", "ご亭主", "しゅじん", "ハズ", "ハズバンド", "主", "主人", "亭主", "入夫", "夫", "夫の君", "女房持ち", "妻帯者", "宅", "宿六", "御亭主", "既婚男性", "旦つく", "旦那", "背子", "良人"]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
 existing_by_ili = ["wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人"]
-existing_by_lemma = ["ご主人 -> tufs-ja tufs-ja-16351-n [-] ご主人: (someone else's) hasband", "ご亭主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "ハズ -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "ハズ -> wnja wnja-80001513-n [-] はず, 筈: 述べた事柄の必然性が高いことを示す際に用いられる語; 順当に考えて、それが起こることに合理性がある; 機能語", "ハズバンド -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "主人 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "亭主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "入夫 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "夫 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "夫 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "夫の君 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "女房持ち -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "妻帯者 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "宅 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "宿六 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "御亭主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "既婚男性 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "旦つく -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "旦那 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "背子 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "良人 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人"]
-existing_hidden = 21  # other senses of these lemmas
+existing_by_lemma = ["おっと -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "おとうさん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "おとうさん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "お父さん -> wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "お父さん -> tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)", "ごしゅじん -> tufs-ja tufs-ja-16351-n [-] ご主人: (someone else's) hasband", "ご主人 -> tufs-ja tufs-ja-16351-n [-] ご主人: (someone else's) hasband", "ご亭主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "しゅじん -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "ハズ -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "ハズ -> wnja wnja-80001513-n [-] はず, 筈: 述べた事柄の必然性が高いことを示す際に用いられる語; 順当に考えて、それが起こることに合理性がある; 機能語", "ハズバンド -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "主人 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "亭主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "入夫 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "夫 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "夫 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "夫の君 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "女房持ち -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "妻帯者 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "宅 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "宿六 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "御亭主 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "既婚男性 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "旦つく -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "旦那 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "背子 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "良人 -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人"]
+existing_hidden = 25  # other senses of these lemmas
 ntumc = ["旦つく <- 10193967-n", "宿六 <- 10193967-n", "旦那 <- 10193967-n", "妻帯者 <- 10193967-n", "ハズ <- 10193967-n", "女房持ち <- 10193967-n", "ご亭主 <- 10193967-n", "ハズバンド <- 10193967-n", "檀那 <- 10193967-n", "夫の君 <- 10193967-n", "夫 <- 10193967-n", "主人 <- 10193967-n", "宅 <- 10193967-n", "亭主 <- 10193967-n", "入夫 <- 10193967-n", "既婚男性 <- 10193967-n", "御亭主 <- 10193967-n", "良人 <- 10193967-n", "背子 <- 10193967-n"]
-new_senses = ["主"]
-new_words = ["ご主人"]
+new_senses = ["お父さん", "主"]
+new_words = ["おっと", "おとうさん", "ごしゅじん", "ご主人", "しゅじん"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["ご主人 <- TUFS", "ご亭主 <- wnja", "ハズ <- wnja", "ハズバンド <- wnja", "主 <- wnja", "主人 <- wnja", "亭主 <- wnja", "入夫 <- wnja", "夫 <- wnja", "夫の君 <- wnja", "女房持ち <- wnja", "妻帯者 <- wnja", "宅 <- wnja", "宿六 <- wnja", "御亭主 <- wnja", "既婚男性 <- wnja", "旦つく <- wnja", "旦那 <- wnja", "背子 <- wnja", "良人 <- wnja"]
+sources = ["おっと <- Wikidata L622610-S1", "おとうさん <- Wikidata L405866-S2 (formal register)", "お父さん <- Wikidata L405866-S2 (formal register)", "ごしゅじん <- Wikidata L626373-S1 (honorific)", "ご主人 <- TUFS, Wikidata L626373-S1 (honorific)", "ご亭主 <- wnja", "しゅじん <- Wikidata L1017746-S1", "ハズ <- wnja", "ハズバンド <- wnja", "主 <- wnja", "主人 <- Wikidata L1017746-S1, wnja", "亭主 <- wnja", "入夫 <- wnja", "夫 <- Wikidata L622610-S1, wnja", "夫の君 <- wnja", "女房持ち <- wnja", "妻帯者 <- wnja", "宅 <- wnja", "宿六 <- wnja", "御亭主 <- wnja", "既婚男性 <- wnja", "旦つく <- wnja", "旦那 <- wnja", "背子 <- wnja", "良人 <- wnja"]
 comment = ""
 
 ["Wi"]
-lemmas = ["おっ母", "ご内儀", "ご内室", "フラウ", "ミセス", "ワイフ", "上さん", "上様", "亭主もち", "亭主持", "亭主持ち", "人妻", "令夫人", "令室", "令閨", "刀自", "嚊", "嚊左衛門", "夫人", "奥さん", "奥様", "女", "女性", "女房", "妻", "妻君", "妻女", "妻室", "婦人", "嫁", "嫁さん", "嫁はん", "嬢子", "室", "室家", "家内", "家妻", "家桜", "御っ母", "御上", "御内", "御内儀", "御内儀さん", "御内室", "御新造", "御方", "愚妻", "細君", "裏方"]
+lemmas = ["おかあさん", "おくさん", "おっ母", "おなご", "お母さん", "かない", "こゆび", "ご内儀", "ご内室", "つま", "め", "フラウ", "ミセス", "ワイフ", "上さん", "上様", "亭主もち", "亭主持", "亭主持ち", "人妻", "令夫人", "令室", "令閨", "刀自", "嚊", "嚊左衛門", "夫人", "奥さん", "奥様", "女", "女子", "女性", "女房", "妻", "妻君", "妻女", "妻室", "婦人", "嫁", "嫁さん", "嫁はん", "嬢子", "室", "室家", "家内", "家妻", "家桜", "小指", "御っ母", "御上", "御内", "御内儀", "御内儀さん", "御内室", "御新造", "御方", "愚妻", "細君", "裏方"]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage"]
-existing_by_lemma = ["おっ母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "おっ母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おっ母 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ご内儀 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ご内室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "フラウ -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ミセス -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ワイフ -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "上さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "上様 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "亭主もち -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "亭主持 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "亭主持ち -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "人妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "令夫人 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "令室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "令閨 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "刀自 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嚊 -> wnja wnja-10323529-n [i91403] 嚊, 嚊: 他人の妻に対する格式張らない言葉", "嚊 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嚊左衛門 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "夫人 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "奥さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "奥さん -> tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage", "奥様 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "女 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "女性 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "女房 -> wnja wnja-10375314-n [i91723] 女房: あなた自身の妻", "女房 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻君 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻女 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "婦人 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嫁 -> wnja wnja-09874618-n [i88696] お嫁さん, 嫁, 嫁御, 嫁御前, 嫁御寮, 新妻, ...: 結婚したばかりの女性", "嫁 -> wnja wnja-09993040-n [i89399] 嫁: あなたの息子の妻", "嫁 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嫁さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嫁はん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嬢子 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "室家 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "家内 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "家妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "家桜 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御っ母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "御っ母 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御上 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内儀 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内儀さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御新造 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御方 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "愚妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "細君 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "裏方 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー"]
-existing_hidden = 43  # other senses of these lemmas
+existing_by_lemma = ["おかあさん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "おかあさん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おかあさん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "おくさん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "おくさん -> tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage", "おっ母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "おっ母 -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "おっ母 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "お母さん -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "お母さん -> wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "お母さん -> tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "かない -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ご内儀 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ご内室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "つま -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "フラウ -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ミセス -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "ワイフ -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "上さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "上様 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "亭主もち -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "亭主持 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "亭主持ち -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "人妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "令夫人 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "令室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "令閨 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "刀自 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嚊 -> wnja wnja-10323529-n [i91403] 嚊, 嚊: 他人の妻に対する格式張らない言葉", "嚊 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嚊左衛門 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "夫人 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "奥さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "奥さん -> tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage", "奥様 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "女 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "女性 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "女房 -> wnja wnja-10375314-n [i91723] 女房: あなた自身の妻", "女房 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻君 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻女 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "妻室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "婦人 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嫁 -> wnja wnja-09874618-n [i88696] お嫁さん, 嫁, 嫁御, 嫁御前, 嫁御寮, 新妻, ...: 結婚したばかりの女性", "嫁 -> wnja wnja-09993040-n [i89399] 嫁: あなたの息子の妻", "嫁 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嫁さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嫁はん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "嬢子 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "室家 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "家内 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "家妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "家桜 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御っ母 -> wnja wnja-10278128-n [i91123] ママ, 御母さん, 母, 母, おっ母, おっ母さん, ...: 母を表す砕けた言葉", "御っ母 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御上 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内儀 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内儀さん -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御内室 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御新造 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御方 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "愚妻 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "細君 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "裏方 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー"]
+existing_hidden = 72  # other senses of these lemmas
 ntumc = ["ワイフ <- 10780632-n", "ミセス <- 10780632-n", "亭主持ち <- 10780632-n", "妻室 <- 10780632-n", "御上さん <- 10780632-n", "嫁はん <- 10780632-n", "おかみさん <- 10780632-n", "御っ母 <- 10780632-n", "嫁さん <- 10780632-n", "令室 <- 10780632-n", "嬢子 <- 10780632-n", "妻 <- 10780632-n", "夫人 <- 10780632-n", "裏方 <- 10780632-n", "室家 <- 10780632-n", "嫁 <- 10780632-n", "妻女 <- 10780632-n", "御内室 <- 10780632-n", "嚊 <- 10780632-n", "婦人 <- 10780632-n", "亭主持 <- 10780632-n", "お上 <- 10780632-n", "お方 <- 10780632-n", "亭主もち <- 10780632-n", "室 <- 10780632-n", "嬶 <- 10780632-n", "おっ母 <- 10780632-n", "家桜 <- 10780632-n", "家妻 <- 10780632-n", "ご新造 <- 10780632-n", "ご内儀 <- 10780632-n", "奥様 <- 10780632-n", "ご内室 <- 10780632-n", "家内 <- 10780632-n", "嚊左衛門 <- 10780632-n", "お上さん <- 10780632-n", "令閨 <- 10780632-n", "奥さん <- 10780632-n", "令夫人 <- 10780632-n", "上様 <- 10780632-n", "愚妻 <- 10780632-n", "上さん <- 10780632-n", "女性 <- 10780632-n", "女房 <- 10780632-n", "御内 <- 10780632-n", "女君 <- 10780632-n", "刀自 <- 10780632-n", "御上 <- 10780632-n", "おかみ <- 10780632-n", "フラウ <- 10780632-n", "御内儀 <- 10780632-n", "女 <- 10780632-n", "人妻 <- 10780632-n", "細君 <- 10780632-n", "奥さま <- 10780632-n"]
-new_senses = ["御方"]
-new_words = ["妻君", "御内儀さん", "御新造"]
+new_senses = ["おなご", "お母さん", "女子", "小指", "御方"]
+new_words = ["おかあさん", "おくさん", "かない", "こゆび", "つま", "め", "妻君", "御内儀さん", "御新造"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["おっ母 <- wnja", "ご内儀 <- wnja", "ご内室 <- wnja", "フラウ <- wnja", "ミセス <- wnja", "ワイフ <- wnja", "上さん <- wnja", "上様 <- wnja", "亭主もち <- wnja", "亭主持 <- wnja", "亭主持ち <- wnja", "人妻 <- wnja", "令夫人 <- wnja", "令室 <- wnja", "令閨 <- wnja", "刀自 <- wnja", "嚊 <- wnja", "嚊左衛門 <- wnja", "夫人 <- wnja", "奥さん <- TUFS, wnja", "奥様 <- wnja", "女 <- wnja", "女性 <- wnja", "女房 <- wnja", "妻 <- wnja", "妻君 <- wnja", "妻女 <- wnja", "妻室 <- wnja", "婦人 <- wnja", "嫁 <- wnja", "嫁さん <- wnja", "嫁はん <- wnja", "嬢子 <- wnja", "室 <- wnja", "室家 <- wnja", "家内 <- wnja", "家妻 <- wnja", "家桜 <- wnja", "御っ母 <- wnja", "御上 <- wnja", "御内 <- wnja", "御内儀 <- wnja", "御内儀さん <- wnja", "御内室 <- wnja", "御新造 <- wnja", "御方 <- wnja", "愚妻 <- wnja", "細君 <- wnja", "裏方 <- wnja"]
+sources = ["おかあさん <- Wikidata L405867-S2", "おくさん <- Wikidata L626379-S1", "おっ母 <- wnja", "おなご <- Wikidata L1460438-S1", "お母さん <- Wikidata L405867-S2", "かない <- Wikidata L1017748-S1", "こゆび <- Wikidata L1221483-S5", "ご内儀 <- wnja", "ご内室 <- wnja", "つま <- Wikidata L622608-S1", "め <- Wikidata L1338947-S3", "フラウ <- wnja", "ミセス <- wnja", "ワイフ <- wnja", "上さん <- wnja", "上様 <- wnja", "亭主もち <- wnja", "亭主持 <- wnja", "亭主持ち <- wnja", "人妻 <- wnja", "令夫人 <- wnja", "令室 <- wnja", "令閨 <- wnja", "刀自 <- wnja", "嚊 <- wnja", "嚊左衛門 <- wnja", "夫人 <- wnja", "奥さん <- TUFS, Wikidata L626379-S1, wnja", "奥様 <- wnja", "女 <- Wikidata L1338947-S3, wnja", "女子 <- Wikidata L1460438-S1", "女性 <- wnja", "女房 <- wnja", "妻 <- Wikidata L622608-S1, wnja", "妻君 <- wnja", "妻女 <- wnja", "妻室 <- wnja", "婦人 <- wnja", "嫁 <- wnja", "嫁さん <- wnja", "嫁はん <- wnja", "嬢子 <- wnja", "室 <- wnja", "室家 <- wnja", "家内 <- Wikidata L1017748-S1, wnja", "家妻 <- wnja", "家桜 <- wnja", "小指 <- Wikidata L1221483-S5", "御っ母 <- wnja", "御上 <- wnja", "御内 <- wnja", "御内儀 <- wnja", "御内儀さん <- wnja", "御内室 <- wnja", "御新造 <- wnja", "御方 <- wnja", "愚妻 <- wnja", "細君 <- wnja", "裏方 <- wnja"]
 comment = ""
 
 ["InL"]
@@ -747,19 +814,19 @@ sources = ["girinochichi <- Kinbank", "岳父 <- wnja", "義父 <- wnja", "舅 <
 comment = ""
 
 ["Sp;Mo"]
-lemmas = ["girinohaha", "姑", "義母"]
+lemmas = ["girinohaha", "ぎぼ", "姑", "義母"]
 transcribed = ["girinohaha"]  # romanized in the source; no word in the native script here
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
 existing_by_ili = ["wnja wnja-10333317-n [i91467] 義母, 姑, 姑: 配偶者の母親"]
-existing_by_lemma = ["姑 -> wnja wnja-10333317-n [i91467] 義母, 姑, 姑: 配偶者の母親", "義母 -> wnja wnja-10333317-n [i91467] 義母, 姑, 姑: 配偶者の母親", "義母 -> wnja wnja-10654827-n [i93311] 義母, まま母, ステップマザー, 継母, 継母: 父の再婚による妻"]
-existing_hidden = 1  # other senses of these lemmas
+existing_by_lemma = ["ぎぼ -> wnja wnja-10333317-n [i91467] 義母, 姑, 姑: 配偶者の母親", "ぎぼ -> wnja wnja-10654827-n [i93311] 義母, まま母, ステップマザー, 継母, 継母: 父の再婚による妻", "姑 -> wnja wnja-10333317-n [i91467] 義母, 姑, 姑: 配偶者の母親", "義母 -> wnja wnja-10333317-n [i91467] 義母, 姑, 姑: 配偶者の母親", "義母 -> wnja wnja-10654827-n [i93311] 義母, まま母, ステップマザー, 継母, 継母: 父の再婚による妻"]
+existing_hidden = 2  # other senses of these lemmas
 ntumc = ["姑 <- 10333317-n", "義母 <- 10333317-n"]
-new_words = ["girinohaha"]
+new_words = ["girinohaha", "ぎぼ"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["girinohaha <- Kinbank", "姑 <- wnja", "義母 <- wnja"]
+sources = ["girinohaha <- Kinbank", "ぎぼ <- Wikidata L1352740-S1", "姑 <- wnja", "義母 <- Wikidata L1352740-S1, wnja"]
 comment = ""
 
 ["Ch;Sp"]
@@ -1538,25 +1605,6 @@ hypernyms = ["Da;Da", "o;Ch;Da", "o;Da;Ch"]
 ancestors = ["Da;Da", "o;Ch;Da", "o;Da;Ch", "Ch;Da", "Da;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["Br"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "brother"
-definition = "a brother of a person (a sibling)"
-existing_by_ili = ["tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male"]
-hypernyms = ["Br|Pa;Sb;So", "Sb"]
-ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Ss"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "sister"
-definition = "a sister of a person (a sibling)"
-hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
-ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
 ["x;Br"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
@@ -1870,24 +1918,6 @@ label = "mother's younger sibling"
 definition = "a younger sibling of one's mother (an uncle or aunt)"
 hypernyms = ["Mo;Sb"]
 ancestors = ["Mo;Sb", "Pb", "Rel"]
-comment = ""
-
-["Fa;El;Br"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "father's elder brother"
-definition = "an elder brother of one's father (an uncle or aunt)"
-hypernyms = ["Fa;Br", "Pa;El;Br"]
-ancestors = ["Fa;Br", "Pa;El;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
-comment = ""
-
-["Fa;Yn;Br"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "father's younger brother"
-definition = "a younger brother of one's father (an uncle or aunt)"
-hypernyms = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br"]
-ancestors = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
 comment = ""
 
 ["Fa;El;Ss"]

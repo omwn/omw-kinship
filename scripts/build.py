@@ -53,7 +53,7 @@ REPORTS = ROOT / "reports"
 #: the hierarchy browser, docs/hierarchy/index.html, and the data it shows
 BROWSER = ROOT / "docs" / "hierarchy"
 
-VERSION = "0.2"
+VERSION = "0.3"
 EMAIL = "bond@ieee.org"
 LICENSE = "https://creativecommons.org/licenses/by-sa/3.0/"
 URL = "https://github.com/omwn/omw-kinship"
@@ -550,13 +550,20 @@ def add_wikidata(languages: dict[str, Language], concepts: dict[str, Concept]) -
     often descriptions or the wrong sense (Telugu *akka* "elder sister" as the
     label of *sibling*). Senses whose language style makes them a joke, an
     insult, slang or a metaphor are left out. Like the wordnet words, nobody has
-    checked them.
+    checked them. A sense's style is kept in its source: ``Wikidata L…-S…
+    (informal)``.
     """
     for row in read_tsv(CANDIDATES / "wikidata-words.tsv"):
-        if row["kind"] == "lexeme" and row["note"] not in WIKIDATA_STYLES_LEFT_OUT:
+        styles = set(row["note"].split(", ")) if row["note"] else set()
+        if row["kind"] == "lexeme" and not styles & WIKIDATA_STYLES_LEFT_OUT:
             name = register_language(row["language"], row["tag"])
+            style = f" ({row['note']})" if row["note"] else ""
             add_word(
-                languages, name, row["word"], concepts[row["concept"]], row["source"]
+                languages,
+                name,
+                row["word"],
+                concepts[row["concept"]],
+                row["source"] + style,
             )
 
 
