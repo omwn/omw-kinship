@@ -16,7 +16,10 @@ that wordnet lacks, for merging them into it.
 For Cantonese, ``review/kinterms-yue-proposed.tsv`` adds proposed terms (characters and
 Jyutping) that are not yet in the build.
 
-Usage: uv run scripts/kin_review.py [tag ...]   (default: en cmn ja id cs yue; run build.py first)
+Where a clone of ProSub is at ``../ProSub``, tables also list the kin terms it
+suggests, which are not in the build (`prosub`).
+
+Usage: uv run scripts/kin_review.py [tag ...]   (default: en cmn ja id cs yue ms; run build.py first)
 """
 
 from __future__ import annotations
@@ -32,6 +35,7 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 import cygnet_wordnets
+import prosub
 
 import build
 
@@ -316,8 +320,9 @@ def write(
     words, gaps, phrases = read_lexicon(tag)
     sounds = read_sounds(tag)
     proposed = proposals(tag)
+    suggested = prosub.suggestions(tag, concepts)
     order = list(concepts)
-    listed = set(words) | set(proposed) | gaps
+    listed = set(words) | set(proposed) | gaps | set(suggested)
     above = {a for code in listed for a in ancestors(code, parents)}
     lines = [
         f"# OMW kinship terms for {tag}, from the built lexicon {build.BASE}-{tag}.",
@@ -355,18 +360,31 @@ def write(
             "# `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its"
             " own knowledge, for a speaker to check (Jyutping romanization)."
         )
+    if suggested:
+        lines += [
+            f"# prosub: suggested words from ProSub ({prosub.version()}; Okano et al. 2022),",
+            '#   NOT in the build (no licence yet), as form "gloss" [items] uses, where',
+            "#   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):",
+            "#   the word's items match no concept. prosub_new: those not in `lemmas`.",
+        ]
     lines.append("")
-    written = sorted(set(words) | set(proposed) | (above - gaps), key=order.index)
+    written = sorted(
+        set(words) | set(proposed) | set(suggested) | (above - gaps), key=order.index
+    )
     for code in written:
         concept = concepts[code]
         lines.append(f"[{s(code)}]")
         lines.append(f"lemmas = {array(list(words.get(code, {})))}")
         lines += sound_lines(list(words.get(code, {})), sounds)
-        if code in gaps:
+        if code in gaps and code not in words and code not in proposed:
+            lines.append(
+                'status = "KinDiv records a gap here, but ProSub suggests words: check"'
+            )
+        elif code in gaps:
             lines.append(
                 'status = "KinDiv records a gap here, but there are words: check"'
             )
-        elif code not in words and code not in proposed:
+        elif code not in words and code not in proposed and code not in suggested:
             lines.append(
                 f'status = "unlexicalized: no {tag} word; included for the hierarchy"'
             )
@@ -381,6 +399,11 @@ def write(
             notes = [f"{p['lemma']}: {p['note']}" for p in proposed[code] if p["note"]]
             if notes:
                 lines.append(f"notes = {array(notes)}")
+        if suggested.get(code):
+            lines.append(f"prosub = {array([line for _, line in suggested[code]])}")
+            new = sorted({f for f, _ in suggested[code]} - set(words.get(code, {})))
+            if new:
+                lines.append(f"prosub_new = {array(new)}")
         if tag != "en":
             eng, via = english_for(code, english, ancestry)
             if eng:
@@ -421,7 +444,7 @@ def write(
 
 def main() -> None:
     """Write the review files."""
-    tags = sys.argv[1:] or ["en", "cmn", "ja", "id", "cs", "yue"]
+    tags = sys.argv[1:] or ["en", "cmn", "ja", "id", "cs", "yue", "ms"]
     concepts = build.read_concepts()
     ancestry = build.read_hierarchy(concepts)
     parents = build.nearest(set(concepts), ancestry)

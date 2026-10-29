@@ -9,6 +9,10 @@
 # ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
+# prosub: suggested words from ProSub (abd4dd6; Okano et al. 2022),
+#   NOT in the build (no licence yet), as form "gloss" [items] uses, where
+#   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
+#   the word's items match no concept. prosub_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["祖父母"]
@@ -26,6 +30,8 @@ comment = ""
 
 ["Pa;Fa"]
 lemmas = ["おじいさん", "お爺ちゃん", "お祖父", "お祖父ちゃん", "お祖父様", "そふ", "御祖父", "御祖父さん", "御祖父様", "爺さん", "祖", "祖父", "祖父さま", "祖父上", "祖父君", "祖父御", "祖父様", "親"]
+prosub = ["祖父 \"grandfather\" [18,19] no person use", "おじいちゃん \"grandfather\" [18,19] 1st 2nd address title", "おじいさん \"grand father\" [18,19] 1st 2nd address title"]
+prosub_new = ["おじいちゃん"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -42,6 +48,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["おばあさん", "おばあちゃん", "お婆さん", "お婆ちゃん", "お祖母", "お祖母さま", "お祖母さん", "お祖母ちゃん", "お祖母様", "そぼ", "ばあちゃん", "ばば", "バアチャン", "婆さん", "御祖母", "御祖母さん", "御祖母ちゃん", "祖母", "祖母さま", "祖母ちゃん", "祖母様"]
+prosub = ["祖母 \"grandmother\" [20,21] no person use", "おばあさん \"grandmother\" [20,21] 1st 2nd address title", "おばあちゃん \"grandmother\" [20,21] 1st 2nd address title"]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -81,6 +88,7 @@ comment = ""
 ["Ch;Ch"]
 lemmas = ["まご", "令孫", "孫", "御孫さん"]
 pronunciations = ["まご: maago (romanization)"]
+prosub = ["孫 \"grandchild\" [29] no person use"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -191,6 +199,8 @@ comment = ""
 
 ["El;Br"]
 lemmas = ["あに", "お兄さん", "けい", "兄", "兄い", "兄さん", "兄じゃ", "兄じゃ人", "兄ちゃん", "兄人", "兄君", "兄御", "兄様", "兄者", "兄者人", "兄貴", "大兄", "実兄"]
+prosub = ["兄貴 \"elder brother\" [22] 2nd address", "お兄さん \"elder brother\" [22] 1st 2nd address title", "お兄ちゃん \"elder brother\" [22] 1st 2nd address title"]
+prosub_new = ["お兄ちゃん"]
 english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
@@ -206,6 +216,8 @@ comment = ""
 
 ["El;Ss"]
 lemmas = ["あね", "おねえさん", "お姉さん", "ねえ", "姉", "姉ちゃん"]
+prosub = ["姉貴 \"elder sister\" [23] 2nd address", "お姉さん \"elder sister\" [23] 1st 2nd address title", "お姉ちゃん \"elder sister\" [23] 1st 2nd address title"]
+prosub_new = ["お姉ちゃん", "姉貴"]
 english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
@@ -222,6 +234,7 @@ comment = ""
 
 ["Yn;Br"]
 lemmas = ["おと", "おとうと", "弟", "弟さん"]
+prosub = ["弟 \"younger brother\" [24] no person use"]
 english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
@@ -237,6 +250,7 @@ comment = ""
 
 ["Yn;Ss"]
 lemmas = ["いも", "いもうと", "いもうとご", "いもうとさん", "まい", "妹", "妹さん", "妹君", "妹御", "小妹"]
+prosub = ["妹 \"younger sister\" [25] no person use"]
 english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
@@ -252,6 +266,8 @@ comment = ""
 
 ["Pa;Br"]
 lemmas = ["おじ", "おじき", "おじさん"]
+prosub = ["おじ \"uncle\" [10,11,12,13] no person use", "おじさん \"uncle\" [10,11,12,13] 1st 2nd address title", "おじちゃん \"uncle\" [10,11,12,13] 1st 2nd address title"]
+prosub_new = ["おじちゃん"]
 english = ["uncle"]
 label = "uncle"
 definition = "a brother of one's parent (an uncle or aunt)"
@@ -266,6 +282,8 @@ comment = ""
 
 ["Pa;Ss"]
 lemmas = ["おば"]
+prosub = ["おば \"aunt\" [14,15,16,17] no person use", "おばちゃん \"aunt\" [14,15,16,17] 1st 2nd address title", "おばさん \"aunt\" [14,15,16,17] 1st 2nd address title"]
+prosub_new = ["おばさん", "おばちゃん"]
 english = ["aunt"]
 label = "aunt"
 definition = "a sister of one's parent (an uncle or aunt)"
@@ -307,6 +325,7 @@ comment = ""
 ["Sb;So"]
 lemmas = ["おい", "猶子", "甥", "甥御", "甥御さん"]
 pronunciations = ["おい: oii (romanization)"]
+prosub = ["甥 \"nephew\" [32] no person use"]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
@@ -323,6 +342,7 @@ comment = ""
 ["Sb;Da"]
 lemmas = ["めい", "姪", "姪子", "姪御", "姪御さん"]
 pronunciations = ["めい: mei (romanization)"]
+prosub = ["姪 \"niece\" [33] no person use"]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
@@ -383,6 +403,7 @@ comment = ""
 ["Pa;Sb;Ch"]
 lemmas = ["いとこ", "従兄", "従兄弟", "従妹", "従姉", "従姉妹", "従弟"]
 pronunciations = ["いとこ: itoko (romanization)"]
+prosub = ["いとこ \"cousin\" [34] no person use"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
@@ -647,6 +668,8 @@ comment = ""
 
 ["Fa"]
 lemmas = ["おとうさん", "おとっつあん", "おやじ様", "お父さん", "お父っさん", "お父っつぁん", "ちち", "てて親", "とうさん", "パパ", "ファーザー", "乃父", "厳親", "垂乳根", "実父", "師父", "御父さん", "御父っさん", "御父っつぁん", "御父様", "椿堂", "父", "父さん", "父っつぁん", "父上", "父君", "父御", "父様", "父親", "男親", "親父", "親父さま"]
+prosub = ["父 \"father\" [8] no person use", "おやじ \"father\" [8] 2nd address", "パパ \"dad\" [8] 1st 2nd address", "お父さん \"father\" [8] 1st 2nd address"]
+prosub_new = ["おやじ"]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -663,6 +686,7 @@ comment = ""
 
 ["Mo"]
 lemmas = ["おかあさん", "おっ母", "お母さん", "かあ様", "はは", "ははおや", "マザー", "ママ", "ムッター", "垂乳女", "垂乳根", "女親", "実母", "御母さん", "御母様", "御袋", "慈母", "母", "母さん", "母じゃ人", "母ちゃん", "母上", "母君", "母御", "母様", "母者人", "母親"]
+prosub = ["ママ \"mom\" [9] 1st 2nd address", "母 \"mother\" [9] no person use", "お母さん \"mother\" [9] 1st 2nd address"]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -680,6 +704,7 @@ comment = ""
 ["Ch"]
 lemmas = ["おこさん", "お子さん", "お子様", "こ", "こども", "児", "子", "子供", "子女", "子弟", "子種", "愛児"]
 pronunciations = ["こども: kodomo (romanization)"]
+prosub = ["子 \"child\" [26] no person use"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -696,6 +721,7 @@ comment = ""
 
 ["So"]
 lemmas = ["なん", "むすこ", "ジュニア", "令息", "倅", "和郎", "坊", "坊さん", "坊ち", "坊っちゃん", "坊や", "坊主", "坊様", "子息", "小僧", "小僮", "小童", "御令息", "御坊ちゃん", "息", "息子", "息子さん", "息男", "悴", "愚息", "男", "男の子", "男児", "男子", "童男"]
+prosub = ["息子 \"son\" [27] no person use"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -712,6 +738,7 @@ comment = ""
 
 ["Da"]
 lemmas = ["むすめ", "令嬢", "娘", "娘さん", "嬢子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
+prosub = ["娘 \"daughter\" [28] no person use"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -841,6 +868,7 @@ comment = ""
 
 ["Da;Hu"]
 lemmas = ["婿"]
+prosub = ["婿 \"son in law\" [31] no person use"]
 english = ["son-in-law"]
 label = "son-in-law"
 definition = "the husband of one's daughter (an in-law)"
@@ -855,6 +883,7 @@ comment = ""
 
 ["So;Wi"]
 lemmas = ["嫁"]
+prosub = ["嫁 \"daughter in law\" [30] no person use"]
 english = ["daughter-in-law"]
 label = "daughter-in-law"
 definition = "the wife of one's son (an in-law)"

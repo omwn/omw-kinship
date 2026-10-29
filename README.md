@@ -47,6 +47,13 @@ uv run --with pytest --with langcodes --with language_data --with unidecode pyte
 Only `build.py` is needed to rebuild the release; the others refresh its
 inputs from clones of TUFS and Kinbank next to this repository.
 
+`kin_review.py` also reads a clone of [ProSub](https://github.com/matbahasa/ProSub)
+(`../ProSub`) if there is one: for Japanese, Korean, Indonesian, Malay, Javanese,
+Thai, Vietnamese and Burmese, its 27 kin items give suggested words, with whether
+each can refer to the speaker or addressee or serve as an address term or title
+(`prosub` in the review files). ProSub has no licence yet, so these words are for
+review only and are not in the build.
+
 `docs/hierarchy/index.html` browses the concept hierarchy, drawing each concept
 as its kin-type features (FEATURES.md), with one language's words and gaps
 marked on it. Open it from disk or serve `docs/` with GitHub Pages; `build.py`

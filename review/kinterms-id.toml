@@ -9,6 +9,10 @@
 # ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
+# prosub: suggested words from ProSub (abd4dd6; Okano et al. 2022),
+#   NOT in the build (no licence yet), as form "gloss" [items] uses, where
+#   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
+#   the word's items match no concept. prosub_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["datuk", "nenek"]
@@ -26,6 +30,7 @@ comment = ""
 
 ["Pa;Fa"]
 lemmas = ["datuk", "engkong", "kakek"]
+prosub = ["kakek \"grandfather\" [18,19] 1st 2nd address"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -42,6 +47,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["nek", "nenek", "nénék"]
+prosub = ["nenek \"grandmother\" [20,21] 1st 2nd address"]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -78,6 +84,7 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["cucu", "cucunda", "tjutju"]
+prosub = ["cucu \"grandchild\" [29] no person use"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -140,6 +147,7 @@ comment = ""
 
 ["El;Sb"]
 lemmas = ["kakak"]
+prosub = ["kakak \"elder brother, elder sister\" [22,23] 1st 2nd address"]
 english = ["sib", "sibling"]
 english_via = "Sb"
 label = "elder sibling"
@@ -154,6 +162,7 @@ comment = ""
 
 ["Yn;Sb"]
 lemmas = ["adik"]
+prosub = ["adik \"younger brother, younger sister\" [24,25] 1st 2nd address"]
 english = ["sib", "sibling"]
 english_via = "Sb"
 label = "younger sibling"
@@ -194,6 +203,7 @@ comment = ""
 
 ["Pa;Br"]
 lemmas = ["om", "paman"]
+prosub = ["om \"uncle\" [10,11,12,13] 1st 2nd address title"]
 english = ["uncle"]
 label = "uncle"
 definition = "a brother of one's parent (an uncle or aunt)"
@@ -206,6 +216,8 @@ comment = ""
 
 ["Pa;Ss"]
 lemmas = ["bibi"]
+prosub = ["tante \"aunt\" [14,15,16,17] 1st 2nd address title"]
+prosub_new = ["tante"]
 english = ["aunt"]
 label = "aunt"
 definition = "a sister of one's parent (an uncle or aunt)"
@@ -218,7 +230,8 @@ comment = ""
 
 ["Fa;Br"]
 lemmas = []
-status = "unlexicalized: no id word; included for the hierarchy"
+prosub = ["paman \"uncle\" [10,12] 1st 2nd address title"]
+prosub_new = ["paman"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "paternal uncle"
@@ -295,7 +308,8 @@ comment = ""
 
 ["Pa;Yn;Ss"]
 lemmas = []
-status = "unlexicalized: no id word; included for the hierarchy"
+prosub = ["bibi \"aunt\" [16,17] 1st 2nd address title"]
+prosub_new = ["bibi"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "parent's younger sister"
@@ -304,8 +318,23 @@ hypernyms = ["Pa;Ss"]
 ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
+["Mo;El;Br"]
+lemmas = []
+status = "KinDiv records a gap here, but ProSub suggests words: check"
+prosub = ["uwak \"uncle (parent's elder brother)\" [11] 1st 2nd address title"]
+prosub_new = ["uwak"]
+english = ["uncle"]
+english_via = "Pa;Br"
+label = "mother's elder brother"
+definition = "an elder brother of one's mother (an uncle or aunt)"
+hypernyms = ["Mo;Br", "Pa;El;Br"]
+ancestors = ["Mo;Br", "Pa;El;Br", "Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
+comment = ""
+
 ["Sb;Ch"]
 lemmas = ["kemanakan"]
+prosub = ["keponakan [32,33] no person use"]
+prosub_new = ["keponakan"]
 english = ["relation", "relative"]
 english_via = "Rel"
 label = "nibling"
@@ -345,6 +374,7 @@ comment = ""
 
 ["Pa;Sb;Ch"]
 lemmas = ["saudara", "saudara pupu", "saudara sepupu", "sepupu"]
+prosub = ["sepupu [34] no person use"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
@@ -415,6 +445,8 @@ comment = ""
 
 ["Fa"]
 lemmas = ["aba", "abah", "ayah", "ayahanda", "babak", "bapa", "papa"]
+prosub = ["bapak \"father\" [8] 1st 2nd address title", "papah \"daddy\" [8] 1st 2nd address", "papi \"father, daddy\" [8] 1st 2nd address", "ayah \"father, daddy\" [8] 1st 2nd address"]
+prosub_new = ["bapak", "papah", "papi"]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -430,6 +462,7 @@ comment = ""
 
 ["Mo"]
 lemmas = ["bonda", "emak", "ibu", "ibunda", "mama", "mami", "umi", "ummi"]
+prosub = ["emak \"mother, mum\" [9] 1st address", "mami \"mother, mommy\" [9] 1st 2nd address", "ibu \"mother\" [9] 1st 2nd address title"]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -445,6 +478,7 @@ comment = ""
 
 ["Ch"]
 lemmas = ["anak", "budak", "kanak-kanak"]
+prosub = ["anak \"child, kid\" [26] no person use"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -459,6 +493,8 @@ comment = ""
 
 ["So"]
 lemmas = ["putera"]
+prosub = ["putra \"son\" [27] no person use", "anak laki-laki \"son\" [27] no person use"]
+prosub_new = ["anak laki-laki", "putra"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -473,6 +509,8 @@ comment = ""
 
 ["Da"]
 lemmas = ["amoi", "anak", "anak dara", "anak gadis", "puteri"]
+prosub = ["putri \"daughter\" [28] no person use", "anak perempuan \"daughter\" [28] no person use"]
+prosub_new = ["anak perempuan", "putri"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -571,6 +609,7 @@ comment = ""
 
 ["Da;Hu"]
 lemmas = ["menantu"]
+prosub = ["menantu \"daughter-in-law, son-in-law\" [30,31] no person use (partial)"]
 english = ["son-in-law"]
 label = "son-in-law"
 definition = "the husband of one's daughter (an in-law)"
@@ -584,6 +623,7 @@ comment = ""
 
 ["So;Wi"]
 lemmas = ["menantu"]
+prosub = ["menantu \"daughter-in-law, son-in-law\" [30,31] no person use (partial)"]
 english = ["daughter-in-law"]
 label = "daughter-in-law"
 definition = "the wife of one's son (an in-law)"
@@ -1098,15 +1138,6 @@ label = "father's younger sister"
 definition = "a younger sister of one's father (an uncle or aunt)"
 hypernyms = ["Fa;Ss", "Fa;Yn;Sb", "Pa;Yn;Ss"]
 ancestors = ["Fa;Ss", "Fa;Yn;Sb", "Pa;Yn;Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-comment = ""
-
-["Mo;El;Br"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "mother's elder brother"
-definition = "an elder brother of one's mother (an uncle or aunt)"
-hypernyms = ["Mo;Br", "Pa;El;Br"]
-ancestors = ["Mo;Br", "Pa;El;Br", "Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
 comment = ""
 
 ["Mo;Yn;Br"]
