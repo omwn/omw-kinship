@@ -13,6 +13,10 @@
 #   NOT in the build (no licence yet), as form "gloss" [items] uses, where
 #   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
 #   the word's items match no concept. prosub_new: those not in `lemmas`.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["datuk", "nenek"]
@@ -31,6 +35,8 @@ comment = ""
 ["Pa;Fa"]
 lemmas = ["datuk", "engkong", "kakek"]
 prosub = ["kakek \"grandfather\" [18,19] 1st 2nd address"]
+omniglot = ["kakek \"grandfather\"", "buyut \"grandfather\""]
+omniglot_new = ["buyut"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -48,6 +54,7 @@ comment = ""
 ["Pa;Mo"]
 lemmas = ["nek", "nenek", "nénék"]
 prosub = ["nenek \"grandmother\" [20,21] 1st 2nd address"]
+omniglot = ["nenek \"grandmother\""]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -85,6 +92,7 @@ comment = ""
 ["Ch;Ch"]
 lemmas = ["cucu", "cucunda", "tjutju"]
 prosub = ["cucu \"grandchild\" [29] no person use"]
+omniglot = ["cucu \"grandchild\" (both genders)"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -99,6 +107,8 @@ comment = ""
 
 ["Ch;So"]
 lemmas = ["cucu"]
+omniglot = ["cucu lelaki \"grandson\"", "cucunya \"grandson\""]
+omniglot_new = ["cucu lelaki", "cucunya"]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
@@ -110,8 +120,21 @@ ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["cucu <- wnb-id"]
 comment = ""
 
+["Ch;Da"]
+lemmas = []
+omniglot = ["cucu perempuan \"granddaughter\""]
+omniglot_new = ["cucu perempuan"]
+english = ["granddaughter"]
+label = "granddaughter"
+definition = "a daughter of one's child (a grandchild)"
+ntumc = ["cucu perempuan <- 10141732-n"]
+hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
+ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+comment = ""
+
 ["Sb"]
 lemmas = ["adik", "adik-beradik", "saudara", "saudara kandung"]
+omniglot = ["saudara kandung \"sibling\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
@@ -176,6 +199,8 @@ comment = ""
 
 ["El;Br"]
 lemmas = ["abang", "kakak laki-laki"]
+omniglot = ["abang \"brother\" (older)", "bang \"brother\" (older)", "bung \"brother\" (older)", "kakak \"brother\" (older)", "kak \"brother\" (older)"]
+omniglot_new = ["bang", "bung", "kakak", "kak"]
 english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
@@ -190,6 +215,8 @@ comment = ""
 
 ["El;Ss"]
 lemmas = ["kakak perempuan"]
+omniglot = ["adik \"sister\" (older)", "kakak \"sister\" (older)", "kak \"sister\" (older)"]
+omniglot_new = ["adik", "kakak", "kak"]
 english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
@@ -199,6 +226,28 @@ ntumc = ["kakak perempuan <- 09854218-n"]
 hypernyms = ["El;Sb", "Ss"]
 ancestors = ["El;Sb", "Ss", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["kakak perempuan <- TUFS"]
+comment = ""
+
+["Yn;Br"]
+lemmas = []
+omniglot = ["adik laki-laki \"brother\" (younger)"]
+omniglot_new = ["adik laki-laki"]
+english = ["little brother"]
+label = "younger brother"
+definition = "a younger brother of a person (a sibling)"
+hypernyms = ["Br", "Yn;Sb"]
+ancestors = ["Br", "Yn;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Yn;Ss"]
+lemmas = []
+omniglot = ["adik perempuan \"sister\" (younger)"]
+omniglot_new = ["adik perempuan"]
+english = ["little sister"]
+label = "younger sister"
+definition = "a younger sister of a person (a sibling)"
+hypernyms = ["Ss", "Yn;Sb"]
+ancestors = ["Ss", "Yn;Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["Pa;Br"]
@@ -320,7 +369,7 @@ comment = ""
 
 ["Mo;El;Br"]
 lemmas = []
-status = "KinDiv records a gap here, but ProSub suggests words: check"
+status = "KinDiv records a gap here, but other sources suggest words: check"
 prosub = ["uwak \"uncle (parent's elder brother)\" [11] 1st 2nd address title"]
 prosub_new = ["uwak"]
 english = ["uncle"]
@@ -335,6 +384,8 @@ comment = ""
 lemmas = ["kemanakan"]
 prosub = ["keponakan [32,33] no person use"]
 prosub_new = ["keponakan"]
+omniglot = ["keponakan \"nephew, niece\""]
+omniglot_new = ["keponakan"]
 english = ["relation", "relative"]
 english_via = "Rel"
 label = "nibling"
@@ -348,6 +399,8 @@ comment = ""
 
 ["Sb;So"]
 lemmas = ["anak saudara"]
+omniglot = ["kemenakan laki-laki \"nephew\"", "keponakan laki-lak \"nephew\""]
+omniglot_new = ["kemenakan laki-laki", "keponakan laki-lak"]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
@@ -361,6 +414,8 @@ comment = ""
 
 ["Sb;Da"]
 lemmas = ["kemanakan"]
+omniglot = ["kemenakan perempuan \"niece\"", "keponakan perempuan \"niece\""]
+omniglot_new = ["kemenakan perempuan", "keponakan perempuan"]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
@@ -375,6 +430,7 @@ comment = ""
 ["Pa;Sb;Ch"]
 lemmas = ["saudara", "saudara pupu", "saudara sepupu", "sepupu"]
 prosub = ["sepupu [34] no person use"]
+omniglot = ["saudara sepupu \"cousin\"", "sepupu \"cousin\""]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
@@ -390,6 +446,8 @@ comment = ""
 
 ["Rel"]
 lemmas = ["anak sanak", "kaum keluarga", "keluarga", "saudara", "saudara-mara"]
+omniglot = ["relatip \"relatives\"", "nisbi \"relatives\"", "sehubungan \"relatives\""]
+omniglot_new = ["relatip", "nisbi", "sehubungan"]
 english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
@@ -404,6 +462,7 @@ comment = ""
 
 ["Unc"]
 lemmas = ["pak cu", "paman", "wak"]
+omniglot = ["paman \"uncle\""]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
@@ -418,6 +477,7 @@ comment = ""
 
 ["Aun"]
 lemmas = ["bibi", "ibu saudara", "tante", "wak"]
+omniglot = ["bibi \"aunt\""]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
@@ -431,6 +491,8 @@ comment = ""
 
 ["Pa"]
 lemmas = ["ayah bonda", "ibu bapa", "orang tua"]
+omniglot = ["ibu-bapa \"parents\""]
+omniglot_new = ["ibu-bapa"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -447,6 +509,8 @@ comment = ""
 lemmas = ["aba", "abah", "ayah", "ayahanda", "babak", "bapa", "papa"]
 prosub = ["bapak \"father\" [8] 1st 2nd address title", "papah \"daddy\" [8] 1st 2nd address", "papi \"father, daddy\" [8] 1st 2nd address", "ayah \"father, daddy\" [8] 1st 2nd address"]
 prosub_new = ["bapak", "papah", "papi"]
+omniglot = ["ayahanda \"father\" (vfrm)", "ayah \"father\" (frm)", "bapak \"father\"", "pak \"father\" (inf)"]
+omniglot_new = ["bapak", "pak"]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -463,6 +527,8 @@ comment = ""
 ["Mo"]
 lemmas = ["bonda", "emak", "ibu", "ibunda", "mama", "mami", "umi", "ummi"]
 prosub = ["emak \"mother, mum\" [9] 1st address", "mami \"mother, mommy\" [9] 1st 2nd address", "ibu \"mother\" [9] 1st 2nd address title"]
+omniglot = ["ibunda \"mother\" (vfrm)", "bunda \"mother\" (frm)", "ibu \"mother\" (inf)"]
+omniglot_new = ["bunda"]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -479,6 +545,8 @@ comment = ""
 ["Ch"]
 lemmas = ["anak", "budak", "kanak-kanak"]
 prosub = ["anak \"child, kid\" [26] no person use"]
+omniglot = ["anak \"child(-ren)\"", "bani \"child(-ren)\""]
+omniglot_new = ["bani"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -495,6 +563,8 @@ comment = ""
 lemmas = ["putera"]
 prosub = ["putra \"son\" [27] no person use", "anak laki-laki \"son\" [27] no person use"]
 prosub_new = ["anak laki-laki", "putra"]
+omniglot = ["putra \"son\""]
+omniglot_new = ["putra"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -511,6 +581,8 @@ comment = ""
 lemmas = ["amoi", "anak", "anak dara", "anak gadis", "puteri"]
 prosub = ["putri \"daughter\" [28] no person use", "anak perempuan \"daughter\" [28] no person use"]
 prosub_new = ["anak perempuan", "putri"]
+omniglot = ["putri \"daughter\""]
+omniglot_new = ["putri"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -525,6 +597,8 @@ comment = ""
 
 ["Sp"]
 lemmas = ["orang rumah", "pasangan", "suami", "teman hidup"]
+omniglot = ["pasangan hidup \"spouse\"", "isteri \"spouse\"", "suami \"spouse\""]
+omniglot_new = ["pasangan hidup", "isteri"]
 english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
@@ -539,6 +613,8 @@ comment = ""
 
 ["Hu"]
 lemmas = ["laki", "suami"]
+omniglot = ["suami \"husband\"", "suamiku \"husband\""]
+omniglot_new = ["suamiku"]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -553,6 +629,8 @@ comment = ""
 
 ["Wi"]
 lemmas = ["bini", "istri"]
+omniglot = ["istri \"wife\"", "istriku \"wife\""]
+omniglot_new = ["istriku"]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
@@ -584,8 +662,22 @@ hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
 comment = ""
 
+["Sp;Fa"]
+lemmas = []
+omniglot = ["mertua \"father-in-law\"", "ayah mertua \"father-in-law\""]
+omniglot_new = ["mertua", "ayah mertua"]
+english = ["father-in-law"]
+label = "father-in-law"
+definition = "the father of one's spouse (an in-law)"
+ntumc = ["bapa mertua <- 10082043-n"]
+hypernyms = ["Sp;Pa"]
+ancestors = ["Sp;Pa", "InL", "Rel"]
+comment = ""
+
 ["Sp;Mo"]
 lemmas = ["ibu mertua"]
+omniglot = ["mertua \"mother-in-law\"", "ibu mertua \"mother-in-law\""]
+omniglot_new = ["mertua"]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
@@ -637,6 +729,8 @@ comment = ""
 
 ["BrL"]
 lemmas = ["abang ipar"]
+omniglot = ["saudara ipar \"brother-in-law\""]
+omniglot_new = ["saudara ipar"]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
@@ -646,6 +740,17 @@ ntumc = ["abang ipar <- 09877288-n", "kakak ipar laki-laki <- 09877288-n"]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
 sources = ["abang ipar <- wnb-id"]
+comment = ""
+
+["SsL"]
+lemmas = []
+omniglot = ["saudara perempuan \"sister-in-law\""]
+omniglot_new = ["saudara perempuan"]
+english = ["sister-in-law"]
+label = "sister-in-law (by marriage)"
+definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Fa|Fa;Br"]

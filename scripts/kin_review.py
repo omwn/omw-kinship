@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 import sqlite3
 import sys
 import unicodedata
@@ -320,6 +321,53 @@ def honorific_lines(code: str, words: dict[str, set[str]], atoms: dict) -> list[
     return lines
 
 
+def omniglot(tag: str) -> dict[str, list[dict[str, str]]]:
+    """Omniglot's words for `tag`, by concept, if its pages have been read.
+
+    ``scripts/omniglot_words.py`` writes them from pages saved by hand; they are
+    for review only, as Omniglot's licence keeps them out of the build.
+    """
+    path = ROOT / "sources" / "omniglot" / "omniglot-words.tsv"
+    found: dict[str, list[dict[str, str]]] = defaultdict(list)
+    if path.exists():
+        for row in build.read_tsv(path):
+            if row["tag"] == tag and row["code"]:
+                found[row["code"]].append(row)
+    return found
+
+
+def omniglot_lines(rows: list[dict[str, str]], lemmas: set[str]) -> list[str]:
+    r"""The ``omniglot`` and ``omniglot_new`` lines for a concept.
+
+    >>> row = {"word": "兄", "romanization": "ani", "label": "older brother",
+    ...        "note": "- inf", "match": "exact"}
+    >>> omniglot_lines([row], set())
+    ['omniglot = ["兄 ani \\"older brother\\" inf"]', 'omniglot_new = ["兄"]']
+    """
+    shown, new = [], []
+    for row in rows:
+        note = row["note"].strip(" -;")
+        text = " ".join(
+            part
+            for part in (
+                row["word"],
+                row["romanization"],
+                f'"{row["label"]}"',
+                note,
+                "(broader)" if row["match"] == "broader" else "",
+            )
+            if part
+        )
+        shown.append(text)
+        variants = {row["word"], *re.findall(r"\[([^\]]+)\]", row["note"])}
+        if not variants & lemmas and row["word"] not in new:
+            new.append(row["word"])
+    lines = [f"omniglot = {array(shown)}"]
+    if new:
+        lines.append(f"omniglot_new = {array(new)}")
+    return lines
+
+
 def proposals(tag: str) -> dict[str, list[dict[str, str]]]:
     """Proposed terms not yet in the build, from review/kinterms-<tag>-proposed.tsv."""
     path = ROOT / "review" / f"kinterms-{tag}-proposed.tsv"
@@ -345,8 +393,9 @@ def write(
     atoms = build.positions(concepts)
     proposed = proposals(tag)
     suggested = prosub.suggestions(tag, concepts)
+    omni = omniglot(tag)
     order = list(concepts)
-    listed = set(words) | set(proposed) | gaps | set(suggested)
+    listed = set(words) | set(proposed) | gaps | set(suggested) | set(omni)
     above = {a for code in listed for a in ancestors(code, parents)}
     lines = [
         f"# OMW kinship terms for {tag}, from the built lexicon {build.BASE}-{tag}.",
@@ -399,9 +448,17 @@ def write(
             "#   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):",
             "#   the word's items match no concept. prosub_new: those not in `lemmas`.",
         ]
+    if omni:
+        lines += [
+            "# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review",
+            '#   only, NOT in the build (licence), as word romanization "label" qualifiers;',
+            "#   (broader): on a broader concept than the qualifiers name.",
+            "#   omniglot_new: those not in `lemmas`.",
+        ]
     lines.append("")
     written = sorted(
-        set(words) | set(proposed) | set(suggested) | (above - gaps), key=order.index
+        set(words) | set(proposed) | set(suggested) | set(omni) | (above - gaps),
+        key=order.index,
     )
     for code in written:
         concept = concepts[code]
@@ -410,13 +467,13 @@ def write(
         lines += sound_lines(list(words.get(code, {})), sounds)
         if code in gaps and code not in words and code not in proposed:
             lines.append(
-                'status = "KinDiv records a gap here, but ProSub suggests words: check"'
+                'status = "KinDiv records a gap here, but other sources suggest words: check"'
             )
         elif code in gaps:
             lines.append(
                 'status = "KinDiv records a gap here, but there are words: check"'
             )
-        elif code not in words and code not in proposed and code not in suggested:
+        elif not ({code} & (set(words) | set(proposed) | set(suggested) | set(omni))):
             lines.append(
                 f'status = "unlexicalized: no {tag} word; included for the hierarchy"'
             )
@@ -439,6 +496,8 @@ def write(
             new = sorted({f for f, _ in suggested[code]} - set(words.get(code, {})))
             if new:
                 lines.append(f"prosub_new = {array(new)}")
+        if omni.get(code):
+            lines += omniglot_lines(omni[code], set(words.get(code, {})))
         if tag != "en":
             eng, via = english_for(code, english, ancestry)
             if eng:

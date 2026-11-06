@@ -10,6 +10,7 @@ import doctest
 import build
 import honorific
 import kintype
+import omniglot_words
 import pytest
 
 
@@ -190,6 +191,10 @@ def test_kintype_doctests() -> None:
 
 def test_honorific_doctests() -> None:
     assert doctest.testmod(honorific).failed == 0
+
+
+def test_omniglot_doctests() -> None:
+    assert doctest.testmod(omniglot_words).failed == 0
 
 
 def test_honorific_guesses_follow_the_suffix_before_seniority() -> None:

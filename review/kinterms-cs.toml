@@ -9,9 +9,27 @@
 # ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
+
+["Pa;Pa"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["prarodiče \"grandparents\""]
+omniglot_new = ["prarodiče"]
+english = ["grandparent"]
+label = "grandparent"
+definition = "a parent of one's parent (a grandparent)"
+ntumc = ["prarodič <- 10143172-n"]
+hypernyms = ["Ch;Ch|Pa;Pa"]
+ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
+comment = ""
 
 ["Pa;Fa"]
 lemmas = ["děd", "děda", "dědeček"]
+omniglot = ["děda \"grandfather\"", "dědeček \"grandfather\""]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -23,6 +41,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["babička", "bába", "bábinka"]
+omniglot = ["babička \"grandmother\""]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -57,6 +76,8 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["vnouče", "vnúčě"]
+omniglot = ["vnoučata \"grandchildren\""]
+omniglot_new = ["vnoučata"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -69,6 +90,7 @@ comment = ""
 
 ["Ch;So"]
 lemmas = ["vnouček", "vnuk"]
+omniglot = ["vnuk \"grandson\""]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
@@ -81,6 +103,7 @@ comment = ""
 
 ["Ch;Da"]
 lemmas = ["vnučka"]
+omniglot = ["vnučka \"granddaughter\""]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
@@ -147,6 +170,7 @@ comment = ""
 
 ["Br"]
 lemmas = ["bratr", "bratřík", "bratříček", "brácha", "bráška"]
+omniglot = ["bratr \"brother\""]
 english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
@@ -159,6 +183,7 @@ comment = ""
 
 ["Ss"]
 lemmas = ["sestra", "sestřička", "ségra"]
+omniglot = ["sestra \"sister\""]
 english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
@@ -234,6 +259,7 @@ comment = ""
 
 ["Sb;So"]
 lemmas = ["synovec"]
+omniglot = ["synovec \"nephew\""]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
@@ -245,6 +271,7 @@ comment = ""
 
 ["Sb;Da"]
 lemmas = ["neteř", "neť"]
+omniglot = ["neť \"niece\"", "neteř \"niece\""]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
@@ -301,6 +328,7 @@ comment = ""
 
 ["Pa;Sb;So"]
 lemmas = ["bratranec"]
+omniglot = ["bratranec \"cousin\" (m)"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
@@ -313,6 +341,7 @@ comment = ""
 
 ["Pa;Sb;Da"]
 lemmas = ["sestřenice", "sestřenka"]
+omniglot = ["sestřenice \"cousin\" (f)"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
@@ -447,7 +476,8 @@ comment = ""
 
 ["Unc"]
 lemmas = []
-status = "unlexicalized: no cs word; included for the hierarchy"
+omniglot = ["strýc \"uncle\""]
+omniglot_new = ["strýc"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
@@ -458,7 +488,8 @@ comment = ""
 
 ["Aun"]
 lemmas = []
-status = "unlexicalized: no cs word; included for the hierarchy"
+omniglot = ["teta \"aunt\""]
+omniglot_new = ["teta"]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
@@ -469,6 +500,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodiče"]
+omniglot = ["rodiče \"parents\""]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -480,6 +512,7 @@ comment = ""
 
 ["Fa"]
 lemmas = ["fotr", "fotřík", "otec", "papá", "tatík", "tatínek", "tatíček", "táta"]
+omniglot = ["otec \"father\""]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -493,6 +526,7 @@ comment = ""
 
 ["Mo"]
 lemmas = ["maminka", "mamička", "mamá", "matinka", "matička", "matka", "máma", "máti"]
+omniglot = ["matka \"mother\""]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -506,6 +540,8 @@ comment = ""
 
 ["Ch"]
 lemmas = ["dítě"]
+omniglot = ["děti \"children\""]
+omniglot_new = ["děti"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -517,6 +553,7 @@ comment = ""
 
 ["So"]
 lemmas = ["syn", "synek", "syneček", "synátor", "synáček"]
+omniglot = ["syn \"son\""]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -529,6 +566,7 @@ comment = ""
 
 ["Da"]
 lemmas = ["dcera", "dcerka", "dcerunka", "dceruška"]
+omniglot = ["dcera \"daughter\""]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -552,6 +590,7 @@ comment = ""
 
 ["Hu"]
 lemmas = ["choť", "manžel", "muž", "mužík", "mužíček"]
+omniglot = ["manžel \"husband\""]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -565,6 +604,7 @@ comment = ""
 
 ["Wi"]
 lemmas = ["choť", "manželka", "žena", "ženuška", "žínka"]
+omniglot = ["manželka \"wife\""]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
@@ -598,6 +638,7 @@ comment = ""
 
 ["Sp;Fa"]
 lemmas = ["tchán", "tschán"]
+omniglot = ["tchán \"father-in-law\""]
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
@@ -610,6 +651,8 @@ comment = ""
 
 ["Sp;Mo"]
 lemmas = ["svegruše", "tchyně", "tschyně"]
+omniglot = ["tchýně \"mother-in-law\""]
+omniglot_new = ["tchýně"]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
@@ -622,7 +665,8 @@ comment = ""
 
 ["BrL"]
 lemmas = []
-status = "unlexicalized: no cs word; included for the hierarchy"
+omniglot = ["švagr \"brother-in-law\""]
+omniglot_new = ["švagr"]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
@@ -633,7 +677,8 @@ comment = ""
 
 ["SsL"]
 lemmas = []
-status = "unlexicalized: no cs word; included for the hierarchy"
+omniglot = ["švagrová \"sister-in-law\""]
+omniglot_new = ["švagrová"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
@@ -1135,16 +1180,6 @@ label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"
 hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Pa;Pa"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "grandparent"
-definition = "a parent of one's parent (a grandparent)"
-ntumc = ["prarodič <- 10143172-n"]
-hypernyms = ["Ch;Ch|Pa;Pa"]
-ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Fa;Pa"]

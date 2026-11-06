@@ -9,6 +9,10 @@
 # ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["zu fu mu", "祖"]
@@ -63,6 +67,7 @@ comment = ""
 
 ["Fa;Fa"]
 lemmas = ["爷爷", "祖父"]
+omniglot = ["祖父 zǔfù \"grandfather\" pt-frm", "爷爷 yéye \"grandfather\" [爺爺] pt-inf"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Pa;Fa"
 label = "paternal grandfather"
@@ -76,6 +81,8 @@ comment = ""
 
 ["Mo;Fa"]
 lemmas = ["外公", "外祖父", "老爷"]
+omniglot = ["外公 wàigōng \"grandfather\" mt-frm", "公公 gōnggōng \"grandfather\" mt-inf"]
+omniglot_new = ["公公"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Pa;Fa"
 label = "maternal grandfather"
@@ -89,6 +96,7 @@ comment = ""
 
 ["Fa;Mo"]
 lemmas = ["奶奶", "妈妈", "媽媽", "嫲", "嬤", "祖母"]
+omniglot = ["祖母 zǔmǔ \"grandmother\" pt-frm", "奶奶 nǎinai \"grandmother\" pt-inf"]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "paternal grandmother"
@@ -103,6 +111,7 @@ comment = ""
 
 ["Mo;Mo"]
 lemmas = ["外婆", "外祖母", "姥姥"]
+omniglot = ["外婆 wài pó \"grandmother\" mt-frm", "姥姥 lǎolǎo \"grandmother\" mt-inf"]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
@@ -129,7 +138,8 @@ comment = ""
 
 ["Ch;So"]
 lemmas = []
-status = "unlexicalized: no cmn word; included for the hierarchy"
+omniglot = ["孙子 sūnzi \"grandson\" [孫子] son's son", "外孙子 wàisūn \"grandson\" [外孫子] daughter's son"]
+omniglot_new = ["孙子", "外孙子"]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
@@ -140,6 +150,8 @@ comment = ""
 
 ["Ch;Da"]
 lemmas = ["孙女儿"]
+omniglot = ["孙女 sūnnǚ \"granddaughter\" [孫女] son's daughter", "外孙女 wàisūnnǚ \"granddaughter\" [外孫女] daughter's daughter"]
+omniglot_new = ["孙女", "外孙女"]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
@@ -228,6 +240,7 @@ comment = ""
 ["Sb"]
 lemmas = ["兄弟", "兄弟姐妹", "同胞", "姐妹"]
 pronunciations = ["兄弟: xiong di (romanization)", "姐妹: jie mei (romanization)"]
+omniglot = ["兄弟姐妹 xiōngdì jiemèi \"siblings\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
@@ -294,6 +307,7 @@ comment = ""
 
 ["El;Br"]
 lemmas = ["兄", "兄长", "哥", "哥哥"]
+omniglot = ["哥哥 gēge \"brother\" +"]
 english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
@@ -308,6 +322,7 @@ comment = ""
 
 ["El;Ss"]
 lemmas = ["姐", "姐姐", "阿姊"]
+omniglot = ["姐姐 jiějie \"sister\" +"]
 english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
@@ -324,6 +339,7 @@ comment = ""
 ["Yn;Br"]
 lemmas = ["兄弟", "弟", "弟弟"]
 pronunciations = ["兄弟: xiong di (romanization)"]
+omniglot = ["弟弟 dìdi \"brother\""]
 english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
@@ -340,6 +356,7 @@ comment = ""
 
 ["Yn;Ss"]
 lemmas = ["妹妹"]
+omniglot = ["妹妹 mèimèi \"sister\""]
 english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
@@ -418,6 +435,8 @@ comment = ""
 ["Mo;Br"]
 lemmas = ["舅父"]
 pronunciations = ["舅父: jiu fu (romanization)"]
+omniglot = ["舅舅 jiùjiu \"uncle\" mother's brother"]
+omniglot_new = ["舅舅"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "maternal uncle"
@@ -432,6 +451,7 @@ comment = ""
 ["Fa;Ss"]
 lemmas = ["姑姑"]
 pronunciations = ["姑姑: gu mu (romanization)"]
+omniglot = ["姑姑 gūgu \"aunt\" father's sister"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "paternal aunt"
@@ -493,6 +513,8 @@ comment = ""
 ["Fa;El;Br"]
 lemmas = ["伯父"]
 pronunciations = ["伯父: bo fu (romanization)"]
+omniglot = ["伯伯 bóbo \"uncle\" father's elder brother"]
+omniglot_new = ["伯伯"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "father's elder brother"
@@ -507,6 +529,8 @@ comment = ""
 ["Fa;Yn;Br"]
 lemmas = ["叔父"]
 pronunciations = ["叔父: shu fu (romanization)"]
+omniglot = ["叔叔 shūshu \"uncle\" father's younger brother"]
+omniglot_new = ["叔叔"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "father's younger brother"
@@ -535,6 +559,7 @@ comment = ""
 ["Br;So"]
 lemmas = ["姪子"]
 pronunciations = ["姪子: zhi zi (romanization)"]
+omniglot = ["姪子 zhízi \"nephew\" brother's son"]
 english = ["nephew"]
 english_via = "Sb;So"
 label = "brother's son"
@@ -548,6 +573,7 @@ comment = ""
 ["Br;Da"]
 lemmas = ["姪女"]
 pronunciations = ["姪女: zhi nü (romanization)"]
+omniglot = ["姪女 zhínǚ \"niece\" brother's daughter"]
 english = ["niece"]
 english_via = "Sb;Da"
 label = "brother's daughter"
@@ -561,6 +587,7 @@ comment = ""
 ["Ss;So"]
 lemmas = ["外甥"]
 pronunciations = ["外甥: wai sheng (romanization)"]
+omniglot = ["外甥 wàishēng \"nephew\" sister's son"]
 english = ["nephew"]
 english_via = "Sb;So"
 label = "sister's son"
@@ -575,6 +602,7 @@ comment = ""
 ["Ss;Da"]
 lemmas = ["外甥女", "甥女"]
 pronunciations = ["外甥女: wai sheng nü (romanization)"]
+omniglot = ["外甥女 wàishengnǚ \"niece\" sister's daughter"]
 english = ["niece"]
 english_via = "Sb;Da"
 label = "sister's daughter"
@@ -714,6 +742,7 @@ comment = ""
 ["El;Mo;Sb;So"]
 lemmas = ["表兄", "表哥"]
 pronunciations = ["表哥: gu biao ge (romanization)", "表哥: yi biao ge (romanization)"]
+omniglot = ["表兄 biǎoxiōng \"cousin (maternal)\" +m"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, son of mother's sibling"
@@ -728,6 +757,7 @@ comment = ""
 ["Yn;Mo;Sb;So"]
 lemmas = ["表弟"]
 pronunciations = ["表弟: gu biao di (romanization)", "表弟: yi biao di (romanization)"]
+omniglot = ["表弟 biǎodì \"cousin (maternal)\" m"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, son of mother's sibling"
@@ -742,6 +772,7 @@ comment = ""
 ["El;Mo;Sb;Da"]
 lemmas = ["表姊", "表姐"]
 pronunciations = ["表姐: gu biao jie (romanization)", "表姐: yi biao jie (romanization)"]
+omniglot = ["表姐 biǎojiě \"cousin (maternal)\" +f"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder, daughter of mother's sibling"
@@ -756,6 +787,7 @@ comment = ""
 ["Yn;Mo;Sb;Da"]
 lemmas = ["表妹"]
 pronunciations = ["表妹: gu biao mei (romanization)", "表妹: yi biao mei (romanization)"]
+omniglot = ["表妹 biǎomèi \"cousin (maternal)\" f"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger, daughter of mother's sibling"
@@ -769,6 +801,7 @@ comment = ""
 
 ["Rel"]
 lemmas = ["亲人", "亲属", "亲戚", "家属"]
+omniglot = ["亲戚 qīnqi \"relative\" [親戚]"]
 english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
@@ -798,6 +831,7 @@ comment = ""
 ["Aun"]
 lemmas = ["伯母", "叔母", "妗", "妗母", "姑", "姑妈", "姑姑", "姑母", "姨", "姨妈", "姨母", "婶婶", "婶子", "婶母", "老大妈", "舅妈", "舅母", "阿姨"]
 pronunciations = ["姑姑: gu mu (romanization)", "姨母: yi ma (romanization)"]
+omniglot = ["姨妈 yímā \"aunt\" [姨媽] mother's sister", "舅妈 jiùmā \"aunt\" [舅媽] mother's brother's wife"]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
@@ -822,6 +856,8 @@ comment = ""
 
 ["Fa;Ss;Hu"]
 lemmas = ["姑夫"]
+omniglot = ["姑丈 gūzhàng \"uncle\" father's sister's husband"]
+omniglot_new = ["姑丈"]
 english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of father's sister"
@@ -835,6 +871,8 @@ comment = ""
 
 ["Mo;Ss;Hu"]
 lemmas = ["姨夫"]
+omniglot = ["姨丈 yízhàng \"uncle\" mother's sister's husband"]
+omniglot_new = ["姨丈"]
 english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of mother's sister"
@@ -859,7 +897,8 @@ comment = ""
 
 ["Fa;Br;Wi"]
 lemmas = []
-status = "unlexicalized: no cmn word; included for the hierarchy"
+omniglot = ["婶婶 shěnshen \"aunt\" father's brother's wife"]
+omniglot_new = ["婶婶"]
 english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's brother"
@@ -897,6 +936,7 @@ comment = ""
 ["Pa"]
 lemmas = ["亲", "双亲之一", "家长", "父亲或母亲", "父母", "親"]
 pronunciations = ["父母: fu mu (romanization)"]
+omniglot = ["父母 fùmǔ \"parents\""]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -912,6 +952,7 @@ comment = ""
 
 ["Fa"]
 lemmas = ["严", "嚴", "父", "父亲", "父親", "爸", "爸爸", "爹"]
+omniglot = ["父親 fùqīn \"father\" frm", "爸爸 bàba \"father\" inf"]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -928,6 +969,7 @@ comment = ""
 
 ["Mo"]
 lemmas = ["妈", "妈妈", "娘", "媽", "媽媽", "嫲", "嬤", "嬷", "母", "母亲", "母親"]
+omniglot = ["母親 mǔqīn \"mother\" frm", "妈妈 māma \"mother\" [媽媽] inf"]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -945,6 +987,8 @@ comment = ""
 ["Ch"]
 lemmas = ["儿", "儿子或女儿", "后代", "子", "孩子", "小孩", "小孩儿", "小孩子"]
 pronunciations = ["孩子: hai zi (romanization)"]
+omniglot = ["孩子 háizi \"children\"", "儿童 értóng \"children\" [兒童]"]
+omniglot_new = ["儿童"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -959,6 +1003,8 @@ comment = ""
 
 ["So"]
 lemmas = ["子", "子弟"]
+omniglot = ["儿子 érzi \"son\" [兒子]"]
+omniglot_new = ["儿子"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -973,6 +1019,7 @@ comment = ""
 
 ["Da"]
 lemmas = ["女儿"]
+omniglot = ["女儿 nǚ'ér \"daughter\" [女兒]"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -986,6 +1033,7 @@ comment = ""
 
 ["Sp"]
 lemmas = ["夫妻", "配偶"]
+omniglot = ["配偶 pèi'ǒu \"spouse\""]
 english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
@@ -1000,6 +1048,7 @@ comment = ""
 
 ["Hu"]
 lemmas = ["丈夫", "先生", "夫", "相公", "老公"]
+omniglot = ["先生 xiānshēng \"husband\" frm", "丈夫 zhàng fu \"husband\" frm", "老公 lǎogong \"husband\" inf"]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -1015,6 +1064,7 @@ comment = ""
 
 ["Wi"]
 lemmas = ["太太", "妇", "妈妈", "妻子", "婦", "媽媽", "爱人", "老婆"]
+omniglot = ["太太 tàitài \"wife\" frm", "妻子 qīzi \"wife\"", "老婆 lǎopó \"wife\" inf"]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
@@ -1038,6 +1088,95 @@ definition = "a relative by marriage"
 ntumc = ["姻亲 <- 10207169-n"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+comment = ""
+
+["Sp;Pa"]
+lemmas = []
+status = "unlexicalized: no cmn word; included for the hierarchy"
+english = ["parent-in-law"]
+label = "parent-in-law"
+definition = "a parent of one's spouse (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Sp;Fa"]
+lemmas = []
+status = "unlexicalized: no cmn word; included for the hierarchy"
+english = ["father-in-law"]
+label = "father-in-law"
+definition = "the father of one's spouse (an in-law)"
+ntumc = ["嫜 <- 10082043-n", "岳丈 <- 10082043-n", "岳父 <- 10082043-n", "公公 <- 10082043-n"]
+hypernyms = ["Sp;Pa"]
+ancestors = ["Sp;Pa", "InL", "Rel"]
+comment = ""
+
+["Sp;Mo"]
+lemmas = []
+status = "unlexicalized: no cmn word; included for the hierarchy"
+english = ["mother-in-law"]
+label = "mother-in-law"
+definition = "the mother of one's spouse (an in-law)"
+ntumc = ["婆婆 <- 10333317-n", "岳母 <- 10333317-n"]
+hypernyms = ["Sp;Pa"]
+ancestors = ["Sp;Pa", "InL", "Rel"]
+comment = ""
+
+["Ch;Sp"]
+lemmas = []
+status = "unlexicalized: no cmn word; included for the hierarchy"
+english = ["child-in-law"]
+label = "child-in-law"
+definition = "a spouse of one's child (an in-law)"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["Da;Hu"]
+lemmas = []
+omniglot = ["女婿 nǚxu \"son-in-law\""]
+omniglot_new = ["女婿"]
+english = ["son-in-law"]
+label = "son-in-law"
+definition = "the husband of one's daughter (an in-law)"
+ntumc = ["婿 <- 10624915-n", "女婿 <- 10624915-n"]
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+comment = ""
+
+["So;Wi"]
+lemmas = []
+omniglot = ["媳婦 xífù \"daughter-in-law\" [媳妇]"]
+omniglot_new = ["媳婦"]
+english = ["daughter-in-law"]
+label = "daughter-in-law"
+definition = "the wife of one's son (an in-law)"
+ntumc = ["媳妇 <- 09993040-n", "儿媳妇 <- 09993040-n", "儿媳 <- 09993040-n"]
+hypernyms = ["Ch;Sp"]
+ancestors = ["Ch;Sp", "InL", "Rel"]
+comment = ""
+
+["BrL"]
+lemmas = []
+omniglot = ["姐夫 jiěfu \"brother-in-law\" elder sister's husband", "妹夫 mèifu \"brother-in-law\" younger sister's husband", "大伯 dàbó \"brother-in-law\" husband's elder brother", "小叔 xiǎoshū \"brother-in-law\" husband's younger brother"]
+omniglot_new = ["姐夫", "妹夫", "大伯", "小叔"]
+english = ["brother-in-law"]
+label = "brother-in-law"
+definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
+ntumc = ["妹夫 <- 09877288-n", "小叔子 <- 09877288-n", "内弟 <- 09877288-n", "大伯子 <- 09877288-n", "姊妹 的 丈夫 <- 09877288-n", "姊妹的丈夫 <- 09877288-n", "姐夫 <- 09877288-n", "内兄 <- 09877288-n"]
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
+comment = ""
+
+["SsL"]
+lemmas = []
+omniglot = ["嫂子 sǎozi \"sister-in-law\" elder brother's wife", "弟妹 dìmèi \"sister-in-law\" younger brother's wife", "大姨子 dàyízi \"sister-in-law\" wife's elder sister", "小姨子 xiǎoyízi \"sister-in-law\" wife's younger sister"]
+omniglot_new = ["嫂子", "弟妹", "大姨子", "小姨子"]
+english = ["sister-in-law"]
+label = "sister-in-law (by marriage)"
+definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
+hypernyms = ["InL"]
+ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Fa|Fa;Br"]
@@ -1095,6 +1234,30 @@ hypernyms = ["Rel"]
 ancestors = ["Rel"]
 comment = ""
 
+["Wi;Mo"]
+lemmas = []
+omniglot = ["岳母 yuèmǔ \"mother-in-law\" wife's mother"]
+omniglot_new = ["岳母"]
+english = ["mother-in-law"]
+english_via = "Sp;Mo"
+label = "wife's mother"
+definition = "the mother of one's wife (an in-law)"
+hypernyms = ["Sp;Mo"]
+ancestors = ["Sp;Mo", "Sp;Pa", "InL", "Rel"]
+comment = ""
+
+["Hu;Fa"]
+lemmas = []
+omniglot = ["公公 gōnggong \"father-in-law\" husband's father"]
+omniglot_new = ["公公"]
+english = ["father-in-law"]
+english_via = "Sp;Fa"
+label = "husband's father"
+definition = "the father of one's husband (an in-law)"
+hypernyms = ["Sp;Fa"]
+ancestors = ["Sp;Fa", "Sp;Pa", "InL", "Rel"]
+comment = ""
+
 ["Fa;Ss;So|Mo;Br;So"]
 lemmas = []
 status = "unlexicalized: no cmn word; included for the hierarchy"
@@ -1104,6 +1267,17 @@ label = "father's sister's son or mother's brother's son"
 definition = "a son of one's father's sister or a son of one's mother's brother"
 hypernyms = ["Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;So"]
 ancestors = ["Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Hu;Mo"]
+lemmas = []
+omniglot = ["婆婆 pópo \"mother-in-law\" husband's mother"]
+omniglot_new = ["婆婆"]
+english = ["mother-in-law"]
+label = "husband's mother"
+definition = "the mother of one's husband (an in-law)"
+hypernyms = ["Sp;Mo"]
+ancestors = ["Sp;Mo", "Sp;Pa", "InL", "Rel"]
 comment = ""
 
 ["Pa;Sb;Ch|Sb"]
@@ -1148,6 +1322,18 @@ label = "woman's brother or man's sister"
 definition = "a brother of a woman or a sister of a man"
 hypernyms = ["Sb"]
 ancestors = ["Sb", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Wi;Fa"]
+lemmas = []
+omniglot = ["岳父 yuèfù \"father-in-law\" wife's father"]
+omniglot_new = ["岳父"]
+english = ["father-in-law"]
+english_via = "Sp;Fa"
+label = "wife's father"
+definition = "the father of one's wife (an in-law)"
+hypernyms = ["Sp;Fa"]
+ancestors = ["Sp;Fa", "Sp;Pa", "InL", "Rel"]
 comment = ""
 
 ["Ch|Sb;Ch"]
@@ -1423,6 +1609,32 @@ label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
 hypernyms = ["Sb;Ch"]
 ancestors = ["Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+comment = ""
+
+["Fa;Sb;So"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["堂兄 tángxiōng \"cousin (paternal)\" +m (broader)", "堂弟 tángdì \"cousin (paternal)\" m (broader)"]
+omniglot_new = ["堂兄", "堂弟"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
+english_via = "Pa;Sb;Ch"
+label = "son of father's sibling"
+definition = "a son of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Fa;Sb;Da"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["堂姐 tángjiě \"cousin (paternal)\" +f (broader)", "堂妹 tángmèi \"cousin (paternal)\" f (broader)"]
+omniglot_new = ["堂姐", "堂妹"]
+english = ["cousin", "cousin-german", "first cousin", "full cousin"]
+english_via = "Pa;Sb;Ch"
+label = "daughter of father's sibling"
+definition = "a daughter of one's father's sibling (a cousin)"
+hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
+ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["Fa;Pa"]
@@ -2387,22 +2599,4 @@ label = "daughter of mother's sister (female anchor)"
 definition = "a daughter of a woman's mother's sister (a cousin)"
 hypernyms = ["Mo;Ss;Da", "o;Pa;Sb;Ch"]
 ancestors = ["Mo;Ss;Da", "o;Pa;Sb;Ch", "Mo;Sb;Da", "Mo;Ss;Ch", "Pa;Sb;Ch", "Pa;Ss;Da", "Mo;Sb;Ch", "Pa;Sb;Ch|Sb", "Pa;Sb;Da", "Pa;Ss;Ch", "Pa;Sb;Da|Ss", "Rel"]
-comment = ""
-
-["Fa;Sb;So"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "son of father's sibling"
-definition = "a son of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;So"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-comment = ""
-
-["Fa;Sb;Da"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "daughter of father's sibling"
-definition = "a daughter of one's father's sibling (a cousin)"
-hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
-ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""

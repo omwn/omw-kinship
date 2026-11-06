@@ -7,12 +7,17 @@
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
 # `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its own knowledge, for a speaker to check.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["abuela", "abuelito", "abuelo", "abuelos"]
 proposed = ["abue"]
 confidence = ["medium"]
 notes = ["abue: colloquial, affectionate, either sex (Argentina, Uruguay, Mexico); build has it only on Pa;Mo"]
+omniglot = ["abuelos \"grandparents\""]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -29,6 +34,7 @@ lemmas = ["abuelito", "abuelo", "gramps", "yayo"]
 proposed = ["nono", "tata", "papá grande", "gramps"]
 confidence = ["medium", "low", "low", "check"]
 notes = ["nono: colloquial, affectionate (Argentina, Uruguay; from Italian)", "tata: colloquial (Chile, parts of the Andes); in Mexico and Central America tata is rather 'father'", "papá grande: regional (Mexico, Colombia, Venezuela)", "gramps: English, carried over from omw-es; drop"]
+omniglot = ["abuelo \"grandfather\""]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -45,6 +51,7 @@ lemmas = ["abue", "abuela", "abuelita", "abuelo", "gran", "nan", "nana", "tata",
 proposed = ["nona", "mamá grande", "abuelo", "gran", "nan", "tata"]
 confidence = ["medium", "low", "check", "check", "check", "check"]
 notes = ["nona: colloquial, affectionate (Argentina, Uruguay; from Italian)", "mamá grande: regional (Mexico, Colombia, Venezuela)", "abuelo: masculine; already in build on Pa;Fa and Pa;Pa; drop from Pa;Mo", "gran: English loan carried over from omw-es; not Spanish for grandmother; drop", "nan: English, carried over from omw-es; drop", "tata: not a general Spanish word for grandmother (Spain: nanny or child-talk for elder sister; Chile: grandfather); probably drop"]
+omniglot = ["abuela \"grandmother\""]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -110,6 +117,7 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["nieto", "nietos"]
+omniglot = ["nietos \"grandchildren\""]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -122,6 +130,7 @@ comment = ""
 
 ["Ch;So"]
 lemmas = ["nietito", "nieto"]
+omniglot = ["nieto \"grandson\""]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
@@ -137,6 +146,7 @@ lemmas = ["nieta", "nietita", "nieto"]
 proposed = ["nieto"]
 confidence = ["check"]
 notes = ["nieto: masculine; belongs on Ch;So and Ch;Ch only"]
+omniglot = ["nieta \"granddaughter\""]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
@@ -206,6 +216,7 @@ comment = ""
 
 ["Br"]
 lemmas = ["hermanito", "hermano"]
+omniglot = ["hermano \"brother\""]
 english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
@@ -219,6 +230,7 @@ comment = ""
 
 ["Ss"]
 lemmas = ["hermana", "hermanita"]
+omniglot = ["hermana \"sister\""]
 english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
@@ -356,11 +368,25 @@ ancestors = ["Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 sources = ["tía materna <- Native"]
 comment = ""
 
+["Sb;Ch"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["sobrinos \"nephews & nieces\""]
+omniglot_new = ["sobrinos"]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "nibling"
+definition = "a child of one's sibling (a nephew or niece)"
+hypernyms = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch"]
+ancestors = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+comment = ""
+
 ["Sb;So"]
 lemmas = ["sobrinito", "sobrino"]
 proposed = ["sobrino carnal"]
 confidence = ["medium"]
 notes = ["sobrino carnal: formal/explicit, by blood"]
+omniglot = ["sobrino \"nephew\""]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
@@ -376,6 +402,7 @@ lemmas = ["sobrina", "sobrinita", "sobrino"]
 proposed = ["sobrino", "sobrina carnal"]
 confidence = ["check", "medium"]
 notes = ["sobrino: masculine; belongs on Sb;So (and Sb;Ch as generic plural)", "sobrina carnal: formal/explicit, by blood"]
+omniglot = ["sobrina \"niece\""]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
@@ -448,6 +475,7 @@ lemmas = ["primito", "primo"]
 proposed = ["primo hermano", "primo carnal"]
 confidence = ["high", "medium"]
 notes = ["primo hermano: first cousin (male); build has it only on Pa;Sb;Ch", "primo carnal: first cousin (male); less common than primo hermano"]
+omniglot = ["primo \"cousin\" (m)"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
@@ -464,6 +492,7 @@ lemmas = ["prima", "primita"]
 proposed = ["prima hermana", "prima carnal"]
 confidence = ["high", "medium"]
 notes = ["prima hermana: first cousin (female)", "prima carnal: first cousin (female)"]
+omniglot = ["prima \"cousin\" (f)"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
@@ -606,6 +635,7 @@ lemmas = ["tio", "tío"]
 proposed = ["tio", "tito"]
 confidence = ["check", "medium"]
 notes = ["tio: misspelling of tío (already present); drop", "tito: affectionate diminutive (Spain, Andalusia especially); tita is already on Aun"]
+omniglot = ["tío \"uncle\""]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
@@ -622,6 +652,7 @@ lemmas = ["tia", "tita", "tiíta", "tía"]
 proposed = ["tia"]
 confidence = ["check"]
 notes = ["tia: misspelling of tía (already present); drop"]
+omniglot = ["tía \"aunt\""]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
@@ -638,6 +669,8 @@ lemmas = []
 proposed = ["tío político"]
 confidence = ["high"]
 notes = ["tío político: uncle by marriage; also used for the husband of any aunt"]
+omniglot = ["tío politico \"uncle-in-law (aunt's husband)\""]
+omniglot_new = ["tío politico"]
 english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of parent's sister"
@@ -651,6 +684,8 @@ lemmas = []
 proposed = ["tía política"]
 confidence = ["high"]
 notes = ["tía política: aunt by marriage"]
+omniglot = ["tía politica \"aunt-in-law (uncle's wife)\""]
+omniglot_new = ["tía politica"]
 english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of parent's brother"
@@ -664,6 +699,7 @@ lemmas = ["padre", "padres", "progenitor"]
 proposed = ["padre"]
 confidence = ["check"]
 notes = ["padre: singular padre is 'father'; only the plural padres means 'parents'"]
+omniglot = ["padres \"parents\""]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -680,6 +716,7 @@ lemmas = ["padre", "papa", "papi", "papá"]
 proposed = ["papa", "papito", "pa", "viejo", "jefe", "taita", "tata"]
 confidence = ["check", "medium", "low", "medium", "low", "medium", "low"]
 notes = ["papa: unaccented papa is archaic/regional for father (and 'pope', 'potato'); keep only if marked regional", "papito: affectionate diminutive (esp. Latin America)", "pa: colloquial clipping, mostly as address", "viejo: colloquial 'my old man' (Southern Cone, Mexico; mi viejo)", "jefe: slang (Mexico: mi jefe)", "taita: regional, rural (Andes: Ecuador, Colombia, Peru)", "tata: regional, rural (Mexico, Central America); in Chile 'grandfather'"]
+omniglot = ["padre \"father\"", "papá \"father\""]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -696,6 +733,7 @@ lemmas = ["madre", "mamá", "progenitora"]
 proposed = ["mami", "mamita", "mamaíta", "ma", "vieja", "jefa", "mama"]
 confidence = ["high", "medium", "low", "low", "medium", "low", "low"]
 notes = ["mami: colloquial, affectionate; parallel to papi already on Fa", "mamita: affectionate diminutive (esp. Latin America)", "mamaíta: affectionate (Spain)", "ma: colloquial clipping, mostly as address (also written má)", "vieja: colloquial 'my old lady' (Southern Cone, Mexico; mi vieja)", "jefa: slang (Mexico: mi jefa)", "mama: unaccented, rural/Andean and older usage"]
+omniglot = ["madre \"mother\"", "mamá \"mother\""]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -712,6 +750,8 @@ lemmas = ["hija", "hijo", "hijos", "ninzzo", "niña", "niño"]
 proposed = ["ninzzo", "niño", "niña", "vástago", "retoño"]
 confidence = ["check", "check", "check", "medium", "low"]
 notes = ["ninzzo: not a Spanish word (omw-es noise); drop", "niño: 'child' (age), not offspring; probably drop", "niña: 'child, girl' (age), not offspring; probably drop", "vástago: formal/literary 'offspring'", "retoño: literary/affectionate 'offspring'"]
+omniglot = ["hijos \"children\"", "niños \"children\""]
+omniglot_new = ["niños"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -728,6 +768,7 @@ lemmas = ["hijo"]
 proposed = ["hijito", "mijo"]
 confidence = ["medium", "medium"]
 notes = ["hijito: affectionate diminutive", "mijo: colloquial contraction of mi hijo (Latin America); also used as address to non-kin"]
+omniglot = ["hijo \"son\""]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -744,6 +785,7 @@ lemmas = ["hija", "hijo", "niña"]
 proposed = ["hijo", "niña", "hijita", "mija"]
 confidence = ["check", "check", "medium", "medium"]
 notes = ["hijo: masculine; belongs on So and Ch only", "niña: 'girl'; used affectionately for a daughter but not a kin term; probably drop", "hijita: affectionate diminutive", "mija: colloquial contraction of mi hija (Latin America); also used as address to non-kin"]
+omniglot = ["hija \"daughter\""]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -776,6 +818,7 @@ lemmas = ["esposo", "hombre", "marido"]
 proposed = ["viejo"]
 confidence = ["low"]
 notes = ["viejo: colloquial (mi viejo, Latin America); also 'father'"]
+omniglot = ["marido \"husband\"", "esposo \"husband\""]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -792,6 +835,7 @@ lemmas = ["cónyuge", "esposa", "esposo", "marido", "mujer", "mujer casada", "se
 proposed = ["esposo", "marido", "cónyuge", "parienta", "vieja"]
 confidence = ["check", "check", "check", "medium", "low"]
 notes = ["esposo: masculine 'husband'; belongs on Hu/Sp", "marido: 'husband'; belongs on Hu", "cónyuge: sex-neutral 'spouse'; already on Sp; drop from Wi", "parienta: colloquial, humorous (Spain: la parienta)", "vieja: colloquial (mi vieja, Latin America); also 'mother'"]
+omniglot = ["mujer \"wife\"", "esposa \"wife\""]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
@@ -830,6 +874,7 @@ comment = ""
 
 ["Sp;Fa"]
 lemmas = ["padre político", "suegro"]
+omniglot = ["suegro \"father-in-law\""]
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
@@ -845,6 +890,7 @@ lemmas = ["madre politica", "madre política", "suegra"]
 proposed = ["madre politica"]
 confidence = ["check"]
 notes = ["madre politica: misspelling of madre política (already present); drop"]
+omniglot = ["suegra \"mother-in-law\""]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
@@ -900,6 +946,7 @@ lemmas = ["cuñado"]
 proposed = ["hermano político"]
 confidence = ["medium"]
 notes = ["hermano político: formal synonym of cuñado"]
+omniglot = ["cuñado \"brother-in-law\""]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
@@ -915,6 +962,8 @@ lemmas = []
 proposed = ["cuñada", "hermana política"]
 confidence = ["high", "medium"]
 notes = ["cuñada: build has cuñada only on Sp;Ss, which is too narrow (it is also a brother's wife)", "hermana política: formal synonym of cuñada; build has it only on Sp;Ss"]
+omniglot = ["cuñada \"sister-in-law\""]
+omniglot_new = ["cuñada"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
@@ -1882,15 +1931,6 @@ label = "mother's younger sibling"
 definition = "a younger sibling of one's mother (an uncle or aunt)"
 hypernyms = ["Mo;Sb"]
 ancestors = ["Mo;Sb", "Pb", "Rel"]
-comment = ""
-
-["Sb;Ch"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "nibling"
-definition = "a child of one's sibling (a nephew or niece)"
-hypernyms = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch"]
-ancestors = ["Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Br;Ch"]

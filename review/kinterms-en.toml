@@ -9,9 +9,15 @@
 # ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["grandparent"]
+omniglot = ["grandparents \"grandparents\""]
+omniglot_new = ["grandparents"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
 existing_by_ili = ["oewn oewn-10162692-n [i90292] grandparent: a parent of your father or mother"]
@@ -25,6 +31,8 @@ comment = ""
 ["Pa;Fa"]
 lemmas = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 pronunciations = ["grandfather: ˈɡɹænfɑː.ðə (IPA)"]
+omniglot = ["grandfather \"grandfather\"", "grandpa \"grandfather\"", "granddad \"grandfather\"", "granddaddy \"grandfather\"", "grandpapppy \"grandfather\"", "gramps \"grandfather\""]
+omniglot_new = ["grandpapppy"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
 existing_by_ili = ["oewn oewn-10161911-n [i90287] grandfather, gramps, granddad, grandad, granddaddy, grandpa: the father of your father or mother", "tufs-en tufs-en-10142391-n [i90287] grandfather: (CILI) the father of your father or mother"]
@@ -58,6 +66,8 @@ comment = ""
 ["Pa;Mo"]
 lemmas = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 pronunciations = ["grandmother: ˈɡɹænmʌðə (IPA)"]
+omniglot = ["grandmother \"grandmother\"", "grandma \"grandmother\"", "granny \"grandmother\"", "gran \"grandmother\"", "nan \"grandmother\"", "nana \"grandmother\"", "gramms \"grandmother\""]
+omniglot_new = ["nana", "gramms"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["oewn oewn-10162267-n [i90289] grandma, grandmother, granny, grannie, gran, nan, ...: the mother of your father or mother", "tufs-en tufs-en-10142747-n [i90289] grandmother: (CILI) the mother of your father or mother"]
@@ -92,6 +102,8 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["grandchild", "grandkid"]
+omniglot = ["grandchildren \"grandchildren\"", "grandkids \"grandchildren\""]
+omniglot_new = ["grandchildren", "grandkids"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
 existing_by_ili = ["oewn oewn-10161110-n [i90280] grandchild: a child of your son or daughter"]
@@ -106,6 +118,7 @@ comment = ""
 ["Ch;So"]
 lemmas = ["grandson"]
 pronunciations = ["grandson: ˈɡɹænsʌn (IPA)"]
+omniglot = ["grandson \"grandson\""]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
 existing_by_ili = ["oewn oewn-10162819-n [i90293] grandson: a male grandchild"]
@@ -119,6 +132,8 @@ comment = ""
 ["Ch;Da"]
 lemmas = ["granddaughter"]
 pronunciations = ["granddaughter: ˈɡɹændɔːtə (IPA)"]
+omniglot = ["granddaugther \"granddaughter\""]
+omniglot_new = ["granddaugther"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
 existing_by_ili = ["oewn oewn-10161252-n [i90281] granddaughter: a female grandchild"]
@@ -204,6 +219,8 @@ comment = ""
 ["Br"]
 lemmas = ["brother", "male sibling"]
 pronunciations = ["brother: ˈbɹʌðə (IPA)"]
+omniglot = ["brother \"brother\"", "bro \"brother\""]
+omniglot_new = ["bro"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["oewn oewn-10305781-n [i91174] male sibling: a sibling who is male", "tufs-en tufs-en-10286084-n [i91174] brother: (CILI) a sibling who is male"]
@@ -219,6 +236,7 @@ comment = ""
 ["Ss"]
 lemmas = ["female sibling", "sis", "sister"]
 pronunciations = ["sister: sĭs'tər (respelling)"]
+omniglot = ["sister \"sister\"", "sis \"sister\""]
 label = "sister"
 definition = "a sister of a person (a sibling)"
 existing_by_ili = ["oewn oewn-10103950-n [i89922] female sibling: a person's sister"]
@@ -408,6 +426,7 @@ comment = ""
 ["Sb;So"]
 lemmas = ["nephew"]
 pronunciations = ["nephew: ˈnɛv.ju (IPA)"]
+omniglot = ["nephew \"nephew\""]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
 existing_by_ili = ["oewn oewn-10373054-n [i91586] nephew: a son of your brother or sister"]
@@ -421,6 +440,7 @@ comment = ""
 ["Sb;Da"]
 lemmas = ["niece"]
 pronunciations = ["niece: niːs (IPA)"]
+omniglot = ["niece \"niece\""]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
 existing_by_ili = ["oewn oewn-10377312-n [i91615] niece: a daughter of your brother or sister"]
@@ -474,6 +494,7 @@ comment = ""
 ["Pa;Sb;Ch"]
 lemmas = ["cousin", "cousin-german", "first cousin", "full cousin"]
 pronunciations = ["cousin: ˈkʌzn (IPA)"]
+omniglot = ["cousin \"cousin\""]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
 existing_by_ili = ["oewn oewn-09991540-n [i89276] cousin, first cousin, cousin-german, full cousin: the child of your aunt or uncle", "tufs-en tufs-en-09972010-n [i89276] cousin: (CILI) the child of your aunt or uncle"]
@@ -580,6 +601,7 @@ comment = ""
 ["Unc"]
 lemmas = ["uncle"]
 pronunciations = ["uncle: ŭngʹkəl (respelling)"]
+omniglot = ["uncle \"uncle\""]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 existing_by_ili = ["oewn oewn-10755748-n [i93825] uncle: the brother of your father or mother; the husband of your aunt", "tufs-en tufs-en-10736091-n [i93825] uncle: (CILI) the brother of your father or mother; the husband of your aunt"]
@@ -594,6 +616,7 @@ comment = ""
 ["Aun"]
 lemmas = ["aunt", "auntie", "aunty"]
 pronunciations = ["aunt: ɑːnt (IPA)"]
+omniglot = ["aunt \"aunt\"", "auntie \"aunt\""]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 existing_by_ili = ["oewn oewn-09842904-n [i88357] aunt, auntie, aunty: the sister of your father or mother; the wife of your uncle", "tufs-en tufs-en-09823502-n [i88357] aunt: (CILI) the sister of your father or mother; the wife of your uncle"]
@@ -606,6 +629,8 @@ comment = ""
 
 ["Pa"]
 lemmas = ["parent", "parents"]
+omniglot = ["parents \"parents\"", "mum and dad \"parents\"", "mother and father \"parents\"", "mater and pater \"parents\"", "the parental units \"parents\""]
+omniglot_new = ["mum and dad", "mother and father", "mater and pater", "the parental units"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["oewn oewn-10419190-n [i91858] parent: a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-en tufs-en-10399491-n [i91858] parents: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
@@ -621,6 +646,8 @@ comment = ""
 ["Fa"]
 lemmas = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 pronunciations = ["father: ˈfɑː.ðə (IPA)"]
+omniglot = ["father \"father\"", "pater \"father\" (frm)", "dad \"father\"", "daddy \"father\"", "da \"father\"", "pa \"father\"", "papa \"father\"", "pop \"father\" (s)"]
+omniglot_new = ["pater", "daddy", "da"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["oewn oewn-10100638-n [i89901] father, male parent, begetter: a male parent (also used as a term of address to your father)", "tufs-en tufs-en-10080869-n [i89901] dad, father: (CILI) a male parent (also used as a term of address to your father)"]
@@ -636,6 +663,8 @@ comment = ""
 ["Mo"]
 lemmas = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 pronunciations = ["mother: ˈmʌðə (IPA)"]
+omniglot = ["mother \"mother\"", "mater \"mother\" (frm)", "mum \"mother\"", "mummy \"mother\"", "mam \"mother\"", "mammy \"mother\"", "mom \"mother\"", "mommy \"mother\"", "ma \"mother\"", "mama \"mother\""]
+omniglot_new = ["mater"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["oewn oewn-10352098-n [i91462] mother, female parent: a woman who has given birth to a child (also used as a term of address to your mother)", "tufs-en tufs-en-10332385-n [i91462] mother, mom: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
@@ -650,6 +679,8 @@ comment = ""
 
 ["Ch"]
 lemmas = ["child", "kid"]
+omniglot = ["children \"children\"", "offspring \"children\"", "kids \"children\"", "sprogs \"children\"", "rug-rats \"children\"", "ankle biters \"children\"", "little ones \"children\""]
+omniglot_new = ["children", "offspring", "kids", "sprogs", "rug-rats", "ankle biters", "little ones"]
 label = "child"
 definition = "a son or daughter of a person"
 existing_by_ili = ["oewn oewn-09937706-n [i88965] child, kid: a human offspring (son or daughter) of any age", "tufs-en tufs-en-09918248-n [i88965] child: (CILI) a human offspring (son or daughter) of any age"]
@@ -664,6 +695,7 @@ comment = ""
 ["So"]
 lemmas = ["boy", "son"]
 pronunciations = ["son: sʌn (IPA)"]
+omniglot = ["son \"son\""]
 label = "son"
 definition = "a son of a person (a child)"
 existing_by_ili = ["oewn oewn-10643436-n [i93143] son, boy: a male human offspring"]
@@ -678,6 +710,7 @@ comment = ""
 ["Da"]
 lemmas = ["daughter", "girl"]
 pronunciations = ["daughter: ˈdɔːtə (IPA)"]
+omniglot = ["daughter \"daughter\""]
 label = "daughter"
 definition = "a daughter of a person (a child)"
 existing_by_ili = ["oewn oewn-10012375-n [i89398] daughter, girl: a female human offspring"]
@@ -704,6 +737,8 @@ comment = ""
 
 ["Hu"]
 lemmas = ["hubby", "husband", "married man"]
+omniglot = ["husband \"husband\"", "hubby \"husband\"", "old man \"husband\"", "other half \"husband\"", "better half \"husband\""]
+omniglot_new = ["old man", "other half", "better half"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
 existing_by_ili = ["oewn oewn-10213586-n [i90626] husband, hubby, married man: a married man; a woman's partner in marriage", "tufs-en tufs-en-10193967-n [i90626] husband: (CILI) a married man; a woman's partner in marriage"]
@@ -716,6 +751,8 @@ comment = ""
 
 ["Wi"]
 lemmas = ["married woman", "wife"]
+omniglot = ["wife \"wife\" (and strife)", "other half \"wife\" (and strife)", "better half \"wife\" (and strife)", "old lady \"wife\" (and strife)", "her indoors \"wife\" (and strife)", "missus \"wife\" (and strife)", "trouble \"wife\" (and strife)"]
+omniglot_new = ["other half", "better half", "old lady", "her indoors", "missus", "trouble"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["oewn oewn-10800308-n [i94123] wife, married woman: a married woman; a man's partner in marriage", "tufs-en tufs-en-10780632-n [i94123] wife: (CILI) a married woman; a man's partner in marriage"]
@@ -750,6 +787,7 @@ comment = ""
 
 ["Sp;Fa"]
 lemmas = ["father-in-law"]
+omniglot = ["father-in-law \"father-in-law\""]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
 existing_by_ili = ["oewn oewn-10101812-n [i89906] father-in-law: the father of your spouse"]
@@ -762,6 +800,7 @@ comment = ""
 
 ["Sp;Mo"]
 lemmas = ["mother-in-law"]
+omniglot = ["mother-in-law \"mother-in-law\""]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
 existing_by_ili = ["oewn oewn-10353030-n [i91467] mother-in-law: the mother of your spouse"]
@@ -808,6 +847,7 @@ comment = ""
 
 ["BrL"]
 lemmas = ["brother-in-law"]
+omniglot = ["brother-in-law \"brother-in-law\""]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
 existing_by_ili = ["oewn oewn-09896754-n [i88712] brother-in-law: a brother by marriage"]
@@ -820,6 +860,7 @@ comment = ""
 
 ["SsL"]
 lemmas = ["sister-in-law"]
+omniglot = ["sister-in-law \"sister-in-law\""]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
 existing_by_lemma = ["sister-in-law -> oewn oewn-10623174-n [i93022] sister-in-law: the sister of your spouse"]

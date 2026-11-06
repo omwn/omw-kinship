@@ -17,6 +17,10 @@
 #   NOT in the build (no licence yet), as form "gloss" [items] uses, where
 #   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
 #   the word's items match no concept. prosub_new: those not in `lemmas`.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["祖父母"]
@@ -37,6 +41,8 @@ comment = ""
 lemmas = ["おじいさん", "お爺ちゃん", "お祖父", "お祖父ちゃん", "お祖父様", "そふ", "御祖父", "御祖父さん", "御祖父様", "爺さん", "祖", "祖父", "祖父さま", "祖父上", "祖父君", "祖父御", "祖父様", "親"]
 prosub = ["祖父 \"grandfather\" [18,19] no person use", "おじいちゃん \"grandfather\" [18,19] 1st 2nd address title", "おじいさん \"grand father\" [18,19] 1st 2nd address title"]
 prosub_new = ["おじいちゃん"]
+omniglot = ["祖父 sofu \"grandfather\" inf", "爺 jiji \"grandfather\" inf", "お爺さん \"grandfather\" frm", "お祖父さん ojī san \"grandfather\" frm"]
+omniglot_new = ["爺", "お爺さん", "お祖父さん"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -55,6 +61,8 @@ comment = ""
 ["Pa;Mo"]
 lemmas = ["おばあさん", "おばあちゃん", "お婆さん", "お婆ちゃん", "お祖母", "お祖母さま", "お祖母さん", "お祖母ちゃん", "お祖母様", "そぼ", "ばあちゃん", "ばば", "バアチャン", "婆さん", "御祖母", "御祖母さん", "御祖母ちゃん", "祖母", "祖母さま", "祖母ちゃん", "祖母様"]
 prosub = ["祖母 \"grandmother\" [20,21] no person use", "おばあさん \"grandmother\" [20,21] 1st 2nd address title", "おばあちゃん \"grandmother\" [20,21] 1st 2nd address title"]
+omniglot = ["祖母 sobo \"grandmother\" inf", "お姉さん onē san \"grandmother\" frm"]
+omniglot_new = ["お姉さん"]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -96,6 +104,8 @@ comment = ""
 lemmas = ["まご", "令孫", "孫", "御孫さん"]
 pronunciations = ["まご: maago (romanization)"]
 prosub = ["孫 \"grandchild\" [29] no person use"]
+omniglot = ["孫 mago \"grandchild\" inf", "お孫さん omago san \"grandchild\" frm"]
+omniglot_new = ["お孫さん"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -111,6 +121,7 @@ comment = ""
 
 ["Ch;So"]
 lemmas = ["まごむすこ", "孫息子"]
+omniglot = ["孫息子 mago musuku \"grandson\""]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
@@ -126,6 +137,7 @@ comment = ""
 
 ["Ch;Da"]
 lemmas = ["まごむすめ", "孫娘"]
+omniglot = ["孫娘 mago musume \"granddaughter\""]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
@@ -164,6 +176,7 @@ comment = ""
 ["Sb"]
 lemmas = ["きょうだい", "けいてい", "兄弟", "兄弟姉妹"]
 pronunciations = ["きょうだい: kyōdai (romanization)"]
+omniglot = ["兄弟姉妹 kyōdaishimai \"siblings\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
@@ -181,6 +194,8 @@ comment = ""
 ["Br"]
 lemmas = ["きょうだい", "兄弟"]
 pronunciations = ["きょうだい: kyōdai (romanization)"]
+omniglot = ["兄弟 kyōdai \"siblings (brothers)\" inf", "ご兄弟 go kyōdai \"siblings (brothers)\" frm"]
+omniglot_new = ["ご兄弟"]
 english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
@@ -197,6 +212,7 @@ comment = ""
 
 ["Ss"]
 lemmas = ["しまい", "シスター", "姉妹"]
+omniglot = ["姉妹 shimai \"siblings (sisters)\""]
 english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
@@ -214,6 +230,7 @@ comment = ""
 lemmas = ["あに", "お兄さん", "けい", "兄", "兄い", "兄さん", "兄じゃ", "兄じゃ人", "兄ちゃん", "兄人", "兄君", "兄御", "兄様", "兄者", "兄者人", "兄貴", "大兄", "実兄"]
 prosub = ["兄貴 \"elder brother\" [22] 2nd address", "お兄さん \"elder brother\" [22] 1st 2nd address title", "お兄ちゃん \"elder brother\" [22] 1st 2nd address title"]
 prosub_new = ["お兄ちゃん"]
+omniglot = ["兄 ani \"older brother\" inf", "お兄さん onī san \"older brother\" frm"]
 english = ["big brother"]
 label = "elder brother"
 definition = "an elder brother of a person (a sibling)"
@@ -232,6 +249,7 @@ comment = ""
 lemmas = ["あね", "おねえさん", "お姉さん", "ねえ", "姉", "姉ちゃん"]
 prosub = ["姉貴 \"elder sister\" [23] 2nd address", "お姉さん \"elder sister\" [23] 1st 2nd address title", "お姉ちゃん \"elder sister\" [23] 1st 2nd address title"]
 prosub_new = ["お姉ちゃん", "姉貴"]
+omniglot = ["姉 ane \"older sister\" inf", "お姉さん onē san \"older sister\" frm"]
 english = ["big sister"]
 label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
@@ -250,6 +268,7 @@ comment = ""
 ["Yn;Br"]
 lemmas = ["おと", "おとうと", "弟", "弟さん"]
 prosub = ["弟 \"younger brother\" [24] no person use"]
+omniglot = ["弟 otōto \"younger brother\" inf", "弟さん otōto san \"younger brother\" frm"]
 english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
@@ -267,6 +286,7 @@ comment = ""
 ["Yn;Ss"]
 lemmas = ["いも", "いもうと", "いもうとご", "いもうとさん", "まい", "妹", "妹さん", "妹君", "妹御", "小妹"]
 prosub = ["妹 \"younger sister\" [25] no person use"]
+omniglot = ["妹 imōto \"youger sister\" inf", "妹さん imōto san \"youger sister\" frm"]
 english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
@@ -313,6 +333,58 @@ sources = ["おば <- Wiktionary"]
 honorific = ["おば: Fml;Hum (bare, senior)"]
 comment = ""
 
+["Pa;El;Br"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["伯父 oji \"uncle (older than parent)\" inf", "おじさん oji san \"uncle (older than parent)\" frm"]
+omniglot_new = ["伯父", "おじさん"]
+english = ["uncle"]
+english_via = "Pa;Br"
+label = "parent's elder brother"
+definition = "an elder brother of one's parent (an uncle or aunt)"
+hypernyms = ["Pa;Br"]
+ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
+comment = ""
+
+["Pa;El;Ss"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["伯母 oba \"aunt (older than parent)\" inf", "おばさん oba san \"aunt (older than parent)\" frm"]
+omniglot_new = ["伯母", "おばさん"]
+english = ["aunt"]
+english_via = "Pa;Ss"
+label = "parent's elder sister"
+definition = "an elder sister of one's parent (an uncle or aunt)"
+hypernyms = ["Pa;Ss"]
+ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+comment = ""
+
+["Pa;Yn;Br"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["叔父 oji \"uncle (younger than parent)\" inf", "おじさん oji san \"uncle (younger than parent)\" frm"]
+omniglot_new = ["叔父", "おじさん"]
+english = ["uncle"]
+english_via = "Pa;Br"
+label = "parent's younger brother"
+definition = "a younger brother of one's parent (an uncle or aunt)"
+hypernyms = ["Pa;Br"]
+ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
+comment = ""
+
+["Pa;Yn;Ss"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["叔母 oba \"aunt (younger than parent)\" inf", "おばさん oba san \"aunt (younger than parent)\" frm"]
+omniglot_new = ["叔母", "おばさん"]
+english = ["aunt"]
+english_via = "Pa;Ss"
+label = "parent's younger sister"
+definition = "a younger sister of one's parent (an uncle or aunt)"
+hypernyms = ["Pa;Ss"]
+ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+comment = ""
+
 ["Fa;El;Br"]
 lemmas = ["おじさん", "伯父さん"]
 english = ["uncle"]
@@ -347,6 +419,8 @@ comment = ""
 lemmas = ["おい", "猶子", "甥", "甥御", "甥御さん"]
 pronunciations = ["おい: oii (romanization)"]
 prosub = ["甥 \"nephew\" [32] no person use"]
+omniglot = ["甥 oi \"nephew\" inf", "甥っ子 oikko \"nephew\" inf", "甥御 oigo \"nephew\" frm"]
+omniglot_new = ["甥っ子"]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
@@ -365,6 +439,8 @@ comment = ""
 lemmas = ["めい", "姪", "姪子", "姪御", "姪御さん"]
 pronunciations = ["めい: mei (romanization)"]
 prosub = ["姪 \"niece\" [33] no person use"]
+omniglot = ["姪 mei \"niece\" inf", "姪っ子 meikko \"niece\" inf", "姪御 meigo \"niece\" frm"]
+omniglot_new = ["姪っ子"]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
@@ -427,6 +503,7 @@ comment = ""
 lemmas = ["いとこ", "従兄", "従兄弟", "従妹", "従姉", "従姉妹", "従弟"]
 pronunciations = ["いとこ: itoko (romanization)"]
 prosub = ["いとこ \"cousin\" [34] no person use"]
+omniglot = ["いとこ itoko \"cousin\""]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 label = "cousin"
 definition = "a child of one's parent's sibling (a cousin)"
@@ -442,7 +519,8 @@ comment = ""
 
 ["Pa;Sb;So"]
 lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
+omniglot = ["従兄弟 jūkeitei \"cousin\" male (pl)"]
+omniglot_new = ["従兄弟"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
@@ -453,7 +531,8 @@ comment = ""
 
 ["Pa;Sb;Da"]
 lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
+omniglot = ["従姉妹 jūshimei \"cousin\" female (pl)"]
+omniglot_new = ["従姉妹"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
@@ -486,6 +565,7 @@ comment = ""
 
 ["El;Pa;Sb;So"]
 lemmas = ["従兄", "従兄妹"]
+omniglot = ["従兄 jūkei \"cousin\" elder male"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder male cousin"
@@ -501,6 +581,7 @@ comment = ""
 
 ["El;Pa;Sb;Da"]
 lemmas = ["従姉", "従姉弟"]
+omniglot = ["従姉 jūshi \"cousin\" elder female"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "elder female cousin"
@@ -516,6 +597,7 @@ comment = ""
 
 ["Yn;Pa;Sb;So"]
 lemmas = ["従姉弟", "従弟"]
+omniglot = ["従弟 jūtei \"cousin\" younger male"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger male cousin"
@@ -531,6 +613,7 @@ comment = ""
 
 ["Yn;Pa;Sb;Da"]
 lemmas = ["従兄妹", "従妹"]
+omniglot = ["従妹 jūmei \"cousin\" younger female"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "younger female cousin"
@@ -634,6 +717,7 @@ comment = ""
 
 ["Rel"]
 lemmas = ["にくえん", "族戚", "族親", "眷属", "縁戚", "縁故", "縁者", "縁辺", "縁類", "血族", "親せき", "親戚", "親族", "親眷", "親類", "親類筋", "身より", "身寄", "身寄り", "類縁"]
+omniglot = ["親戚 shinseki \"relative\""]
 english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
@@ -683,6 +767,8 @@ comment = ""
 ["Pa"]
 lemmas = ["おや", "りょうしん", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
 pronunciations = ["りょうしん: ryōshin (romanization)"]
+omniglot = ["両親 ryōshin \"parents\" inf", "ご両親 go ryōshin \"parents\" frm"]
+omniglot_new = ["ご両親"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -702,6 +788,7 @@ comment = ""
 lemmas = ["おとうさん", "おとっつあん", "おやじ様", "お父さん", "お父っさん", "お父っつぁん", "ちち", "てて親", "とうさん", "パパ", "ファーザー", "乃父", "厳親", "垂乳根", "実父", "師父", "御父さん", "御父っさん", "御父っつぁん", "御父様", "椿堂", "父", "父さん", "父っつぁん", "父上", "父君", "父御", "父様", "父親", "男親", "親父", "親父さま"]
 prosub = ["父 \"father\" [8] no person use", "おやじ \"father\" [8] 2nd address", "パパ \"dad\" [8] 1st 2nd address", "お父さん \"father\" [8] 1st 2nd address"]
 prosub_new = ["おやじ"]
+omniglot = ["父 chichi \"father\" inf", "お父さん otō san \"father\" frm"]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -720,6 +807,7 @@ comment = ""
 ["Mo"]
 lemmas = ["おかあさん", "おっ母", "お母さん", "かあ様", "はは", "ははおや", "マザー", "ママ", "ムッター", "垂乳女", "垂乳根", "女親", "実母", "御母さん", "御母様", "御袋", "慈母", "母", "母さん", "母じゃ人", "母ちゃん", "母上", "母君", "母御", "母様", "母者人", "母親"]
 prosub = ["ママ \"mom\" [9] 1st 2nd address", "母 \"mother\" [9] no person use", "お母さん \"mother\" [9] 1st 2nd address"]
+omniglot = ["母 haha \"mother\" inf", "お母さん okā san \"mother\" frm"]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -739,6 +827,7 @@ comment = ""
 lemmas = ["おこさん", "お子さん", "お子様", "こ", "こども", "児", "子", "子供", "子女", "子弟", "子種", "愛児"]
 pronunciations = ["こども: kodomo (romanization)"]
 prosub = ["子 \"child\" [26] no person use"]
+omniglot = ["子供 kodomo \"children\" inf", "お子さん oko san \"children\" frm"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -757,6 +846,7 @@ comment = ""
 ["So"]
 lemmas = ["なん", "むすこ", "ジュニア", "令息", "倅", "和郎", "坊", "坊さん", "坊ち", "坊っちゃん", "坊や", "坊主", "坊様", "子息", "小僧", "小僮", "小童", "御令息", "御坊ちゃん", "息", "息子", "息子さん", "息男", "悴", "愚息", "男", "男の子", "男児", "男子", "童男"]
 prosub = ["息子 \"son\" [27] no person use"]
+omniglot = ["息子 musuko \"son\" inf", "息子さん musuko san \"son\" frm"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -775,6 +865,8 @@ comment = ""
 ["Da"]
 lemmas = ["むすめ", "令嬢", "娘", "娘さん", "嬢子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
 prosub = ["娘 \"daughter\" [28] no person use"]
+omniglot = ["娘 musume \"daughter\" inf", "お嬢さん ojō san \"daughter\" frm"]
+omniglot_new = ["お嬢さん"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -793,6 +885,8 @@ comment = ""
 ["Sp"]
 lemmas = ["はいぐうしゃ", "パートナー", "ベターハーフ", "伴侶", "配偶者"]
 pronunciations = ["はいぐうしゃ: haigūsha (romanization)"]
+omniglot = ["配偶者 haigūsha \"spouse\"", "伴侶 hanryo \"spouse\"", "伉配 kōhai \"spouse\""]
+omniglot_new = ["伉配"]
 english = ["better half", "married person", "mate", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
@@ -809,6 +903,7 @@ comment = ""
 
 ["Hu"]
 lemmas = ["おっと", "おとうさん", "お父さん", "ごしゅじん", "ご主人", "ご亭主", "しゅじん", "ハズ", "ハズバンド", "主", "主人", "亭主", "入夫", "夫", "夫の君", "女房持ち", "妻帯者", "宅", "宿六", "御亭主", "既婚男性", "旦つく", "旦那", "背子", "良人"]
+omniglot = ["夫 otto \"husband\" inf", "主人 shujin \"husband\"", "亭主 teishu \"husband\"", "ご主人 go shujin \"husband\" frm"]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -826,6 +921,7 @@ comment = ""
 
 ["Wi"]
 lemmas = ["おかあさん", "おくさん", "おっ母", "おなご", "お母さん", "かない", "こゆび", "ご内儀", "ご内室", "つま", "め", "フラウ", "ミセス", "ワイフ", "上さん", "上様", "亭主もち", "亭主持", "亭主持ち", "人妻", "令夫人", "令室", "令閨", "刀自", "嚊", "嚊左衛門", "夫人", "奥さん", "奥様", "女", "女子", "女性", "女房", "妻", "妻君", "妻女", "妻室", "婦人", "嫁", "嫁さん", "嫁はん", "嬢子", "室", "室家", "家内", "家妻", "家桜", "小指", "御っ母", "御上", "御内", "御内儀", "御内儀さん", "御内室", "御新造", "御方", "愚妻", "細君", "裏方"]
+omniglot = ["妻 tsuma \"wife\" inf", "家内 kanai \"wife\"", "女房 nyōbō \"wife\"", "奥さん oku san \"wife\" frm"]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
@@ -868,6 +964,8 @@ comment = ""
 ["Sp;Fa"]
 lemmas = ["girinochichi", "岳父", "義父", "舅"]
 transcribed = ["girinochichi"]  # romanized in the source; no word in the native script here
+omniglot = ["義理の父 giri no chichi \"father-in-law\"", "義父 gifu \"father-in-law\"", "舅 shūto \"father-in-law\""]
+omniglot_new = ["義理の父"]
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
@@ -885,6 +983,8 @@ comment = ""
 ["Sp;Mo"]
 lemmas = ["girinohaha", "ぎぼ", "姑", "義母"]
 transcribed = ["girinohaha"]  # romanized in the source; no word in the native script here
+omniglot = ["義理の野母 giri no haha \"mother-in-law\"", "義母 gibo \"mother-in-law\"", "姑 shūtome \"mother-in-law\""]
+omniglot_new = ["義理の野母"]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
@@ -912,6 +1012,8 @@ comment = ""
 ["Da;Hu"]
 lemmas = ["婿"]
 prosub = ["婿 \"son in law\" [31] no person use"]
+omniglot = ["義理の息子 giri no musuko \"son-in-law\""]
+omniglot_new = ["義理の息子"]
 english = ["son-in-law"]
 label = "son-in-law"
 definition = "the husband of one's daughter (an in-law)"
@@ -928,6 +1030,8 @@ comment = ""
 ["So;Wi"]
 lemmas = ["嫁"]
 prosub = ["嫁 \"daughter in law\" [30] no person use"]
+omniglot = ["嫁姑 yome shūtome \"daughter-in-law\""]
+omniglot_new = ["嫁姑"]
 english = ["daughter-in-law"]
 label = "daughter-in-law"
 definition = "the wife of one's son (an in-law)"
@@ -943,6 +1047,8 @@ comment = ""
 
 ["BrL"]
 lemmas = ["義兄"]
+omniglot = ["義兄 gikei \"brother-in-law stepbrother\" older (broader)", "義理の兄 giri no ani \"brother-in-law stepbrother\" older (broader)", "義弟 gitei \"brother-in-law stepbrother\" younger (broader)", "義理の弟 giri no otōto \"brother-in-law stepbrother\" younger (broader)"]
+omniglot_new = ["義理の兄", "義弟", "義理の弟"]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
@@ -957,7 +1063,8 @@ comment = ""
 
 ["SsL"]
 lemmas = []
-status = "unlexicalized: no ja word; included for the hierarchy"
+omniglot = ["義姉 gishi \"sister-in-law stepsister\" older (broader)", "義理の姉 gishi no ane \"sister-in-law stepsister\" older (broader)", "義妹 gimei \"sister-in-law stepsister\" younger (broader)", "義理の妹 gishi no mai \"sister-in-law stepsister\" younger (broader)"]
+omniglot_new = ["義姉", "義理の姉", "義妹", "義理の妹"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
@@ -1940,42 +2047,6 @@ label = "paternal aunt (female anchor)"
 definition = "a sister of a woman's father (an uncle or aunt)"
 hypernyms = ["Fa;Ss", "o;Pa;Ss"]
 ancestors = ["Fa;Ss", "o;Pa;Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-comment = ""
-
-["Pa;El;Br"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "parent's elder brother"
-definition = "an elder brother of one's parent (an uncle or aunt)"
-hypernyms = ["Pa;Br"]
-ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
-comment = ""
-
-["Pa;El;Ss"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "parent's elder sister"
-definition = "an elder sister of one's parent (an uncle or aunt)"
-hypernyms = ["Pa;Ss"]
-ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-comment = ""
-
-["Pa;Yn;Br"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "parent's younger brother"
-definition = "a younger brother of one's parent (an uncle or aunt)"
-hypernyms = ["Pa;Br"]
-ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
-comment = ""
-
-["Pa;Yn;Ss"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "parent's younger sister"
-definition = "a younger sister of one's parent (an uncle or aunt)"
-hypernyms = ["Pa;Ss"]
-ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
 ["Fa;Yn;Sb"]

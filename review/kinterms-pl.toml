@@ -6,9 +6,14 @@
 #   lexicon id [ILI] lemmas: definition; (CILI) marks a definition taken from the ILI.
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
+#   only, NOT in the build (licence), as word romanization "label" qualifiers;
+#   (broader): on a broader concept than the qualifiers name.
+#   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["dziadkowie"]
+omniglot = ["dziadkowie \"grandparents\""]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -20,6 +25,7 @@ comment = ""
 
 ["Pa;Fa"]
 lemmas = ["dziadek", "dziadziuś"]
+omniglot = ["dziadek \"grandfather\""]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
@@ -33,6 +39,7 @@ comment = ""
 
 ["Pa;Mo"]
 lemmas = ["babcia", "babka", "babunia"]
+omniglot = ["babka \"grandmother\" (frm)", "babcia \"grandmother\" (inf)"]
 english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
@@ -68,6 +75,8 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["wnuczę"]
+omniglot = ["wnukowie \"grandchildren\"", "wnuczęta \"grandchildren\""]
+omniglot_new = ["wnukowie", "wnuczęta"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -80,6 +89,7 @@ comment = ""
 
 ["Ch;So"]
 lemmas = ["wnuczek", "wnuk"]
+omniglot = ["wnuk \"grandson\""]
 english = ["grandson"]
 label = "grandson"
 definition = "a son of one's child (a grandchild)"
@@ -92,6 +102,7 @@ comment = ""
 
 ["Ch;Da"]
 lemmas = ["wnuczka"]
+omniglot = ["wnuczka \"granddaughter\""]
 english = ["granddaughter"]
 label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
@@ -170,6 +181,7 @@ comment = ""
 
 ["Br"]
 lemmas = ["brat"]
+omniglot = ["brat \"brother\""]
 english = ["brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
@@ -182,6 +194,7 @@ comment = ""
 
 ["Ss"]
 lemmas = ["siostra"]
+omniglot = ["siostra \"sister\""]
 english = ["female sibling", "sis", "sister"]
 label = "sister"
 definition = "a sister of a person (a sibling)"
@@ -280,6 +293,7 @@ comment = ""
 
 ["Br;So"]
 lemmas = ["bratanek"]
+omniglot = ["bratanek \"nephew\" (brother's son)"]
 english = ["nephew"]
 english_via = "Sb;So"
 label = "brother's son"
@@ -292,6 +306,7 @@ comment = ""
 
 ["Br;Da"]
 lemmas = ["bratanica"]
+omniglot = ["bratanica \"niece\" (brother's daughter)"]
 english = ["niece"]
 english_via = "Sb;Da"
 label = "brother's daughter"
@@ -304,6 +319,7 @@ comment = ""
 
 ["Ss;So"]
 lemmas = ["siostrzeniec"]
+omniglot = ["siostrzeniec \"nephew\" (sister's son)"]
 english = ["nephew"]
 english_via = "Sb;So"
 label = "sister's son"
@@ -316,6 +332,7 @@ comment = ""
 
 ["Ss;Da"]
 lemmas = ["siostrzenica"]
+omniglot = ["siostrzenica \"niece\" (sister's daughter)"]
 english = ["niece"]
 english_via = "Sb;Da"
 label = "sister's daughter"
@@ -328,6 +345,7 @@ comment = ""
 
 ["Pa;Sb;So"]
 lemmas = ["kuzyn"]
+omniglot = ["kuzyn \"cousin\" (m)"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
@@ -340,6 +358,7 @@ comment = ""
 
 ["Pa;Sb;Da"]
 lemmas = ["kuzynka"]
+omniglot = ["kuzynka \"cousin\" (f)"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
@@ -472,6 +491,7 @@ comment = ""
 
 ["Unc"]
 lemmas = ["wuj", "wujek", "wujo"]
+omniglot = ["wujek \"uncle\""]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
@@ -484,6 +504,7 @@ comment = ""
 
 ["Aun"]
 lemmas = ["ciocia", "ciotka"]
+omniglot = ["ciotka \"aunt\""]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
@@ -531,6 +552,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodzic", "rodzice"]
+omniglot = ["rodzice \"parents\""]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -544,6 +566,7 @@ comment = ""
 
 ["Fa"]
 lemmas = ["ojciec", "rodziciel", "tata", "tato"]
+omniglot = ["ojciec \"father\" (frm)", "tata \"father\" (inf)", "tato \"father\" (inf)"]
 english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
@@ -557,6 +580,7 @@ comment = ""
 
 ["Mo"]
 lemmas = ["mama", "matka"]
+omniglot = ["matka \"mother\" (frm)", "mama \"mother\" (inf)"]
 english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
@@ -570,6 +594,8 @@ comment = ""
 
 ["Ch"]
 lemmas = ["dziecię", "dziecko", "latorośl", "pociecha", "pocieszka"]
+omniglot = ["dzieci \"children\""]
+omniglot_new = ["dzieci"]
 english = ["child", "kid"]
 label = "child"
 definition = "a son or daughter of a person"
@@ -583,6 +609,7 @@ comment = ""
 
 ["So"]
 lemmas = ["chłopak", "chłopiec", "syn"]
+omniglot = ["syn \"son\""]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
@@ -596,6 +623,7 @@ comment = ""
 
 ["Da"]
 lemmas = ["córka", "dziewczynka"]
+omniglot = ["córka \"daughter\""]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
@@ -621,6 +649,7 @@ comment = ""
 
 ["Hu"]
 lemmas = ["małżonek", "mąż"]
+omniglot = ["mąż \"husband\"", "małżonek \"husband\""]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
@@ -634,6 +663,7 @@ comment = ""
 
 ["Wi"]
 lemmas = ["małżonka", "współmałżonka", "żona"]
+omniglot = ["żona \"wife\"", "małżonka \"wife\""]
 english = ["married woman", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
@@ -666,6 +696,7 @@ comment = ""
 
 ["Sp;Fa"]
 lemmas = ["teść"]
+omniglot = ["teść \"father-in-law\""]
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
@@ -678,6 +709,7 @@ comment = ""
 
 ["Sp;Mo"]
 lemmas = ["teściowa"]
+omniglot = ["teściowa \"mother-in-law\""]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
@@ -724,6 +756,7 @@ comment = ""
 
 ["BrL"]
 lemmas = ["szwagier"]
+omniglot = ["szwagier \"brother-in-law\""]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
@@ -736,7 +769,8 @@ comment = ""
 
 ["SsL"]
 lemmas = []
-status = "unlexicalized: no pl word; included for the hierarchy"
+omniglot = ["szwagierka \"sister-in-law\""]
+omniglot_new = ["szwagierka"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
@@ -754,6 +788,17 @@ existing_by_lemma = ["szwagierka -> plwn plwn-syn-f3df7954-aac4-11ed-aae5-0242ac
 hypernyms = ["Sp;Sb", "SsL"]
 ancestors = ["Sp;Sb", "SsL", "InL", "Rel"]
 sources = ["szwagierka <- plwn"]
+comment = ""
+
+["Br;Wi"]
+lemmas = []
+omniglot = ["bratowa \"sister-in-law\" (brother's wife)"]
+omniglot_new = ["bratowa"]
+english = ["sister-in-law"]
+label = "brother's wife"
+definition = "the wife of one's brother (an in-law)"
+hypernyms = ["SsL"]
+ancestors = ["SsL", "InL", "Rel"]
 comment = ""
 
 ["Fa|Fa;Br"]
