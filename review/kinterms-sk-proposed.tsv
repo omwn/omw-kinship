@@ -1,0 +1,63 @@
+code	lemma	confidence	note
+Fa	otecko	high	diminutive, affectionate; common in address
+Fa	ocko	high	diminutive, colloquial; very common in address and in children's speech
+Fa	oco	medium	colloquial
+Fa	tato	high	colloquial; main everyday address term
+Fa	tatko	high	diminutive, colloquial
+Fa	tatino	medium	diminutive, colloquial, affectionate
+Fa	foter	low	slang, teenage speech; Bohemism (cf. Czech fotr)
+Fa	apa	low	regional (southern/eastern Slovakia, from Hungarian apa)
+Mo	mamička	high	diminutive, affectionate
+Mo	mamka	high	diminutive, colloquial; very common
+Mo	mamina	medium	colloquial, affectionate
+Mo	mati	low	archaic/literary; also dialect; existing mať is the standard archaic form
+Mo	mater	low	slang, teenage speech
+Ch	decko	medium	colloquial; Bohemism-like but widely used ("naše decko")
+So	synček	high	diminutive, affectionate
+So	synáčik	medium	diminutive, affectionate; sometimes ironic
+So	synak	low	regional/colloquial
+Da	dcérka	high	diminutive, affectionate
+Da	dcéruška	high	diminutive, affectionate
+Br	bratček	high	diminutive, affectionate
+Br	braček	medium	diminutive, colloquial (also regional)
+Br	brácho	low	slang, mostly in address; check whether the lemma form is acceptable
+Ss	sestrička	high	diminutive, affectionate; also means "nurse"
+Ss	ségra	low	slang, Bohemism
+Pa;Fa	starký	medium	regional/colloquial (central and western Slovakia)
+Pa;Fa	apko	low	regional (eastern Slovakia)
+Pa;Mo	starká	medium	regional/colloquial (central and western Slovakia)
+Pa;Mo	babi	low	colloquial, mostly vocative/address form
+Ch;Ch	vnúča	high	neutral, neuter noun; plural vnúčatá is the common general term for grandchildren
+Ch;Ch	vnúčatko	medium	diminutive
+Ch;So	vnúčik	medium	diminutive
+Mo;Br	ujo	high	traditional meaning is mother's brother; today also generic uncle (see Pa;Br, Unc) and a child's word for any adult man
+Pa;Br	ujo	medium	modern generic use for any uncle, either side
+Pa;Br	strýko	medium	modern generic use for any uncle; traditionally father's brother (already in lexicon at Fa;Br)
+Fa;Br	strýc	low	archaic/regional variant of strýko
+Unc	ujo	medium	also used for an aunt's husband (uncle by marriage)
+Unc	strýko	medium	also used for an aunt's husband in some regions
+Aun	teta	medium	also used for an uncle's wife (aunt by marriage); generic term for an adult woman in children's speech
+Pa;Ss	tetka	high	diminutive, colloquial
+Fa;Br;Wi	stryná	medium	archaic/regional; wife of father's brother
+Pa;Br;Wi	ujčiná	low	archaic/regional; strictly wife of mother's brother, but there is no Mo;Br;Wi code
+Pa;Sb;Da	sesternička	low	diminutive
+Br;So	bratanec	low	archaic; check whether bratanec means brother's son or cousin in Slovak (see Pa;Sb;So row)
+Pa;Sb;So	bratanec	check	existing assignment (from Kinbank); standard modern cousin word is bratranec; bratanec may be archaic or a Kinbank error, or mean brother's son
+Rel	príbuzný	high	nominalized adjective; masculine form
+Rel	príbuzná	high	nominalized adjective; feminine form
+InL	príbuzenstvo	check	existing assignment; príbuzenstvo means kinship / relatives collectively, not an in-law; consider removing
+Sp	choť	high	formal, elevated; used for either husband or wife
+Sp	polovička	low	colloquial, jocular ("moja polovička")
+Hu	muž	high	colloquial in possessive use ("môj muž")
+Hu	chlap	medium	colloquial/regional ("môj chlap")
+Wi	stará	low	slang, jocular or disrespectful ("moja stará")
+Sp;Pa	svokrovci	medium	plural only (in-laws' parents as a couple)
+Sp;Fa	svokor	high	standard modern term for either spouse's father
+Sp;Mo	svokra	high	standard modern term for either spouse's mother
+Wi;Fa	tesť	high	wife's father; traditional/somewhat dated, now often replaced by svokor
+Wi;Mo	testiná	high	wife's mother; traditional/somewhat dated, now often replaced by svokra
+Sp;Fa	test'	check	existing lemma has an ASCII apostrophe; should be tesť; also more precisely Wi;Fa (see above)
+Sp;Mo	testiná	check	existing assignment; strictly wife's mother (Wi;Mo); Sp;Mo should be svokra
+So;Wi	nevesta	high	daughter-in-law; also means "bride"
+BrL	švagor	high	any brother-in-law (spouse's brother, sister's husband, spouse's sister's husband)
+SsL	švagriná	high	any sister-in-law (spouse's sister, brother's wife, spouse's brother's wife)

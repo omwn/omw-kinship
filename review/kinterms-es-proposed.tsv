@@ -1,0 +1,76 @@
+code	lemma	confidence	note
+Fa;Fa	abuelo paterno	high	compositional, parallel to tío paterno already in the build
+Fa;Mo	abuela paterna	high	compositional
+Mo;Fa	abuelo materno	high	compositional
+Mo;Mo	abuela materna	high	compositional
+Pa;Pa	abue	medium	colloquial, affectionate, either sex (Argentina, Uruguay, Mexico); build has it only on Pa;Mo
+Pa;Fa	nono	medium	colloquial, affectionate (Argentina, Uruguay; from Italian)
+Pa;Mo	nona	medium	colloquial, affectionate (Argentina, Uruguay; from Italian)
+Pa;Fa	tata	low	colloquial (Chile, parts of the Andes); in Mexico and Central America tata is rather 'father'
+Pa;Fa	papá grande	low	regional (Mexico, Colombia, Venezuela)
+Pa;Mo	mamá grande	low	regional (Mexico, Colombia, Venezuela)
+Pa;Mo	abuelo	check	masculine; already in build on Pa;Fa and Pa;Pa; drop from Pa;Mo
+Pa;Mo	gran	check	English loan carried over from omw-es; not Spanish for grandmother; drop
+Pa;Mo	nan	check	English, carried over from omw-es; drop
+Pa;Mo	tata	check	not a general Spanish word for grandmother (Spain: nanny or child-talk for elder sister; Chile: grandfather); probably drop
+Pa;Fa	gramps	check	English, carried over from omw-es; drop
+Ch;Da	nieto	check	masculine; belongs on Ch;So and Ch;Ch only
+Da	hijo	check	masculine; belongs on So and Ch only
+Da	niña	check	'girl'; used affectionately for a daughter but not a kin term; probably drop
+Ch	ninzzo	check	not a Spanish word (omw-es noise); drop
+Ch	niño	check	'child' (age), not offspring; probably drop
+Ch	niña	check	'child, girl' (age), not offspring; probably drop
+Sb;Da	sobrino	check	masculine; belongs on Sb;So (and Sb;Ch as generic plural)
+Wi	esposo	check	masculine 'husband'; belongs on Hu/Sp
+Wi	marido	check	'husband'; belongs on Hu
+Wi	cónyuge	check	sex-neutral 'spouse'; already on Sp; drop from Wi
+Yn;Br	hermano	check	plain 'brother', not age-specific; already on Br
+Pa	padre	check	singular padre is 'father'; only the plural padres means 'parents'
+Fa	papa	check	unaccented papa is archaic/regional for father (and 'pope', 'potato'); keep only if marked regional
+Unc	tio	check	misspelling of tío (already present); drop
+Aun	tia	check	misspelling of tía (already present); drop
+Sp;Mo	madre politica	check	misspelling of madre política (already present); drop
+Unc	tito	medium	affectionate diminutive (Spain, Andalusia especially); tita is already on Aun
+Pa;Br	tío carnal	medium	formal/explicit: uncle by blood, as opposed to tío político
+Pa;Ss	tía carnal	medium	formal/explicit: aunt by blood
+Pa;Ss;Hu	tío político	high	uncle by marriage; also used for the husband of any aunt
+Pa;Br;Wi	tía política	high	aunt by marriage
+Sb;So	sobrino carnal	medium	formal/explicit, by blood
+Sb;Da	sobrina carnal	medium	formal/explicit, by blood
+Pa;Sb;So	primo hermano	high	first cousin (male); build has it only on Pa;Sb;Ch
+Pa;Sb;Da	prima hermana	high	first cousin (female)
+Pa;Sb;So	primo carnal	medium	first cousin (male); less common than primo hermano
+Pa;Sb;Da	prima carnal	medium	first cousin (female)
+Mo	mami	high	colloquial, affectionate; parallel to papi already on Fa
+Mo	mamita	medium	affectionate diminutive (esp. Latin America)
+Fa	papito	medium	affectionate diminutive (esp. Latin America)
+Mo	mamaíta	low	affectionate (Spain)
+Fa	pa	low	colloquial clipping, mostly as address
+Mo	ma	low	colloquial clipping, mostly as address (also written má)
+Fa	viejo	medium	colloquial 'my old man' (Southern Cone, Mexico; mi viejo)
+Mo	vieja	medium	colloquial 'my old lady' (Southern Cone, Mexico; mi vieja)
+Fa	jefe	low	slang (Mexico: mi jefe)
+Mo	jefa	low	slang (Mexico: mi jefa)
+Fa	taita	medium	regional, rural (Andes: Ecuador, Colombia, Peru)
+Fa	tata	low	regional, rural (Mexico, Central America); in Chile 'grandfather'
+Mo	mama	low	unaccented, rural/Andean and older usage
+So	hijito	medium	affectionate diminutive
+Da	hijita	medium	affectionate diminutive
+So	mijo	medium	colloquial contraction of mi hijo (Latin America); also used as address to non-kin
+Da	mija	medium	colloquial contraction of mi hija (Latin America); also used as address to non-kin
+Ch	vástago	medium	formal/literary 'offspring'
+Ch	retoño	low	literary/affectionate 'offspring'
+Wi	parienta	medium	colloquial, humorous (Spain: la parienta)
+Hu	viejo	low	colloquial (mi viejo, Latin America); also 'father'
+Wi	vieja	low	colloquial (mi vieja, Latin America); also 'mother'
+Sp	pareja	low	'partner'; covers unmarried partners too
+Sp	media naranja	low	colloquial, affectionate 'other half'
+Da;Hu	hijo político	medium	formal synonym of yerno
+So;Wi	hija política	medium	formal synonym of nuera
+BrL	hermano político	medium	formal synonym of cuñado
+SsL	cuñada	high	build has cuñada only on Sp;Ss, which is too narrow (it is also a brother's wife)
+SsL	hermana política	medium	formal synonym of cuñada; build has it only on Sp;Ss
+InL	consuegra	medium	mother of one's child's spouse; no specific concept (consuegro is already on InL)
+InL	concuñado	medium	husband of one's spouse's sister, or brother of one's sibling's spouse; no specific concept
+InL	concuñada	medium	wife of one's spouse's brother, or sister of one's sibling's spouse; no specific concept
+Rel	familiar	high	'relative' (noun); as common as pariente

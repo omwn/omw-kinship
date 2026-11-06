@@ -35,6 +35,7 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 import cygnet_wordnets
+import honorific
 import prosub
 
 import build
@@ -297,8 +298,30 @@ def english_for(code: str, english: dict, ancestry: dict) -> tuple[list[str], st
     return list(english[via]), via
 
 
+def honorific_lines(code: str, words: dict[str, set[str]], atoms: dict) -> list[str]:
+    """Each word's guessed honorific values, with the rule and any Wikidata styles.
+
+    >>> honorific_lines("Fa", {"父上": {"wnja"}}, {})
+    ['父上: Hon;Arch (-上)']
+    """
+    lines = []
+    for word, sources in words.items():
+        value, why = honorific.guess(word, atoms.get(code, ()))
+        styles = sorted(
+            {
+                style.strip()
+                for source in sources
+                if source.startswith("Wikidata") and "(" in source
+                for style in source.split("(", 1)[1].rstrip(")").split(",")
+            }
+        )
+        hint = f"; Wikidata: {', '.join(styles)}" if styles else ""
+        lines.append(f"{word}: {value or '-'} ({why}{hint})")
+    return lines
+
+
 def proposals(tag: str) -> dict[str, list[dict[str, str]]]:
-    """Proposed terms not yet in the build (only Cantonese so far)."""
+    """Proposed terms not yet in the build, from review/kinterms-<tag>-proposed.tsv."""
     path = ROOT / "review" / f"kinterms-{tag}-proposed.tsv"
     found: dict[str, list[dict[str, str]]] = defaultdict(list)
     if path.exists():
@@ -319,6 +342,7 @@ def write(
     """
     words, gaps, phrases = read_lexicon(tag)
     sounds = read_sounds(tag)
+    atoms = build.positions(concepts)
     proposed = proposals(tag)
     suggested = prosub.suggestions(tag, concepts)
     order = list(concepts)
@@ -358,8 +382,16 @@ def write(
     if proposed:
         lines.append(
             "# `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its"
-            " own knowledge, for a speaker to check (Jyutping romanization)."
+            " own knowledge, for a speaker to check"
+            + (" (Jyutping romanization)." if tag == "yue" else ".")
         )
+    if tag == "ja":
+        lines += [
+            "# honorific: a guess at each word's values, from its form (scripts/honorific.py),",
+            "#   for the reviewer to correct in `comment`. Referent axis: Hon honorific,",
+            "#   Pol polite, Fam familiar, NHon non-honorific; addressee axis: Fml formal,",
+            "#   Infml informal, Hum humble (entails Fml); Arch archaic; - unmarked.",
+        ]
     if suggested:
         lines += [
             f"# prosub: suggested words from ProSub ({prosub.version()}; Okano et al. 2022),",
@@ -392,7 +424,10 @@ def write(
             lines.append(f"phrase = {s(phrases[code])}  # unlexicalized")
         if proposed.get(code):
             lines.append(f"proposed = {array([p['lemma'] for p in proposed[code]])}")
-            lines.append(f"jyutping = {array([p['jyutping'] for p in proposed[code]])}")
+            if any(p.get("jyutping") for p in proposed[code]):
+                lines.append(
+                    f"jyutping = {array([p['jyutping'] for p in proposed[code]])}"
+                )
             lines.append(
                 f"confidence = {array([p['confidence'] for p in proposed[code]])}"
             )
@@ -421,6 +456,10 @@ def write(
         ]
         if sources:
             lines.append(f"sources = {array(sources)}")
+        if tag == "ja" and words.get(code):
+            lines.append(
+                f"honorific = {array(honorific_lines(code, words[code], atoms))}"
+            )
         lines.append('comment = ""')
         lines.append("")
     for code in sorted(gaps - set(written), key=order.index):

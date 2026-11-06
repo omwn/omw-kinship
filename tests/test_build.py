@@ -8,6 +8,7 @@ from __future__ import annotations
 import doctest
 
 import build
+import honorific
 import kintype
 import pytest
 
@@ -185,6 +186,18 @@ def test_extra_relations_are_nearest_links() -> None:
 
 def test_kintype_doctests() -> None:
     assert doctest.testmod(kintype).failed == 0
+
+
+def test_honorific_doctests() -> None:
+    assert doctest.testmod(honorific).failed == 0
+
+
+def test_honorific_guesses_follow_the_suffix_before_seniority() -> None:
+    elder_brother = [("m", (("e", "B"),))]
+    assert honorific.guess("兄", elder_brother) == ("Fml;Hum", "bare, senior")
+    assert honorific.guess("お兄さん", elder_brother) == ("Pol", "-さん")
+    assert honorific.guess("兄貴", elder_brother) == ("Infml", "-貴")
+    assert honorific.guess("おじ", [("m", (("", "F"), ("", "B")))])[0] == "Fml;Hum"
 
 
 @pytest.fixture(scope="module")

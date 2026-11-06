@@ -205,6 +205,14 @@ Japanese (where the distinctions are grammaticalized), and from
 pronoun-substitute data (question 2 of omw-pronoun's list: kin terms used in
 address).
 
+**Decision (November 2026): values on senses.** A register variant names the
+same relative, so the values go on the sense, not on a new concept: お父さん
+and 父 are both `Fa`. The values are omw-pronoun's, on its two axes (Hum and
+Fam added; FEATURES.md there). For Japanese, `scripts/honorific.py` guesses
+them from the word's form (title suffixes -様, -さん, -ちゃん, prefixes 令-, 愚-,
+お-; a bare term for a senior relative is `Fml;Hum`), and the review file shows
+the guess for a speaker to correct. They are not yet in the build.
+
 ## 5. Beyond genealogy: adoption, death, divorce and more (future work)
 
 KinDiv's kin types are chains of birth and marriage links between living people.
