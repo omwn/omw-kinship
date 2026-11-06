@@ -444,7 +444,7 @@ def write(
     if suggested:
         lines += [
             f"# prosub: suggested words from ProSub ({prosub.version()}; Okano et al. 2022),",
-            '#   NOT in the build (no licence yet), as form "gloss" [items] uses, where',
+            '#   CC BY 4.0, NOT in the build (unchecked), as form "gloss" [items] uses, where',
             "#   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):",
             "#   the word's items match no concept. prosub_new: those not in `lemmas`.",
         ]

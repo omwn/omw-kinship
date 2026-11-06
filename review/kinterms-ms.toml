@@ -6,8 +6,8 @@
 #   lexicon id [ILI] lemmas: definition; (CILI) marks a definition taken from the ILI.
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
-# prosub: suggested words from ProSub (abd4dd6; Okano et al. 2022),
-#   NOT in the build (no licence yet), as form "gloss" [items] uses, where
+# prosub: suggested words from ProSub (c01cdf8; Okano et al. 2022),
+#   CC BY 4.0, NOT in the build (unchecked), as form "gloss" [items] uses, where
 #   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
 #   the word's items match no concept. prosub_new: those not in `lemmas`.
 # omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review

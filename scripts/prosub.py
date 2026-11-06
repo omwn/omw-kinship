@@ -3,9 +3,10 @@
 ProSub (github.com/matbahasa/ProSub; Okano et al. 2022) asks, for eight Asian
 languages, which words are used for 27 kin positions, and whether each can
 refer to the speaker (``1st``), to the addressee (``2nd``), or serve as an
-address term or a title. It has no licence yet, so its words go only into the
-review files, as suggestions for a speaker to check. The clone is expected at
-``../ProSub``; without it the review files are written without them.
+address term or a title. It is CC BY 4.0, but its words are not checked, so
+they go only into the review files, as suggestions for a speaker to check. The
+clone is expected at ``../ProSub``; without it the review files are written
+without them.
 
 A word's extension is the union of the positions of the items it is listed
 under (Malay *pak cik* under all four uncles is ``Pa;Br``), as for Kinbank; it
@@ -33,7 +34,7 @@ LANGUAGES = {
     "jv": "jav",
     "th": "tha",
     "vi": "vie",
-    "my": "myn",
+    "my": "mya",
 }
 #: ProSub's kin items (category ``Family``) as kin codes
 ITEMS = {
