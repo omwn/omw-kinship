@@ -11,8 +11,8 @@
 #   for this concept; new_words, words it does not have at all.
 # honorific: a guess at each word's values, from its form (scripts/honorific.py),
 #   for the reviewer to correct in `comment`. Referent axis: Hon honorific,
-#   Pol polite, Fam familiar, NHon non-honorific; addressee axis: Fml formal,
-#   Infml informal, Hum humble (entails Fml); Arch archaic; - unmarked.
+#   Pol polite, Pln plain, Fam familiar, NHon non-honorific; addressee axis:
+#   Fml formal, Infml informal, Hum humble (entails Fml); Arch archaic; - no guess.
 # prosub: suggested words from ProSub (c01cdf8; Okano et al. 2022),
 #   CC BY 4.0, NOT in the build (unchecked), as form "gloss" [items] uses, where
 #   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
@@ -114,7 +114,7 @@ new_words = ["まご"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["お孫さん <- Omniglot", "まご <- Kinbank, Wikidata L622607-S1, Wiktionary", "令孫 <- wnja", "孫 <- Omniglot, Wikidata L622607-S1, wnja", "御孫さん <- wnja"]
-honorific = ["お孫さん: Pol (-さん)", "まご: - (bare, junior)", "令孫: Hon;Fml (令-)", "孫: - (bare, junior)", "御孫さん: Pol (-さん)"]
+honorific = ["お孫さん: Pol (-さん)", "まご: Pln (bare, junior)", "令孫: Hon;Fml (令-)", "孫: Pln (bare, junior)", "御孫さん: Pol (-さん)"]
 comment = ""
 
 ["Ch;So"]
@@ -130,7 +130,7 @@ new_words = ["まごむすこ"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["まごむすこ <- Wikidata L1115610-S1", "孫息子 <- Omniglot, Wikidata L1115610-S1, wnja"]
-honorific = ["まごむすこ: - (bare, junior)", "孫息子: - (bare, junior)"]
+honorific = ["まごむすこ: Pln (bare, junior)", "孫息子: Pln (bare, junior)"]
 comment = ""
 
 ["Ch;Da"]
@@ -146,7 +146,7 @@ new_words = ["まごむすめ"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 sources = ["まごむすめ <- Wikidata L1115611-S1", "孫娘 <- Omniglot, Wikidata L1115611-S1, wnja"]
-honorific = ["まごむすめ: - (bare, junior)", "孫娘: - (bare, junior)"]
+honorific = ["まごむすめ: Pln (bare, junior)", "孫娘: Pln (bare, junior)"]
 comment = ""
 
 ["So;Ch"]
@@ -186,7 +186,7 @@ new_words = ["きょうだい", "けいてい"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
 sources = ["きょうだい <- Kinbank, Wikidata L626058-S1", "けいてい <- Wikidata L1475602-S1 (standard language)", "兄弟 <- TUFS, Wikidata L1475602-S1 (standard language), Wikidata L626058-S1, wnja", "兄弟姉妹 <- Omniglot, wnja"]
-honorific = ["きょうだい: - (bare, junior)", "けいてい: - (bare, junior; Wikidata: standard language)", "兄弟: - (bare, junior; Wikidata: standard language)", "兄弟姉妹: - (bare, junior)"]
+honorific = ["きょうだい: Pln (bare, junior)", "けいてい: Pln (bare, junior; Wikidata: standard language)", "兄弟: Pln (bare, junior; Wikidata: standard language)", "兄弟姉妹: Pln (bare, junior)"]
 comment = ""
 
 ["Br"]
@@ -204,7 +204,7 @@ new_words = ["きょうだい", "ご兄弟"]
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["きょうだい <- Wikidata L626058-S2", "ご兄弟 <- Omniglot", "兄弟 <- Omniglot, Wikidata L626058-S2"]
-honorific = ["きょうだい: - (bare, junior)", "ご兄弟: Pol (お-/御-)", "兄弟: - (bare, junior)"]
+honorific = ["きょうだい: Pln (bare, junior)", "ご兄弟: Pol (お-/御-)", "兄弟: Pln (bare, junior)"]
 comment = ""
 
 ["Ss"]
@@ -220,7 +220,7 @@ new_words = ["しまい"]
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["しまい <- Wikidata L406337-S1", "シスター <- Wikidata L1368723-S1", "姉妹 <- Omniglot, Wikidata L406337-S1"]
-honorific = ["しまい: - (bare, junior)", "シスター: - (loanword)", "姉妹: - (bare, junior)"]
+honorific = ["しまい: Pln (bare, junior)", "シスター: - (loanword)", "姉妹: Pln (bare, junior)"]
 comment = ""
 
 ["El:Br"]
@@ -277,7 +277,7 @@ new_words = ["おと", "おとうと", "弟さん"]
 hypernyms = ["Br", "Yn:Sb"]
 ancestors = ["Br", "Yn:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["おと <- Wikidata L1414551-S1", "おとうと <- Wikidata L348183-S1, Wiktionary", "弟 <- Omniglot, TUFS, Wikidata L1414551-S1, Wikidata L348183-S1, wnja", "弟さん <- Omniglot, TUFS"]
-honorific = ["おと: - (bare, junior)", "おとうと: - (bare, junior)", "弟: - (bare, junior)", "弟さん: Pol (-さん)"]
+honorific = ["おと: Pln (bare, junior)", "おとうと: Pln (bare, junior)", "弟: Pln (bare, junior)", "弟さん: Pol (-さん)"]
 comment = ""
 
 ["Yn:Ss"]
@@ -295,7 +295,7 @@ new_words = ["いも", "いもうと", "いもうとご", "いもうとさん", 
 hypernyms = ["Ss", "Yn:Sb"]
 ancestors = ["Ss", "Yn:Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["いも <- Wikidata L1414548-S1", "いもうと <- Wikidata L348198-S1, Wiktionary", "いもうとご <- Wikidata L626056-S1", "いもうとさん <- Wikidata L984315-S1", "まい <- Wikidata L1414549-S1", "妹 <- Omniglot, TUFS, Wikidata L1414548-S1, Wikidata L1414549-S1, Wikidata L348198-S1, wnja", "妹さん <- Omniglot, TUFS, Wikidata L984315-S1, wnja", "妹君 <- wnja", "妹御 <- Wikidata L626056-S1", "小妹 <- wnja"]
-honorific = ["いも: - (bare, junior)", "いもうと: - (bare, junior)", "いもうとご: - (bare, junior)", "いもうとさん: Pol (-さん)", "まい: - (bare, junior)", "妹: - (bare, junior)", "妹さん: Pol (-さん)", "妹君: Hon;Arch (-君)", "妹御: Hon (-御)", "小妹: - (bare, junior)"]
+honorific = ["いも: Pln (bare, junior)", "いもうと: Pln (bare, junior)", "いもうとご: Pln (bare, junior)", "いもうとさん: Pol (-さん)", "まい: Pln (bare, junior)", "妹: Pln (bare, junior)", "妹さん: Pol (-さん)", "妹君: Hon;Arch (-君)", "妹御: Hon (-御)", "小妹: Pln (bare, junior)"]
 comment = ""
 
 ["Pa;Br"]
@@ -439,7 +439,7 @@ new_words = ["甥っ子"]
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 sources = ["おい <- Kinbank, Wiktionary", "猶子 <- wnja", "甥 <- Omniglot, wnja", "甥っ子 <- Omniglot", "甥御 <- Omniglot, wnja", "甥御さん <- wnja"]
-honorific = ["おい: - (bare, junior)", "猶子: - (bare, junior)", "甥: - (bare, junior)", "甥っ子: - (bare, junior)", "甥御: Hon (-御)", "甥御さん: Pol (-さん)"]
+honorific = ["おい: Pln (bare, junior)", "猶子: Pln (bare, junior)", "甥: Pln (bare, junior)", "甥っ子: Pln (bare, junior)", "甥御: Hon (-御)", "甥御さん: Pol (-さん)"]
 comment = ""
 
 ["Sb;Da"]
@@ -458,7 +458,7 @@ new_words = ["めい", "姪子"]
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 sources = ["めい <- Kinbank, Wiktionary", "姪 <- Omniglot, wnja", "姪っ子 <- Omniglot", "姪子 <- wnja", "姪御 <- Omniglot, wnja", "姪御さん <- wnja"]
-honorific = ["めい: - (bare, junior)", "姪: - (bare, junior)", "姪っ子: - (bare, junior)", "姪子: - (bare, junior)", "姪御: Hon (-御)", "姪御さん: Pol (-さん)"]
+honorific = ["めい: Pln (bare, junior)", "姪: Pln (bare, junior)", "姪っ子: Pln (bare, junior)", "姪子: Pln (bare, junior)", "姪御: Hon (-御)", "姪御さん: Pol (-さん)"]
 comment = ""
 
 ["Br;So"]
@@ -520,7 +520,7 @@ ntumc = ["いとこ <- 09972010-n", "従兄弟 <- 09972010-n", "従姉妹 <- 099
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
 sources = ["いとこ <- Kinbank, Omniglot, Wiktionary", "従兄 <- wnja", "従兄弟 <- wnja", "従妹 <- wnja", "従姉 <- wnja", "従姉妹 <- wnja", "従弟 <- wnja"]
-honorific = ["いとこ: - (bare, junior)", "従兄: - (bare, junior)", "従兄弟: - (bare, junior)", "従妹: - (bare, junior)", "従姉: - (bare, junior)", "従姉妹: - (bare, junior)", "従弟: - (bare, junior)"]
+honorific = ["いとこ: Pln (bare, junior)", "従兄: Pln (bare, junior)", "従兄弟: Pln (bare, junior)", "従妹: Pln (bare, junior)", "従姉: Pln (bare, junior)", "従姉妹: Pln (bare, junior)", "従弟: Pln (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;So"]
@@ -535,7 +535,7 @@ new_senses = ["従兄弟"]
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["従兄弟 <- Omniglot"]
-honorific = ["従兄弟: - (bare, junior)"]
+honorific = ["従兄弟: Pln (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;Da"]
@@ -550,7 +550,7 @@ new_senses = ["従姉妹"]
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["従姉妹 <- Omniglot"]
-honorific = ["従姉妹: - (bare, junior)"]
+honorific = ["従姉妹: Pln (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;El:Ch"]
@@ -620,7 +620,7 @@ new_words = ["従姉弟"]
 hypernyms = ["Pa;Sb;So", "Pa;Sb;Yn:Ch"]
 ancestors = ["Pa;Sb;So", "Pa;Sb;Yn:Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["従姉弟 <- Wiktionary", "従弟 <- Omniglot, Wiktionary"]
-honorific = ["従姉弟: - (bare, junior)", "従弟: - (bare, junior)"]
+honorific = ["従姉弟: Pln (bare, junior)", "従弟: Pln (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;Yn:Da"]
@@ -636,7 +636,7 @@ new_words = ["従兄妹"]
 hypernyms = ["Pa;Sb;Da", "Pa;Sb;Yn:Ch"]
 ancestors = ["Pa;Sb;Da", "Pa;Sb;Yn:Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["従兄妹 <- Wiktionary", "従妹 <- Omniglot, Wiktionary"]
-honorific = ["従兄妹: - (bare, junior)", "従妹: - (bare, junior)"]
+honorific = ["従兄妹: Pln (bare, junior)", "従妹: Pln (bare, junior)"]
 comment = ""
 
 ["Fa;Sb;Ch"]
@@ -741,7 +741,7 @@ new_words = ["にくえん"]
 hypernyms = []
 ancestors = []
 sources = ["にくえん <- wnja", "族戚 <- wnja", "族親 <- wnja", "眷属 <- wnja", "縁戚 <- wnja", "縁故 <- wnja", "縁者 <- wnja", "縁辺 <- wnja", "縁類 <- wnja", "血族 <- wnja", "親せき <- wnja", "親戚 <- Omniglot, wnja", "親族 <- wnja", "親眷 <- wnja", "親類 <- wnja", "親類筋 <- wnja", "身より <- wnja", "身寄 <- wnja", "身寄り <- wnja", "類縁 <- wnja"]
-honorific = ["にくえん: - (bare, junior)", "族戚: - (bare, junior)", "族親: - (bare, junior)", "眷属: - (bare, junior)", "縁戚: - (bare, junior)", "縁故: - (bare, junior)", "縁者: - (bare, junior)", "縁辺: - (bare, junior)", "縁類: - (bare, junior)", "血族: - (bare, junior)", "親せき: - (bare, junior)", "親戚: - (bare, junior)", "親族: - (bare, junior)", "親眷: - (bare, junior)", "親類: - (bare, junior)", "親類筋: - (bare, junior)", "身より: - (bare, junior)", "身寄: - (bare, junior)", "身寄り: - (bare, junior)", "類縁: - (bare, junior)"]
+honorific = ["にくえん: Pln (bare, junior)", "族戚: Pln (bare, junior)", "族親: Pln (bare, junior)", "眷属: Pln (bare, junior)", "縁戚: Pln (bare, junior)", "縁故: Pln (bare, junior)", "縁者: Pln (bare, junior)", "縁辺: Pln (bare, junior)", "縁類: Pln (bare, junior)", "血族: Pln (bare, junior)", "親せき: Pln (bare, junior)", "親戚: Pln (bare, junior)", "親族: Pln (bare, junior)", "親眷: Pln (bare, junior)", "親類: Pln (bare, junior)", "親類筋: Pln (bare, junior)", "身より: Pln (bare, junior)", "身寄: Pln (bare, junior)", "身寄り: Pln (bare, junior)", "類縁: Pln (bare, junior)"]
 comment = ""
 
 ["Unc"]
@@ -851,7 +851,7 @@ new_words = ["おこさん", "こ", "こども"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
 sources = ["おこさん <- Wikidata L622609-S1", "お子さん <- Omniglot, Wikidata L622609-S1, wnja", "お子様 <- wnja", "こ <- Wikidata L690624-S1", "こども <- Kinbank, Wikidata L55-S1", "児 <- wnja", "子 <- Wikidata L690624-S1", "子供 <- Omniglot, Wikidata L55-S1, wnja", "子女 <- wnja", "子弟 <- wnja", "子種 <- wnja", "愛児 <- wnja"]
-honorific = ["おこさん: Pol (-さん)", "お子さん: Pol (-さん)", "お子様: Hon;Fml (-様)", "こ: - (bare, junior)", "こども: - (bare, junior)", "児: - (bare, junior)", "子: - (bare, junior)", "子供: - (bare, junior)", "子女: - (bare, junior)", "子弟: - (bare, junior)", "子種: - (bare, junior)", "愛児: - (bare, junior)"]
+honorific = ["おこさん: Pol (-さん)", "お子さん: Pol (-さん)", "お子様: Hon;Fml (-様)", "こ: Pln (bare, junior)", "こども: Pln (bare, junior)", "児: Pln (bare, junior)", "子: Pln (bare, junior)", "子供: Pln (bare, junior)", "子女: Pln (bare, junior)", "子弟: Pln (bare, junior)", "子種: Pln (bare, junior)", "愛児: Pln (bare, junior)"]
 comment = ""
 
 ["So"]
@@ -870,7 +870,7 @@ new_words = ["なん", "むすこ", "御坊ちゃん"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
 sources = ["なん <- Wikidata L1343450-S2", "むすこ <- Wikidata L622605-S1", "ジュニア <- wnja", "令息 <- wnja", "倅 <- wnja", "和郎 <- wnja", "坊 <- wnja", "坊さん <- wnja", "坊ち <- wnja", "坊っちゃん <- wnja", "坊や <- wnja", "坊主 <- wnja", "坊様 <- wnja", "子息 <- wnja", "小僧 <- wnja", "小僮 <- wnja", "小童 <- wnja", "御令息 <- wnja", "御坊ちゃん <- wnja", "息 <- wnja", "息子 <- Omniglot, Wikidata L622605-S1, wnja", "息子さん <- Omniglot, wnja", "息男 <- wnja", "悴 <- wnja", "愚息 <- wnja", "男 <- Wikidata L1343450-S2", "男の子 <- wnja", "男児 <- wnja", "男子 <- wnja", "童男 <- wnja"]
-honorific = ["なん: - (bare, junior)", "むすこ: - (bare, junior)", "ジュニア: - (loanword)", "令息: Hon;Fml (令-)", "倅: - (bare, junior)", "和郎: - (bare, junior)", "坊: - (bare, junior)", "坊さん: Pol (-さん)", "坊ち: - (bare, junior)", "坊っちゃん: Fam;Infml (-ちゃん)", "坊や: - (bare, junior)", "坊主: - (bare, junior)", "坊様: Hon;Fml (-様)", "子息: - (bare, junior)", "小僧: - (bare, junior)", "小僮: - (bare, junior)", "小童: - (bare, junior)", "御令息: Hon;Fml (令-)", "御坊ちゃん: Fam;Infml (-ちゃん)", "息: - (bare, junior)", "息子: - (bare, junior)", "息子さん: Pol (-さん)", "息男: - (bare, junior)", "悴: - (bare, junior)", "愚息: Fml;Hum (愚-)", "男: - (bare, junior)", "男の子: - (bare, junior)", "男児: - (bare, junior)", "男子: - (bare, junior)", "童男: - (bare, junior)"]
+honorific = ["なん: Pln (bare, junior)", "むすこ: Pln (bare, junior)", "ジュニア: - (loanword)", "令息: Hon;Fml (令-)", "倅: Pln (bare, junior)", "和郎: Pln (bare, junior)", "坊: Pln (bare, junior)", "坊さん: Pol (-さん)", "坊ち: Pln (bare, junior)", "坊っちゃん: Fam;Infml (-ちゃん)", "坊や: Pln (bare, junior)", "坊主: Pln (bare, junior)", "坊様: Hon;Fml (-様)", "子息: Pln (bare, junior)", "小僧: Pln (bare, junior)", "小僮: Pln (bare, junior)", "小童: Pln (bare, junior)", "御令息: Hon;Fml (令-)", "御坊ちゃん: Fam;Infml (-ちゃん)", "息: Pln (bare, junior)", "息子: Pln (bare, junior)", "息子さん: Pol (-さん)", "息男: Pln (bare, junior)", "悴: Pln (bare, junior)", "愚息: Fml;Hum (愚-)", "男: Pln (bare, junior)", "男の子: Pln (bare, junior)", "男児: Pln (bare, junior)", "男子: Pln (bare, junior)", "童男: Pln (bare, junior)"]
 comment = ""
 
 ["Da"]
@@ -889,7 +889,7 @@ new_words = ["むすめ"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
 sources = ["お嬢さん <- Omniglot", "むすめ <- Wikidata L622606-S1", "令嬢 <- wnja", "娘 <- Omniglot, Wikidata L622606-S1, wnja", "娘さん <- wnja", "嬢子 <- wnja", "御令嬢 <- wnja", "御嬢さん <- wnja", "息女 <- wnja", "愛嬢 <- wnja"]
-honorific = ["お嬢さん: Pol (-さん)", "むすめ: - (bare, junior)", "令嬢: Hon;Fml (令-)", "娘: - (bare, junior)", "娘さん: Pol (-さん)", "嬢子: - (bare, junior)", "御令嬢: Hon;Fml (令-)", "御嬢さん: Pol (-さん)", "息女: - (bare, junior)", "愛嬢: - (bare, junior)"]
+honorific = ["お嬢さん: Pol (-さん)", "むすめ: Pln (bare, junior)", "令嬢: Hon;Fml (令-)", "娘: Pln (bare, junior)", "娘さん: Pol (-さん)", "嬢子: Pln (bare, junior)", "御令嬢: Hon;Fml (令-)", "御嬢さん: Pol (-さん)", "息女: Pln (bare, junior)", "愛嬢: Pln (bare, junior)"]
 comment = ""
 
 ["Sp"]
@@ -907,7 +907,7 @@ new_words = ["はいぐうしゃ", "伉配"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
 sources = ["はいぐうしゃ <- Kinbank, Wikidata L1411567-S1", "パートナー <- wnja", "ベターハーフ <- wnja", "伉配 <- Omniglot", "伴侶 <- Omniglot, wnja", "配偶者 <- Omniglot, Wikidata L1411567-S1, wnja"]
-honorific = ["はいぐうしゃ: - (bare, junior)", "パートナー: - (loanword)", "ベターハーフ: - (loanword)", "伉配: - (bare, junior)", "伴侶: - (bare, junior)", "配偶者: - (bare, junior)"]
+honorific = ["はいぐうしゃ: Pln (bare, junior)", "パートナー: - (loanword)", "ベターハーフ: - (loanword)", "伉配: Pln (bare, junior)", "伴侶: Pln (bare, junior)", "配偶者: Pln (bare, junior)"]
 comment = ""
 
 ["Hu"]
@@ -925,7 +925,7 @@ new_words = ["おっと", "おとうさん", "ごしゅじん", "ご主人", "�
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
 sources = ["おっと <- Wikidata L622610-S1", "おとうさん <- Wikidata L405866-S2 (formal register)", "お父さん <- Wikidata L405866-S2 (formal register)", "ごしゅじん <- Wikidata L626373-S1 (honorific)", "ご主人 <- Omniglot, TUFS, Wikidata L626373-S1 (honorific)", "ご亭主 <- wnja", "しゅじん <- Wikidata L1017746-S1", "ハズ <- wnja", "ハズバンド <- wnja", "主 <- wnja", "主人 <- Omniglot, Wikidata L1017746-S1, wnja", "亭主 <- Omniglot, wnja", "入夫 <- wnja", "夫 <- Omniglot, Wikidata L622610-S1, wnja", "夫の君 <- wnja", "女房持ち <- wnja", "妻帯者 <- wnja", "宅 <- wnja", "宿六 <- wnja", "御亭主 <- wnja", "既婚男性 <- wnja", "旦つく <- wnja", "旦那 <- wnja", "背子 <- wnja", "良人 <- wnja"]
-honorific = ["おっと: - (bare, junior)", "おとうさん: Pol (-さん; Wikidata: formal register)", "お父さん: Pol (-さん; Wikidata: formal register)", "ごしゅじん: Pol (お-/御-; Wikidata: honorific)", "ご主人: Pol (お-/御-; Wikidata: honorific)", "ご亭主: Pol (お-/御-)", "しゅじん: - (bare, junior)", "ハズ: - (loanword)", "ハズバンド: - (loanword)", "主: - (bare, junior)", "主人: - (bare, junior)", "亭主: - (bare, junior)", "入夫: - (bare, junior)", "夫: - (bare, junior)", "夫の君: Hon;Arch (-君)", "女房持ち: - (bare, junior)", "妻帯者: - (bare, junior)", "宅: - (bare, junior)", "宿六: NHon;Infml (lexical)", "御亭主: Pol (お-/御-)", "既婚男性: - (bare, junior)", "旦つく: - (bare, junior)", "旦那: - (bare, junior)", "背子: - (bare, junior)", "良人: - (bare, junior)"]
+honorific = ["おっと: Pln (bare, junior)", "おとうさん: Pol (-さん; Wikidata: formal register)", "お父さん: Pol (-さん; Wikidata: formal register)", "ごしゅじん: Pol (お-/御-; Wikidata: honorific)", "ご主人: Pol (お-/御-; Wikidata: honorific)", "ご亭主: Pol (お-/御-)", "しゅじん: Pln (bare, junior)", "ハズ: - (loanword)", "ハズバンド: - (loanword)", "主: Pln (bare, junior)", "主人: Pln (bare, junior)", "亭主: Pln (bare, junior)", "入夫: Pln (bare, junior)", "夫: Pln (bare, junior)", "夫の君: Hon;Arch (-君)", "女房持ち: Pln (bare, junior)", "妻帯者: Pln (bare, junior)", "宅: Pln (bare, junior)", "宿六: NHon;Infml (lexical)", "御亭主: Pol (お-/御-)", "既婚男性: Pln (bare, junior)", "旦つく: Pln (bare, junior)", "旦那: Pln (bare, junior)", "背子: Pln (bare, junior)", "良人: Pln (bare, junior)"]
 comment = ""
 
 ["Wi"]
@@ -943,7 +943,7 @@ new_words = ["おかあさん", "おくさん", "かない", "こゆび", "つ�
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
 sources = ["おかあさん <- Wikidata L405867-S2", "おくさん <- Wikidata L626379-S1", "おっ母 <- wnja", "おなご <- Wikidata L1460438-S1", "お母さん <- Wikidata L405867-S2", "かない <- Wikidata L1017748-S1", "こゆび <- Wikidata L1221483-S5", "ご内儀 <- wnja", "ご内室 <- wnja", "つま <- Wikidata L622608-S1", "め <- Wikidata L1338947-S3", "フラウ <- wnja", "ミセス <- wnja", "ワイフ <- wnja", "上さん <- wnja", "上様 <- wnja", "亭主もち <- wnja", "亭主持 <- wnja", "亭主持ち <- wnja", "人妻 <- wnja", "令夫人 <- wnja", "令室 <- wnja", "令閨 <- wnja", "刀自 <- wnja", "嚊 <- wnja", "嚊左衛門 <- wnja", "夫人 <- wnja", "奥さん <- Omniglot, TUFS, Wikidata L626379-S1, wnja", "奥様 <- wnja", "女 <- Wikidata L1338947-S3, wnja", "女子 <- Wikidata L1460438-S1", "女性 <- wnja", "女房 <- Omniglot, wnja", "妻 <- Omniglot, Wikidata L622608-S1, wnja", "妻君 <- wnja", "妻女 <- wnja", "妻室 <- wnja", "婦人 <- wnja", "嫁 <- wnja", "嫁さん <- wnja", "嫁はん <- wnja", "嬢子 <- wnja", "室 <- wnja", "室家 <- wnja", "家内 <- Omniglot, Wikidata L1017748-S1, wnja", "家妻 <- wnja", "家桜 <- wnja", "小指 <- Wikidata L1221483-S5", "御っ母 <- wnja", "御上 <- wnja", "御内 <- wnja", "御内儀 <- wnja", "御内儀さん <- wnja", "御内室 <- wnja", "御新造 <- wnja", "御方 <- wnja", "愚妻 <- wnja", "細君 <- wnja", "裏方 <- wnja"]
-honorific = ["おかあさん: Pol (-さん)", "おくさん: Pol (-さん)", "おっ母: Infml (lexical)", "おなご: Pol (お-/御-)", "お母さん: Pol (-さん)", "かない: - (bare, junior)", "こゆび: - (bare, junior)", "ご内儀: Pol (お-/御-)", "ご内室: Pol (お-/御-)", "つま: - (bare, junior)", "め: - (bare, junior)", "フラウ: - (loanword)", "ミセス: - (loanword)", "ワイフ: - (loanword)", "上さん: Pol (-さん)", "上様: Hon;Fml (-様)", "亭主もち: - (bare, junior)", "亭主持: - (bare, junior)", "亭主持ち: - (bare, junior)", "人妻: - (bare, junior)", "令夫人: Hon;Fml (令-)", "令室: Hon;Fml (令-)", "令閨: Hon;Fml (令-)", "刀自: - (bare, junior)", "嚊: Infml (lexical)", "嚊左衛門: - (bare, junior)", "夫人: - (bare, junior)", "奥さん: Pol (-さん)", "奥様: Hon;Fml (-様)", "女: - (bare, junior)", "女子: - (bare, junior)", "女性: - (bare, junior)", "女房: - (bare, junior)", "妻: - (bare, junior)", "妻君: Fml;Hum (lexical: one's own wife)", "妻女: - (bare, junior)", "妻室: - (bare, junior)", "婦人: - (bare, junior)", "嫁: - (bare, junior)", "嫁さん: Pol (-さん)", "嫁はん: Pol (-はん)", "嬢子: - (bare, junior)", "室: - (bare, junior)", "室家: - (bare, junior)", "家内: Fml;Hum (lexical: one's own wife)", "家妻: Fml;Hum (家-)", "家桜: Fml;Hum (家-)", "小指: - (bare, junior)", "御っ母: Pol (お-/御-)", "御上: Hon;Arch (-上)", "御内: Pol (お-/御-)", "御内儀: Pol (お-/御-)", "御内儀さん: Pol (-さん)", "御内室: Pol (お-/御-)", "御新造: Pol (お-/御-)", "御方: Pol (お-/御-)", "愚妻: Fml;Hum (愚-)", "細君: Fml;Hum (lexical: one's own wife)", "裏方: - (bare, junior)"]
+honorific = ["おかあさん: Pol (-さん)", "おくさん: Pol (-さん)", "おっ母: Infml (lexical)", "おなご: Pol (お-/御-)", "お母さん: Pol (-さん)", "かない: Pln (bare, junior)", "こゆび: Pln (bare, junior)", "ご内儀: Pol (お-/御-)", "ご内室: Pol (お-/御-)", "つま: Pln (bare, junior)", "め: Pln (bare, junior)", "フラウ: - (loanword)", "ミセス: - (loanword)", "ワイフ: - (loanword)", "上さん: Pol (-さん)", "上様: Hon;Fml (-様)", "亭主もち: Pln (bare, junior)", "亭主持: Pln (bare, junior)", "亭主持ち: Pln (bare, junior)", "人妻: Pln (bare, junior)", "令夫人: Hon;Fml (令-)", "令室: Hon;Fml (令-)", "令閨: Hon;Fml (令-)", "刀自: Pln (bare, junior)", "嚊: Infml (lexical)", "嚊左衛門: Pln (bare, junior)", "夫人: Pln (bare, junior)", "奥さん: Pol (-さん)", "奥様: Hon;Fml (-様)", "女: Pln (bare, junior)", "女子: Pln (bare, junior)", "女性: Pln (bare, junior)", "女房: Pln (bare, junior)", "妻: Pln (bare, junior)", "妻君: Fml;Hum (lexical: one's own wife)", "妻女: Pln (bare, junior)", "妻室: Pln (bare, junior)", "婦人: Pln (bare, junior)", "嫁: Pln (bare, junior)", "嫁さん: Pol (-さん)", "嫁はん: Pol (-はん)", "嬢子: Pln (bare, junior)", "室: Pln (bare, junior)", "室家: Pln (bare, junior)", "家内: Fml;Hum (lexical: one's own wife)", "家妻: Fml;Hum (家-)", "家桜: Fml;Hum (家-)", "小指: Pln (bare, junior)", "御っ母: Pol (お-/御-)", "御上: Hon;Arch (-上)", "御内: Pol (お-/御-)", "御内儀: Pol (お-/御-)", "御内儀さん: Pol (-さん)", "御内室: Pol (お-/御-)", "御新造: Pol (お-/御-)", "御方: Pol (お-/御-)", "愚妻: Fml;Hum (愚-)", "細君: Fml;Hum (lexical: one's own wife)", "裏方: Pln (bare, junior)"]
 comment = ""
 
 ["InL"]
@@ -957,7 +957,7 @@ ntumc = ["姻戚 <- 10207169-n"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
 sources = ["姻戚 <- wnja"]
-honorific = ["姻戚: - (bare, junior)"]
+honorific = ["姻戚: Pln (bare, junior)"]
 comment = ""
 
 ["Sp;Pa"]
@@ -1032,7 +1032,7 @@ new_words = ["義理の息子"]
 hypernyms = ["Ch;Sp"]
 ancestors = ["Ch;Sp", "InL", "Rel"]
 sources = ["婿 <- wnja", "義理の息子 <- Omniglot"]
-honorific = ["婿: - (bare, junior)", "義理の息子: - (bare, junior)"]
+honorific = ["婿: Pln (bare, junior)", "義理の息子: Pln (bare, junior)"]
 comment = ""
 
 ["So;Wi"]
@@ -1050,7 +1050,7 @@ ntumc = ["嫁 <- 09993040-n"]
 hypernyms = ["Ch;Sp"]
 ancestors = ["Ch;Sp", "InL", "Rel"]
 sources = ["嫁 <- wnja"]
-honorific = ["嫁: - (bare, junior)"]
+honorific = ["嫁: Pln (bare, junior)"]
 comment = ""
 
 ["BrL"]
@@ -1088,7 +1088,7 @@ ntumc = ["お義姉さん <- 10603766-n", "小姑 <- 10603766-n", "お義姉様 
 hypernyms = ["Sp;Sb", "SsL"]
 ancestors = ["Sp;Sb", "SsL", "InL", "Rel"]
 sources = ["姉姑 <- wnja", "小姑 <- wnja"]
-honorific = ["姉姑: - (bare, junior)", "小姑: - (bare, junior)"]
+honorific = ["姉姑: Pln (bare, junior)", "小姑: Pln (bare, junior)"]
 comment = ""
 
 ["Fa|Fa;Br"]
@@ -1511,7 +1511,7 @@ new_words = ["義弟"]
 hypernyms = ["BrL"]
 ancestors = ["BrL", "InL", "Rel"]
 sources = ["義弟 <- https"]
-honorific = ["義弟: - (bare, junior)"]
+honorific = ["義弟: Pln (bare, junior)"]
 comment = ""
 
 ["Sp;El:Ss|El:Br;Wi"]
@@ -1539,7 +1539,7 @@ new_senses = ["義妹"]
 hypernyms = ["SsL"]
 ancestors = ["SsL", "InL", "Rel"]
 sources = ["義妹 <- https"]
-honorific = ["義妹: - (bare, junior)"]
+honorific = ["義妹: Pln (bare, junior)"]
 comment = ""
 
 ["Fa;Pa"]

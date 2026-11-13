@@ -438,8 +438,8 @@ def write(
         lines += [
             "# honorific: a guess at each word's values, from its form (scripts/honorific.py),",
             "#   for the reviewer to correct in `comment`. Referent axis: Hon honorific,",
-            "#   Pol polite, Fam familiar, NHon non-honorific; addressee axis: Fml formal,",
-            "#   Infml informal, Hum humble (entails Fml); Arch archaic; - unmarked.",
+            "#   Pol polite, Pln plain, Fam familiar, NHon non-honorific; addressee axis:",
+            "#   Fml formal, Infml informal, Hum humble (entails Fml); Arch archaic; - no guess.",
         ]
     if suggested:
         lines += [

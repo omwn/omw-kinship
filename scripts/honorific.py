@@ -1,8 +1,8 @@
 """Guess the honorific values of Japanese kin terms from their form.
 
 The values are omw-pronoun's (FEATURES.md, "Formality and politeness"), on two
-axes: the referent axis (``Hon`` honorific, ``Pol`` polite, ``Fam`` familiar,
-``NHon`` non-honorific) and the addressee axis (``Fml`` formal, ``Infml``
+axes: the referent axis, a scale (``Hon`` honorific, ``Pol`` polite, ``Pln``
+plain, ``Fam`` familiar, ``NHon`` non-honorific), and the addressee axis (``Fml`` formal, ``Infml``
 informal, ``Hum`` humble, which entails ``Fml``). Kin terms carry them on their
 senses, not their codes: お父さん and 父 are both ``Fa``.
 
@@ -14,10 +14,10 @@ Most of a Japanese kin term's value follows from its title suffix or prefix:
 - 令-, 尊-, 賢-: ``Hon;Fml`` (someone else's family); 愚-, 家-, 拙-, 豚-:
   ``Fml;Hum`` (one's own)
 - お-/御-/ご- on a bare stem: ``Pol``
-- a katakana loanword (ファーザー): unmarked
+- a katakana loanword (ファーザー): no guess
 - a bare term for a senior relative (父, 兄, 祖母): ``Fml;Hum``, the in-group
   form used to an outsider; a bare term for anyone else (弟, 息子, 妻):
-  unmarked
+  ``Pln``, since a junior relative takes no title
 
 `OVERRIDES` lists words whose value does not follow from their form. Every value
 is a guess for a reviewer to confirm.
@@ -131,8 +131,8 @@ def senior(atoms: Iterable[Atom]) -> bool:
 def guess(word: str, atoms: Iterable[Atom]) -> tuple[str, str]:
     """The honorific values of the Japanese kin term `word`, and why.
 
-    `atoms` are the positions of its concept. The value is ``""`` for an
-    unmarked word.
+    `atoms` are the positions of its concept. The value is ``""`` when there is
+    no guess, which is not the same as plain (``Pln``).
 
     >>> fa = [("m", (("", "F"),))]
     >>> guess("お父様", fa), guess("お父さん", fa), guess("父ちゃん", fa)
@@ -140,7 +140,7 @@ def guess(word: str, atoms: Iterable[Atom]) -> tuple[str, str]:
     >>> guess("父", fa), guess("父上", fa), guess("親父", fa)
     (('Fml;Hum', 'bare, senior'), ('Hon;Arch', '-上'), ('Infml', 'lexical'))
     >>> guess("弟", [("m", (("y", "B"),))]), guess("令息", [("m", (("", "S"),))])
-    (('', 'bare, junior'), ('Hon;Fml', '令-'))
+    (('Pln', 'bare, junior'), ('Hon;Fml', '令-'))
     >>> guess("御祖父", [("m", (("", "F"), ("", "F")))]), guess("ファーザー", fa)
     (('Pol', 'お-/御-'), ('', 'loanword'))
     """
@@ -158,4 +158,4 @@ def guess(word: str, atoms: Iterable[Atom]) -> tuple[str, str]:
         return "Pol", "お-/御-"
     if senior(atoms):
         return "Fml;Hum", "bare, senior"
-    return "", "bare, junior"
+    return "Pln", "bare, junior"
