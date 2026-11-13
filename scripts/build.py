@@ -35,7 +35,15 @@ from functools import cache
 from pathlib import Path
 from xml.sax.saxutils import escape, quoteattr
 
-from kintype import KINDIV_LETTERS, age_slot, from_kindiv, kindiv_atoms, subdomain_of
+from kintype import (
+    KINDIV_LETTERS,
+    PLURAL,
+    age_slot,
+    from_kindiv,
+    is_plural,
+    kindiv_atoms,
+    subdomain_of,
+)
 from unidecode import unidecode
 
 logger = logging.getLogger(__name__)
@@ -368,6 +376,15 @@ def read_hierarchy(concepts: dict[str, Concept]) -> dict[str, set[str]]:
     extent = positions(concepts)
     for code, own in extent.items():
         parents[code] |= {other for other, theirs in extent.items() if own < theirs}
+        # a code without Pl is unspecified for number, so it covers groups too:
+        # both parents (Pl;Pa) are below Pa, but not below Fa
+        if is_plural(own):
+            members = {(ego.removeprefix(PLURAL), path) for ego, path in own}
+            parents[code] |= {
+                other
+                for other, theirs in extent.items()
+                if not is_plural(theirs) and members <= theirs
+            }
 
     return {
         code: (closure(code, parents) - {code}) & concepts.keys() for code in concepts

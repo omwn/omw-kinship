@@ -96,16 +96,15 @@ positions a code denotes.
    sister": an opposite-sex sibling.
 
 5. **Plural** (`Pl;` at the front, after any anchor) makes the code denote the
-   relatives it covers taken together, as one group, instead of any one of
-   them: Japanese 両親 *ryōshin* "both parents" is `Pl;Pa`, 祖父母 *sofubo*
-   "grandparents" `Pl;Pa;Pa`. Like the anchor, it belongs to the whole path,
-   not to one link, so it takes `;`: `Pa;Pl:Pa` would be one parent's parents.
-   A group is not one of its members, so a plural code is never below or above
-   a singular one; plural concepts hang from `Rel`. Only words that name the
-   group count as evidence for one (両親, Mandarin 父母 *fùmǔ*, German *Eltern*),
-   not regular plurals (*parents*), though those are recorded as its words.
-   Japanese nouns do not mark number, so 祖父母 is also `Pa;Pa`, a single
-   grandparent; 両親 is only `Pl;Pa`.
+   relatives it covers taken together, as one group: Japanese 両親 *ryōshin*
+   "both parents" is `Pl;Pa`. Like the anchor, it belongs to the whole path,
+   not to one link, so it takes `;`. A code without `Pl` is **unspecified for
+   number**, one relative or several, as an unfilled slot is in the pronoun
+   codes; so `Pl;Pa` is below `Pa`, but not below `Fa`. Only a word that
+   requires the group is plural: 両親, Korean 부모 *bumo*, Thai พ่อแม่ and
+   other father-mother compounds, German *Eltern*. A number-neutral word
+   (Japanese 兄弟姉妹, 祖父母; Indonesian *orang tua*) is unspecified, and so
+   is a regular plural, which is a form of its singular's lemma (*parents*).
 
 The full grammar of a code is
 
@@ -184,7 +183,7 @@ shapes.
 |---|---|---|
 | `Pl` | plural: the relatives the code covers, together | `Pl;Pa` "both parents" (Japanese 両親) |
 
-A code without `Pl` denotes one relative.
+A code without `Pl` is unspecified for number.
 
 ### Relative age
 

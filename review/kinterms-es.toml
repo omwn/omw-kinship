@@ -17,6 +17,7 @@ lemmas = ["abuela", "abuelito", "abuelo", "abuelos"]
 proposed = ["abue"]
 confidence = ["medium"]
 notes = ["abue: colloquial, affectionate, either sex (Argentina, Uruguay, Mexico); build has it only on Pa;Mo"]
+omniglot = ["abuelos \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -698,7 +699,7 @@ lemmas = ["padre", "padres", "progenitor"]
 proposed = ["padre"]
 confidence = ["check"]
 notes = ["padre: singular padre is 'father'; only the plural padres means 'parents'"]
-english = ["parent"]
+english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["omw-es omw-es-10399491-n [i91858] padre, padres, progenitor: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-es tufs-es-10399491-n [i91858] padres: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
@@ -706,7 +707,7 @@ existing_by_lemma = ["padre -> omw-es omw-es-10080869-n [i89901] padre, papa, pa
 existing_hidden = 12  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["padre <- omw-es", "padres <- omw-es", "progenitor <- Kinbank, omw-es"]
+sources = ["padre <- omw-es", "padres <- TUFS, omw-es", "progenitor <- Kinbank, omw-es"]
 comment = ""
 
 ["Fa"]
@@ -1401,27 +1402,15 @@ ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "
 comment = ""
 
 ["Pl;Pa"]
-lemmas = ["padres"]
+lemmas = []
 omniglot = ["padres \"parents\" (not built: plural)"]
-english = ["parents"]
+omniglot_new = ["padres"]
+english = ["parent", "parents"]
+english_via = "Pa"
 label = "both parents"
 definition = "both of one's parents, father and mother, taken together"
-existing_by_lemma = ["padres -> omw-es omw-es-10399491-n [i91858] padre, padres, progenitor: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "padres -> tufs-es tufs-es-10399491-n [i91858] padres: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-sources = ["padres <- TUFS"]
-comment = ""
-
-["Pl;Pa;Pa"]
-lemmas = []
-omniglot = ["abuelos \"grandparents\" (not built: plural)"]
-omniglot_new = ["abuelos"]
-english = ["relation", "relative"]
-english_via = "Rel"
-label = "grandparents (together)"
-definition = "one's grandparents, grandfathers and grandmothers, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
+hypernyms = ["Pa"]
+ancestors = ["Pa", "Rel"]
 comment = ""
 
 ["Fa;Pa"]

@@ -13,6 +13,7 @@
 
 ["Pa;Pa"]
 lemmas = ["dziadkowie"]
+omniglot = ["dziadkowie \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -551,7 +552,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodzic", "rodzice"]
-english = ["parent"]
+english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["plwn plwn-syn-f3bcb417-aac4-11ed-aae5-0242ac130002 [i91858] rodzic: ojciec lub matka, czasem też inny opiekun pełniący rolę ojca lub matki."]
@@ -1223,23 +1224,12 @@ comment = ""
 lemmas = []
 omniglot = ["rodzice \"parents\" (not built: plural)"]
 omniglot_new = ["rodzice"]
-english = ["parents"]
+english = ["parent", "parents"]
+english_via = "Pa"
 label = "both parents"
 definition = "both of one's parents, father and mother, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-comment = ""
-
-["Pl;Pa;Pa"]
-lemmas = []
-omniglot = ["dziadkowie \"grandparents\" (not built: plural)"]
-omniglot_new = ["dziadkowie"]
-english = ["relation", "relative"]
-english_via = "Rel"
-label = "grandparents (together)"
-definition = "one's grandparents, grandfathers and grandmothers, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
+hypernyms = ["Pa"]
+ancestors = ["Pa", "Rel"]
 comment = ""
 
 ["Fa;Pa"]

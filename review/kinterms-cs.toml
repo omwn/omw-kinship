@@ -14,6 +14,19 @@
 #   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
+["Pa;Pa"]
+lemmas = []
+status = "KinDiv records a gap here, but other sources suggest words: check"
+omniglot = ["prarodiče \"grandparents\" (not built: plural)"]
+omniglot_new = ["prarodiče"]
+english = ["grandparent"]
+label = "grandparent"
+definition = "a parent of one's parent (a grandparent)"
+ntumc = ["prarodič <- 10143172-n"]
+hypernyms = ["Ch;Ch|Pa;Pa"]
+ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
+comment = ""
+
 ["Pa;Fa"]
 lemmas = ["děd", "děda", "dědeček"]
 omniglot = ["děda \"grandfather\"", "dědeček \"grandfather\""]
@@ -487,7 +500,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodiče"]
-english = ["parent"]
+english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 ntumc = ["rodič <- 10399491-n", "rodiče <- 10399491-n"]
@@ -1172,33 +1185,12 @@ comment = ""
 lemmas = []
 omniglot = ["rodiče \"parents\" (not built: plural)"]
 omniglot_new = ["rodiče"]
-english = ["parents"]
+english = ["parent", "parents"]
+english_via = "Pa"
 label = "both parents"
 definition = "both of one's parents, father and mother, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-comment = ""
-
-["Pl;Pa;Pa"]
-lemmas = []
-omniglot = ["prarodiče \"grandparents\" (not built: plural)"]
-omniglot_new = ["prarodiče"]
-english = ["relation", "relative"]
-english_via = "Rel"
-label = "grandparents (together)"
-definition = "one's grandparents, grandfathers and grandmothers, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-comment = ""
-
-["Pa;Pa"]
-lemmas = []
-status = "recorded gap (KinDiv): no word for this"
-label = "grandparent"
-definition = "a parent of one's parent (a grandparent)"
-ntumc = ["prarodič <- 10143172-n"]
-hypernyms = ["Ch;Ch|Pa;Pa"]
-ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
+hypernyms = ["Pa"]
+ancestors = ["Pa", "Rel"]
 comment = ""
 
 ["Fa;Pa"]

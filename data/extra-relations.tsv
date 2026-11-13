@@ -216,6 +216,3 @@ in-laws	Sp;El:Br|El:Ss;Hu	BrL
 in-laws	Sp;Yn:Br|Yn:Ss;Hu	BrL
 in-laws	Sp;El:Ss|El:Br;Wi	SsL
 in-laws	Sp;Yn:Ss|Yn:Br;Wi	SsL
-parents	Pl;Pa	Rel
-grandparents	Pl;Pa;Pa	Rel
-siblings	Pl;Sb	Rel

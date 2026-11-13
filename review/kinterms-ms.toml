@@ -127,12 +127,13 @@ comment = ""
 
 ["Sb"]
 lemmas = ["adik-beradik", "saudara kandung"]
+omniglot = ["adik-beradik \"siblings\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["adik-beradik <- TUFS, wnb-zsm", "saudara kandung <- wnb-zsm"]
+sources = ["adik-beradik <- Omniglot, TUFS, wnb-zsm", "saudara kandung <- wnb-zsm"]
 comment = ""
 
 ["Br"]
@@ -398,7 +399,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["ayah bonda", "orang tua", "ايبو باڤ"]
-english = ["parent"]
+english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 hypernyms = ["Rel"]
@@ -982,24 +983,13 @@ comment = ""
 ["Pl;Pa"]
 lemmas = ["ibu bapa", "ibu-bapa"]
 omniglot = ["ibu-bapa \"parents\""]
-english = ["parents"]
+english = ["parent", "parents"]
+english_via = "Pa"
 label = "both parents"
 definition = "both of one's parents, father and mother, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
+hypernyms = ["Pa"]
+ancestors = ["Pa", "Rel"]
 sources = ["ibu bapa <- TUFS", "ibu-bapa <- Omniglot"]
-comment = ""
-
-["Pl;Sb"]
-lemmas = ["adik-beradik"]
-omniglot = ["adik-beradik \"siblings\""]
-english = ["relation", "relative"]
-english_via = "Rel"
-label = "siblings (together)"
-definition = "one's brothers and sisters, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-sources = ["adik-beradik <- Omniglot"]
 comment = ""
 
 ["Fa;Pa"]

@@ -34,6 +34,15 @@ AUN = "affinal as well as consanguineal: matches OEWN aunt"
 
 #: (TUFS language, form) -> [(KinDiv concept, confidence, note)]
 CURATED: dict[tuple[str, str], list[tuple[str, str, str]]] = {
+    # TUFS 両親 "both parents": only words that name the pair are Pl;Pa; a
+    # regular plural or a number-neutral word is plain Pa
+    ("en", "parents"): [("Pa", H, "plural of parent")],
+    ("fr", "parents"): [("Pa", H, "plural of parent")],
+    ("es", "padres"): [("Pa", H, "plural of padre")],
+    ("pb", "pais"): [("Pa", H, "plural of pai")],
+    ("ru", "родители"): [("Pa", H, "plural of родитель")],
+    ("id", "orang tua"): [("Pa", H, "number-neutral: a parent or parents")],
+    ("tl", "magulang"): [("Pa", H, "number-neutral: a parent or parents")],
     ("ja", "おじさん"): [("Unc", H, UNC)],
     ("ja", "おばさん"): [("Aun", H, AUN)],
     ("ms", "pak cik"): [("Unc", M, "also an older man")],

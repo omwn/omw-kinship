@@ -495,7 +495,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["ayah bonda", "ibu bapa", "orang tua"]
-english = ["parent"]
+english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
@@ -504,7 +504,7 @@ existing_hidden = 4  # other senses of these lemmas
 ntumc = ["ayah bonda <- 10399491-n", "emak bapa <- 10399491-n", "ibu bapa <- 10399491-n", "orang tua <- 10399491-n"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["ayah bonda <- wnb-id", "ibu bapa <- wnb-id", "orang tua <- wnb-id"]
+sources = ["ayah bonda <- wnb-id", "ibu bapa <- wnb-id", "orang tua <- TUFS, wnb-id"]
 comment = ""
 
 ["Fa"]
@@ -989,18 +989,16 @@ ancestors = ["Rel"]
 comment = ""
 
 ["Pl;Pa"]
-lemmas = ["ibu-bapa", "orang tua"]
+lemmas = ["ibu-bapa"]
 omniglot = ["ibu-bapa \"parents\""]
-english = ["parents"]
+english = ["parent", "parents"]
+english_via = "Pa"
 label = "both parents"
 definition = "both of one's parents, father and mother, taken together"
-existing_by_lemma = ["orang tua -> wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_hidden = 4  # other senses of these lemmas
-new_senses = ["orang tua"]
 new_words = ["ibu-bapa"]
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-sources = ["ibu-bapa <- Omniglot", "orang tua <- TUFS"]
+hypernyms = ["Pa"]
+ancestors = ["Pa", "Rel"]
+sources = ["ibu-bapa <- Omniglot"]
 comment = ""
 
 ["Fa;Pa"]

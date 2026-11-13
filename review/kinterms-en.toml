@@ -16,6 +16,8 @@
 
 ["Pa;Pa"]
 lemmas = ["grandparent"]
+omniglot = ["grandparents \"grandparents\" (not built: plural)"]
+omniglot_new = ["grandparents"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
 existing_by_ili = ["oewn oewn-10162692-n [i90292] grandparent: a parent of your father or mother"]
@@ -625,16 +627,17 @@ sources = ["aunt <- OEWN, Omniglot, TUFS, oewn", "auntie <- Omniglot, oewn", "au
 comment = ""
 
 ["Pa"]
-lemmas = ["parent"]
+lemmas = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["oewn oewn-10419190-n [i91858] parent: a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-en tufs-en-10399491-n [i91858] parents: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["parent -> oewn oewn-10419190-n [i91858] parent: a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_by_lemma = ["parent -> oewn oewn-10419190-n [i91858] parent: a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "parents -> tufs-en tufs-en-10399491-n [i91858] parents: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 existing_hidden = 1  # other senses of these lemmas
 ntumc = ["parent <- 10399491-n"]
+new_words = ["parents"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["parent <- Kinbank, OEWN, Wikidata L5232-S1, oewn"]
+sources = ["parent <- Kinbank, OEWN, Wikidata L5232-S1, oewn", "parents <- TUFS"]
 comment = ""
 
 ["Fa"]
@@ -1282,27 +1285,14 @@ ancestors = ["Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["Pl;Pa"]
-lemmas = ["parents"]
+lemmas = []
+phrase = "both parents"  # unlexicalized
 omniglot = ["parents \"parents\" (not built: plural)", "mum and dad \"parents\" (not built: plural)", "mother and father \"parents\" (not built: plural)", "mater and pater \"parents\" (not built: plural)", "the parental units \"parents\" (not built: plural)"]
-omniglot_new = ["mum and dad", "mother and father", "mater and pater", "the parental units"]
+omniglot_new = ["parents", "mum and dad", "mother and father", "mater and pater", "the parental units"]
 label = "both parents"
 definition = "both of one's parents, father and mother, taken together"
-existing_by_lemma = ["parents -> tufs-en tufs-en-10399491-n [i91858] parents: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-new_words = ["parents"]
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
-sources = ["parents <- TUFS"]
-comment = ""
-
-["Pl;Pa;Pa"]
-lemmas = []
-phrase = "grandparents (together)"  # unlexicalized
-omniglot = ["grandparents \"grandparents\" (not built: plural)"]
-omniglot_new = ["grandparents"]
-label = "grandparents (together)"
-definition = "one's grandparents, grandfathers and grandmothers, taken together"
-hypernyms = ["Rel"]
-ancestors = ["Rel"]
+hypernyms = ["Pa"]
+ancestors = ["Pa", "Rel"]
 comment = ""
 
 ["x;Pa;Pa"]

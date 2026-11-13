@@ -154,10 +154,10 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16402	奥さん	zh	524	cmn	老婆	Wi	default	high	
 16488	両親	ar	294	ar	والدان	Pl;Pa	default	high	both parents, together
 16488	両親	de	1021	de	Eltern	Pl;Pa	default	high	both parents, together
-16488	両親	en	1048	en	parents	Pl;Pa	default	high	both parents, together
-16488	両親	es	998	es	padres	Pl;Pa	default	high	both parents, together
-16488	両親	fr	2052	fr	parents	Pl;Pa	default	high	both parents, together
-16488	両親	id	698	id	orang tua	Pl;Pa	default	high	both parents, together
+16488	両親	en	1048	en	parents	Pa	curated	high	plural of parent
+16488	両親	es	998	es	padres	Pa	curated	high	plural of padre
+16488	両親	fr	2052	fr	parents	Pa	curated	high	plural of parent
+16488	両親	id	698	id	orang tua	Pa	curated	high	number-neutral: a parent or parents
 16488	両親	ja	1855	ja	両親	Pl;Pa	default	high	both parents, together
 16488	両親	km	294	km	ឪពុកម្ដាយ	Pl;Pa	default	high	both parents, together
 16488	両親	ko	803	ko	부모	Pl;Pa	default	high	both parents, together
@@ -165,11 +165,11 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16488	両親	mn	280	mn	аав ээж	Pl;Pa	default	high	both parents, together
 16488	両親	ms	1855	ms	ibu bapa	Pl;Pa	default	high	both parents, together
 16488	両親	my	1855	my	မိဘ	Pl;Pa	default	high	both parents, together
-16488	両親	pb	1079	pt	pais	Pl;Pa	default	high	both parents, together
+16488	両親	pb	1079	pt	pais	Pa	curated	high	plural of pai
 16488	両親	pt	295	pt	meus pais	Pa	curated	medium	'my parents': the form is a phrase
-16488	両親	ru	904	ru	родители	Pl;Pa	default	high	both parents, together
+16488	両親	ru	904	ru	родители	Pa	curated	high	plural of родитель
 16488	両親	th	298	th	พ่อแม่	Pl;Pa	default	high	both parents, together
-16488	両親	tl	1018	tl	magulang	Pl;Pa	default	high	both parents, together
+16488	両親	tl	1018	tl	magulang	Pa	curated	high	number-neutral: a parent or parents
 16488	両親	tr	1792	tr	anne baba	Pl;Pa	default	high	both parents, together
 16488	両親	tr	1792	tr	anne babası		curated	high	possessive form of anne baba ('his/her parents')
 16488	両親	ur	345	ur	والدین	Pl;Pa	default	high	both parents, together

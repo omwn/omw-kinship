@@ -1,17 +1,17 @@
 {
   "concepts": {
-    "total": 313,
+    "total": 311,
     "kindiv": 198,
     "restored": 2,
     "kindiv_restored": 200,
-    "added": 39,
+    "added": 37,
     "kinbank": 74,
     "kinbank_single": 38,
     "kinbank_mergers": 36
   },
   "ili": {
     "linked": 35,
-    "proposed": 271,
+    "proposed": 269,
     "unattested": 7,
     "kindiv_exact": 16
   },
@@ -35,7 +35,7 @@
   },
   "hierarchy": {
     "multiple_hypernyms": 198,
-    "derived_links": 4,
+    "derived_links": 5,
     "named_nodes": 6,
     "named_disjunctions": 4
   },
@@ -43,14 +43,14 @@
     "fa_fa_br": 172
   },
   "gaps": {
-    "contradicted": 593,
-    "words": 531,
-    "gaps": 310,
+    "contradicted": 596,
+    "words": 532,
+    "gaps": 311,
     "languages": 115,
-    "sources": 322,
-    "source_words": 304,
-    "source_gaps": 234,
-    "source_languages": 100,
+    "sources": 325,
+    "source_words": 306,
+    "source_gaps": 235,
+    "source_languages": 101,
     "wordnets": 192,
     "wordnet_words": 189,
     "wordnet_gaps": 80,

@@ -161,6 +161,11 @@ def from_kindiv(code: str) -> str:
 PLURAL = "pl-"
 
 
+def is_plural(atoms: set[Atom] | frozenset[Atom]) -> bool:
+    """True if `atoms` are a plural code's (`PLURAL` on the anchor)."""
+    return any(ego.startswith(PLURAL) for ego, _ in atoms)
+
+
 def kindiv_atoms(code: str) -> set[Atom] | None:
     """Atoms of a concept's code, or None for nodes too broad to match (Rel, InL).
 
@@ -169,8 +174,9 @@ def kindiv_atoms(code: str) -> set[Atom] | None:
 
     ``Pl;`` (after any anchor) makes a code plural: the relatives it covers,
     taken together (Japanese 両親 *ryōshin* "both parents" is ``Pl;Pa``). A
-    group is not one of its members, so a plural code's atoms are marked on the
-    anchor (`PLURAL`) and never meet a singular code's.
+    code without it is unspecified for number. A plural code's atoms are marked
+    on the anchor (`PLURAL`), and `build.read_hierarchy` puts it below the
+    unspecified codes that cover its members.
 
     >>> sorted(kindiv_atoms("x;Fa;El:Br"))
     [('m', (('', 'F'), ('e', 'B')))]

@@ -215,11 +215,11 @@ def test_in_law_ages_split_brothers_in_law() -> None:
     assert kintype.kindiv_atoms("Sp;El:Br") < kintype.kindiv_atoms("Sp;Br")
 
 
-def test_a_plural_concept_is_neither_above_nor_below_its_singular() -> None:
+def test_a_plural_concept_is_below_its_unspecified_one() -> None:
     concepts = build.read_concepts()
     ancestry = build.read_hierarchy(concepts)
-    assert "Pa" not in ancestry["Pl;Pa"] and "Pl;Pa" not in ancestry["Fa"]
-    assert ancestry["Pl;Pa"] == {"Rel"}
+    assert "Pa" in ancestry["Pl;Pa"] and "Fa" not in ancestry["Pl;Pa"]
+    assert "Pl;Pa" not in ancestry["Pa"]
     assert build.parse("Pl;Pa")[2] == ["parents (together)"]
 
 
