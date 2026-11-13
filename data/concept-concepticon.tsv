@@ -24,22 +24,22 @@ x;Br	559	BROTHER (OF MAN)	exact
 o;Br	560	BROTHER (OF WOMAN)	exact	
 x;Ss	561	SISTER (OF MAN)	exact	
 o;Ss	562	SISTER (OF WOMAN)	exact	
-El;Sb	405	OLDER SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
-Yn;Sb	427	YOUNGER SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
-El;Br	1759	OLDER BROTHER	exact	
-Yn;Br	1760	YOUNGER BROTHER	exact	
-El;Ss	1758	OLDER SISTER	exact	
-Yn;Ss	1761	YOUNGER SISTER	exact	
-x;El;Br	2414	OLDER BROTHER (OF MAN)	exact	
-o;El;Br	2415	OLDER BROTHER (OF WOMAN)	exact	
-x;El;Ss	2418	OLDER SISTER (OF MAN)	exact	
-o;El;Ss	2419	OLDER SISTER (OF WOMAN)	exact	
-x;Yn;Br	2416	YOUNGER BROTHER (OF MAN)	exact	
-o;Yn;Br	2417	YOUNGER BROTHER (OF WOMAN)	exact	
-x;Yn;Ss	2420	YOUNGER SISTER (OF MAN)	exact	
-o;Yn;Ss	2421	YOUNGER SISTER (OF WOMAN)	exact	
-o;El;Ss|x;El;Br	3037	SAME-SEX OLDER SIBLING	exact	
-o;Yn;Ss|x;Yn;Br	3038	SAME-SEX YOUNGER SIBLING	exact	
+El:Sb	405	OLDER SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+Yn:Sb	427	YOUNGER SIBLING	exact	defined as 'same parents', which leaves out half siblings (open question 1)
+El:Br	1759	OLDER BROTHER	exact	
+Yn:Br	1760	YOUNGER BROTHER	exact	
+El:Ss	1758	OLDER SISTER	exact	
+Yn:Ss	1761	YOUNGER SISTER	exact	
+x;El:Br	2414	OLDER BROTHER (OF MAN)	exact	
+o;El:Br	2415	OLDER BROTHER (OF WOMAN)	exact	
+x;El:Ss	2418	OLDER SISTER (OF MAN)	exact	
+o;El:Ss	2419	OLDER SISTER (OF WOMAN)	exact	
+x;Yn:Br	2416	YOUNGER BROTHER (OF MAN)	exact	
+o;Yn:Br	2417	YOUNGER BROTHER (OF WOMAN)	exact	
+x;Yn:Ss	2420	YOUNGER SISTER (OF MAN)	exact	
+o;Yn:Ss	2421	YOUNGER SISTER (OF WOMAN)	exact	
+o;El:Ss|x;El:Br	3037	SAME-SEX OLDER SIBLING	exact	
+o;Yn:Ss|x;Yn:Br	3038	SAME-SEX YOUNGER SIBLING	exact	
 o;Br|x;Ss	3039	DIFFERENT-SEX OLDER SIBLING	narrower	only an older opposite-sex sibling
 o;Br|x;Ss	3040	DIFFERENT-SEX YOUNGER SIBLING	narrower	only a younger opposite-sex sibling
 Pa;Pa	305	GRANDPARENTS	exact	the gloss is plural; replaces GRANDPARENT 2399
@@ -67,17 +67,17 @@ Fa;Ss	2691	PATERNAL AUNT (FATHER'S SISTER)	exact	replaces FATHER'S SISTER 170
 Fa;Ss	2175	PATERNAL AUNT	broader	also the wife of a father's brother
 Mo;Ss	2693	MATERNAL AUNT (MOTHER'S SISTER)	exact	replaces MOTHER'S SISTER 171
 Mo;Ss	2176	MATERNAL AUNT	broader	also the wife of a mother's brother
-Fa;El;Br	2173	PATERNAL UNCLE (FATHER'S OLDER BROTHER)	exact	
-Fa;Yn;Br	2174	PATERNAL UNCLE (FATHER'S YOUNGER BROTHER)	exact	
-Fa;El;Ss	3041	PATERNAL AUNT (FATHER'S OLDER SISTER)	exact	
-Mo;El;Br	3249	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	exact	
-Mo;Yn;Br	3250	MATERNAL UNCLE (MOTHER'S YOUNGER BROTHER)	exact	
-Mo;El;Ss	3042	MATERNAL AUNT (MOTHER'S OLDER SISTER)	exact	
-Mo;Yn;Ss	3043	MATERNAL AUNT (MOTHER'S YOUNGER SISTER)	exact	
+Fa;El:Br	2173	PATERNAL UNCLE (FATHER'S OLDER BROTHER)	exact	
+Fa;Yn:Br	2174	PATERNAL UNCLE (FATHER'S YOUNGER BROTHER)	exact	
+Fa;El:Ss	3041	PATERNAL AUNT (FATHER'S OLDER SISTER)	exact	
+Mo;El:Br	3249	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	exact	
+Mo;Yn:Br	3250	MATERNAL UNCLE (MOTHER'S YOUNGER BROTHER)	exact	
+Mo;El:Ss	3042	MATERNAL AUNT (MOTHER'S OLDER SISTER)	exact	
+Mo;Yn:Ss	3043	MATERNAL AUNT (MOTHER'S YOUNGER SISTER)	exact	
 Fa;Ss;Hu	2690	UNCLE (HUSBAND OF FATHER'S SISTER)	exact	
 Mo;Ss;Hu	2694	MATERNAL UNCLE (HUSBAND OF ONE'S MATERNAL AUNT)	exact	
-Fa;El;Br;Wi	2170	PATERNAL AUNT (WIFE OF FATHER'S OLDER BROTHER)	exact	
-Fa;Yn;Br;Wi	2171	PATERNAL AUNT (WIFE OF FATHER'S YOUNGER BROTHER)	exact	
+Fa;El:Br;Wi	2170	PATERNAL AUNT (WIFE OF FATHER'S OLDER BROTHER)	exact	
+Fa;Yn:Br;Wi	2171	PATERNAL AUNT (WIFE OF FATHER'S YOUNGER BROTHER)	exact	
 Pa;Br;Wi	2172	MATERNAL AUNT (WIFE OF MOTHER'S BROTHER)	narrower	only the wife of a mother's brother; we have no Mo;Br;Wi
 Sb;Ch	173	SIBLING'S CHILD	exact	
 Sb;Ch	3890	NEPHEW OR NIECE	exact	a near-duplicate of 173

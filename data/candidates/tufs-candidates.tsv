@@ -3,20 +3,20 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 		de	1024	de	Schwester	Ss
 		ru	909	ru	старший брат	
 		ru	910	ru	старшая сестра	
-		vi	492	vi	anh	El-Br
-		vi	501	vi	chú	Fa-Yn-Br
-		vi	506	vi	chị	El-Ss
+		vi	492	vi	anh	El.Br
+		vi	501	vi	chú	Fa-Yn.Br
+		vi	506	vi	chị	El.Ss
 		vi	508	vi	cô	Fa-Ss
-		vi	509	vi	anh	El-Br
-		vi	510	vi	chị	El-Ss
-		zh	309	cmn	表妹	Yn-Fa-Ss-Da;Yn-Mo-Sb-Da
-		zh	319	cmn	姐姐	El-Ss
+		vi	509	vi	anh	El.Br
+		vi	510	vi	chị	El.Ss
+		zh	309	cmn	表妹	Fa-Ss-Yn.Da;Mo-Sb-Yn.Da
+		zh	319	cmn	姐姐	El.Ss
 		zh	321	cmn	姑姑	
-		zh	322	cmn	哥哥	El-Br
-15524		vi	424	vi	anh	El-Br
-15524		vi	425	vi	chị	El-Ss
+		zh	322	cmn	哥哥	El.Br
+15524		vi	424	vi	anh	El.Br
+15524		vi	425	vi	chị	El.Ss
 15524		vi	428	vi	cô	Fa-Ss
-15524		vi	429	vi	chú	Fa-Yn-Br
+15524		vi	429	vi	chú	Fa-Yn.Br
 16190	おじさん	ja	1571	ja	おじさん	Pa-Br
 16190	おじさん	ms	1571	ms	pak cik	
 16190	おじさん	my	1571	my	ဦးလေး	
@@ -295,7 +295,7 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16780	兄弟	tr	1786	tr	kardeş	
 16780	兄弟	ur	350	ur	بھائی	Br
 16780	兄弟	vi	493	vi	anh em	
-16780	兄弟	zh	311	cmn	兄弟	Yn-Br
+16780	兄弟	zh	311	cmn	兄弟	Yn.Br
 16783	姉妹	ar	296	ar	أُخْتٌ	Ss
 16785	兄	de	1014	de	Bruder	Br
 16785	兄	en	1041	en	brother	Br
@@ -303,11 +303,11 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16785	兄	fr	895	fr	frère	Br
 16785	兄	id	693	id	kakak laki-laki	
 16785	兄	ja	1287	ja	兄	
-16785	兄	km	287	km	បងប្រុស	El-Br
-16785	兄	ko	796	ko	형	x-El-Br
+16785	兄	km	287	km	បងប្រុស	El.Br
+16785	兄	ko	796	ko	형	x-El.Br
 16785	兄	lo	294	lo	ອ້າຍ	
-16785	兄	mn	274	mn	ах	El-Br
-16785	兄	ms	1287	ms	abang	El-Br
+16785	兄	mn	274	mn	ах	El.Br
+16785	兄	ms	1287	ms	abang	El.Br
 16785	兄	my	1287	my	ကိုကို	
 16785	兄	my	1287	my	အစ်ကို	
 16785	兄	pb	1072	pt	irmão	Br
@@ -317,19 +317,19 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16785	兄	tl	1011	tl	kuya	
 16785	兄	tr	1785	tr	ağabey	
 16785	兄	ur	351	ur	بڑا بھائی	
-16785	兄	vi	424	vi	anh	El-Br
-16785	兄	zh	310	cmn	哥哥	El-Br
+16785	兄	vi	424	vi	anh	El.Br
+16785	兄	zh	310	cmn	哥哥	El.Br
 16797	お兄さん	de	1026	de	Bruder	Br
 16797	お兄さん	en	1053	en	brother	Br
 16797	お兄さん	es	991	es	hermano	Br
 16797	お兄さん	fr	895	fr	frère	Br
 16797	お兄さん	id	346	id	kakak	
-16797	お兄さん	ja	1578	ja	お兄さん	El-Br
-16797	お兄さん	km	287	km	បងប្រុស	El-Br
-16797	お兄さん	ko	808	ko	형	x-El-Br
+16797	お兄さん	ja	1578	ja	お兄さん	El.Br
+16797	お兄さん	km	287	km	បងប្រុស	El.Br
+16797	お兄さん	ko	808	ko	형	x-El.Br
 16797	お兄さん	lo	294	lo	ອ້າຍ	
-16797	お兄さん	mn	274	mn	ах	El-Br
-16797	お兄さん	ms	1578	ms	abang	El-Br
+16797	お兄さん	mn	274	mn	ах	El.Br
+16797	お兄さん	ms	1578	ms	abang	El.Br
 16797	お兄さん	my	1578	my	ကိုကို	
 16797	お兄さん	my	1578	my	အစ်ကို	
 16797	お兄さん	pt	288	pt	irmão mais velho	
@@ -338,8 +338,8 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16797	お兄さん	tl	1011	tl	kuya	
 16797	お兄さん	tr	1797	tr	abi	
 16797	お兄さん	ur	352	ur	بڑے بھائی صاحب	
-16797	お兄さん	vi	424	vi	anh	El-Br
-16797	お兄さん	zh	310	cmn	哥哥	El-Br
+16797	お兄さん	vi	424	vi	anh	El.Br
+16797	お兄さん	zh	310	cmn	哥哥	El.Br
 16799	姉	as	470	apc	إخت	
 16799	姉	en	1050	en	sister	Ss
 16799	姉	en	1051	en	sister	Ss
@@ -348,15 +348,15 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16799	姉	id	694	id	saudara	
 16799	姉	id	700	id	kakak perempuan	
 16799	姉	ja	1542	ja	姉	
-16799	姉	km	296	km	បងស្រី	El-Ss
+16799	姉	km	296	km	បងស្រី	El.Ss
 16799	姉	km	297	km	បងប្អូនស្រី	
-16799	姉	ko	805	ko	누나	x-El-Ss
+16799	姉	ko	805	ko	누나	x-El.Ss
 16799	姉	ko	806	ko	자매	
 16799	姉	lo	303	lo	ເອື້ອຍ	
 16799	姉	lo	304	lo	ເອື້ອຍນ້ອງ	
-16799	姉	mn	282	mn	эгч	El-Ss
+16799	姉	mn	282	mn	эгч	El.Ss
 16799	姉	mn	283	mn	эгч дүүс	
-16799	姉	ms	1542	ms	kakak	El-Ss
+16799	姉	ms	1542	ms	kakak	El.Ss
 16799	姉	my	1542	my	မမ	
 16799	姉	my	1542	my	အစ်မ	
 16799	姉	pb	1080	pt	irmã	Ss
@@ -372,7 +372,7 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16799	姉	tr	1794	tr	abla	
 16799	姉	tr	1795	tr	kız kardeş	
 16799	姉	ur	353	ur	بڑی بہن	
-16799	姉	vi	425	vi	chị	El-Ss
+16799	姉	vi	425	vi	chị	El.Ss
 16799	姉	vi	507	vi	chị em	
 16799	姉	zh	320	cmn	姐妹	
 16806	お姉さん	de	1023	de	Schwester	Ss
@@ -381,11 +381,11 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16806	お姉さん	fr	894	fr	sœur	Ss
 16806	お姉さん	id	346	id	kakak	
 16806	お姉さん	ja	1579	ja	お姉さん	
-16806	お姉さん	km	296	km	បងស្រី	El-Ss
-16806	お姉さん	ko	809	ko	누나	x-El-Ss
+16806	お姉さん	km	296	km	បងស្រី	El.Ss
+16806	お姉さん	ko	809	ko	누나	x-El.Ss
 16806	お姉さん	lo	303	lo	ເອື້ອຍ	
-16806	お姉さん	mn	282	mn	эгч	El-Ss
-16806	お姉さん	ms	1579	ms	kakak	El-Ss
+16806	お姉さん	mn	282	mn	эгч	El.Ss
+16806	お姉さん	ms	1579	ms	kakak	El.Ss
 16806	お姉さん	my	1579	my	မမ	
 16806	お姉さん	my	1579	my	အစ်မ	
 16806	お姉さん	pt	297	pt	irmã mais velha	
@@ -394,8 +394,8 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16806	お姉さん	tl	1020	tl	ate	
 16806	お姉さん	tr	1794	tr	abla	
 16806	お姉さん	ur	354	ur	آپا	
-16806	お姉さん	vi	425	vi	chị	El-Ss
-16806	お姉さん	zh	323	cmn	姐姐	El-Ss
+16806	お姉さん	vi	425	vi	chị	El.Ss
+16806	お姉さん	zh	323	cmn	姐姐	El.Ss
 16809	弟	es	991	es	hermano	Br
 16809	弟	fr	895	fr	frère	Br
 16809	弟	ja	897	ja	弟	
@@ -432,20 +432,20 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16866	叔父，伯父	km	293	km	ពូ	
 16866	叔父，伯父	ko	802	ko	삼촌	Pa-Br
 16866	叔父，伯父	lo	300	lo	ລຸງ	
-16866	叔父，伯父	mn	274	mn	ах	El-Br
+16866	叔父，伯父	mn	274	mn	ах	El.Br
 16866	叔父，伯父	mn	454	mn	авга ах	Fa-Br
 16866	叔父，伯父	mn	455	mn	нагац ах	Mo-Br
 16866	叔父，伯父	pb	1078	pt	tio	Pa-Br
 16866	叔父，伯父	pt	294	pt	tio	Pa-Br
 16866	叔父，伯父	ru	903	ru	дядя	
-16866	叔父，伯父	th	297	th	ลุง	Pa-El-Br
-16866	叔父，伯父	th	297	th	อา	Fa-Yn-Sb
+16866	叔父，伯父	th	297	th	ลุง	Pa-El.Br
+16866	叔父，伯父	th	297	th	อา	Fa-Yn.Sb
 16866	叔父，伯父	tl	1017	tl	tito	Pa-Br
 16866	叔父，伯父	tr	1791	tr	amca	Fa-Br
 16866	叔父，伯父	tr	2002	tr	dayı	Mo-Br
 16866	叔父，伯父	ur	355	ur	تایا	
-16866	叔父，伯父	vi	429	vi	chú	Fa-Yn-Br
-16866	叔父，伯父	vi	500	vi	bác	Fa-El-Br
+16866	叔父，伯父	vi	429	vi	chú	Fa-Yn.Br
+16866	叔父，伯父	vi	500	vi	bác	Fa-El.Br
 16866	叔父，伯父	zh	316	cmn	伯父	
 16866	叔父，伯父	zh	541	cmn	叔父	
 16866	叔父，伯父	zh	542	cmn	姑夫	
@@ -462,14 +462,14 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16869	叔母，伯母	ko	1009	ko	이모	Mo-Ss
 16869	叔母，伯母	ko	807	ko	고모	Fa-Ss
 16869	叔母，伯母	lo	305	lo	ປ້າ	
-16869	叔母，伯母	mn	282	mn	эгч	El-Ss
+16869	叔母，伯母	mn	282	mn	эгч	El.Ss
 16869	叔母，伯母	mn	496	mn	нагац эгч	Mo-Ss
 16869	叔母，伯母	mn	497	mn	авга эгч	Fa-Ss
 16869	叔母，伯母	pb	1082	pt	tia	Pa-Ss
 16869	叔母，伯母	pt	299	pt	tia	Pa-Ss
 16869	叔母，伯母	ru	908	ru	тётя	Pa-Ss
-16869	叔母，伯母	th	301	th	น้า	Mo-Yn-Sb
-16869	叔母，伯母	th	301	th	ป้า	Pa-El-Ss
+16869	叔母，伯母	th	301	th	น้า	Mo-Yn.Sb
+16869	叔母，伯母	th	301	th	ป้า	Pa-El.Ss
 16869	叔母，伯母	tl	1022	tl	tita	Pa-Ss
 16869	叔母，伯母	tr	1796	tr	teyze	Mo-Ss
 16869	叔母，伯母	ur	356	ur	پھوپھی	
@@ -494,9 +494,9 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	auto
 16892	いとこ	tl	1010	tl	pinsan	
 16892	いとこ	tr	1784	tr	kuzen	
 16892	いとこ	ur	357	ur	چچازاد بھائی	
-16892	いとこ	vi	489	vi	anh họ	El-Pa-Sb-So
+16892	いとこ	vi	489	vi	anh họ	Pa-Sb-El.So
 16892	いとこ	vi	490	vi	chị ho	
-16892	いとこ	vi	491	vi	em họ	Yn-Pa-Sb-Ch
+16892	いとこ	vi	491	vi	em họ	Pa-Sb-Yn.Ch
 16893	従兄弟（母方）	ar	478	ar	اِبْنُ خَالٍ	Mo-Br-So
 16896	従姉妹	ar	477	ar	بنت عم	Fa-Br-Da
 16896	従姉妹	ar	479	ar	بنت خال	Mo-Br-Da

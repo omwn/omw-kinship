@@ -19,9 +19,9 @@ def extents(words: dict[str, set[str]]) -> dict[str, frozenset]:
 def test_refined_position_with_several_words_is_alternatives() -> None:
     """Hindi cācā and tāū both fill fFB, so fFB lists alternatives (issue #2)."""
     found = extents(HINDI)
-    assert found["cācā"] == frozenset(kindiv_atoms("Fa;Yn;Br", "uncles and aunts"))
-    assert found["tāū"] == frozenset(kindiv_atoms("Fa;El;Br", "uncles and aunts"))
-    assert found["māmā"] == frozenset(kindiv_atoms("Mo;Br", "uncles and aunts"))
+    assert found["cācā"] == frozenset(kindiv_atoms("Fa;Yn:Br"))
+    assert found["tāū"] == frozenset(kindiv_atoms("Fa;El:Br"))
+    assert found["māmā"] == frozenset(kindiv_atoms("Mo;Br"))
 
 
 def test_single_word_in_refined_position_stays_broad() -> None:

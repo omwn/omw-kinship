@@ -135,7 +135,7 @@ with their base in one file or collection are silently skipped.
 ## Labels: anchor, not speaker
 
 KinDiv's `x`/`o` (Murdock's "male/female speaking") is the sex of the **anchor**,
-the person a relation is traced from: `x;El;Br` is a man's elder brother, whoever
+the person a relation is traced from: `x;El:Br` is a man's elder brother, whoever
 is speaking. The build labels these concepts "(male anchor)"/"(female anchor)"
 (`relabel` in `build.py`), so they are not confused with a restriction on the
 speaker, such as the pronoun wordnet's *men's speech* (`docs/open-questions.md`,
@@ -194,7 +194,7 @@ single root, `Rel` (*relative*):
 - **uncle and aunt by blood or marriage**: `Unc` and `Aun` (English *uncle* and
   *aunt*), with KinDiv's `Pa;Br`/`Pa;Ss` beneath them;
 - **affinal uncles and aunts**: `Pa;Ss;Hu` > `Fa;Ss;Hu`, `Mo;Ss;Hu`, and
-  `Pa;Br;Wi` > `Fa;Br;Wi` > `Fa;El;Br;Wi`, `Fa;Yn;Br;Wi`. These sit under both
+  `Pa;Br;Wi` > `Fa;Br;Wi` > `Fa;El:Br;Wi`, `Fa;Yn:Br;Wi`. These sit under both
   `Unc`/`Aun` and `InL`.
 
 English words for these come from OEWN, and for the in-law nodes OEWN lacks
@@ -278,7 +278,7 @@ the 28 White Hmong / Green Mong kin terms mapped in
 Hmong *nus*, *muam*, *tij laug* and *kwv* cover siblings and the father's
 brother's children, but not the father's sister's (Nathan White, p.c.), so they
 need no new concepts: *nus* is `o;Fa;Br;So` and *muam* `x;Fa;Br;Da` (exact);
-*tij laug* and *kwv* are male-anchored, so `El;Fa;Br;So` and `Yn;Fa;Br;So` are
+*tij laug* and *kwv* are male-anchored, so `Fa;Br;El:So` and `Fa;Br;Yn:So` are
 broader and not built. The four concepts once proposed for them
 (`../hmong-ontology/kindiv-proposals.tsv`) are withdrawn.
 

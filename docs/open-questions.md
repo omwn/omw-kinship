@@ -148,7 +148,7 @@ when linking:
 
 **Anchor sex is not speaker register.** KinDiv's `x`/`o` ("male/female
 speaking", after Murdock's *m.s.*/*w.s.*) is the sex of the *anchor* (ego), the
-person the relation is traced from: `x;El;Br` is "an elder brother of a man", and it changes what the
+person the relation is traced from: `x;El:Br` is "an elder brother of a man", and it changes what the
 word denotes (Burmese *nyi* is a man's younger brother whoever is speaking). The
 pronoun wordnet's `Men`/`Wom` ("men's/women's speech", from NTUMC) is a
 restriction on the *speaker*, a register: *boku* "I" is predominantly men's
@@ -171,7 +171,7 @@ pronouns:
   (archaic, honorific) vs *oyaji* 親父 (informal).
 
 The pronoun features `Fml`/`Infml`, `Pol`/`Hon`/`NHon` and `Men`/`Wom` would apply
-unchanged (`El;Br;Hon` for *oniisan*). No source we use records them for kin
+unchanged (`El:Br;Hon` for *oniisan*). No source we use records them for kin
 terms:
 
 - KinDiv, Kinbank and TUFS give one word per kin type, or list alternatives
@@ -192,7 +192,7 @@ terms:
 **How to add them.** OEWN's practice answers the design question: a register
 variant is a concept of its own, a hyponym of the plain kin type, as in the
 pronoun wordnet, where `1;Sg;Fml` is under `1;Sg`. Kin codes would take the
-pronoun features: `Fa;Infml` for *dad* (= `i89370`), `El;Br;Hon` for
+pronoun features: `Fa;Infml` for *dad* (= `i89370`), `El:Br;Hon` for
 *oniisan*, with `exemplifies` links to the same feature synsets. *old man*
 (`i91724`) is also `Fa;Infml`; OEWN separates it from *dad* only as a
 dysphemism, so the codes would need a value for that (a pejorative register)
@@ -239,7 +239,15 @@ quotation marks are Wiktionary's. Not confirmed there, so left out: Hebrew
 
 - *Link qualifiers*, saying how a link was made: adoptive, foster, step, half,
   milk, ritual (godparenthood). *mukoyōshi* is `Da;Hu` that is also an
-  adoptive `So`.
+  adoptive `So`. They would be modifiers like relative age, attached with `:`
+  (`Ad:Br` an adoptive brother, `St:Br` a stepbrother, `El:Ad:Br` an elder
+  adoptive brother), with a plain link meaning birth or marriage. Japanese 義-
+  needs them: 義兄 *gikei* is an elder sister's husband or a spouse's elder
+  brother (`Sp;El:Br|El:Ss;Hu`, the concept it has now) but also an older
+  stepbrother or adopted brother, and a sworn elder brother; so are 義弟, 義姉
+  and 義妹 (ja.wiktionary), and 義父, 義母 "father-, mother-in-law; stepfather,
+  -mother; adoptive father, mother". `data/attested-words.tsv` notes that their
+  senses cover only the in-law part.
 - *Link status*: former (divorce), late (death). *qiánqī* is a former `Wi`;
   *xiānfù* a late `Fa` (with politeness: question 4).
 - *Relations through a missing link*: a widow is a `Wi` whose `Hu` is dead; an

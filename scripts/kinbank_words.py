@@ -280,8 +280,8 @@ def main() -> None:
     cldf = root / "kinbank" / "cldf"
     concepts = build.read_concepts()
     by_atoms: dict[frozenset[Atom], list[str]] = defaultdict(list)
-    for code, concept in concepts.items():
-        atoms = kindiv_atoms(code, concept.subdomain)
+    for code in concepts:
+        atoms = kindiv_atoms(code)
         if atoms:
             by_atoms[frozenset(atoms)].append(code)
 

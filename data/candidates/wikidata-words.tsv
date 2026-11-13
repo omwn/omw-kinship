@@ -50,7 +50,7 @@ Akkadian	akk	Da	buntum	Wikidata L1221501-S1	lexeme
 Akkadian	akk	Da	būnatu	Wikidata L1466172-S1	lexeme	
 Akkadian	akk	Da	mārtu	Wikidata L748848-S1	lexeme	
 Akkadian	akk	Da	𒌉𒊩	Wikidata L748848-S1	lexeme	
-Akkadian	akk	El;Br	šešgallu	Wikidata L1259179-S1	lexeme	
+Akkadian	akk	El:Br	šešgallu	Wikidata L1259179-S1	lexeme	
 Akkadian	akk	Fa	abu	Wikidata L1086264-S1	lexeme	
 Akkadian	akk	Fa	addâ	Wikidata L1461315-S1	lexeme	
 Akkadian	akk	Fa	kibinû	Wikidata L1460995-S1	lexeme	
@@ -81,7 +81,7 @@ Akkadian	akk	Wi	ašubbatu	Wikidata L1379369-S2	lexeme
 Akkadian	akk	Wi	aššatu	Wikidata L1225688-S1	lexeme	
 Akkadian	akk	Wi	iššu	Wikidata L1460973-S2	lexeme	
 Akkadian	akk	Wi	marhītu	Wikidata L1506204-S2	lexeme	
-Akkadian	akk	Yn;Br	duppussû	Wikidata L1346596-S1	lexeme	
+Akkadian	akk	Yn:Br	duppussû	Wikidata L1346596-S1	lexeme	
 Amharic	am	Hu	ባል	Wikidata Q212878 label	label	
 Amharic	am	Pa	አባት	Wikidata Q7566 label	label	
 Amharic	am	Wi	ሚስት	Wikidata Q188830 label	label	
@@ -146,7 +146,7 @@ Arabic	ar	Ss	أخت	Wikidata Q595094 label	label
 Arabic	ar	Ss	أُخْت	Wikidata L1372801-S1	lexeme	
 Arabic	ar	Wi	زوجة	Wikidata Q188830 label	label	
 Arabic	ar	Wi	أَهْل	Wikidata L1372423-S3	lexeme	archaism
-Arabic	ar	Yn;Fa;Br;So	تانغدي	Wikidata Q42301900 label	label	
+Arabic	ar	Fa;Br;Yn:So	تانغدي	Wikidata Q42301900 label	label	
 Aramaic	arc	Br	ܐܰܚܘܢܳܐ	Wikidata Q10861465 label	label	
 Aramaic	arc	Ch;So	ܬܢܝܢܐ	Wikidata Q11921506 label	label	
 Aramaic	arc	Da	ܒܰܪܬ̣ܳܐ	Wikidata Q308194 label	label	
@@ -280,8 +280,8 @@ Baluchi	bal	Fa	پث	Wikidata L1226699-S1	lexeme
 Baluchi	bal	Mo;Ss	másí	Wikidata L1243865-S1	lexeme	
 Baluchi	bal	Mo;Ss	маси	Wikidata L1243865-S1	lexeme	
 Baluchi	bal	Mo;Ss	ماسی	Wikidata L1243865-S1	lexeme	
-Balinese	ban	El;Br	bli	Wikidata L581043-S1	lexeme	
-Balinese	ban	El;Br	ᬩ᭄ᬮᬶ	Wikidata L581043-S1	lexeme	
+Balinese	ban	El:Br	bli	Wikidata L581043-S1	lexeme	
+Balinese	ban	El:Br	ᬩ᭄ᬮᬶ	Wikidata L581043-S1	lexeme	
 Bavarian	bar	Mo	Muada	Wikidata Q7560 label	label	
 Bavarian	bar	Pa;Pa	Ahrei	Wikidata Q167918 label	label	
 Bavarian	bar	Pa;Sb;Ch	Gschwistarakind	Wikidata Q76666 label	label	
@@ -601,8 +601,8 @@ Cutchi-Swahili	ccl	Ss	ben	Wikidata L1320351-S1	lexeme
 Cutchi-Swahili	ccl	Ss	بین	Wikidata L1320351-S1	lexeme	
 Cutchi-Swahili	ccl	Ss	બેન	Wikidata L1320351-S1	lexeme	
 Min Dong Chinese	cdo	Fa	nòng-bâ	Wikidata Q7565 label	label	
-Min Dong Chinese	cdo	Fa;El;Br	Báh-báh	Wikidata Q6715170 label	label	
-Min Dong Chinese	cdo	Fa;Yn;Br	Gă-gă	Wikidata Q10912818 label	label	
+Min Dong Chinese	cdo	Fa;El:Br	Báh-báh	Wikidata Q6715170 label	label	
+Min Dong Chinese	cdo	Fa;Yn:Br	Gă-gă	Wikidata Q10912818 label	label	
 Min Dong Chinese	cdo	Hu	Dòng-buŏ	Wikidata Q212878 label	label	
 Min Dong Chinese	cdo	Hu;Fa	Lâu-guăng	Wikidata Q23868497 label	label	
 Min Dong Chinese	cdo	Mo	nòng-nā̤	Wikidata Q7560 label	label	
@@ -620,15 +620,15 @@ Koda	cdz	Ch;So	জাইকোড়া	Wikidata L1379039-S1	lexeme
 Koda	cdz	Ch;So	জাইকোরা	Wikidata L1379041-S1	lexeme	
 Koda	cdz	Ch;So	নাতি	Wikidata L1557815-S1	lexeme	
 Koda	cdz	Da;So	জাইকোড়া	Wikidata L1379039-S1	lexeme	
-Koda	cdz	El;Ss	দাই	Wikidata L1379322-S1	lexeme	
+Koda	cdz	El:Ss	দাই	Wikidata L1379322-S1	lexeme	
 Koda	cdz	Fa;Br;Da	দিদি/বোন	Wikidata L1379343-S1	lexeme	
 Koda	cdz	Fa;Br;So	দাদা/ভাই	Wikidata L1379327-S1	lexeme	
 Koda	cdz	Fa;Br;Wi	কুকুুমাই	Wikidata L1355900-S1	lexeme	
-Koda	cdz	Fa;El;Br	কুকু	Wikidata L1355891-S1	lexeme	
+Koda	cdz	Fa;El:Br	কুকু	Wikidata L1355891-S1	lexeme	
 Koda	cdz	Fa;Fa	আপুইঁবা	Wikidata L1348547-S1	lexeme	
 Koda	cdz	Fa;Fa	ঠাকুুর্দাদা	Wikidata L1379310-S1	lexeme	
 Koda	cdz	Fa;Mo	ঠাকুর্দিদি	Wikidata L1379309-S1	lexeme	
-Koda	cdz	Fa;Yn;Br	কাকা	Wikidata L1355779-S1	lexeme	
+Koda	cdz	Fa;Yn:Br	কাকা	Wikidata L1355779-S1	lexeme	
 Koda	cdz	Hu	ডুতামিজ্ / গঙিজ্	Wikidata L1414916-S1	lexeme	
 Koda	cdz	Hu	দুতাম্ হড়্	Wikidata L1557781-S1	lexeme	
 Koda	cdz	Mo;Pa	এঞাইবা	Wikidata L1355618-S1	lexeme	
@@ -691,13 +691,13 @@ Mandarin Chinese	cmn	Da;Da	外孙女	Wikidata Q42302432 label	label
 Mandarin Chinese	cmn	Da;Da	外孫女	Wikidata Q42302432 label	label	
 Mandarin Chinese	cmn	Da;So	外孙	Wikidata Q12183411 label	label	
 Mandarin Chinese	cmn	Da;So	外孫	Wikidata Q12183411 label	label	
-Mandarin Chinese	cmn	El;Br	兄	Wikidata Q3972282 label	label	
-Mandarin Chinese	cmn	El;Br	兄	Wikidata L663168-S1	lexeme	
-Mandarin Chinese	cmn	El;Fa;Br;Da	堂姐	Wikidata Q42301906 label	label	
-Mandarin Chinese	cmn	El;Fa;Br;So	堂哥	Wikidata Q42301043 label	label	
-Mandarin Chinese	cmn	El;Sb	兄姐	Wikidata Q28466211 label	label	
-Mandarin Chinese	cmn	El;Ss	姊	Wikidata Q10082670 label	label	
-Mandarin Chinese	cmn	El;Ss	姐姐	Wikidata Q10082670 label	label	
+Mandarin Chinese	cmn	El:Br	兄	Wikidata Q3972282 label	label	
+Mandarin Chinese	cmn	El:Br	兄	Wikidata L663168-S1	lexeme	
+Mandarin Chinese	cmn	Fa;Br;El:Da	堂姐	Wikidata Q42301906 label	label	
+Mandarin Chinese	cmn	Fa;Br;El:So	堂哥	Wikidata Q42301043 label	label	
+Mandarin Chinese	cmn	El:Sb	兄姐	Wikidata Q28466211 label	label	
+Mandarin Chinese	cmn	El:Ss	姊	Wikidata Q10082670 label	label	
+Mandarin Chinese	cmn	El:Ss	姐姐	Wikidata Q10082670 label	label	
 Mandarin Chinese	cmn	Fa	父亲	Wikidata Q7565 label	label	
 Mandarin Chinese	cmn	Fa	父親	Wikidata Q7565 label	label	
 Mandarin Chinese	cmn	Fa	严	Wikidata L652974-S2	lexeme	
@@ -710,7 +710,7 @@ Mandarin Chinese	cmn	Fa	爸爸	Wikidata L312659-S1	lexeme
 Mandarin Chinese	cmn	Fa;Br	伯（叔）父	Wikidata Q12158205 label	label	
 Mandarin Chinese	cmn	Fa;Br;So	堂兄弟	Wikidata Q25536898 label	label	
 Mandarin Chinese	cmn	Fa;Br;Wi	伯母	Wikidata Q9347053 label	label	
-Mandarin Chinese	cmn	Fa;El;Br	伯父	Wikidata Q6715170 label	label	
+Mandarin Chinese	cmn	Fa;El:Br	伯父	Wikidata Q6715170 label	label	
 Mandarin Chinese	cmn	Fa;Fa	爷爷	Wikidata Q19682162 label	label	
 Mandarin Chinese	cmn	Fa;Fa	爺爺	Wikidata Q19682162 label	label	
 Mandarin Chinese	cmn	Fa;Fa	祖父	Wikidata Q19682162 label	label	
@@ -721,7 +721,7 @@ Mandarin Chinese	cmn	Fa;Mo	嫲	Wikidata L672778-S3	lexeme	Mandarin dialects
 Mandarin Chinese	cmn	Fa;Mo	嬤	Wikidata L672778-S3	lexeme	Mandarin dialects
 Mandarin Chinese	cmn	Fa;Ss	姑媽	Wikidata Q5992509 label	label	
 Mandarin Chinese	cmn	Fa;Ss	姑母	Wikidata Q5992509 label	label	
-Mandarin Chinese	cmn	Fa;Yn;Br	叔父	Wikidata Q10912818 label	label	
+Mandarin Chinese	cmn	Fa;Yn:Br	叔父	Wikidata Q10912818 label	label	
 Mandarin Chinese	cmn	Hu	丈夫	Wikidata Q212878 label	label	
 Mandarin Chinese	cmn	Hu	夫	Wikidata L657004-S3	lexeme	
 Mandarin Chinese	cmn	Hu;Fa	家公	Wikidata Q23868497 label	label	
@@ -788,13 +788,13 @@ Mandarin Chinese	cmn	Wi;Fa	外父	Wikidata Q12160962 label	label
 Mandarin Chinese	cmn	Wi;Fa	岳父	Wikidata Q12160962 label	label	
 Mandarin Chinese	cmn	Wi;Mo	外母	Wikidata Q20094017 label	label	
 Mandarin Chinese	cmn	Wi;Mo	岳母	Wikidata Q20094017 label	label	
-Mandarin Chinese	cmn	Yn;Br	弟	Wikidata Q10291472 label	label	
-Mandarin Chinese	cmn	Yn;Br	弟	Wikidata L656252-S1	lexeme	
-Mandarin Chinese	cmn	Yn;Fa;Br;Da	堂妹	Wikidata Q42301908 label	label	
-Mandarin Chinese	cmn	Yn;Fa;Br;So	堂弟	Wikidata Q42301900 label	label	
-Mandarin Chinese	cmn	Yn;Sb	弟弟或妹妹	Wikidata Q28466210 label	label	
-Mandarin Chinese	cmn	Yn;Ss	妹	Wikidata Q10943095 label	label	
-Mandarin Chinese	cmn	Yn;Ss	妹妹	Wikidata Q10943095 label	label	
+Mandarin Chinese	cmn	Yn:Br	弟	Wikidata Q10291472 label	label	
+Mandarin Chinese	cmn	Yn:Br	弟	Wikidata L656252-S1	lexeme	
+Mandarin Chinese	cmn	Fa;Br;Yn:Da	堂妹	Wikidata Q42301908 label	label	
+Mandarin Chinese	cmn	Fa;Br;Yn:So	堂弟	Wikidata Q42301900 label	label	
+Mandarin Chinese	cmn	Yn:Sb	弟弟或妹妹	Wikidata Q28466210 label	label	
+Mandarin Chinese	cmn	Yn:Ss	妹	Wikidata Q10943095 label	label	
+Mandarin Chinese	cmn	Yn:Ss	妹妹	Wikidata Q10943095 label	label	
 Corsican	co	So	Figliu	Wikidata Q177232 label	label	
 Corsican	co	Wi	moglia	Wikidata Q188830 label	label	
 Coptic	cop	Br	ⲥⲟⲛ	Wikidata L1227193-S1	lexeme	
@@ -903,7 +903,7 @@ Kashubian	csb	Pa	starszi	Wikidata Q7566 label	label
 Kashubian	csb	Pa;Mo	starëszka	Wikidata Q9235758 label	label	
 Kashubian	csb	So	syn	Wikidata Q177232 label	label	
 Kashubian	csb	Wi	slëbnica	Wikidata Q188830 label	label	
-Kashubian	csb	Yn;Ss	sosterka	Wikidata Q10943095 label	label	
+Kashubian	csb	Yn:Ss	sosterka	Wikidata Q10943095 label	label	
 Church Slavic	cu	Br	братъ	Wikidata Q10861465 label	label	
 Church Slavic	cu	Ch;So	Вноукъ	Wikidata Q11921506 label	label	
 Church Slavic	cu	Da	дщєрь	Wikidata Q308194 label	label	
@@ -916,8 +916,8 @@ Church Slavic	cu	Sp;Fa	Тєсть	Wikidata Q13204680 label	label
 Church Slavic	cu	Ss	сєстра	Wikidata Q595094 label	label	
 Church Slavic	cu	Wi;Mo	тєща	Wikidata Q20094017 label	label	
 Chuvash	cv	Da	хĕр	Wikidata Q308194 label	label	
-Chuvash	cv	El;Br	пичче	Wikidata Q3972282 label	label	
-Chuvash	cv	El;Ss	Аппа	Wikidata Q10082670 label	label	
+Chuvash	cv	El:Br	пичче	Wikidata Q3972282 label	label	
+Chuvash	cv	El:Ss	Аппа	Wikidata Q10082670 label	label	
 Chuvash	cv	Fa	атте	Wikidata Q7565 label	label	
 Chuvash	cv	Fa;Fa	Маçак	Wikidata Q19682162 label	label	
 Chuvash	cv	Fa;Mo	асанне	Wikidata Q12433519 label	label	
@@ -934,8 +934,8 @@ Chuvash	cv	Sp;Fa	хуняçа	Wikidata Q13204680 label	label
 Chuvash	cv	Sp;Mo	хуняма	Wikidata Q723868 label	label	
 Chuvash	cv	Ss;Hu	пуçана	Wikidata Q13184390 label	label	
 Chuvash	cv	Wi	арăм	Wikidata Q188830 label	label	
-Chuvash	cv	Yn;Br	шăллăм	Wikidata Q10291472 label	label	
-Chuvash	cv	Yn;Ss	йăмăк	Wikidata Q10943095 label	label	
+Chuvash	cv	Yn:Br	шăллăм	Wikidata Q10291472 label	label	
+Chuvash	cv	Yn:Ss	йăмăк	Wikidata Q10943095 label	label	
 Welsh	cy	Br	brawd	Wikidata Q10861465 label	label	
 Welsh	cy	Ch	plentyn	Wikidata Q29514218 label	label	
 Welsh	cy	Ch;So	ŵyr	Wikidata Q11921506 label	label	
@@ -970,10 +970,10 @@ Danish	da	Da	datter	Wikidata Q308194 label	label
 Danish	da	Da	datter	Wikidata L36822-S1	lexeme	
 Danish	da	Da;Da	datterdatter	Wikidata Q42302432 label	label	
 Danish	da	Da;So	dattersøn	Wikidata Q12183411 label	label	
-Danish	da	El;Br	storebror	Wikidata Q3972282 label	label	
-Danish	da	El;Br	storebror	Wikidata L49636-S1	lexeme	
-Danish	da	El;Ss	storesøster	Wikidata Q10082670 label	label	
-Danish	da	El;Ss	storesøster	Wikidata L49639-S1	lexeme	
+Danish	da	El:Br	storebror	Wikidata Q3972282 label	label	
+Danish	da	El:Br	storebror	Wikidata L49636-S1	lexeme	
+Danish	da	El:Ss	storesøster	Wikidata Q10082670 label	label	
+Danish	da	El:Ss	storesøster	Wikidata L49639-S1	lexeme	
 Danish	da	Fa	far	Wikidata Q7565 label	label	
 Danish	da	Fa	far	Wikidata L36820-S1	lexeme	
 Danish	da	Fa;Br	farbror	Wikidata Q12158205 label	label	
@@ -1030,16 +1030,16 @@ Danish	da	Wi	hustru	Wikidata L346821-S1	lexeme
 Danish	da	Wi	kone	Wikidata L71774-S1	lexeme	
 Danish	da	Wi;Fa	svigerfar	Wikidata Q12160962 label	label	
 Danish	da	Wi;Mo	svigermoder	Wikidata Q20094017 label	label	
-Danish	da	Yn;Br	lillebror	Wikidata Q10291472 label	label	
-Danish	da	Yn;Br	lillebror	Wikidata L42058-S1	lexeme	
-Danish	da	Yn;Ss	lillesøster	Wikidata Q10943095 label	label	
-Danish	da	Yn;Ss	lillesøster	Wikidata L45870-S1	lexeme	
+Danish	da	Yn:Br	lillebror	Wikidata Q10291472 label	label	
+Danish	da	Yn:Br	lillebror	Wikidata L42058-S1	lexeme	
+Danish	da	Yn:Ss	lillesøster	Wikidata Q10943095 label	label	
+Danish	da	Yn:Ss	lillesøster	Wikidata L45870-S1	lexeme	
 Dagbani	dag	Br	tuzɔdoo	Wikidata Q10861465 label	label	
 Dagbani	dag	Br	mabidoo	Wikidata L1161175-S1	lexeme	
 Dagbani	dag	Ch	bia	Wikidata Q29514218 label	label	
 Dagbani	dag	Ch;Ch	yaaŋga	Wikidata Q3603531 label	label	
 Dagbani	dag	Ch;Ch	yaaŋga	Wikidata L1152861-S1	lexeme	
-Dagbani	dag	El;Br	biɛli	Wikidata L725547-S1	lexeme	formal register
+Dagbani	dag	El:Br	biɛli	Wikidata L725547-S1	lexeme	formal register
 Dagbani	dag	Fa	ba	Wikidata Q7565 label	label	
 Dagbani	dag	Fa	do'kurugu	Wikidata L728437-S1	lexeme	informal
 Dagbani	dag	Hu	yidana	Wikidata Q212878 label	label	
@@ -1089,7 +1089,7 @@ German	de	Fa	Papi	Wikidata L585928-S1	lexeme
 German	de	Fa	Vater	Wikidata L34042-S1	lexeme	
 German	de	Fa;Br	Vaterbruder	Wikidata L898945-S1	lexeme	
 German	de	Fa;Br	Vatersbruder	Wikidata L898946-S1	lexeme	
-German	de	Fa;El;Br	Taya	Wikidata Q6715170 label	label	
+German	de	Fa;El:Br	Taya	Wikidata Q6715170 label	label	
 German	de	Fa;Ss	Vaterschwester	Wikidata L899025-S1	lexeme	
 German	de	Fa;Ss	Vatersschwester	Wikidata L899026-S1	lexeme	
 German	de	Hu	Ehemann	Wikidata Q212878 label	label	
@@ -1188,7 +1188,7 @@ Lower Sorbian	dsb	Br	bratš	Wikidata Q10861465 label	label
 Lower Sorbian	dsb	Br	bratš	Wikidata L1227198-S1	lexeme	
 Lower Sorbian	dsb	Pa;Mo	starka	Wikidata Q9235758 label	label	
 Lower Sorbian	dsb	Ss	sotša	Wikidata Q595094 label	label	
-Lower Sorbian	dsb	Yn;Ss	sotśicka	Wikidata Q10943095 label	label	
+Lower Sorbian	dsb	Yn:Ss	sotśicka	Wikidata Q10943095 label	label	
 Central Dusun	dtp	Mo	tama	Wikidata L1338262-S1	lexeme	
 Central Dusun	dtp	Pa	molohing	Wikidata L1336568-S1	lexeme	
 Ewe	ee	Fa	fofonye	Wikidata Q7565 label	label	
@@ -1240,8 +1240,8 @@ English	en	Ch;So	grandson	Wikidata L12942-S1	lexeme
 English	en	Ch;Sp	child-in-law	Wikidata Q2096646 label	label	
 English	en	Da	daughter	Wikidata Q308194 label	label	
 English	en	Da	daughter	Wikidata L3643-S1	lexeme	
-English	en	El;Fa;Br;Da	tangjie	Wikidata Q42301906 label	label	
-English	en	El;Fa;Br;So	tangge	Wikidata Q42301043 label	label	
+English	en	Fa;Br;El:Da	tangjie	Wikidata Q42301906 label	label	
+English	en	Fa;Br;El:So	tangge	Wikidata Q42301043 label	label	
 English	en	Fa	father	Wikidata Q7565 label	label	
 English	en	Fa	dad	Wikidata L7768-S1	lexeme	
 English	en	Fa	father	Wikidata L3624-S1	lexeme	
@@ -1299,8 +1299,8 @@ English	en	Ss	sis	Wikidata L327840-S1	lexeme	informal
 English	en	Ss	sister	Wikidata L3626-S1	lexeme	
 English	en	Wi	wife	Wikidata Q188830 label	label	
 English	en	Wi	wife	Wikidata L4139-S1	lexeme	
-English	en	Yn;Fa;Br;Da	tangmei	Wikidata Q42301908 label	label	
-English	en	Yn;Fa;Br;So	tangdi	Wikidata Q42301900 label	label	
+English	en	Fa;Br;Yn:Da	tangmei	Wikidata Q42301908 label	label	
+English	en	Fa;Br;Yn:So	tangdi	Wikidata Q42301900 label	label	
 Middle English	enm	Br	brother	Wikidata L252100-S1	lexeme	
 Middle English	enm	Fa	fader	Wikidata L1014010-S1	lexeme	
 Esperanto	eo	Br	frato	Wikidata Q10861465 label	label	
@@ -1572,7 +1572,7 @@ French	fr	Fa	daron	Wikidata L656572-S1	lexeme	informal
 French	fr	Fa	géniteur	Wikidata L656574-S1	lexeme	
 French	fr	Fa	papa	Wikidata L15286-S1	lexeme	informal
 French	fr	Fa	père	Wikidata L2245-S1	lexeme	
-French	fr	Fa;El;Br	Taya	Wikidata Q6715170 label	label	
+French	fr	Fa;El:Br	Taya	Wikidata Q6715170 label	label	
 French	fr	Hu	époux	Wikidata Q212878 label	label	
 French	fr	Hu	mari	Wikidata L12341-S1	lexeme	
 French	fr	Hu	époux	Wikidata L21102-S1	lexeme	
@@ -1619,7 +1619,7 @@ French	fr	Wi;Fa	beau-père	Wikidata Q12160962 label	label
 French	fr	Wi;Mo	belle-mère	Wikidata Q20094017 label	label	
 French	fr	Wi;Mo	belle-mère	Wikidata L448899-S2	lexeme	
 French	fr	Wi;Ss	belle-sœur	Wikidata Q12150991 label	label	
-French	fr	Yn;Ss	sœurette	Wikidata L1500833-S1	lexeme	
+French	fr	Yn:Ss	sœurette	Wikidata L1500833-S1	lexeme	
 Northern Frisian	frr	Ch	jongen	Wikidata Q29514218 label	label	
 Northern Frisian	frr	Fa	aatj	Wikidata Q7565 label	label	
 Northern Frisian	frr	Mo	mam	Wikidata Q7560 label	label	
@@ -1755,8 +1755,8 @@ Hausa	ha	Ch;Da	جِىکَࢽْیَا	Wikidata L1449226-S1	lexeme
 Hausa	ha	Da	Ɗiya	Wikidata Q308194 label	label	
 Hausa	ha	Da	ɗa	Wikidata L579557-S2	lexeme	
 Hausa	ha	Da	طَا	Wikidata L579557-S2	lexeme	
-Hausa	ha	El;Ss	ya	Wikidata L1525158-S1	lexeme	
-Hausa	ha	El;Ss	یَ	Wikidata L1525158-S1	lexeme	
+Hausa	ha	El:Ss	ya	Wikidata L1525158-S1	lexeme	
+Hausa	ha	El:Ss	یَ	Wikidata L1525158-S1	lexeme	
 Hausa	ha	Fa	uba	Wikidata Q7565 label	label	
 Hausa	ha	Fa	baba	Wikidata L414226-S1	lexeme	
 Hausa	ha	Fa	uba	Wikidata L1474205-S1	lexeme	
@@ -1779,7 +1779,7 @@ Hausa	ha	Wi	mata	Wikidata Q188830 label	label
 Hausa	ha	Wi	matar aure	Wikidata L524479-S2	lexeme	
 Hausa	ha	Wi	مَاتَرْ عَوْرٜىٰ	Wikidata L524479-S2	lexeme	
 Hakka Chinese	hak	Da	Moi-é	Wikidata Q308194 label	label	
-Hakka Chinese	hak	El;Br	Â-kô	Wikidata Q3972282 label	label	
+Hakka Chinese	hak	El:Br	Â-kô	Wikidata Q3972282 label	label	
 Hakka Chinese	hak	Fa	â-pâ	Wikidata Q7565 label	label	
 Hakka Chinese	hak	Hu	Ló-kûng	Wikidata Q212878 label	label	
 Hakka Chinese	hak	Hu;Fa	Kâ-kôn	Wikidata Q23868497 label	label	
@@ -1867,11 +1867,11 @@ Hindi	hi	Da	बेटी	Wikidata Q308194 label	label
 Hindi	hi	Da;So	नाती	Wikidata Q12183411 label	label	
 Hindi	hi	Fa	पिता	Wikidata Q7565 label	label	
 Hindi	hi	Fa;Br	चाचा	Wikidata Q12158205 label	label	
-Hindi	hi	Fa;El;Br	ताऊ	Wikidata Q6715170 label	label	
+Hindi	hi	Fa;El:Br	ताऊ	Wikidata Q6715170 label	label	
 Hindi	hi	Fa;Fa	दादा	Wikidata Q19682162 label	label	
 Hindi	hi	Fa;Mo	दादी	Wikidata Q12433519 label	label	
 Hindi	hi	Fa;Ss	बूआ	Wikidata Q5992509 label	label	
-Hindi	hi	Fa;Yn;Br	चाचा	Wikidata Q10912818 label	label	
+Hindi	hi	Fa;Yn:Br	चाचा	Wikidata Q10912818 label	label	
 Hindi	hi	Hu	पति	Wikidata Q212878 label	label	
 Hindi	hi	Mo	माता	Wikidata Q7560 label	label	
 Hindi	hi	Mo;Br	मामा	Wikidata Q4120409 label	label	
@@ -1892,7 +1892,7 @@ Hindi	hi	Ss;So	भांजा	Wikidata Q12443619 label	label
 Hindi	hi	Wi	पत्नी	Wikidata Q188830 label	label	
 Hindi	hi	Wi;Br	साला	Wikidata Q23045444 label	label	
 Hindi	hi	Wi;Ss	साली	Wikidata Q12150991 label	label	
-Northern Hindko	hno	Fa;El;Br	تایا	Wikidata Q6715170 label	label	
+Northern Hindko	hno	Fa;El:Br	تایا	Wikidata Q6715170 label	label	
 Northern Hindko	hno	Ss	پہنڑ	Wikidata Q595094 label	label	
 Croatian	hr	Br	brat	Wikidata Q10861465 label	label	
 Croatian	hr	Br	brat	Wikidata L657279-S1	lexeme	
@@ -1950,8 +1950,8 @@ Hungarian	hu	Ch;Ch	unoka	Wikidata Q3603531 label	label
 Hungarian	hu	Ch;Da	lányunoka	Wikidata Q19756330 label	label	
 Hungarian	hu	Ch;So	fiúunoka	Wikidata Q11921506 label	label	
 Hungarian	hu	Da	lány	Wikidata Q308194 label	label	
-Hungarian	hu	El;Br	báty	Wikidata Q3972282 label	label	
-Hungarian	hu	El;Ss	nővér	Wikidata Q10082670 label	label	
+Hungarian	hu	El:Br	báty	Wikidata Q3972282 label	label	
+Hungarian	hu	El:Ss	nővér	Wikidata Q10082670 label	label	
 Hungarian	hu	Fa	apa	Wikidata Q7565 label	label	
 Hungarian	hu	Fa	apa	Wikidata L347682-S1	lexeme	
 Hungarian	hu	Hu	férj	Wikidata Q212878 label	label	
@@ -1968,8 +1968,8 @@ Hungarian	hu	Sp;Fa	após	Wikidata Q13204680 label	label
 Hungarian	hu	Sp;Mo	anyós	Wikidata Q723868 label	label	
 Hungarian	hu	Ss	nőtestvér	Wikidata Q595094 label	label	
 Hungarian	hu	Wi	feleség	Wikidata Q188830 label	label	
-Hungarian	hu	Yn;Br	öcs	Wikidata Q10291472 label	label	
-Hungarian	hu	Yn;Ss	húg	Wikidata Q10943095 label	label	
+Hungarian	hu	Yn:Br	öcs	Wikidata Q10291472 label	label	
+Hungarian	hu	Yn:Ss	húg	Wikidata Q10943095 label	label	
 Armenian	hy	Br	եղբայր	Wikidata Q10861465 label	label	
 Armenian	hy	Br;So	եղբորորդի	Wikidata Q23045211 label	label	
 Armenian	hy	Ch	զավակ	Wikidata Q29514218 label	label	
@@ -2188,19 +2188,19 @@ Japanese	ja	Da	むすめ	Wikidata L622606-S1	lexeme
 Japanese	ja	Da	娘	Wikidata L622606-S1	lexeme	
 Japanese	ja	Da;Da	娘の娘	Wikidata Q42302432 label	label	
 Japanese	ja	Da;So	娘の息子	Wikidata Q12183411 label	label	
-Japanese	ja	El;Br	兄	Wikidata Q3972282 label	label	
-Japanese	ja	El;Br	あに	Wikidata L348184-S1	lexeme	
-Japanese	ja	El;Br	けい	Wikidata L1414555-S1	lexeme	
-Japanese	ja	El;Br	兄	Wikidata L348184-S1	lexeme	
-Japanese	ja	El;Br	兄	Wikidata L1414555-S1	lexeme	
-Japanese	ja	El;Fa;Br;Da	堂姉	Wikidata Q42301906 label	label	
-Japanese	ja	El;Fa;Br;So	堂兄	Wikidata Q42301043 label	label	
-Japanese	ja	El;Sb	兄姉	Wikidata Q28466211 label	label	
-Japanese	ja	El;Ss	姉	Wikidata Q10082670 label	label	
-Japanese	ja	El;Ss	あね	Wikidata L348199-S1	lexeme	
-Japanese	ja	El;Ss	ねえ	Wikidata L984313-S1	lexeme	
-Japanese	ja	El;Ss	姉	Wikidata L348199-S1	lexeme	
-Japanese	ja	El;Ss	姉	Wikidata L984313-S1	lexeme	
+Japanese	ja	El:Br	兄	Wikidata Q3972282 label	label	
+Japanese	ja	El:Br	あに	Wikidata L348184-S1	lexeme	
+Japanese	ja	El:Br	けい	Wikidata L1414555-S1	lexeme	
+Japanese	ja	El:Br	兄	Wikidata L348184-S1	lexeme	
+Japanese	ja	El:Br	兄	Wikidata L1414555-S1	lexeme	
+Japanese	ja	Fa;Br;El:Da	堂姉	Wikidata Q42301906 label	label	
+Japanese	ja	Fa;Br;El:So	堂兄	Wikidata Q42301043 label	label	
+Japanese	ja	El:Sb	兄姉	Wikidata Q28466211 label	label	
+Japanese	ja	El:Ss	姉	Wikidata Q10082670 label	label	
+Japanese	ja	El:Ss	あね	Wikidata L348199-S1	lexeme	
+Japanese	ja	El:Ss	ねえ	Wikidata L984313-S1	lexeme	
+Japanese	ja	El:Ss	姉	Wikidata L348199-S1	lexeme	
+Japanese	ja	El:Ss	姉	Wikidata L984313-S1	lexeme	
 Japanese	ja	Fa	父	Wikidata Q7565 label	label	
 Japanese	ja	Fa	おとうさん	Wikidata L405866-S1	lexeme	formal register
 Japanese	ja	Fa	お父さん	Wikidata L405866-S1	lexeme	formal register
@@ -2211,17 +2211,17 @@ Japanese	ja	Fa	父	Wikidata L349088-S1	lexeme	informal
 Japanese	ja	Fa	父さん	Wikidata L1462990-S1	lexeme	
 Japanese	ja	Fa;Br	父方のおじ	Wikidata Q12158205 label	label	
 Japanese	ja	Fa;Br;Wi	父方のおじの妻	Wikidata Q9347053 label	label	
-Japanese	ja	Fa;El;Br	父方の伯父	Wikidata Q6715170 label	label	
-Japanese	ja	Fa;El;Br	おじさん	Wikidata L1073117-S1	lexeme	
-Japanese	ja	Fa;El;Br	伯父さん	Wikidata L1073117-S1	lexeme	
+Japanese	ja	Fa;El:Br	父方の伯父	Wikidata Q6715170 label	label	
+Japanese	ja	Fa;El:Br	おじさん	Wikidata L1073117-S1	lexeme	
+Japanese	ja	Fa;El:Br	伯父さん	Wikidata L1073117-S1	lexeme	
 Japanese	ja	Fa;Fa	内祖父	Wikidata Q19682162 label	label	
 Japanese	ja	Fa;Mo	内祖母	Wikidata Q12433519 label	label	
 Japanese	ja	Fa;Pa	内祖父母	Wikidata Q28017613 label	label	
 Japanese	ja	Fa;Ss	父方のおば	Wikidata Q5992509 label	label	
 Japanese	ja	Fa;Ss;So	父方のおばの息子	Wikidata Q105654167 label	label	
-Japanese	ja	Fa;Yn;Br	父方の叔父	Wikidata Q10912818 label	label	
-Japanese	ja	Fa;Yn;Br	おじ	Wikidata L626374-S1	lexeme	
-Japanese	ja	Fa;Yn;Br	叔父	Wikidata L626374-S1	lexeme	
+Japanese	ja	Fa;Yn:Br	父方の叔父	Wikidata Q10912818 label	label	
+Japanese	ja	Fa;Yn:Br	おじ	Wikidata L626374-S1	lexeme	
+Japanese	ja	Fa;Yn:Br	叔父	Wikidata L626374-S1	lexeme	
 Japanese	ja	Hu	夫	Wikidata Q212878 label	label	
 Japanese	ja	Hu	おっと	Wikidata L622610-S1	lexeme	
 Japanese	ja	Hu	おとうさん	Wikidata L405866-S2	lexeme	formal register
@@ -2318,25 +2318,25 @@ Japanese	ja	Wi;Br	義兄弟	Wikidata Q23045444 label	label
 Japanese	ja	Wi;Fa	妻の父	Wikidata Q12160962 label	label	
 Japanese	ja	Wi;Mo	妻の母	Wikidata Q20094017 label	label	
 Japanese	ja	Wi;Ss	義姉妹	Wikidata Q12150991 label	label	
-Japanese	ja	Yn;Br	弟	Wikidata Q10291472 label	label	
-Japanese	ja	Yn;Br	おと	Wikidata L1414551-S1	lexeme	
-Japanese	ja	Yn;Br	おとうと	Wikidata L348183-S1	lexeme	
-Japanese	ja	Yn;Br	弟	Wikidata L348183-S1	lexeme	
-Japanese	ja	Yn;Br	弟	Wikidata L1414551-S1	lexeme	
-Japanese	ja	Yn;Fa;Br;Da	堂妹	Wikidata Q42301908 label	label	
-Japanese	ja	Yn;Fa;Br;So	堂弟	Wikidata Q42301900 label	label	
-Japanese	ja	Yn;Sb	弟妹	Wikidata Q28466210 label	label	
-Japanese	ja	Yn;Ss	妹	Wikidata Q10943095 label	label	
-Japanese	ja	Yn;Ss	いも	Wikidata L1414548-S1	lexeme	
-Japanese	ja	Yn;Ss	いもうと	Wikidata L348198-S1	lexeme	
-Japanese	ja	Yn;Ss	いもうとご	Wikidata L626056-S1	lexeme	
-Japanese	ja	Yn;Ss	いもうとさん	Wikidata L984315-S1	lexeme	
-Japanese	ja	Yn;Ss	まい	Wikidata L1414549-S1	lexeme	
-Japanese	ja	Yn;Ss	妹	Wikidata L348198-S1	lexeme	
-Japanese	ja	Yn;Ss	妹	Wikidata L1414548-S1	lexeme	
-Japanese	ja	Yn;Ss	妹	Wikidata L1414549-S1	lexeme	
-Japanese	ja	Yn;Ss	妹さん	Wikidata L984315-S1	lexeme	
-Japanese	ja	Yn;Ss	妹御	Wikidata L626056-S1	lexeme	
+Japanese	ja	Yn:Br	弟	Wikidata Q10291472 label	label	
+Japanese	ja	Yn:Br	おと	Wikidata L1414551-S1	lexeme	
+Japanese	ja	Yn:Br	おとうと	Wikidata L348183-S1	lexeme	
+Japanese	ja	Yn:Br	弟	Wikidata L348183-S1	lexeme	
+Japanese	ja	Yn:Br	弟	Wikidata L1414551-S1	lexeme	
+Japanese	ja	Fa;Br;Yn:Da	堂妹	Wikidata Q42301908 label	label	
+Japanese	ja	Fa;Br;Yn:So	堂弟	Wikidata Q42301900 label	label	
+Japanese	ja	Yn:Sb	弟妹	Wikidata Q28466210 label	label	
+Japanese	ja	Yn:Ss	妹	Wikidata Q10943095 label	label	
+Japanese	ja	Yn:Ss	いも	Wikidata L1414548-S1	lexeme	
+Japanese	ja	Yn:Ss	いもうと	Wikidata L348198-S1	lexeme	
+Japanese	ja	Yn:Ss	いもうとご	Wikidata L626056-S1	lexeme	
+Japanese	ja	Yn:Ss	いもうとさん	Wikidata L984315-S1	lexeme	
+Japanese	ja	Yn:Ss	まい	Wikidata L1414549-S1	lexeme	
+Japanese	ja	Yn:Ss	妹	Wikidata L348198-S1	lexeme	
+Japanese	ja	Yn:Ss	妹	Wikidata L1414548-S1	lexeme	
+Japanese	ja	Yn:Ss	妹	Wikidata L1414549-S1	lexeme	
+Japanese	ja	Yn:Ss	妹さん	Wikidata L984315-S1	lexeme	
+Japanese	ja	Yn:Ss	妹御	Wikidata L626056-S1	lexeme	
 Lojban	jbo	Ch	panzi	Wikidata Q29514218 label	label	
 Lojban	jbo	Pa	rirni	Wikidata Q7566 label	label	
 Lojban	jbo	Pa;Pa	riryrirni	Wikidata Q167918 label	label	
@@ -2393,7 +2393,7 @@ Kabuverdianu	kea	Wi	mudjer	Wikidata L646248-S2	lexeme
 Khotanese	kho	Fa	päte	Wikidata L1561615-S1	lexeme	
 Kikuyu	ki	Pa	Mũciari	Wikidata Q7566 label	label	
 Karagas	kim	Da	қыс	Wikidata L1016870-S1	lexeme	
-Karagas	kim	El;Br	аъһа	Wikidata L1024124-S1	lexeme	
+Karagas	kim	El:Br	аъһа	Wikidata L1024124-S1	lexeme	
 Karagas	kim	Fa	ата	Wikidata L1018434-S1	lexeme	
 Karagas	kim	Fa	аҷа	Wikidata L1018435-S1	lexeme	
 Karagas	kim	Mo	ава	Wikidata L1018436-S1	lexeme	
@@ -2441,12 +2441,12 @@ Korean	ko	Da;So	외손자	Wikidata Q12183411 label	label
 Korean	ko	Fa	아버지	Wikidata Q7565 label	label	
 Korean	ko	Fa;Br	친삼촌	Wikidata Q12158205 label	label	
 Korean	ko	Fa;Br;Wi	숙모	Wikidata Q9347053 label	label	
-Korean	ko	Fa;El;Br	큰아버지	Wikidata Q6715170 label	label	
+Korean	ko	Fa;El:Br	큰아버지	Wikidata Q6715170 label	label	
 Korean	ko	Fa;Fa	친할아버지	Wikidata Q19682162 label	label	
 Korean	ko	Fa;Mo	친할머니	Wikidata Q12433519 label	label	
 Korean	ko	Fa;Pa	친조부모	Wikidata Q28017613 label	label	
 Korean	ko	Fa;Ss	고모	Wikidata Q5992509 label	label	
-Korean	ko	Fa;Yn;Br	작은아버지	Wikidata Q10912818 label	label	
+Korean	ko	Fa;Yn:Br	작은아버지	Wikidata Q10912818 label	label	
 Korean	ko	Hu	남편	Wikidata Q212878 label	label	
 Korean	ko	Hu;Fa	시아버지	Wikidata Q23868497 label	label	
 Korean	ko	Hu;Mo	시어머니	Wikidata Q12150903 label	label	
@@ -2473,8 +2473,8 @@ Korean	ko	Ss	자매	Wikidata Q595094 label	label
 Korean	ko	Wi	아내	Wikidata Q188830 label	label	
 Korean	ko	Wi;Fa	장인	Wikidata Q12160962 label	label	
 Korean	ko	Wi;Mo	장모	Wikidata Q20094017 label	label	
-Korean	ko	Yn;Br	남동생	Wikidata Q10291472 label	label	
-Korean	ko	Yn;Ss	여동생	Wikidata Q10943095 label	label	
+Korean	ko	Yn:Br	남동생	Wikidata Q10291472 label	label	
+Korean	ko	Yn:Ss	여동생	Wikidata Q10943095 label	label	
 Kinaray-a	krj	Sb	bugtò	Wikidata Q31184 label	label	
 Kashmiri	ks	Br	بوے	Wikidata Q10861465 label	label	
 Kashmiri	ks	Fa	مول	Wikidata Q7565 label	label	
@@ -2495,12 +2495,12 @@ Kharia Thar	ksy	Ch;So	নাতি	Wikidata L1367488-S1	lexeme
 Kharia Thar	ksy	Ch;So	নাতি ছোরা	Wikidata L1367491-S1	lexeme	
 Kharia Thar	ksy	Ch;Sp	বৌমা	Wikidata L1380386-S1	lexeme	
 Kharia Thar	ksy	Da	বিতি	Wikidata L1377654-S1	lexeme	
-Kharia Thar	ksy	El;Br	দাদাইও	Wikidata L1367421-S1	lexeme	
-Kharia Thar	ksy	El;Ss	দিদি	Wikidata L1367430-S2	lexeme	
+Kharia Thar	ksy	El:Br	দাদাইও	Wikidata L1367421-S1	lexeme	
+Kharia Thar	ksy	El:Ss	দিদি	Wikidata L1367430-S2	lexeme	
 Kharia Thar	ksy	Fa	বাপ / বাবু	Wikidata L1375211-S1	lexeme	
 Kharia Thar	ksy	Fa;Br	কাকু / কাকাই	Wikidata L1380665-S1	lexeme	
 Kharia Thar	ksy	Fa;Br;So	ভাই	Wikidata L1380392-S1	lexeme	
-Kharia Thar	ksy	Fa;El;Br	জেঠা	Wikidata L1365177-S1	lexeme	
+Kharia Thar	ksy	Fa;El:Br	জেঠা	Wikidata L1365177-S1	lexeme	
 Kharia Thar	ksy	Fa;Fa	ঠাকুর দাদু	Wikidata L1365235-S1	lexeme	
 Kharia Thar	ksy	Fa;Fa	দাদু	Wikidata L1367422-S1	lexeme	
 Kharia Thar	ksy	Fa;Mo	ঠাকুমা	Wikidata L1365234-S1	lexeme	
@@ -2533,7 +2533,7 @@ Kharia Thar	ksy	Ss;Da	ভাগণি	Wikidata L1380400-S1	lexeme
 Kharia Thar	ksy	Ss;So	ভাগণা	Wikidata L1380399-S1	lexeme	
 Kharia Thar	ksy	Wi;Br	সাল়া	Wikidata L1420622-S1	lexeme	
 Kharia Thar	ksy	Wi;Ss	সাল়ি	Wikidata L1420623-S1	lexeme	
-Kharia Thar	ksy	Yn;Br	দাদা	Wikidata L1365376-S2	lexeme	
+Kharia Thar	ksy	Yn:Br	দাদা	Wikidata L1365376-S2	lexeme	
 Kurdish	ku	Br	bira	Wikidata Q10861465 label	label	
 Kurdish	ku	Ch	zarok	Wikidata Q29514218 label	label	
 Kurdish	ku	Da	keç	Wikidata Q308194 label	label	
@@ -2568,8 +2568,8 @@ Kudmali	kyw	Ch;Sp	पूतहु	Wikidata L1369626-S1	lexeme
 Kudmali	kyw	Ch;Sp	পুতহু	Wikidata L1369626-S1	lexeme	
 Kudmali	kyw	Da	बेटि	Wikidata L1369985-S1	lexeme	
 Kudmali	kyw	Da	বেটি	Wikidata L1369985-S1	lexeme	
-Kudmali	kyw	El;Ss	दीदी	Wikidata L1368273-S1	lexeme	
-Kudmali	kyw	El;Ss	দিদি1	Wikidata L1368273-S1	lexeme	
+Kudmali	kyw	El:Ss	दीदी	Wikidata L1368273-S1	lexeme	
+Kudmali	kyw	El:Ss	দিদি1	Wikidata L1368273-S1	lexeme	
 Kudmali	kyw	Fa	बाप	Wikidata L1369915-S1	lexeme	
 Kudmali	kyw	Fa	বাপ	Wikidata L1369915-S1	lexeme	
 Kudmali	kyw	Fa;Br	बड़बाप	Wikidata L1369841-S1	lexeme	
@@ -2586,8 +2586,8 @@ Kudmali	kyw	Fa;Ss;Da	फुफुबहिन	Wikidata L1369816-S1	lexeme
 Kudmali	kyw	Fa;Ss;Da	ফুফুবহিন	Wikidata L1369816-S1	lexeme	
 Kudmali	kyw	Fa;Ss;So	फुफुभाई	Wikidata L1369817-S1	lexeme	
 Kudmali	kyw	Fa;Ss;So	ফুফুভাই	Wikidata L1369817-S1	lexeme	
-Kudmali	kyw	Fa;Yn;Br	काका	Wikidata L1355529-S1	lexeme	
-Kudmali	kyw	Fa;Yn;Br	কাকা	Wikidata L1355529-S1	lexeme	
+Kudmali	kyw	Fa;Yn:Br	काका	Wikidata L1355529-S1	lexeme	
+Kudmali	kyw	Fa;Yn:Br	কাকা	Wikidata L1355529-S1	lexeme	
 Kudmali	kyw	Hu	शामी	Wikidata L1372146-S1	lexeme	
 Kudmali	kyw	Hu	স্বামী	Wikidata L1372146-S1	lexeme	
 Kudmali	kyw	Hu;Fa	शोशुर	Wikidata L1371973-S1	lexeme	
@@ -2686,8 +2686,8 @@ Latin	la	Wi	domna	Wikidata L272342-S1	lexeme
 Latin	la	Wi;Br	devir	Wikidata Q23045444 label	label	
 Latin	la	Wi;Fa	socer	Wikidata Q12160962 label	label	
 Latin	la	Wi;Mo	socra	Wikidata Q20094017 label	label	
-Latin	la	Yn;Br	fratellus	Wikidata Q10291472 label	label	
-Latin	la	Yn;Ss	sororcula	Wikidata Q10943095 label	label	
+Latin	la	Yn:Br	fratellus	Wikidata Q10291472 label	label	
+Latin	la	Yn:Ss	sororcula	Wikidata Q10943095 label	label	
 Luxembourgish	lb	Br	Brudder	Wikidata Q10861465 label	label	
 Luxembourgish	lb	Ch	Kand	Wikidata Q29514218 label	label	
 Luxembourgish	lb	Ch;Ch	Kandskand	Wikidata Q3603531 label	label	
@@ -2723,9 +2723,9 @@ Lingua Franca Nova	lfn	Ch;Ch	nete	Wikidata Q3603531 label	label
 Lingua Franca Nova	lfn	Ch;Da	neta	Wikidata Q19756330 label	label	
 Lingua Franca Nova	lfn	Ch;So	neto	Wikidata Q11921506 label	label	
 Lingua Franca Nova	lfn	Da	fia	Wikidata Q308194 label	label	
-Lingua Franca Nova	lfn	El;Br	fraton	Wikidata Q3972282 label	label	
-Lingua Franca Nova	lfn	El;Sb	conasedon	Wikidata Q28466211 label	label	
-Lingua Franca Nova	lfn	El;Ss	soron	Wikidata Q10082670 label	label	
+Lingua Franca Nova	lfn	El:Br	fraton	Wikidata Q3972282 label	label	
+Lingua Franca Nova	lfn	El:Sb	conasedon	Wikidata Q28466211 label	label	
+Lingua Franca Nova	lfn	El:Ss	soron	Wikidata Q10082670 label	label	
 Lingua Franca Nova	lfn	Fa	padre	Wikidata Q7565 label	label	
 Lingua Franca Nova	lfn	Hu	sposo	Wikidata Q212878 label	label	
 Lingua Franca Nova	lfn	Mo	madre	Wikidata Q7560 label	label	
@@ -2740,9 +2740,9 @@ Lingua Franca Nova	lfn	So	fio	Wikidata Q177232 label	label
 Lingua Franca Nova	lfn	Sp	spos	Wikidata Q1196129 label	label	
 Lingua Franca Nova	lfn	Ss	sore	Wikidata Q595094 label	label	
 Lingua Franca Nova	lfn	Wi	sposa	Wikidata Q188830 label	label	
-Lingua Franca Nova	lfn	Yn;Br	frateta	Wikidata Q10291472 label	label	
-Lingua Franca Nova	lfn	Yn;Sb	conasedeta	Wikidata Q28466210 label	label	
-Lingua Franca Nova	lfn	Yn;Ss	soreta	Wikidata Q10943095 label	label	
+Lingua Franca Nova	lfn	Yn:Br	frateta	Wikidata Q10291472 label	label	
+Lingua Franca Nova	lfn	Yn:Sb	conasedeta	Wikidata Q28466210 label	label	
+Lingua Franca Nova	lfn	Yn:Ss	soreta	Wikidata Q10943095 label	label	
 Ganda	lg	Fa	taata	Wikidata Q7565 label	label	
 Ganda	lg	Mo	maama	Wikidata Q7560 label	label	
 Ganda	lg	Ss	mwanyinaze	Wikidata Q595094 label	label	
@@ -2848,7 +2848,7 @@ Masana	mcn	Mo;Ss	màymántà	Wikidata Q6035384 label	label
 Masana	mcn	Pa	sùmóy	Wikidata Q7566 label	label	
 Masana	mcn	So	ŋòrnà	Wikidata Q177232 label	label	
 Masana	mcn	Wi	cìttà	Wikidata Q188830 label	label	
-Masana	mcn	Yn;Ss	tùpútà	Wikidata Q10943095 label	label	
+Masana	mcn	Yn:Ss	tùpútà	Wikidata Q10943095 label	label	
 Moksha	mdf	Fa	аляй	Wikidata Q7565 label	label	
 Malagasy	mg	Ch	zanaka	Wikidata Q29514218 label	label	
 Malagasy	mg	Mo	reny	Wikidata Q7560 label	label	
@@ -2875,10 +2875,10 @@ Mahali	mjx	Br	ভাই	Wikidata L1376202-S1	lexeme
 Mahali	mjx	Ch;Da	গরম কুরি	Wikidata L1371630-S1	lexeme	
 Mahali	mjx	Ch;So	গরম কোরা	Wikidata L1371631-S1	lexeme	
 Mahali	mjx	Da	হপোনেরা	Wikidata L1370199-S1	lexeme	
-Mahali	mjx	El;Br	দাদা	Wikidata L1369848-S1	lexeme	
-Mahali	mjx	El;Ss	দাইতিং	Wikidata L1369828-S1	lexeme	
+Mahali	mjx	El:Br	দাদা	Wikidata L1369848-S1	lexeme	
+Mahali	mjx	El:Ss	দাইতিং	Wikidata L1369828-S1	lexeme	
 Mahali	mjx	Fa	আপুই	Wikidata L1355974-S1	lexeme	
-Mahali	mjx	Fa;El;Br	গুঙ্গুবা	Wikidata L1375095-S1	lexeme	
+Mahali	mjx	Fa;El:Br	গুঙ্গুবা	Wikidata L1375095-S1	lexeme	
 Mahali	mjx	Fa;Fa	গোর্ম হারাম্	Wikidata L1375143-S1	lexeme	
 Mahali	mjx	Fa;Mo	গোর্ম বুর্হি	Wikidata L1375138-S1	lexeme	
 Mahali	mjx	Fa;Ss	ঝি	Wikidata L1365274-S1	lexeme	
@@ -2900,8 +2900,8 @@ Mahali	mjx	Ss	বন্	Wikidata L1375491-S1	lexeme
 Mahali	mjx	Wi	বাহু	Wikidata L1375634-S1	lexeme	
 Mahali	mjx	Wi;Mo	হইআরি হারাম্	Wikidata L1370184-S1	lexeme	
 Mahali	mjx	Wi;Ss	সান্ঘাত্	Wikidata L1370425-S1	lexeme	
-Mahali	mjx	Yn;Ss	বোকোত্ কুড়়ি	Wikidata L1375775-S1	lexeme	
-Mahali	mjx	Yn;Ss	মিস্রাইং	Wikidata L1371048-S1	lexeme	
+Mahali	mjx	Yn:Ss	বোকোত্ কুড়়ি	Wikidata L1375775-S1	lexeme	
+Mahali	mjx	Yn:Ss	মিস্রাইং	Wikidata L1371048-S1	lexeme	
 Macedonian	mk	Br	брат	Wikidata Q10861465 label	label	
 Macedonian	mk	Br;Da	братиница	Wikidata Q23045278 label	label	
 Macedonian	mk	Br;So	братанец	Wikidata Q23045211 label	label	
@@ -2936,13 +2936,13 @@ Malayalam	ml	Ch;Ch	പേരക്കുട്ടി	Wikidata Q3603531 label	lab
 Malayalam	ml	Da	പുത്രി	Wikidata Q308194 label	label	
 Malayalam	ml	Da	പുത്രി	Wikidata L2434-S1	lexeme	
 Malayalam	ml	Da	മകൾ	Wikidata L2435-S1	lexeme	
-Malayalam	ml	El;Br	ചേട്ടൻ	Wikidata Q3972282 label	label	
-Malayalam	ml	El;Br	അണ്ണൻ	Wikidata L1156916-S1	lexeme	
-Malayalam	ml	El;Br	ചേട്ടൻ	Wikidata L1136066-S1	lexeme	
-Malayalam	ml	El;Br	ജ്യേഷ്ഠൻ	Wikidata L503673-S1	lexeme	
-Malayalam	ml	El;Ss	ചേച്ചി	Wikidata Q10082670 label	label	
-Malayalam	ml	El;Ss	അക്ക	Wikidata L1156914-S1	lexeme	
-Malayalam	ml	El;Ss	ചേച്ചി	Wikidata L529552-S1	lexeme	
+Malayalam	ml	El:Br	ചേട്ടൻ	Wikidata Q3972282 label	label	
+Malayalam	ml	El:Br	അണ്ണൻ	Wikidata L1156916-S1	lexeme	
+Malayalam	ml	El:Br	ചേട്ടൻ	Wikidata L1136066-S1	lexeme	
+Malayalam	ml	El:Br	ജ്യേഷ്ഠൻ	Wikidata L503673-S1	lexeme	
+Malayalam	ml	El:Ss	ചേച്ചി	Wikidata Q10082670 label	label	
+Malayalam	ml	El:Ss	അക്ക	Wikidata L1156914-S1	lexeme	
+Malayalam	ml	El:Ss	ചേച്ചി	Wikidata L529552-S1	lexeme	
 Malayalam	ml	Fa	അച്ഛൻ	Wikidata Q7565 label	label	
 Malayalam	ml	Fa	اَچًّنْ	Wikidata L486-S1	lexeme	
 Malayalam	ml	Fa	അച്ഛൻ	Wikidata L486-S1	lexeme	
@@ -2967,30 +2967,30 @@ Malayalam	ml	Ss	സഹോദരി	Wikidata L489-S1	lexeme
 Malayalam	ml	Wi	ഭാര്യ	Wikidata Q188830 label	label	
 Malayalam	ml	Wi	നാരി	Wikidata L541938-S2	lexeme	
 Malayalam	ml	Wi	ഭാര്യ	Wikidata L2575-S1	lexeme	
-Malayalam	ml	Yn;Br	അനുജൻ	Wikidata Q10291472 label	label	
-Malayalam	ml	Yn;Br	അനിയൻ	Wikidata L1136068-S1	lexeme	
-Malayalam	ml	Yn;Br	അനുജൻ	Wikidata L503642-S1	lexeme	
-Malayalam	ml	Yn;Ss	അനുജത്തി	Wikidata Q10943095 label	label	
-Mongolian	mn	El;Br	Ах	Wikidata Q3972282 label	label	
+Malayalam	ml	Yn:Br	അനുജൻ	Wikidata Q10291472 label	label	
+Malayalam	ml	Yn:Br	അനിയൻ	Wikidata L1136068-S1	lexeme	
+Malayalam	ml	Yn:Br	അനുജൻ	Wikidata L503642-S1	lexeme	
+Malayalam	ml	Yn:Ss	അനുജത്തി	Wikidata Q10943095 label	label	
+Mongolian	mn	El:Br	Ах	Wikidata Q3972282 label	label	
 Mongolian	mn	Fa	эцэг	Wikidata Q7565 label	label	
 Mongolian	mn	Pa	эцэг	Wikidata Q7566 label	label	
 Manchu	mnc	Br;Wi	ᡠᡥᡝᠨ	Wikidata Q13184281 label	label	
 Manchu	mnc	Ch	ᠵᡠᡳ	Wikidata Q29514218 label	label	
 Manchu	mnc	Ch;Ch	ᠣᠮᠣᠯᠣ	Wikidata Q3603531 label	label	
 Manchu	mnc	Ch;So	ᠣᠮᠣᠯᠣ	Wikidata L732635-S1	lexeme	
-Manchu	mnc	El;Br	ᠠᡥᡡᠨ	Wikidata Q3972282 label	label	
-Manchu	mnc	El;Br	ᠠᡤᡝ	Wikidata L727431-S1	lexeme	
-Manchu	mnc	El;Br	ᠠᡥᡡᠨ	Wikidata L741522-S1	lexeme	
-Manchu	mnc	El;Ss	ᡝᠶᡠᠨ	Wikidata Q10082670 label	label	
-Manchu	mnc	El;Ss	ᡝᠶᡠᠨ	Wikidata L1234386-S1	lexeme	
-Manchu	mnc	El;Ss	ᡤᡝᡤᡝ	Wikidata L1244316-S1	lexeme	
+Manchu	mnc	El:Br	ᠠᡥᡡᠨ	Wikidata Q3972282 label	label	
+Manchu	mnc	El:Br	ᠠᡤᡝ	Wikidata L727431-S1	lexeme	
+Manchu	mnc	El:Br	ᠠᡥᡡᠨ	Wikidata L741522-S1	lexeme	
+Manchu	mnc	El:Ss	ᡝᠶᡠᠨ	Wikidata Q10082670 label	label	
+Manchu	mnc	El:Ss	ᡝᠶᡠᠨ	Wikidata L1234386-S1	lexeme	
+Manchu	mnc	El:Ss	ᡤᡝᡤᡝ	Wikidata L1244316-S1	lexeme	
 Manchu	mnc	Fa	ᠠᠮᠠ	Wikidata Q7565 label	label	
 Manchu	mnc	Fa	ᠠᠮᠠ	Wikidata L727427-S1	lexeme	
 Manchu	mnc	Fa	ᠵᡝᠵᡝ	Wikidata L737037-S1	lexeme	
 Manchu	mnc	Fa;Fa	ᠪᠠᠨᡳᠨ ᠮᠠᡶᠠ	Wikidata L1244312-S1	lexeme	
 Manchu	mnc	Fa;Mo	ᠪᠠᠨᡳᠨ ᠮᠠᠮᠠ	Wikidata L1244313-S1	lexeme	
-Manchu	mnc	Fa;Yn;Br	ᡝᠰᡥᡝᠨ	Wikidata L1244315-S1	lexeme	
-Manchu	mnc	Fa;Yn;Br	ᡝᠴᡳᡴᡝ	Wikidata L1244314-S1	lexeme	
+Manchu	mnc	Fa;Yn:Br	ᡝᠰᡥᡝᠨ	Wikidata L1244315-S1	lexeme	
+Manchu	mnc	Fa;Yn:Br	ᡝᠴᡳᡴᡝ	Wikidata L1244314-S1	lexeme	
 Manchu	mnc	Hu	ᡝᡳᡤᡝᠨ	Wikidata Q212878 label	label	
 Manchu	mnc	Hu	ᡝᡳᡤᡝᠨ	Wikidata L741527-S1	lexeme	
 Manchu	mnc	Hu;Br	ᡝᡧᡝ	Wikidata Q23045425 label	label	
@@ -3017,10 +3017,10 @@ Manchu	mnc	Wi;Fa	ᠠᠮᠠᡥᠠ	Wikidata Q12160962 label	label
 Manchu	mnc	Wi;Fa	ᠠᠮᡥᠠ	Wikidata L732847-S1	lexeme	
 Manchu	mnc	Wi;Mo	ᡝᠮᡥᡝ	Wikidata Q20094017 label	label	
 Manchu	mnc	Wi;Mo	ᡝᠮᡥᡝ	Wikidata L732848-S1	lexeme	
-Manchu	mnc	Yn;Br	ᡩᡝᠣ	Wikidata Q10291472 label	label	
-Manchu	mnc	Yn;Br	ᡩᡝᠣ	Wikidata L727432-S1	lexeme	
-Manchu	mnc	Yn;Ss	ᠨᠣᠨ	Wikidata Q10943095 label	label	
-Manchu	mnc	Yn;Ss	ᠨᠣᠨ	Wikidata L734424-S1	lexeme	
+Manchu	mnc	Yn:Br	ᡩᡝᠣ	Wikidata Q10291472 label	label	
+Manchu	mnc	Yn:Br	ᡩᡝᠣ	Wikidata L727432-S1	lexeme	
+Manchu	mnc	Yn:Ss	ᠨᠣᠨ	Wikidata Q10943095 label	label	
+Manchu	mnc	Yn:Ss	ᠨᠣᠨ	Wikidata L734424-S1	lexeme	
 Manipuri	mni	Mo	ꯃꯄꯤ	Wikidata Q7560 label	label	
 Mon	mnw	Da	ကောန်ဝုတ်	Wikidata L1568037-S1	lexeme	
 Mossi	mos	Fa	ba	Wikidata Q7565 label	label	
@@ -3054,13 +3054,13 @@ Malay	ms	Ch;Ch	cucu	Wikidata L1410826-S1	lexeme
 Malay	ms	Ch;Ch	چوچو	Wikidata L1410826-S1	lexeme	
 Malay	ms	Ch;Sp	menantu	Wikidata Q2096646 label	label	
 Malay	ms	Ch;Sp	مننتو	Wikidata Q2096646 label	label	
-Malay	ms	El;Br	abang	Wikidata Q3972282 label	label	
-Malay	ms	El;Br	ابڠ	Wikidata Q3972282 label	label	
-Malay	ms	El;Br	abang	Wikidata L688367-S1	lexeme	
-Malay	ms	El;Br	ابڠ	Wikidata L688367-S1	lexeme	
-Malay	ms	El;Ss	kakak	Wikidata Q10082670 label	label	
-Malay	ms	El;Ss	kakak	Wikidata L1562765-S1	lexeme	
-Malay	ms	El;Ss	کاکق	Wikidata L1562765-S1	lexeme	
+Malay	ms	El:Br	abang	Wikidata Q3972282 label	label	
+Malay	ms	El:Br	ابڠ	Wikidata Q3972282 label	label	
+Malay	ms	El:Br	abang	Wikidata L688367-S1	lexeme	
+Malay	ms	El:Br	ابڠ	Wikidata L688367-S1	lexeme	
+Malay	ms	El:Ss	kakak	Wikidata Q10082670 label	label	
+Malay	ms	El:Ss	kakak	Wikidata L1562765-S1	lexeme	
+Malay	ms	El:Ss	کاکق	Wikidata L1562765-S1	lexeme	
 Malay	ms	Fa	ayah	Wikidata Q7565 label	label	
 Malay	ms	Fa	abah	Wikidata L1357697-S1	lexeme	
 Malay	ms	Fa	ayah	Wikidata L475588-S1	lexeme	
@@ -3100,10 +3100,10 @@ Malay	ms	Wi	isteri	Wikidata L473701-S1	lexeme
 Malay	ms	Wi	istĕri	Wikidata L473701-S1	lexeme	
 Malay	ms	Wi	ايستري	Wikidata L473701-S1	lexeme	
 Malay	ms	Wi	بيني	Wikidata L473779-S1	lexeme	
-Malay	ms	Yn;Sb	adik	Wikidata Q28466210 label	label	
-Malay	ms	Yn;Sb	اديق	Wikidata Q28466210 label	label	
-Malay	ms	Yn;Sb	adik	Wikidata L617859-S1	lexeme	
-Malay	ms	Yn;Sb	اديق	Wikidata L617859-S1	lexeme	
+Malay	ms	Yn:Sb	adik	Wikidata Q28466210 label	label	
+Malay	ms	Yn:Sb	اديق	Wikidata Q28466210 label	label	
+Malay	ms	Yn:Sb	adik	Wikidata L617859-S1	lexeme	
+Malay	ms	Yn:Sb	اديق	Wikidata L617859-S1	lexeme	
 Maltese	mt	Br	ħu	Wikidata Q10861465 label	label	
 Maltese	mt	Ch	wild	Wikidata Q29514218 label	label	
 Maltese	mt	Ch;So	neputi	Wikidata Q11921506 label	label	
@@ -3211,21 +3211,21 @@ Min Nan Chinese	nan	Da	lú-lî	Wikidata L1116915-S1	lexeme
 Min Nan Chinese	nan	Da	tsa-bóo-kiánn	Wikidata L1116914-S1	lexeme	
 Min Nan Chinese	nan	Da	女兒	Wikidata L1116915-S1	lexeme	
 Min Nan Chinese	nan	Da	查某囝	Wikidata L1116914-S1	lexeme	
-Min Nan Chinese	nan	El;Br	Hiaⁿ	Wikidata Q3972282 label	label	
+Min Nan Chinese	nan	El:Br	Hiaⁿ	Wikidata Q3972282 label	label	
 Min Nan Chinese	nan	Fa	lāu-pē	Wikidata Q7565 label	label	
 Min Nan Chinese	nan	Fa;Br;Wi	a-ḿ	Wikidata L312804-S1	lexeme	
 Min Nan Chinese	nan	Fa;Br;Wi	阿姆	Wikidata L312804-S1	lexeme	
-Min Nan Chinese	nan	Fa;El;Br	a-peh	Wikidata L306262-S1	lexeme	
-Min Nan Chinese	nan	Fa;El;Br	阿伯	Wikidata L306262-S1	lexeme	
+Min Nan Chinese	nan	Fa;El:Br	a-peh	Wikidata L306262-S1	lexeme	
+Min Nan Chinese	nan	Fa;El:Br	阿伯	Wikidata L306262-S1	lexeme	
 Min Nan Chinese	nan	Fa;Fa	a-kong	Wikidata Q19682162 label	label	
 Min Nan Chinese	nan	Fa;Mo	a-má	Wikidata Q12433519 label	label	
 Min Nan Chinese	nan	Fa;Mo	a-má	Wikidata L306106-S1	lexeme	
 Min Nan Chinese	nan	Fa;Mo	阿媽	Wikidata L306106-S1	lexeme	
 Min Nan Chinese	nan	Fa;Ss	A-ko͘	Wikidata Q5992509 label	label	
-Min Nan Chinese	nan	Fa;Yn;Br	A-chek	Wikidata Q10912818 label	label	
-Min Nan Chinese	nan	Fa;Yn;Br	a-chek	Wikidata L306263-S1	lexeme	
-Min Nan Chinese	nan	Fa;Yn;Br	a-tsik	Wikidata L306263-S1	lexeme	
-Min Nan Chinese	nan	Fa;Yn;Br	阿叔	Wikidata L306263-S1	lexeme	
+Min Nan Chinese	nan	Fa;Yn:Br	A-chek	Wikidata Q10912818 label	label	
+Min Nan Chinese	nan	Fa;Yn:Br	a-chek	Wikidata L306263-S1	lexeme	
+Min Nan Chinese	nan	Fa;Yn:Br	a-tsik	Wikidata L306263-S1	lexeme	
+Min Nan Chinese	nan	Fa;Yn:Br	阿叔	Wikidata L306263-S1	lexeme	
 Min Nan Chinese	nan	Hu	Ang	Wikidata Q212878 label	label	
 Min Nan Chinese	nan	Hu	ang-sài	Wikidata L306354-S1	lexeme	
 Min Nan Chinese	nan	Hu	翁婿	Wikidata L306354-S1	lexeme	
@@ -3281,8 +3281,8 @@ Norwegian Bokmål	nb	Da;Da	datterdatter	Wikidata Q42302432 label	label
 Norwegian Bokmål	nb	Da;Da	datterdatter	Wikidata L717509-S1	lexeme	
 Norwegian Bokmål	nb	Da;So	dattersønn	Wikidata Q12183411 label	label	
 Norwegian Bokmål	nb	Da;So	dattersønn	Wikidata L1196511-S1	lexeme	
-Norwegian Bokmål	nb	El;Br	storebror	Wikidata L594807-S1	lexeme	
-Norwegian Bokmål	nb	El;Ss	storesøster	Wikidata L594808-S1	lexeme	
+Norwegian Bokmål	nb	El:Br	storebror	Wikidata L594807-S1	lexeme	
+Norwegian Bokmål	nb	El:Ss	storesøster	Wikidata L594808-S1	lexeme	
 Norwegian Bokmål	nb	Fa	far	Wikidata Q7565 label	label	
 Norwegian Bokmål	nb	Fa	fader	Wikidata L479500-S2	lexeme	
 Norwegian Bokmål	nb	Fa	far	Wikidata L304056-S1	lexeme	
@@ -3362,8 +3362,8 @@ Norwegian Bokmål	nb	Wi	hustru	Wikidata L494175-S1	lexeme
 Norwegian Bokmål	nb	Wi	kone	Wikidata L470633-S1	lexeme	
 Norwegian Bokmål	nb	Wi;Fa	svigerfar	Wikidata Q12160962 label	label	
 Norwegian Bokmål	nb	Wi;Mo	svigermor	Wikidata Q20094017 label	label	
-Norwegian Bokmål	nb	Yn;Br	lillebror	Wikidata L594809-S1	lexeme	
-Norwegian Bokmål	nb	Yn;Ss	lillesøster	Wikidata L594810-S1	lexeme	
+Norwegian Bokmål	nb	Yn:Br	lillebror	Wikidata L594809-S1	lexeme	
+Norwegian Bokmål	nb	Yn:Ss	lillesøster	Wikidata L594810-S1	lexeme	
 Low German	nds	Br	Broder	Wikidata Q10861465 label	label	
 Low German	nds	Br;Da	Broderdochter	Wikidata Q23045278 label	label	
 Low German	nds	Br;So	Brodersöhn	Wikidata Q23045211 label	label	
@@ -3389,7 +3389,7 @@ Nepali	ne	Ch	बच्चा	Wikidata Q29514218 label	label
 Nepali	ne	Ch;Ch	नाति	Wikidata Q3603531 label	label	
 Nepali	ne	Ch;Da	नातिनी	Wikidata Q19756330 label	label	
 Nepali	ne	Da	छोरी	Wikidata Q308194 label	label	
-Nepali	ne	El;Br	दाजु	Wikidata Q3972282 label	label	
+Nepali	ne	El:Br	दाजु	Wikidata Q3972282 label	label	
 Nepali	ne	Fa	बुवा	Wikidata Q7565 label	label	
 Nepali	ne	Fa;Br	ठुलाबा	Wikidata Q12158205 label	label	
 Nepali	ne	Hu	लोग्ने	Wikidata Q212878 label	label	
@@ -3411,7 +3411,7 @@ Nepali	ne	Ss	बहिनी	Wikidata Q595094 label	label
 Nepali	ne	Ss;Hu	भिनाजु	Wikidata Q13184390 label	label	
 Nepali	ne	Wi	पत्नी	Wikidata Q188830 label	label	
 Nepali	ne	Wi;Ss	साली	Wikidata Q12150991 label	label	
-Nepali	ne	Yn;Ss	बहिनी	Wikidata Q10943095 label	label	
+Nepali	ne	Yn:Ss	बहिनी	Wikidata Q10943095 label	label	
 Newari	new	Br	भ्राता	Wikidata Q10861465 label	label	
 Newari	new	Da	म्ह्याय्	Wikidata Q308194 label	label	
 Newari	new	Fa	अबु	Wikidata Q7565 label	label	
@@ -3468,9 +3468,9 @@ Norwegian Nynorsk	nn	Da	dotter	Wikidata Q308194 label	label
 Norwegian Nynorsk	nn	Da	dotter	Wikidata L967-S1	lexeme	
 Norwegian Nynorsk	nn	Da;Da	dotterdotter	Wikidata L40296-S1	lexeme	
 Norwegian Nynorsk	nn	Da;So	dotterson	Wikidata L1196512-S1	lexeme	
-Norwegian Nynorsk	nn	El;Br	storebror	Wikidata L39791-S1	lexeme	
-Norwegian Nynorsk	nn	El;Ss	storesyster	Wikidata L39792-S1	lexeme	
-Norwegian Nynorsk	nn	El;Ss	storesøster	Wikidata L750475-S1	lexeme	
+Norwegian Nynorsk	nn	El:Br	storebror	Wikidata L39791-S1	lexeme	
+Norwegian Nynorsk	nn	El:Ss	storesyster	Wikidata L39792-S1	lexeme	
+Norwegian Nynorsk	nn	El:Ss	storesøster	Wikidata L750475-S1	lexeme	
 Norwegian Nynorsk	nn	Fa	far	Wikidata Q7565 label	label	
 Norwegian Nynorsk	nn	Fa	far	Wikidata L740668-S1	lexeme	
 Norwegian Nynorsk	nn	Fa	pappa	Wikidata L743278-S1	lexeme	
@@ -3516,21 +3516,21 @@ Norwegian Nynorsk	nn	Ss	syster	Wikidata Q595094 label	label
 Norwegian Nynorsk	nn	Wi	hustru	Wikidata Q188830 label	label	
 Norwegian Nynorsk	nn	Wi	ektehustru	Wikidata L1317587-S1	lexeme	
 Norwegian Nynorsk	nn	Wi	kone	Wikidata L1317585-S1	lexeme	
-Norwegian Nynorsk	nn	Yn;Br	litlebror	Wikidata L39795-S1	lexeme	
-Norwegian Nynorsk	nn	Yn;Br	veslebror	Wikidata L39787-S1	lexeme	
-Norwegian Nynorsk	nn	Yn;Ss	litlesyster	Wikidata L39794-S1	lexeme	
-Norwegian Nynorsk	nn	Yn;Ss	litlesøster	Wikidata L781942-S1	lexeme	
-Norwegian Nynorsk	nn	Yn;Ss	veslesyster	Wikidata L39788-S1	lexeme	
-Norwegian Nynorsk	nn	Yn;Ss	veslesøster	Wikidata L749356-S1	lexeme	
+Norwegian Nynorsk	nn	Yn:Br	litlebror	Wikidata L39795-S1	lexeme	
+Norwegian Nynorsk	nn	Yn:Br	veslebror	Wikidata L39787-S1	lexeme	
+Norwegian Nynorsk	nn	Yn:Ss	litlesyster	Wikidata L39794-S1	lexeme	
+Norwegian Nynorsk	nn	Yn:Ss	litlesøster	Wikidata L781942-S1	lexeme	
+Norwegian Nynorsk	nn	Yn:Ss	veslesyster	Wikidata L39788-S1	lexeme	
+Norwegian Nynorsk	nn	Yn:Ss	veslesøster	Wikidata L749356-S1	lexeme	
 Northern Thai	nod	Br	ᨻᩦ᩵ᩉᩁᩨᩋᨶᩬ᩶ᨦᨩᩣ᩠ᨿ	Wikidata Q10861465 label	label	
-Northern Thai	nod	El;Br	ᨻᩦ᩵ᨩᩣ᩠ᨿ	Wikidata Q3972282 label	label	
-Northern Thai	nod	El;Ss	ᨻᩦ᩵ᩈᩣ᩠ᩅ	Wikidata Q10082670 label	label	
+Northern Thai	nod	El:Br	ᨻᩦ᩵ᨩᩣ᩠ᨿ	Wikidata Q3972282 label	label	
+Northern Thai	nod	El:Ss	ᨻᩦ᩵ᩈᩣ᩠ᩅ	Wikidata Q10082670 label	label	
 Northern Thai	nod	Fa	ᨻᩬᩴ᩵	Wikidata Q7565 label	label	
 Northern Thai	nod	Mo	ᨾᩯ᩵	Wikidata Q7560 label	label	
 Northern Thai	nod	Pa;Mo	ᨿ᩵ᩣ	Wikidata Q9235758 label	label	
 Northern Thai	nod	Ss	ᨻᩦ᩵ᩉᩁᩨᩋᨶᩬ᩶ᨦᩈᩣ᩠ᩅ	Wikidata Q595094 label	label	
-Northern Thai	nod	Yn;Br	ᨶᩬ᩶ᨦᨩᩣ᩠ᨿ	Wikidata Q10291472 label	label	
-Northern Thai	nod	Yn;Ss	ᨶᩬ᩶ᨦᩈᩣ᩠ᩅ	Wikidata Q10943095 label	label	
+Northern Thai	nod	Yn:Br	ᨶᩬ᩶ᨦᨩᩣ᩠ᨿ	Wikidata Q10291472 label	label	
+Northern Thai	nod	Yn:Ss	ᨶᩬ᩶ᨦᩈᩣ᩠ᩅ	Wikidata Q10943095 label	label	
 Novial	nov	Br	fratro	Wikidata Q10861465 label	label	
 Novial	nov	Da	filia	Wikidata Q308194 label	label	
 Novial	nov	Da	filia	Wikidata L1371328-S1	lexeme	
@@ -3546,7 +3546,7 @@ South Ndebele	nr	Pa	ababelethi	Wikidata Q7566 label	label
 Narom	nrm	Fa	péthe	Wikidata Q7565 label	label	
 Narom	nrm	Mo	mère	Wikidata Q7560 label	label	
 Navajo	nv	Mo;Fa	acheii	Wikidata Q4994791 label	label	
-Navajo	nv	Yn;Ss	adeezhí	Wikidata Q10943095 label	label	
+Navajo	nv	Yn:Ss	adeezhí	Wikidata Q10943095 label	label	
 Nyankole	nyn	Hu	owami	Wikidata Q212878 label	label	
 Occitan	oc	Br	fraire	Wikidata Q10861465 label	label	
 Occitan	oc	Ch;Da	felena	Wikidata Q19756330 label	label	
@@ -3611,14 +3611,14 @@ Punjabi	pa	Da	ਕਾਕਾ	Wikidata L1037576-S3	lexeme
 Punjabi	pa	Da	ਦੁਖ਼ਤਰ	Wikidata L1011423-S1	lexeme	
 Punjabi	pa	Da	ਧੀ	Wikidata L1115709-S1	lexeme	
 Punjabi	pa	Da	ਬੇਟਾ	Wikidata L1225927-S4	lexeme	
-Punjabi	pa	El;Br	بھائی	Wikidata L679438-S5	lexeme	
-Punjabi	pa	El;Br	بھائیا	Wikidata L686289-S2	lexeme	
-Punjabi	pa	El;Br	ਭਾਈ	Wikidata L679438-S5	lexeme	
-Punjabi	pa	El;Br	ਭਾਈਆ	Wikidata L686289-S2	lexeme	
-Punjabi	pa	El;Ss	باجی	Wikidata L988674-S1	lexeme	
-Punjabi	pa	El;Ss	بے بے	Wikidata L686349-S1	lexeme	
-Punjabi	pa	El;Ss	ਬਾਜੀ	Wikidata L988674-S1	lexeme	
-Punjabi	pa	El;Ss	ਬੇਬੇ	Wikidata L686349-S1	lexeme	
+Punjabi	pa	El:Br	بھائی	Wikidata L679438-S5	lexeme	
+Punjabi	pa	El:Br	بھائیا	Wikidata L686289-S2	lexeme	
+Punjabi	pa	El:Br	ਭਾਈ	Wikidata L679438-S5	lexeme	
+Punjabi	pa	El:Br	ਭਾਈਆ	Wikidata L686289-S2	lexeme	
+Punjabi	pa	El:Ss	باجی	Wikidata L988674-S1	lexeme	
+Punjabi	pa	El:Ss	بے بے	Wikidata L686349-S1	lexeme	
+Punjabi	pa	El:Ss	ਬਾਜੀ	Wikidata L988674-S1	lexeme	
+Punjabi	pa	El:Ss	ਬੇਬੇ	Wikidata L686349-S1	lexeme	
 Punjabi	pa	Fa	ਪਿਓ	Wikidata Q7565 label	label	
 Punjabi	pa	Fa	ابّا	Wikidata L1125123-S1	lexeme	formal register
 Punjabi	pa	Fa	بھائیا	Wikidata L686289-S3	lexeme	
@@ -3628,14 +3628,14 @@ Punjabi	pa	Fa	ਅੱਬਾ	Wikidata L1125123-S1	lexeme	formal register
 Punjabi	pa	Fa	ਪਿਓ	Wikidata L746166-S1	lexeme	
 Punjabi	pa	Fa	ਪਿਤਾ	Wikidata L1092778-S1	lexeme	formal register
 Punjabi	pa	Fa	ਭਾਈਆ	Wikidata L686289-S3	lexeme	
-Punjabi	pa	Fa;El;Br	ਤਾਇਆ	Wikidata Q6715170 label	label	
+Punjabi	pa	Fa;El:Br	ਤਾਇਆ	Wikidata Q6715170 label	label	
 Punjabi	pa	Fa;Mo	ماں	Wikidata L43390-S2	lexeme	
 Punjabi	pa	Fa;Mo	ਮਾਂ	Wikidata L43390-S2	lexeme	
-Punjabi	pa	Fa;Yn;Br	ਚਾਚਾ	Wikidata Q10912818 label	label	
-Punjabi	pa	Fa;Yn;Br	چاچا	Wikidata L1040636-S1	lexeme	
-Punjabi	pa	Fa;Yn;Br	کاکا	Wikidata L1039186-S1	lexeme	
-Punjabi	pa	Fa;Yn;Br	ਕਾਕਾ	Wikidata L1039186-S1	lexeme	
-Punjabi	pa	Fa;Yn;Br	ਚਾਚਾ	Wikidata L1040636-S1	lexeme	
+Punjabi	pa	Fa;Yn:Br	ਚਾਚਾ	Wikidata Q10912818 label	label	
+Punjabi	pa	Fa;Yn:Br	چاچا	Wikidata L1040636-S1	lexeme	
+Punjabi	pa	Fa;Yn:Br	کاکا	Wikidata L1039186-S1	lexeme	
+Punjabi	pa	Fa;Yn:Br	ਕਾਕਾ	Wikidata L1039186-S1	lexeme	
+Punjabi	pa	Fa;Yn:Br	ਚਾਚਾ	Wikidata L1040636-S1	lexeme	
 Punjabi	pa	Hu	ਪਤੀ	Wikidata Q212878 label	label	
 Punjabi	pa	Hu	آدمی	Wikidata L678940-S6	lexeme	honorific
 Punjabi	pa	Hu	صاحِب	Wikidata L706239-S6	lexeme	
@@ -3765,8 +3765,8 @@ Polish	pl	Wi;Mo	teściowa	Wikidata Q20094017 label	label
 Polish	pl	Wi;Ss	świeść	Wikidata Q12150991 label	label	
 Western Panjabi	pnb	Br	بھرا	Wikidata Q10861465 label	label	
 Western Panjabi	pnb	Fa	پیو	Wikidata Q7565 label	label	
-Western Panjabi	pnb	Fa;El;Br	تایا	Wikidata Q6715170 label	label	
-Western Panjabi	pnb	Fa;Yn;Br	چاچا	Wikidata Q10912818 label	label	
+Western Panjabi	pnb	Fa;El:Br	تایا	Wikidata Q6715170 label	label	
+Western Panjabi	pnb	Fa;Yn:Br	چاچا	Wikidata Q10912818 label	label	
 Western Panjabi	pnb	Hu	شوہر	Wikidata Q212878 label	label	
 Western Panjabi	pnb	Mo	ماں	Wikidata Q7560 label	label	
 Western Panjabi	pnb	Mo;Br;So	مولیر	Wikidata Q6793920 label	label	
@@ -3909,7 +3909,7 @@ Russian	ru	Da	дочурка	Wikidata L107506-S1	lexeme
 Russian	ru	Da	дочурочка	Wikidata L107507-S1	lexeme	diminutive
 Russian	ru	Da	дочь	Wikidata L1117219-S1	lexeme	
 Russian	ru	Da	дщерь	Wikidata L108017-S1	lexeme	archaism, irony
-Russian	ru	El;Br	братан	Wikidata L93300-S2	lexeme	informal
+Russian	ru	El:Br	братан	Wikidata L93300-S2	lexeme	informal
 Russian	ru	Fa	отец	Wikidata Q7565 label	label	
 Russian	ru	Fa	отец	Wikidata L57779-S1	lexeme	
 Russian	ru	Fa	папа	Wikidata L40640-S1	lexeme	
@@ -3975,7 +3975,7 @@ Russian	ru	Wi;Mo	тёща	Wikidata Q20094017 label	label
 Russian	ru	Wi;Mo	тёща	Wikidata L172365-S1	lexeme	
 Russian	ru	Wi;Ss	свояченица	Wikidata Q12150991 label	label	
 Russian	ru	Wi;Ss	свояченица	Wikidata L161410-S1	lexeme	
-Russian	ru	Yn;Ss	сестрёнка	Wikidata L162347-S2	lexeme	
+Russian	ru	Yn:Ss	сестрёнка	Wikidata L162347-S2	lexeme	
 Rusyn	rue	Fa	отець	Wikidata Q7565 label	label	
 Rusyn	rue	Fa;Br	стрый	Wikidata Q12158205 label	label	
 Aromanian	rup	Pa;Sb;Ch	Veru	Wikidata Q76666 label	label	
@@ -4011,11 +4011,11 @@ Santali	sat	Da	हपनेरा	Wikidata L1371327-S1	lexeme
 Santali	sat	Da	হপনেরা	Wikidata L1371327-S1	lexeme	
 Santali	sat	Da	ହପନେରା	Wikidata L1371327-S1	lexeme	
 Santali	sat	Da	ᱦᱚᱯᱚᱱᱮᱨᱟ	Wikidata L1371327-S1	lexeme	
-Santali	sat	El;Br	dada	Wikidata L1375373-S1	lexeme	
-Santali	sat	El;Br	दादा	Wikidata L1375373-S1	lexeme	
-Santali	sat	El;Br	দাদা	Wikidata L1375373-S1	lexeme	
-Santali	sat	El;Br	ଦାଦା	Wikidata L1375373-S1	lexeme	
-Santali	sat	El;Br	ᱫᱟᱫᱟ	Wikidata L1375373-S1	lexeme	
+Santali	sat	El:Br	dada	Wikidata L1375373-S1	lexeme	
+Santali	sat	El:Br	दादा	Wikidata L1375373-S1	lexeme	
+Santali	sat	El:Br	দাদা	Wikidata L1375373-S1	lexeme	
+Santali	sat	El:Br	ଦାଦା	Wikidata L1375373-S1	lexeme	
+Santali	sat	El:Br	ᱫᱟᱫᱟ	Wikidata L1375373-S1	lexeme	
 Santali	sat	Fa	ᱵᱟᱵᱟ	Wikidata Q7565 label	label	
 Santali	sat	Fa	baba	Wikidata L1372600-S1	lexeme	
 Santali	sat	Fa	बाबा	Wikidata L1372600-S1	lexeme	
@@ -4073,9 +4073,9 @@ Sindhi	sd	Da	ڌيء	Wikidata Q308194 label	label
 Sindhi	sd	Fa	پيء	Wikidata Q7565 label	label	
 Sindhi	sd	Fa;Fa	ڏاڏو	Wikidata Q19682162 label	label	
 Sindhi	sd	Fa;Mo	ڏاڏي	Wikidata Q12433519 label	label	
-Sindhi	sd	Fa;Yn;Br	چاچو	Wikidata Q10912818 label	label	
-Sindhi	sd	Fa;Yn;Br	ڪاڪو	Wikidata L1039104-S1	lexeme	
-Sindhi	sd	Fa;Yn;Br	काको	Wikidata L1039104-S1	lexeme	
+Sindhi	sd	Fa;Yn:Br	چاچو	Wikidata Q10912818 label	label	
+Sindhi	sd	Fa;Yn:Br	ڪاڪو	Wikidata L1039104-S1	lexeme	
+Sindhi	sd	Fa;Yn:Br	काको	Wikidata L1039104-S1	lexeme	
 Sindhi	sd	Hu	مڙس	Wikidata Q212878 label	label	
 Sindhi	sd	Hu;Ss	مَهاندِي	Wikidata L1124759-S1	lexeme	
 Sindhi	sd	Hu;Ss	महांदी	Wikidata L1124759-S1	lexeme	
@@ -4103,7 +4103,7 @@ Sindhi	sd	Wi	औरत	Wikidata L1093223-S2	lexeme
 Northern Sami	se	Br	viellja	Wikidata Q10861465 label	label	
 Northern Sami	se	Ch	mánná	Wikidata Q29514218 label	label	
 Northern Sami	se	Da	nieida	Wikidata Q308194 label	label	
-Northern Sami	se	El;Ss	stuorraoabbá	Wikidata Q10082670 label	label	
+Northern Sami	se	El:Ss	stuorraoabbá	Wikidata Q10082670 label	label	
 Northern Sami	se	Fa	áhčči	Wikidata Q7565 label	label	
 Northern Sami	se	Mo	eadni	Wikidata Q7560 label	label	
 Northern Sami	se	Pa	váhnen	Wikidata Q7566 label	label	
@@ -4243,8 +4243,8 @@ Shan	shn	Br	ပီႈဢၢႆႈ	Wikidata Q10861465 label	label
 Shan	shn	Ch;Da	လၢၼ်ယိင်း	Wikidata Q19756330 label	label	
 Shan	shn	Ch;So	လၢၼ်ၸၢႆး	Wikidata Q11921506 label	label	
 Shan	shn	Da	လုၵ်ႈယိင်း	Wikidata Q308194 label	label	
-Shan	shn	El;Br	ပီႈၸၢႆး	Wikidata Q3972282 label	label	
-Shan	shn	El;Ss	ပီႈသၢဝ်	Wikidata Q10082670 label	label	
+Shan	shn	El:Br	ပီႈၸၢႆး	Wikidata Q3972282 label	label	
+Shan	shn	El:Ss	ပီႈသၢဝ်	Wikidata Q10082670 label	label	
 Shan	shn	Fa	ပေႃႈ	Wikidata Q7565 label	label	
 Shan	shn	Hu	ၽူဝ်	Wikidata Q212878 label	label	
 Shan	shn	Mo	မႄႈ	Wikidata Q7560 label	label	
@@ -4254,8 +4254,8 @@ Shan	shn	Sp;Fa	ပေႃႈၸဝ်ႈ	Wikidata Q13204680 label	label
 Shan	shn	Sp;Mo	မႄႈၸဝ်ႈ	Wikidata Q723868 label	label	
 Shan	shn	Ss	ပီႈၼၢင်း	Wikidata Q595094 label	label	
 Shan	shn	Wi	မေး	Wikidata Q188830 label	label	
-Shan	shn	Yn;Br	ၼွင်ႉၸၢႆး	Wikidata Q10291472 label	label	
-Shan	shn	Yn;Ss	ၼွင်ႉသၢဝ်	Wikidata Q10943095 label	label	
+Shan	shn	Yn:Br	ၼွင်ႉၸၢႆး	Wikidata Q10291472 label	label	
+Shan	shn	Yn:Ss	ၼွင်ႉသၢဝ်	Wikidata Q10943095 label	label	
 Sinhala	si	Da	දියණිය	Wikidata Q308194 label	label	
 Sinhala	si	Fa	තාත්තා	Wikidata Q7565 label	label	
 Sinhala	si	Mo	අම්මා	Wikidata Q7560 label	label	
@@ -4329,17 +4329,17 @@ Slovenian	sl	Sp;Mo	tašča	Wikidata Q723868 label	label
 Slovenian	sl	Ss	sestra	Wikidata Q595094 label	label	
 Slovenian	sl	Wi	žena	Wikidata Q188830 label	label	
 Southern Sami	sma	Br	vïelle	Wikidata Q10861465 label	label	
-Southern Sami	sma	El;Ss	stoerreåabpa	Wikidata Q10082670 label	label	
+Southern Sami	sma	El:Ss	stoerreåabpa	Wikidata Q10082670 label	label	
 Southern Sami	sma	Pa	aehtjie	Wikidata Q7566 label	label	
 Southern Sami	sma	Ss	åabpa	Wikidata Q595094 label	label	
 Lule Sami	smj	Br	viellja	Wikidata Q10861465 label	label	
-Lule Sami	smj	El;Ss	stuoroabbá	Wikidata Q10082670 label	label	
+Lule Sami	smj	El:Ss	stuoroabbá	Wikidata Q10082670 label	label	
 Lule Sami	smj	Ss	oabbá	Wikidata Q595094 label	label	
-Lule Sami	smj	Yn;Ss	unnaoappásj	Wikidata Q10943095 label	label	
+Lule Sami	smj	Yn:Ss	unnaoappásj	Wikidata Q10943095 label	label	
 Inari Sami	smn	Br	viljâ	Wikidata Q10861465 label	label	
 Inari Sami	smn	Ch	páárnáš	Wikidata Q29514218 label	label	
 Inari Sami	smn	Da	nieidâ	Wikidata Q308194 label	label	
-Inari Sami	smn	El;Ss	stuorrâuábbi	Wikidata Q10082670 label	label	
+Inari Sami	smn	El:Ss	stuorrâuábbi	Wikidata Q10082670 label	label	
 Inari Sami	smn	Fa	eeči	Wikidata Q7565 label	label	
 Inari Sami	smn	Mo	enni	Wikidata Q7560 label	label	
 Inari Sami	smn	Pa	vanhim	Wikidata Q7566 label	label	
@@ -4384,7 +4384,7 @@ South Picene	spx	Fa	𐌐𐌀𐌕𐌄𐌓𐌄𐌑𐌇	Wikidata L620307-S1	lexeme
 Albanian	sq	Br	vëllai	Wikidata Q10861465 label	label	
 Albanian	sq	Ch	fëmijë	Wikidata Q29514218 label	label	
 Albanian	sq	Da	bija	Wikidata Q308194 label	label	
-Albanian	sq	El;Br	apë	Wikidata L1361958-S1	lexeme	
+Albanian	sq	El:Br	apë	Wikidata L1361958-S1	lexeme	
 Albanian	sq	Fa	ati	Wikidata Q7565 label	label	
 Albanian	sq	Fa	apë	Wikidata L1361958-S2	lexeme	children's language
 Albanian	sq	Fa	atë	Wikidata L1359073-S1	lexeme	
@@ -4532,7 +4532,7 @@ Swedish	sv	Da	dotter	Wikidata Q308194 label	label
 Swedish	sv	Da	dotter	Wikidata L239161-S1	lexeme	
 Swedish	sv	Da;Da	dotterdotter	Wikidata Q42302432 label	label	
 Swedish	sv	Da;So	dotterson	Wikidata Q12183411 label	label	
-Swedish	sv	El;Ss	storasyster	Wikidata L241267-S1	lexeme	
+Swedish	sv	El:Ss	storasyster	Wikidata L241267-S1	lexeme	
 Swedish	sv	Fa	far	Wikidata Q7565 label	label	
 Swedish	sv	Fa	fader	Wikidata L35825-S1	lexeme	
 Swedish	sv	Fa	far	Wikidata L252143-S1	lexeme	
@@ -4664,14 +4664,14 @@ Tamil	ta	Da	மகள்	Wikidata Q308194 label	label
 Tamil	ta	Da	பிள்ளை	Wikidata L408425-S4	lexeme	
 Tamil	ta	Da	மக	Wikidata L1327334-S3	lexeme	informal
 Tamil	ta	Da	மகள்	Wikidata L41782-S1	lexeme	
-Tamil	ta	El;Br	அண்ணன்	Wikidata L45293-S1	lexeme	
-Tamil	ta	El;Br	அண்ணா	Wikidata L1324145-S1	lexeme	
-Tamil	ta	El;Br	அண்ணாச்சி	Wikidata L45294-S1	lexeme	slang
-Tamil	ta	El;Br	ஐயன்	Wikidata L347296-S6	lexeme	
-Tamil	ta	El;Ss	اَكَّا	Wikidata L7371-S1	lexeme	
-Tamil	ta	El;Ss	அக்கச்சி	Wikidata L40466-S1	lexeme	
-Tamil	ta	El;Ss	அக்கா	Wikidata L7371-S1	lexeme	
-Tamil	ta	El;Ss	அக்கை	Wikidata L45291-S2	lexeme	
+Tamil	ta	El:Br	அண்ணன்	Wikidata L45293-S1	lexeme	
+Tamil	ta	El:Br	அண்ணா	Wikidata L1324145-S1	lexeme	
+Tamil	ta	El:Br	அண்ணாச்சி	Wikidata L45294-S1	lexeme	slang
+Tamil	ta	El:Br	ஐயன்	Wikidata L347296-S6	lexeme	
+Tamil	ta	El:Ss	اَكَّا	Wikidata L7371-S1	lexeme	
+Tamil	ta	El:Ss	அக்கச்சி	Wikidata L40466-S1	lexeme	
+Tamil	ta	El:Ss	அக்கா	Wikidata L7371-S1	lexeme	
+Tamil	ta	El:Ss	அக்கை	Wikidata L45291-S2	lexeme	
 Tamil	ta	Fa	தந்தை	Wikidata Q7565 label	label	
 Tamil	ta	Fa	اَتًّنْ	Wikidata L346358-S1	lexeme	
 Tamil	ta	Fa	اَڣَّا	Wikidata L7350-S1	lexeme	
@@ -4754,8 +4754,8 @@ Thai	th	Ch	บุตร	Wikidata Q29514218 label	label
 Thai	th	Ch;Ch	หลาน	Wikidata Q3603531 label	label	
 Thai	th	Ch;So	หลานชาย	Wikidata Q11921506 label	label	
 Thai	th	Da	ลูกสาว	Wikidata Q308194 label	label	
-Thai	th	El;Br	พี่ชาย	Wikidata Q3972282 label	label	
-Thai	th	El;Ss	พี่สาว	Wikidata Q10082670 label	label	
+Thai	th	El:Br	พี่ชาย	Wikidata Q3972282 label	label	
+Thai	th	El:Ss	พี่สาว	Wikidata Q10082670 label	label	
 Thai	th	Fa	บิดา	Wikidata Q7565 label	label	
 Thai	th	Fa;Br	ลุงอาชาย	Wikidata Q12158205 label	label	
 Thai	th	Fa;Fa	ปู่	Wikidata Q19682162 label	label	
@@ -4781,8 +4781,8 @@ Thai	th	Wi	ภรรยา	Wikidata Q188830 label	label
 Thai	th	Wi;Br	พี่น้องชายของภรรยา	Wikidata Q23045444 label	label	
 Thai	th	Wi;Fa	พ่อภรรยา	Wikidata Q12160962 label	label	
 Thai	th	Wi;Mo	แม่ภรรยา	Wikidata Q20094017 label	label	
-Thai	th	Yn;Br	น้องชาย	Wikidata Q10291472 label	label	
-Thai	th	Yn;Ss	น้องสาว	Wikidata Q10943095 label	label	
+Thai	th	Yn:Br	น้องชาย	Wikidata Q10291472 label	label	
+Thai	th	Yn:Ss	น้องสาว	Wikidata Q10943095 label	label	
 Timugon Murut	tih	Hu	ralaki	Wikidata L673005-S1	lexeme	
 Tindi	tin	Fa	има	Wikidata L1529972-S1	lexeme	
 Turkmen	tk	Mo	ene	Wikidata Q7560 label	label	
@@ -4837,12 +4837,12 @@ Turkish	tr	Ch	çocuk	Wikidata Q29514218 label	label
 Turkish	tr	Ch	çocuk	Wikidata L1171765-S2	lexeme	
 Turkish	tr	Ch	چوجوق	Wikidata L1171765-S2	lexeme	
 Turkish	tr	Ch;Ch	torun	Wikidata Q3603531 label	label	
-Turkish	tr	El;Br	ağabey	Wikidata Q3972282 label	label	
-Turkish	tr	El;Br	abi	Wikidata L1410140-S1	lexeme	
-Turkish	tr	El;Br	آبی	Wikidata L1410140-S1	lexeme	
-Turkish	tr	El;Ss	abla	Wikidata Q10082670 label	label	
-Turkish	tr	El;Ss	abla	Wikidata L1122689-S1	lexeme	
-Turkish	tr	El;Ss	آبلا	Wikidata L1122689-S1	lexeme	
+Turkish	tr	El:Br	ağabey	Wikidata Q3972282 label	label	
+Turkish	tr	El:Br	abi	Wikidata L1410140-S1	lexeme	
+Turkish	tr	El:Br	آبی	Wikidata L1410140-S1	lexeme	
+Turkish	tr	El:Ss	abla	Wikidata Q10082670 label	label	
+Turkish	tr	El:Ss	abla	Wikidata L1122689-S1	lexeme	
+Turkish	tr	El:Ss	آبلا	Wikidata L1122689-S1	lexeme	
 Turkish	tr	Fa	baba	Wikidata Q7565 label	label	
 Turkish	tr	Fa	ata	Wikidata L1122673-S2	lexeme	
 Turkish	tr	Fa	baba	Wikidata L1122722-S1	lexeme	
@@ -4890,8 +4890,8 @@ Tatar	tt	Ch;Ch	онык	Wikidata Q3603531 label	label
 Tatar	tt	Ch;Da	оныка	Wikidata Q19756330 label	label	
 Tatar	tt	Ch;So	онык	Wikidata Q11921506 label	label	
 Tatar	tt	Da	кыз	Wikidata Q308194 label	label	
-Tatar	tt	El;Br	абый	Wikidata Q3972282 label	label	
-Tatar	tt	El;Ss	апа	Wikidata Q10082670 label	label	
+Tatar	tt	El:Br	абый	Wikidata Q3972282 label	label	
+Tatar	tt	El:Ss	апа	Wikidata Q10082670 label	label	
 Tatar	tt	Fa	ata	Wikidata Q7565 label	label	
 Tatar	tt	Fa	ата	Wikidata Q7565 label	label	
 Tatar	tt	Hu	ir	Wikidata Q212878 label	label	
@@ -4917,8 +4917,8 @@ Tatar	tt	Wi	хатын	Wikidata Q188830 label	label
 Tatar	tt	Wi;Br	каенага	Wikidata Q23045444 label	label	
 Tatar	tt	Wi;Fa	каената	Wikidata Q12160962 label	label	
 Tatar	tt	Wi;Mo	каенана	Wikidata Q20094017 label	label	
-Tatar	tt	Yn;Br	эне	Wikidata Q10291472 label	label	
-Tatar	tt	Yn;Ss	сеңел	Wikidata Q10943095 label	label	
+Tatar	tt	Yn:Br	эне	Wikidata Q10291472 label	label	
+Tatar	tt	Yn:Ss	сеңел	Wikidata Q10943095 label	label	
 Tumbuka	tum	Br	mubali	Wikidata Q10861465 label	label	
 Tumbuka	tum	Br	mubali	Wikidata L1747914-S1	lexeme	
 Tumbuka	tum	Ch;Ch	mzukulu	Wikidata Q3603531 label	label	
@@ -4953,8 +4953,8 @@ Tumbuka	tum	Ss	mudumbu	Wikidata Q595094 label	label
 Tumbuka	tum	Ss	mudumbu	Wikidata L1747917-S1	lexeme	
 Tumbuka	tum	Wi	muwoli	Wikidata Q188830 label	label	
 Tumbuka	tum	Wi	muwoli	Wikidata L1744028-S1	lexeme	
-Tumbuka	tum	Yn;Sb	munung'una	Wikidata Q28466210 label	label	
-Tumbuka	tum	Yn;Sb	munung'una	Wikidata L1744071-S1	lexeme	
+Tumbuka	tum	Yn:Sb	munung'una	Wikidata Q28466210 label	label	
+Tumbuka	tum	Yn:Sb	munung'una	Wikidata L1744071-S1	lexeme	
 Taivoan	tvx	Hu	ekega	Wikidata L1448749-S1	lexeme	
 Taivoan	tvx	Wi	gegat	Wikidata L1448777-S1	lexeme	
 Twi	tw	Mo	ɛna	Wikidata Q7560 label	label	
@@ -4970,8 +4970,8 @@ Toto	txo	Pa;Mo	আজা	Wikidata L1358391-S1	lexeme
 Toto	txo	Pa;Mo	𞊭𞊝𞊭	Wikidata L1358391-S1	lexeme	
 Toto	txo	Wi	আঙ্কোমি	Wikidata L1346506-S1	lexeme	
 Toto	txo	Wi	𞊭𞊘𞊔𞊪𞊖𞊡	Wikidata L1346506-S1	lexeme	
-Toto	txo	Yn;Br	এ	Wikidata L1364770-S1	lexeme	
-Toto	txo	Yn;Br	𞊦	Wikidata L1364770-S1	lexeme	
+Toto	txo	Yn:Br	এ	Wikidata L1364770-S1	lexeme	
+Toto	txo	Yn:Br	𞊦	Wikidata L1364770-S1	lexeme	
 Tahitian	ty	So	tamaiti	Wikidata L1461403-S2	lexeme	
 Tuvinian	tyv	Mo	ава	Wikidata Q7560 label	label	
 Udmurt	udm	Ch	нылпиез	Wikidata Q29514218 label	label	
@@ -5040,10 +5040,10 @@ Urdu	ur	Da;Da	نواسی	Wikidata Q42302432 label	label
 Urdu	ur	Da;So	اسباط	Wikidata Q12183411 label	label	
 Urdu	ur	Fa	باپ	Wikidata Q7565 label	label	
 Urdu	ur	Fa;Br	چچا	Wikidata Q12158205 label	label	
-Urdu	ur	Fa;El;Br	تایا	Wikidata Q6715170 label	label	
+Urdu	ur	Fa;El:Br	تایا	Wikidata Q6715170 label	label	
 Urdu	ur	Fa;Mo	دادی	Wikidata Q12433519 label	label	
 Urdu	ur	Fa;Ss	پھوپھی	Wikidata Q5992509 label	label	
-Urdu	ur	Fa;Yn;Br	چچا	Wikidata Q10912818 label	label	
+Urdu	ur	Fa;Yn:Br	چچا	Wikidata Q10912818 label	label	
 Urdu	ur	Hu	شوہر	Wikidata Q212878 label	label	
 Urdu	ur	Hu;Ss	نند	Wikidata Q23045435 label	label	
 Urdu	ur	Mo	ماں	Wikidata Q7560 label	label	
@@ -5118,8 +5118,8 @@ Venetian	vec	Sp;Fa	sòcero	Wikidata Q13204680 label	label
 Venetian	vec	Sp;Mo	sòcera	Wikidata Q723868 label	label	
 Venetian	vec	Ss	soreła	Wikidata Q595094 label	label	
 Venetian	vec	Wi;Fa	sòcero	Wikidata Q12160962 label	label	
-Vietnamese	vi	El;Br	anh	Wikidata Q3972282 label	label	
-Vietnamese	vi	El;Ss	chị	Wikidata Q10082670 label	label	
+Vietnamese	vi	El:Br	anh	Wikidata Q3972282 label	label	
+Vietnamese	vi	El:Ss	chị	Wikidata Q10082670 label	label	
 Vietnamese	vi	Fa	cha	Wikidata Q7565 label	label	
 Vietnamese	vi	Fa;Ss	cô	Wikidata Q5992509 label	label	
 Vietnamese	vi	Hu	chồng	Wikidata Q212878 label	label	
@@ -5127,7 +5127,7 @@ Vietnamese	vi	Mo	mẹ	Wikidata Q7560 label	label
 Vietnamese	vi	Mo;Br	cậu	Wikidata Q4120409 label	label	
 Vietnamese	vi	Mo;Ss	dì	Wikidata Q6035384 label	label	
 Vietnamese	vi	Wi	vợ	Wikidata Q188830 label	label	
-Vietnamese	vi	Yn;Sb	em	Wikidata Q28466210 label	label	
+Vietnamese	vi	Yn:Sb	em	Wikidata Q28466210 label	label	
 West Flemish	vls	Pa;Mo	grootmoeder	Wikidata Q9235758 label	label	
 Volapük	vo	Br	blod	Wikidata Q10861465 label	label	
 Volapük	vo	Br;Da	blodadaut	Wikidata Q23045278 label	label	
@@ -5208,7 +5208,7 @@ Wakhi	wbl	Ss	x̌ыy	Wikidata L1483951-S1	lexeme
 Wakhi	wbl	Ss	х̌ый	Wikidata L1483951-S1	lexeme	
 Wakhi	wbl	Ss	ښؤی	Wikidata L1483951-S1	lexeme	
 Wu Chinese	wuu	Da	囡儿	Wikidata Q308194 label	label	
-Wu Chinese	wuu	El;Br	阿哥	Wikidata Q3972282 label	label	
+Wu Chinese	wuu	El:Br	阿哥	Wikidata Q3972282 label	label	
 Wu Chinese	wuu	Fa	父亲	Wikidata Q7565 label	label	
 Wu Chinese	wuu	Fa	父親	Wikidata Q7565 label	label	
 Wu Chinese	wuu	Hu	丈夫	Wikidata Q212878 label	label	
@@ -5258,10 +5258,10 @@ Yagnobi	yai	Ch;Ch	nipešin	Wikidata L1474637-S2	lexeme
 Yagnobi	yai	Ch;Ch	нипешин	Wikidata L1474637-S2	lexeme	
 Yagnobi	yai	Da	ɣayk	Wikidata L1474630-S1	lexeme	
 Yagnobi	yai	Da	ғайк	Wikidata L1474630-S1	lexeme	
-Yagnobi	yai	El;Br	ako	Wikidata L1472830-S1	lexeme	
-Yagnobi	yai	El;Br	ако	Wikidata L1472830-S1	lexeme	
-Yagnobi	yai	El;Ss	apa	Wikidata L1473276-S1	lexeme	
-Yagnobi	yai	El;Ss	апа	Wikidata L1473276-S1	lexeme	
+Yagnobi	yai	El:Br	ako	Wikidata L1472830-S1	lexeme	
+Yagnobi	yai	El:Br	ако	Wikidata L1472830-S1	lexeme	
+Yagnobi	yai	El:Ss	apa	Wikidata L1473276-S1	lexeme	
+Yagnobi	yai	El:Ss	апа	Wikidata L1473276-S1	lexeme	
 Yagnobi	yai	Fa;Br	amak	Wikidata L1473322-S1	lexeme	
 Yagnobi	yai	Fa;Br	амак	Wikidata L1473322-S1	lexeme	
 Yagnobi	yai	Fa;Ss	amma	Wikidata L1474673-S1	lexeme	
@@ -5280,10 +5280,10 @@ Yagnobi	yai	So	žúta	Wikidata L1474629-S1	lexeme
 Yagnobi	yai	So	žútak	Wikidata L1489544-S1	lexeme	
 Yagnobi	yai	So	жута	Wikidata L1474629-S1	lexeme	
 Yagnobi	yai	So	жутак	Wikidata L1489544-S1	lexeme	
-Yagnobi	yai	Yn;Br	viród	Wikidata L1464588-S1	lexeme	
-Yagnobi	yai	Yn;Br	virót	Wikidata L1461826-S1	lexeme	
-Yagnobi	yai	Yn;Br	вирод	Wikidata L1464588-S1	lexeme	
-Yagnobi	yai	Yn;Br	вирот	Wikidata L1461826-S1	lexeme	
+Yagnobi	yai	Yn:Br	viród	Wikidata L1464588-S1	lexeme	
+Yagnobi	yai	Yn:Br	virót	Wikidata L1461826-S1	lexeme	
+Yagnobi	yai	Yn:Br	вирод	Wikidata L1464588-S1	lexeme	
+Yagnobi	yai	Yn:Br	вирот	Wikidata L1461826-S1	lexeme	
 Yiddish	yi	Br	ברודער	Wikidata Q10861465 label	label	
 Yiddish	yi	Ch	קינדער	Wikidata Q29514218 label	label	
 Yiddish	yi	Ch;Ch	אייניקל	Wikidata Q3603531 label	label	
@@ -5311,13 +5311,13 @@ Cantonese	yue	Br	兄弟	Wikidata Q10861465 label	label
 Cantonese	yue	Ch	子女	Wikidata Q29514218 label	label	
 Cantonese	yue	Ch;Ch	孫	Wikidata Q3603531 label	label	
 Cantonese	yue	Da	阿女	Wikidata Q308194 label	label	
-Cantonese	yue	El;Br	阿哥	Wikidata Q3972282 label	label	
-Cantonese	yue	El;Ss	家姐	Wikidata Q10082670 label	label	
+Cantonese	yue	El:Br	阿哥	Wikidata Q3972282 label	label	
+Cantonese	yue	El:Ss	家姐	Wikidata Q10082670 label	label	
 Cantonese	yue	Fa	亞爸	Wikidata Q7565 label	label	
-Cantonese	yue	Fa;El;Br	亞伯	Wikidata Q6715170 label	label	
+Cantonese	yue	Fa;El:Br	亞伯	Wikidata Q6715170 label	label	
 Cantonese	yue	Fa;Mo	祖母	Wikidata Q12433519 label	label	
 Cantonese	yue	Fa;Ss	亞姑	Wikidata Q5992509 label	label	
-Cantonese	yue	Fa;Yn;Br	亞叔	Wikidata Q10912818 label	label	
+Cantonese	yue	Fa;Yn:Br	亞叔	Wikidata Q10912818 label	label	
 Cantonese	yue	Hu	老公	Wikidata Q212878 label	label	
 Cantonese	yue	Hu;Fa	家公	Wikidata Q23868497 label	label	
 Cantonese	yue	Hu;Mo	婆婆	Wikidata Q12150903 label	label	
@@ -5337,8 +5337,8 @@ Cantonese	yue	Wi	老婆	Wikidata Q188830 label	label
 Cantonese	yue	Wi;Br	舅仔	Wikidata Q23045444 label	label	
 Cantonese	yue	Wi;Fa	外父	Wikidata Q12160962 label	label	
 Cantonese	yue	Wi;Mo	外母	Wikidata Q20094017 label	label	
-Cantonese	yue	Yn;Br	細佬	Wikidata Q10291472 label	label	
-Cantonese	yue	Yn;Ss	細妹	Wikidata Q10943095 label	label	
+Cantonese	yue	Yn:Br	細佬	Wikidata Q10291472 label	label	
+Cantonese	yue	Yn:Ss	細妹	Wikidata Q10943095 label	label	
 Zhuang	za	Fa	boh	Wikidata Q7565 label	label	
 Zhuang	za	Mo	meh	Wikidata Q7560 label	label	
 Zhuang	za	So	lwgsai	Wikidata Q177232 label	label	

@@ -24,7 +24,7 @@ Sb;Da	sobrino	check	masculine; belongs on Sb;So (and Sb;Ch as generic plural)
 Wi	esposo	check	masculine 'husband'; belongs on Hu/Sp
 Wi	marido	check	'husband'; belongs on Hu
 Wi	cónyuge	check	sex-neutral 'spouse'; already on Sp; drop from Wi
-Yn;Br	hermano	check	plain 'brother', not age-specific; already on Br
+Yn:Br	hermano	check	plain 'brother', not age-specific; already on Br
 Pa	padre	check	singular padre is 'father'; only the plural padres means 'parents'
 Fa	papa	check	unaccented papa is archaic/regional for father (and 'pope', 'potato'); keep only if marked regional
 Unc	tio	check	misspelling of tío (already present); drop

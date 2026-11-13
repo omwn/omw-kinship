@@ -102,15 +102,11 @@ def cover(atoms: frozenset) -> list[tuple[str, str, str]] | None:
 
 
 def to_code(ego: str, letters: str, age: str) -> str:
-    """Write a part as a KinDiv code: ``("m", "FB", "e")`` -> ``x;Fa;El;Br``."""
+    """Write a part as a code: ``("m", "FB", "e")`` -> ``x;Fa;El:Br``."""
     tokens = [LETTERS[letter] for letter in letters]
     if age:
         slot = kw.age_slot(letters.translate(str.maketrans("PQCE", "FBSH")))
-        marker = "El" if age == "e" else "Yn"
-        if len(letters) == 3 and slot == 2:  # a cousin's age goes first in KinDiv
-            tokens.insert(0, marker)
-        else:
-            tokens.insert(slot, marker)
+        tokens[slot] = f"{'El' if age == 'e' else 'Yn'}:{tokens[slot]}"
     prefix = {"m": ["x"], "f": ["o"]}.get(ego, [])
     return ";".join(prefix + tokens)
 
@@ -128,11 +124,7 @@ def unmatched(
     one "Language form" example per language.
     """
     concepts = build.read_concepts()
-    known = {
-        frozenset(atoms)
-        for code, concept in concepts.items()
-        if (atoms := kw.kindiv_atoms(code, concept.subdomain))
-    }
+    known = {frozenset(atoms) for code in concepts if (atoms := kw.kindiv_atoms(code))}
     languages, forms = kw.read_kinbank(cldf)
 
     families: dict[frozenset, set[str]] = defaultdict(set)
@@ -233,15 +225,11 @@ def write() -> None:
             f"Kinbank: {row['languages']} languages, {row['families']} families,"
             f" {row['macroareas']} macroareas"
         )
-        label = build.phrase(code, subdomain)
+        label = build.phrase(code)
         new.append((subdomain, label, code, source))
-    atoms = {
-        code: frozenset(a)
-        for code, concept in concepts.items()
-        if (a := kw.kindiv_atoms(code, concept.subdomain))
-    }
-    for subdomain, _, code, _ in new:
-        atoms[code] = frozenset(kw.kindiv_atoms(code, subdomain))
+    atoms = {code: frozenset(a) for code in concepts if (a := kw.kindiv_atoms(code))}
+    for _, _, code, _ in new:
+        atoms[code] = frozenset(kw.kindiv_atoms(code))
     parents = hypernyms(atoms)
     new_codes = {code for _, _, code, _ in new}
     with (build.DATA / "extra-concepts.tsv").open("a", encoding="utf8") as out:

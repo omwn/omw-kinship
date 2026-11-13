@@ -168,7 +168,7 @@ hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
-["El;Sb"]
+["El:Sb"]
 lemmas = ["kakak"]
 prosub = ["kakak \"elder brother, elder sister\" [22,23] 1st 2nd address"]
 english = ["sib", "sibling"]
@@ -183,7 +183,7 @@ ancestors = ["Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["kakak <- Kinbank, TUFS"]
 comment = ""
 
-["Yn;Sb"]
+["Yn:Sb"]
 lemmas = ["adik"]
 prosub = ["adik \"younger brother, younger sister\" [24,25] 1st 2nd address"]
 english = ["sib", "sibling"]
@@ -197,7 +197,7 @@ ancestors = ["Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["adik <- Kinbank"]
 comment = ""
 
-["El;Br"]
+["El:Br"]
 lemmas = ["abang", "kakak laki-laki"]
 omniglot = ["abang \"brother\" (older)", "bang \"brother\" (older)", "bung \"brother\" (older)", "kakak \"brother\" (older)", "kak \"brother\" (older)"]
 omniglot_new = ["bang", "bung", "kakak", "kak"]
@@ -208,12 +208,12 @@ existing_by_ili = ["wnb-id wnb-id-09853467-n [i88560] abang: (CILI) an older bro
 existing_by_lemma = ["abang -> wnb-id wnb-id-09853467-n [i88560] abang: (CILI) an older brother", "abang -> wnb-id wnb-id-09876454-n [i88708] adik kandung, kakanda, abang kandung, adik, kanda, adinda, ...: (CILI) a male with the same parents as someone else", "kakak laki-laki -> tufs-id tufs-id-09853467-n [i88560] kakak, kakak laki-laki: (CILI) an older brother"]
 existing_hidden = 5  # other senses of these lemmas
 ntumc = ["big brother <- 09853467-n", "kakak laki-laki <- 09853467-n", "abang <- 09853467-n"]
-hypernyms = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb"]
-ancestors = ["Br", "El;Br|El;Pa;Sb;So", "El;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Br", "El:Br|Pa;Sb;El:So", "El:Sb"]
+ancestors = ["Br", "El:Br|Pa;Sb;El:So", "El:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["abang <- wnb-id", "kakak laki-laki <- TUFS"]
 comment = ""
 
-["El;Ss"]
+["El:Ss"]
 lemmas = ["kakak perempuan"]
 omniglot = ["adik \"sister\" (older)", "kakak \"sister\" (older)", "kak \"sister\" (older)"]
 omniglot_new = ["adik", "kakak", "kak"]
@@ -223,31 +223,31 @@ definition = "an elder sister of a person (a sibling)"
 existing_by_ili = ["tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister"]
 existing_by_lemma = ["kakak perempuan -> tufs-id tufs-id-09854218-n [i88564] kakak perempuan, saudara: (CILI) an older sister"]
 ntumc = ["kakak perempuan <- 09854218-n"]
-hypernyms = ["El;Sb", "Ss"]
-ancestors = ["El;Sb", "Ss", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["El:Sb", "Ss"]
+ancestors = ["El:Sb", "Ss", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 sources = ["kakak perempuan <- TUFS"]
 comment = ""
 
-["Yn;Br"]
+["Yn:Br"]
 lemmas = []
 omniglot = ["adik laki-laki \"brother\" (younger)"]
 omniglot_new = ["adik laki-laki"]
 english = ["little brother"]
 label = "younger brother"
 definition = "a younger brother of a person (a sibling)"
-hypernyms = ["Br", "Yn;Sb"]
-ancestors = ["Br", "Yn;Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Br", "Yn:Sb"]
+ancestors = ["Br", "Yn:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
-["Yn;Ss"]
+["Yn:Ss"]
 lemmas = []
 omniglot = ["adik perempuan \"sister\" (younger)"]
 omniglot_new = ["adik perempuan"]
 english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
-hypernyms = ["Ss", "Yn;Sb"]
-ancestors = ["Ss", "Yn;Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
+hypernyms = ["Ss", "Yn:Sb"]
+ancestors = ["Ss", "Yn:Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["Pa;Br"]
@@ -322,7 +322,7 @@ hypernyms = ["Mo;Sb", "Mo|Mo;Ss", "Pa;Ss"]
 ancestors = ["Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Pa;El;Br"]
+["Pa;El:Br"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
 english = ["uncle"]
@@ -333,7 +333,7 @@ hypernyms = ["Pa;Br"]
 ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
 comment = ""
 
-["Pa;El;Ss"]
+["Pa;El:Ss"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
 english = ["aunt"]
@@ -344,7 +344,7 @@ hypernyms = ["Pa;Ss"]
 ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Pa;Yn;Br"]
+["Pa;Yn:Br"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
 english = ["uncle"]
@@ -355,7 +355,7 @@ hypernyms = ["Pa;Br"]
 ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
 comment = ""
 
-["Pa;Yn;Ss"]
+["Pa;Yn:Ss"]
 lemmas = []
 prosub = ["bibi \"aunt\" [16,17] 1st 2nd address title"]
 prosub_new = ["bibi"]
@@ -367,7 +367,7 @@ hypernyms = ["Pa;Ss"]
 ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Mo;El;Br"]
+["Mo;El:Br"]
 lemmas = []
 status = "KinDiv records a gap here, but other sources suggest words: check"
 prosub = ["uwak \"uncle (parent's elder brother)\" [11] 1st 2nd address title"]
@@ -376,8 +376,8 @@ english = ["uncle"]
 english_via = "Pa;Br"
 label = "mother's elder brother"
 definition = "an elder brother of one's mother (an uncle or aunt)"
-hypernyms = ["Mo;Br", "Pa;El;Br"]
-ancestors = ["Mo;Br", "Pa;El;Br", "Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
+hypernyms = ["Mo;Br", "Pa;El:Br"]
+ancestors = ["Mo;Br", "Pa;El:Br", "Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
 comment = ""
 
 ["Sb;Ch"]
@@ -852,7 +852,7 @@ hypernyms = ["Br;Ch|Ch", "Da|Sb;Da"]
 ancestors = ["Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
-["El;Br|El;Pa;Sb;So"]
+["El:Br|Pa;Sb;El:So"]
 lemmas = []
 status = "unlexicalized: no id word; included for the hierarchy"
 english = ["relation", "relative"]
@@ -1191,7 +1191,7 @@ hypernyms = ["Fa;Ss", "o;Pa;Ss"]
 ancestors = ["Fa;Ss", "o;Pa;Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Fa;Yn;Sb"]
+["Fa;Yn:Sb"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "father's younger sibling"
@@ -1200,7 +1200,7 @@ hypernyms = ["Fa;Sb"]
 ancestors = ["Fa;Sb", "Pb", "Rel"]
 comment = ""
 
-["Mo;Yn;Sb"]
+["Mo;Yn:Sb"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "mother's younger sibling"
@@ -1209,65 +1209,65 @@ hypernyms = ["Mo;Sb"]
 ancestors = ["Mo;Sb", "Pb", "Rel"]
 comment = ""
 
-["Fa;El;Br"]
+["Fa;El:Br"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "father's elder brother"
 definition = "an elder brother of one's father (an uncle or aunt)"
-hypernyms = ["Fa;Br", "Pa;El;Br"]
-ancestors = ["Fa;Br", "Pa;El;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
+hypernyms = ["Fa;Br", "Pa;El:Br"]
+ancestors = ["Fa;Br", "Pa;El:Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
 comment = ""
 
-["Fa;Yn;Br"]
+["Fa;Yn:Br"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "father's younger brother"
 definition = "a younger brother of one's father (an uncle or aunt)"
-hypernyms = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br"]
-ancestors = ["Fa;Br", "Fa;Yn;Sb", "Pa;Yn;Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
+hypernyms = ["Fa;Br", "Fa;Yn:Sb", "Pa;Yn:Br"]
+ancestors = ["Fa;Br", "Fa;Yn:Sb", "Pa;Yn:Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
 comment = ""
 
-["Fa;El;Ss"]
+["Fa;El:Ss"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "father's elder sister"
 definition = "an elder sister of one's father (an uncle or aunt)"
-hypernyms = ["Fa;Ss", "Pa;El;Ss"]
-ancestors = ["Fa;Ss", "Pa;El;Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+hypernyms = ["Fa;Ss", "Pa;El:Ss"]
+ancestors = ["Fa;Ss", "Pa;El:Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Fa;Yn;Ss"]
+["Fa;Yn:Ss"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "father's younger sister"
 definition = "a younger sister of one's father (an uncle or aunt)"
-hypernyms = ["Fa;Ss", "Fa;Yn;Sb", "Pa;Yn;Ss"]
-ancestors = ["Fa;Ss", "Fa;Yn;Sb", "Pa;Yn;Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+hypernyms = ["Fa;Ss", "Fa;Yn:Sb", "Pa;Yn:Ss"]
+ancestors = ["Fa;Ss", "Fa;Yn:Sb", "Pa;Yn:Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Mo;Yn;Br"]
+["Mo;Yn:Br"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "mother's younger brother"
 definition = "a younger brother of one's mother (an uncle or aunt)"
-hypernyms = ["Mo;Br", "Mo;Yn;Sb", "Pa;Yn;Br"]
-ancestors = ["Mo;Br", "Mo;Yn;Sb", "Pa;Yn;Br", "Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
+hypernyms = ["Mo;Br", "Mo;Yn:Sb", "Pa;Yn:Br"]
+ancestors = ["Mo;Br", "Mo;Yn:Sb", "Pa;Yn:Br", "Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
 comment = ""
 
-["Mo;El;Ss"]
+["Mo;El:Ss"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "mother's elder sister"
 definition = "an elder sister of one's mother (an uncle or aunt)"
-hypernyms = ["Mo;Ss", "Pa;El;Ss"]
-ancestors = ["Mo;Ss", "Pa;El;Ss", "Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+hypernyms = ["Mo;Ss", "Pa;El:Ss"]
+ancestors = ["Mo;Ss", "Pa;El:Ss", "Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""
 
-["Mo;Yn;Ss"]
+["Mo;Yn:Ss"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
 label = "mother's younger sister"
 definition = "a younger sister of one's mother (an uncle or aunt)"
-hypernyms = ["Mo;Ss", "Mo;Yn;Sb", "Pa;Yn;Ss"]
-ancestors = ["Mo;Ss", "Mo;Yn;Sb", "Pa;Yn;Ss", "Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+hypernyms = ["Mo;Ss", "Mo;Yn:Sb", "Pa;Yn:Ss"]
+ancestors = ["Mo;Ss", "Mo;Yn:Sb", "Pa;Yn:Ss", "Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
 comment = ""

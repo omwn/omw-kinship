@@ -1,7 +1,7 @@
 # Kin-type features
 
 Every concept is named by a kin-type code in the notation of Murdock (1970), as
-[KinDiv](https://github.com/kbatsuren/KinDiv) (Khishigsuren et al. 2022) uses it: `Fa;Br;So` is "father's brother's son", `x;El;Ss` is "a man's
+[KinDiv](https://github.com/kbatsuren/KinDiv) (Khishigsuren et al. 2022) uses it: `Fa;Br;So` is "father's brother's son", `x;El:Ss` is "a man's
 elder sister", and `Fa|Fa;Br` is "father or father's brother". This file gives
 the meaning of the codes as an algebra over genealogical positions, then lists
 every feature.
@@ -26,20 +26,25 @@ The path is read outward from the anchor: ⟨F, B, S⟩ is the anchor's father's
 brother's son.
 
 At most one link in a path also carries a **relative age**, `e` (elder) or `y`
-(younger). Which link can carry it depends on the shape of the path, writing P
-for a parent link, S for a sibling, C for a child and E for a spouse:
+(younger). Its person is compared with **the nearest earlier person on the path
+of the same generation**. Which link can carry it depends on the shape of the
+path, writing P for a parent link, S for a sibling, C for a child and E for a
+spouse:
 
-| shape | example | the age is that of |
-|---|---|---|
-| S | `El;Br` | the sibling, relative to the anchor |
-| PS | `Fa;El;Br` | the parent's sibling, relative to the parent |
-| SC | `El;Br;Ch` | the sibling, relative to the anchor |
-| PSC | `El;Fa;Br;So` | the cousin, relative to the anchor |
-| PSE | `Fa;El;Br;Wi` | the parent's sibling, relative to the parent |
+| shape | example | the age is that of | compared with |
+|---|---|---|---|
+| S | `El:Br` | the sibling | the anchor |
+| PS | `Fa;El:Br` | the parent's sibling | the parent |
+| SC | `El:Br;Ch` | the sibling | the anchor |
+| PSC | `Fa;Br;El:So` | the cousin | the anchor |
+| PSE | `Fa;El:Br;Wi` | the parent's sibling | the parent |
+| ES | `Sp;El:Br` | the spouse's sibling | the spouse |
+| SE | `El:Ss;Hu` | the sibling | the anchor |
 
-Other shapes (grandparents, in-laws, …) record no age. Where a shape has an age
-slot and the code gives no age, the code covers both ages: `Br` denotes the
-elder and the younger brother.
+Other shapes (grandparents, parents-in-law, …) record no age. Where a shape has
+an age slot and the code gives no age, the code covers both ages: `Br` denotes
+the elder and the younger brother, and `Sp;Br` a spouse's elder and younger
+brother.
 
 ### Terms
 
@@ -74,11 +79,14 @@ positions a code denotes.
    anchor, not the speaker, so the build labels these concepts "(male anchor)" and
    "(female anchor)".
 
-3. **Age restriction** (`El;` or `Yn;`) keeps the positions whose age slot is
-   elder or younger. It goes immediately before the kin term it modifies:
-   `Fa;El;Br` is father's elder brother. The exception is cousins, where the age
-   goes at the front (after any `x;`/`o;`) and applies to the cousin:
-   `El;Fa;Br;So` is a father's brother's son who is older than the anchor.
+3. **Age restriction** (`El:` or `Yn:`) keeps the positions whose age slot is
+   elder or younger. It is attached with `:` to the term whose person it
+   describes, so `;` only ever separates links: `Fa;El:Br` is father's elder
+   brother, `Fa;Br;El:So` a father's brother's son older than the anchor, and
+   `El:Ss;Hu` an elder sister's husband. An age on a link with no age slot is an
+   error. KinDiv writes the age as a term of its own (`Fa;El;Br`), with a
+   cousin's at the front (`El;Fa;Br;So`); `from_kindiv` in `kintype.py`
+   converts its codes when they are read.
 
 4. **Union** (`|`) is set union, and it binds loosest of all:
 
@@ -90,7 +98,8 @@ positions a code denotes.
 The full grammar of a code is
 
     code   := chain ( "|" chain )*
-    chain  := [ anchor ";" ] [ age ";" ] term ( ";" [ age ";" ] term )*
+    chain  := [ anchor ";" ] link ( ";" link )*
+    link   := [ age ":" ] term
     anchor := "x" | "o"
     age    := "El" | "Yn"
     term   := kin term | abbreviation
@@ -108,22 +117,22 @@ and that no two concepts denote the same set.
 
 The basic ways to get a broader code follow from the definitions:
 
-- **drop a restriction**: `x;El;Br` ⊑ `El;Br` ⊑ `Br`;
+- **drop a restriction**: `x;El:Br` ⊑ `El:Br` ⊑ `Br`;
 - **generalize a term**: `Fa;Br;So` ⊑ `Pa;Br;So` ⊑ `Pa;Sb;So` ⊑ `Pa;Sb;Ch`;
 - **add a disjunct**: `Fa` ⊑ `Fa|Fa;Br`.
 
 Composition is monotone in each term, so these can be applied anywhere in a chain.
 
-Two codes can have common hyponyms. `x;El;Br` "a man's elder brother" lies under
-both `x;Br` "a man's brother" and `El;Br` "elder brother", because
-⟦x;Br⟧ ∩ ⟦El;Br⟧ = ⟦x;El;Br⟧. This is why the hierarchy is a graph rather than a
+Two codes can have common hyponyms. `x;El:Br` "a man's elder brother" lies under
+both `x;Br` "a man's brother" and `El:Br` "elder brother", because
+⟦x;Br⟧ ∩ ⟦El:Br⟧ = ⟦x;El:Br⟧. This is why the hierarchy is a graph rather than a
 tree: a concept can have several hypernyms, one for each feature that can be
 generalized.
 
 Some codes have the same meaning:
 
     Pa  = Fa|Mo           Sb = Br|Ss          Ch = So|Da         Sp = Hu|Wi
-    Br  = El;Br | Yn;Br   Sb = x;Sb | o;Sb
+    Br  = El:Br | Yn:Br   Sb = x;Sb | o;Sb
     Pb  = Pa;Sb
 
 Only one of each set of equivalent codes is used for a concept.
@@ -136,15 +145,14 @@ model: ego sex `m`/`f` is the anchor, and `F M B Z S D H W` are the eight links.
 (parent), `C` (child), `G` (sibling) and `E` (spouse) correspond to `Pa`, `Ch`,
 `Sb` and `Sp`. A Kinbank term matches a concept when the positions it is listed
 under equal ⟦c⟧ exactly (see the Kinbank section of the README). In Kinbank, an
-age outside the slot is ignored: `mFeBS` is treated as `mFBS`.
+age outside the slot is ignored: `mFeBS` is treated as `mFBS`. Kinbank's
+in-law positions with an age (`mHeB`, `meZH`) fall in the slots of the ES and SE
+shapes.
 
 ### What the algebra does not cover
 
 - **`Rel` and `InL`** have no set of positions: any relative, and any relative by
   marriage, at any distance. Their place in the hierarchy is stated by hand.
-- The cousin use of **`El`/`Yn`** depends on the concept's subdomain, not just
-  on the code (see below). `build.py` passes the subdomain along with the
-  code.
 - **Positions are genealogical only.** Step-relations, adoption, half-siblings,
   social or classificatory uses, and register (*dad* vs *father*) are not features.
   See `docs/open-questions.md`.
@@ -162,8 +170,8 @@ age outside the slot is ignored: `mFeBS` is treated as `mFBS`.
 
 | feature | meaning | example |
 |---|---|---|
-| `El` | elder: older than the reference person (see the table of age slots) | `Fa;El;Br` "father's elder brother" |
-| `Yn` | younger | `Yn;Ss` "younger sister" |
+| `El` | elder: older than the nearest earlier person on the path of the same generation (see the table of age slots) | `Fa;El:Br` "father's elder brother" |
+| `Yn` | younger | `Yn:Ss` "younger sister" |
 
 ### Specific kin terms
 
@@ -211,12 +219,13 @@ unions have a set of positions; `Rel` and `InL` do not.
 
 | operator | meaning | example |
 |---|---|---|
-| `;` | composition: the next link outward, or a restriction on what follows | `Mo;Ss;Da` "mother's sister's daughter" |
+| `;` | composition: the next link outward (after `x`/`o`, the first link) | `Mo;Ss;Da` "mother's sister's daughter" |
+| `:` | a modifier of the link it is attached to | `Fa;El:Br` "father's elder brother" |
 | `\|` | union of codes | `Fa\|Fa;Br` "father or father's brother" |
 
-In ids, `;` becomes `-` and `|` becomes `_`, so `Fa|Fa;Br` is the synset
-`omw-kin-Fa_Fa-Br`. The `dc:identifier` is the code as it is
-(`Fa|Fa;Br`).
+In ids, `;` becomes `-`, `:` becomes `.` and `|` becomes `_`, so `Fa|Fa;El:Br` is
+the synset `omw-kin-Fa_Fa-El.Br`. The `dc:identifier` is the code as it is
+(`Fa|Fa;El:Br`).
 
 ### KinDiv's codes
 
@@ -224,7 +233,10 @@ KinDiv writes some codes differently, and `data/kindiv-codes.tsv` maps them to
 ours when its files are read. KinDiv uses `Pr` for parent at the end of
 grandparent codes (`Fa;Pr`) and `Gr` for the first link of a grandparent or
 grandchild code (`Gr;Mo`, `Gr;Da`); both meant the same as `Pa` (or `Ch` for a
-grandchild), so we write `Fa;Pa`, `Pa;Mo` and `Ch;Da`.
+grandchild), so we write `Fa;Pa`, `Pa;Mo` and `Ch;Da`. KinDiv also writes a
+relative age as a term of its own, before the term it modifies (`Fa;El;Br`) or,
+for a cousin, at the front (`El;Fa;Br;So`); `from_kindiv` attaches it to its
+link instead (`Fa;El:Br`, `Fa;Br;El:So`).
 
 ## References
 

@@ -1,17 +1,17 @@
 {
   "concepts": {
-    "total": 306,
+    "total": 310,
     "kindiv": 198,
     "restored": 2,
     "kindiv_restored": 200,
-    "added": 32,
+    "added": 36,
     "kinbank": 74,
     "kinbank_single": 38,
     "kinbank_mergers": 36
   },
   "ili": {
     "linked": 35,
-    "proposed": 264,
+    "proposed": 268,
     "unattested": 7,
     "kindiv_exact": 16
   },
@@ -63,10 +63,10 @@
     "wikidata_languages": 23
   },
   "romanizations": {
-    "words": 2226,
+    "words": 2206,
     "languages": 65,
     "pronunciations": 402,
-    "lemmas": 1824,
+    "lemmas": 1804,
     "both": 0
   },
   "wordnet_words": {
@@ -108,9 +108,9 @@
     "glottocodes": 1189,
     "half_sibling_languages": 13,
     "half_sibling_general_families": 4,
-    "unmatched_extensions": 1313,
-    "unmatched_one_family": 981,
-    "unmatched_one_family_pct": 74.7
+    "unmatched_extensions": 1320,
+    "unmatched_one_family": 988,
+    "unmatched_one_family_pct": 74.8
   },
   "tufs": {
     "languages": 23

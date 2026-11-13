@@ -71,8 +71,8 @@ def test_kinbank_verdicts_add_up(found: dict) -> None:
 
 #: positions for a toy grid: a woman's elder and younger brother, and more
 EXTENT = {
-    "o;El;Br": frozenset({"oeB"}),
-    "o;Yn;Br": frozenset({"oyB"}),
+    "o;El:Br": frozenset({"oeB"}),
+    "o;Yn:Br": frozenset({"oyB"}),
     "o;Br": frozenset({"oeB", "oyB"}),
     "Da;Da": frozenset({"DD"}),
     "Ch;Da": frozenset({"DD", "SD"}),
@@ -94,7 +94,7 @@ def test_same_concept_agrees() -> None:
 
 def test_equal_extent_agrees() -> None:
     """Maori tungāne: KinDiv's elder and younger brother, Kinbank's brother."""
-    kindiv = {("mi", "tungāne"): {"o;El;Br", "o;Yn;Br"}}
+    kindiv = {("mi", "tungāne"): {"o;El:Br", "o;Yn:Br"}}
     assert verdict(kindiv, "tungāne", "o;Br") == {"equal": 1}
 
 

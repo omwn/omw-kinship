@@ -22,23 +22,23 @@ import pytest
         ("Pb", "uncles and aunts", "a sibling of one's parent (an uncle or aunt)"),
         ("x;Fa;Br;So", "cousins", "a son of a man's father's brother (a cousin)"),
         (
-            "Pa;El;Br",
+            "Pa;El:Br",
             "uncles and aunts",
             "an elder brother of one's parent (an uncle or aunt)",
         ),
         (
-            "El;Br;Ch",
+            "El:Br;Ch",
             "nephews and nieces",
             "a child of one's elder brother (a nephew or niece)",
         ),
-        ("o;Yn;Ss", "siblings", "a younger sister of a woman (a sibling)"),
+        ("o;Yn:Ss", "siblings", "a younger sister of a woman (a sibling)"),
         (
-            "El;Fa;Br;So",
+            "Fa;Br;El:So",
             "cousins",
             "a son of one's father's brother, who is older than oneself (a cousin)",
         ),
         (
-            "x;El;Pa;Sb;So",
+            "x;Pa;Sb;El:So",
             "cousins",
             "a son of a man's parent's sibling, who is older than him (a cousin)",
         ),
@@ -95,7 +95,7 @@ def test_broad_uncle_and_aunt_are_linked_and_above_kindiv_nodes() -> None:
     ancestry = build.read_hierarchy(concepts)
     assert concepts["Unc"].ili == "i93825"
     assert concepts["Aun"].ili == "i88357"
-    assert "Unc" in ancestry["Fa;El;Br"]
+    assert "Unc" in ancestry["Fa;El:Br"]
     assert "Aun" in ancestry["Mo;Ss"]
 
 
@@ -132,7 +132,7 @@ def test_words_held_back_for_review_are_left_out_from_any_source() -> None:
 def test_affinal_uncles_and_aunts_are_uncles_and_in_laws() -> None:
     ancestry = build.read_hierarchy(build.read_concepts())
     assert {"Pa;Ss;Hu", "Unc", "InL", "Rel"} <= ancestry["Fa;Ss;Hu"]
-    assert {"Fa;Br;Wi", "Pa;Br;Wi", "Aun", "InL"} <= ancestry["Fa;El;Br;Wi"]
+    assert {"Fa;Br;Wi", "Pa;Br;Wi", "Aun", "InL"} <= ancestry["Fa;El:Br;Wi"]
     assert "Pa;Br" not in ancestry["Fa;Ss;Hu"]
 
 
@@ -187,6 +187,37 @@ def test_extra_relations_are_nearest_links() -> None:
 
 def test_kintype_doctests() -> None:
     assert doctest.testmod(kintype).failed == 0
+
+
+def test_kindiv_codes_are_converted_to_our_notation() -> None:
+    assert kintype.from_kindiv("El;Fa;Br;So") == "Fa;Br;El:So"
+    assert kintype.from_kindiv("x;Fa;Yn;Br") == "x;Fa;Yn:Br"
+    concepts = build.read_concepts()
+    assert not [
+        code for code in concepts if ";El;" in f";{code}" or ";Yn;" in f";{code}"
+    ]
+
+
+def test_an_age_off_its_slot_is_an_error() -> None:
+    with pytest.raises(ValueError):
+        kintype.kindiv_atoms("El:Fa;Br")
+    with pytest.raises(ValueError):
+        kintype.kindiv_atoms("Fa;Br;El:Wi")
+
+
+def test_in_law_ages_split_brothers_in_law() -> None:
+    # the spouse's sibling's age is relative to the spouse, a sibling's spouse's
+    # is the sibling's: Japanese 義兄 is an elder brother-in-law
+    concepts = build.read_concepts()
+    ancestry = build.read_hierarchy(concepts)
+    elder = "Sp;El:Br|El:Ss;Hu"
+    assert {"BrL", "InL"} <= ancestry[elder]
+    assert kintype.kindiv_atoms("Sp;El:Br") < kintype.kindiv_atoms("Sp;Br")
+
+
+def test_a_removed_word_keeps_its_other_concepts() -> None:
+    assert ("ja", "義兄", "BrL") in build.removed()
+    assert ("ja", "義兄") not in build.held_back()
 
 
 def test_honorific_doctests() -> None:

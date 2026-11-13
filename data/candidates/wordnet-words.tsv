@@ -1,9 +1,9 @@
 language	tag	concept	word	source	ili
 Abui	abz	Ch	wiil	abwn:0.1	i88965
 Abui	abz	Ch	moku	abwn:0.1	i88965
-Abui	abz	Fa	maama	abwn:0.1	i89901
 Abui	abz	Ch;Ch	heratala	abwn:0.1	i90280
 Abui	abz	Ch;Ch	haratala	abwn:0.1	i90280
+Abui	abz	Fa	maama	abwn:0.1	i89901
 Abui	abz	Mo	heyaa	abwn:0.1	i91462
 Abui	abz	Mo	hayaa	abwn:0.1	i91462
 Abui	abz	Mo	haya	abwn:0.1	i91462
@@ -13,16 +13,24 @@ Afrikaans	af	Aun	tante	inaf:0.1	i88357
 Afrikaans	af	Br	manlike broer of suster	inaf:0.1	i91174
 Afrikaans	af	BrL	swaer	inaf:0.1	i88712
 Afrikaans	af	Ch	kind	inaf:0.1	i88965
+Afrikaans	af	Ch;Ch	kleinkind	inaf:0.1	i90280
+Afrikaans	af	Ch;Da	kleindogter	inaf:0.1	i90281
+Afrikaans	af	Ch;So	kleinseun	inaf:0.1	i90293
 Afrikaans	af	Da	meisie	inaf:0.1	i89398
 Afrikaans	af	Da	dogter	inaf:0.1	i89398
 Afrikaans	af	Da;Hu	Skoonseun	inaf:0.1	i93147
-Afrikaans	af	El;Br	groot broer	inaf:0.1	i88560
-Afrikaans	af	El;Ss	groot suster	inaf:0.1	i88564
+Afrikaans	af	El:Br	groot broer	inaf:0.1	i88560
+Afrikaans	af	El:Ss	groot suster	inaf:0.1	i88564
 Afrikaans	af	Fa	vader	inaf:0.1	i89901
 Afrikaans	af	Fa	verwekker	inaf:0.1	i89901
 Afrikaans	af	Fa	manlike ouer	inaf:0.1	i89901
-Afrikaans	af	Ch;Ch	kleinkind	inaf:0.1	i90280
-Afrikaans	af	Ch;Da	kleindogter	inaf:0.1	i90281
+Afrikaans	af	Hu	manlief	inaf:0.1	i90626
+Afrikaans	af	Hu	eggenoot	inaf:0.1	i90626
+Afrikaans	af	Hu	getroude man	inaf:0.1	i90626
+Afrikaans	af	InL	skoonfamilie	inaf:0.1	i90702
+Afrikaans	af	Mo	moeder	inaf:0.1	i91462
+Afrikaans	af	Mo	vroulike ouer	inaf:0.1	i91462
+Afrikaans	af	Pa	ouer	inaf:0.1	i91858
 Afrikaans	af	Pa;Fa	oupa	inaf:0.1	i90287
 Afrikaans	af	Pa;Fa	gramp	inaf:0.1	i90287
 Afrikaans	af	Pa;Fa	Oupa	inaf:0.1	i90287
@@ -32,14 +40,6 @@ Afrikaans	af	Pa;Mo	nanna	inaf:0.1	i90289
 Afrikaans	af	Pa;Mo	nan	inaf:0.1	i90289
 Afrikaans	af	Pa;Mo	gran	inaf:0.1	i90289
 Afrikaans	af	Pa;Pa	grootouer	inaf:0.1	i90292
-Afrikaans	af	Ch;So	kleinseun	inaf:0.1	i90293
-Afrikaans	af	Hu	manlief	inaf:0.1	i90626
-Afrikaans	af	Hu	eggenoot	inaf:0.1	i90626
-Afrikaans	af	Hu	getroude man	inaf:0.1	i90626
-Afrikaans	af	InL	skoonfamilie	inaf:0.1	i90702
-Afrikaans	af	Mo	moeder	inaf:0.1	i91462
-Afrikaans	af	Mo	vroulike ouer	inaf:0.1	i91462
-Afrikaans	af	Pa	ouer	inaf:0.1	i91858
 Afrikaans	af	Pa;Sb;Ch	neef- Duits	inaf:0.1	i89276
 Afrikaans	af	Pa;Sb;Ch	tweede neef	inaf:0.1	i89276
 Afrikaans	af	Pa;Sb;Ch	neef	inaf:0.1	i89276
@@ -63,20 +63,20 @@ Afrikaans	af	Ss	vroulike broer	inaf:0.1	i89922
 Afrikaans	af	Unc	oom	inaf:0.1	i93825
 Afrikaans	af	Wi	vrou	inaf:0.1	i94123
 Afrikaans	af	Wi	getroude vrou	inaf:0.1	i94123
-Afrikaans	af	Yn;Br	boetie	inaf:0.1	i91053
-Afrikaans	af	Yn;Ss	klein suster	inaf:0.1	i91057
+Afrikaans	af	Yn:Br	boetie	inaf:0.1	i91053
+Afrikaans	af	Yn:Ss	klein suster	inaf:0.1	i91057
 Arabic	ar	Ch	إِبْن	omw-arb:2.0	i88965
 Arabic	ar	Ch	نجْل	omw-arb:2.0	i88965
 Arabic	ar	Fa	أبّ	omw-arb:2.0	i89901
 Arabic	ar	Fa	مُنْجِب	omw-arb:2.0	i89901
 Arabic	ar	Fa	وَالِد	omw-arb:2.0	i89901
+Arabic	ar	Mo	أُمّ	omw-arb:2.0	i91462
+Arabic	ar	Mo	وَالِدَة	omw-arb:2.0	i91462
+Arabic	ar	Pa	والِدَان	omw-arb:2.0	i91858
 Arabic	ar	Pa;Fa	جدّ	omw-arb:2.0	i90287
 Arabic	ar	Pa;Mo	جدّة	omw-arb:2.0	i90289
 Arabic	ar	Pa;Pa	جدّ	omw-arb:2.0	i90292
 Arabic	ar	Pa;Pa	جدّة	omw-arb:2.0	i90292
-Arabic	ar	Mo	أُمّ	omw-arb:2.0	i91462
-Arabic	ar	Mo	وَالِدَة	omw-arb:2.0	i91462
-Arabic	ar	Pa	والِدَان	omw-arb:2.0	i91858
 Arabic	ar	Rel	نسِيب	omw-arb:2.0	i90856
 Arabic	ar	Rel	قرِيب	omw-arb:2.0	i90856
 Arabic	ar	Sb	شقِيق	omw-arb:2.0	i92980
@@ -105,13 +105,13 @@ Bulgarian	bg	Ch	дете	omw-bg:2.0	i88965
 Bulgarian	bg	Da	дъщеря	omw-bg:2.0	i89398
 Bulgarian	bg	Da	щерка	omw-bg:2.0	i89398
 Bulgarian	bg	Fa	баща	omw-bg:2.0	i89901
-Bulgarian	bg	Pa;Fa	дядо	omw-bg:2.0	i90287
-Bulgarian	bg	Pa;Mo	баба	omw-bg:2.0	i90289
 Bulgarian	bg	Hu	мъж	omw-bg:2.0	i90626
 Bulgarian	bg	Hu	съпруг	omw-bg:2.0	i90626
 Bulgarian	bg	Mo	майка	omw-bg:2.0	i91462
 Bulgarian	bg	Mo	мама	omw-bg:2.0	i91462
 Bulgarian	bg	Pa	родител	omw-bg:2.0	i91858
+Bulgarian	bg	Pa;Fa	дядо	omw-bg:2.0	i90287
+Bulgarian	bg	Pa;Mo	баба	omw-bg:2.0	i90289
 Bulgarian	bg	Pa;Sb;Ch	братовчед	omw-bg:2.0	i89276
 Bulgarian	bg	Rel	близък	omw-bg:2.0	i90856
 Bulgarian	bg	Rel	роднина	omw-bg:2.0	i90856
@@ -130,15 +130,25 @@ Catalan	ca	BrL	cunyat	omw-ca:2.0	i88712
 Catalan	ca	Ch	fill	omw-ca:2.0	i88965
 Catalan	ca	Ch	filla	omw-ca:2.0	i88965
 Catalan	ca	Ch	nen	omw-ca:2.0	i88965
+Catalan	ca	Ch;Ch	nét	omw-ca:2.0	i90280
+Catalan	ca	Ch;Da	néta	omw-ca:2.0	i90281
+Catalan	ca	Ch;So	nét	omw-ca:2.0	i90293
 Catalan	ca	Da	filla	omw-ca:2.0	i89398
 Catalan	ca	Da;Hu	gendre	omw-ca:2.0	i93147
-Catalan	ca	El;Br	germà gran	omw-ca:2.0	i88560
-Catalan	ca	El;Ss	germana gran	omw-ca:2.0	i88564
+Catalan	ca	El:Br	germà gran	omw-ca:2.0	i88560
+Catalan	ca	El:Ss	germana gran	omw-ca:2.0	i88564
 Catalan	ca	Fa	papa	omw-ca:2.0	i89901
 Catalan	ca	Fa	papà	omw-ca:2.0	i89901
 Catalan	ca	Fa	pare	omw-ca:2.0	i89901
-Catalan	ca	Ch;Ch	nét	omw-ca:2.0	i90280
-Catalan	ca	Ch;Da	néta	omw-ca:2.0	i90281
+Catalan	ca	Hu	espòs	omw-ca:2.0	i90626
+Catalan	ca	Hu	home	omw-ca:2.0	i90626
+Catalan	ca	Hu	marit	omw-ca:2.0	i90626
+Catalan	ca	InL	familiar polític	omw-ca:2.0	i90702
+Catalan	ca	InL	parent polític	omw-ca:2.0	i90702
+Catalan	ca	Mo	mare	omw-ca:2.0	i91462
+Catalan	ca	Pa	pare	omw-ca:2.0	i91858
+Catalan	ca	Pa	parent	omw-ca:2.0	i91858
+Catalan	ca	Pa	pares	omw-ca:2.0	i91858
 Catalan	ca	Pa;Fa	avi	omw-ca:2.0	i90287
 Catalan	ca	Pa;Fa	gramps	omw-ca:2.0	i90287
 Catalan	ca	Pa;Fa	iai	omw-ca:2.0	i90287
@@ -149,16 +159,6 @@ Catalan	ca	Pa;Mo	nana	omw-ca:2.0	i90289
 Catalan	ca	Pa;Mo	àvia	omw-ca:2.0	i90289
 Catalan	ca	Pa;Pa	avi	omw-ca:2.0	i90292
 Catalan	ca	Pa;Pa	avis	omw-ca:2.0	i90292
-Catalan	ca	Ch;So	nét	omw-ca:2.0	i90293
-Catalan	ca	Hu	espòs	omw-ca:2.0	i90626
-Catalan	ca	Hu	home	omw-ca:2.0	i90626
-Catalan	ca	Hu	marit	omw-ca:2.0	i90626
-Catalan	ca	InL	familiar polític	omw-ca:2.0	i90702
-Catalan	ca	InL	parent polític	omw-ca:2.0	i90702
-Catalan	ca	Mo	mare	omw-ca:2.0	i91462
-Catalan	ca	Pa	pare	omw-ca:2.0	i91858
-Catalan	ca	Pa	parent	omw-ca:2.0	i91858
-Catalan	ca	Pa	pares	omw-ca:2.0	i91858
 Catalan	ca	Pa;Sb;Ch	cosina	omw-ca:2.0	i89276
 Catalan	ca	Pa;Sb;Ch	cosí	omw-ca:2.0	i89276
 Catalan	ca	Pa;Sb;Ch	cosí germà	omw-ca:2.0	i89276
@@ -185,10 +185,10 @@ Catalan	ca	Wi	dona	omw-ca:2.0	i94123
 Catalan	ca	Wi	dona casada	omw-ca:2.0	i94123
 Catalan	ca	Wi	esposa	omw-ca:2.0	i94123
 Catalan	ca	Wi	muller	omw-ca:2.0	i94123
-Catalan	ca	Yn;Br	germanet	omw-ca:2.0	i91053
-Catalan	ca	Yn;Br	germà petit	omw-ca:2.0	i91053
-Catalan	ca	Yn;Ss	germana petita	omw-ca:2.0	i91057
-Catalan	ca	Yn;Ss	germaneta	omw-ca:2.0	i91057
+Catalan	ca	Yn:Br	germanet	omw-ca:2.0	i91053
+Catalan	ca	Yn:Br	germà petit	omw-ca:2.0	i91053
+Catalan	ca	Yn:Ss	germana petita	omw-ca:2.0	i91057
+Catalan	ca	Yn:Ss	germaneta	omw-ca:2.0	i91057
 Mandarin Chinese	cmn	Aun	姑	cow:1.1	i88357
 Mandarin Chinese	cmn	Aun	阿姨	cow:1.1	i88357
 Mandarin Chinese	cmn	Aun	舅母	cow:1.1	i88357
@@ -216,25 +216,17 @@ Mandarin Chinese	cmn	Ch	孩子	cow:1.1	i88965
 Mandarin Chinese	cmn	Ch	小孩子	cow:1.1	i88965
 Mandarin Chinese	cmn	Ch	子	cow:1.1	i88965
 Mandarin Chinese	cmn	Ch	儿	cow:1.1	i88965
+Mandarin Chinese	cmn	Ch;Da	孙女儿	cow:1.1	i90281
 Mandarin Chinese	cmn	Da	女儿	cow:1.1	i89398
-Mandarin Chinese	cmn	El;Br	兄	cow:1.1	i88560
-Mandarin Chinese	cmn	El;Br	兄长	cow:1.1	i88560
-Mandarin Chinese	cmn	El;Br	哥哥	cow:1.1	i88560
-Mandarin Chinese	cmn	El;Ss	姐姐	cow:1.1	i88564
-Mandarin Chinese	cmn	El;Ss	姐	cow:1.1	i88564
+Mandarin Chinese	cmn	El:Br	兄	cow:1.1	i88560
+Mandarin Chinese	cmn	El:Br	兄长	cow:1.1	i88560
+Mandarin Chinese	cmn	El:Br	哥哥	cow:1.1	i88560
+Mandarin Chinese	cmn	El:Ss	姐姐	cow:1.1	i88564
+Mandarin Chinese	cmn	El:Ss	姐	cow:1.1	i88564
 Mandarin Chinese	cmn	Fa	父亲	cow:1.1	i89901
 Mandarin Chinese	cmn	Fa	爹	cow:1.1	i89901
 Mandarin Chinese	cmn	Fa	爸爸	cow:1.1	i89901
 Mandarin Chinese	cmn	Fa	父	cow:1.1	i89901
-Mandarin Chinese	cmn	Ch;Da	孙女儿	cow:1.1	i90281
-Mandarin Chinese	cmn	Pa;Fa	爷爷	cow:1.1	i90287
-Mandarin Chinese	cmn	Pa;Fa	外公	cow:1.1	i90287
-Mandarin Chinese	cmn	Pa;Fa	外祖父	cow:1.1	i90287
-Mandarin Chinese	cmn	Pa;Fa	祖父	cow:1.1	i90287
-Mandarin Chinese	cmn	Pa;Mo	外婆	cow:1.1	i90289
-Mandarin Chinese	cmn	Pa;Mo	外祖母	cow:1.1	i90289
-Mandarin Chinese	cmn	Pa;Mo	祖母	cow:1.1	i90289
-Mandarin Chinese	cmn	Pa;Mo	奶奶	cow:1.1	i90289
 Mandarin Chinese	cmn	Hu	先生	cow:1.1	i90626
 Mandarin Chinese	cmn	Hu	老公	cow:1.1	i90626
 Mandarin Chinese	cmn	Hu	相公	cow:1.1	i90626
@@ -246,6 +238,14 @@ Mandarin Chinese	cmn	Mo	妈妈	cow:1.1	i91462
 Mandarin Chinese	cmn	Pa	父亲或母亲	cow:1.1	i91858
 Mandarin Chinese	cmn	Pa	家长	cow:1.1	i91858
 Mandarin Chinese	cmn	Pa	双亲之一	cow:1.1	i91858
+Mandarin Chinese	cmn	Pa;Fa	爷爷	cow:1.1	i90287
+Mandarin Chinese	cmn	Pa;Fa	外公	cow:1.1	i90287
+Mandarin Chinese	cmn	Pa;Fa	外祖父	cow:1.1	i90287
+Mandarin Chinese	cmn	Pa;Fa	祖父	cow:1.1	i90287
+Mandarin Chinese	cmn	Pa;Mo	外婆	cow:1.1	i90289
+Mandarin Chinese	cmn	Pa;Mo	外祖母	cow:1.1	i90289
+Mandarin Chinese	cmn	Pa;Mo	祖母	cow:1.1	i90289
+Mandarin Chinese	cmn	Pa;Mo	奶奶	cow:1.1	i90289
 Mandarin Chinese	cmn	Pa;Sb;Ch	堂姊	cow:1.1	i89276
 Mandarin Chinese	cmn	Pa;Sb;Ch	堂弟	cow:1.1	i89276
 Mandarin Chinese	cmn	Pa;Sb;Ch	堂兄	cow:1.1	i89276
@@ -289,8 +289,8 @@ Mandarin Chinese	cmn	Wi	太太	cow:1.1	i94123
 Mandarin Chinese	cmn	Wi	老婆	cow:1.1	i94123
 Mandarin Chinese	cmn	Wi	妻子	cow:1.1	i94123
 Mandarin Chinese	cmn	Wi	爱人	cow:1.1	i94123
-Mandarin Chinese	cmn	Yn;Br	弟弟	cow:1.1	i91053
-Mandarin Chinese	cmn	Yn;Ss	妹妹	cow:1.1	i91057
+Mandarin Chinese	cmn	Yn:Br	弟弟	cow:1.1	i91053
+Mandarin Chinese	cmn	Yn:Ss	妹妹	cow:1.1	i91057
 Coptic	cop	Ch	ⲟⲩⲁ	copwn-cop:1.0	i88965
 Coptic	cop	Ch	ϣⲉⲉⲣⲉ	copwn-cop:1.0	i88965
 Coptic	cop	Ch	ⲙⲁⲥ	copwn-cop:1.0	i88965
@@ -337,8 +337,6 @@ Coptic	cop	Fa	ϣⲟⲙ	copwn-cop:1.0	i89901
 Coptic	cop	Fa	ⲁⲃⲃⲁ	copwn-cop:1.0	i89901
 Coptic	cop	Fa	ⲡⲁⲡⲁⲥ	copwn-cop:1.0	i89901
 Coptic	cop	Fa	ⲡⲁⲡⲡⲁⲥ	copwn-cop:1.0	i89901
-Coptic	cop	Pa;Fa	ⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ	copwn-cop:1.0	i90287
-Coptic	cop	Pa;Fa	ⲙ︦ⲏ︦ⲧ︦ⲣ︦ⲟ︦ⲡⲁ︤ⲧ︦ⲱ︦ⲣ︥	copwn-cop:1.0	i90287
 Coptic	cop	Hu	ⲣⲱⲙⲉ	copwn-cop:1.0	i90626
 Coptic	cop	Hu	ϩⲁⲓ	copwn-cop:1.0	i90626
 Coptic	cop	Hu	ϩⲟⲟⲩⲧ	copwn-cop:1.0	i90626
@@ -382,6 +380,8 @@ Coptic	cop	Mo	ϣⲟⲙⲉ	copwn-cop:1.0	i91462
 Coptic	cop	Mo	ⲙⲏⲟⲩ	copwn-cop:1.0	i91462
 Coptic	cop	Pa	ⲣⲱⲙⲉ	copwn-cop:1.0	i91858
 Coptic	cop	Pa	ⲉⲓⲱⲧ	copwn-cop:1.0	i91858
+Coptic	cop	Pa;Fa	ⲙⲏⲧⲣⲟⲡⲁⲧⲱⲣ	copwn-cop:1.0	i90287
+Coptic	cop	Pa;Fa	ⲙ︦ⲏ︦ⲧ︦ⲣ︦ⲟ︦ⲡⲁ︤ⲧ︦ⲱ︦ⲣ︥	copwn-cop:1.0	i90287
 Coptic	cop	Rel	ⲣⲱⲙⲉ	copwn-cop:1.0	i90856
 Coptic	cop	Rel	ⲕⲁⲧⲁ	copwn-cop:1.0	i90856
 Coptic	cop	Rel	ⲗⲟ	copwn-cop:1.0	i90856
@@ -438,12 +438,12 @@ Danish	da	Ch	barn	omw-da:2.0	i88965
 Danish	da	Da	datter	omw-da:2.0	i89398
 Danish	da	Fa	far	omw-da:2.0	i89901
 Danish	da	Fa	farmand	omw-da:2.0	i89901
-Danish	da	Pa;Fa	bedste	omw-da:2.0	i90287
-Danish	da	Pa;Fa	bedstefar	omw-da:2.0	i90287
-Danish	da	Pa;Mo	bedstemor	omw-da:2.0	i90289
 Danish	da	Hu	mand	omw-da:2.0	i90626
 Danish	da	Mo	mor	omw-da:2.0	i91462
 Danish	da	Mo	TOP	omw-da:2.0	i91462
+Danish	da	Pa;Fa	bedste	omw-da:2.0	i90287
+Danish	da	Pa;Fa	bedstefar	omw-da:2.0	i90287
+Danish	da	Pa;Mo	bedstemor	omw-da:2.0	i90289
 Danish	da	Rel	slægtning	omw-da:2.0	i90856
 Danish	da	Sb;So	nevø	omw-da:2.0	i91586
 Danish	da	Sp	partner	omw-da:2.0	i93233
@@ -454,6 +454,15 @@ Danish	da	Wi	frue	omw-da:2.0	i94123
 Danish	da	Wi	hustru	omw-da:2.0	i94123
 Danish	da	Wi	kone	omw-da:2.0	i94123
 Danish	da	Wi	viv	omw-da:2.0	i94123
+German	de	Ch;Ch	Enkel	odenet:1.4	i90280
+German	de	Ch;Ch	Großkind	odenet:1.4	i90280
+German	de	Ch;Ch	Enkelkind	odenet:1.4	i90280
+German	de	Ch;Da	Großtochter	odenet:1.4	i90281
+German	de	Ch;Da	Enkeltochter	odenet:1.4	i90281
+German	de	Ch;Da	Enkelin	odenet:1.4	i90281
+German	de	Ch;So	Enkel	odenet:1.4	i90293
+German	de	Ch;So	Großsohn	odenet:1.4	i90293
+German	de	Ch;So	Enkelsohn	odenet:1.4	i90293
 German	de	Da	Töchterchen	odenet:1.4	i89398
 German	de	Da	Tochter	odenet:1.4	i89398
 German	de	Da;Hu	Schwiegersohn	odenet:1.4	i93147
@@ -473,26 +482,6 @@ German	de	Fa	Erzeuger	odenet:1.4	i89901
 German	de	Fa	Daddy	odenet:1.4	i89901
 German	de	Fa	Pa	odenet:1.4	i89901
 German	de	Fa	Dad	odenet:1.4	i89901
-German	de	Ch;Ch	Enkel	odenet:1.4	i90280
-German	de	Ch;Ch	Großkind	odenet:1.4	i90280
-German	de	Ch;Ch	Enkelkind	odenet:1.4	i90280
-German	de	Ch;Da	Großtochter	odenet:1.4	i90281
-German	de	Ch;Da	Enkeltochter	odenet:1.4	i90281
-German	de	Ch;Da	Enkelin	odenet:1.4	i90281
-German	de	Pa;Fa	Opi	odenet:1.4	i90287
-German	de	Pa;Fa	Opa	odenet:1.4	i90287
-German	de	Pa;Fa	Großvater	odenet:1.4	i90287
-German	de	Pa;Fa	Großpapa	odenet:1.4	i90287
-German	de	Pa;Mo	Oma	odenet:1.4	i90289
-German	de	Pa;Mo	Großmutter	odenet:1.4	i90289
-German	de	Pa;Mo	Großmama	odenet:1.4	i90289
-German	de	Pa;Mo	Omama	odenet:1.4	i90289
-German	de	Pa;Mo	Omi	odenet:1.4	i90289
-German	de	Pa;Pa	Großeltern	odenet:1.4	i90292
-German	de	Pa;Pa	Oma und Opa	odenet:1.4	i90292
-German	de	Ch;So	Enkel	odenet:1.4	i90293
-German	de	Ch;So	Großsohn	odenet:1.4	i90293
-German	de	Ch;So	Enkelsohn	odenet:1.4	i90293
 German	de	Hu	Alter	odenet:1.4	i90626
 German	de	Hu	Mann	odenet:1.4	i90626
 German	de	Hu	Göttergatte	odenet:1.4	i90626
@@ -523,6 +512,17 @@ German	de	Mo	Mutter	odenet:1.4	i91462
 German	de	Mo	Mam	odenet:1.4	i91462
 German	de	Mo	Gebärerin	odenet:1.4	i91462
 German	de	Mo	Muddern	odenet:1.4	i91462
+German	de	Pa;Fa	Opi	odenet:1.4	i90287
+German	de	Pa;Fa	Opa	odenet:1.4	i90287
+German	de	Pa;Fa	Großvater	odenet:1.4	i90287
+German	de	Pa;Fa	Großpapa	odenet:1.4	i90287
+German	de	Pa;Mo	Oma	odenet:1.4	i90289
+German	de	Pa;Mo	Großmutter	odenet:1.4	i90289
+German	de	Pa;Mo	Großmama	odenet:1.4	i90289
+German	de	Pa;Mo	Omama	odenet:1.4	i90289
+German	de	Pa;Mo	Omi	odenet:1.4	i90289
+German	de	Pa;Pa	Großeltern	odenet:1.4	i90292
+German	de	Pa;Pa	Oma und Opa	odenet:1.4	i90292
 German	de	Pa;Sb;Ch	Cousin	odenet:1.4	i89276
 German	de	Pa;Sb;Ch	Vetter	odenet:1.4	i89276
 German	de	Sb	Brüder und Schwestern	odenet:1.4	i92980
@@ -564,14 +564,14 @@ Greek	el	Aun	θεία	greek-el:20	i88357
 Greek	el	Ch	τέκνο	greek-el:20	i88965
 Greek	el	Da	κόρη	greek-el:20	i89398
 Greek	el	Fa	πατέρας	greek-el:20	i89901
-Greek	el	Pa;Fa	παππούς	greek-el:20	i90287
-Greek	el	Pa;Mo	γιαγιά	greek-el:20	i90289
-Greek	el	Pa;Pa	παππούς-γιαγιά	greek-el:20	i90292
 Greek	el	Hu	άντρας	greek-el:20	i90626
 Greek	el	Hu	σύζυγος	greek-el:20	i90626
 Greek	el	InL	συγγενής εξ αγχιστείας	greek-el:20	i90702
 Greek	el	Mo	μητέρα	greek-el:20	i91462
 Greek	el	Pa	γονιός	greek-el:20	i91858
+Greek	el	Pa;Fa	παππούς	greek-el:20	i90287
+Greek	el	Pa;Mo	γιαγιά	greek-el:20	i90289
+Greek	el	Pa;Pa	παππούς-γιαγιά	greek-el:20	i90292
 Greek	el	Pa;Sb;Ch	ξαδερφός	greek-el:20	i89276
 Greek	el	Rel	συγγενής	greek-el:20	i90856
 Greek	el	Sb;Da	ανεψιά	greek-el:20	i91615
@@ -583,8 +583,8 @@ Greek	el	Sp	σύζυγος	greek-el:20	i93233
 Greek	el	Unc	θείος	greek-el:20	i93825
 Greek	el	Wi	γυναίκα	greek-el:20	i94123
 Greek	el	Wi	συμβία	greek-el:20	i94123
-Greek	el	Yn;Br	μικρός αδερφός	greek-el:20	i91053
-Greek	el	Yn;Ss	μικρή αδερφή	greek-el:20	i91057
+Greek	el	Yn:Br	μικρός αδερφός	greek-el:20	i91053
+Greek	el	Yn:Ss	μικρή αδερφή	greek-el:20	i91057
 English	en	Aun	aunt	oewn:2025+	i88357
 English	en	Aun	auntie	oewn:2025+	i88357
 English	en	Aun	aunty	oewn:2025+	i88357
@@ -592,16 +592,25 @@ English	en	Br	male sibling	oewn:2025+	i91174
 English	en	BrL	brother-in-law	oewn:2025+	i88712
 English	en	Ch	child	oewn:2025+	i88965
 English	en	Ch	kid	oewn:2025+	i88965
+English	en	Ch;Ch	grandchild	oewn:2025+	i90280
+English	en	Ch;Da	granddaughter	oewn:2025+	i90281
+English	en	Ch;So	grandson	oewn:2025+	i90293
 English	en	Da	daughter	oewn:2025+	i89398
 English	en	Da	girl	oewn:2025+	i89398
 English	en	Da;Hu	son-in-law	oewn:2025+	i93147
-English	en	El;Br	big brother	oewn:2025+	i88560
-English	en	El;Ss	big sister	oewn:2025+	i88564
+English	en	El:Br	big brother	oewn:2025+	i88560
+English	en	El:Ss	big sister	oewn:2025+	i88564
 English	en	Fa	father	oewn:2025+	i89901
 English	en	Fa	male parent	oewn:2025+	i89901
 English	en	Fa	begetter	oewn:2025+	i89901
-English	en	Ch;Ch	grandchild	oewn:2025+	i90280
-English	en	Ch;Da	granddaughter	oewn:2025+	i90281
+English	en	Hu	husband	oewn:2025+	i90626
+English	en	Hu	hubby	oewn:2025+	i90626
+English	en	Hu	married man	oewn:2025+	i90626
+English	en	InL	in-law	oewn:2025+	i90702
+English	en	InL	relative-in-law	oewn:2025+	i90702
+English	en	Mo	mother	oewn:2025+	i91462
+English	en	Mo	female parent	oewn:2025+	i91462
+English	en	Pa	parent	oewn:2025+	i91858
 English	en	Pa;Fa	grandfather	oewn:2025+	i90287
 English	en	Pa;Fa	gramps	oewn:2025+	i90287
 English	en	Pa;Fa	granddad	oewn:2025+	i90287
@@ -616,15 +625,6 @@ English	en	Pa;Mo	gran	oewn:2025+	i90289
 English	en	Pa;Mo	nan	oewn:2025+	i90289
 English	en	Pa;Mo	nanna	oewn:2025+	i90289
 English	en	Pa;Pa	grandparent	oewn:2025+	i90292
-English	en	Ch;So	grandson	oewn:2025+	i90293
-English	en	Hu	husband	oewn:2025+	i90626
-English	en	Hu	hubby	oewn:2025+	i90626
-English	en	Hu	married man	oewn:2025+	i90626
-English	en	InL	in-law	oewn:2025+	i90702
-English	en	InL	relative-in-law	oewn:2025+	i90702
-English	en	Mo	mother	oewn:2025+	i91462
-English	en	Mo	female parent	oewn:2025+	i91462
-English	en	Pa	parent	oewn:2025+	i91858
 English	en	Pa;Sb;Ch	cousin	oewn:2025+	i89276
 English	en	Pa;Sb;Ch	first cousin	oewn:2025+	i89276
 English	en	Pa;Sb;Ch	cousin-german	oewn:2025+	i89276
@@ -650,8 +650,8 @@ English	en	Ss	female sibling	oewn:2025+	i89922
 English	en	Unc	uncle	oewn:2025+	i93825
 English	en	Wi	wife	oewn:2025+	i94123
 English	en	Wi	married woman	oewn:2025+	i94123
-English	en	Yn;Br	little brother	oewn:2025+	i91053
-English	en	Yn;Ss	little sister	oewn:2025+	i91057
+English	en	Yn:Br	little brother	oewn:2025+	i91053
+English	en	Yn:Ss	little sister	oewn:2025+	i91057
 Spanish	es	Aun	tia	omw-es:2.0	i88357
 Spanish	es	Aun	tita	omw-es:2.0	i88357
 Spanish	es	Aun	tiíta	omw-es:2.0	i88357
@@ -663,18 +663,30 @@ Spanish	es	Ch	hijo	omw-es:2.0	i88965
 Spanish	es	Ch	ninzzo	omw-es:2.0	i88965
 Spanish	es	Ch	niña	omw-es:2.0	i88965
 Spanish	es	Ch	niño	omw-es:2.0	i88965
+Spanish	es	Ch;Ch	nieto	omw-es:2.0	i90280
+Spanish	es	Ch;Da	nieta	omw-es:2.0	i90281
+Spanish	es	Ch;So	nieto	omw-es:2.0	i90293
 Spanish	es	Da	hija	omw-es:2.0	i89398
 Spanish	es	Da	hijo	omw-es:2.0	i89398
 Spanish	es	Da	niña	omw-es:2.0	i89398
 Spanish	es	Da;Hu	yerno	omw-es:2.0	i93147
-Spanish	es	El;Br	hermano mayor	omw-es:2.0	i88560
-Spanish	es	El;Ss	hermana mayor	omw-es:2.0	i88564
+Spanish	es	El:Br	hermano mayor	omw-es:2.0	i88560
+Spanish	es	El:Ss	hermana mayor	omw-es:2.0	i88564
 Spanish	es	Fa	padre	omw-es:2.0	i89901
 Spanish	es	Fa	papa	omw-es:2.0	i89901
 Spanish	es	Fa	papi	omw-es:2.0	i89901
 Spanish	es	Fa	papá	omw-es:2.0	i89901
-Spanish	es	Ch;Ch	nieto	omw-es:2.0	i90280
-Spanish	es	Ch;Da	nieta	omw-es:2.0	i90281
+Spanish	es	Hu	esposo	omw-es:2.0	i90626
+Spanish	es	Hu	hombre	omw-es:2.0	i90626
+Spanish	es	Hu	marido	omw-es:2.0	i90626
+Spanish	es	InL	consuegro	omw-es:2.0	i90702
+Spanish	es	InL	pariente político	omw-es:2.0	i90702
+Spanish	es	Mo	madre	omw-es:2.0	i91462
+Spanish	es	Mo	mamá	omw-es:2.0	i91462
+Spanish	es	Mo	progenitora	omw-es:2.0	i91462
+Spanish	es	Pa	padre	omw-es:2.0	i91858
+Spanish	es	Pa	padres	omw-es:2.0	i91858
+Spanish	es	Pa	progenitor	omw-es:2.0	i91858
 Spanish	es	Pa;Fa	abuelito	omw-es:2.0	i90287
 Spanish	es	Pa;Fa	abuelo	omw-es:2.0	i90287
 Spanish	es	Pa;Fa	gramps	omw-es:2.0	i90287
@@ -691,18 +703,6 @@ Spanish	es	Pa;Mo	yaya	omw-es:2.0	i90289
 Spanish	es	Pa;Pa	abuela	omw-es:2.0	i90292
 Spanish	es	Pa;Pa	abuelo	omw-es:2.0	i90292
 Spanish	es	Pa;Pa	abuelos	omw-es:2.0	i90292
-Spanish	es	Ch;So	nieto	omw-es:2.0	i90293
-Spanish	es	Hu	esposo	omw-es:2.0	i90626
-Spanish	es	Hu	hombre	omw-es:2.0	i90626
-Spanish	es	Hu	marido	omw-es:2.0	i90626
-Spanish	es	InL	consuegro	omw-es:2.0	i90702
-Spanish	es	InL	pariente político	omw-es:2.0	i90702
-Spanish	es	Mo	madre	omw-es:2.0	i91462
-Spanish	es	Mo	mamá	omw-es:2.0	i91462
-Spanish	es	Mo	progenitora	omw-es:2.0	i91462
-Spanish	es	Pa	padre	omw-es:2.0	i91858
-Spanish	es	Pa	padres	omw-es:2.0	i91858
-Spanish	es	Pa	progenitor	omw-es:2.0	i91858
 Spanish	es	Pa;Sb;Ch	prima	omw-es:2.0	i89276
 Spanish	es	Pa;Sb;Ch	primo	omw-es:2.0	i89276
 Spanish	es	Pa;Sb;Ch	primo carnal	omw-es:2.0	i89276
@@ -736,11 +736,11 @@ Spanish	es	Wi	marido	omw-es:2.0	i94123
 Spanish	es	Wi	mujer	omw-es:2.0	i94123
 Spanish	es	Wi	mujer casada	omw-es:2.0	i94123
 Spanish	es	Wi	señora	omw-es:2.0	i94123
-Spanish	es	Yn;Br	hermanito	omw-es:2.0	i91053
-Spanish	es	Yn;Br	hermano	omw-es:2.0	i91053
-Spanish	es	Yn;Br	hermano pequeño	omw-es:2.0	i91053
-Spanish	es	Yn;Ss	hermana pequeña	omw-es:2.0	i91057
-Spanish	es	Yn;Ss	hermanita	omw-es:2.0	i91057
+Spanish	es	Yn:Br	hermanito	omw-es:2.0	i91053
+Spanish	es	Yn:Br	hermano	omw-es:2.0	i91053
+Spanish	es	Yn:Br	hermano pequeño	omw-es:2.0	i91053
+Spanish	es	Yn:Ss	hermana pequeña	omw-es:2.0	i91057
+Spanish	es	Yn:Ss	hermanita	omw-es:2.0	i91057
 Basque	eu	Aun	izeba	omw-eu:2.0	i88357
 Basque	eu	BrL	ezkon-neba	omw-eu:2.0	i88712
 Basque	eu	BrL	ezkonanaia	omw-eu:2.0	i88712
@@ -749,13 +749,19 @@ Basque	eu	BrL	koinatu	omw-eu:2.0	i88712
 Basque	eu	Ch	haur	omw-eu:2.0	i88965
 Basque	eu	Ch	seme-alaba	omw-eu:2.0	i88965
 Basque	eu	Ch	ume	omw-eu:2.0	i88965
-Basque	eu	Da	alaba	omw-eu:2.0	i89398
-Basque	eu	Da;Hu	suhi	omw-eu:2.0	i93147
-Basque	eu	Fa	aita	omw-eu:2.0	i89901
 Basque	eu	Ch;Ch	biloba	omw-eu:2.0	i90280
 Basque	eu	Ch;Ch	iloba	omw-eu:2.0	i90280
 Basque	eu	Ch;Da	biloba	omw-eu:2.0	i90281
 Basque	eu	Ch;Da	iloba	omw-eu:2.0	i90281
+Basque	eu	Ch;So	biloba	omw-eu:2.0	i90293
+Basque	eu	Ch;So	iloba	omw-eu:2.0	i90293
+Basque	eu	Da	alaba	omw-eu:2.0	i89398
+Basque	eu	Da;Hu	suhi	omw-eu:2.0	i93147
+Basque	eu	Fa	aita	omw-eu:2.0	i89901
+Basque	eu	Hu	gizon	omw-eu:2.0	i90626
+Basque	eu	Hu	senar	omw-eu:2.0	i90626
+Basque	eu	InL	ezkontza-ahaide	omw-eu:2.0	i90702
+Basque	eu	Mo	ama	omw-eu:2.0	i91462
 Basque	eu	Pa;Fa	aitona	omw-eu:2.0	i90287
 Basque	eu	Pa;Mo	amama	omw-eu:2.0	i90289
 Basque	eu	Pa;Mo	amandre	omw-eu:2.0	i90289
@@ -763,12 +769,6 @@ Basque	eu	Pa;Mo	amaso	omw-eu:2.0	i90289
 Basque	eu	Pa;Mo	amatxi	omw-eu:2.0	i90289
 Basque	eu	Pa;Mo	amona	omw-eu:2.0	i90289
 Basque	eu	Pa;Pa	aitona-amona	omw-eu:2.0	i90292
-Basque	eu	Ch;So	biloba	omw-eu:2.0	i90293
-Basque	eu	Ch;So	iloba	omw-eu:2.0	i90293
-Basque	eu	Hu	gizon	omw-eu:2.0	i90626
-Basque	eu	Hu	senar	omw-eu:2.0	i90626
-Basque	eu	InL	ezkontza-ahaide	omw-eu:2.0	i90702
-Basque	eu	Mo	ama	omw-eu:2.0	i91462
 Basque	eu	Pa;Sb;Ch	lehengusina	omw-eu:2.0	i89276
 Basque	eu	Pa;Sb;Ch	lehengusu	omw-eu:2.0	i89276
 Basque	eu	Rel	ahaide	omw-eu:2.0	i90856
@@ -793,37 +793,27 @@ Basque	eu	Unc	osaba	omw-eu:2.0	i93825
 Basque	eu	Wi	andere	omw-eu:2.0	i94123
 Basque	eu	Wi	andre	omw-eu:2.0	i94123
 Basque	eu	Wi	emazte	omw-eu:2.0	i94123
-Basque	eu	Yn;Br	anai gaztea	omw-eu:2.0	i91053
-Basque	eu	Yn;Br	anaitxo	omw-eu:2.0	i91053
-Basque	eu	Yn;Br	neba gaztea	omw-eu:2.0	i91053
-Basque	eu	Yn;Br	nebatxo	omw-eu:2.0	i91053
+Basque	eu	Yn:Br	anai gaztea	omw-eu:2.0	i91053
+Basque	eu	Yn:Br	anaitxo	omw-eu:2.0	i91053
+Basque	eu	Yn:Br	neba gaztea	omw-eu:2.0	i91053
+Basque	eu	Yn:Br	nebatxo	omw-eu:2.0	i91053
 Finnish	fi	Aun	täti	finnish-fi:2.0.1	i88357
 Finnish	fi	Br	miespuolinen sisarus	finnish-fi:2.0.1	i91174
 Finnish	fi	BrL	lanko	finnish-fi:2.0.1	i88712
 Finnish	fi	Ch	lapsi	finnish-fi:2.0.1	i88965
 Finnish	fi	Ch	lapsukainen	finnish-fi:2.0.1	i88965
-Finnish	fi	Da	tytär	finnish-fi:2.0.1	i89398
-Finnish	fi	Da	tyttö	finnish-fi:2.0.1	i89398
-Finnish	fi	Da;Hu	vävy	finnish-fi:2.0.1	i93147
-Finnish	fi	El;Br	isoveli	finnish-fi:2.0.1	i88560
-Finnish	fi	El;Ss	isosisko	finnish-fi:2.0.1	i88564
-Finnish	fi	Fa	isä	finnish-fi:2.0.1	i89901
-Finnish	fi	Fa	siittäjä	finnish-fi:2.0.1	i89901
 Finnish	fi	Ch;Ch	lapsenlapsi	finnish-fi:2.0.1	i90280
 Finnish	fi	Ch;Da	pojantytär	finnish-fi:2.0.1	i90281
 Finnish	fi	Ch;Da	tyttärentytär	finnish-fi:2.0.1	i90281
-Finnish	fi	Pa;Fa	pappa	finnish-fi:2.0.1	i90287
-Finnish	fi	Pa;Fa	isoisä	finnish-fi:2.0.1	i90287
-Finnish	fi	Pa;Fa	ukki	finnish-fi:2.0.1	i90287
-Finnish	fi	Pa;Fa	vaari	finnish-fi:2.0.1	i90287
-Finnish	fi	Pa;Mo	mummo	finnish-fi:2.0.1	i90289
-Finnish	fi	Pa;Mo	isoäiti	finnish-fi:2.0.1	i90289
-Finnish	fi	Pa;Mo	mummu	finnish-fi:2.0.1	i90289
-Finnish	fi	Pa;Mo	isänäiti	finnish-fi:2.0.1	i90289
-Finnish	fi	Pa;Mo	mummi	finnish-fi:2.0.1	i90289
-Finnish	fi	Pa;Pa	isovanhempi	finnish-fi:2.0.1	i90292
 Finnish	fi	Ch;So	pojanpoika	finnish-fi:2.0.1	i90293
 Finnish	fi	Ch;So	tyttärenpoika	finnish-fi:2.0.1	i90293
+Finnish	fi	Da	tytär	finnish-fi:2.0.1	i89398
+Finnish	fi	Da	tyttö	finnish-fi:2.0.1	i89398
+Finnish	fi	Da;Hu	vävy	finnish-fi:2.0.1	i93147
+Finnish	fi	El:Br	isoveli	finnish-fi:2.0.1	i88560
+Finnish	fi	El:Ss	isosisko	finnish-fi:2.0.1	i88564
+Finnish	fi	Fa	isä	finnish-fi:2.0.1	i89901
+Finnish	fi	Fa	siittäjä	finnish-fi:2.0.1	i89901
 Finnish	fi	Hu	ukko	finnish-fi:2.0.1	i90626
 Finnish	fi	Hu	mies	finnish-fi:2.0.1	i90626
 Finnish	fi	Hu	aviomies	finnish-fi:2.0.1	i90626
@@ -834,6 +824,16 @@ Finnish	fi	Mo	naispuolinen vanhempi	finnish-fi:2.0.1	i91462
 Finnish	fi	Pa	äiti	finnish-fi:2.0.1	i91858
 Finnish	fi	Pa	isä	finnish-fi:2.0.1	i91858
 Finnish	fi	Pa	vanhempi	finnish-fi:2.0.1	i91858
+Finnish	fi	Pa;Fa	pappa	finnish-fi:2.0.1	i90287
+Finnish	fi	Pa;Fa	isoisä	finnish-fi:2.0.1	i90287
+Finnish	fi	Pa;Fa	ukki	finnish-fi:2.0.1	i90287
+Finnish	fi	Pa;Fa	vaari	finnish-fi:2.0.1	i90287
+Finnish	fi	Pa;Mo	mummo	finnish-fi:2.0.1	i90289
+Finnish	fi	Pa;Mo	isoäiti	finnish-fi:2.0.1	i90289
+Finnish	fi	Pa;Mo	mummu	finnish-fi:2.0.1	i90289
+Finnish	fi	Pa;Mo	isänäiti	finnish-fi:2.0.1	i90289
+Finnish	fi	Pa;Mo	mummi	finnish-fi:2.0.1	i90289
+Finnish	fi	Pa;Pa	isovanhempi	finnish-fi:2.0.1	i90292
 Finnish	fi	Pa;Sb;Ch	serkku	finnish-fi:2.0.1	i89276
 Finnish	fi	Rel	sukulainen	finnish-fi:2.0.1	i90856
 Finnish	fi	Rel	omainen	finnish-fi:2.0.1	i90856
@@ -861,8 +861,8 @@ Finnish	fi	Wi	rouva	finnish-fi:2.0.1	i94123
 Finnish	fi	Wi	vaimo	finnish-fi:2.0.1	i94123
 Finnish	fi	Wi	naimisissa oleva nainen	finnish-fi:2.0.1	i94123
 Finnish	fi	Wi	aviovaimo	finnish-fi:2.0.1	i94123
-Finnish	fi	Yn;Br	pikkuveli	finnish-fi:2.0.1	i91053
-Finnish	fi	Yn;Ss	pikkusisko	finnish-fi:2.0.1	i91057
+Finnish	fi	Yn:Br	pikkuveli	finnish-fi:2.0.1	i91053
+Finnish	fi	Yn:Ss	pikkusisko	finnish-fi:2.0.1	i91057
 French	fr	Aun	tatie	omw-fr:2.0	i88357
 French	fr	Aun	tata	omw-fr:2.0	i88357
 French	fr	Aun	tantine	omw-fr:2.0	i88357
@@ -870,16 +870,24 @@ French	fr	Aun	tante	omw-fr:2.0	i88357
 French	fr	BrL	beau-frère	omw-fr:2.0	i88712
 French	fr	Ch	môme	omw-fr:2.0	i88965
 French	fr	Ch	enfant	omw-fr:2.0	i88965
+French	fr	Ch;Ch	petit-enfant	omw-fr:2.0	i90280
+French	fr	Ch;Da	petite-fille	omw-fr:2.0	i90281
+French	fr	Ch;So	petit-fils	omw-fr:2.0	i90293
 French	fr	Da	fille	omw-fr:2.0	i89398
 French	fr	Da;Hu	gendre	omw-fr:2.0	i93147
 French	fr	Da;Hu	beau-fils	omw-fr:2.0	i93147
-French	fr	El;Br	loft story	omw-fr:2.0	i88560
-French	fr	El;Br	frère aîné	omw-fr:2.0	i88560
-French	fr	El;Br	frère ainé	omw-fr:2.0	i88560
-French	fr	El;Br	grand frère	omw-fr:2.0	i88560
+French	fr	El:Br	loft story	omw-fr:2.0	i88560
+French	fr	El:Br	frère aîné	omw-fr:2.0	i88560
+French	fr	El:Br	frère ainé	omw-fr:2.0	i88560
+French	fr	El:Br	grand frère	omw-fr:2.0	i88560
 French	fr	Fa	père	omw-fr:2.0	i89901
-French	fr	Ch;Ch	petit-enfant	omw-fr:2.0	i90280
-French	fr	Ch;Da	petite-fille	omw-fr:2.0	i90281
+French	fr	Hu	époux	omw-fr:2.0	i90626
+French	fr	Hu	mari	omw-fr:2.0	i90626
+French	fr	InL	beau	omw-fr:2.0	i90702
+French	fr	InL	belle	omw-fr:2.0	i90702
+French	fr	Mo	mère	omw-fr:2.0	i91462
+French	fr	Mo	maman	omw-fr:2.0	i91462
+French	fr	Pa	parent	omw-fr:2.0	i91858
 French	fr	Pa;Fa	papi	omw-fr:2.0	i90287
 French	fr	Pa;Fa	grand-papa	omw-fr:2.0	i90287
 French	fr	Pa;Fa	aïeul	omw-fr:2.0	i90287
@@ -895,14 +903,6 @@ French	fr	Pa;Mo	mamie	omw-fr:2.0	i90289
 French	fr	Pa;Mo	grand-mère	omw-fr:2.0	i90289
 French	fr	Pa;Pa	aïeul	omw-fr:2.0	i90292
 French	fr	Pa;Pa	grand-parent	omw-fr:2.0	i90292
-French	fr	Ch;So	petit-fils	omw-fr:2.0	i90293
-French	fr	Hu	époux	omw-fr:2.0	i90626
-French	fr	Hu	mari	omw-fr:2.0	i90626
-French	fr	InL	beau	omw-fr:2.0	i90702
-French	fr	InL	belle	omw-fr:2.0	i90702
-French	fr	Mo	mère	omw-fr:2.0	i91462
-French	fr	Mo	maman	omw-fr:2.0	i91462
-French	fr	Pa	parent	omw-fr:2.0	i91858
 French	fr	Pa;Sb;Ch	cousin	omw-fr:2.0	i89276
 French	fr	Pa;Sb;Ch	cousin germain	omw-fr:2.0	i89276
 French	fr	Pa;Sb;Ch	cousine	omw-fr:2.0	i89276
@@ -936,20 +936,20 @@ French	fr	Wi	kobièta	omw-fr:2.0	i94123
 French	fr	Wi	épouse	omw-fr:2.0	i94123
 French	fr	Wi	époux	omw-fr:2.0	i94123
 French	fr	Wi	femme	omw-fr:2.0	i94123
-French	fr	Yn;Br	frérot	omw-fr:2.0	i91053
-French	fr	Yn;Ss	petite sœur	omw-fr:2.0	i91057
+French	fr	Yn:Br	frérot	omw-fr:2.0	i91053
+French	fr	Yn:Ss	petite sœur	omw-fr:2.0	i91057
 Irish	ga	Aun	aintín	gfong:0.1	i88357
-Irish	ga	Da	iníon	gfong:0.1	i89398
-Irish	ga	Fa	athair	gfong:0.1	i89901
 Irish	ga	Ch;Ch	garleanbh	gfong:0.1	i90280
 Irish	ga	Ch;Ch	garpháiste	gfong:0.1	i90280
-Irish	ga	Pa;Fa	seanathair	gfong:0.1	i90287
-Irish	ga	Pa;Mo	seanmháthair	gfong:0.1	i90289
-Irish	ga	Pa;Pa	seantuismitheoir	gfong:0.1	i90292
+Irish	ga	Da	iníon	gfong:0.1	i89398
+Irish	ga	Fa	athair	gfong:0.1	i89901
 Irish	ga	Hu	fear	gfong:0.1	i90626
 Irish	ga	Hu	fear céile	gfong:0.1	i90626
 Irish	ga	Mo	máthair	gfong:0.1	i91462
 Irish	ga	Pa	tuismitheoir	gfong:0.1	i91858
+Irish	ga	Pa;Fa	seanathair	gfong:0.1	i90287
+Irish	ga	Pa;Mo	seanmháthair	gfong:0.1	i90289
+Irish	ga	Pa;Pa	seantuismitheoir	gfong:0.1	i90292
 Irish	ga	Pa;Sb;Ch	col ceathrair	gfong:0.1	i89276
 Irish	ga	Rel	gaol	gfong:0.1	i90856
 Irish	ga	Sb;Da	neacht	gfong:0.1	i91615
@@ -965,22 +965,22 @@ Scottish Gaelic	gd	Aun	piuthar-màthar	usgw-gd:0.9	i88357
 Scottish Gaelic	gd	BrL	neach-togail	usgw-gd:0.9	i88712
 Scottish Gaelic	gd	Ch	leanabh	usgw-gd:0.9	i88965
 Scottish Gaelic	gd	Ch	pàisde	usgw-gd:0.9	i88965
-Scottish Gaelic	gd	Da	nighean	usgw-gd:0.9	i89398
-Scottish Gaelic	gd	Da	nighneag	usgw-gd:0.9	i89398
-Scottish Gaelic	gd	Da	riochdaire	usgw-gd:0.9	i89398
-Scottish Gaelic	gd	Fa	nìonag	usgw-gd:0.9	i89901
 Scottish Gaelic	gd	Ch;Ch	nighean-ighne	usgw-gd:0.9	i90280
 Scottish Gaelic	gd	Ch;Da	ban-ogha	usgw-gd:0.9	i90281
 Scottish Gaelic	gd	Ch;Da	nighean-mhic	usgw-gd:0.9	i90281
 Scottish Gaelic	gd	Ch;Da	seanmhair	usgw-gd:0.9	i90281
-Scottish Gaelic	gd	Pa;Mo	seann-phàrant	usgw-gd:0.9	i90289
-Scottish Gaelic	gd	Pa;Pa	mac-ighne	usgw-gd:0.9	i90292
 Scottish Gaelic	gd	Ch;So	grosair	usgw-gd:0.9	i90293
 Scottish Gaelic	gd	Ch;So	mac-mic	usgw-gd:0.9	i90293
+Scottish Gaelic	gd	Da	nighean	usgw-gd:0.9	i89398
+Scottish Gaelic	gd	Da	nighneag	usgw-gd:0.9	i89398
+Scottish Gaelic	gd	Da	riochdaire	usgw-gd:0.9	i89398
+Scottish Gaelic	gd	Fa	nìonag	usgw-gd:0.9	i89901
 Scottish Gaelic	gd	Hu	fear-cèile	usgw-gd:0.9	i90626
 Scottish Gaelic	gd	Hu	suainealaiche	usgw-gd:0.9	i90626
 Scottish Gaelic	gd	Mo	murtair	usgw-gd:0.9	i91462
 Scottish Gaelic	gd	Pa	ceannard	usgw-gd:0.9	i91858
+Scottish Gaelic	gd	Pa;Mo	seann-phàrant	usgw-gd:0.9	i90289
+Scottish Gaelic	gd	Pa;Pa	mac-ighne	usgw-gd:0.9	i90292
 Scottish Gaelic	gd	Pa;Sb;Ch	gille-cruidh	usgw-gd:0.9	i89276
 Scottish Gaelic	gd	Rel	teaghlach	usgw-gd:0.9	i90856
 Scottish Gaelic	gd	Sb;Da	neach-tòiseachaidh	usgw-gd:0.9	i91615
@@ -997,21 +997,21 @@ Scottish Gaelic	gd	Wi	bean-chèile	usgw-gd:0.9	i94123
 Scottish Gaelic	gd	Wi	cliathaiche	usgw-gd:0.9	i94123
 Hebrew	he	Aun	!דּוֹדָה	omw-he:2.0	i88357
 Hebrew	he	Ch	יֶלֶד	omw-he:2.0	i88965
+Hebrew	he	Ch;Da	נֶכְדָּה	omw-he:2.0	i90281
+Hebrew	he	Ch;So	נֶכֶד	omw-he:2.0	i90293
 Hebrew	he	Da	בַּת	omw-he:2.0	i89398
 Hebrew	he	Fa	אָב	omw-he:2.0	i89901
 Hebrew	he	Fa	אַבָּא	omw-he:2.0	i89901
-Hebrew	he	Ch;Da	נֶכְדָּה	omw-he:2.0	i90281
-Hebrew	he	Pa;Fa	סָב	omw-he:2.0	i90287
-Hebrew	he	Pa;Fa	סָבָא	omw-he:2.0	i90287
-Hebrew	he	Pa;Fa	סַבָּא	omw-he:2.0	i90287
-Hebrew	he	Pa;Mo	סָבָה	omw-he:2.0	i90289
-Hebrew	he	Pa;Mo	סַבְתָּא	omw-he:2.0	i90289
-Hebrew	he	Ch;So	נֶכֶד	omw-he:2.0	i90293
 Hebrew	he	Hu	בַּעַל	omw-he:2.0	i90626
 Hebrew	he	Hu	אִישׁ	omw-he:2.0	i90626
 Hebrew	he	Mo	אֵם	omw-he:2.0	i91462
 Hebrew	he	Pa	הוֹרָה	omw-he:2.0	i91858
 Hebrew	he	Pa	הוֹרֶה	omw-he:2.0	i91858
+Hebrew	he	Pa;Fa	סָב	omw-he:2.0	i90287
+Hebrew	he	Pa;Fa	סָבָא	omw-he:2.0	i90287
+Hebrew	he	Pa;Fa	סַבָּא	omw-he:2.0	i90287
+Hebrew	he	Pa;Mo	סָבָה	omw-he:2.0	i90289
+Hebrew	he	Pa;Mo	סַבְתָּא	omw-he:2.0	i90289
 Hebrew	he	Sb	אֲחָאִים	omw-he:2.0	i92980
 Hebrew	he	Sb;Da	אַחְיָנִית	omw-he:2.0	i91615
 Hebrew	he	Sb;So	אַחְיָן	omw-he:2.0	i91586
@@ -1023,27 +1023,20 @@ Croatian	hr	Aun	ujna	omw-hr:2.0	i88357
 Croatian	hr	Br	brat	omw-hr:2.0	i91174
 Croatian	hr	BrL	šogor	omw-hr:2.0	i88712
 Croatian	hr	Ch	dijete	omw-hr:2.0	i88965
-Croatian	hr	Da	kćer	omw-hr:2.0	i89398
-Croatian	hr	Da	kćerka	omw-hr:2.0	i89398
-Croatian	hr	Da	kći	omw-hr:2.0	i89398
-Croatian	hr	Da;Hu	zet	omw-hr:2.0	i93147
-Croatian	hr	El;Br	stariji brat	omw-hr:2.0	i88560
-Croatian	hr	El;Br	veliki brat	omw-hr:2.0	i88560
-Croatian	hr	El;Ss	starija sestra	omw-hr:2.0	i88564
-Croatian	hr	Fa	otac	omw-hr:2.0	i89901
-Croatian	hr	Fa	tata	omw-hr:2.0	i89901
 Croatian	hr	Ch;Ch	unuče	omw-hr:2.0	i90280
 Croatian	hr	Ch;Ch	unuk	omw-hr:2.0	i90280
 Croatian	hr	Ch;Ch	unuka	omw-hr:2.0	i90280
 Croatian	hr	Ch;Da	unuka	omw-hr:2.0	i90281
-Croatian	hr	Pa;Fa	deda	omw-hr:2.0	i90287
-Croatian	hr	Pa;Fa	djed	omw-hr:2.0	i90287
-Croatian	hr	Pa;Fa	nono	omw-hr:2.0	i90287
-Croatian	hr	Pa;Mo	baba	omw-hr:2.0	i90289
-Croatian	hr	Pa;Mo	baka	omw-hr:2.0	i90289
-Croatian	hr	Pa;Mo	nona	omw-hr:2.0	i90289
-Croatian	hr	Pa;Pa	djed i baka	omw-hr:2.0	i90292
 Croatian	hr	Ch;So	unuk	omw-hr:2.0	i90293
+Croatian	hr	Da	kćer	omw-hr:2.0	i89398
+Croatian	hr	Da	kćerka	omw-hr:2.0	i89398
+Croatian	hr	Da	kći	omw-hr:2.0	i89398
+Croatian	hr	Da;Hu	zet	omw-hr:2.0	i93147
+Croatian	hr	El:Br	stariji brat	omw-hr:2.0	i88560
+Croatian	hr	El:Br	veliki brat	omw-hr:2.0	i88560
+Croatian	hr	El:Ss	starija sestra	omw-hr:2.0	i88564
+Croatian	hr	Fa	otac	omw-hr:2.0	i89901
+Croatian	hr	Fa	tata	omw-hr:2.0	i89901
 Croatian	hr	Hu	muž	omw-hr:2.0	i90626
 Croatian	hr	Hu	suprug	omw-hr:2.0	i90626
 Croatian	hr	Mo	majka	omw-hr:2.0	i91462
@@ -1051,6 +1044,13 @@ Croatian	hr	Mo	mama	omw-hr:2.0	i91462
 Croatian	hr	Mo	mater	omw-hr:2.0	i91462
 Croatian	hr	Mo	mati	omw-hr:2.0	i91462
 Croatian	hr	Pa	roditelj	omw-hr:2.0	i91858
+Croatian	hr	Pa;Fa	deda	omw-hr:2.0	i90287
+Croatian	hr	Pa;Fa	djed	omw-hr:2.0	i90287
+Croatian	hr	Pa;Fa	nono	omw-hr:2.0	i90287
+Croatian	hr	Pa;Mo	baba	omw-hr:2.0	i90289
+Croatian	hr	Pa;Mo	baka	omw-hr:2.0	i90289
+Croatian	hr	Pa;Mo	nona	omw-hr:2.0	i90289
+Croatian	hr	Pa;Pa	djed i baka	omw-hr:2.0	i90292
 Croatian	hr	Pa;Sb;Ch	bratić	omw-hr:2.0	i89276
 Croatian	hr	Pa;Sb;Ch	rođak	omw-hr:2.0	i89276
 Croatian	hr	Pa;Sb;Ch	sestrična	omw-hr:2.0	i89276
@@ -1072,9 +1072,9 @@ Croatian	hr	Unc	tetak	omw-hr:2.0	i93825
 Croatian	hr	Unc	ujak	omw-hr:2.0	i93825
 Croatian	hr	Wi	supruga	omw-hr:2.0	i94123
 Croatian	hr	Wi	žena	omw-hr:2.0	i94123
-Croatian	hr	Yn;Br	mali brat	omw-hr:2.0	i91053
-Croatian	hr	Yn;Br	mlađi brat	omw-hr:2.0	i91053
-Croatian	hr	Yn;Ss	mlađa sestra	omw-hr:2.0	i91057
+Croatian	hr	Yn:Br	mali brat	omw-hr:2.0	i91053
+Croatian	hr	Yn:Br	mlađi brat	omw-hr:2.0	i91053
+Croatian	hr	Yn:Ss	mlađa sestra	omw-hr:2.0	i91057
 Hungarian	hu	Aun	nagynéni	hungarian-hu:1.0	i88357
 Hungarian	hu	Aun	tanti	hungarian-hu:1.0	i88357
 Hungarian	hu	Aun	tánti	hungarian-hu:1.0	i88357
@@ -1083,12 +1083,17 @@ Hungarian	hu	Aun	nénike	hungarian-hu:1.0	i88357
 Hungarian	hu	BrL	sógor	hungarian-hu:1.0	i88712
 Hungarian	hu	Ch	gyerek	hungarian-hu:1.0	i88965
 Hungarian	hu	Ch	gyermek	hungarian-hu:1.0	i88965
+Hungarian	hu	Ch;Ch	unoka	hungarian-hu:1.0	i90280
 Hungarian	hu	Da	lány	hungarian-hu:1.0	i89398
 Hungarian	hu	Da;Hu	vő	hungarian-hu:1.0	i93147
 Hungarian	hu	Fa	atya	hungarian-hu:1.0	i89901
 Hungarian	hu	Fa	apa	hungarian-hu:1.0	i89901
 Hungarian	hu	Fa	édesapa	hungarian-hu:1.0	i89901
-Hungarian	hu	Ch;Ch	unoka	hungarian-hu:1.0	i90280
+Hungarian	hu	Hu	férj	hungarian-hu:1.0	i90626
+Hungarian	hu	Mo	anya	hungarian-hu:1.0	i91462
+Hungarian	hu	Mo	édesanya	hungarian-hu:1.0	i91462
+Hungarian	hu	Mo	szülőanya	hungarian-hu:1.0	i91462
+Hungarian	hu	Pa	szülő	hungarian-hu:1.0	i91858
 Hungarian	hu	Pa;Fa	papa	hungarian-hu:1.0	i90287
 Hungarian	hu	Pa;Fa	nagyapa	hungarian-hu:1.0	i90287
 Hungarian	hu	Pa;Fa	nagyapó	hungarian-hu:1.0	i90287
@@ -1103,11 +1108,6 @@ Hungarian	hu	Pa;Mo	nagymama	hungarian-hu:1.0	i90289
 Hungarian	hu	Pa;Mo	nagymami	hungarian-hu:1.0	i90289
 Hungarian	hu	Pa;Pa	nagyszülő	hungarian-hu:1.0	i90292
 Hungarian	hu	Pa;Pa	öregszülő	hungarian-hu:1.0	i90292
-Hungarian	hu	Hu	férj	hungarian-hu:1.0	i90626
-Hungarian	hu	Mo	anya	hungarian-hu:1.0	i91462
-Hungarian	hu	Mo	édesanya	hungarian-hu:1.0	i91462
-Hungarian	hu	Mo	szülőanya	hungarian-hu:1.0	i91462
-Hungarian	hu	Pa	szülő	hungarian-hu:1.0	i91858
 Hungarian	hu	Pa;Sb;Ch	unokatestvér	hungarian-hu:1.0	i89276
 Hungarian	hu	Pa;Sb;Ch	első unokatestvér	hungarian-hu:1.0	i89276
 Hungarian	hu	Pa;Sb;Ch	kuzin	hungarian-hu:1.0	i89276
@@ -1141,27 +1141,22 @@ Indonesian	id	BrL	abang ipar	wnb-id:1.5	i88712
 Indonesian	id	Ch	anak	wnb-id:1.5	i88965
 Indonesian	id	Ch	budak	wnb-id:1.5	i88965
 Indonesian	id	Ch	kanak-kanak	wnb-id:1.5	i88965
+Indonesian	id	Ch;Ch	cucunda	wnb-id:1.5	i90280
+Indonesian	id	Ch;Ch	cucu	wnb-id:1.5	i90280
+Indonesian	id	Ch;So	cucu	wnb-id:1.5	i90293
 Indonesian	id	Da	anak gadis	wnb-id:1.5	i89398
 Indonesian	id	Da	anak	wnb-id:1.5	i89398
 Indonesian	id	Da	puteri	wnb-id:1.5	i89398
 Indonesian	id	Da	amoi	wnb-id:1.5	i89398
 Indonesian	id	Da	anak dara	wnb-id:1.5	i89398
 Indonesian	id	Da;Hu	menantu	wnb-id:1.5	i93147
-Indonesian	id	El;Br	abang	wnb-id:1.5	i88560
+Indonesian	id	El:Br	abang	wnb-id:1.5	i88560
 Indonesian	id	Fa	bapa	wnb-id:1.5	i89901
 Indonesian	id	Fa	ayah	wnb-id:1.5	i89901
 Indonesian	id	Fa	abah	wnb-id:1.5	i89901
 Indonesian	id	Fa	papa	wnb-id:1.5	i89901
 Indonesian	id	Fa	ayahanda	wnb-id:1.5	i89901
 Indonesian	id	Fa	aba	wnb-id:1.5	i89901
-Indonesian	id	Ch;Ch	cucunda	wnb-id:1.5	i90280
-Indonesian	id	Ch;Ch	cucu	wnb-id:1.5	i90280
-Indonesian	id	Pa;Fa	datuk	wnb-id:1.5	i90287
-Indonesian	id	Pa;Mo	nek	wnb-id:1.5	i90289
-Indonesian	id	Pa;Mo	nenek	wnb-id:1.5	i90289
-Indonesian	id	Pa;Pa	datuk	wnb-id:1.5	i90292
-Indonesian	id	Pa;Pa	nenek	wnb-id:1.5	i90292
-Indonesian	id	Ch;So	cucu	wnb-id:1.5	i90293
 Indonesian	id	Hu	laki	wnb-id:1.5	i90626
 Indonesian	id	Hu	suami	wnb-id:1.5	i90626
 Indonesian	id	Mo	ummi	wnb-id:1.5	i91462
@@ -1174,6 +1169,11 @@ Indonesian	id	Mo	ibu	wnb-id:1.5	i91462
 Indonesian	id	Pa	ayah bonda	wnb-id:1.5	i91858
 Indonesian	id	Pa	ibu bapa	wnb-id:1.5	i91858
 Indonesian	id	Pa	orang tua	wnb-id:1.5	i91858
+Indonesian	id	Pa;Fa	datuk	wnb-id:1.5	i90287
+Indonesian	id	Pa;Mo	nek	wnb-id:1.5	i90289
+Indonesian	id	Pa;Mo	nenek	wnb-id:1.5	i90289
+Indonesian	id	Pa;Pa	datuk	wnb-id:1.5	i90292
+Indonesian	id	Pa;Pa	nenek	wnb-id:1.5	i90292
 Indonesian	id	Pa;Sb;Ch	sepupu	wnb-id:1.5	i89276
 Indonesian	id	Pa;Sb;Ch	saudara	wnb-id:1.5	i89276
 Indonesian	id	Pa;Sb;Ch	saudara pupu	wnb-id:1.5	i89276
@@ -1212,17 +1212,17 @@ Icelandic	is	Da	krakki	omw-is:2.0	i89398
 Icelandic	is	Da	afkvæmi	omw-is:2.0	i89398
 Icelandic	is	Fa	pabbi	omw-is:2.0	i89901
 Icelandic	is	Fa	faðir	omw-is:2.0	i89901
+Icelandic	is	Hu	eiginmaður	omw-is:2.0	i90626
+Icelandic	is	Hu	maki	omw-is:2.0	i90626
+Icelandic	is	Mo	móðir	omw-is:2.0	i91462
+Icelandic	is	Mo	mamma	omw-is:2.0	i91462
+Icelandic	is	Pa	foreldri	omw-is:2.0	i91858
 Icelandic	is	Pa;Fa	móðurafi	omw-is:2.0	i90287
 Icelandic	is	Pa;Fa	föðurafi	omw-is:2.0	i90287
 Icelandic	is	Pa;Fa	afi	omw-is:2.0	i90287
 Icelandic	is	Pa;Mo	amma	omw-is:2.0	i90289
 Icelandic	is	Pa;Mo	móðuramma	omw-is:2.0	i90289
 Icelandic	is	Pa;Mo	föðuramma	omw-is:2.0	i90289
-Icelandic	is	Hu	eiginmaður	omw-is:2.0	i90626
-Icelandic	is	Hu	maki	omw-is:2.0	i90626
-Icelandic	is	Mo	móðir	omw-is:2.0	i91462
-Icelandic	is	Mo	mamma	omw-is:2.0	i91462
-Icelandic	is	Pa	foreldri	omw-is:2.0	i91858
 Icelandic	is	Pa;Sb;Ch	frændfólk	omw-is:2.0	i89276
 Icelandic	is	Pa;Sb;Ch	frænka	omw-is:2.0	i89276
 Icelandic	is	Pa;Sb;Ch	skyldmenni	omw-is:2.0	i89276
@@ -1250,6 +1250,8 @@ Italian	it	Ch	bambino	omw-it:2.0	i88965
 Italian	it	Ch	figlio	omw-it:2.0	i88965
 Italian	it	Ch	marmocchio	omw-it:2.0	i88965
 Italian	it	Ch	figlio piccolo	omw-it:2.0	i88965
+Italian	it	Ch;Ch	nipote	omw-it:2.0	i90280
+Italian	it	Ch;So	nipote	omw-it:2.0	i90293
 Italian	it	Da	figlia	omw-it:2.0	i89398
 Italian	it	Da	figliola	omw-it:2.0	i89398
 Italian	it	Da	figlia	omw-iwn:2.0	i89398
@@ -1257,16 +1259,8 @@ Italian	it	Da	figliola	omw-iwn:2.0	i89398
 Italian	it	Da	bambina	omw-iwn:2.0	i89398
 Italian	it	Da;Hu	genero	omw-it:2.0	i93147
 Italian	it	Da;Hu	genero	omw-iwn:2.0	i93147
-Italian	it	El;Br	fratello maggiore	omw-it:2.0	i88560
+Italian	it	El:Br	fratello maggiore	omw-it:2.0	i88560
 Italian	it	Fa	padre	omw-it:2.0	i89901
-Italian	it	Ch;Ch	nipote	omw-it:2.0	i90280
-Italian	it	Pa;Fa	avo	omw-it:2.0	i90287
-Italian	it	Pa;Fa	nonnino	omw-it:2.0	i90287
-Italian	it	Pa;Fa	nonno	omw-it:2.0	i90287
-Italian	it	Pa;Fa	nonno	omw-iwn:2.0	i90287
-Italian	it	Pa;Mo	nonna	omw-it:2.0	i90289
-Italian	it	Pa;Mo	nonna	omw-iwn:2.0	i90289
-Italian	it	Ch;So	nipote	omw-it:2.0	i90293
 Italian	it	Hu	ammogliato	omw-it:2.0	i90626
 Italian	it	Hu	maritino	omw-it:2.0	i90626
 Italian	it	Hu	marito	omw-it:2.0	i90626
@@ -1283,6 +1277,12 @@ Italian	it	Mo	genitrice	omw-iwn:2.0	i91462
 Italian	it	Pa	genitore	omw-it:2.0	i91858
 Italian	it	Pa	genitore	omw-iwn:2.0	i91858
 Italian	it	Pa	procreatore	omw-iwn:2.0	i91858
+Italian	it	Pa;Fa	avo	omw-it:2.0	i90287
+Italian	it	Pa;Fa	nonnino	omw-it:2.0	i90287
+Italian	it	Pa;Fa	nonno	omw-it:2.0	i90287
+Italian	it	Pa;Fa	nonno	omw-iwn:2.0	i90287
+Italian	it	Pa;Mo	nonna	omw-it:2.0	i90289
+Italian	it	Pa;Mo	nonna	omw-iwn:2.0	i90289
 Italian	it	Pa;Sb;Ch	cugino	omw-it:2.0	i89276
 Italian	it	Pa;Sb;Ch	cugino di primo grado	omw-it:2.0	i89276
 Italian	it	Pa;Sb;Ch	cugino	omw-iwn:2.0	i89276
@@ -1324,7 +1324,7 @@ Italian	it	Wi	maritata	omw-it:2.0	i94123
 Italian	it	Wi	sposa	omw-iwn:2.0	i94123
 Italian	it	Wi	signora	omw-iwn:2.0	i94123
 Italian	it	Wi	moglie	omw-iwn:2.0	i94123
-Italian	it	Yn;Br	fratello minore	omw-it:2.0	i91053
+Italian	it	Yn:Br	fratello minore	omw-it:2.0	i91053
 Japanese	ja	Aun	伯母	wnja:2.1	i88357
 Japanese	ja	Aun	伯母さま	wnja:2.1	i88357
 Japanese	ja	Aun	伯母さん	wnja:2.1	i88357
@@ -1342,6 +1342,11 @@ Japanese	ja	Ch	子女	wnja:2.1	i88965
 Japanese	ja	Ch	子弟	wnja:2.1	i88965
 Japanese	ja	Ch	子種	wnja:2.1	i88965
 Japanese	ja	Ch	愛児	wnja:2.1	i88965
+Japanese	ja	Ch;Ch	令孫	wnja:2.1	i90280
+Japanese	ja	Ch;Ch	孫	wnja:2.1	i90280
+Japanese	ja	Ch;Ch	御孫さん	wnja:2.1	i90280
+Japanese	ja	Ch;Da	孫娘	wnja:2.1	i90281
+Japanese	ja	Ch;So	孫息子	wnja:2.1	i90293
 Japanese	ja	Da	令嬢	wnja:2.1	i89398
 Japanese	ja	Da	娘	wnja:2.1	i89398
 Japanese	ja	Da	娘さん	wnja:2.1	i89398
@@ -1351,22 +1356,22 @@ Japanese	ja	Da	御嬢さん	wnja:2.1	i89398
 Japanese	ja	Da	息女	wnja:2.1	i89398
 Japanese	ja	Da	愛嬢	wnja:2.1	i89398
 Japanese	ja	Da;Hu	婿	wnja:2.1	i93147
-Japanese	ja	El;Br	兄	wnja:2.1	i88560
-Japanese	ja	El;Br	兄い	wnja:2.1	i88560
-Japanese	ja	El;Br	兄さん	wnja:2.1	i88560
-Japanese	ja	El;Br	兄じゃ	wnja:2.1	i88560
-Japanese	ja	El;Br	兄じゃ人	wnja:2.1	i88560
-Japanese	ja	El;Br	兄ちゃん	wnja:2.1	i88560
-Japanese	ja	El;Br	兄人	wnja:2.1	i88560
-Japanese	ja	El;Br	兄君	wnja:2.1	i88560
-Japanese	ja	El;Br	兄御	wnja:2.1	i88560
-Japanese	ja	El;Br	兄様	wnja:2.1	i88560
-Japanese	ja	El;Br	兄者	wnja:2.1	i88560
-Japanese	ja	El;Br	兄者人	wnja:2.1	i88560
-Japanese	ja	El;Br	兄貴	wnja:2.1	i88560
-Japanese	ja	El;Br	大兄	wnja:2.1	i88560
-Japanese	ja	El;Br	実兄	wnja:2.1	i88560
-Japanese	ja	El;Ss	姉	wnja:2.1	i88564
+Japanese	ja	El:Br	兄	wnja:2.1	i88560
+Japanese	ja	El:Br	兄い	wnja:2.1	i88560
+Japanese	ja	El:Br	兄さん	wnja:2.1	i88560
+Japanese	ja	El:Br	兄じゃ	wnja:2.1	i88560
+Japanese	ja	El:Br	兄じゃ人	wnja:2.1	i88560
+Japanese	ja	El:Br	兄ちゃん	wnja:2.1	i88560
+Japanese	ja	El:Br	兄人	wnja:2.1	i88560
+Japanese	ja	El:Br	兄君	wnja:2.1	i88560
+Japanese	ja	El:Br	兄御	wnja:2.1	i88560
+Japanese	ja	El:Br	兄様	wnja:2.1	i88560
+Japanese	ja	El:Br	兄者	wnja:2.1	i88560
+Japanese	ja	El:Br	兄者人	wnja:2.1	i88560
+Japanese	ja	El:Br	兄貴	wnja:2.1	i88560
+Japanese	ja	El:Br	大兄	wnja:2.1	i88560
+Japanese	ja	El:Br	実兄	wnja:2.1	i88560
+Japanese	ja	El:Ss	姉	wnja:2.1	i88564
 Japanese	ja	Fa	父	wnja:2.1	i89901
 Japanese	ja	Fa	父っつぁん	wnja:2.1	i89901
 Japanese	ja	Fa	おとっつあん	wnja:2.1	i89901
@@ -1394,38 +1399,6 @@ Japanese	ja	Fa	父親	wnja:2.1	i89901
 Japanese	ja	Fa	男親	wnja:2.1	i89901
 Japanese	ja	Fa	親父	wnja:2.1	i89901
 Japanese	ja	Fa	親父さま	wnja:2.1	i89901
-Japanese	ja	Ch;Ch	令孫	wnja:2.1	i90280
-Japanese	ja	Ch;Ch	孫	wnja:2.1	i90280
-Japanese	ja	Ch;Ch	御孫さん	wnja:2.1	i90280
-Japanese	ja	Ch;Da	孫娘	wnja:2.1	i90281
-Japanese	ja	Pa;Fa	祖	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	親	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	お祖父	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	お祖父ちゃん	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	お祖父様	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	御祖父	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	御祖父さん	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	御祖父様	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	爺さん	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	祖父	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	祖父さま	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	祖父上	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	祖父君	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	祖父御	wnja:2.1	i90287
-Japanese	ja	Pa;Fa	祖父様	wnja:2.1	i90287
-Japanese	ja	Pa;Mo	お祖母	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	お祖母さま	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	お祖母様	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	バアチャン	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	婆さん	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	御祖母	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	御祖母さん	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	御祖母ちゃん	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	祖母	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	祖母さま	wnja:2.1	i90289
-Japanese	ja	Pa;Mo	祖母様	wnja:2.1	i90289
-Japanese	ja	Pa;Pa	祖父母	wnja:2.1	i90292
-Japanese	ja	Ch;So	孫息子	wnja:2.1	i90293
 Japanese	ja	Hu	宅	wnja:2.1	i90626
 Japanese	ja	Hu	主	wnja:2.1	i90626
 Japanese	ja	Hu	主人	wnja:2.1	i90626
@@ -1472,6 +1445,33 @@ Japanese	ja	Pa	親	wnja:2.1	i91858
 Japanese	ja	Pa	ペアレント	wnja:2.1	i91858
 Japanese	ja	Pa	親じゃ人	wnja:2.1	i91858
 Japanese	ja	Pa	親者人	wnja:2.1	i91858
+Japanese	ja	Pa;Fa	祖	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	親	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	お祖父	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	お祖父ちゃん	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	お祖父様	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	御祖父	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	御祖父さん	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	御祖父様	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	爺さん	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	祖父	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	祖父さま	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	祖父上	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	祖父君	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	祖父御	wnja:2.1	i90287
+Japanese	ja	Pa;Fa	祖父様	wnja:2.1	i90287
+Japanese	ja	Pa;Mo	お祖母	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	お祖母さま	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	お祖母様	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	バアチャン	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	婆さん	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	御祖母	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	御祖母さん	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	御祖母ちゃん	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	祖母	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	祖母さま	wnja:2.1	i90289
+Japanese	ja	Pa;Mo	祖母様	wnja:2.1	i90289
+Japanese	ja	Pa;Pa	祖父母	wnja:2.1	i90292
 Japanese	ja	Pa;Sb;Ch	従兄	wnja:2.1	i89276
 Japanese	ja	Pa;Sb;Ch	従兄弟	wnja:2.1	i89276
 Japanese	ja	Pa;Sb;Ch	従妹	wnja:2.1	i89276
@@ -1605,11 +1605,11 @@ Japanese	ja	Wi	御新造	wnja:2.1	i94123
 Japanese	ja	Wi	愚妻	wnja:2.1	i94123
 Japanese	ja	Wi	細君	wnja:2.1	i94123
 Japanese	ja	Wi	裏方	wnja:2.1	i94123
-Japanese	ja	Yn;Br	弟	wnja:2.1	i91053
-Japanese	ja	Yn;Ss	妹	wnja:2.1	i91057
-Japanese	ja	Yn;Ss	妹さん	wnja:2.1	i91057
-Japanese	ja	Yn;Ss	妹君	wnja:2.1	i91057
-Japanese	ja	Yn;Ss	小妹	wnja:2.1	i91057
+Japanese	ja	Yn:Br	弟	wnja:2.1	i91053
+Japanese	ja	Yn:Ss	妹	wnja:2.1	i91057
+Japanese	ja	Yn:Ss	妹さん	wnja:2.1	i91057
+Japanese	ja	Yn:Ss	妹君	wnja:2.1	i91057
+Japanese	ja	Yn:Ss	小妹	wnja:2.1	i91057
 Kawi	kaw	Aun	penan	wnkaw:2026.03.14	i88357
 Kawi	kaw	Ch	boñcah	wnkaw:2026.03.14	i88965
 Kawi	kaw	Ch	garbha	wnkaw:2026.03.14	i88965
@@ -1625,7 +1625,6 @@ Kawi	kaw	Da	rara	wnkaw:2026.03.14	i89398
 Kawi	kaw	Da	sutā	wnkaw:2026.03.14	i89398
 Kawi	kaw	Da;Hu	mantu	wnkaw:2026.03.14	i93147
 Kawi	kaw	Fa	pitā	wnkaw:2026.03.14	i89901
-Kawi	kaw	Pa;Fa	akaki	wnkaw:2026.03.14	i90287
 Kawi	kaw	Hu	bharta	wnkaw:2026.03.14	i90626
 Kawi	kaw	Hu	jalu	wnkaw:2026.03.14	i90626
 Kawi	kaw	Hu	laki	wnkaw:2026.03.14	i90626
@@ -1638,6 +1637,7 @@ Kawi	kaw	Mo	mātā	wnkaw:2026.03.14	i91462
 Kawi	kaw	Mo	matuh	wnkaw:2026.03.14	i91462
 Kawi	kaw	Mo	rena	wnkaw:2026.03.14	i91462
 Kawi	kaw	Pa	kawwitan	wnkaw:2026.03.14	i91858
+Kawi	kaw	Pa;Fa	akaki	wnkaw:2026.03.14	i90287
 Kawi	kaw	Pa;Sb;Ch	wwaṅ sānak	wnkaw:2026.03.14	i89276
 Kawi	kaw	Rel	sambandha	wnkaw:2026.03.14	i90856
 Kawi	kaw	Rel	wwaṅ sānak	wnkaw:2026.03.14	i90856
@@ -1670,6 +1670,13 @@ Latin	la	Ch	proles	latin-revised-la:2.0	i88965
 Latin	la	Ch	propago	latin-revised-la:2.0	i88965
 Latin	la	Ch	uterus	latin-revised-la:2.0	i88965
 Latin	la	Ch	infans	latin-revised-la:2.0	i88965
+Latin	la	Ch;Da	nepos	latin-revised-la:2.0	i90281
+Latin	la	Ch;Da	nepotula	latin-revised-la:2.0	i90281
+Latin	la	Ch;Da	nepticula	latin-revised-la:2.0	i90281
+Latin	la	Ch;Da	neptia	latin-revised-la:2.0	i90281
+Latin	la	Ch;So	nepos	latin-la:2.0	i90293
+Latin	la	Ch;So	nepos	latin-revised-la:2.0	i90293
+Latin	la	Ch;So	nepotulus	latin-revised-la:2.0	i90293
 Latin	la	Da	filia	latin-la:2.0	i89398
 Latin	la	Da	filiola	latin-la:2.0	i89398
 Latin	la	Da	nata	latin-la:2.0	i89398
@@ -1691,19 +1698,6 @@ Latin	la	Fa	pater	latin-revised-la:2.0	i89901
 Latin	la	Fa	abba	latin-revised-la:2.0	i89901
 Latin	la	Fa	atta	latin-revised-la:2.0	i89901
 Latin	la	Fa	creator	latin-revised-la:2.0	i89901
-Latin	la	Ch;Da	nepos	latin-revised-la:2.0	i90281
-Latin	la	Ch;Da	nepotula	latin-revised-la:2.0	i90281
-Latin	la	Ch;Da	nepticula	latin-revised-la:2.0	i90281
-Latin	la	Ch;Da	neptia	latin-revised-la:2.0	i90281
-Latin	la	Pa;Fa	auus	latin-la:2.0	i90287
-Latin	la	Pa;Fa	auus	latin-revised-la:2.0	i90287
-Latin	la	Pa;Mo	auia	latin-la:2.0	i90289
-Latin	la	Pa;Mo	mamma	latin-revised-la:2.0	i90289
-Latin	la	Pa;Mo	auia	latin-revised-la:2.0	i90289
-Latin	la	Pa;Mo	aua	latin-revised-la:2.0	i90289
-Latin	la	Ch;So	nepos	latin-la:2.0	i90293
-Latin	la	Ch;So	nepos	latin-revised-la:2.0	i90293
-Latin	la	Ch;So	nepotulus	latin-revised-la:2.0	i90293
 Latin	la	Hu	maritus	latin-la:2.0	i90626
 Latin	la	Hu	uir	latin-la:2.0	i90626
 Latin	la	Hu	maritus	latin-revised-la:2.0	i90626
@@ -1724,6 +1718,12 @@ Latin	la	Mo	creatrix	latin-revised-la:2.0	i91462
 Latin	la	Pa	genitor	latin-revised-la:2.0	i91858
 Latin	la	Pa	parens	latin-revised-la:2.0	i91858
 Latin	la	Pa	pater	latin-revised-la:2.0	i91858
+Latin	la	Pa;Fa	auus	latin-la:2.0	i90287
+Latin	la	Pa;Fa	auus	latin-revised-la:2.0	i90287
+Latin	la	Pa;Mo	auia	latin-la:2.0	i90289
+Latin	la	Pa;Mo	mamma	latin-revised-la:2.0	i90289
+Latin	la	Pa;Mo	auia	latin-revised-la:2.0	i90289
+Latin	la	Pa;Mo	aua	latin-revised-la:2.0	i90289
 Latin	la	Pa;Sb;Ch	consobrinus	latin-la:2.0	i89276
 Latin	la	Pa;Sb;Ch	frater	latin-la:2.0	i89276
 Latin	la	Pa;Sb;Ch	frater	latin-revised-la:2.0	i89276
@@ -1775,13 +1775,13 @@ Lithuanian	lt	Ch	palikuonis	omw-lt:2.0	i88965
 Lithuanian	lt	Ch	vaikas	omw-lt:2.0	i88965
 Lithuanian	lt	Da	duktė	omw-lt:2.0	i89398
 Lithuanian	lt	Da	dukra	omw-lt:2.0	i89398
-Lithuanian	lt	Pa;Fa	senelis	omw-lt:2.0	i90287
-Lithuanian	lt	Pa;Mo	močiutė	omw-lt:2.0	i90289
-Lithuanian	lt	Pa;Mo	senelė	omw-lt:2.0	i90289
 Lithuanian	lt	Hu	vyras	omw-lt:2.0	i90626
 Lithuanian	lt	Hu	sutuoktinis	omw-lt:2.0	i90626
 Lithuanian	lt	Mo	gimdytoja	omw-lt:2.0	i91462
 Lithuanian	lt	Mo	motina	omw-lt:2.0	i91462
+Lithuanian	lt	Pa;Fa	senelis	omw-lt:2.0	i90287
+Lithuanian	lt	Pa;Mo	močiutė	omw-lt:2.0	i90289
+Lithuanian	lt	Pa;Mo	senelė	omw-lt:2.0	i90289
 Lithuanian	lt	Rel	giminaitis	omw-lt:2.0	i90856
 Lithuanian	lt	So	sūnus	omw-lt:2.0	i93143
 Lithuanian	lt	Sp	žmona	omw-lt:2.0	i93233
@@ -1835,18 +1835,16 @@ Mongolian	mn	Aun	эгч	monwn-mn:1.0	i88357
 Mongolian	mn	Aun	нагац эгч	monwn-mn:1.0	i88357
 Mongolian	mn	BrL	хүргэн	monwn-mn:1.0	i88712
 Mongolian	mn	Ch	хүүхэд	monwn-mn:1.0	i88965
-Mongolian	mn	Da	охин	monwn-mn:1.0	i89398
-Mongolian	mn	Da;Hu	хүргэн хүү	monwn-mn:1.0	i93147
-Mongolian	mn	El;Br	ах	monwn-mn:1.0	i88560
-Mongolian	mn	El;Ss	эгч	monwn-mn:1.0	i88564
-Mongolian	mn	Fa	эцэг	monwn-mn:1.0	i89901
 Mongolian	mn	Ch;Ch	ач	monwn-mn:1.0	i90280
 Mongolian	mn	Ch;Da	зээ охин	monwn-mn:1.0	i90281
-Mongolian	mn	Pa;Fa	өвөө	monwn-mn:1.0	i90287
-Mongolian	mn	Pa;Mo	эмэг эх	monwn-mn:1.0	i90289
 Mongolian	mn	Ch;So	ач	monwn-mn:1.0	i90293
 Mongolian	mn	Ch;So	ач хүү	monwn-mn:1.0	i90293
 Mongolian	mn	Ch;So	зээ хүү	monwn-mn:1.0	i90293
+Mongolian	mn	Da	охин	monwn-mn:1.0	i89398
+Mongolian	mn	Da;Hu	хүргэн хүү	monwn-mn:1.0	i93147
+Mongolian	mn	El:Br	ах	monwn-mn:1.0	i88560
+Mongolian	mn	El:Ss	эгч	monwn-mn:1.0	i88564
+Mongolian	mn	Fa	эцэг	monwn-mn:1.0	i89901
 Mongolian	mn	Hu	нөхөр	monwn-mn:1.0	i90626
 Mongolian	mn	Hu	гэрлэсэн эр	monwn-mn:1.0	i90626
 Mongolian	mn	Hu	хар хүн	monwn-mn:1.0	i90626
@@ -1854,6 +1852,8 @@ Mongolian	mn	InL	худ	monwn-mn:1.0	i90702
 Mongolian	mn	InL	хадам	monwn-mn:1.0	i90702
 Mongolian	mn	Mo	эх	monwn-mn:1.0	i91462
 Mongolian	mn	Pa	эцэг эх	monwn-mn:1.0	i91858
+Mongolian	mn	Pa;Fa	өвөө	monwn-mn:1.0	i90287
+Mongolian	mn	Pa;Mo	эмэг эх	monwn-mn:1.0	i90289
 Mongolian	mn	Pa;Sb;Ch	үеэл	monwn-mn:1.0	i89276
 Mongolian	mn	Rel	төрөл	monwn-mn:1.0	i90856
 Mongolian	mn	Rel	хамаатан	monwn-mn:1.0	i90856
@@ -1872,8 +1872,8 @@ Mongolian	mn	Unc	том авга	monwn-mn:1.0	i93825
 Mongolian	mn	Unc	авга ах	monwn-mn:1.0	i93825
 Mongolian	mn	Wi	эхнэр	monwn-mn:1.0	i94123
 Mongolian	mn	Wi	гэргий	monwn-mn:1.0	i94123
-Mongolian	mn	Yn;Br	эрэгтэй дүү	monwn-mn:1.0	i91053
-Mongolian	mn	Yn;Ss	эмэгтэй дүү	monwn-mn:1.0	i91057
+Mongolian	mn	Yn:Br	эрэгтэй дүү	monwn-mn:1.0	i91053
+Mongolian	mn	Yn:Ss	эмэгтэй дүү	monwn-mn:1.0	i91057
 Malay	ms	Aun	ibu saudara	wnb-zsm:1.5	i88357
 Malay	ms	Aun	makcik	wnb-zsm:1.5	i88357
 Malay	ms	Aun	mak su	wnb-zsm:1.5	i88357
@@ -1886,29 +1886,21 @@ Malay	ms	Ch	budak-budak	wnb-zsm:1.5	i88965
 Malay	ms	Ch	budak	wnb-zsm:1.5	i88965
 Malay	ms	Ch	anak	wnb-zsm:1.5	i88965
 Malay	ms	Ch	kanak-kanak	wnb-zsm:1.5	i88965
+Malay	ms	Ch;Ch	cucunda	wnb-zsm:1.5	i90280
+Malay	ms	Ch;Ch	cucu	wnb-zsm:1.5	i90280
+Malay	ms	Ch;So	cucu	wnb-zsm:1.5	i90293
 Malay	ms	Da	anak gadis	wnb-zsm:1.5	i89398
 Malay	ms	Da	puteri	wnb-zsm:1.5	i89398
 Malay	ms	Da	amoi	wnb-zsm:1.5	i89398
 Malay	ms	Da	anak	wnb-zsm:1.5	i89398
 Malay	ms	Da	anak dara	wnb-zsm:1.5	i89398
 Malay	ms	Da;Hu	menantu	wnb-zsm:1.5	i93147
-Malay	ms	El;Br	abang	wnb-zsm:1.5	i88560
+Malay	ms	El:Br	abang	wnb-zsm:1.5	i88560
 Malay	ms	Fa	bapa	wnb-zsm:1.5	i89901
 Malay	ms	Fa	aba	wnb-zsm:1.5	i89901
 Malay	ms	Fa	ayah	wnb-zsm:1.5	i89901
 Malay	ms	Fa	papa	wnb-zsm:1.5	i89901
 Malay	ms	Fa	ayahanda	wnb-zsm:1.5	i89901
-Malay	ms	Ch;Ch	cucunda	wnb-zsm:1.5	i90280
-Malay	ms	Ch;Ch	cucu	wnb-zsm:1.5	i90280
-Malay	ms	Pa;Fa	nenda	wnb-zsm:1.5	i90287
-Malay	ms	Pa;Fa	datuk	wnb-zsm:1.5	i90287
-Malay	ms	Pa;Fa	nenenda	wnb-zsm:1.5	i90287
-Malay	ms	Pa;Mo	nek	wnb-zsm:1.5	i90289
-Malay	ms	Pa;Mo	opah	wnb-zsm:1.5	i90289
-Malay	ms	Pa;Mo	nenek	wnb-zsm:1.5	i90289
-Malay	ms	Pa;Pa	datuk	wnb-zsm:1.5	i90292
-Malay	ms	Pa;Pa	nenek	wnb-zsm:1.5	i90292
-Malay	ms	Ch;So	cucu	wnb-zsm:1.5	i90293
 Malay	ms	Hu	laki	wnb-zsm:1.5	i90626
 Malay	ms	Hu	suami	wnb-zsm:1.5	i90626
 Malay	ms	Mo	mama	wnb-zsm:1.5	i91462
@@ -1921,6 +1913,14 @@ Malay	ms	Mo	ibu	wnb-zsm:1.5	i91462
 Malay	ms	Pa	ayah bonda	wnb-zsm:1.5	i91858
 Malay	ms	Pa	ibu bapa	wnb-zsm:1.5	i91858
 Malay	ms	Pa	orang tua	wnb-zsm:1.5	i91858
+Malay	ms	Pa;Fa	nenda	wnb-zsm:1.5	i90287
+Malay	ms	Pa;Fa	datuk	wnb-zsm:1.5	i90287
+Malay	ms	Pa;Fa	nenenda	wnb-zsm:1.5	i90287
+Malay	ms	Pa;Mo	nek	wnb-zsm:1.5	i90289
+Malay	ms	Pa;Mo	opah	wnb-zsm:1.5	i90289
+Malay	ms	Pa;Mo	nenek	wnb-zsm:1.5	i90289
+Malay	ms	Pa;Pa	datuk	wnb-zsm:1.5	i90292
+Malay	ms	Pa;Pa	nenek	wnb-zsm:1.5	i90292
 Malay	ms	Pa;Sb;Ch	saudara	wnb-zsm:1.5	i89276
 Malay	ms	Pa;Sb;Ch	sepupu	wnb-zsm:1.5	i89276
 Malay	ms	Rel	saudara-mara	wnb-zsm:1.5	i90856
@@ -1951,25 +1951,25 @@ Malay	ms	Unc	bapa saudara	wnb-zsm:1.5	i93825
 Malay	ms	Wi	bini	wnb-zsm:1.5	i94123
 Malay	ms	Wi	isteri	wnb-zsm:1.5	i94123
 Hmong Daw	mww	Ch	me nyuam	hmnont:0.1	i88965
-Hmong Daw	mww	Da	ntxhais	hmnont:0.1	i89398
-Hmong Daw	mww	Da;Hu	vauv	hmnont:0.1	i93147
-Hmong Daw	mww	El;Br	tij-laug	hmnont:0.1	i88560
-Hmong Daw	mww	El;Ss	niam laus	hmnont:0.1	i88564
-Hmong Daw	mww	Fa	txiv	hmnont:0.1	i89901
 Hmong Daw	mww	Ch;Ch	xeeb ntxwv	hmnont:0.1	i90280
 Hmong Daw	mww	Ch;Ch	xeeb-ntxwv	hmnont:0.1	i90280
 Hmong Daw	mww	Ch;Da	ntxhais xeeb-ntxwv	hmnont:0.1	i90281
+Hmong Daw	mww	Ch;So	tub xeeb-ntxwv	hmnont:0.1	i90293
+Hmong Daw	mww	Da	ntxhais	hmnont:0.1	i89398
+Hmong Daw	mww	Da;Hu	vauv	hmnont:0.1	i93147
+Hmong Daw	mww	El:Br	tij-laug	hmnont:0.1	i88560
+Hmong Daw	mww	El:Ss	niam laus	hmnont:0.1	i88564
+Hmong Daw	mww	Fa	txiv	hmnont:0.1	i89901
+Hmong Daw	mww	Hu	txiv	hmnont:0.1	i90626
+Hmong Daw	mww	InL	neej tsa	hmnont:0.1	i90702
+Hmong Daw	mww	Mo	niam	hmnont:0.1	i91462
+Hmong Daw	mww	Pa	niam txiv	hmnont:0.1	i91858
 Hmong Daw	mww	Pa;Fa	yawg	hmnont:0.1	i90287
 Hmong Daw	mww	Pa;Fa	yawm txiv	hmnont:0.1	i90287
 Hmong Daw	mww	Pa;Mo	niam tais	hmnont:0.1	i90289
 Hmong Daw	mww	Pa;Mo	pog	hmnont:0.1	i90289
 Hmong Daw	mww	Pa;Pa	niam tais yawm txiv	hmnont:0.1	i90292
 Hmong Daw	mww	Pa;Pa	pog yawg	hmnont:0.1	i90292
-Hmong Daw	mww	Ch;So	tub xeeb-ntxwv	hmnont:0.1	i90293
-Hmong Daw	mww	Hu	txiv	hmnont:0.1	i90626
-Hmong Daw	mww	InL	neej tsa	hmnont:0.1	i90702
-Hmong Daw	mww	Mo	niam	hmnont:0.1	i91462
-Hmong Daw	mww	Pa	niam txiv	hmnont:0.1	i91858
 Hmong Daw	mww	Pa;Sb;Ch	cousin	hmnont:0.1	i89276
 Hmong Daw	mww	Pa;Sb;Ch	kwv tij	hmnont:0.1	i89276
 Hmong Daw	mww	Pa;Sb;Ch	npawg	hmnont:0.1	i89276
@@ -1987,26 +1987,26 @@ Hmong Daw	mww	Sp;Mo	niam	hmnont:0.1	i91467
 Hmong Daw	mww	Unc	uncle	hmnont:0.1	i93825
 Hmong Daw	mww	Wi	poj niam	hmnont:0.1	i94123
 Hmong Daw	mww	Wi	pojniam	hmnont:0.1	i94123
-Hmong Daw	mww	Yn;Br	kwv	hmnont:0.1	i91053
-Hmong Daw	mww	Yn;Ss	niam hluas	hmnont:0.1	i91057
+Hmong Daw	mww	Yn:Br	kwv	hmnont:0.1	i91053
+Hmong Daw	mww	Yn:Ss	niam hluas	hmnont:0.1	i91057
 Burmese	my	Ch	ကလေး	mow:0.1.3	i88965
-Burmese	my	El;Br	အကို	mow:0.1.3	i88560
-Burmese	my	El;Ss	အမ	mow:0.1.3	i88564
+Burmese	my	El:Br	အကို	mow:0.1.3	i88560
+Burmese	my	El:Ss	အမ	mow:0.1.3	i88564
 Burmese	my	Fa	အဖေ	mow:0.1.3	i89901
 Burmese	my	Fa	ဖခင်	mow:0.1.3	i89901
 Burmese	my	Fa	အဖ	mow:0.1.3	i89901
-Burmese	my	Pa;Fa	အဘိုး	mow:0.1.3	i90287
-Burmese	my	Pa;Fa	ဘိုးဘိုး	mow:0.1.3	i90287
-Burmese	my	Pa;Mo	ဘွားဘွား	mow:0.1.3	i90289
 Burmese	my	Hu	လင်	mow:0.1.3	i90626
 Burmese	my	Mo	အမေ	mow:0.1.3	i91462
 Burmese	my	Mo	အမိ	mow:0.1.3	i91462
+Burmese	my	Pa;Fa	အဘိုး	mow:0.1.3	i90287
+Burmese	my	Pa;Fa	ဘိုးဘိုး	mow:0.1.3	i90287
+Burmese	my	Pa;Mo	ဘွားဘွား	mow:0.1.3	i90289
 Burmese	my	Sb;Da	တူမ	mow:0.1.3	i91615
 Burmese	my	Sb;So	တူ	mow:0.1.3	i91586
 Burmese	my	So	သား	mow:0.1.3	i93143
 Burmese	my	Wi	မယား	mow:0.1.3	i94123
-Burmese	my	Yn;Br	ညီ	mow:0.1.3	i91053
-Burmese	my	Yn;Ss	ညီမ	mow:0.1.3	i91057
+Burmese	my	Yn:Br	ညီ	mow:0.1.3	i91053
+Burmese	my	Yn:Ss	ညီမ	mow:0.1.3	i91057
 Norwegian Bokmål	nb	Aun	tante	norwegian-nb:1.0	i88357
 Norwegian Bokmål	nb	Ch	barn	norwegian-nb:1.0	i88965
 Norwegian Bokmål	nb	Da	datter	norwegian-nb:1.0	i89398
@@ -2014,12 +2014,12 @@ Norwegian Bokmål	nb	Fa	fader	norwegian-nb:1.0	i89901
 Norwegian Bokmål	nb	Fa	pappa	norwegian-nb:1.0	i89901
 Norwegian Bokmål	nb	Fa	far	norwegian-nb:1.0	i89901
 Norwegian Bokmål	nb	Fa	fatter	norwegian-nb:1.0	i89901
-Norwegian Bokmål	nb	Pa;Fa	bestefar	norwegian-nb:1.0	i90287
-Norwegian Bokmål	nb	Pa;Mo	bestemor	norwegian-nb:1.0	i90289
 Norwegian Bokmål	nb	Hu	mann	norwegian-nb:1.0	i90626
 Norwegian Bokmål	nb	Mo	moder	norwegian-nb:1.0	i91462
 Norwegian Bokmål	nb	Mo	mamma	norwegian-nb:1.0	i91462
 Norwegian Bokmål	nb	Mo	mor	norwegian-nb:1.0	i91462
+Norwegian Bokmål	nb	Pa;Fa	bestefar	norwegian-nb:1.0	i90287
+Norwegian Bokmål	nb	Pa;Mo	bestemor	norwegian-nb:1.0	i90289
 Norwegian Bokmål	nb	Rel	slektning	norwegian-nb:1.0	i90856
 Norwegian Bokmål	nb	Sb;So	nevø	norwegian-nb:1.0	i91586
 Norwegian Bokmål	nb	Unc	onkel	norwegian-nb:1.0	i93825
@@ -2032,10 +2032,10 @@ Norwegian Nynorsk	nn	Ch	barn	omw-nn:2.0	i88965
 Norwegian Nynorsk	nn	Da	dotter	omw-nn:2.0	i89398
 Norwegian Nynorsk	nn	Fa	far	omw-nn:2.0	i89901
 Norwegian Nynorsk	nn	Fa	fatter	omw-nn:2.0	i89901
-Norwegian Nynorsk	nn	Pa;Fa	bestefar	omw-nn:2.0	i90287
-Norwegian Nynorsk	nn	Pa;Mo	bestemor	omw-nn:2.0	i90289
 Norwegian Nynorsk	nn	Hu	mann	omw-nn:2.0	i90626
 Norwegian Nynorsk	nn	Mo	mor	omw-nn:2.0	i91462
+Norwegian Nynorsk	nn	Pa;Fa	bestefar	omw-nn:2.0	i90287
+Norwegian Nynorsk	nn	Pa;Mo	bestemor	omw-nn:2.0	i90289
 Norwegian Nynorsk	nn	Rel	slektning	omw-nn:2.0	i90856
 Norwegian Nynorsk	nn	Sb;So	nevø	omw-nn:2.0	i91586
 Norwegian Nynorsk	nn	Sp	partnar	omw-nn:2.0	i93233
@@ -2052,6 +2052,10 @@ Polish	pl	Ch	dziecię	plwn:5.0	i88965
 Polish	pl	Ch	pociecha	plwn:5.0	i88965
 Polish	pl	Ch	pocieszka	plwn:5.0	i88965
 Polish	pl	Ch	latorośl	plwn:5.0	i88965
+Polish	pl	Ch;Ch	wnuczę	plwn:5.0	i90280
+Polish	pl	Ch;Da	wnuczka	plwn:5.0	i90281
+Polish	pl	Ch;So	wnuczek	plwn:5.0	i90293
+Polish	pl	Ch;So	wnuk	plwn:5.0	i90293
 Polish	pl	Da	córka	plwn:5.0	i89398
 Polish	pl	Da	dziewczynka	plwn:5.0	i89398
 Polish	pl	Da;Hu	zięć	plwn:5.0	i93147
@@ -2059,18 +2063,14 @@ Polish	pl	Fa	rodziciel	plwn:5.0	i89901
 Polish	pl	Fa	tato	plwn:5.0	i89901
 Polish	pl	Fa	tata	plwn:5.0	i89901
 Polish	pl	Fa	ojciec	plwn:5.0	i89901
-Polish	pl	Ch;Ch	wnuczę	plwn:5.0	i90280
-Polish	pl	Ch;Da	wnuczka	plwn:5.0	i90281
-Polish	pl	Pa;Fa	dziadek	plwn:5.0	i90287
-Polish	pl	Pa;Mo	babka	plwn:5.0	i90289
-Polish	pl	Pa;Mo	babcia	plwn:5.0	i90289
-Polish	pl	Ch;So	wnuczek	plwn:5.0	i90293
-Polish	pl	Ch;So	wnuk	plwn:5.0	i90293
 Polish	pl	Hu	małżonek	plwn:5.0	i90626
 Polish	pl	Hu	mąż	plwn:5.0	i90626
 Polish	pl	Mo	matka	plwn:5.0	i91462
 Polish	pl	Mo	mama	plwn:5.0	i91462
 Polish	pl	Pa	rodzic	plwn:5.0	i91858
+Polish	pl	Pa;Fa	dziadek	plwn:5.0	i90287
+Polish	pl	Pa;Mo	babka	plwn:5.0	i90289
+Polish	pl	Pa;Mo	babcia	plwn:5.0	i90289
 Polish	pl	So	chłopiec	plwn:5.0	i93143
 Polish	pl	So	syn	plwn:5.0	i93143
 Polish	pl	So	chłopak	plwn:5.0	i93143
@@ -2093,25 +2093,17 @@ Portuguese	pt	BrL	cunhado	own-pt:2026.04.07	i88712
 Portuguese	pt	Ch	criança	own-pt:2026.04.07	i88965
 Portuguese	pt	Ch	filho	own-pt:2026.04.07	i88965
 Portuguese	pt	Ch	menino	own-pt:2026.04.07	i88965
+Portuguese	pt	Ch;Ch	neta	own-pt:2026.04.07	i90280
+Portuguese	pt	Ch;Ch	neto	own-pt:2026.04.07	i90280
+Portuguese	pt	Ch;Da	neta	own-pt:2026.04.07	i90281
+Portuguese	pt	Ch;Da	neto	own-pt:2026.04.07	i90281
+Portuguese	pt	Ch;So	neto	own-pt:2026.04.07	i90293
 Portuguese	pt	Da	filha	own-pt:2026.04.07	i89398
 Portuguese	pt	Da;Hu	genro	own-pt:2026.04.07	i93147
 Portuguese	pt	Fa	pai	own-pt:2026.04.07	i89901
 Portuguese	pt	Fa	painho	own-pt:2026.04.07	i89901
 Portuguese	pt	Fa	papai	own-pt:2026.04.07	i89901
 Portuguese	pt	Fa	papá	own-pt:2026.04.07	i89901
-Portuguese	pt	Ch;Ch	neta	own-pt:2026.04.07	i90280
-Portuguese	pt	Ch;Ch	neto	own-pt:2026.04.07	i90280
-Portuguese	pt	Ch;Da	neta	own-pt:2026.04.07	i90281
-Portuguese	pt	Ch;Da	neto	own-pt:2026.04.07	i90281
-Portuguese	pt	Pa;Fa	avô	own-pt:2026.04.07	i90287
-Portuguese	pt	Pa;Fa	vovô	own-pt:2026.04.07	i90287
-Portuguese	pt	Pa;Mo	avó	own-pt:2026.04.07	i90289
-Portuguese	pt	Pa;Mo	vovozinha	own-pt:2026.04.07	i90289
-Portuguese	pt	Pa;Mo	vovó	own-pt:2026.04.07	i90289
-Portuguese	pt	Pa;Pa	avó	own-pt:2026.04.07	i90292
-Portuguese	pt	Pa;Pa	avós	own-pt:2026.04.07	i90292
-Portuguese	pt	Pa;Pa	avô	own-pt:2026.04.07	i90292
-Portuguese	pt	Ch;So	neto	own-pt:2026.04.07	i90293
 Portuguese	pt	Hu	cônjuge	own-pt:2026.04.07	i90626
 Portuguese	pt	Hu	esposo	own-pt:2026.04.07	i90626
 Portuguese	pt	Hu	homem	own-pt:2026.04.07	i90626
@@ -2125,6 +2117,14 @@ Portuguese	pt	Pa	genitor	own-pt:2026.04.07	i91858
 Portuguese	pt	Pa	mãe	own-pt:2026.04.07	i91858
 Portuguese	pt	Pa	pai	own-pt:2026.04.07	i91858
 Portuguese	pt	Pa	progenitor	own-pt:2026.04.07	i91858
+Portuguese	pt	Pa;Fa	avô	own-pt:2026.04.07	i90287
+Portuguese	pt	Pa;Fa	vovô	own-pt:2026.04.07	i90287
+Portuguese	pt	Pa;Mo	avó	own-pt:2026.04.07	i90289
+Portuguese	pt	Pa;Mo	vovozinha	own-pt:2026.04.07	i90289
+Portuguese	pt	Pa;Mo	vovó	own-pt:2026.04.07	i90289
+Portuguese	pt	Pa;Pa	avó	own-pt:2026.04.07	i90292
+Portuguese	pt	Pa;Pa	avós	own-pt:2026.04.07	i90292
+Portuguese	pt	Pa;Pa	avô	own-pt:2026.04.07	i90292
 Portuguese	pt	Pa;Sb;Ch	prima	own-pt:2026.04.07	i89276
 Portuguese	pt	Pa;Sb;Ch	primo	own-pt:2026.04.07	i89276
 Portuguese	pt	Rel	parente	own-pt:2026.04.07	i90856
@@ -2150,22 +2150,29 @@ Portuguese	pt	Ss	irmã	own-pt:2026.04.07	i89922
 Portuguese	pt	Unc	tio	own-pt:2026.04.07	i93825
 Portuguese	pt	Wi	esposa	own-pt:2026.04.07	i94123
 Portuguese	pt	Wi	mulher	own-pt:2026.04.07	i94123
-Portuguese	pt	Yn;Br	maninho	own-pt:2026.04.07	i91053
-Portuguese	pt	Yn;Ss	irmã mais nova	own-pt:2026.04.07	i91057
+Portuguese	pt	Yn:Br	maninho	own-pt:2026.04.07	i91053
+Portuguese	pt	Yn:Ss	irmã mais nova	own-pt:2026.04.07	i91057
 Romanian	ro	Aun	mătușă	romanian-ro:1.1	i88357
 Romanian	ro	Aun	tanti	romanian-ro:1.1	i88357
 Romanian	ro	Br	frate	romanian-ro:1.1	i91174
 Romanian	ro	BrL	cumnat	romanian-ro:1.1	i88712
 Romanian	ro	Ch	copil	romanian-ro:1.1	i88965
-Romanian	ro	Da	fiică	romanian-ro:1.1	i89398
-Romanian	ro	Da;Hu	ginere	romanian-ro:1.1	i93147
-Romanian	ro	El;Br	frate mai mare	romanian-ro:1.1	i88560
-Romanian	ro	El;Ss	soră mai mare	romanian-ro:1.1	i88564
-Romanian	ro	Fa	taică	romanian-ro:1.1	i89901
-Romanian	ro	Fa	tată	romanian-ro:1.1	i89901
 Romanian	ro	Ch;Ch	nepot	romanian-ro:1.1	i90280
 Romanian	ro	Ch;Da	nepoată	romanian-ro:1.1	i90281
 Romanian	ro	Ch;Da	nepoțică	romanian-ro:1.1	i90281
+Romanian	ro	Da	fiică	romanian-ro:1.1	i89398
+Romanian	ro	Da;Hu	ginere	romanian-ro:1.1	i93147
+Romanian	ro	El:Br	frate mai mare	romanian-ro:1.1	i88560
+Romanian	ro	El:Ss	soră mai mare	romanian-ro:1.1	i88564
+Romanian	ro	Fa	taică	romanian-ro:1.1	i89901
+Romanian	ro	Fa	tată	romanian-ro:1.1	i89901
+Romanian	ro	Hu	bărbat	romanian-ro:1.1	i90626
+Romanian	ro	Hu	gospodar	romanian-ro:1.1	i90626
+Romanian	ro	Hu	soț	romanian-ro:1.1	i90626
+Romanian	ro	InL	alianță	romanian-ro:1.1	i90702
+Romanian	ro	Mo	maică	romanian-ro:1.1	i91462
+Romanian	ro	Mo	mamă	romanian-ro:1.1	i91462
+Romanian	ro	Pa	părinte	romanian-ro:1.1	i91858
 Romanian	ro	Pa;Fa	bunel	romanian-ro:1.1	i90287
 Romanian	ro	Pa;Fa	bunic	romanian-ro:1.1	i90287
 Romanian	ro	Pa;Fa	tată mare	romanian-ro:1.1	i90287
@@ -2175,13 +2182,6 @@ Romanian	ro	Pa;Mo	mamă-mare	romanian-ro:1.1	i90289
 Romanian	ro	Pa;Mo	mamaie	romanian-ro:1.1	i90289
 Romanian	ro	Pa;Pa	bun	romanian-ro:1.1	i90292
 Romanian	ro	Pa;Pa	bunic	romanian-ro:1.1	i90292
-Romanian	ro	Hu	bărbat	romanian-ro:1.1	i90626
-Romanian	ro	Hu	gospodar	romanian-ro:1.1	i90626
-Romanian	ro	Hu	soț	romanian-ro:1.1	i90626
-Romanian	ro	InL	alianță	romanian-ro:1.1	i90702
-Romanian	ro	Mo	maică	romanian-ro:1.1	i91462
-Romanian	ro	Mo	mamă	romanian-ro:1.1	i91462
-Romanian	ro	Pa	părinte	romanian-ro:1.1	i91858
 Romanian	ro	Pa;Sb;Ch	văr	romanian-ro:1.1	i89276
 Romanian	ro	Pa;Sb;Ch	verișor	romanian-ro:1.1	i89276
 Romanian	ro	Rel	rudă	romanian-ro:1.1	i90856
@@ -2205,8 +2205,8 @@ Romanian	ro	Sp;Ss	cumnată	romanian-ro:1.1	i93022
 Romanian	ro	Unc	unchi	romanian-ro:1.1	i93825
 Romanian	ro	Wi	nevastă	romanian-ro:1.1	i94123
 Romanian	ro	Wi	soție	romanian-ro:1.1	i94123
-Romanian	ro	Yn;Br	frățior	romanian-ro:1.1	i91053
-Romanian	ro	Yn;Ss	mezină	romanian-ro:1.1	i91057
+Romanian	ro	Yn:Br	frățior	romanian-ro:1.1	i91053
+Romanian	ro	Yn:Ss	mezină	romanian-ro:1.1	i91057
 Russian	ru	Aun	тетя	russian-ru:2.0	i88357
 Russian	ru	Aun	тетка	russian-ru:2.0	i88357
 Russian	ru	Aun	тетушка	russian-ru:2.0	i88357
@@ -2222,6 +2222,17 @@ Russian	ru	Ch	чадо	russian-ru:2.0	i88965
 Russian	ru	Ch	свое чадо	russian-ru:2.0	i88965
 Russian	ru	Ch	деточка	russian-ru:2.0	i88965
 Russian	ru	Ch	детка	russian-ru:2.0	i88965
+Russian	ru	Ch;Ch	внуки	russian-ru:2.0	i90280
+Russian	ru	Ch;Ch	внуки и внучки	russian-ru:2.0	i90280
+Russian	ru	Ch;Da	дочь дочери	russian-ru:2.0	i90281
+Russian	ru	Ch;Da	внученька	russian-ru:2.0	i90281
+Russian	ru	Ch;Da	дочь сына	russian-ru:2.0	i90281
+Russian	ru	Ch;Da	внучка	russian-ru:2.0	i90281
+Russian	ru	Ch;So	внучата	russian-ru:2.0	i90293
+Russian	ru	Ch;So	внучок	russian-ru:2.0	i90293
+Russian	ru	Ch;So	внучонок	russian-ru:2.0	i90293
+Russian	ru	Ch;So	внучек	russian-ru:2.0	i90293
+Russian	ru	Ch;So	внук	russian-ru:2.0	i90293
 Russian	ru	Da	дочка	russian-ru:2.0	i89398
 Russian	ru	Da	дочурка	russian-ru:2.0	i89398
 Russian	ru	Da	доченька	russian-ru:2.0	i89398
@@ -2239,27 +2250,6 @@ Russian	ru	Fa	папуля	russian-ru:2.0	i89901
 Russian	ru	Fa	батюшка	russian-ru:2.0	i89901
 Russian	ru	Fa	батька	russian-ru:2.0	i89901
 Russian	ru	Fa	папенька	russian-ru:2.0	i89901
-Russian	ru	Ch;Ch	внуки	russian-ru:2.0	i90280
-Russian	ru	Ch;Ch	внуки и внучки	russian-ru:2.0	i90280
-Russian	ru	Ch;Da	дочь дочери	russian-ru:2.0	i90281
-Russian	ru	Ch;Da	внученька	russian-ru:2.0	i90281
-Russian	ru	Ch;Da	дочь сына	russian-ru:2.0	i90281
-Russian	ru	Ch;Da	внучка	russian-ru:2.0	i90281
-Russian	ru	Pa;Fa	дедушка	russian-ru:2.0	i90287
-Russian	ru	Pa;Fa	дедуля	russian-ru:2.0	i90287
-Russian	ru	Pa;Fa	дед	russian-ru:2.0	i90287
-Russian	ru	Pa;Mo	бабуля	russian-ru:2.0	i90289
-Russian	ru	Pa;Mo	бабуся	russian-ru:2.0	i90289
-Russian	ru	Pa;Mo	бабка	russian-ru:2.0	i90289
-Russian	ru	Pa;Mo	бабушка	russian-ru:2.0	i90289
-Russian	ru	Pa;Mo	мама отца	russian-ru:2.0	i90289
-Russian	ru	Pa;Mo	мать отца	russian-ru:2.0	i90289
-Russian	ru	Pa;Mo	мать матери	russian-ru:2.0	i90289
-Russian	ru	Ch;So	внучата	russian-ru:2.0	i90293
-Russian	ru	Ch;So	внучок	russian-ru:2.0	i90293
-Russian	ru	Ch;So	внучонок	russian-ru:2.0	i90293
-Russian	ru	Ch;So	внучек	russian-ru:2.0	i90293
-Russian	ru	Ch;So	внук	russian-ru:2.0	i90293
 Russian	ru	Hu	супруг	russian-ru:2.0	i90626
 Russian	ru	Hu	законный муж	russian-ru:2.0	i90626
 Russian	ru	Hu	муж	russian-ru:2.0	i90626
@@ -2286,6 +2276,16 @@ Russian	ru	Mo	мать	russian-ru:2.0	i91462
 Russian	ru	Mo	мама	russian-ru:2.0	i91462
 Russian	ru	Pa	родительство	russian-ru:2.0	i91858
 Russian	ru	Pa	родитель	russian-ru:2.0	i91858
+Russian	ru	Pa;Fa	дедушка	russian-ru:2.0	i90287
+Russian	ru	Pa;Fa	дедуля	russian-ru:2.0	i90287
+Russian	ru	Pa;Fa	дед	russian-ru:2.0	i90287
+Russian	ru	Pa;Mo	бабуля	russian-ru:2.0	i90289
+Russian	ru	Pa;Mo	бабуся	russian-ru:2.0	i90289
+Russian	ru	Pa;Mo	бабка	russian-ru:2.0	i90289
+Russian	ru	Pa;Mo	бабушка	russian-ru:2.0	i90289
+Russian	ru	Pa;Mo	мама отца	russian-ru:2.0	i90289
+Russian	ru	Pa;Mo	мать отца	russian-ru:2.0	i90289
+Russian	ru	Pa;Mo	мать матери	russian-ru:2.0	i90289
 Russian	ru	Pa;Sb;Ch	двоюродный родственник	russian-ru:2.0	i89276
 Russian	ru	Pa;Sb;Ch	двоюродный брат или сестра	russian-ru:2.0	i89276
 Russian	ru	Rel	сродственник	russian-ru:2.0	i90856
@@ -2342,6 +2342,13 @@ Slovak	sk	Da	dcéra	omw-sk:2.0	i89398
 Slovak	sk	Da;Hu	zať	omw-sk:2.0	i93147
 Slovak	sk	Fa	ploditeľ	omw-sk:2.0	i89901
 Slovak	sk	Fa	otec	omw-sk:2.0	i89901
+Slovak	sk	Hu	ženatý muž	omw-sk:2.0	i90626
+Slovak	sk	Hu	ženáč	omw-sk:2.0	i90626
+Slovak	sk	InL	príbuzenstvo	omw-sk:2.0	i90702
+Slovak	sk	Mo	mať	omw-sk:2.0	i91462
+Slovak	sk	Mo	matka	omw-sk:2.0	i91462
+Slovak	sk	Mo	mama	omw-sk:2.0	i91462
+Slovak	sk	Pa	rodič	omw-sk:2.0	i91858
 Slovak	sk	Pa;Fa	deduško	omw-sk:2.0	i90287
 Slovak	sk	Pa;Fa	dedko	omw-sk:2.0	i90287
 Slovak	sk	Pa;Fa	dedo	omw-sk:2.0	i90287
@@ -2351,13 +2358,6 @@ Slovak	sk	Pa;Mo	stará mama	omw-sk:2.0	i90289
 Slovak	sk	Pa;Mo	babka	omw-sk:2.0	i90289
 Slovak	sk	Pa;Mo	babička	omw-sk:2.0	i90289
 Slovak	sk	Pa;Pa	starý rodič	omw-sk:2.0	i90292
-Slovak	sk	Hu	ženatý muž	omw-sk:2.0	i90626
-Slovak	sk	Hu	ženáč	omw-sk:2.0	i90626
-Slovak	sk	InL	príbuzenstvo	omw-sk:2.0	i90702
-Slovak	sk	Mo	mať	omw-sk:2.0	i91462
-Slovak	sk	Mo	matka	omw-sk:2.0	i91462
-Slovak	sk	Mo	mama	omw-sk:2.0	i91462
-Slovak	sk	Pa	rodič	omw-sk:2.0	i91858
 Slovak	sk	Rel	príbuzná osoba	omw-sk:2.0	i90856
 Slovak	sk	Sb	súrodenec	omw-sk:2.0	i92980
 Slovak	sk	So	syn	omw-sk:2.0	i93143
@@ -2379,14 +2379,14 @@ Albanian	sq	Da	bije	omw-sq:2.0	i89398
 Albanian	sq	Da	vajze	omw-sq:2.0	i89398
 Albanian	sq	Fa	baba	omw-sq:2.0	i89901
 Albanian	sq	Fa	prind mashkull	omw-sq:2.0	i89901
+Albanian	sq	Mo	mama	omw-sq:2.0	i91462
+Albanian	sq	Mo	prindi femer	omw-sq:2.0	i91462
+Albanian	sq	Pa	prindër	omw-sq:2.0	i91858
 Albanian	sq	Pa;Fa	gjysh	omw-sq:2.0	i90287
 Albanian	sq	Pa;Fa	babagjysh	omw-sq:2.0	i90287
 Albanian	sq	Pa;Fa	baba i madh	omw-sq:2.0	i90287
 Albanian	sq	Pa;Mo	gjyshe	omw-sq:2.0	i90289
 Albanian	sq	Pa;Pa	gjyshër	omw-sq:2.0	i90292
-Albanian	sq	Mo	mama	omw-sq:2.0	i91462
-Albanian	sq	Mo	prindi femer	omw-sq:2.0	i91462
-Albanian	sq	Pa	prindër	omw-sq:2.0	i91858
 Albanian	sq	Pa;Sb;Ch	kushëri	omw-sq:2.0	i89276
 Albanian	sq	Pa;Sb;Ch	kushëri i pare	omw-sq:2.0	i89276
 Albanian	sq	Rel	familjar	omw-sq:2.0	i90856
@@ -2403,16 +2403,16 @@ Albanian	sq	Wi	bashkëshorte	omw-sq:2.0	i94123
 Swedish	sv	Aun	faster	omw-sv:2.0	i88357
 Swedish	sv	BrL	svåger	omw-sv:2.0	i88712
 Swedish	sv	Ch	barn	omw-sv:2.0	i88965
-Swedish	sv	Da	dotter	omw-sv:2.0	i89398
-Swedish	sv	Fa	far	omw-sv:2.0	i89901
 Swedish	sv	Ch;Ch	barnbarn	omw-sv:2.0	i90280
 Swedish	sv	Ch;Da	sondotter	omw-sv:2.0	i90281
-Swedish	sv	Pa;Fa	morfar	omw-sv:2.0	i90287
-Swedish	sv	Pa;Mo	farmor	omw-sv:2.0	i90289
 Swedish	sv	Ch;So	sonson	omw-sv:2.0	i90293
+Swedish	sv	Da	dotter	omw-sv:2.0	i89398
+Swedish	sv	Fa	far	omw-sv:2.0	i89901
 Swedish	sv	Hu	make	omw-sv:2.0	i90626
 Swedish	sv	Mo	mor	omw-sv:2.0	i91462
 Swedish	sv	Pa	förälder	omw-sv:2.0	i91858
+Swedish	sv	Pa;Fa	morfar	omw-sv:2.0	i90287
+Swedish	sv	Pa;Mo	farmor	omw-sv:2.0	i90289
 Swedish	sv	Pa;Sb;Ch	kusin	omw-sv:2.0	i89276
 Swedish	sv	Rel	släkting	omw-sv:2.0	i90856
 Swedish	sv	Sb;So	brorson	omw-sv:2.0	i91586
@@ -2434,6 +2434,12 @@ Thai	th	Ch	บุตรธิดา	omw-th:2.0	i88965
 Thai	th	Ch	โซ่ทองคล้องใจ	omw-th:2.0	i88965
 Thai	th	Ch	เลือดในอก	omw-th:2.0	i88965
 Thai	th	Ch	เลือดเนื้อเชื้อไข	omw-th:2.0	i88965
+Thai	th	Ch;Ch	หลาน	omw-th:2.0	i90280
+Thai	th	Ch;Ch	นัดดา	omw-th:2.0	i90280
+Thai	th	Ch;Ch	พระนัดดา	omw-th:2.0	i90280
+Thai	th	Ch;Ch	พระราชนัดดา	omw-th:2.0	i90280
+Thai	th	Ch;Da	หลานสาว	omw-th:2.0	i90281
+Thai	th	Ch;So	หลานชาย	omw-th:2.0	i90293
 Thai	th	Da	ธิดา	omw-th:2.0	i89398
 Thai	th	Da	ลูกสาว	omw-th:2.0	i89398
 Thai	th	Da	บุตรสาว	omw-th:2.0	i89398
@@ -2446,23 +2452,6 @@ Thai	th	Da;Hu	ลูกเขย	omw-th:2.0	i93147
 Thai	th	Da;Hu	เขย	omw-th:2.0	i93147
 Thai	th	Fa	พ่อ	omw-th:2.0	i89901
 Thai	th	Fa	บิดา	omw-th:2.0	i89901
-Thai	th	Ch;Ch	หลาน	omw-th:2.0	i90280
-Thai	th	Ch;Ch	นัดดา	omw-th:2.0	i90280
-Thai	th	Ch;Ch	พระนัดดา	omw-th:2.0	i90280
-Thai	th	Ch;Ch	พระราชนัดดา	omw-th:2.0	i90280
-Thai	th	Ch;Da	หลานสาว	omw-th:2.0	i90281
-Thai	th	Pa;Fa	ตา	omw-th:2.0	i90287
-Thai	th	Pa;Fa	พ่อเฒ่า	omw-th:2.0	i90287
-Thai	th	Pa;Fa	พ่ออุ๊ย	omw-th:2.0	i90287
-Thai	th	Pa;Fa	ปู่	omw-th:2.0	i90287
-Thai	th	Pa;Mo	ยาย	omw-th:2.0	i90289
-Thai	th	Pa;Mo	ย่า	omw-th:2.0	i90289
-Thai	th	Pa;Mo	แม่เฒ่า	omw-th:2.0	i90289
-Thai	th	Pa;Mo	แม่อุ๊ย	omw-th:2.0	i90289
-Thai	th	Pa;Pa	ปู่ยาตายาย	omw-th:2.0	i90292
-Thai	th	Pa;Pa	พ่อเฒ่าแม่เฒ่า	omw-th:2.0	i90292
-Thai	th	Pa;Pa	พ่ออุ๊ยแม่อุ๊ย	omw-th:2.0	i90292
-Thai	th	Ch;So	หลานชาย	omw-th:2.0	i90293
 Thai	th	Hu	ผัว	omw-th:2.0	i90626
 Thai	th	Hu	พระสวามี	omw-th:2.0	i90626
 Thai	th	Hu	สวามี	omw-th:2.0	i90626
@@ -2478,6 +2467,17 @@ Thai	th	Pa	พ่อแม่	omw-th:2.0	i91858
 Thai	th	Pa	บิดามารดา	omw-th:2.0	i91858
 Thai	th	Pa	บิดรมารดา	omw-th:2.0	i91858
 Thai	th	Pa	ผู้บังเกิดเกล้า	omw-th:2.0	i91858
+Thai	th	Pa;Fa	ตา	omw-th:2.0	i90287
+Thai	th	Pa;Fa	พ่อเฒ่า	omw-th:2.0	i90287
+Thai	th	Pa;Fa	พ่ออุ๊ย	omw-th:2.0	i90287
+Thai	th	Pa;Fa	ปู่	omw-th:2.0	i90287
+Thai	th	Pa;Mo	ยาย	omw-th:2.0	i90289
+Thai	th	Pa;Mo	ย่า	omw-th:2.0	i90289
+Thai	th	Pa;Mo	แม่เฒ่า	omw-th:2.0	i90289
+Thai	th	Pa;Mo	แม่อุ๊ย	omw-th:2.0	i90289
+Thai	th	Pa;Pa	ปู่ยาตายาย	omw-th:2.0	i90292
+Thai	th	Pa;Pa	พ่อเฒ่าแม่เฒ่า	omw-th:2.0	i90292
+Thai	th	Pa;Pa	พ่ออุ๊ยแม่อุ๊ย	omw-th:2.0	i90292
 Thai	th	Pa;Sb;Ch	ลูกพี่ลูกน้อง	omw-th:2.0	i89276
 Thai	th	Rel	พี่น้อง	omw-th:2.0	i90856
 Thai	th	Rel	เครือญาติ	omw-th:2.0	i90856
@@ -2531,39 +2531,25 @@ Turkish	tr	Ch	bala	kenet:1.0	i88965
 Turkish	tr	Ch	enik	kenet:1.0	i88965
 Turkish	tr	Ch	zürriyet	kenet:1.0	i88965
 Turkish	tr	Ch	uşak	kenet:1.0	i88965
+Turkish	tr	Ch;Ch	torun	kenet:1.0	i90280
 Turkish	tr	Da	kız çocuk	kenet:1.0	i89398
 Turkish	tr	Da	kız	kenet:1.0	i89398
 Turkish	tr	Da	kerime	kenet:1.0	i89398
 Turkish	tr	Da;Hu	damat	kenet:1.0	i93147
 Turkish	tr	Da;Hu	eloğlu	kenet:1.0	i93147
 Turkish	tr	Da;Hu	güveyi	kenet:1.0	i93147
-Turkish	tr	El;Br	abi	kenet:1.0	i88560
-Turkish	tr	El;Br	ağabey	kenet:1.0	i88560
-Turkish	tr	El;Br	efe	kenet:1.0	i88560
-Turkish	tr	El;Br	aka	kenet:1.0	i88560
-Turkish	tr	El;Br	ağa	kenet:1.0	i88560
-Turkish	tr	El;Br	ede	kenet:1.0	i88560
-Turkish	tr	El;Ss	abla	kenet:1.0	i88564
-Turkish	tr	El;Ss	bacı	kenet:1.0	i88564
-Turkish	tr	El;Ss	aba	kenet:1.0	i88564
+Turkish	tr	El:Br	abi	kenet:1.0	i88560
+Turkish	tr	El:Br	ağabey	kenet:1.0	i88560
+Turkish	tr	El:Br	efe	kenet:1.0	i88560
+Turkish	tr	El:Br	aka	kenet:1.0	i88560
+Turkish	tr	El:Br	ağa	kenet:1.0	i88560
+Turkish	tr	El:Br	ede	kenet:1.0	i88560
+Turkish	tr	El:Ss	abla	kenet:1.0	i88564
+Turkish	tr	El:Ss	bacı	kenet:1.0	i88564
+Turkish	tr	El:Ss	aba	kenet:1.0	i88564
 Turkish	tr	Fa	baba	kenet:1.0	i89901
 Turkish	tr	Fa	peder	kenet:1.0	i89901
 Turkish	tr	Fa	ata	kenet:1.0	i89901
-Turkish	tr	Ch;Ch	torun	kenet:1.0	i90280
-Turkish	tr	Pa;Fa	dede	kenet:1.0	i90287
-Turkish	tr	Pa;Fa	büyükbaba	kenet:1.0	i90287
-Turkish	tr	Pa;Fa	büyük baba	kenet:1.0	i90287
-Turkish	tr	Pa;Fa	büyük peder	kenet:1.0	i90287
-Turkish	tr	Pa;Fa	ecdat	kenet:1.0	i90287
-Turkish	tr	Pa;Mo	anneanne	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	babaanne	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	nene	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	nine	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	büyükanne	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	büyük anne	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	büyük ana	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	ebe	kenet:1.0	i90289
-Turkish	tr	Pa;Mo	kadınnine	kenet:1.0	i90289
 Turkish	tr	Hu	erkek	kenet:1.0	i90626
 Turkish	tr	Hu	koca	kenet:1.0	i90626
 Turkish	tr	Hu	efendi	kenet:1.0	i90626
@@ -2582,6 +2568,20 @@ Turkish	tr	Mo	mader	kenet:1.0	i91462
 Turkish	tr	Mo	kocakarı	kenet:1.0	i91462
 Turkish	tr	Pa	ana baba	kenet:1.0	i91858
 Turkish	tr	Pa	ebeveyn	kenet:1.0	i91858
+Turkish	tr	Pa;Fa	dede	kenet:1.0	i90287
+Turkish	tr	Pa;Fa	büyükbaba	kenet:1.0	i90287
+Turkish	tr	Pa;Fa	büyük baba	kenet:1.0	i90287
+Turkish	tr	Pa;Fa	büyük peder	kenet:1.0	i90287
+Turkish	tr	Pa;Fa	ecdat	kenet:1.0	i90287
+Turkish	tr	Pa;Mo	anneanne	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	babaanne	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	nene	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	nine	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	büyükanne	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	büyük anne	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	büyük ana	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	ebe	kenet:1.0	i90289
+Turkish	tr	Pa;Mo	kadınnine	kenet:1.0	i90289
 Turkish	tr	Pa;Sb;Ch	kuzin	kenet:1.0	i89276
 Turkish	tr	Pa;Sb;Ch	böle	kenet:1.0	i89276
 Turkish	tr	Pa;Sb;Ch	kuzen	kenet:1.0	i89276
@@ -2623,17 +2623,12 @@ Turkish	tr	Wi	refika	kenet:1.0	i94123
 Turkish	tr	Wi	ayal	kenet:1.0	i94123
 Turkish	tr	Wi	harem	kenet:1.0	i94123
 Turkish	tr	Wi	familya	kenet:1.0	i94123
+Tatar	tt	Ch;Ch	оныклар	tatwordnet-tt:1.1	i90280
+Tatar	tt	Ch;Da	оныка	tatwordnet-tt:1.1	i90281
+Tatar	tt	Ch;So	онык	tatwordnet-tt:1.1	i90293
 Tatar	tt	Da	кыз	tatwordnet-tt:1.1	i89398
 Tatar	tt	Da;Hu	кияү	tatwordnet-tt:1.1	i93147
 Tatar	tt	Da;Hu	җизни	tatwordnet-tt:1.1	i93147
-Tatar	tt	Ch;Ch	оныклар	tatwordnet-tt:1.1	i90280
-Tatar	tt	Ch;Da	оныка	tatwordnet-tt:1.1	i90281
-Tatar	tt	Pa;Fa	бабай	tatwordnet-tt:1.1	i90287
-Tatar	tt	Pa;Fa	дәү әти	tatwordnet-tt:1.1	i90287
-Tatar	tt	Pa;Mo	әби	tatwordnet-tt:1.1	i90289
-Tatar	tt	Pa;Mo	әбекәй	tatwordnet-tt:1.1	i90289
-Tatar	tt	Pa;Mo	дәү әни	tatwordnet-tt:1.1	i90289
-Tatar	tt	Ch;So	онык	tatwordnet-tt:1.1	i90293
 Tatar	tt	Hu	ир	tatwordnet-tt:1.1	i90626
 Tatar	tt	Hu	законлы ир	tatwordnet-tt:1.1	i90626
 Tatar	tt	Hu	канунлы ир	tatwordnet-tt:1.1	i90626
@@ -2649,6 +2644,11 @@ Tatar	tt	InL	хатынның туганы	tatwordnet-tt:1.1	i90702
 Tatar	tt	InL	ирнең туганы	tatwordnet-tt:1.1	i90702
 Tatar	tt	InL	хатынның кардәше	tatwordnet-tt:1.1	i90702
 Tatar	tt	InL	ирнең кардәше	tatwordnet-tt:1.1	i90702
+Tatar	tt	Pa;Fa	бабай	tatwordnet-tt:1.1	i90287
+Tatar	tt	Pa;Fa	дәү әти	tatwordnet-tt:1.1	i90287
+Tatar	tt	Pa;Mo	әби	tatwordnet-tt:1.1	i90289
+Tatar	tt	Pa;Mo	әбекәй	tatwordnet-tt:1.1	i90289
+Tatar	tt	Pa;Mo	дәү әни	tatwordnet-tt:1.1	i90289
 Tatar	tt	Pa;Sb;Ch	туганнан туган абый яки апа	tatwordnet-tt:1.1	i89276
 Tatar	tt	Pa;Sb;Ch	туганнан туган	tatwordnet-tt:1.1	i89276
 Tatar	tt	Pa;Sb;Ch	ике туган	tatwordnet-tt:1.1	i89276
@@ -2697,13 +2697,13 @@ Uzbek	uz	Da;Hu	kuyov	UzWordnet-uz:1.0	i93147
 Uzbek	uz	Fa	ota	UzWordnet-uz:1.0	i89901
 Uzbek	uz	Fa	dada	UzWordnet-uz:1.0	i89901
 Uzbek	uz	Fa	padar	UzWordnet-uz:1.0	i89901
-Uzbek	uz	Pa;Fa	bobo	UzWordnet-uz:1.0	i90287
-Uzbek	uz	Pa;Fa	buva	UzWordnet-uz:1.0	i90287
 Uzbek	uz	Hu	qalliq	UzWordnet-uz:1.0	i90626
 Uzbek	uz	Hu	er	UzWordnet-uz:1.0	i90626
 Uzbek	uz	Hu	erjon	UzWordnet-uz:1.0	i90626
 Uzbek	uz	Hu	ergina	UzWordnet-uz:1.0	i90626
 Uzbek	uz	Pa	ota-ona	UzWordnet-uz:1.0	i91858
+Uzbek	uz	Pa;Fa	bobo	UzWordnet-uz:1.0	i90287
+Uzbek	uz	Pa;Fa	buva	UzWordnet-uz:1.0	i90287
 Uzbek	uz	Rel	qarindosh	UzWordnet-uz:1.0	i90856
 Uzbek	uz	Sb;Da	jiyan	UzWordnet-uz:1.0	i91615
 Uzbek	uz	So	bola	UzWordnet-uz:1.0	i93143
@@ -2730,16 +2730,16 @@ Cantonese	yue	Aun	舅母	cantown-yue:1.0	i88357
 Cantonese	yue	Aun	伯娘	cantown-yue:1.0	i88357
 Cantonese	yue	Da	女女	cantown-yue:1.0	i89398
 Cantonese	yue	Da	女	cantown-yue:1.0	i89398
-Cantonese	yue	Pa;Fa	阿公	cantown-yue:1.0	i90287
-Cantonese	yue	Pa;Fa	爺爺	cantown-yue:1.0	i90287
-Cantonese	yue	Pa;Fa	外公	cantown-yue:1.0	i90287
-Cantonese	yue	Pa;Fa	阿爺	cantown-yue:1.0	i90287
 Cantonese	yue	Mo	老母	cantown-yue:1.0	i91462
 Cantonese	yue	Mo	老媽子	cantown-yue:1.0	i91462
 Cantonese	yue	Mo	媽咪	cantown-yue:1.0	i91462
 Cantonese	yue	Mo	媽媽	cantown-yue:1.0	i91462
 Cantonese	yue	Mo	阿媽	cantown-yue:1.0	i91462
 Cantonese	yue	Mo	母親大人	cantown-yue:1.0	i91462
+Cantonese	yue	Pa;Fa	阿公	cantown-yue:1.0	i90287
+Cantonese	yue	Pa;Fa	爺爺	cantown-yue:1.0	i90287
+Cantonese	yue	Pa;Fa	外公	cantown-yue:1.0	i90287
+Cantonese	yue	Pa;Fa	阿爺	cantown-yue:1.0	i90287
 Cantonese	yue	Pa;Sb;Ch	堂妹	cantown-yue:1.0	i89276
 Cantonese	yue	Pa;Sb;Ch	表弟	cantown-yue:1.0	i89276
 Cantonese	yue	Pa;Sb;Ch	老表	cantown-yue:1.0	i89276

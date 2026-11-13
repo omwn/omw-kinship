@@ -163,8 +163,8 @@ def build_family(ego_sex: str) -> tuple[Family, URIRef]:
     for position, letter, year in siblings("", 1960):
         sibling = family.person(position, SEX[letter], year)
         kids.append(sibling)
-        # a sibling's spouse has no age slot, its child keeps the sibling's age
-        spouse = family.wed(sibling, letter, SEX[letter], year)
+        # a sibling's spouse and child keep the sibling's age
+        spouse = family.wed(sibling, position, SEX[letter], year)
         nephews = [family.person(position + c, SEX[c], 1990) for c in "SD"]
         family.children(
             *((sibling, spouse) if letter == "B" else (spouse, sibling)), nephews
@@ -173,10 +173,11 @@ def build_family(ego_sex: str) -> tuple[Family, URIRef]:
     for spouse in family.spouses(ego):
         base = family.label[spouse]
         in_father, in_mother = family.couple(base, 1930)
+        # a spouse's sibling's age is relative to the spouse (born 1960)
         in_siblings = [
-            family.person(base + letter, SEX[letter], 1960 + offset)
+            family.person(base + age + letter, SEX[letter], 1960 + offset)
             for letter in "BZ"
-            for offset in (-5, 5)
+            for age, offset in (("e", -5), ("y", 5))
         ]
         family.children(in_father, in_mother, [spouse, *in_siblings])
     children = []

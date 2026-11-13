@@ -35,7 +35,7 @@ from functools import cache
 from pathlib import Path
 from xml.sax.saxutils import escape, quoteattr
 
-from kintype import kindiv_atoms, subdomain_of
+from kintype import KINDIV_LETTERS, age_slot, from_kindiv, kindiv_atoms, subdomain_of
 from unidecode import unidecode
 
 logger = logging.getLogger(__name__)
@@ -136,12 +136,17 @@ CODE_COLUMNS = ("Abreviation", "Hyponym_concept", "Hypernym_concept", "Gap conce
 
 
 def read_kindiv(name: str) -> list[dict[str, str]]:
-    """Read one of KinDiv's files, with its codes rewritten as ours."""
+    """Read one of KinDiv's files, with its codes rewritten as ours.
+
+    `kindiv-codes.tsv` renames KinDiv's ``Pr`` and ``Gr``; `from_kindiv` moves
+    each relative age onto the link it describes (``Fa;El;Br`` -> ``Fa;El:Br``).
+    """
     rows = read_tsv(KINDIV / name)
     for row in rows:
         for column in CODE_COLUMNS:
             if column in row:
-                row[column] = KINDIV_CODES.get(row[column], row[column])
+                code = KINDIV_CODES.get(row[column], row[column])
+                row[column] = from_kindiv(code) if code != "#" else code
     return rows
 
 
@@ -165,42 +170,44 @@ def clean(form: str) -> str:
 
 
 def slug(code: str) -> str:
-    """Turn a kin-type code into an XML-safe id: ``x;Fa;Br;So`` -> ``x-Fa-Br-So``.
+    """Turn a kin-type code into an XML-safe id: ``x;Fa;El:Br`` -> ``x-Fa-El.Br``.
 
     A union of kin types (``Fa|Fa;Br``, "father or father's brother") joins its
-    parts with ``_``.
+    parts with ``_``; a modifier's ``:`` becomes ``.``.
     """
-    return code.replace(";", "-").replace("|", "_")
+    return code.replace(";", "-").replace("|", "_").replace(":", ".")
 
 
-def parse(code: str, subdomain: str) -> tuple[str, str, list[str]]:
-    """Read a Murdock kin-type code as (ego sex, relative age, chain of kin terms).
+def parse(code: str) -> tuple[str, str, list[str]]:
+    """Read a kin-type code as (anchor sex, relative age, chain of kin terms).
 
-    ``El``/``Yn`` modify the following kin term (``Pa;El;Br`` is a parent's elder
-    brother), except in the cousins subdomain, where KinDiv uses them for a cousin
-    older or younger than self ("elder, son of father's brother").
+    ``El:``/``Yn:`` make a term elder or younger (``Pa;El:Br`` is a parent's
+    elder brother). A cousin's age is compared with the anchor, not with the
+    parent's sibling before it, so it is returned apart, for "older than
+    oneself".
 
-    >>> parse("x;Fa;El;Br", "uncles and aunts")
+    >>> parse("x;Fa;El:Br")
     ('x', '', ['father', 'elder brother'])
-    >>> parse("Yn;Fa;Br;So", "cousins")
+    >>> parse("Fa;Br;Yn:So")
     ('', 'younger', ['father', 'brother', 'son'])
     """
     parts = code.split(";")
     sex = parts.pop(0) if parts[0] in EGO else ""
     relative_age = ""
     chain: list[str] = []
-    pending = ""
-    for part in parts:
-        if part in ("El", "Yn"):
-            if subdomain == "cousins":
-                relative_age = "older" if part == "El" else "younger"
-            else:
-                pending = ("elder" if part == "El" else "younger") + " "
-        elif part == "Pb":
+    letters = ""
+    for i, part in enumerate(parts):
+        *modifiers, term = part.split(":")
+        age = ("elder" if modifiers[0] == "El" else "younger") if modifiers else ""
+        if term == "Pb":
             chain.extend(["parent", "sibling"])
-        else:
-            chain.append(pending + NOUNS[part])
-            pending = ""
+            letters += "FB"
+            continue
+        letters += KINDIV_LETTERS[term].translate(str.maketrans("PQCE", "FBSH"))
+        cousin = age and i == len(parts) - 1 and age_slot(letters) == 2
+        if cousin:
+            relative_age = "older" if age == "elder" else "younger"
+        chain.append(f"{age} {NOUNS[term]}" if age and not cousin else NOUNS[term])
     return sex, relative_age, chain
 
 
@@ -213,7 +220,7 @@ def define(code: str, subdomain: str) -> str:
     if "|" in code:
         parts = [define(part, subdomain_of(part)) for part in code.split("|")]
         return " or ".join(part.rsplit(" (", 1)[0] for part in parts)
-    sex, relative_age, chain = parse(code, subdomain)
+    sex, relative_age, chain = parse(code)
     ego, ego_poss, ego_obj = EGO[sex]
     head, possessors = chain[-1], chain[:-1]
     article = "the" if head in UNIQUE else ("an" if head[0] in "aeiou" else "a")
@@ -238,19 +245,21 @@ def define(code: str, subdomain: str) -> str:
     )
 
 
-def phrase(code: str, subdomain: str) -> str:
+def phrase(code: str) -> str:
     """Compose the English phrase for a kin type, for concepts English has no word for.
 
-    >>> phrase("Fa;Ss;Hu", "uncles and aunts")
+    >>> phrase("Fa;Ss;Hu")
     "father's sister's husband"
-    >>> phrase("x;Pa;Fa", "grandparents")
+    >>> phrase("x;Pa;Fa")
     "man's parent's father"
-    >>> phrase("El;Fa;Br;So", "cousins")
+    >>> phrase("Fa;Br;El:So")
     "father's brother's son (older than self)"
+    >>> phrase("Sp;El:Br|El:Ss;Hu")
+    "spouse's elder brother or elder sister's husband"
     """
     if "|" in code:
-        return " or ".join(phrase(part, subdomain_of(part)) for part in code.split("|"))
-    sex, relative_age, chain = parse(code, subdomain)
+        return " or ".join(phrase(part) for part in code.split("|"))
+    sex, relative_age, chain = parse(code)
     text = "'s ".join(([EGO[sex][0].removeprefix("a ")] if sex else []) + chain)
     return f"{text} ({relative_age} than self)" if relative_age else text
 
@@ -322,7 +331,7 @@ def positions(concepts: dict[str, Concept]) -> dict[str, frozenset]:
     return {
         code: frozenset(atoms)
         for code, concept in concepts.items()
-        if (atoms := kindiv_atoms(code, concept.subdomain))
+        if (atoms := kindiv_atoms(code))
     }
 
 
@@ -407,7 +416,7 @@ def add_phrases(language: Language, concepts: dict[str, Concept]) -> None:
     for code, concept in concepts.items():
         if code not in attested:
             # named nodes (Rel, InL, Unc, ...) are not kin-type codes: use the label
-            text = concept.label if code.isalpha() else phrase(code, concept.subdomain)
+            text = concept.label if code.isalpha() else phrase(code)
             language.phrases[text] = code
 
 
@@ -425,16 +434,34 @@ def held_back() -> frozenset[tuple[str, str]]:
     )
 
 
+@cache
+def removed() -> frozenset[tuple[str, str, str]]:
+    """(tag, form, concept) of the words marked ``remove`` in `attested-words.tsv`.
+
+    A source puts them on a concept they do not mean: wnja files Japanese 義兄
+    *gikei* under brother-in-law, though it is only an elder one (`BrL`), so
+    that sense is left out, while the word's other concepts are kept.
+    """
+    return frozenset(
+        (row["tag"], clean(row["word"]), row["concept"])
+        for row in read_tsv(DATA / "attested-words.tsv")
+        if row["match"] == "remove"
+    )
+
+
 def add_word(
     languages: dict[str, Language], name: str, form: str, concept: Concept, source: str
 ) -> None:
     """Record that `form` in language `name` lexicalizes `concept`.
 
-    A word held back for review (`held_back`) is not recorded.
+    A word held back for review (`held_back`) is not recorded, nor a word
+    removed from this concept (`removed`).
     """
     language = languages.setdefault(name, Language(name, LANGUAGE_TAGS[name]))
     form = clean(form)
     if (language.tag, form) in held_back():
+        return
+    if (language.tag, form, concept.code) in removed():
         return
     if form and (concept.code, source) not in language.words[form]:
         language.words[form].append((concept.code, source))

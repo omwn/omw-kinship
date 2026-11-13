@@ -254,7 +254,7 @@ omw-kin-elx	Elamite	elx	9	9	6	6	0	0	0
 omw-kin-eme	Teko	eme	8	8	7	3	4	0	0
 omw-kin-emi	Mussau-Emira	emi	5	5	5	0	5	0	0
 omw-kin-emp	Northern Emberá	emp	18	18	18	14	4	0	0
-omw-kin-en	English	en	91	98	44	35	9	148	262
+omw-kin-en	English	en	91	98	44	35	9	148	266
 omw-kin-enf	Forest Enets	enf	10	10	8	8	0	0	0
 omw-kin-enm	Middle English	enm	15	15	10	8	2	0	0
 omw-kin-enq	Enga	enq	7	7	5	0	5	0	0
@@ -377,7 +377,7 @@ omw-kin-ito	Itonama	ito	19	19	12	12	0	0	0
 omw-kin-ivv	Itbayat	ivv	12	12	10	6	4	0	0
 omw-kin-iws	Sepik Iwam	iws	1	1	1	0	1	0	0
 omw-kin-izh	Ingrian	izh	21	21	19	12	7	28	0
-omw-kin-ja	Japanese	ja	367	387	43	35	8	146	0
+omw-kin-ja	Japanese	ja	368	388	46	34	12	146	0
 omw-kin-jae	Yabem	jae	17	17	11	2	9	0	0
 omw-kin-jam	Jamaican Creole English	jam	23	23	18	16	2	0	0
 omw-kin-jao	Yanyuwa	jao	19	19	15	3	12	0	0
@@ -395,7 +395,7 @@ omw-kin-kam	Kamba (Kenya)	kam	18	18	13	8	5	0	0
 omw-kin-kap	Bezhta	kap	32	32	23	13	10	0	0
 omw-kin-kaw	Kawi	kaw	49	52	16	15	1	0	0
 omw-kin-kay	Kamayurá	kay	16	16	16	4	12	0	0
-omw-kin-kca	Kazym Khanty	kca	41	41	29	16	13	0	0
+omw-kin-kca	Kazym Khanty	kca	39	39	27	16	11	0	0
 omw-kin-kcg	Tyap	kcg	6	6	6	6	0	0	0
 omw-kin-kcq	Doromu-Koki	kcq	4	4	4	0	4	0	0
 omw-kin-kde	Makonde	kde	27	27	16	11	5	0	0
@@ -533,7 +533,7 @@ omw-kin-mca	Maca	mca	3	3	3	2	1	0	0
 omw-kin-mch	Ye'kwana	mch	13	13	11	7	4	0	0
 omw-kin-mcm	Malacca-Batavia Portuguese Creole	mcm	24	24	18	12	6	0	0
 omw-kin-mcr	Menya	mcr	9	9	9	4	5	0	0
-omw-kin-mdf	Moksha	mdf	28	28	19	9	10	0	0
+omw-kin-mdf	Moksha	mdf	25	25	18	9	9	0	0
 omw-kin-mdh	Maguindanao	mdh	10	10	8	5	3	0	0
 omw-kin-mdp	Mbala	mdp	14	14	11	8	3	0	0
 omw-kin-mec	Marra	mec	9	9	9	0	9	0	0
@@ -551,7 +551,7 @@ omw-kin-mh	Marshallese	mh	3	3	3	0	3	0	0
 omw-kin-mhk	Mungaka	mhk	14	14	12	9	3	0	0
 omw-kin-mhn	Mòcheno	mhn	6	6	6	4	2	49	0
 omw-kin-mhq	Mandan	mhq	7	7	7	3	4	67	0
-omw-kin-mhr	Eastern Mari	mhr	42	42	21	11	10	0	0
+omw-kin-mhr	Eastern Mari	mhr	38	38	21	11	10	0	0
 omw-kin-mhs	Buru (Indonesia)	mhs	10	10	10	0	10	0	0
 omw-kin-mhy	Ma'anyan	mhy	14	14	12	7	5	0	0
 omw-kin-mi	Maori	mi	49	63	40	14	26	131	0
@@ -576,7 +576,7 @@ omw-kin-mn	Mongolian	mn	64	72	50	31	19	143	0
 omw-kin-mnb	Muna	mnb	12	12	12	4	8	0	0
 omw-kin-mnc	Manchu	mnc	31	32	23	13	10	77	0
 omw-kin-mnr	Mono (USA)	mnr	23	23	17	6	11	0	0
-omw-kin-mns	Northern Mansi	mns	39	39	26	14	12	0	0
+omw-kin-mns	Northern Mansi	mns	38	38	25	14	11	0	0
 omw-kin-mnv	Rennell-Bellona	mnv	6	6	6	4	2	0	0
 omw-kin-mnw	Mon	mnw	1	1	1	1	0	0	0
 omw-kin-mnx	Sougb	mnx	8	8	8	2	6	0	0
@@ -593,7 +593,7 @@ omw-kin-mqn	Moronene	mqn	7	7	7	3	4	0	0
 omw-kin-mqy	Manggarai	mqy	5	5	5	0	5	0	0
 omw-kin-mr	Marathi	mr	83	83	43	17	26	64	0
 omw-kin-mrb	Sunwadia	mrb	40	45	25	8	17	0	0
-omw-kin-mrj	Western Mari	mrj	28	28	22	10	12	0	0
+omw-kin-mrj	Western Mari	mrj	24	24	20	9	11	0	0
 omw-kin-mrl	Mortlockese	mrl	9	9	9	4	5	0	0
 omw-kin-mrm	Merlav	mrm	7	7	6	3	3	0	0
 omw-kin-mrn	Cheke Holo	mrn	4	4	4	3	1	0	0
@@ -620,7 +620,7 @@ omw-kin-mxe	Mele-Fila	mxe	14	14	10	5	5	0	0
 omw-kin-my	Burmese	my	58	59	29	19	10	62	0
 omw-kin-mye	Myene	mye	20	20	15	9	6	0	0
 omw-kin-myu	Mundurukú	myu	11	11	8	6	2	0	0
-omw-kin-myv	Erzya	myv	48	48	28	19	9	0	0
+omw-kin-myv	Erzya	myv	43	43	26	19	7	0	0
 omw-kin-myx	Masaaba	myx	8	8	8	3	5	0	0
 omw-kin-mzh	Wichí Lhamtés Güisnay	mzh	10	10	10	10	0	0	0
 omw-kin-mzn	Mazanderani	mzn	1	1	1	1	0	0	0
@@ -846,9 +846,9 @@ omw-kin-sky	Sikaiana	sky	4	4	4	2	2	0	0
 omw-kin-sl	Slovene	sl	28	28	22	18	4	121	0
 omw-kin-slp	Lamaholot	slp	7	7	7	3	4	0	0
 omw-kin-sm	Samoan	sm	8	8	8	2	6	0	0
-omw-kin-sma	South Saami	sma	28	28	25	10	15	0	0
+omw-kin-sma	South Saami	sma	26	26	23	9	14	0	0
 omw-kin-sml	Central Sama	sml	10	10	10	4	6	0	0
-omw-kin-sms	Skolt Sami	sms	24	24	24	9	15	13	0
+omw-kin-sms	Skolt Sami	sms	23	23	23	9	14	13	0
 omw-kin-sne	Bau-Jagoi Bidayuh	sne	6	6	6	2	4	0	0
 omw-kin-sng	Sanga (Democratic Republic of Congo)	sng	4	4	4	3	1	0	0
 omw-kin-snn	Siona-Tetete	snn	14	14	10	9	1	0	0
@@ -976,7 +976,7 @@ omw-kin-tyh	O'du	tyh	8	8	8	6	2	0	0
 omw-kin-tyv	Tuvan	tyv	3	3	3	2	1	16	0
 omw-kin-tzh	Tzeltal	tzh	14	14	8	3	5	57	0
 omw-kin-tzx	Tabriak	tzx	5	5	5	0	5	0	0
-omw-kin-udm	Udmurt	udm	27	27	18	8	10	0	0
+omw-kin-udm	Udmurt	udm	23	23	17	8	9	0	0
 omw-kin-uga	Ugaritic	uga	18	18	6	6	0	15	0
 omw-kin-uk	Ukrainian	uk	37	37	23	14	9	70	0
 omw-kin-ulk	Meriam	ulk	14	14	9	2	7	0	0
@@ -1087,7 +1087,7 @@ omw-kin-ylr	Yalarnnga	ylr	28	28	19	7	12	0	0
 omw-kin-ynd	Yandruwandha	ynd	21	23	13	6	7	0	0
 omw-kin-yo	Yoruba	yo	3	3	3	1	2	57	0
 omw-kin-yom	Yombe	yom	8	8	8	7	1	0	0
-omw-kin-yrk	Tundra Nenets	yrk	18	18	17	10	7	0	0
+omw-kin-yrk	Tundra Nenets	yrk	16	16	15	9	6	0	0
 omw-kin-yrm	Yir-Yoront	yrm	5	5	4	2	2	0	0
 omw-kin-yua	Yucatec Maya	yua	9	9	9	4	5	54	0
 omw-kin-yub	Yugambal	yub	17	17	10	3	7	0	0

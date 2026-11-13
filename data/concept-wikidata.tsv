@@ -18,20 +18,20 @@ Sb	Q31184	sibling	exact
 Sb	Q41798757	full sibling	narrower	full siblings only; our Sb also covers half siblings
 Br	Q10861465	brother	exact	
 Ss	Q595094	sister	exact	
-El;Sb	Q28466211	elder sibling	exact	
-Yn;Sb	Q28466210	younger sibling	exact	
-El;Br	Q3972282	elder brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
-El;Ss	Q10082670	elder sister	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
-Yn;Br	Q10291472	younger brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
-Yn;Ss	Q10943095	younger sister	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
+El:Sb	Q28466211	elder sibling	exact	
+Yn:Sb	Q28466210	younger sibling	exact	
+El:Br	Q3972282	elder brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
+El:Ss	Q10082670	elder sister	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
+Yn:Br	Q10291472	younger brother	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
+Yn:Ss	Q10943095	younger sister	exact	P4316 compares the birth dates the wrong way round, so its path gives the opposite age; a fix is requested on Talk:Q3972282
 Pa;Br	Q41805469	parent's brother	exact	
 Pa;Ss	Q41805477	parent's sister	exact	
 Fa;Br	Q12158205	father's brother	exact	
 Mo;Br	Q4120409	mother's brother	exact	
 Fa;Ss	Q5992509	father's sister	exact	
 Mo;Ss	Q6035384	mother's sister	exact	
-Fa;El;Br	Q6715170	father's older brother	exact	
-Fa;Yn;Br	Q10912818	father's younger brother	exact	
+Fa;El:Br	Q6715170	father's older brother	exact	
+Fa;Yn:Br	Q10912818	father's younger brother	exact	
 Sb;Ch	Q76477	niece or nephew	exact	
 Sb;So	Q15224724	nephew	exact	
 Sb;Da	Q3403377	niece	exact	
@@ -51,10 +51,10 @@ Mo;Br;So	Q6793920	son of mother's brother	exact
 Mo;Br;Da	Q6793951	daughter of mother's brother	exact	
 Mo;Ss;So	Q123678551	son of mother's sister	exact	
 Mo;Ss;Da	Q123678552	daughter of mother's sister	exact	
-El;Fa;Br;So	Q42301043	tangge	exact	
-Yn;Fa;Br;So	Q42301900	tangdi	exact	
-El;Fa;Br;Da	Q42301906	tangjie	exact	
-Yn;Fa;Br;Da	Q42301908	tangmei	exact	
+Fa;Br;El:So	Q42301043	tangge	exact	
+Fa;Br;Yn:So	Q42301900	tangdi	exact	
+Fa;Br;El:Da	Q42301906	tangjie	exact	
+Fa;Br;Yn:Da	Q42301908	tangmei	exact	
 Unc	Q76557	uncle	broader	its path also counts a parent's sibling's husband of either sex (a parent's brother's husband)
 Pa;Br;Wi	Q12091051	wife of mother's brother	narrower	only the wife of a mother's brother; we have no Mo;Br;Wi
 Fa;Br;Wi	Q9347053	wife of father's brother	exact	

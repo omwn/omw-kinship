@@ -79,17 +79,17 @@ LABELS = {
     "siblings (sisters)": "Ss",
     "brother": "Br",
     "sister": "Ss",
-    "older brother": "El;Br",
-    "older sister": "El;Ss",
-    "younger brother": "Yn;Br",
-    "younger sister": "Yn;Ss",
-    "youger sister": "Yn;Ss",
+    "older brother": "El:Br",
+    "older sister": "El:Ss",
+    "younger brother": "Yn:Br",
+    "younger sister": "Yn:Ss",
+    "youger sister": "Yn:Ss",
     "uncle": "Unc",
     "aunt": "Aun",
-    "uncle (older than parent)": "Pa;El;Br",
-    "uncle (younger than parent)": "Pa;Yn;Br",
-    "aunt (older than parent)": "Pa;El;Ss",
-    "aunt (younger than parent)": "Pa;Yn;Ss",
+    "uncle (older than parent)": "Pa;El:Br",
+    "uncle (younger than parent)": "Pa;Yn:Br",
+    "aunt (older than parent)": "Pa;El:Ss",
+    "aunt (younger than parent)": "Pa;Yn:Ss",
     "uncle-in-law (aunt's husband)": "Pa;Ss;Hu",
     "aunt-in-law (uncle's wife)": "Pa;Br;Wi",
     "cousin": "Pa;Sb;Ch",
@@ -147,7 +147,7 @@ def phrase_code(phrase: str) -> str:
     """The code for an English kin phrase, or '' if it is not one.
 
     >>> phrase_code("father's elder brother"), phrase_code("wife’s younger sister")
-    ('Fa;El;Br', 'Wi;Yn;Ss')
+    ('Fa;El:Br', 'Wi;Yn:Ss')
     >>> phrase_code("brother's son"), phrase_code("spouse's sister's husband")
     ('Br;So', 'Sp;Ss;Hu')
     >>> phrase_code("general term")
@@ -159,23 +159,27 @@ def phrase_code(phrase: str) -> str:
         if not words or words[-1] not in KIN:
             return ""
         if len(words) == 2 and words[0] in AGES:
-            parts.append(AGES[words[0]])
-        elif len(words) != 1:
+            parts.append(f"{AGES[words[0]]}:{KIN[words[-1]]}")
+        elif len(words) == 1:
+            parts.append(KIN[words[-1]])
+        else:
             return ""
-        parts.append(KIN[words[-1]])
     return ";".join(parts)
 
 
 def with_age(code: str, age: str) -> list[str]:
-    """Ways to add relative age to `code`: before the last link, or in front.
+    """Ways to add relative age to `code`: on each link, the last first.
+
+    Only one of them names a concept: the one whose link has the age slot.
 
     >>> with_age("Br", "El"), with_age("Pa;Br", "Yn")
-    (['El;Br'], ['Pa;Yn;Br', 'Yn;Pa;Br'])
+    (['El:Br'], ['Pa;Yn:Br', 'Yn:Pa;Br'])
     """
     terms = code.split(";")
-    inner = ";".join([*terms[:-1], age, terms[-1]])
-    front = f"{age};{code}"
-    return list(dict.fromkeys([inner, front]))
+    return [
+        ";".join(f"{age}:{t}" if i == j else t for j, t in enumerate(terms))
+        for i in reversed(range(len(terms)))
+    ]
 
 
 def with_sex(code: str, sex: str) -> str:
@@ -212,7 +216,7 @@ def qualifiers(text: str) -> dict[str, str]:
     >>> qualifiers("- inf") == {"register": "inf"}
     True
     >>> qualifiers("father's elder brother")["gloss"]
-    'Fa;El;Br'
+    'Fa;El:Br'
     """
     found: dict[str, str] = {}
     text = text.strip()
@@ -243,23 +247,40 @@ def qualifiers(text: str) -> dict[str, str]:
 
 
 def candidates(label_code: str, found: dict[str, str]) -> list[tuple[str, str]]:
-    """Codes to try for a word, most specific first, each with its match kind."""
-    exact = []
-    if "gloss" in found:
-        exact.append(found["gloss"])
+    """Codes to try for a word, most specific first, each with its match kind.
+
+    A gloss names the word's meaning, so it is the only exact candidate when
+    there is one; the label's code is then broader. Dropping the relative age
+    gives a broader code too.
+
+    >>> candidates("BrL", {"gloss": "El:Ss;Hu"})
+    [('El:Ss;Hu', 'exact'), ('Ss;Hu', 'broader'), ('BrL', 'broader')]
+    >>> candidates("Br", {"age": "El"})[:2]
+    [('El:Br', 'exact'), ('Br', 'broader')]
+    """
     code = label_code
     if "side" in found:
         code = with_side(code, found["side"])
     if "sex" in found:
         code = with_sex(code, found["sex"])
-    if "age" in found and not any(a in code.split(";") for a in ("El", "Yn")):
-        exact += with_age(code, found["age"])
+    if "gloss" in found:
+        exact = [found["gloss"]]
+        labelled = [code]
+    elif "age" in found and ":" not in code:
+        exact = with_age(code, found["age"])
+        labelled = []
     else:
-        exact.append(code)
-    ageless = [
-        ";".join(t for t in c.split(";") if t not in ("El", "Yn")) for c in exact
+        exact = [code]
+        labelled = []
+    ageless = [re.sub(r"(?:El|Yn):", "", c) for c in exact]
+    broader = [
+        *ageless,
+        *labelled,
+        code,
+        with_sex(label_code, found.get("sex", "")),
+        label_code,
     ]
-    broader = [*ageless, code, with_sex(label_code, found.get("sex", "")), label_code]
+    broader = [c for c in dict.fromkeys(broader) if c not in exact]
     return [(c, "exact") for c in exact] + [(c, "broader") for c in broader]
 
 

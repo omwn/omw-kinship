@@ -7,8 +7,8 @@ uncles and aunts	husband of father's sister	Fa;Ss;Hu	TUFS (zh 姑夫)
 uncles and aunts	husband of mother's sister	Mo;Ss;Hu	TUFS (zh 姨夫)	
 uncles and aunts	wife of parent's brother	Pa;Br;Wi	TUFS	
 uncles and aunts	wife of father's brother	Fa;Br;Wi	TUFS	
-uncles and aunts	wife of father's elder brother	Fa;El;Br;Wi	TUFS (zh 伯母)	
-uncles and aunts	wife of father's younger brother	Fa;Yn;Br;Wi	TUFS (zh 婶母)	
+uncles and aunts	wife of father's elder brother	Fa;El:Br;Wi	TUFS (zh 伯母)	
+uncles and aunts	wife of father's younger brother	Fa;Yn:Br;Wi	TUFS (zh 婶母)	
 parents	parent	Pa	OEWN 2025	a father or mother of a person
 parents	father	Fa	OEWN 2025	
 parents	mother	Mo	OEWN 2025	
@@ -50,11 +50,11 @@ in-laws	wife's father	Wi;Fa	Kinbank: 40 languages, 12 families, 5 macroareas
 mergers	child or sibling's child	Ch|Sb;Ch	Kinbank: 26 languages, 12 families, 4 macroareas	a child of a person or a child of one's sibling
 mergers	mother's brother or mother's brother's son	Mo;Br|Mo;Br;So	Kinbank: 19 languages, 12 families, 5 macroareas	a brother of one's mother or a son of one's mother's brother
 mergers	brother's daughter or daughter	Br;Da|Da	Kinbank: 17 languages, 12 families, 5 macroareas	a daughter of one's brother or a daughter of a person
-mergers	elder brother or parent's sibling's son (older than self)	El;Br|El;Pa;Sb;So	Kinbank: 16 languages, 12 families, 6 macroareas	an elder brother of a person or a son of one's parent's sibling, who is older than oneself
+mergers	elder brother or parent's sibling's son (older than self)	El:Br|Pa;Sb;El:So	Kinbank: 16 languages, 12 families, 6 macroareas	an elder brother of a person or a son of one's parent's sibling, who is older than oneself
 nephews and nieces	woman's brother's son or man's sister's son	o;Br;So|x;Ss;So	Kinbank: 40 languages, 11 families, 5 macroareas	a son of a woman's brother or a son of a man's sister
 children	man's son	x;So	Kinbank: 17 languages, 11 families, 4 macroareas	
 mergers	mother's brother or sister's child	Mo;Br|Ss;Ch	Kinbank: 16 languages, 11 families, 4 macroareas	a brother of one's mother or a child of one's sister
-siblings	woman's younger sister or man's younger brother	o;Yn;Ss|x;Yn;Br	Kinbank: 43 languages, 10 families, 5 macroareas	a younger sister of a woman or a younger brother of a man
+siblings	woman's younger sister or man's younger brother	o;Yn:Ss|x;Yn:Br	Kinbank: 43 languages, 10 families, 5 macroareas	a younger sister of a woman or a younger brother of a man
 mergers	child's son or parent's father	Ch;So|Pa;Fa	Kinbank: 27 languages, 10 families, 6 macroareas	a son of one's child or the father of one's parent
 cousins	woman's father's sister's son or woman's mother's brother's son	o;Fa;Ss;So|o;Mo;Br;So	Kinbank: 14 languages, 10 families, 3 macroareas	a son of a woman's father's sister or a son of a woman's mother's brother
 in-laws	wife's brother	Wi;Br	Kinbank: 41 languages, 9 families, 6 macroareas	
@@ -66,7 +66,7 @@ mergers	child's daughter or parent's mother	Ch;Da|Pa;Mo	Kinbank: 25 languages, 9
 mergers	mother's brother or man's sister's child	Mo;Br|x;Ss;Ch	Kinbank: 21 languages, 9 families, 3 macroareas	a brother of one's mother or a child of a man's sister
 mergers	father's father or man's son's child	Fa;Fa|x;So;Ch	Kinbank: 19 languages, 9 families, 3 macroareas	the father of one's father or a child of a man's son
 nephews and nieces	woman's brother's daughter	o;Br;Da	Kinbank: 14 languages, 9 families, 6 macroareas	
-siblings	woman's elder sister or man's elder brother	o;El;Ss|x;El;Br	Kinbank: 35 languages, 8 families, 5 macroareas	an elder sister of a woman or an elder brother of a man
+siblings	woman's elder sister or man's elder brother	o;El:Ss|x;El:Br	Kinbank: 35 languages, 8 families, 5 macroareas	an elder sister of a woman or an elder brother of a man
 mergers	daughter or sibling's daughter	Da|Sb;Da	Kinbank: 32 languages, 8 families, 3 macroareas	a daughter of a person or a daughter of one's sibling
 mergers	brother's child or child	Br;Ch|Ch	Kinbank: 28 languages, 8 families, 4 macroareas	a child of one's brother or a child of a person
 children	woman's child	o;Ch	Kinbank: 19 languages, 8 families, 5 macroareas	
@@ -76,34 +76,38 @@ cousins	man's father's sister's son or man's mother's brother's son	x;Fa;Ss;So|x
 children	woman's daughter	o;Da	Kinbank: 13 languages, 8 families, 4 macroareas	
 cousins	man's father's sister's son	x;Fa;Ss;So	Kinbank: 12 languages, 8 families, 6 macroareas	
 cousins	man's father's sister's daughter or man's mother's brother's daughter	x;Fa;Ss;Da|x;Mo;Br;Da	Kinbank: 12 languages, 8 families, 3 macroareas	a daughter of a man's father's sister or a daughter of a man's mother's brother
-cousins	woman's father's sister's daughter (older than self)	o;El;Fa;Ss;Da	Kinbank: 11 languages, 8 families, 4 macroareas	
+cousins	woman's father's sister's daughter (older than self)	o;Fa;Ss;El:Da	Kinbank: 11 languages, 8 families, 4 macroareas	
 nephews and nieces	woman's sister's child	o;Ss;Ch	Kinbank: 11 languages, 8 families, 5 macroareas	
 mergers	brother or parent's sibling's son	Br|Pa;Sb;So	Kinbank: 10 languages, 8 families, 4 macroareas	a brother of a person or a son of one's parent's sibling
 mergers	parent's sibling's daughter or sister	Pa;Sb;Da|Ss	Kinbank: 10 languages, 8 families, 6 macroareas	a daughter of one's parent's sibling or a sister of a person
 cousins	woman's father's sister's daughter or woman's mother's brother's daughter	o;Fa;Ss;Da|o;Mo;Br;Da	Kinbank: 10 languages, 8 families, 3 macroareas	a daughter of a woman's father's sister or a daughter of a woman's mother's brother
 mergers	child's child or sibling's child	Ch;Ch|Sb;Ch	Kinbank: 9 languages, 8 families, 3 macroareas	a child of one's child or a child of one's sibling
-cousins	woman's mother's brother's daughter (older than self)	o;El;Mo;Br;Da	Kinbank: 8 languages, 8 families, 4 macroareas	
+cousins	woman's mother's brother's daughter (older than self)	o;Mo;Br;El:Da	Kinbank: 8 languages, 8 families, 4 macroareas	
 children	woman's son	o;So	Kinbank: 11 languages, 7 families, 4 macroareas	
-cousins	woman's mother's sister's son (younger than self)	o;Yn;Mo;Ss;So	Kinbank: 10 languages, 7 families, 4 macroareas	
+cousins	woman's mother's sister's son (younger than self)	o;Mo;Ss;Yn:So	Kinbank: 10 languages, 7 families, 4 macroareas	
 nephews and nieces	man's brother's child	x;Br;Ch	Kinbank: 7 languages, 7 families, 4 macroareas	
 in-laws	husband's brother	Hu;Br	Kinbank: 38 languages, 6 families, 4 macroareas	
 cousins	man's father's sister's daughter	x;Fa;Ss;Da	Kinbank: 14 languages, 6 families, 3 macroareas	
-cousins	man's father's brother's daughter (younger than self)	x;Yn;Fa;Br;Da	Kinbank: 12 languages, 6 families, 4 macroareas	
+cousins	man's father's brother's daughter (younger than self)	x;Fa;Br;Yn:Da	Kinbank: 12 languages, 6 families, 4 macroareas	
 cousins	woman's father's sister's daughter	o;Fa;Ss;Da	Kinbank: 10 languages, 6 families, 4 macroareas	
-cousins	man's mother's sister's daughter (older than self)	x;El;Mo;Ss;Da	Kinbank: 8 languages, 6 families, 3 macroareas	
+cousins	man's mother's sister's daughter (older than self)	x;Mo;Ss;El:Da	Kinbank: 8 languages, 6 families, 3 macroareas	
 in-laws	spouse's sibling	Sp;Sb	Kinbank: 8 languages, 6 families, 4 macroareas	
-cousins	woman's mother's brother's daughter (younger than self)	o;Yn;Mo;Br;Da	Kinbank: 7 languages, 6 families, 4 macroareas	
+cousins	woman's mother's brother's daughter (younger than self)	o;Mo;Br;Yn:Da	Kinbank: 7 languages, 6 families, 4 macroareas	
 nephews and nieces	woman's sibling's child	o;Sb;Ch	Kinbank: 7 languages, 6 families, 4 macroareas	
-cousins	man's father's sister's daughter (older than self)	x;El;Fa;Ss;Da	Kinbank: 6 languages, 6 families, 3 macroareas	
+cousins	man's father's sister's daughter (older than self)	x;Fa;Ss;El:Da	Kinbank: 6 languages, 6 families, 3 macroareas	
 parents	man's father	x;Fa	Kinbank: 6 languages, 6 families, 3 macroareas	
 parents	woman's father	o;Fa	Kinbank: 6 languages, 6 families, 4 macroareas	
 in-laws	wife's sister	Wi;Ss	Kinbank: 33 languages, 5 families, 3 macroareas	
-cousins	woman's mother's sister's daughter (younger than self)	o;Yn;Mo;Ss;Da	Kinbank: 9 languages, 5 families, 3 macroareas	
+cousins	woman's mother's sister's daughter (younger than self)	o;Mo;Ss;Yn:Da	Kinbank: 9 languages, 5 families, 3 macroareas	
 children	man's child	x;Ch	Kinbank: 9 languages, 5 families, 5 macroareas	
 cousins	woman's father's sister's son	o;Fa;Ss;So	Kinbank: 8 languages, 5 families, 3 macroareas	
-cousins	woman's father's sister's son (older than self)	o;El;Fa;Ss;So	Kinbank: 8 languages, 5 families, 3 macroareas	
-cousins	woman's mother's sister's son (older than self)	o;El;Mo;Ss;So	Kinbank: 6 languages, 5 families, 3 macroareas	
+cousins	woman's father's sister's son (older than self)	o;Fa;Ss;El:So	Kinbank: 8 languages, 5 families, 3 macroareas	
+cousins	woman's mother's sister's son (older than self)	o;Mo;Ss;El:So	Kinbank: 6 languages, 5 families, 3 macroareas	
 cousins	woman's mother's brother's son	o;Mo;Br;So	Kinbank: 5 languages, 5 families, 4 macroareas	
 parents	man's mother	x;Mo	Kinbank: 5 languages, 5 families, 4 macroareas	
 cousins	son of father's sibling	Fa;Sb;So	Wiktionary	
 cousins	daughter of father's sibling	Fa;Sb;Da	Wiktionary	
+in-laws	elder brother-in-law	Sp;El:Br|El:Ss;Hu	Wiktionary (ja 義兄)	
+in-laws	younger brother-in-law	Sp;Yn:Br|Yn:Ss;Hu	Wiktionary (ja 義弟)	
+in-laws	elder sister-in-law	Sp;El:Ss|El:Br;Wi	Wiktionary (ja 義姉)	
+in-laws	younger sister-in-law	Sp;Yn:Ss|Yn:Br;Wi	Wiktionary (ja 義妹)	

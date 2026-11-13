@@ -267,7 +267,7 @@ def sound_lines(lemmas: list[str], sounds: dict) -> list[str]:
 def ancestors(code: str, parents: dict[str, set[str]]) -> list[str]:
     """Every concept above `code` in the shared hierarchy, nearest first.
 
-    The hierarchy is a lattice (*x;El;Br* is under both *El;Br* and *x;Br*), so
+    The hierarchy is a lattice (*x;El:Br* is under both *El:Br* and *x;Br*), so
     this is the union of all the hypernym chains up to the root, by distance.
     """
     found: list[str] = []

@@ -29,7 +29,7 @@ def malay(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
 def test_words_are_suggested_for_the_concept_their_items_cover(malay: None) -> None:
     found = prosub.suggestions("ms", build.read_concepts())
     assert found["Pa;Br"] == [("pak cik", 'pak cik "uncle" [10,11,12,13] 1st')]
-    assert found["El;Br"] == [("abang", 'abang "elder brother" [22] 2nd')]
+    assert found["El:Br"] == [("abang", 'abang "elder brother" [22] 2nd')]
 
 
 def test_languages_prosub_lacks_get_nothing(malay: None) -> None:

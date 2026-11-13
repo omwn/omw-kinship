@@ -24,15 +24,15 @@ Q2096646	child-in-law	exact	Ch;Sp				1060
 Q2500619	great-grandparent	empty					
 Q2500620	great-grandmother	empty					
 Q2500621	great-grandfather	empty					
-Q2914212	brother-in-law	none			8 positions; within -; contains BrL		2314
+Q2914212	brother-in-law	none			16 positions; within -; contains BrL		2314
 Q3103421	stepchild	empty					3910
-Q3238556	sister-in-law	none			8 positions; within -; contains SsL		2317
+Q3238556	sister-in-law	none			16 positions; within -; contains SsL		2317
 Q3403377	niece	exact	Sb;Da				1642
 Q3603531	grandchild	exact	Ch;Ch				1617
 Q3744857	godchild	empty					
 Q3752578	son-in-law	none			4 positions; within Ch;Sp; contains Da;Hu		1056
 Q3813877	granduncle	empty				i90317	
-Q3972282	elder brother	exact	Yn;Br	dated		i88560	1759
+Q3972282	elder brother	exact	Yn:Br	dated		i88560	1759
 Q4113830	grandniece	empty				i90316	
 Q4113832	great-nephew	empty				i90315	
 Q4120409	mother's brother	exact	Mo;Br				2692
@@ -42,16 +42,16 @@ Q4994787	maternal grandmother	exact	Mo;Mo				2177
 Q4994791	maternal grandfather	exact	Mo;Fa				2178
 Q5992509	father's sister	exact	Fa;Ss				170
 Q6035384	mother's sister	exact	Mo;Ss				171
-Q6715170	father's older brother	exact	Fa;El;Br	dated			2173
+Q6715170	father's older brother	exact	Fa;El:Br	dated			2173
 Q6793920	son of mother's brother	exact	Mo;Br;So				
 Q6793951	daughter of mother's brother	exact	Mo;Br;Da				
 Q9235758	grandmother	exact	Pa;Mo				1496
 Q9347053	wife of father's brother	exact	Fa;Br;Wi				
-Q10082670	elder sister	exact	Yn;Ss	dated		i88564	1758
-Q10291472	younger brother	exact	El;Br	dated		i91053	1760
+Q10082670	elder sister	exact	Yn:Ss	dated		i88564	1758
+Q10291472	younger brother	exact	El:Br	dated		i91053	1760
 Q10861465	brother	exact	Br				1262
-Q10912818	father's younger brother	exact	Fa;Yn;Br	dated			2174
-Q10943095	younger sister	exact	El;Ss	dated		i91057	1761
+Q10912818	father's younger brother	exact	Fa;Yn:Br	dated			2174
+Q10943095	younger sister	exact	El:Ss	dated		i91057	1761
 Q11921506	grandson	exact	Ch;So				1618
 Q11972456	grandaunt	empty				i90308	
 Q12051531	female first cousin	exact	Pa;Sb;Da				3823
@@ -114,8 +114,8 @@ Q28017614	maternal grandparent	exact	Mo;Pa
 Q28017737	godfather	empty					
 Q28017739	godmother	empty					
 Q28324773	grandparent-in-law	empty					
-Q28466210	younger sibling	exact	Yn;Sb	dated			427
-Q28466211	elder sibling	exact	El;Sb	dated			405
+Q28466210	younger sibling	exact	Yn:Sb	dated			427
+Q28466211	elder sibling	exact	El:Sb	dated			405
 Q29514218	child	exact	Ch				1801
 Q30254751	maternal first cousin	exact	Mo;Sb;Ch				
 Q30868674	spouse's uncle	none			16 positions; within -; contains Pa;Ss;Hu		
@@ -135,10 +135,10 @@ Q42240735	maternal great-grandmother	empty
 Q42240748	mother's mother's father	empty					
 Q42240762	mother's mother's mother	empty					
 Q42297295	great-great-granddaughter	empty					
-Q42301043	tangge	exact	El;Fa;Br;So	dated			
-Q42301900	tangdi	exact	Yn;Fa;Br;So	dated			
-Q42301906	tangjie	exact	El;Fa;Br;Da	dated			
-Q42301908	tangmei	exact	Yn;Fa;Br;Da	dated			
+Q42301043	tangge	exact	Fa;Br;El:So	dated			
+Q42301900	tangdi	exact	Fa;Br;Yn:So	dated			
+Q42301906	tangjie	exact	Fa;Br;El:Da	dated			
+Q42301908	tangmei	exact	Fa;Br;Yn:Da	dated			
 Q42302432	daughter's daughter	exact	Da;Da				
 Q53277248	great-great-great-grandchild	empty					
 Q58837291	great-great-grandfather	empty					
@@ -213,8 +213,8 @@ Q113884914	female double parallel cousin	empty
 Q113884956	male double parallel cousin	empty					
 Q113885498	male double cross cousin	empty					
 Q113885545	female double cross-cousin	empty					
-Q115068466	brother's husband	none			2 positions; within -; contains -		
-Q115068839	sister's wife	none			2 positions; within -; contains -		
+Q115068466	brother's husband	none			4 positions; within -; contains -		
+Q115068839	sister's wife	none			4 positions; within -; contains -		
 Q116914618	daughter of father's brother	exact	Fa;Br;Da				
 Q123678550	daughter of father's sister	exact	Fa;Ss;Da				
 Q123678551	son of mother's sister	exact	Mo;Ss;So				

@@ -14,8 +14,8 @@ uncles and aunts	Mo;Ss;Hu	Pa;Ss;Hu
 uncles and aunts	Pa;Br;Wi	Aun
 uncles and aunts	Pa;Br;Wi	InL
 uncles and aunts	Fa;Br;Wi	Pa;Br;Wi
-uncles and aunts	Fa;El;Br;Wi	Fa;Br;Wi
-uncles and aunts	Fa;Yn;Br;Wi	Fa;Br;Wi
+uncles and aunts	Fa;El:Br;Wi	Fa;Br;Wi
+uncles and aunts	Fa;Yn:Br;Wi	Fa;Br;Wi
 parents	Fa	Pa
 parents	Mo	Pa
 children	So	Ch
@@ -52,9 +52,9 @@ kinbank	Ch;So|Pa;Fa	Ch;Ch|Pa;Pa
 kinbank	Ch|Sb;Ch	Rel
 kinbank	Da	Br;Da|Da
 kinbank	Da|Sb;Da	Ch|Sb;Ch
-kinbank	El;Br	El;Br|El;Pa;Sb;So
-kinbank	El;Br|El;Pa;Sb;So	Br|Pa;Sb;So
-kinbank	El;Pa;Sb;So	El;Br|El;Pa;Sb;So
+kinbank	El:Br	El:Br|Pa;Sb;El:So
+kinbank	El:Br|Pa;Sb;El:So	Br|Pa;Sb;So
+kinbank	Pa;Sb;El:So	El:Br|Pa;Sb;El:So
 kinbank	Fa	Fa|Fa;Br
 kinbank	Fa;Br	Fa|Fa;Br
 kinbank	Fa;Fa	Fa;Fa|x;So;Ch
@@ -130,19 +130,19 @@ kinbank	o;Br|x;Ss	Sb
 kinbank	o;Ch	Ch
 kinbank	o;Da	Da
 kinbank	o;Da	o;Ch
-kinbank	o;El;Fa;Ss;Da	El;Fa;Ss;Da
-kinbank	o;El;Fa;Ss;Da	o;El;Pa;Sb;Da
-kinbank	o;El;Fa;Ss;Da	o;Fa;Ss;Da
-kinbank	o;El;Fa;Ss;So	El;Fa;Ss;So
-kinbank	o;El;Fa;Ss;So	o;Fa;Ss;So
-kinbank	o;El;Mo;Br;Da	El;Mo;Br;Da
-kinbank	o;El;Mo;Br;Da	o;El;Pa;Sb;Da
-kinbank	o;El;Mo;Br;Da	o;Fa;Ss;Da|o;Mo;Br;Da
-kinbank	o;El;Mo;Ss;So	El;Mo;Ss;So
-kinbank	o;El;Mo;Ss;So	o;Mo;Ss;So
-kinbank	o;El;Ss	o;El;Ss|x;El;Br
-kinbank	o;El;Ss;Ch	o;Ss;Ch
-kinbank	o;El;Ss|x;El;Br	El;Sb
+kinbank	o;Fa;Ss;El:Da	Fa;Ss;El:Da
+kinbank	o;Fa;Ss;El:Da	o;Pa;Sb;El:Da
+kinbank	o;Fa;Ss;El:Da	o;Fa;Ss;Da
+kinbank	o;Fa;Ss;El:So	Fa;Ss;El:So
+kinbank	o;Fa;Ss;El:So	o;Fa;Ss;So
+kinbank	o;Mo;Br;El:Da	Mo;Br;El:Da
+kinbank	o;Mo;Br;El:Da	o;Pa;Sb;El:Da
+kinbank	o;Mo;Br;El:Da	o;Fa;Ss;Da|o;Mo;Br;Da
+kinbank	o;Mo;Ss;El:So	Mo;Ss;El:So
+kinbank	o;Mo;Ss;El:So	o;Mo;Ss;So
+kinbank	o;El:Ss	o;El:Ss|x;El:Br
+kinbank	o;El:Ss;Ch	o;Ss;Ch
+kinbank	o;El:Ss|x;El:Br	El:Sb
 kinbank	o;Fa	Fa
 kinbank	o;Fa;Ss;Da	Fa;Ss;Da
 kinbank	o;Fa;Ss;Da	o;Fa;Ss;Da|o;Mo;Br;Da
@@ -163,17 +163,17 @@ kinbank	o;Ss;Ch	Ss;Ch
 kinbank	o;Ss;Ch	o;Sb;Ch
 kinbank	o;Ss;Da	o;Ss;Ch
 kinbank	o;Ss;So	o;Ss;Ch
-kinbank	o;Yn;Mo;Br;Da	Yn;Mo;Br;Da
-kinbank	o;Yn;Mo;Br;Da	o;Fa;Ss;Da|o;Mo;Br;Da
-kinbank	o;Yn;Mo;Br;Da	o;Yn;Pa;Sb;Da
-kinbank	o;Yn;Mo;Ss;Da	Yn;Mo;Ss;Da
-kinbank	o;Yn;Mo;Ss;Da	o;Mo;Ss;Da
-kinbank	o;Yn;Mo;Ss;Da	o;Yn;Pa;Sb;Da
-kinbank	o;Yn;Mo;Ss;So	Yn;Mo;Ss;So
-kinbank	o;Yn;Mo;Ss;So	o;Mo;Ss;So
-kinbank	o;Yn;Ss	o;Yn;Ss|x;Yn;Br
-kinbank	o;Yn;Ss;Ch	o;Ss;Ch
-kinbank	o;Yn;Ss|x;Yn;Br	Yn;Sb
+kinbank	o;Mo;Br;Yn:Da	Mo;Br;Yn:Da
+kinbank	o;Mo;Br;Yn:Da	o;Fa;Ss;Da|o;Mo;Br;Da
+kinbank	o;Mo;Br;Yn:Da	o;Pa;Sb;Yn:Da
+kinbank	o;Mo;Ss;Yn:Da	Mo;Ss;Yn:Da
+kinbank	o;Mo;Ss;Yn:Da	o;Mo;Ss;Da
+kinbank	o;Mo;Ss;Yn:Da	o;Pa;Sb;Yn:Da
+kinbank	o;Mo;Ss;Yn:So	Mo;Ss;Yn:So
+kinbank	o;Mo;Ss;Yn:So	o;Mo;Ss;So
+kinbank	o;Yn:Ss	o;Yn:Ss|x;Yn:Br
+kinbank	o;Yn:Ss;Ch	o;Ss;Ch
+kinbank	o;Yn:Ss|x;Yn:Br	Yn:Sb
 kinbank	x;Br;Ch	Br;Ch
 kinbank	x;Br;Da	x;Br;Ch
 kinbank	x;Br;So	x;Br;Ch
@@ -181,12 +181,12 @@ kinbank	x;Ch	Ch
 kinbank	x;Da	Da
 kinbank	x;Da	x;Ch
 kinbank	x;Da;Ch	Mo;Fa|x;Da;Ch
-kinbank	x;El;Br	o;El;Ss|x;El;Br
-kinbank	x;El;Br;Ch	x;Br;Ch
-kinbank	x;El;Fa;Ss;Da	El;Fa;Ss;Da
-kinbank	x;El;Fa;Ss;Da	x;Fa;Ss;Da
-kinbank	x;El;Mo;Ss;Da	El;Mo;Ss;Da
-kinbank	x;El;Mo;Ss;Da	x;Mo;Ss;Da
+kinbank	x;El:Br	o;El:Ss|x;El:Br
+kinbank	x;El:Br;Ch	x;Br;Ch
+kinbank	x;Fa;Ss;El:Da	Fa;Ss;El:Da
+kinbank	x;Fa;Ss;El:Da	x;Fa;Ss;Da
+kinbank	x;Mo;Ss;El:Da	Mo;Ss;El:Da
+kinbank	x;Mo;Ss;El:Da	x;Mo;Ss;Da
 kinbank	x;Fa	Fa
 kinbank	x;Fa;Ss;Da	Fa;Ss;Da
 kinbank	x;Fa;Ss;Da	x;Fa;Ss;Da|x;Mo;Br;Da
@@ -208,7 +208,11 @@ kinbank	x;Ss;Ch	Mo;Br|x;Ss;Ch
 kinbank	x;Ss;Da	Ss;Da
 kinbank	x;Ss;Da	x;Ss;Ch
 kinbank	x;Ss;So	o;Br;So|x;Ss;So
-kinbank	x;Yn;Br	o;Yn;Ss|x;Yn;Br
-kinbank	x;Yn;Br;Ch	x;Br;Ch
-kinbank	x;Yn;Fa;Br;Da	Yn;Fa;Br;Da
-kinbank	x;Yn;Fa;Br;Da	x;Fa;Br;Da
+kinbank	x;Yn:Br	o;Yn:Ss|x;Yn:Br
+kinbank	x;Yn:Br;Ch	x;Br;Ch
+kinbank	x;Fa;Br;Yn:Da	Fa;Br;Yn:Da
+kinbank	x;Fa;Br;Yn:Da	x;Fa;Br;Da
+in-laws	Sp;El:Br|El:Ss;Hu	BrL
+in-laws	Sp;Yn:Br|Yn:Ss;Hu	BrL
+in-laws	Sp;El:Ss|El:Br;Wi	SsL
+in-laws	Sp;Yn:Ss|Yn:Br;Wi	SsL

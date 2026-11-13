@@ -8,10 +8,10 @@ Ch;Da	i90281	exact	granddaughter	a female grandchild
 Sb	i92980	exact	sibling	a person's brother or sister
 Br	i91174	exact	male sibling	a sibling who is male; OEWN brother (i88708) is narrower: full siblings only
 Ss	i89922	exact	female sibling	a person's sister; OEWN sister (i93018) is narrower: full siblings only
-El;Br	i88560	exact	big brother	an older brother
-Yn;Br	i91053	exact	little brother	a younger brother
-El;Ss	i88564	exact	big sister	an older sister
-Yn;Ss	i91057	exact	little sister	a younger sister
+El:Br	i88560	exact	big brother	an older brother
+Yn:Br	i91053	exact	little brother	a younger brother
+El:Ss	i88564	exact	big sister	an older sister
+Yn:Ss	i91057	exact	little sister	a younger sister
 Sb;So	i91586	exact	nephew	a son of your brother or sister
 Sb;Da	i91615	exact	niece	a daughter of your brother or sister
 Pa;Sb;Ch	i89276	exact	cousin	the child of your aunt or uncle

@@ -1,27 +1,27 @@
 tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 		ar	491	ar	عم	Fa;Br	kindiv	high	
 		de	1024	de	Schwester	Ss	kindiv	high	
-		ru	909	ru	старший брат	El;Br	curated	high	
-		ru	910	ru	старшая сестра	El;Ss	curated	high	
-		vi	492	vi	anh	El;Br	kindiv	high	
-		vi	501	vi	chú	Fa;Yn;Br	kindiv	high	
-		vi	506	vi	chị	El;Ss	kindiv	high	
+		ru	909	ru	старший брат	El:Br	curated	high	
+		ru	910	ru	старшая сестра	El:Ss	curated	high	
+		vi	492	vi	anh	El:Br	kindiv	high	
+		vi	501	vi	chú	Fa;Yn:Br	kindiv	high	
+		vi	506	vi	chị	El:Ss	kindiv	high	
 		vi	508	vi	cô	Fa;Ss	kindiv	high	
-		vi	509	vi	anh	El;Br	kindiv	high	
-		vi	510	vi	chị	El;Ss	kindiv	high	
-		zh	309	cmn	表妹	Yn;Fa;Ss;Da	kindiv	high	
-		zh	309	cmn	表妹	Yn;Mo;Sb;Da	kindiv	high	
-		zh	319	cmn	姐姐	El;Ss	kindiv	high	
+		vi	509	vi	anh	El:Br	kindiv	high	
+		vi	510	vi	chị	El:Ss	kindiv	high	
+		zh	309	cmn	表妹	Fa;Ss;Yn:Da	kindiv	high	
+		zh	309	cmn	表妹	Mo;Sb;Yn:Da	kindiv	high	
+		zh	319	cmn	姐姐	El:Ss	kindiv	high	
 		zh	321	cmn	姑姑	Fa;Ss	curated	high	
-		zh	322	cmn	哥哥	El;Br	kindiv	high	
-15524		vi	424	vi	anh	El;Br	kindiv	high	
-15524		vi	425	vi	chị	El;Ss	kindiv	high	
+		zh	322	cmn	哥哥	El:Br	kindiv	high	
+15524		vi	424	vi	anh	El:Br	kindiv	high	
+15524		vi	425	vi	chị	El:Ss	kindiv	high	
 15524		vi	428	vi	cô	Fa;Ss	kindiv	high	
-15524		vi	429	vi	chú	Fa;Yn;Br	kindiv	high	
+15524		vi	429	vi	chú	Fa;Yn:Br	kindiv	high	
 16190	おじさん	ja	1571	ja	おじさん	Pa;Br	kindiv	high	
 16190	おじさん	ja	1571	ja	おじさん	Unc	curated	high	affinal as well as consanguineal: matches OEWN uncle
 16190	おじさん	ms	1571	ms	pak cik	Unc	curated	medium	also an older man
-16190	おじさん	my	1571	my	ဦးလေး	Pa;Yn;Br	curated	medium	also a younger aunt's husband
+16190	おじさん	my	1571	my	ဦးလေး	Pa;Yn:Br	curated	medium	also a younger aunt's husband
 16190	おじさん	my	1571	my	ဦးဦး	Unc	curated	low	familiar term of address
 16192	おばさん	ja	1580	ja	おばさん	Aun	curated	high	affinal as well as consanguineal: matches OEWN aunt
 16192	おばさん	ms	1580	ms	ibu saudara	Aun	curated	high	
@@ -297,129 +297,129 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16780	兄弟	tr	1786	tr	kardeş	Sb	curated	high	
 16780	兄弟	ur	350	ur	بھائی	Br	kindiv	high	
 16780	兄弟	vi	493	vi	anh em	Sb	curated	medium	also 'brothers'
-16780	兄弟	zh	311	cmn	兄弟	Yn;Br	kindiv	high	
+16780	兄弟	zh	311	cmn	兄弟	Yn:Br	kindiv	high	
 16783	姉妹	ar	296	ar	أُخْتٌ	Ss	kindiv	high	
 16785	兄	de	1014	de	Bruder	Br	kindiv	high	
 16785	兄	en	1041	en	brother	Br	kindiv	high	
 16785	兄	es	991	es	hermano	Br	kindiv	high	
 16785	兄	fr	895	fr	frère	Br	kindiv	high	
-16785	兄	id	693	id	kakak laki-laki	El;Br	curated	high	
-16785	兄	ja	1287	ja	兄	El;Br	curated	high	
-16785	兄	km	287	km	បងប្រុស	El;Br	kindiv	high	
-16785	兄	ko	796	ko	형	x;El;Br	kindiv	high	
-16785	兄	lo	294	lo	ອ້າຍ	El;Br	curated	high	
-16785	兄	mn	274	mn	ах	El;Br	kindiv	high	
-16785	兄	ms	1287	ms	abang	El;Br	kindiv	high	
-16785	兄	my	1287	my	ကိုကို	El;Br	curated	high	familiar
-16785	兄	my	1287	my	အစ်ကို	El;Br	curated	high	
+16785	兄	id	693	id	kakak laki-laki	El:Br	curated	high	
+16785	兄	ja	1287	ja	兄	El:Br	curated	high	
+16785	兄	km	287	km	បងប្រុស	El:Br	kindiv	high	
+16785	兄	ko	796	ko	형	x;El:Br	kindiv	high	
+16785	兄	lo	294	lo	ອ້າຍ	El:Br	curated	high	
+16785	兄	mn	274	mn	ах	El:Br	kindiv	high	
+16785	兄	ms	1287	ms	abang	El:Br	kindiv	high	
+16785	兄	my	1287	my	ကိုကို	El:Br	curated	high	familiar
+16785	兄	my	1287	my	အစ်ကို	El:Br	curated	high	
 16785	兄	pb	1072	pt	irmão	Br	kindiv	high	
-16785	兄	pt	288	pt	irmão mais velho	El;Br	curated	high	
-16785	兄	ru	897	ru	старший брат	El;Br	curated	high	
-16785	兄	th	291	th	พี่ชาย	El;Br	curated	high	
-16785	兄	tl	1011	tl	kuya	El;Br	curated	high	
-16785	兄	tr	1785	tr	ağabey	El;Br	curated	high	
-16785	兄	ur	351	ur	بڑا بھائی	El;Br	curated	high	
-16785	兄	vi	424	vi	anh	El;Br	kindiv	high	
-16785	兄	zh	310	cmn	哥哥	El;Br	kindiv	high	
+16785	兄	pt	288	pt	irmão mais velho	El:Br	curated	high	
+16785	兄	ru	897	ru	старший брат	El:Br	curated	high	
+16785	兄	th	291	th	พี่ชาย	El:Br	curated	high	
+16785	兄	tl	1011	tl	kuya	El:Br	curated	high	
+16785	兄	tr	1785	tr	ağabey	El:Br	curated	high	
+16785	兄	ur	351	ur	بڑا بھائی	El:Br	curated	high	
+16785	兄	vi	424	vi	anh	El:Br	kindiv	high	
+16785	兄	zh	310	cmn	哥哥	El:Br	kindiv	high	
 16797	お兄さん	de	1026	de	Bruder	Br	kindiv	high	
 16797	お兄さん	en	1053	en	brother	Br	kindiv	high	
 16797	お兄さん	es	991	es	hermano	Br	kindiv	high	
 16797	お兄さん	fr	895	fr	frère	Br	kindiv	high	
-16797	お兄さん	id	346	id	kakak	El;Sb	curated	high	
-16797	お兄さん	ja	1578	ja	お兄さん	El;Br	kindiv	high	
-16797	お兄さん	km	287	km	បងប្រុស	El;Br	kindiv	high	
-16797	お兄さん	ko	808	ko	형	x;El;Br	kindiv	high	
-16797	お兄さん	lo	294	lo	ອ້າຍ	El;Br	curated	high	
-16797	お兄さん	mn	274	mn	ах	El;Br	kindiv	high	
-16797	お兄さん	ms	1578	ms	abang	El;Br	kindiv	high	
-16797	お兄さん	my	1578	my	ကိုကို	El;Br	curated	high	familiar
-16797	お兄さん	my	1578	my	အစ်ကို	El;Br	curated	high	
-16797	お兄さん	pt	288	pt	irmão mais velho	El;Br	curated	high	
-16797	お兄さん	ru	897	ru	старший брат	El;Br	curated	high	
-16797	お兄さん	th	291	th	พี่ชาย	El;Br	curated	high	
-16797	お兄さん	tl	1011	tl	kuya	El;Br	curated	high	
-16797	お兄さん	tr	1797	tr	abi	El;Br	curated	high	colloquial
-16797	お兄さん	ur	352	ur	بڑے بھائی صاحب	El;Br	curated	medium	honorific
-16797	お兄さん	vi	424	vi	anh	El;Br	kindiv	high	
-16797	お兄さん	zh	310	cmn	哥哥	El;Br	kindiv	high	
+16797	お兄さん	id	346	id	kakak	El:Sb	curated	high	
+16797	お兄さん	ja	1578	ja	お兄さん	El:Br	kindiv	high	
+16797	お兄さん	km	287	km	បងប្រុស	El:Br	kindiv	high	
+16797	お兄さん	ko	808	ko	형	x;El:Br	kindiv	high	
+16797	お兄さん	lo	294	lo	ອ້າຍ	El:Br	curated	high	
+16797	お兄さん	mn	274	mn	ах	El:Br	kindiv	high	
+16797	お兄さん	ms	1578	ms	abang	El:Br	kindiv	high	
+16797	お兄さん	my	1578	my	ကိုကို	El:Br	curated	high	familiar
+16797	お兄さん	my	1578	my	အစ်ကို	El:Br	curated	high	
+16797	お兄さん	pt	288	pt	irmão mais velho	El:Br	curated	high	
+16797	お兄さん	ru	897	ru	старший брат	El:Br	curated	high	
+16797	お兄さん	th	291	th	พี่ชาย	El:Br	curated	high	
+16797	お兄さん	tl	1011	tl	kuya	El:Br	curated	high	
+16797	お兄さん	tr	1797	tr	abi	El:Br	curated	high	colloquial
+16797	お兄さん	ur	352	ur	بڑے بھائی صاحب	El:Br	curated	medium	honorific
+16797	お兄さん	vi	424	vi	anh	El:Br	kindiv	high	
+16797	お兄さん	zh	310	cmn	哥哥	El:Br	kindiv	high	
 16799	姉	as	470	apc	إخت	Ss	curated	high	Syrian Arabic
 16799	姉	en	1050	en	sister	Ss	kindiv	high	
 16799	姉	en	1051	en	sister	Ss	kindiv	high	
 16799	姉	es	1000	es	hermana	Ss	kindiv	high	
 16799	姉	fr	894	fr	sœur	Ss	kindiv	high	
 16799	姉	id	694	id	saudara	Sb	curated	medium	also 'relative'
-16799	姉	id	700	id	kakak perempuan	El;Ss	curated	high	
-16799	姉	ja	1542	ja	姉	El;Ss	curated	high	
-16799	姉	km	296	km	បងស្រី	El;Ss	kindiv	high	
+16799	姉	id	700	id	kakak perempuan	El:Ss	curated	high	
+16799	姉	ja	1542	ja	姉	El:Ss	curated	high	
+16799	姉	km	296	km	បងស្រី	El:Ss	kindiv	high	
 16799	姉	km	297	km	បងប្អូនស្រី	Ss	curated	high	
-16799	姉	ko	805	ko	누나	x;El;Ss	kindiv	high	
+16799	姉	ko	805	ko	누나	x;El:Ss	kindiv	high	
 16799	姉	ko	806	ko	자매	Ss	curated	high	sisters
-16799	姉	lo	303	lo	ເອື້ອຍ	El;Ss	curated	high	
+16799	姉	lo	303	lo	ເອື້ອຍ	El:Ss	curated	high	
 16799	姉	lo	304	lo	ເອື້ອຍນ້ອງ	Ss	curated	medium	sisters
-16799	姉	mn	282	mn	эгч	El;Ss	kindiv	high	
+16799	姉	mn	282	mn	эгч	El:Ss	kindiv	high	
 16799	姉	mn	283	mn	эгч дүүс	Ss	curated	medium	sisters
-16799	姉	ms	1542	ms	kakak	El;Ss	kindiv	high	
-16799	姉	my	1542	my	မမ	El;Ss	curated	high	familiar
-16799	姉	my	1542	my	အစ်မ	El;Ss	curated	high	
+16799	姉	ms	1542	ms	kakak	El:Ss	kindiv	high	
+16799	姉	my	1542	my	မမ	El:Ss	curated	high	familiar
+16799	姉	my	1542	my	အစ်မ	El:Ss	curated	high	
 16799	姉	pb	1080	pt	irmã	Ss	kindiv	high	
 16799	姉	pb	1081	pt	irmãs	Ss	curated	high	plural form
-16799	姉	pt	297	pt	irmã mais velha	El;Ss	curated	high	
+16799	姉	pt	297	pt	irmã mais velha	El:Ss	curated	high	
 16799	姉	pt	298	pt	irmã	Ss	kindiv	high	
-16799	姉	ru	906	ru	старшая сестра	El;Ss	curated	high	
+16799	姉	ru	906	ru	старшая сестра	El:Ss	curated	high	
 16799	姉	ru	907	ru	сестра	Ss	curated	high	
 16799	姉	th	292	th	พี่น้อง	Sb	curated	high	
-16799	姉	th	300	th	พี่สาว	El;Ss	curated	high	
-16799	姉	tl	1020	tl	ate	El;Ss	curated	high	
+16799	姉	th	300	th	พี่สาว	El:Ss	curated	high	
+16799	姉	tl	1020	tl	ate	El:Ss	curated	high	
 16799	姉	tl	1021	tl	kapatid na babae	Ss	curated	high	
-16799	姉	tr	1794	tr	abla	El;Ss	curated	high	
+16799	姉	tr	1794	tr	abla	El:Ss	curated	high	
 16799	姉	tr	1795	tr	kız kardeş	Ss	curated	high	
-16799	姉	ur	353	ur	بڑی بہن	El;Ss	curated	high	
-16799	姉	vi	425	vi	chị	El;Ss	kindiv	high	
+16799	姉	ur	353	ur	بڑی بہن	El:Ss	curated	high	
+16799	姉	vi	425	vi	chị	El:Ss	kindiv	high	
 16799	姉	vi	507	vi	chị em	Ss	curated	medium	sisters
 16799	姉	zh	320	cmn	姐妹	Ss	curated	high	sisters
 16806	お姉さん	de	1023	de	Schwester	Ss	kindiv	high	
 16806	お姉さん	en	1054	en	sister	Ss	kindiv	high	
 16806	お姉さん	es	1000	es	hermana	Ss	kindiv	high	
 16806	お姉さん	fr	894	fr	sœur	Ss	kindiv	high	
-16806	お姉さん	id	346	id	kakak	El;Sb	curated	high	
-16806	お姉さん	ja	1579	ja	お姉さん	El;Ss	curated	high	
-16806	お姉さん	km	296	km	បងស្រី	El;Ss	kindiv	high	
-16806	お姉さん	ko	809	ko	누나	x;El;Ss	kindiv	high	
-16806	お姉さん	lo	303	lo	ເອື້ອຍ	El;Ss	curated	high	
-16806	お姉さん	mn	282	mn	эгч	El;Ss	kindiv	high	
-16806	お姉さん	ms	1579	ms	kakak	El;Ss	kindiv	high	
-16806	お姉さん	my	1579	my	မမ	El;Ss	curated	high	familiar
-16806	お姉さん	my	1579	my	အစ်မ	El;Ss	curated	high	
-16806	お姉さん	pt	297	pt	irmã mais velha	El;Ss	curated	high	
-16806	お姉さん	ru	906	ru	старшая сестра	El;Ss	curated	high	
-16806	お姉さん	th	300	th	พี่สาว	El;Ss	curated	high	
-16806	お姉さん	tl	1020	tl	ate	El;Ss	curated	high	
-16806	お姉さん	tr	1794	tr	abla	El;Ss	curated	high	
-16806	お姉さん	ur	354	ur	آپا	El;Ss	curated	medium	
-16806	お姉さん	vi	425	vi	chị	El;Ss	kindiv	high	
-16806	お姉さん	zh	323	cmn	姐姐	El;Ss	kindiv	high	
+16806	お姉さん	id	346	id	kakak	El:Sb	curated	high	
+16806	お姉さん	ja	1579	ja	お姉さん	El:Ss	curated	high	
+16806	お姉さん	km	296	km	បងស្រី	El:Ss	kindiv	high	
+16806	お姉さん	ko	809	ko	누나	x;El:Ss	kindiv	high	
+16806	お姉さん	lo	303	lo	ເອື້ອຍ	El:Ss	curated	high	
+16806	お姉さん	mn	282	mn	эгч	El:Ss	kindiv	high	
+16806	お姉さん	ms	1579	ms	kakak	El:Ss	kindiv	high	
+16806	お姉さん	my	1579	my	မမ	El:Ss	curated	high	familiar
+16806	お姉さん	my	1579	my	အစ်မ	El:Ss	curated	high	
+16806	お姉さん	pt	297	pt	irmã mais velha	El:Ss	curated	high	
+16806	お姉さん	ru	906	ru	старшая сестра	El:Ss	curated	high	
+16806	お姉さん	th	300	th	พี่สาว	El:Ss	curated	high	
+16806	お姉さん	tl	1020	tl	ate	El:Ss	curated	high	
+16806	お姉さん	tr	1794	tr	abla	El:Ss	curated	high	
+16806	お姉さん	ur	354	ur	آپا	El:Ss	curated	medium	
+16806	お姉さん	vi	425	vi	chị	El:Ss	kindiv	high	
+16806	お姉さん	zh	323	cmn	姐姐	El:Ss	kindiv	high	
 16809	弟	es	991	es	hermano	Br	kindiv	high	
 16809	弟	fr	895	fr	frère	Br	kindiv	high	
-16809	弟	ja	897	ja	弟	Yn;Br	curated	high	
-16809	弟	ms	897	ms	adik lelaki	Yn;Br	curated	high	
-16809	弟	my	897	my	ညီလေး	x;Yn;Br	curated	high	ညီ: a man's younger brother
-16809	弟	my	897	my	မောင်လေး	o;Yn;Br	curated	high	မောင်: a woman's younger brother
-16809	弟	ur	541	ur	چھوٹا بھائی	Yn;Br	curated	high	
-16810	弟さん	ja	1927	ja	弟さん	Yn;Br	curated	high	
-16810	弟さん	ms	1927	ms	adik lelaki	Yn;Br	curated	high	
-16810	弟さん	my	1927	my	ညီလေး	x;Yn;Br	curated	high	ညီ: a man's younger brother
-16810	弟さん	my	1927	my	မောင်လေး	o;Yn;Br	curated	high	မောင်: a woman's younger brother
+16809	弟	ja	897	ja	弟	Yn:Br	curated	high	
+16809	弟	ms	897	ms	adik lelaki	Yn:Br	curated	high	
+16809	弟	my	897	my	ညီလေး	x;Yn:Br	curated	high	ညီ: a man's younger brother
+16809	弟	my	897	my	မောင်လေး	o;Yn:Br	curated	high	မောင်: a woman's younger brother
+16809	弟	ur	541	ur	چھوٹا بھائی	Yn:Br	curated	high	
+16810	弟さん	ja	1927	ja	弟さん	Yn:Br	curated	high	
+16810	弟さん	ms	1927	ms	adik lelaki	Yn:Br	curated	high	
+16810	弟さん	my	1927	my	ညီလေး	x;Yn:Br	curated	high	ညီ: a man's younger brother
+16810	弟さん	my	1927	my	မောင်လေး	o;Yn:Br	curated	high	မောင်: a woman's younger brother
 16811	妹	es	1000	es	hermana	Ss	kindiv	high	
 16811	妹	fr	894	fr	sœur	Ss	kindiv	high	
-16811	妹	ja	1139	ja	妹	Yn;Ss	curated	high	
-16811	妹	ms	1139	ms	adik perempuan	Yn;Ss	curated	high	
-16811	妹	my	1139	my	ညီမလေး	o;Yn;Ss	curated	high	ညီမ: a woman's younger sister
-16811	妹	my	1139	my	နှမလေး	x;Yn;Ss	curated	medium	နှမ: a man's (younger) sister
-16811	妹	ur	542	ur	چھوٹی بہن	Yn;Ss	curated	high	
-16812	妹さん	ja	1926	ja	妹さん	Yn;Ss	curated	high	
-16812	妹さん	ms	1926	ms	adik perempuan	Yn;Ss	curated	high	
-16812	妹さん	my	1926	my	ညီမ	o;Yn;Ss	curated	high	
-16812	妹さん	my	1926	my	နှမ	x;Yn;Ss	curated	medium	
+16811	妹	ja	1139	ja	妹	Yn:Ss	curated	high	
+16811	妹	ms	1139	ms	adik perempuan	Yn:Ss	curated	high	
+16811	妹	my	1139	my	ညီမလေး	o;Yn:Ss	curated	high	ညီမ: a woman's younger sister
+16811	妹	my	1139	my	နှမလေး	x;Yn:Ss	curated	medium	နှမ: a man's (younger) sister
+16811	妹	ur	542	ur	چھوٹی بہن	Yn:Ss	curated	high	
+16812	妹さん	ja	1926	ja	妹さん	Yn:Ss	curated	high	
+16812	妹さん	ms	1926	ms	adik perempuan	Yn:Ss	curated	high	
+16812	妹さん	my	1926	my	ညီမ	o;Yn:Ss	curated	high	
+16812	妹さん	my	1926	my	နှမ	x;Yn:Ss	curated	medium	
 16863	おじ・おば（母方）	as	479	apc	خال	Mo;Br	curated	high	Syrian Arabic
 16863	おじ・おば（母方）	as	479	apc	خالة	Mo;Ss	curated	high	Syrian Arabic
 16866	叔父，伯父	ar	293	ar	عَمٌّ	Fa;Br	kindiv	high	
@@ -437,10 +437,10 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16866	叔父，伯父	fr	857	fr	oncle	Unc	curated	high	affinal as well as consanguineal: matches OEWN uncle
 16866	叔父，伯父	id	697	id	paman	Pa;Br	kindiv	high	
 16866	叔父，伯父	id	697	id	paman	Unc	curated	high	affinal as well as consanguineal: matches OEWN uncle
-16866	叔父，伯父	km	293	km	ពូ	Pa;Yn;Br	curated	medium	
+16866	叔父，伯父	km	293	km	ពូ	Pa;Yn:Br	curated	medium	
 16866	叔父，伯父	ko	802	ko	삼촌	Pa;Br	kindiv	high	
-16866	叔父，伯父	lo	300	lo	ລຸງ	Pa;El;Br	curated	high	
-16866	叔父，伯父	mn	274	mn	ах	El;Br	kindiv	high	
+16866	叔父，伯父	lo	300	lo	ລຸງ	Pa;El:Br	curated	high	
+16866	叔父，伯父	mn	274	mn	ах	El:Br	kindiv	high	
 16866	叔父，伯父	mn	454	mn	авга ах	Fa;Br	kindiv	high	
 16866	叔父，伯父	mn	455	mn	нагац ах	Mo;Br	kindiv	high	
 16866	叔父，伯父	pb	1078	pt	tio	Pa;Br	kindiv	high	
@@ -448,17 +448,17 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16866	叔父，伯父	pt	294	pt	tio	Pa;Br	kindiv	high	
 16866	叔父，伯父	pt	294	pt	tio	Unc	curated	high	affinal as well as consanguineal: matches OEWN uncle
 16866	叔父，伯父	ru	903	ru	дядя	Unc	curated	high	affinal as well as consanguineal: matches OEWN uncle
-16866	叔父，伯父	th	297	th	ลุง	Pa;El;Br	kindiv	high	
-16866	叔父，伯父	th	297	th	อา	Fa;Yn;Sb	kindiv	high	
+16866	叔父，伯父	th	297	th	ลุง	Pa;El:Br	kindiv	high	
+16866	叔父，伯父	th	297	th	อา	Fa;Yn:Sb	kindiv	high	
 16866	叔父，伯父	tl	1017	tl	tito	Pa;Br	kindiv	high	
 16866	叔父，伯父	tl	1017	tl	tito	Unc	curated	high	affinal as well as consanguineal: matches OEWN uncle
 16866	叔父，伯父	tr	1791	tr	amca	Fa;Br	kindiv	high	
 16866	叔父，伯父	tr	2002	tr	dayı	Mo;Br	kindiv	high	
-16866	叔父，伯父	ur	355	ur	تایا	Fa;El;Br	curated	high	
-16866	叔父，伯父	vi	429	vi	chú	Fa;Yn;Br	kindiv	high	
-16866	叔父，伯父	vi	500	vi	bác	Fa;El;Br	kindiv	high	
-16866	叔父，伯父	zh	316	cmn	伯父	Fa;El;Br	curated	high	
-16866	叔父，伯父	zh	541	cmn	叔父	Fa;Yn;Br	curated	high	
+16866	叔父，伯父	ur	355	ur	تایا	Fa;El:Br	curated	high	
+16866	叔父，伯父	vi	429	vi	chú	Fa;Yn:Br	kindiv	high	
+16866	叔父，伯父	vi	500	vi	bác	Fa;El:Br	kindiv	high	
+16866	叔父，伯父	zh	316	cmn	伯父	Fa;El:Br	curated	high	
+16866	叔父，伯父	zh	541	cmn	叔父	Fa;Yn:Br	curated	high	
 16866	叔父，伯父	zh	542	cmn	姑夫	Fa;Ss;Hu	curated	high	
 16866	叔父，伯父	zh	543	cmn	舅父	Mo;Br	curated	high	
 16866	叔父，伯父	zh	544	cmn	姨夫	Mo;Ss;Hu	curated	high	
@@ -475,11 +475,11 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16869	叔母，伯母	fr	858	fr	tante	Aun	curated	high	affinal as well as consanguineal: matches OEWN aunt
 16869	叔母，伯母	id	701	id	bibi	Pa;Ss	kindiv	high	
 16869	叔母，伯母	id	701	id	bibi	Aun	curated	high	affinal as well as consanguineal: matches OEWN aunt
-16869	叔母，伯母	km	298	km	មីង	Pa;Yn;Ss	curated	medium	
+16869	叔母，伯母	km	298	km	មីង	Pa;Yn:Ss	curated	medium	
 16869	叔母，伯母	ko	1009	ko	이모	Mo;Ss	kindiv	high	
 16869	叔母，伯母	ko	807	ko	고모	Fa;Ss	kindiv	high	
-16869	叔母，伯母	lo	305	lo	ປ້າ	Pa;El;Ss	curated	high	
-16869	叔母，伯母	mn	282	mn	эгч	El;Ss	kindiv	high	
+16869	叔母，伯母	lo	305	lo	ປ້າ	Pa;El:Ss	curated	high	
+16869	叔母，伯母	mn	282	mn	эгч	El:Ss	kindiv	high	
 16869	叔母，伯母	mn	496	mn	нагац эгч	Mo;Ss	kindiv	high	
 16869	叔母，伯母	mn	497	mn	авга эгч	Fa;Ss	kindiv	high	
 16869	叔母，伯母	pb	1082	pt	tia	Pa;Ss	kindiv	high	
@@ -488,16 +488,16 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16869	叔母，伯母	pt	299	pt	tia	Aun	curated	high	affinal as well as consanguineal: matches OEWN aunt
 16869	叔母，伯母	ru	908	ru	тётя	Pa;Ss	kindiv	high	
 16869	叔母，伯母	ru	908	ru	тётя	Aun	curated	high	affinal as well as consanguineal: matches OEWN aunt
-16869	叔母，伯母	th	301	th	น้า	Mo;Yn;Sb	kindiv	high	
-16869	叔母，伯母	th	301	th	ป้า	Pa;El;Ss	kindiv	high	
+16869	叔母，伯母	th	301	th	น้า	Mo;Yn:Sb	kindiv	high	
+16869	叔母，伯母	th	301	th	ป้า	Pa;El:Ss	kindiv	high	
 16869	叔母，伯母	tl	1022	tl	tita	Pa;Ss	kindiv	high	
 16869	叔母，伯母	tl	1022	tl	tita	Aun	curated	high	affinal as well as consanguineal: matches OEWN aunt
 16869	叔母，伯母	tr	1796	tr	teyze	Mo;Ss	kindiv	high	
 16869	叔母，伯母	ur	356	ur	پھوپھی	Fa;Ss	curated	high	
 16869	叔母，伯母	vi	428	vi	cô	Fa;Ss	kindiv	high	
-16869	叔母，伯母	zh	548	cmn	婶母	Fa;Yn;Br;Wi	curated	high	
+16869	叔母，伯母	zh	548	cmn	婶母	Fa;Yn:Br;Wi	curated	high	
 16869	叔母，伯母	zh	549	cmn	姨母	Mo;Ss	curated	high	
-16870	伯母（父の兄の妻）	zh	547	cmn	伯母	Fa;El;Br;Wi	curated	high	also a polite 'auntie' for a friend's mother
+16870	伯母（父の兄の妻）	zh	547	cmn	伯母	Fa;El:Br;Wi	curated	high	also a polite 'auntie' for a friend's mother
 16888	甥	ar	518	ar	اِبْنُ أَخٍ	Br;So	kindiv	high	
 16892	いとこ	ar	288	ar	اِبْنُ عَمٍّ	Fa;Br;So	kindiv	high	
 16892	いとこ	de	1013	de	Cousin	Pa;Sb;So	kindiv	high	
@@ -515,9 +515,9 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16892	いとこ	tl	1010	tl	pinsan	Pa;Sb;Ch	curated	high	
 16892	いとこ	tr	1784	tr	kuzen	Pa;Sb;Ch	curated	high	
 16892	いとこ	ur	357	ur	چچازاد بھائی	Fa;Br;So	curated	high	
-16892	いとこ	vi	489	vi	anh họ	El;Pa;Sb;So	kindiv	high	
-16892	いとこ	vi	490	vi	chị ho	El;Pa;Sb;Da	curated	high	TUFS typo for chị họ
-16892	いとこ	vi	491	vi	em họ	Yn;Pa;Sb;Ch	kindiv	high	
+16892	いとこ	vi	489	vi	anh họ	Pa;Sb;El:So	kindiv	high	
+16892	いとこ	vi	490	vi	chị ho	Pa;Sb;El:Da	curated	high	TUFS typo for chị họ
+16892	いとこ	vi	491	vi	em họ	Pa;Sb;Yn:Ch	kindiv	high	
 16893	従兄弟（母方）	ar	478	ar	اِبْنُ خَالٍ	Mo;Br;So	kindiv	high	
 16896	従姉妹	ar	477	ar	بنت عم	Fa;Br;Da	kindiv	high	
 16896	従姉妹	ar	479	ar	بنت خال	Mo;Br;Da	kindiv	high	
