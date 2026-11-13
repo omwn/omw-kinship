@@ -58,7 +58,7 @@ general term denotes the choice of several:
 
 ### Operations
 
-Codes are built with four operations. Their meaning is given by ⟦·⟧, the set of
+Codes are built with five operations. Their meaning is given by ⟦·⟧, the set of
 positions a code denotes.
 
 1. **Composition** (`;` between kin terms) extends the path by one link, choosing
@@ -95,10 +95,22 @@ positions a code denotes.
    Each part is read on its own, so `o;Br|x;Ss` is "a woman's brother or a man's
    sister": an opposite-sex sibling.
 
+5. **Plural** (`Pl;` at the front, after any anchor) makes the code denote the
+   relatives it covers taken together, as one group, instead of any one of
+   them: Japanese 両親 *ryōshin* "both parents" is `Pl;Pa`, 祖父母 *sofubo*
+   "grandparents" `Pl;Pa;Pa`. Like the anchor, it belongs to the whole path,
+   not to one link, so it takes `;`: `Pa;Pl:Pa` would be one parent's parents.
+   A group is not one of its members, so a plural code is never below or above
+   a singular one; plural concepts hang from `Rel`. Only words that name the
+   group count as evidence for one (両親, Mandarin 父母 *fùmǔ*, German *Eltern*),
+   not regular plurals (*parents*), though those are recorded as its words.
+   Japanese nouns do not mark number, so 祖父母 is also `Pa;Pa`, a single
+   grandparent; 両親 is only `Pl;Pa`.
+
 The full grammar of a code is
 
     code   := chain ( "|" chain )*
-    chain  := [ anchor ";" ] link ( ";" link )*
+    chain  := [ anchor ";" ] [ "Pl" ";" ] link ( ";" link )*
     link   := [ age ":" ] term
     anchor := "x" | "o"
     age    := "El" | "Yn"
@@ -165,6 +177,14 @@ shapes.
 |---|---|---|
 | `x` | the anchor is male | `x;Ss` "a man's sister" |
 | `o` | the anchor is female | `o;Br` "a woman's brother" |
+
+### Number
+
+| feature | meaning | example |
+|---|---|---|
+| `Pl` | plural: the relatives the code covers, together | `Pl;Pa` "both parents" (Japanese 両親) |
+
+A code without `Pl` denotes one relative.
 
 ### Relative age
 

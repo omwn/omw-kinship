@@ -174,17 +174,6 @@ ancestors = ["Ch;Da", "Da;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;
 sources = ["外孫女 <- Omniglot, Wiktionary"]
 comment = ""
 
-["Sb"]
-lemmas = ["兄弟姐妹"]
-omniglot = ["兄弟姐妹 hìngdaih jímuih \"siblings\""]
-english = ["sib", "sibling"]
-label = "sibling"
-definition = "a brother or sister of a person"
-hypernyms = ["Pa;Sb;Ch|Sb"]
-ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["兄弟姐妹 <- Omniglot"]
-comment = ""
-
 ["Br"]
 lemmas = []
 status = "KinDiv records a gap here, but there are words: check"
@@ -890,18 +879,16 @@ sources = ["阿嬸 <- Omniglot"]
 comment = ""
 
 ["Pa"]
-lemmas = ["父母"]
+lemmas = []
 proposed = ["父母"]
 jyutping = ["fu6 mou5"]
 confidence = ["high"]
 notes = ["父母: 'parents', a pair"]
-omniglot = ["父母 fuhmóuh \"parents\""]
-english = ["parent", "parents"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["父母 <- Omniglot"]
 comment = ""
 
 ["Fa"]
@@ -1712,6 +1699,29 @@ hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
+["Pl;Pa"]
+lemmas = ["父母"]
+omniglot = ["父母 fuhmóuh \"parents\""]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["父母 <- Omniglot"]
+comment = ""
+
+["Pl;Sb"]
+lemmas = ["兄弟姐妹"]
+omniglot = ["兄弟姐妹 hìngdaih jímuih \"siblings\""]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "siblings (together)"
+definition = "one's brothers and sisters, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["兄弟姐妹 <- Omniglot"]
+comment = ""
+
 ["Pa;Pa"]
 lemmas = []
 status = "recorded gap (KinDiv): no word for this"
@@ -1998,6 +2008,15 @@ label = "daughter's daughter (female anchor)"
 definition = "a daughter of a woman's daughter (a grandchild)"
 hypernyms = ["Da;Da", "o;Ch;Da", "o;Da;Ch"]
 ancestors = ["Da;Da", "o;Ch;Da", "o;Da;Ch", "Ch;Da", "Da;Ch", "o;Ch;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
+comment = ""
+
+["Sb"]
+lemmas = []
+status = "recorded gap (KinDiv): no word for this"
+label = "sibling"
+definition = "a brother or sister of a person"
+hypernyms = ["Pa;Sb;Ch|Sb"]
+ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["x;Br"]

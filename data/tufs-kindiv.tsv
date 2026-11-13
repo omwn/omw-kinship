@@ -152,30 +152,30 @@ tufs_cid	tufs_gloss	tufs_lang	tufs_wid	tag	form	concept	method	confidence	note
 16402	奥さん	ur	344	ur	بیگم	Wi	curated	medium	also 'lady'
 16402	奥さん	vi	498	vi	vợ	Wi	default	high	
 16402	奥さん	zh	524	cmn	老婆	Wi	default	high	
-16488	両親	ar	294	ar	والدان	Pa	default	high	plural 'parents'
-16488	両親	de	1021	de	Eltern	Pa	default	high	plural 'parents'
-16488	両親	en	1048	en	parents	Pa	default	high	plural 'parents'
-16488	両親	es	998	es	padres	Pa	default	high	plural 'parents'
-16488	両親	fr	2052	fr	parents	Pa	default	high	plural 'parents'
-16488	両親	id	698	id	orang tua	Pa	default	high	plural 'parents'
-16488	両親	ja	1855	ja	両親	Pa	default	high	plural 'parents'
-16488	両親	km	294	km	ឪពុកម្ដាយ	Pa	default	high	plural 'parents'
-16488	両親	ko	803	ko	부모	Pa	default	high	plural 'parents'
-16488	両親	lo	301	lo	ພໍ່ແມ່	Pa	default	high	plural 'parents'
-16488	両親	mn	280	mn	аав ээж	Pa	default	high	plural 'parents'
-16488	両親	ms	1855	ms	ibu bapa	Pa	default	high	plural 'parents'
-16488	両親	my	1855	my	မိဘ	Pa	default	high	plural 'parents'
-16488	両親	pb	1079	pt	pais	Pa	default	high	plural 'parents'
+16488	両親	ar	294	ar	والدان	Pl;Pa	default	high	both parents, together
+16488	両親	de	1021	de	Eltern	Pl;Pa	default	high	both parents, together
+16488	両親	en	1048	en	parents	Pl;Pa	default	high	both parents, together
+16488	両親	es	998	es	padres	Pl;Pa	default	high	both parents, together
+16488	両親	fr	2052	fr	parents	Pl;Pa	default	high	both parents, together
+16488	両親	id	698	id	orang tua	Pl;Pa	default	high	both parents, together
+16488	両親	ja	1855	ja	両親	Pl;Pa	default	high	both parents, together
+16488	両親	km	294	km	ឪពុកម្ដាយ	Pl;Pa	default	high	both parents, together
+16488	両親	ko	803	ko	부모	Pl;Pa	default	high	both parents, together
+16488	両親	lo	301	lo	ພໍ່ແມ່	Pl;Pa	default	high	both parents, together
+16488	両親	mn	280	mn	аав ээж	Pl;Pa	default	high	both parents, together
+16488	両親	ms	1855	ms	ibu bapa	Pl;Pa	default	high	both parents, together
+16488	両親	my	1855	my	မိဘ	Pl;Pa	default	high	both parents, together
+16488	両親	pb	1079	pt	pais	Pl;Pa	default	high	both parents, together
 16488	両親	pt	295	pt	meus pais	Pa	curated	medium	'my parents': the form is a phrase
-16488	両親	ru	904	ru	родители	Pa	default	high	plural 'parents'
-16488	両親	th	298	th	พ่อแม่	Pa	default	high	plural 'parents'
-16488	両親	tl	1018	tl	magulang	Pa	default	high	plural 'parents'
-16488	両親	tr	1792	tr	anne baba	Pa	default	high	plural 'parents'
+16488	両親	ru	904	ru	родители	Pl;Pa	default	high	both parents, together
+16488	両親	th	298	th	พ่อแม่	Pl;Pa	default	high	both parents, together
+16488	両親	tl	1018	tl	magulang	Pl;Pa	default	high	both parents, together
+16488	両親	tr	1792	tr	anne baba	Pl;Pa	default	high	both parents, together
 16488	両親	tr	1792	tr	anne babası		curated	high	possessive form of anne baba ('his/her parents')
-16488	両親	ur	345	ur	والدین	Pa	default	high	plural 'parents'
-16488	両親	vi	502	vi	bố mẹ	Pa	default	high	plural 'parents'
-16488	両親	vi	503	vi	cha mẹ	Pa	default	high	plural 'parents'
-16488	両親	zh	317	cmn	父母	Pa	default	high	plural 'parents'
+16488	両親	ur	345	ur	والدین	Pl;Pa	default	high	both parents, together
+16488	両親	vi	502	vi	bố mẹ	Pl;Pa	default	high	both parents, together
+16488	両親	vi	503	vi	cha mẹ	Pl;Pa	default	high	both parents, together
+16488	両親	zh	317	cmn	父母	Pl;Pa	default	high	both parents, together
 16495	父	ar	295	ar	وَالِدٌ	Fa	default	high	
 16495	父	ar	520	ar	أَبَوِيٌّ		curated	high	adjective 'paternal, parental'
 16495	父	as	477	apc	أبّ	Fa	default	high	

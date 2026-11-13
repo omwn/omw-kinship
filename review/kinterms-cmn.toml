@@ -239,7 +239,6 @@ comment = ""
 ["Sb"]
 lemmas = ["兄弟", "兄弟姐妹", "同胞", "姐妹"]
 pronunciations = ["兄弟: xiong di (romanization)", "姐妹: jie mei (romanization)"]
-omniglot = ["兄弟姐妹 xiōngdì jiemèi \"siblings\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
@@ -250,7 +249,7 @@ ntumc = ["姐妹 <- 10595164-n", "兄弟 <- 10595164-n", "兄弟 姐妹 <- 10595
 new_senses = ["同胞"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["兄弟 <- cow", "兄弟姐妹 <- Omniglot, cow", "同胞 <- Wiktionary", "姐妹 <- cow"]
+sources = ["兄弟 <- cow", "兄弟姐妹 <- cow", "同胞 <- Wiktionary", "姐妹 <- cow"]
 comment = ""
 
 ["Br"]
@@ -930,20 +929,19 @@ sources = ["婶母 <- TUFS"]
 comment = ""
 
 ["Pa"]
-lemmas = ["亲", "双亲之一", "家长", "父亲或母亲", "父母", "親"]
-pronunciations = ["父母: fu mu (romanization)"]
-omniglot = ["父母 fùmǔ \"parents\""]
-english = ["parent", "parents"]
+lemmas = ["fu mu", "亲", "双亲之一", "家长", "父亲或母亲", "親"]
+transcribed = ["fu mu"]  # romanized in the source; no word in the native script here
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["双亲之一 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "家长 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "父亲或母亲 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "父母 -> tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_by_lemma = ["双亲之一 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "家长 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚", "父亲或母亲 -> cow cow-10399491-n [i91858] 父亲或母亲, 家长, 双亲之一: 爸爸或妈妈；使之诞生、生育、培育或养育一个孩子的人；担起监护人的亲戚"]
 ntumc = ["父 或 母 <- 10399491-n", "父亲或母亲 <- 10399491-n", "家长 <- 10399491-n", "父或母 <- 10399491-n", "父亲 或 母亲 <- 10399491-n", "双亲之一 <- 10399491-n", "双亲 之一 <- 10399491-n"]
-new_senses = ["亲", "父母"]
-new_words = ["親"]
+new_senses = ["亲"]
+new_words = ["fu mu", "親"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["亲 <- Wikidata L655428-S1", "双亲之一 <- cow", "家长 <- cow", "父亲或母亲 <- cow", "父母 <- Kinbank, Omniglot, TUFS", "親 <- Wikidata L655428-S1"]
+sources = ["fu mu <- Kinbank", "亲 <- Wikidata L655428-S1", "双亲之一 <- cow", "家长 <- cow", "父亲或母亲 <- cow", "親 <- Wikidata L655428-S1"]
 comment = ""
 
 ["Fa"]
@@ -1711,6 +1709,33 @@ label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"
 hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = ["父母"]
+omniglot = ["父母 fùmǔ \"parents\""]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+existing_by_lemma = ["父母 -> tufs-zh tufs-zh-10399491-n [i91858] 父母: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+new_senses = ["父母"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["父母 <- Omniglot, TUFS"]
+comment = ""
+
+["Pl;Sb"]
+lemmas = ["兄弟姐妹"]
+omniglot = ["兄弟姐妹 xiōngdì jiemèi \"siblings\""]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "siblings (together)"
+definition = "one's brothers and sisters, taken together"
+existing_by_lemma = ["兄弟姐妹 -> cow cow-10595164-n [i92980] 兄弟, 兄弟姐妹, 姐妹: 一个人的兄弟姐妹"]
+new_senses = ["兄弟姐妹"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["兄弟姐妹 <- Omniglot"]
 comment = ""
 
 ["Fa;Pa"]

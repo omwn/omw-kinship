@@ -235,9 +235,9 @@ CID_DEFAULT = {
     "16496": "Mo",
     "16507": "Mo",
     "16647": "So",
-    "16488": "Pa",
+    "16488": "Pl;Pa",
 }
-DEFAULT_NOTE = {"16488": "plural 'parents'"}
+DEFAULT_NOTE = {"16488": "both parents, together"}
 
 
 def mappings(row: dict[str, str]) -> list[tuple[str, str, str, str]]:

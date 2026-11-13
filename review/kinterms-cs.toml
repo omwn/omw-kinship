@@ -14,19 +14,6 @@
 #   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
-["Pa;Pa"]
-lemmas = []
-status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["prarodiče \"grandparents\" (not built: plural)"]
-omniglot_new = ["prarodiče"]
-english = ["grandparent"]
-label = "grandparent"
-definition = "a parent of one's parent (a grandparent)"
-ntumc = ["prarodič <- 10143172-n"]
-hypernyms = ["Ch;Ch|Pa;Pa"]
-ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
-comment = ""
-
 ["Pa;Fa"]
 lemmas = ["děd", "děda", "dědeček"]
 omniglot = ["děda \"grandfather\"", "dědeček \"grandfather\""]
@@ -500,8 +487,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodiče"]
-omniglot = ["rodiče \"parents\" (not built: plural)"]
-english = ["parent", "parents"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 ntumc = ["rodič <- 10399491-n", "rodiče <- 10399491-n"]
@@ -1180,6 +1166,39 @@ label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"
 hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = []
+omniglot = ["rodiče \"parents\" (not built: plural)"]
+omniglot_new = ["rodiče"]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+comment = ""
+
+["Pl;Pa;Pa"]
+lemmas = []
+omniglot = ["prarodiče \"grandparents\" (not built: plural)"]
+omniglot_new = ["prarodiče"]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "grandparents (together)"
+definition = "one's grandparents, grandfathers and grandmothers, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+comment = ""
+
+["Pa;Pa"]
+lemmas = []
+status = "recorded gap (KinDiv): no word for this"
+label = "grandparent"
+definition = "a parent of one's parent (a grandparent)"
+ntumc = ["prarodič <- 10143172-n"]
+hypernyms = ["Ch;Ch|Pa;Pa"]
+ancestors = ["Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Fa;Pa"]

@@ -99,3 +99,12 @@ Sp;Ss	Japanese	ja	義姉様	remove	https://ja.wiktionary.org/wiki/義姉	義姉:
 BrL	Japanese	ja	義兄	remove	https://ja.wiktionary.org/wiki/義兄	義兄: 義理の兄。姉の夫、配偶者の兄、…	wnja files it under brother-in-law; 義兄 is only an elder one
 Sp;Ss	Japanese	ja	義姉	remove	https://ja.wiktionary.org/wiki/義姉	義姉: 義理の姉。兄の妻、配偶者の姉、…	wnja files it under spouse's sister; it is only an elder or younger one, and also a brother's wife
 Sp;Ss	Japanese	ja	義妹	remove	https://ja.wiktionary.org/wiki/義妹	義妹: 義理の妹。弟の妻、配偶者の妹、…	wnja files it under spouse's sister; it is only an elder or younger one, and also a brother's wife
+Pl;Pa	Japanese	ja	両親	exact	https://ja.wiktionary.org/wiki/両親	両親 (りょうしん): (家族) ある人の父親と母親。	
+Pl;Pa	Japanese	ja	りょうしん	exact	https://ja.wiktionary.org/wiki/両親	両親 (りょうしん): (家族) ある人の父親と母親。	kana spelling of 両親
+Pa	Japanese	ja	両親	remove	https://ja.wiktionary.org/wiki/両親	両親 (りょうしん): (家族) ある人の父親と母親。	both parents together, not one parent
+Pa	Japanese	ja	りょうしん	remove	https://ja.wiktionary.org/wiki/両親	両親 (りょうしん): (家族) ある人の父親と母親。	both parents together, not one parent
+Pl;Pa;Pa	Japanese	ja	祖父母	exact	https://ja.wiktionary.org/wiki/祖父母	祖父母 (そふぼ): 親の親。祖父と祖母。	also a single grandparent (親の親), so its Pa;Pa sense stays
+Pl;Sb	Japanese	ja	兄弟姉妹	exact	https://ja.wiktionary.org/wiki/兄弟姉妹	兄弟姉妹 (きょうだいしまい): 兄弟と姉妹。…同じ親を持つ人。	also a single sibling (同じ親を持つ人), so its Sb sense stays
+Pa	Malay	ms	ibu bapa	remove	https://www.coelang.tufs.ac.jp/	TUFS Basic Vocabulary lists ibu bapa (ms) for 両親 "both parents"	father and mother together; Malay (ms) only
+Pa	Thai	th	พ่อแม่	remove	https://www.coelang.tufs.ac.jp/	TUFS Basic Vocabulary lists พ่อแม่ (th) for 両親 "both parents"	father-mother compound: both parents
+Pa	German	de	Eltern	remove	https://www.coelang.tufs.ac.jp/	TUFS Basic Vocabulary lists Eltern (de) for 両親 "both parents"	plural only; one parent is Elternteil

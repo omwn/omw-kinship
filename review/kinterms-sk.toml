@@ -14,8 +14,6 @@
 
 ["Pa;Pa"]
 lemmas = ["starý rodič"]
-omniglot = ["starí rodičia \"grandparents\" (not built: plural)"]
-omniglot_new = ["starí rodičia"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -604,8 +602,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodič", "rodičia"]
-omniglot = ["rodičia \"parents\" (not built: plural)"]
-english = ["parent", "parents"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["omw-sk omw-sk-10399491-n [i91858] rodič: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
@@ -1256,6 +1253,29 @@ label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"
 hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = []
+omniglot = ["rodičia \"parents\" (not built: plural)"]
+omniglot_new = ["rodičia"]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+comment = ""
+
+["Pl;Pa;Pa"]
+lemmas = []
+omniglot = ["starí rodičia \"grandparents\" (not built: plural)"]
+omniglot_new = ["starí rodičia"]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "grandparents (together)"
+definition = "one's grandparents, grandfathers and grandmothers, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
 comment = ""
 
 ["Fa;Pa"]

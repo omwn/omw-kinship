@@ -127,13 +127,12 @@ comment = ""
 
 ["Sb"]
 lemmas = ["adik-beradik", "saudara kandung"]
-omniglot = ["adik-beradik \"siblings\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["adik-beradik <- Omniglot, TUFS, wnb-zsm", "saudara kandung <- wnb-zsm"]
+sources = ["adik-beradik <- TUFS, wnb-zsm", "saudara kandung <- wnb-zsm"]
 comment = ""
 
 ["Br"]
@@ -398,14 +397,13 @@ sources = ["ibu saudara <- Omniglot, TUFS, wnb-zsm", "mak cik <- Omniglot", "mak
 comment = ""
 
 ["Pa"]
-lemmas = ["ayah bonda", "ibu bapa", "ibu-bapa", "orang tua", "ايبو باڤ"]
-omniglot = ["ibu-bapa \"parents\""]
-english = ["parent", "parents"]
+lemmas = ["ayah bonda", "orang tua", "ايبو باڤ"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["ayah bonda <- wnb-zsm", "ibu bapa <- TUFS, Wikidata L475590-S1, wnb-zsm", "ibu-bapa <- Omniglot", "orang tua <- wnb-zsm", "ايبو باڤ <- Wikidata L475590-S1"]
+sources = ["ayah bonda <- wnb-zsm", "orang tua <- wnb-zsm", "ايبو باڤ <- Wikidata L475590-S1"]
 comment = ""
 
 ["Fa"]
@@ -979,6 +977,29 @@ label = "woman's sibling's child"
 definition = "a child of a woman's sibling (a nephew or niece)"
 hypernyms = ["Sb;Ch"]
 ancestors = ["Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = ["ibu bapa", "ibu-bapa"]
+omniglot = ["ibu-bapa \"parents\""]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["ibu bapa <- TUFS", "ibu-bapa <- Omniglot"]
+comment = ""
+
+["Pl;Sb"]
+lemmas = ["adik-beradik"]
+omniglot = ["adik-beradik \"siblings\""]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "siblings (together)"
+definition = "one's brothers and sisters, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["adik-beradik <- Omniglot"]
 comment = ""
 
 ["Fa;Pa"]

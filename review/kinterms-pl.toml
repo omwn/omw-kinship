@@ -13,7 +13,6 @@
 
 ["Pa;Pa"]
 lemmas = ["dziadkowie"]
-omniglot = ["dziadkowie \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -552,8 +551,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodzic", "rodzice"]
-omniglot = ["rodzice \"parents\" (not built: plural)"]
-english = ["parent", "parents"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["plwn plwn-syn-f3bcb417-aac4-11ed-aae5-0242ac130002 [i91858] rodzic: ojciec lub matka, czasem też inny opiekun pełniący rolę ojca lub matki."]
@@ -1219,6 +1217,29 @@ label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"
 hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = []
+omniglot = ["rodzice \"parents\" (not built: plural)"]
+omniglot_new = ["rodzice"]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+comment = ""
+
+["Pl;Pa;Pa"]
+lemmas = []
+omniglot = ["dziadkowie \"grandparents\" (not built: plural)"]
+omniglot_new = ["dziadkowie"]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "grandparents (together)"
+definition = "one's grandparents, grandfathers and grandmothers, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
 comment = ""
 
 ["Fa;Pa"]

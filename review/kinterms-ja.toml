@@ -174,7 +174,6 @@ comment = ""
 ["Sb"]
 lemmas = ["きょうだい", "けいてい", "兄弟", "兄弟姉妹"]
 pronunciations = ["きょうだい: kyōdai (romanization)"]
-omniglot = ["兄弟姉妹 kyōdaishimai \"siblings\""]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
@@ -185,7 +184,7 @@ ntumc = ["兄弟 <- 10595164-n", "兄弟姉妹 <- 10595164-n"]
 new_words = ["きょうだい", "けいてい"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["きょうだい <- Kinbank, Wikidata L626058-S1", "けいてい <- Wikidata L1475602-S1 (standard language)", "兄弟 <- TUFS, Wikidata L1475602-S1 (standard language), Wikidata L626058-S1, wnja", "兄弟姉妹 <- Omniglot, wnja"]
+sources = ["きょうだい <- Kinbank, Wikidata L626058-S1", "けいてい <- Wikidata L1475602-S1 (standard language)", "兄弟 <- TUFS, Wikidata L1475602-S1 (standard language), Wikidata L626058-S1, wnja", "兄弟姉妹 <- wnja"]
 honorific = ["きょうだい: Pln (bare, junior)", "けいてい: Pln (bare, junior; Wikidata: standard language)", "兄弟: Pln (bare, junior; Wikidata: standard language)", "兄弟姉妹: Pln (bare, junior)"]
 comment = ""
 
@@ -777,22 +776,21 @@ honorific = ["おばさん: Pol (-さん)", "伯母: Fml;Hum (bare, senior)", "�
 comment = ""
 
 ["Pa"]
-lemmas = ["おや", "ご両親", "りょうしん", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
-pronunciations = ["りょうしん: ryōshin (romanization)"]
-omniglot = ["両親 ryōshin \"parents\" inf", "ご両親 go ryōshin \"parents\" frm"]
-english = ["parent", "parents"]
+lemmas = ["ryōshin", "おや", "ペアレント", "親", "親じゃ人", "親者人"]
+transcribed = ["ryōshin"]  # romanized in the source; no word in the native script here
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["おや -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "おや -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "おや -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "おや -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "りょうしん -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "りょうしん -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "ペアレント -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "両親 -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "親 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "親 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "親 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親じゃ人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親者人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類"]
-existing_hidden = 4  # other senses of these lemmas
+existing_by_lemma = ["おや -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "おや -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "おや -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "おや -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "ペアレント -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "親 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "親 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親じゃ人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "親者人 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類"]
+existing_hidden = 2  # other senses of these lemmas
 ntumc = ["親者人 <- 10399491-n", "ペアレント <- 10399491-n", "親 <- 10399491-n", "親じゃ人 <- 10399491-n"]
 new_senses = ["おや"]
-new_words = ["ご両親", "りょうしん", "両親"]
+new_words = ["ryōshin"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["おや <- Wikidata L1080964-S1", "ご両親 <- Omniglot", "りょうしん <- Kinbank, Wikidata L348238-S1", "ペアレント <- wnja", "両親 <- Omniglot, TUFS, Wikidata L348238-S1", "親 <- Wikidata L1080964-S1, wnja", "親じゃ人 <- wnja", "親者人 <- wnja"]
-honorific = ["おや: Fml;Hum (bare, senior)", "ご両親: Pol (お-/御-)", "りょうしん: Fml;Hum (bare, senior)", "ペアレント: - (loanword)", "両親: Fml;Hum (bare, senior)", "親: Fml;Hum (bare, senior)", "親じゃ人: Hon;Arch (-じゃ人)", "親者人: Hon;Arch (-者人)"]
+sources = ["ryōshin <- Kinbank", "おや <- Wikidata L1080964-S1", "ペアレント <- wnja", "親 <- Wikidata L1080964-S1, wnja", "親じゃ人 <- wnja", "親者人 <- wnja"]
+honorific = ["ryōshin: Fml;Hum (bare, senior)", "おや: Fml;Hum (bare, senior)", "ペアレント: - (loanword)", "親: Fml;Hum (bare, senior)", "親じゃ人: Hon;Arch (-じゃ人)", "親者人: Hon;Arch (-者人)"]
 comment = ""
 
 ["Fa"]
@@ -1540,6 +1538,51 @@ hypernyms = ["SsL"]
 ancestors = ["SsL", "InL", "Rel"]
 sources = ["義妹 <- https"]
 honorific = ["義妹: Pln (bare, junior)"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = ["ご両親", "りょうしん", "両親"]
+omniglot = ["両親 ryōshin \"parents\" inf", "ご両親 go ryōshin \"parents\" frm"]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+existing_by_lemma = ["りょうしん -> wnja wnja-10193967-n [i90626] 宅, 主, 主人, 旦那, 亭主, ご亭主, ...: 結婚した男性; 結婚によってある女性の配偶者となった人", "りょうしん -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "両親 -> tufs-ja tufs-ja-10399491-n [i91858] 両親: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_hidden = 2  # other senses of these lemmas
+new_words = ["ご両親", "りょうしん", "両親"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["ご両親 <- Omniglot", "りょうしん <- https", "両親 <- Omniglot, TUFS, https"]
+honorific = ["ご両親: Pol (お-/御-)", "りょうしん: Fml;Hum (bare, senior)", "両親: Fml;Hum (bare, senior)"]
+comment = ""
+
+["Pl;Pa;Pa"]
+lemmas = ["祖父母"]
+pronunciations = ["祖父母: sofubo (romanization)"]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "grandparents (together)"
+definition = "one's grandparents, grandfathers and grandmothers, taken together"
+existing_by_lemma = ["祖父母 -> wnja wnja-10143172-n [i90292] 祖父母: 父あるいは母の親"]
+new_senses = ["祖父母"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["祖父母 <- https"]
+honorific = ["祖父母: Fml;Hum (bare, senior)"]
+comment = ""
+
+["Pl;Sb"]
+lemmas = ["兄弟姉妹"]
+omniglot = ["兄弟姉妹 kyōdaishimai \"siblings\""]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "siblings (together)"
+definition = "one's brothers and sisters, taken together"
+existing_by_lemma = ["兄弟姉妹 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹"]
+new_senses = ["兄弟姉妹"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["兄弟姉妹 <- Omniglot, https"]
+honorific = ["兄弟姉妹: Pln (bare, junior)"]
 comment = ""
 
 ["Fa;Pa"]

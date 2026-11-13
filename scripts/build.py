@@ -85,6 +85,8 @@ NOUNS = {
     "Da": "daughter",
     "Ch": "child",
 }
+#: plural nouns that do not just add -s, for plural codes (``Pl;Ch``)
+PLURALS = {"child": "children"}
 #: Copy-paste debris in `words`: zero-width spaces inside Japanese words and
 #: left-to-right marks after Arabic, Hebrew and Persian ones. ZWJ is kept, as
 #: Sinhala and Malayalam spelling needs it.
@@ -190,9 +192,14 @@ def parse(code: str) -> tuple[str, str, list[str]]:
     ('x', '', ['father', 'elder brother'])
     >>> parse("Fa;Br;Yn:So")
     ('', 'younger', ['father', 'brother', 'son'])
+    >>> parse("Pl;Pa;Pa")
+    ('', '', ['parent', 'parents (together)'])
     """
     parts = code.split(";")
     sex = parts.pop(0) if parts[0] in EGO else ""
+    plural = parts[0] == "Pl"
+    if plural:
+        parts.pop(0)
     relative_age = ""
     chain: list[str] = []
     letters = ""
@@ -208,6 +215,9 @@ def parse(code: str) -> tuple[str, str, list[str]]:
         if cousin:
             relative_age = "older" if age == "elder" else "younger"
         chain.append(f"{age} {NOUNS[term]}" if age and not cousin else NOUNS[term])
+    if plural:
+        last = chain[-1]
+        chain[-1] = PLURALS.get(last, f"{last}s") + " (together)"
     return sex, relative_age, chain
 
 
@@ -415,8 +425,10 @@ def add_phrases(language: Language, concepts: dict[str, Concept]) -> None:
     attested = {code for senses in language.words.values() for code, _ in senses}
     for code, concept in concepts.items():
         if code not in attested:
-            # named nodes (Rel, InL, Unc, ...) are not kin-type codes: use the label
-            text = concept.label if code.isalpha() else phrase(code)
+            # named nodes (Rel, InL, Unc, ...) are not kin-type codes, and a plural
+            # code's phrase is clumsy ("parent's parents (together)"): use the label
+            plural = code.split(";")[-2:-1] == ["Pl"] or code.startswith("Pl;")
+            text = concept.label if code.isalpha() or plural else phrase(code)
             language.phrases[text] = code
 
 

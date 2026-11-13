@@ -13,7 +13,6 @@
 
 ["Pa;Pa"]
 lemmas = ["Großeltern", "Großelternteil", "Oma und Opa"]
-omniglot = ["Großeltern \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -655,17 +654,16 @@ sources = ["Tante <- Omniglot, TUFS"]
 comment = ""
 
 ["Pa"]
-lemmas = ["Elter", "Eltern", "Elternteil"]
-omniglot = ["Eltern \"parents\" (not built: plural)"]
-english = ["parent", "parents"]
+lemmas = ["Elter", "Elternteil"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["tufs-de tufs-de-10399491-n [i91858] Eltern: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
-existing_by_lemma = ["Elter -> odenet odenet-29958-n [i90033] Elter, Vater, Elterknoten, Elternknoten: der Gründer einer Familie", "Eltern -> odenet odenet-11865-n [-] die Alten, Eltern, Erziehungsberechtigte", "Eltern -> tufs-de tufs-de-10399491-n [i91858] Eltern: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_by_lemma = ["Elter -> odenet odenet-29958-n [i90033] Elter, Vater, Elterknoten, Elternknoten: der Gründer einer Familie"]
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["Elter <- Wikidata L619092-S1", "Eltern <- Kinbank, TUFS, Wikidata L221967-S1", "Elternteil <- Wikidata L348241-S1"]
+sources = ["Elter <- Wikidata L619092-S1", "Elternteil <- Wikidata L348241-S1"]
 comment = ""
 
 ["Fa"]
@@ -1320,6 +1318,30 @@ label = "daughter of father's sibling"
 definition = "a daughter of one's father's sibling (a cousin)"
 hypernyms = ["Fa;Sb;Ch", "Pa;Sb;Da"]
 ancestors = ["Fa;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = ["Eltern"]
+omniglot = ["Eltern \"parents\" (not built: plural)"]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+existing_by_lemma = ["Eltern -> odenet odenet-11865-n [-] die Alten, Eltern, Erziehungsberechtigte", "Eltern -> tufs-de tufs-de-10399491-n [i91858] Eltern: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["Eltern <- TUFS"]
+comment = ""
+
+["Pl;Pa;Pa"]
+lemmas = []
+omniglot = ["Großeltern \"grandparents\" (not built: plural)"]
+omniglot_new = ["Großeltern"]
+english = ["relation", "relative"]
+english_via = "Rel"
+label = "grandparents (together)"
+definition = "one's grandparents, grandfathers and grandmothers, taken together"
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
 comment = ""
 
 ["Fa;Pa"]

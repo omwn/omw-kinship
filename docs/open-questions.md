@@ -256,6 +256,10 @@ quotation marks are Wiktionary's. Not confirmed there, so left out: Hebrew
   `Wi`), *consuegro* (`Ch;Sp;Pa`, already a chain), *sāṛhū* (`Wi;Ss;Hu`, already a
   chain).
 - *Birth order* beyond elder/younger: eldest, youngest, second.
+- *Dyads*, a pair named by how its members are related to each other, not to
+  an anchor: Japanese 夫婦 *fūfu* "a married couple", 親子 *oyako* "parent and
+  child". They are not plural codes (`Pl;Pa` is one's own parents, 両親), and
+  would need a notation of their own.
 
 Some of these are already chains in the current notation (*consuegro*,
 *sāṛhū*) and could be admitted now if a source records them; the rest need new

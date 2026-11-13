@@ -1,6 +1,6 @@
 tag	language	label	word	romanization	code	match	note
 yue	Cantonese	relative	親戚	chānchìk	Rel	exact	
-yue	Cantonese	parents	父母	fuhmóuh	Pa	exact	
+yue	Cantonese	parents	父母	fuhmóuh	Pl;Pa	exact	
 yue	Cantonese	father	父親	fuhchàn	Fa	exact	frm
 yue	Cantonese	father	爸爸	bàhbā	Fa	exact	inf
 yue	Cantonese	father	阿爸	a bàh	Fa	exact	inf
@@ -20,7 +20,7 @@ yue	Cantonese	husband	老公	lóuhgùng	Hu	exact	inf
 yue	Cantonese	wife	太太	taaitáai	Wi	exact	frm
 yue	Cantonese	wife	妻子	chàjí	Wi	exact	
 yue	Cantonese	wife	老婆	lóuhpòh	Wi	exact	inf
-yue	Cantonese	siblings	兄弟姐妹	hìngdaih jímuih	Sb	exact	
+yue	Cantonese	siblings	兄弟姐妹	hìngdaih jímuih	Pl;Sb	exact	
 yue	Cantonese	brother	哥哥	gòhgō	El:Br	exact	+
 yue	Cantonese	brother	大佬	daailóu	El:Br	exact	+
 yue	Cantonese	brother	弟弟	dàihdái	Yn:Br	exact	-
@@ -94,7 +94,7 @@ yue	Cantonese	sister-in-law	大姨	daaihyìh	Wi;Ss	broader	wife's elder sister
 yue	Cantonese	sister-in-law	姨仔	yìjái	Wi;Ss	broader	wife's younger sister
 yue	Cantonese	son-in-law	女婿	néuihsai	Da;Hu	exact	
 yue	Cantonese	daughter-in-law	新抱	sànpóuh	So;Wi	exact	
-cs	Czech	parents	rodiče		Pa	plural	
+cs	Czech	parents	rodiče		Pl;Pa	plural	
 cs	Czech	father	otec		Fa	exact	
 cs	Czech	mother	matka		Mo	exact	
 cs	Czech	children	děti		Ch	plural	
@@ -111,7 +111,7 @@ cs	Czech	cousin	sestřenice		Pa;Sb;Da	exact	(f)
 cs	Czech	nephew	synovec		Sb;So	exact	
 cs	Czech	niece	neť		Sb;Da	exact	
 cs	Czech	niece	neteř		Sb;Da	exact	
-cs	Czech	grandparents	prarodiče		Pa;Pa	plural	
+cs	Czech	grandparents	prarodiče		Pl;Pa;Pa	plural	
 cs	Czech	grandfather	děda		Pa;Fa	exact	
 cs	Czech	grandfather	dědeček		Pa;Fa	exact	
 cs	Czech	grandmother	babička		Pa;Mo	exact	
@@ -122,11 +122,11 @@ cs	Czech	father-in-law	tchán		Sp;Fa	exact
 cs	Czech	mother-in-law	tchýně		Sp;Mo	exact	
 cs	Czech	brother-in-law	švagr		BrL	exact	
 cs	Czech	sister-in-law	švagrová		SsL	exact	
-en	English	parents	parents		Pa	plural	
-en	English	parents	mum and dad		Pa	excluded	
-en	English	parents	mother and father		Pa	excluded	
-en	English	parents	mater and pater		Pa	excluded	
-en	English	parents	the parental units		Pa	excluded	
+en	English	parents	parents		Pl;Pa	plural	
+en	English	parents	mum and dad		Pl;Pa	plural	
+en	English	parents	mother and father		Pl;Pa	plural	
+en	English	parents	mater and pater		Pl;Pa	plural	
+en	English	parents	the parental units		Pl;Pa	plural	
 en	English	father	father		Fa	exact	
 en	English	father	pater		Fa	exact	(frm)
 en	English	father	dad		Fa	exact	
@@ -176,7 +176,7 @@ en	English	aunt	auntie		Aun	exact
 en	English	cousin	cousin		Pa;Sb;Ch	exact	
 en	English	nephew	nephew		Sb;So	exact	
 en	English	niece	niece		Sb;Da	exact	
-en	English	grandparents	grandparents		Pa;Pa	plural	
+en	English	grandparents	grandparents		Pl;Pa;Pa	plural	
 en	English	grandfather	grandfather		Pa;Fa	exact	
 en	English	grandfather	grandpa		Pa;Fa	exact	
 en	English	grandfather	granddad		Pa;Fa	exact	
@@ -198,7 +198,7 @@ en	English	father-in-law	father-in-law		Sp;Fa	exact
 en	English	mother-in-law	mother-in-law		Sp;Mo	exact	
 en	English	brother-in-law	brother-in-law		BrL	exact	
 en	English	sister-in-law	sister-in-law		SsL	exact	
-de	German	parents	Eltern		Pa	plural	
+de	German	parents	Eltern		Pl;Pa	plural	
 de	German	father	Vater		Fa	exact	
 de	German	father	Vati		Fa	exact	
 de	German	father	Pa		Fa	exact	
@@ -218,7 +218,7 @@ de	German	cousin	Cousin		Pa;Sb;So	exact	(m)
 de	German	cousin	Cousine		Pa;Sb;Da	exact	(f)
 de	German	nephew	Neffe		Sb;So	exact	
 de	German	niece	Nichte		Sb;Da	exact	
-de	German	grandparents	Großeltern		Pa;Pa	plural	
+de	German	grandparents	Großeltern		Pl;Pa;Pa	plural	
 de	German	grandfather	Großvater		Pa;Fa	exact	
 de	German	grandmother	Großmutter		Pa;Mo	exact	
 de	German	grandchildren	Enkelkinder		Ch;Ch	plural	
@@ -233,7 +233,7 @@ de	German	sister-in-law	Schwippschwägerin		SsL	broader	(spouse's brother's wife
 id	Indonesian	relatives	relatip		Rel	excluded	
 id	Indonesian	relatives	nisbi		Rel	excluded	
 id	Indonesian	relatives	sehubungan		Rel	excluded	
-id	Indonesian	parents	ibu-bapa		Pa	exact	
+id	Indonesian	parents	ibu-bapa		Pl;Pa	exact	
 id	Indonesian	father	ayahanda		Fa	exact	(vfrm)
 id	Indonesian	father	ayah		Fa	exact	(frm)
 id	Indonesian	father	bapak		Fa	exact	
@@ -286,8 +286,8 @@ id	Indonesian	mother-in-law	ibu mertua		Sp;Mo	exact
 id	Indonesian	brother-in-law	saudara ipar		BrL	exact	
 id	Indonesian	sister-in-law	saudara perempuan		SsL	excluded	
 ja	Japanese	relative	親戚	shinseki	Rel	exact	
-ja	Japanese	parents	両親	ryōshin	Pa	exact	- inf
-ja	Japanese	parents	ご両親	go ryōshin	Pa	exact	- frm
+ja	Japanese	parents	両親	ryōshin	Pl;Pa	exact	- inf
+ja	Japanese	parents	ご両親	go ryōshin	Pl;Pa	exact	- frm
 ja	Japanese	father	父	chichi	Fa	exact	- inf
 ja	Japanese	father	お父さん	otō san	Fa	exact	- frm
 ja	Japanese	mother	母	haha	Mo	exact	- inf
@@ -309,7 +309,7 @@ ja	Japanese	wife	妻	tsuma	Wi	exact	- inf
 ja	Japanese	wife	家内	kanai	Wi	exact	
 ja	Japanese	wife	女房	nyōbō	Wi	exact	
 ja	Japanese	wife	奥さん	oku san	Wi	exact	- frm
-ja	Japanese	siblings	兄弟姉妹	kyōdaishimai	Sb	exact	
+ja	Japanese	siblings	兄弟姉妹	kyōdaishimai	Pl;Sb	exact	
 ja	Japanese	siblings (brothers)	兄弟	kyōdai	Br	exact	- inf
 ja	Japanese	siblings (brothers)	ご兄弟	go kyōdai	Br	exact	- frm
 ja	Japanese	siblings (sisters)	姉妹	shimai	Ss	exact	
@@ -370,7 +370,7 @@ ja	Japanese	son-in-law	義理の息子	giri no musuko	Da;Hu	exact
 ja	Japanese	daughter-in-law	嫁姑	yome shūtome	So;Wi	excluded	
 ms	Malay	kin, relatives	saudara-mara		Rel	exact	
 ms	Malay	kin, relatives	sanak-saudara		Rel	exact	
-ms	Malay	parents	ibu-bapa		Pa	exact	
+ms	Malay	parents	ibu-bapa		Pl;Pa	exact	
 ms	Malay	father	abah		Fa	exact	
 ms	Malay	father	ayah		Fa	exact	
 ms	Malay	father	bapa		Fa	exact	
@@ -382,7 +382,7 @@ ms	Malay	daughter	anak perempuan		Da	exact
 ms	Malay	spouse, couple	pasangan		Sp	exact	
 ms	Malay	husband	suami		Hu	exact	
 ms	Malay	wife	isteri		Wi	exact	
-ms	Malay	siblings	adik-beradik		Sb	exact	
+ms	Malay	siblings	adik-beradik		Pl;Sb	exact	
 ms	Malay	brother	saudara		Br	exact	(frm)
 ms	Malay	brother	abang		El:Br	exact	(older)
 ms	Malay	brother	adik		Yn:Sb	exact	(lelaki) (younger) (under brother and sister)
@@ -418,7 +418,7 @@ ms	Malay	sister-in-law	adik ipar		Sp;Ss	broader	(spouse's younger sister)
 ms	Malay	child-in-law	menantu		Ch;Sp	exact	(both genders)
 ms	Malay	parent of one's child's spouse	besan		InL	excluded	
 cmn	Mandarin	relative	亲戚	qīnqi	Rel	exact	[親戚]
-cmn	Mandarin	parents	父母	fùmǔ	Pa	exact	
+cmn	Mandarin	parents	父母	fùmǔ	Pl;Pa	exact	
 cmn	Mandarin	father	父親	fùqīn	Fa	exact	frm
 cmn	Mandarin	father	爸爸	bàba	Fa	exact	inf
 cmn	Mandarin	mother	母親	mǔqīn	Mo	exact	frm
@@ -434,7 +434,7 @@ cmn	Mandarin	husband	老公	lǎogong	Hu	exact	inf
 cmn	Mandarin	wife	太太	tàitài	Wi	exact	frm
 cmn	Mandarin	wife	妻子	qīzi	Wi	exact	
 cmn	Mandarin	wife	老婆	lǎopó	Wi	exact	inf
-cmn	Mandarin	siblings	兄弟姐妹	xiōngdì jiemèi	Sb	exact	
+cmn	Mandarin	siblings	兄弟姐妹	xiōngdì jiemèi	Pl;Sb	exact	
 cmn	Mandarin	brother	哥哥	gēge	El:Br	exact	+
 cmn	Mandarin	brother	弟弟	dìdi	Yn:Br	exact	-
 cmn	Mandarin	sister	姐姐	jiějie	El:Ss	exact	+
@@ -486,7 +486,7 @@ cmn	Mandarin	sister-in-law	大姨子	dàyízi	Wi;Ss	broader	wife's elder sister
 cmn	Mandarin	sister-in-law	小姨子	xiǎoyízi	Wi;Ss	broader	wife's younger sister
 cmn	Mandarin	son-in-law	女婿	nǚxu	Da;Hu	exact	
 cmn	Mandarin	daughter-in-law	媳婦	xífù	So;Wi	exact	[媳妇]
-pl	Polish	parents	rodzice		Pa	plural	
+pl	Polish	parents	rodzice		Pl;Pa	plural	
 pl	Polish	father	ojciec		Fa	exact	(frm)
 pl	Polish	father	tata		Fa	exact	(inf)
 pl	Polish	father	tato		Fa	exact	(inf)
@@ -509,7 +509,7 @@ pl	Polish	nephew	bratanek		Br;So	exact	(brother's son)
 pl	Polish	nephew	siostrzeniec		Ss;So	exact	(sister's son)
 pl	Polish	niece	bratanica		Br;Da	exact	(brother's daughter)
 pl	Polish	niece	siostrzenica		Ss;Da	exact	(sister's daughter)
-pl	Polish	grandparents	dziadkowie		Pa;Pa	plural	
+pl	Polish	grandparents	dziadkowie		Pl;Pa;Pa	plural	
 pl	Polish	grandfather	dziadek		Pa;Fa	exact	
 pl	Polish	grandmother	babka		Pa;Mo	exact	(frm)
 pl	Polish	grandmother	babcia		Pa;Mo	exact	(inf)
@@ -522,7 +522,7 @@ pl	Polish	mother-in-law	teściowa		Sp;Mo	exact
 pl	Polish	brother-in-law	szwagier		BrL	exact	
 pl	Polish	sister-in-law	bratowa		Br;Wi	exact	(brother's wife)
 pl	Polish	sister-in-law	szwagierka		SsL	exact	
-sk	Slovak	parents	rodičia		Pa	plural	
+sk	Slovak	parents	rodičia		Pl;Pa	plural	
 sk	Slovak	father	otec		Fa	exact	
 sk	Slovak	mother	matka		Mo	exact	
 sk	Slovak	children	deti		Ch	plural	
@@ -538,7 +538,7 @@ sk	Slovak	cousin	bratranec		Pa;Sb;So	exact	(m)
 sk	Slovak	cousin	sesternica		Pa;Sb;Da	exact	(f)
 sk	Slovak	nephew	synovec		Sb;So	exact	
 sk	Slovak	niece	neter		Sb;Da	exact	
-sk	Slovak	grandparents	starí rodičia		Pa;Pa	plural	
+sk	Slovak	grandparents	starí rodičia		Pl;Pa;Pa	plural	
 sk	Slovak	grandfather	dedko		Pa;Fa	exact	
 sk	Slovak	grandmother	babička		Pa;Mo	exact	
 sk	Slovak	grandchildren	vnúčatá		Ch;Ch	plural	
@@ -548,7 +548,7 @@ sk	Slovak	father-in-law	svokor		Sp;Fa	exact
 sk	Slovak	mother-in-law	svokra		Sp;Mo	exact	
 sk	Slovak	brother-in-law	švagor		BrL	exact	
 sk	Slovak	sister-in-law	švagriná		SsL	exact	
-es	Spanish	parents	padres		Pa	plural	
+es	Spanish	parents	padres		Pl;Pa	plural	
 es	Spanish	father	padre		Fa	exact	
 es	Spanish	father	papá		Fa	exact	
 es	Spanish	mother	madre		Mo	exact	
@@ -570,7 +570,7 @@ es	Spanish	cousin	prima		Pa;Sb;Da	exact	(f)
 es	Spanish	nephews & nieces	sobrinos		Sb;Ch	plural	
 es	Spanish	nephew	sobrino		Sb;So	exact	
 es	Spanish	niece	sobrina		Sb;Da	exact	
-es	Spanish	grandparents	abuelos		Pa;Pa	plural	
+es	Spanish	grandparents	abuelos		Pl;Pa;Pa	plural	
 es	Spanish	grandfather	abuelo		Pa;Fa	exact	
 es	Spanish	grandmother	abuela		Pa;Mo	exact	
 es	Spanish	grandchildren	nietos		Ch;Ch	plural	

@@ -215,6 +215,14 @@ def test_in_law_ages_split_brothers_in_law() -> None:
     assert kintype.kindiv_atoms("Sp;El:Br") < kintype.kindiv_atoms("Sp;Br")
 
 
+def test_a_plural_concept_is_neither_above_nor_below_its_singular() -> None:
+    concepts = build.read_concepts()
+    ancestry = build.read_hierarchy(concepts)
+    assert "Pa" not in ancestry["Pl;Pa"] and "Pl;Pa" not in ancestry["Fa"]
+    assert ancestry["Pl;Pa"] == {"Rel"}
+    assert build.parse("Pl;Pa")[2] == ["parents (together)"]
+
+
 def test_a_removed_word_keeps_its_other_concepts() -> None:
     assert ("ja", "義兄", "BrL") in build.removed()
     assert ("ja", "義兄") not in build.held_back()

@@ -77,7 +77,7 @@ def subdomain_of(code: str) -> str:
     if "|" in code:
         parts = {subdomain_of(part) for part in code.split("|")}
         return parts.pop() if len(parts) == 1 else "mergers"
-    terms = [t.split(":")[-1] for t in code.split(";") if t not in ("x", "o")]
+    terms = [t.split(":")[-1] for t in code.split(";") if t not in ("x", "o", "Pl")]
     if any(t in ("Hu", "Wi", "Sp") for t in terms):
         return "spouses" if len(terms) == 1 else "in-laws"
     role = "".join(
@@ -157,11 +157,20 @@ def from_kindiv(code: str) -> str:
     return ";".join(out)
 
 
+#: marks the anchor of a plural code's atoms
+PLURAL = "pl-"
+
+
 def kindiv_atoms(code: str) -> set[Atom] | None:
     """Atoms of a concept's code, or None for nodes too broad to match (Rel, InL).
 
     A relative age (``El:``, ``Yn:``) is allowed only on the link `age_slot`
     names; anywhere else the code is an error.
+
+    ``Pl;`` (after any anchor) makes a code plural: the relatives it covers,
+    taken together (Japanese 両親 *ryōshin* "both parents" is ``Pl;Pa``). A
+    group is not one of its members, so a plural code's atoms are marked on the
+    anchor (`PLURAL`) and never meet a singular code's.
 
     >>> sorted(kindiv_atoms("x;Fa;El:Br"))
     [('m', (('', 'F'), ('e', 'B')))]
@@ -169,6 +178,8 @@ def kindiv_atoms(code: str) -> set[Atom] | None:
     32
     >>> sorted(kindiv_atoms("x;Hu;El:Br")) == sorted(kindiv_atoms("x;Hu;Br"))[:1]
     True
+    >>> sorted(kindiv_atoms("Pl;Pa"))[0], kindiv_atoms("Pl;Pa") & kindiv_atoms("Pa")
+    (('pl-f', (('', 'F'),)), set())
     """
     if "|" in code:
         parts = [kindiv_atoms(part) for part in code.split("|")]
@@ -178,6 +189,9 @@ def kindiv_atoms(code: str) -> set[Atom] | None:
     parts = code.split(";")
     egos = {"x": "m", "o": "f"}.get(parts[0], "mf")
     if parts[0] in ("x", "o"):
+        parts = parts[1:]
+    plural = parts[0] == "Pl"
+    if plural:
         parts = parts[1:]
     links: list[tuple[str, str]] = []
     for part in parts:
@@ -196,4 +210,5 @@ def kindiv_atoms(code: str) -> set[Atom] | None:
     for i, (age, letter) in enumerate(links):
         if age and i != slot:
             raise ValueError(f"{code}: no relative age on link {i + 1} ({letter})")
-    return expand(egos, links)
+    atoms = expand(egos, links)
+    return {(PLURAL + ego, path) for ego, path in atoms} if plural else atoms

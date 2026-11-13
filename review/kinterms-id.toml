@@ -494,19 +494,17 @@ sources = ["bibi <- Omniglot, TUFS, wnb-id", "ibu saudara <- wnb-id", "tante <- 
 comment = ""
 
 ["Pa"]
-lemmas = ["ayah bonda", "ibu bapa", "ibu-bapa", "orang tua"]
-omniglot = ["ibu-bapa \"parents\""]
-english = ["parent", "parents"]
+lemmas = ["ayah bonda", "ibu bapa", "orang tua"]
+english = ["parent"]
 label = "parent"
 definition = "a father or mother of a person"
 existing_by_ili = ["wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 existing_by_lemma = ["ayah bonda -> wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "ibu bapa -> wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
 existing_hidden = 4  # other senses of these lemmas
 ntumc = ["ayah bonda <- 10399491-n", "emak bapa <- 10399491-n", "ibu bapa <- 10399491-n", "orang tua <- 10399491-n"]
-new_words = ["ibu-bapa"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["ayah bonda <- wnb-id", "ibu bapa <- wnb-id", "ibu-bapa <- Omniglot", "orang tua <- TUFS, wnb-id"]
+sources = ["ayah bonda <- wnb-id", "ibu bapa <- wnb-id", "orang tua <- wnb-id"]
 comment = ""
 
 ["Fa"]
@@ -988,6 +986,21 @@ label = "child's child or sibling's child"
 definition = "a child of one's child or a child of one's sibling"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+comment = ""
+
+["Pl;Pa"]
+lemmas = ["ibu-bapa", "orang tua"]
+omniglot = ["ibu-bapa \"parents\""]
+english = ["parents"]
+label = "both parents"
+definition = "both of one's parents, father and mother, taken together"
+existing_by_lemma = ["orang tua -> wnb-id wnb-id-10399491-n [i91858] ayah bonda, ibu bapa, orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian", "orang tua -> tufs-id tufs-id-10399491-n [i91858] orang tua: (CILI) a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian"]
+existing_hidden = 4  # other senses of these lemmas
+new_senses = ["orang tua"]
+new_words = ["ibu-bapa"]
+hypernyms = ["Rel"]
+ancestors = ["Rel"]
+sources = ["ibu-bapa <- Omniglot", "orang tua <- TUFS"]
 comment = ""
 
 ["Fa;Pa"]
