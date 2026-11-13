@@ -7,9 +7,9 @@
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
 # `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its own knowledge, for a speaker to check (Jyutping romanization).
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Fa"]
@@ -25,57 +25,53 @@ sources = ["外公 <- cantown-yue", "爺爺 <- cantown-yue", "阿公 <- cantown-
 comment = ""
 
 ["Fa;Fa"]
-lemmas = ["爺爺", "祖父"]
+lemmas = ["爺爺", "祖父", "阿爺"]
 omniglot = ["爺爺 yèhyé \"grandfather\" pt", "阿爺 a yèh \"grandfather\" pt"]
-omniglot_new = ["阿爺"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Pa;Fa"
 label = "paternal grandfather"
 definition = "the father of one's father (a grandparent)"
-existing_by_lemma = ["爺爺 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
+existing_by_lemma = ["爺爺 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother", "阿爺 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
 hypernyms = ["Fa;Fa|x;So;Ch", "Fa;Pa", "Pa;Fa"]
 ancestors = ["Fa;Fa|x;So;Ch", "Fa;Pa", "Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Rel"]
-sources = ["爺爺 <- Wiktionary", "祖父 <- Wiktionary"]
+sources = ["爺爺 <- Omniglot, Wiktionary", "祖父 <- Wiktionary", "阿爺 <- Omniglot"]
 comment = ""
 
 ["Mo;Fa"]
-lemmas = ["公公", "外公", "外祖父"]
+lemmas = ["公公", "外公", "外祖父", "阿公"]
 omniglot = ["公公 gùnggùng \"grandfather\" mt", "外公 ngoihgùng \"grandfather\" mt", "阿公 a gung \"grandfather\" mt"]
-omniglot_new = ["阿公"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 english_via = "Pa;Fa"
 label = "maternal grandfather"
 definition = "the father of one's mother (a grandparent)"
-existing_by_lemma = ["外公 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
+existing_by_lemma = ["外公 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother", "阿公 -> cantown-yue cantown-yue-10142391-n [i90287] 阿公, 爺爺, 外公, 阿爺: (CILI) the father of your father or mother"]
 hypernyms = ["Mo;Fa|x;Da;Ch", "Mo;Pa", "Pa;Fa"]
 ancestors = ["Mo;Fa|x;Da;Ch", "Mo;Pa", "Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;So|Pa;Fa", "Pa;Pa", "Rel"]
-sources = ["公公 <- Wiktionary", "外公 <- Wiktionary", "外祖父 <- Wiktionary"]
+sources = ["公公 <- Omniglot, Wiktionary", "外公 <- Omniglot, Wiktionary", "外祖父 <- Wiktionary", "阿公 <- Omniglot"]
 comment = ""
 
 ["Fa;Mo"]
-lemmas = ["嫲嫲", "祖母"]
+lemmas = ["嫲嫲", "祖母", "阿嫲"]
 omniglot = ["嫲嫲 màhmàh \"grandmother\" pt", "阿嫲 a màh \"grandmother\" pt"]
-omniglot_new = ["阿嫲"]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "paternal grandmother"
 definition = "the mother of one's father (a grandparent)"
 hypernyms = ["Fa;Mo|o;So;Ch", "Fa;Pa", "Pa;Mo"]
 ancestors = ["Fa;Mo|o;So;Ch", "Fa;Pa", "Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Da|Pa;Mo", "Pa;Pa", "Rel"]
-sources = ["嫲嫲 <- Wiktionary", "祖母 <- Wiktionary"]
+sources = ["嫲嫲 <- Omniglot, Wiktionary", "祖母 <- Wiktionary", "阿嫲 <- Omniglot"]
 comment = ""
 
 ["Mo;Mo"]
-lemmas = ["外婆", "外祖母", "姥姥"]
+lemmas = ["外婆", "外祖母", "姥姥", "婆婆", "阿婆"]
 omniglot = ["婆婆 pòhpó \"grandmother\" mt", "外婆 ngoihpòh \"grandmother\" mt", "阿婆 a poh \"grandmother\" mt"]
-omniglot_new = ["婆婆", "阿婆"]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
 hypernyms = ["Mo;Pa", "Pa;Mo"]
 ancestors = ["Mo;Pa", "Pa;Mo", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["外婆 <- Wiktionary", "外祖母 <- Wiktionary", "姥姥 <- Wiktionary"]
+sources = ["外婆 <- Omniglot, Wiktionary", "外祖母 <- Wiktionary", "姥姥 <- Wiktionary", "婆婆 <- Omniglot", "阿婆 <- Omniglot"]
 comment = ""
 
 ["Ch;Ch"]
@@ -131,16 +127,15 @@ ancestors = ["Ch;Ch", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["So;So"]
-lemmas = ["孫兒", "孫子"]
+lemmas = ["孫", "孫兒", "孫子"]
 omniglot = ["孫 syùn \"grandson\" son's son"]
-omniglot_new = ["孫"]
 english = ["grandson"]
 english_via = "Ch;So"
 label = "son's son"
 definition = "a son of one's son (a grandchild)"
 hypernyms = ["Ch;So", "So;Ch"]
 ancestors = ["Ch;So", "So;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫兒 <- Wiktionary", "孫子 <- Wiktionary"]
+sources = ["孫 <- Omniglot", "孫兒 <- Wiktionary", "孫子 <- Wiktionary"]
 comment = ""
 
 ["So;Da"]
@@ -152,7 +147,7 @@ label = "son's daughter"
 definition = "a daughter of one's son (a grandchild)"
 hypernyms = ["Ch;Da", "So;Ch"]
 ancestors = ["Ch;Da", "So;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["孫女 <- Wiktionary"]
+sources = ["孫女 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Da;So"]
@@ -164,7 +159,7 @@ label = "daughter's son"
 definition = "a son of one's daughter (a grandchild)"
 hypernyms = ["Ch;So", "Da;Ch"]
 ancestors = ["Ch;So", "Da;Ch", "Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["外孫 <- Wiktionary"]
+sources = ["外孫 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Da;Da"]
@@ -176,19 +171,18 @@ label = "daughter's daughter"
 definition = "a daughter of one's daughter (a grandchild)"
 hypernyms = ["Ch;Da", "Da;Ch"]
 ancestors = ["Ch;Da", "Da;Ch", "Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["外孫女 <- Wiktionary"]
+sources = ["外孫女 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Sb"]
-lemmas = []
-status = "KinDiv records a gap here, but other sources suggest words: check"
+lemmas = ["兄弟姐妹"]
 omniglot = ["兄弟姐妹 hìngdaih jímuih \"siblings\""]
-omniglot_new = ["兄弟姐妹"]
 english = ["sib", "sibling"]
 label = "sibling"
 definition = "a brother or sister of a person"
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
+sources = ["兄弟姐妹 <- Omniglot"]
 comment = ""
 
 ["Br"]
@@ -198,7 +192,7 @@ proposed = ["兄弟"]
 jyutping = ["hing1 dai6"]
 confidence = ["medium"]
 notes = ["兄弟: 'brothers'; also 'brother' generally"]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_lemma = ["兄弟 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else"]
@@ -230,7 +224,7 @@ existing_by_lemma = ["哥哥 -> cantown-yue cantown-yue-09876454-n [i88708] 哥�
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Br", "El:Br|Pa;Sb;El:So", "El:Sb"]
 ancestors = ["Br", "El:Br|Pa;Sb;El:So", "El:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["哥哥 <- Wiktionary", "大佬 <- Wiktionary", "阿哥 <- Wiktionary"]
+sources = ["哥哥 <- Omniglot, Wiktionary", "大佬 <- Omniglot, Wiktionary", "阿哥 <- Wiktionary"]
 comment = ""
 
 ["El:Ss"]
@@ -241,7 +235,7 @@ label = "elder sister"
 definition = "an elder sister of a person (a sibling)"
 hypernyms = ["El:Sb", "Ss"]
 ancestors = ["El:Sb", "Ss", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["姐姐 <- Wiktionary", "家姐 <- Wiktionary", "阿姊 <- Wiktionary"]
+sources = ["姐姐 <- Omniglot, Wiktionary", "家姐 <- Omniglot, Wiktionary", "阿姊 <- Wiktionary"]
 comment = ""
 
 ["Yn:Br"]
@@ -253,22 +247,21 @@ definition = "a younger brother of a person (a sibling)"
 existing_by_lemma = ["弟弟 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else", "細佬 -> cantown-yue cantown-yue-09876454-n [i88708] 哥哥, 阿哥, 細佬, 巴打, 大佬, 弟弟, ...: (CILI) a male with the same parents as someone else"]
 hypernyms = ["Br", "Yn:Sb"]
 ancestors = ["Br", "Yn:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["弟弟 <- Wiktionary", "細佬 <- Wiktionary"]
+sources = ["弟弟 <- Omniglot, Wiktionary", "細佬 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Yn:Ss"]
-lemmas = ["妹妹"]
+lemmas = ["妹妹", "細妹"]
 proposed = ["細妹"]
 jyutping = ["sai3 mui2"]
 confidence = ["high"]
 omniglot = ["妹妹 mùihmúi \"sister\"", "細妹 saimúi \"sister\""]
-omniglot_new = ["細妹"]
 english = ["little sister"]
 label = "younger sister"
 definition = "a younger sister of a person (a sibling)"
 hypernyms = ["Ss", "Yn:Sb"]
 ancestors = ["Ss", "Yn:Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["妹妹 <- Wiktionary"]
+sources = ["妹妹 <- Omniglot, Wiktionary", "細妹 <- Omniglot"]
 comment = ""
 
 ["Pb"]
@@ -336,20 +329,20 @@ ancestors = ["Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
 comment = ""
 
 ["Mo;Br"]
-lemmas = []
+lemmas = ["舅父"]
 proposed = ["舅父"]
 jyutping = ["kau5 fu2"]
 confidence = ["high"]
 notes = ["舅父: also 阿舅 aa3 kau5"]
 omniglot = ["舅父 káuhfú / káauhfú \"uncle\" mother's brother"]
-omniglot_new = ["舅父"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "maternal uncle"
 definition = "a brother of one's mother (an uncle or aunt)"
-existing_by_lemma = ["舅父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["舅父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "舅父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br"]
 ancestors = ["Mo;Br|Mo;Br;So", "Mo;Br|x;Ss;Ch", "Mo;Sb", "Pa;Br", "Mo;Br|Ss;Ch", "Pb", "Rel", "Unc"]
+sources = ["舅父 <- Omniglot"]
 comment = ""
 
 ["Fa;Ss"]
@@ -441,134 +434,133 @@ ancestors = ["Mo;Sb", "Pb", "Rel"]
 comment = ""
 
 ["Fa;El:Br"]
-lemmas = []
+lemmas = ["伯父", "阿伯"]
 proposed = ["伯父"]
 jyutping = ["baak3 fu6"]
 confidence = ["high"]
 notes = ["伯父: also 阿伯 aa3 baak3"]
 omniglot = ["阿伯 a baak \"uncle\" father's elder brother", "伯父 baakfuh \"uncle\" father's elder brother"]
-omniglot_new = ["阿伯", "伯父"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "father's elder brother"
 definition = "an elder brother of one's father (an uncle or aunt)"
-existing_by_lemma = ["伯父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["伯父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "阿伯 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "伯父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Fa;Br", "Pa;El:Br"]
 ancestors = ["Fa;Br", "Pa;El:Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
+sources = ["伯父 <- Omniglot", "阿伯 <- Omniglot"]
 comment = ""
 
 ["Fa;Yn:Br"]
-lemmas = []
+lemmas = ["叔父", "阿叔"]
 proposed = ["叔叔"]
 jyutping = ["suk1 suk1"]
 confidence = ["high"]
 notes = ["叔叔: also 阿叔 aa3 suk1"]
 omniglot = ["阿叔 a sūk \"uncle\" father's younger brother", "叔父 sūkfuh \"uncle\" father's younger brother"]
-omniglot_new = ["阿叔", "叔父"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "father's younger brother"
 definition = "a younger brother of one's father (an uncle or aunt)"
+existing_by_lemma = ["叔父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "阿叔 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Fa;Br", "Fa;Yn:Sb", "Pa;Yn:Br"]
 ancestors = ["Fa;Br", "Fa;Yn:Sb", "Pa;Yn:Br", "Fa;Sb", "Fa|Fa;Br", "Pa;Br", "Pb", "Rel", "Unc"]
+sources = ["叔父 <- Omniglot", "阿叔 <- Omniglot"]
 comment = ""
 
 ["Fa;El:Ss"]
-lemmas = []
+lemmas = ["姑媽"]
 proposed = ["姑媽"]
 jyutping = ["gu1 maa1"]
 confidence = ["high"]
 notes = ["姑媽: father's elder sister"]
 omniglot = ["姑媽 gūmà \"aunt\" father's elder sister"]
-omniglot_new = ["姑媽"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "father's elder sister"
 definition = "an elder sister of one's father (an uncle or aunt)"
-existing_by_lemma = ["姑媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["姑媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Fa;Ss", "Pa;El:Ss"]
 ancestors = ["Fa;Ss", "Pa;El:Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+sources = ["姑媽 <- Omniglot"]
 comment = ""
 
 ["Fa;Yn:Ss"]
-lemmas = []
+lemmas = ["姑姐"]
 proposed = ["姑姐"]
 jyutping = ["gu1 ze1"]
 confidence = ["high"]
 notes = ["姑姐: father's younger sister"]
 omniglot = ["姑姐 gūjè \"aunt\" father's younger sister"]
-omniglot_new = ["姑姐"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "father's younger sister"
 definition = "a younger sister of one's father (an uncle or aunt)"
-existing_by_lemma = ["姑姐 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["姑姐 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑姐 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Fa;Ss", "Fa;Yn:Sb", "Pa;Yn:Ss"]
 ancestors = ["Fa;Ss", "Fa;Yn:Sb", "Pa;Yn:Ss", "Fa;Sb", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+sources = ["姑姐 <- Omniglot"]
 comment = ""
 
 ["Mo;El:Ss"]
-lemmas = []
+lemmas = ["姨媽"]
 proposed = ["姨媽"]
 jyutping = ["ji4 maa1"]
 confidence = ["high"]
 notes = ["姨媽: mother's elder sister"]
 omniglot = ["姨媽 yìhmā \"aunt\" mother's elder sister"]
-omniglot_new = ["姨媽"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "mother's elder sister"
 definition = "an elder sister of one's mother (an uncle or aunt)"
-existing_by_lemma = ["姨媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["姨媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Mo;Ss", "Pa;El:Ss"]
 ancestors = ["Mo;Ss", "Pa;El:Ss", "Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+sources = ["姨媽 <- Omniglot"]
 comment = ""
 
 ["Mo;Yn:Ss"]
-lemmas = []
+lemmas = ["阿姨"]
 proposed = ["阿姨"]
 jyutping = ["aa3 ji1"]
 confidence = ["high"]
 notes = ["阿姨: mother's younger sister; also any older woman"]
 omniglot = ["阿姨 ayì \"aunt\" mother's younger sister"]
-omniglot_new = ["阿姨"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "mother's younger sister"
 definition = "a younger sister of one's mother (an uncle or aunt)"
-existing_by_lemma = ["阿姨 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["阿姨 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿姨 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Mo;Ss", "Mo;Yn:Sb", "Pa;Yn:Ss"]
 ancestors = ["Mo;Ss", "Mo;Yn:Sb", "Pa;Yn:Ss", "Mo;Sb", "Mo|Mo;Ss", "Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+sources = ["阿姨 <- Omniglot"]
 comment = ""
 
 ["Br;So"]
-lemmas = ["姪子"]
+lemmas = ["侄", "姪子"]
 proposed = ["姪"]
 jyutping = ["zat6"]
 confidence = ["high"]
 notes = ["姪: also 姪仔 zat6 zai2"]
 omniglot = ["侄 ját \"nephew\" brother's son"]
-omniglot_new = ["侄"]
 english = ["nephew"]
 english_via = "Sb;So"
 label = "brother's son"
 definition = "a son of one's brother (a nephew or niece)"
 hypernyms = ["Br;Ch", "Br;So|So", "Sb;So"]
 ancestors = ["Br;Ch", "Br;So|So", "Sb;So", "Br;Ch|Ch", "Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["姪子 <- Wiktionary"]
+sources = ["侄 <- Omniglot", "姪子 <- Wiktionary"]
 comment = ""
 
 ["Br;Da"]
-lemmas = ["姪女"]
+lemmas = ["侄女", "姪女"]
 omniglot = ["侄女 jahtnéui \"niece\" brother's daughter"]
-omniglot_new = ["侄女"]
 english = ["niece"]
 english_via = "Sb;Da"
 label = "brother's daughter"
 definition = "a daughter of one's brother (a nephew or niece)"
 hypernyms = ["Br;Ch", "Br;Da|Da", "Sb;Da"]
 ancestors = ["Br;Ch", "Br;Da|Da", "Sb;Da", "Br;Ch|Ch", "Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["姪女 <- Wiktionary"]
+sources = ["侄女 <- Omniglot", "姪女 <- Wiktionary"]
 comment = ""
 
 ["Ss;So"]
@@ -580,7 +572,7 @@ label = "sister's son"
 definition = "a son of one's sister (a nephew or niece)"
 hypernyms = ["Sb;So", "Ss;Ch"]
 ancestors = ["Sb;So", "Ss;Ch", "Mo;Br|Ss;Ch", "Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["外甥 <- Wiktionary"]
+sources = ["外甥 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Ss;Da"]
@@ -592,7 +584,7 @@ label = "sister's daughter"
 definition = "a daughter of one's sister (a nephew or niece)"
 hypernyms = ["Sb;Da", "Ss;Ch"]
 ancestors = ["Sb;Da", "Ss;Ch", "Da|Sb;Da", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["外甥女 <- Wiktionary", "甥女 <- Wiktionary"]
+sources = ["外甥女 <- Omniglot, Wiktionary", "甥女 <- Wiktionary"]
 comment = ""
 
 ["Pa;Sb;Ch"]
@@ -705,7 +697,7 @@ comment = ""
 
 ["Mo;Sb;El:So"]
 lemmas = ["表兄", "表哥"]
-omniglot = ["表阿 bíugò \"cousin (maternal)\" +m"]
+omniglot = ["表阿 bíugò \"cousin (maternal)\" +m (not built: excluded)"]
 omniglot_new = ["表阿"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
@@ -727,7 +719,7 @@ definition = "a son of one's mother's sibling, who is younger than oneself (a co
 existing_by_lemma = ["表弟 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Mo;Sb;So", "Pa;Sb;Yn:So"]
 ancestors = ["Mo;Sb;So", "Pa;Sb;Yn:So", "Mo;Sb;Ch", "Pa;Sb;So", "Pa;Sb;Yn:Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表弟 <- Wiktionary"]
+sources = ["表弟 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Mo;Sb;El:Da"]
@@ -740,7 +732,7 @@ definition = "a daughter of one's mother's sibling, who is older than oneself (a
 existing_by_lemma = ["表姐 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Mo;Sb;Da", "Pa;Sb;El:Da"]
 ancestors = ["Mo;Sb;Da", "Pa;Sb;El:Da", "Mo;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;El:Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表姐 <- Wiktionary"]
+sources = ["表姐 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Mo;Sb;Yn:Da"]
@@ -753,29 +745,28 @@ definition = "a daughter of one's mother's sibling, who is younger than oneself 
 existing_by_lemma = ["表妹 -> cantown-yue cantown-yue-09972010-n [i89276] 堂妹, 表弟, 老表, 堂兄, 表妹, 堂哥, ...: (CILI) the child of your aunt or uncle"]
 hypernyms = ["Mo;Sb;Da", "Pa;Sb;Yn:Da"]
 ancestors = ["Mo;Sb;Da", "Pa;Sb;Yn:Da", "Mo;Sb;Ch", "Pa;Sb;Da", "Pa;Sb;Yn:Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["表妹 <- Wiktionary"]
+sources = ["表妹 <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Rel"]
-lemmas = []
+lemmas = ["親戚"]
 proposed = ["親戚"]
 jyutping = ["can1 cik1"]
 confidence = ["high"]
 notes = ["親戚: 'relative'"]
 omniglot = ["親戚 chānchìk \"relative\""]
-omniglot_new = ["親戚"]
 english = ["relation", "relative"]
 label = "relative"
 definition = "a person related by blood or marriage"
-existing_hidden = 2  # other senses of these lemmas
+existing_hidden = 4  # other senses of these lemmas
 hypernyms = []
 ancestors = []
+sources = ["親戚 <- Omniglot"]
 comment = ""
 
 ["Unc"]
-lemmas = ["伯伯", "伯父", "叔父", "姑丈", "姨丈", "舅父", "阿伯", "阿叔"]
+lemmas = ["伯伯", "伯父", "叔叔", "叔父", "姑丈", "姨丈", "舅父", "阿伯", "阿叔"]
 omniglot = ["叔叔 sūksùk \"uncle\" general term"]
-omniglot_new = ["叔叔"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
@@ -783,13 +774,13 @@ existing_by_ili = ["cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 
 existing_by_lemma = ["伯伯 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "伯父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "叔父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姑丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姨丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "舅父 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "阿伯 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "阿叔 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["伯伯 <- cantown-yue", "伯父 <- cantown-yue", "叔父 <- cantown-yue", "姑丈 <- cantown-yue", "姨丈 <- cantown-yue", "舅父 <- cantown-yue", "阿伯 <- cantown-yue", "阿叔 <- cantown-yue"]
+sources = ["伯伯 <- cantown-yue", "伯父 <- cantown-yue", "叔叔 <- Omniglot", "叔父 <- cantown-yue", "姑丈 <- cantown-yue", "姨丈 <- cantown-yue", "舅父 <- cantown-yue", "阿伯 <- cantown-yue", "阿叔 <- cantown-yue"]
 comment = ""
 
 ["Aun"]
-lemmas = ["伯娘", "伯母", "姑姐", "姑媽", "姨媽", "舅母", "阿姨", "阿嬸"]
-omniglot = ["舅姆 káuhmóuh \"aunt\" mother's brother's wife (broader)", "妗姆 káhmmóuh \"aunt\" mother's brother's wife (broader)", "阿姨 ayì \"aunt\" general term", "姨姨 yīyī \"aunt\" general term"]
-omniglot_new = ["舅姆", "妗姆", "姨姨"]
+lemmas = ["伯娘", "伯母", "姑姐", "姑媽", "姨姨", "姨媽", "舅母", "阿姨", "阿嬸"]
+omniglot = ["舅姆 káuhmóuh \"aunt\" mother's brother's wife (not built: broader)", "妗姆 káhmmóuh \"aunt\" mother's brother's wife (not built: broader)", "阿姨 ayì \"aunt\" general term", "姨姨 yīyī \"aunt\" general term"]
+omniglot_new = ["舅姆", "妗姆"]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
@@ -797,7 +788,7 @@ existing_by_ili = ["cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 
 existing_by_lemma = ["伯娘 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "伯母 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑姐 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姑媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "姨媽 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "舅母 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿姨 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿嬸 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["伯娘 <- cantown-yue", "伯母 <- cantown-yue", "姑姐 <- cantown-yue", "姑媽 <- cantown-yue", "姨媽 <- cantown-yue", "舅母 <- cantown-yue", "阿姨 <- cantown-yue", "阿嬸 <- cantown-yue"]
+sources = ["伯娘 <- cantown-yue", "伯母 <- cantown-yue", "姑姐 <- cantown-yue", "姑媽 <- cantown-yue", "姨姨 <- Omniglot", "姨媽 <- cantown-yue", "舅母 <- cantown-yue", "阿姨 <- Omniglot, cantown-yue", "阿嬸 <- cantown-yue"]
 comment = ""
 
 ["Pa;Ss;Hu"]
@@ -812,35 +803,35 @@ ancestors = ["InL", "Unc", "Rel"]
 comment = ""
 
 ["Fa;Ss;Hu"]
-lemmas = []
+lemmas = ["姑丈"]
 proposed = ["姑丈"]
 jyutping = ["gu1 zoeng2"]
 confidence = ["high"]
 omniglot = ["姑丈 gùjéung \"uncle\" father's sister's husband"]
-omniglot_new = ["姑丈"]
 english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of father's sister"
 definition = "the husband of one's father's sister (an uncle or aunt)"
-existing_by_lemma = ["姑丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["姑丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姑丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Pa;Ss;Hu"]
 ancestors = ["Pa;Ss;Hu", "InL", "Unc", "Rel"]
+sources = ["姑丈 <- Omniglot"]
 comment = ""
 
 ["Mo;Ss;Hu"]
-lemmas = []
+lemmas = ["姨丈"]
 proposed = ["姨丈"]
 jyutping = ["ji4 zoeng2"]
 confidence = ["high"]
 omniglot = ["姨丈 yìhjéung \"uncle\" mother's sister's husband"]
-omniglot_new = ["姨丈"]
 english = ["in-law", "relative-in-law"]
 english_via = "InL"
 label = "husband of mother's sister"
 definition = "the husband of one's mother's sister (an uncle or aunt)"
-existing_by_lemma = ["姨丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
+existing_by_lemma = ["姨丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt", "姨丈 -> cantown-yue cantown-yue-10736091-n [i93825] 姨丈, 伯父, 伯伯, 阿伯, 姑丈, 阿叔, ...: (CILI) the brother of your father or mother; the husband of your aunt"]
 hypernyms = ["Pa;Ss;Hu"]
 ancestors = ["Pa;Ss;Hu", "InL", "Unc", "Rel"]
+sources = ["姨丈 <- Omniglot"]
 comment = ""
 
 ["Pa;Br;Wi"]
@@ -866,85 +857,84 @@ ancestors = ["Pa;Br;Wi", "Aun", "InL", "Rel"]
 comment = ""
 
 ["Fa;El:Br;Wi"]
-lemmas = []
+lemmas = ["伯娘"]
 proposed = ["伯娘"]
 jyutping = ["baak3 noeng4"]
 confidence = ["high"]
 omniglot = ["伯娘 baakleùhng \"aunt\" father's elder brother's wife"]
-omniglot_new = ["伯娘"]
 english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's elder brother"
 definition = "the wife of one's father's elder brother (an uncle or aunt)"
-existing_by_lemma = ["伯娘 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["伯娘 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "伯娘 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Fa;Br;Wi"]
 ancestors = ["Fa;Br;Wi", "Pa;Br;Wi", "Aun", "InL", "Rel"]
+sources = ["伯娘 <- Omniglot"]
 comment = ""
 
 ["Fa;Yn:Br;Wi"]
-lemmas = []
+lemmas = ["阿嬸"]
 proposed = ["阿嬸"]
 jyutping = ["aa3 sam2"]
 confidence = ["high"]
 notes = ["阿嬸: also 嬸嬸 sam2 sam2"]
 omniglot = ["阿嬸 asám \"aunt\" father's younger brother's wife"]
-omniglot_new = ["阿嬸"]
 english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
 label = "wife of father's younger brother"
 definition = "the wife of one's father's younger brother (an uncle or aunt)"
-existing_by_lemma = ["阿嬸 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
+existing_by_lemma = ["阿嬸 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle", "阿嬸 -> cantown-yue cantown-yue-09823502-n [i88357] 阿嬸, 阿姨, 伯母, 姑媽, 姨媽, 姑姐, ...: (CILI) the sister of your father or mother; the wife of your uncle"]
 hypernyms = ["Fa;Br;Wi"]
 ancestors = ["Fa;Br;Wi", "Pa;Br;Wi", "Aun", "InL", "Rel"]
+sources = ["阿嬸 <- Omniglot"]
 comment = ""
 
 ["Pa"]
-lemmas = []
+lemmas = ["父母"]
 proposed = ["父母"]
 jyutping = ["fu6 mou5"]
 confidence = ["high"]
 notes = ["父母: 'parents', a pair"]
 omniglot = ["父母 fuhmóuh \"parents\""]
-omniglot_new = ["父母"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["父母 <- Omniglot"]
 comment = ""
 
 ["Fa"]
-lemmas = []
+lemmas = ["父親", "爸爸", "阿爸"]
 proposed = ["爸爸", "父親", "老豆"]
 jyutping = ["baa4 baa1", "fu6 can1", "lou5 dau6"]
 confidence = ["high", "high", "high"]
 notes = ["爸爸: colloquial", "父親: formal", "老豆: slang"]
 omniglot = ["父親 fuhchàn \"father\" frm", "爸爸 bàhbā \"father\" inf", "阿爸 a bàh \"father\" inf"]
-omniglot_new = ["父親", "爸爸", "阿爸"]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
-existing_by_lemma = ["爸爸 -> cantown-yue cantown-yue-09988063-n [i89370] 爹哋, 爸爸: (CILI) an informal term for a father; probably derived from baby talk"]
+existing_by_lemma = ["爸爸 -> cantown-yue cantown-yue-09988063-n [i89370] 爹哋, 爸爸: (CILI) an informal term for a father; probably derived from baby talk", "爸爸 -> cantown-yue cantown-yue-09988063-n [i89370] 爹哋, 爸爸: (CILI) an informal term for a father; probably derived from baby talk"]
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
+sources = ["父親 <- Omniglot", "爸爸 <- Omniglot", "阿爸 <- Omniglot"]
 comment = ""
 
 ["Mo"]
-lemmas = ["媽咪", "媽媽", "母親大人", "老媽子", "老母", "阿媽"]
+lemmas = ["媽咪", "媽媽", "母親", "母親大人", "老媽子", "老母", "阿媽", "阿母"]
 proposed = ["媽媽", "母親", "老母"]
 jyutping = ["maa4 maa1", "mou5 can1", "lou5 mou2"]
 confidence = ["high", "high", "high"]
 notes = ["媽媽: colloquial", "母親: formal", "老母: slang"]
 omniglot = ["母親 móuhchàn \"mother\" frm", "媽媽 màhmà \"mother\" inf", "阿母 a mā \"mother\" inf"]
-omniglot_new = ["母親", "阿母"]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
-existing_by_lemma = ["媽咪 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽咪 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親大人 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "老媽子 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老媽子 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "阿媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "阿媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
+existing_by_lemma = ["媽咪 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽咪 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "母親大人 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "老媽子 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老媽子 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "阿媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "阿媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "媽媽 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "媽媽 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "母親 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10278128-n [i91123] 老母, 老媽子, 阿媽, 媽咪, 母親, 媽媽: (CILI) informal terms for a mother", "老母 -> cantown-yue cantown-yue-10332385-n [i91462] 老母, 老媽子, 媽咪, 媽媽, 阿媽, 母親大人: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["媽咪 <- cantown-yue", "媽媽 <- cantown-yue", "母親大人 <- cantown-yue", "老媽子 <- cantown-yue", "老母 <- cantown-yue", "阿媽 <- cantown-yue"]
+sources = ["媽咪 <- cantown-yue", "媽媽 <- Omniglot, cantown-yue", "母親 <- Omniglot", "母親大人 <- cantown-yue", "老媽子 <- cantown-yue", "老母 <- cantown-yue", "阿媽 <- cantown-yue", "阿母 <- Omniglot"]
 comment = ""
 
 ["Ch"]
@@ -953,7 +943,7 @@ proposed = ["子女"]
 jyutping = ["zi2 neoi5"]
 confidence = ["medium"]
 notes = ["子女: 'children', collective"]
-omniglot = ["細蚊仔 saimānjáí \"children\"", "小童 síutùhng \"children\""]
+omniglot = ["細蚊仔 saimānjáí \"children\" (not built: excluded)", "小童 síutùhng \"children\" (not built: excluded)"]
 omniglot_new = ["細蚊仔", "小童"]
 english = ["child", "kid"]
 label = "child"
@@ -963,18 +953,18 @@ ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
 comment = ""
 
 ["So"]
-lemmas = []
+lemmas = ["仔"]
 proposed = ["仔", "兒子"]
 jyutping = ["zai2", "ji4 zi2"]
 confidence = ["high", "high"]
 notes = ["仔: 'son' (also 'boy')", "兒子: formal"]
 omniglot = ["仔 jái \"son\""]
-omniglot_new = ["仔"]
 english = ["boy", "son"]
 label = "son"
 definition = "a son of a person (a child)"
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
+sources = ["仔 <- Omniglot"]
 comment = ""
 
 ["Da"]
@@ -991,48 +981,50 @@ existing_by_ili = ["cantown-yue cantown-yue-09992837-n [i89398] 女女, 女: (CI
 existing_by_lemma = ["女 -> cantown-yue cantown-yue-09992837-n [i89398] 女女, 女: (CILI) a female human offspring", "女女 -> cantown-yue cantown-yue-09992837-n [i89398] 女女, 女: (CILI) a female human offspring"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["女 <- cantown-yue", "女女 <- cantown-yue"]
+sources = ["女 <- Omniglot, cantown-yue", "女女 <- cantown-yue"]
 comment = ""
 
 ["Sp"]
-lemmas = []
+lemmas = ["愛人", "老伴", "配偶"]
 omniglot = ["愛人 ngoiyàhn \"spouse\"", "老伴 lóuhbun \"spouse\"", "配偶 puingáuh \"spouse\""]
-omniglot_new = ["愛人", "老伴", "配偶"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
+existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["愛人 <- Omniglot", "老伴 <- Omniglot", "配偶 <- Omniglot"]
 comment = ""
 
 ["Hu"]
-lemmas = []
+lemmas = ["丈夫", "先生", "老公"]
 proposed = ["老公", "丈夫"]
 jyutping = ["lou5 gung1", "zoeng6 fu1"]
 confidence = ["high", "high"]
 notes = ["老公: colloquial", "丈夫: formal"]
 omniglot = ["先生 sìnsàang \"husband\" frm", "丈夫 jeuhngfu \"husband\" frm", "老公 lóuhgùng \"husband\" inf"]
-omniglot_new = ["先生", "丈夫", "老公"]
 english = ["hubby", "husband", "married man"]
 label = "husband"
 definition = "the husband of a person (a spouse)"
+existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
+sources = ["丈夫 <- Omniglot", "先生 <- Omniglot", "老公 <- Omniglot"]
 comment = ""
 
 ["Wi"]
-lemmas = []
+lemmas = ["太太", "妻子", "老婆"]
 proposed = ["老婆", "太太", "妻子"]
 jyutping = ["lou5 po4", "taai3 taai2", "cai1 zi2"]
 confidence = ["high", "high", "high"]
 notes = ["老婆: colloquial", "太太: also 'Mrs'", "妻子: formal"]
 omniglot = ["太太 taaitáai \"wife\" frm", "妻子 chàjí \"wife\"", "老婆 lóuhpòh \"wife\" inf"]
-omniglot_new = ["太太", "妻子", "老婆"]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
+sources = ["太太 <- Omniglot", "妻子 <- Omniglot", "老婆 <- Omniglot"]
 comment = ""
 
 ["InL"]
@@ -1086,32 +1078,32 @@ ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Da;Hu"]
-lemmas = []
+lemmas = ["女婿"]
 proposed = ["女婿"]
 jyutping = ["neoi5 sai3"]
 confidence = ["high"]
 omniglot = ["女婿 néuihsai \"son-in-law\""]
-omniglot_new = ["女婿"]
 english = ["son-in-law"]
 label = "son-in-law"
 definition = "the husband of one's daughter (an in-law)"
 hypernyms = ["Ch;Sp"]
 ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["女婿 <- Omniglot"]
 comment = ""
 
 ["So;Wi"]
-lemmas = []
+lemmas = ["新抱"]
 proposed = ["新抱"]
 jyutping = ["san1 pou5"]
 confidence = ["high"]
 notes = ["新抱: daughter-in-law"]
 omniglot = ["新抱 sànpóuh \"daughter-in-law\""]
-omniglot_new = ["新抱"]
 english = ["daughter-in-law"]
 label = "daughter-in-law"
 definition = "the wife of one's son (an in-law)"
 hypernyms = ["Ch;Sp"]
 ancestors = ["Ch;Sp", "InL", "Rel"]
+sources = ["新抱 <- Omniglot"]
 comment = ""
 
 ["BrL"]
@@ -1150,7 +1142,7 @@ proposed = ["姐夫", "妹夫"]
 jyutping = ["ze2 fu1", "mui6 fu1"]
 confidence = ["high", "high"]
 notes = ["姐夫: elder sister's husband (no elder-specific concept)", "妹夫: younger sister's husband (no younger-specific concept)"]
-omniglot = ["姐夫 jéfù \"brother-in-law\" elder sister's husband (broader)", "妹夫 muihfù \"brother-in-law\" younger sister's husband (broader)"]
+omniglot = ["姐夫 jéfù \"brother-in-law\" elder sister's husband (not built: broader)", "妹夫 muihfù \"brother-in-law\" younger sister's husband (not built: broader)"]
 omniglot_new = ["姐夫", "妹夫"]
 english = ["brother-in-law"]
 label = "sister's husband"
@@ -1175,7 +1167,7 @@ proposed = ["阿嫂", "弟婦"]
 jyutping = ["aa3 sou2", "dai6 fu5"]
 confidence = ["high", "medium"]
 notes = ["阿嫂: elder brother's wife (no elder-specific concept)", "弟婦: younger brother's wife"]
-omniglot = ["阿嫂 a sóu \"sister-in-law\" elder brother's wife (broader)", "弟婦 daihfúh \"sister-in-law\" younger brother's wife (broader)"]
+omniglot = ["阿嫂 a sóu \"sister-in-law\" elder brother's wife (not built: broader)", "弟婦 daihfúh \"sister-in-law\" younger brother's wife (not built: broader)"]
 omniglot_new = ["阿嫂", "弟婦"]
 english = ["sister-in-law"]
 label = "brother's wife"
@@ -1240,34 +1232,34 @@ ancestors = ["Rel"]
 comment = ""
 
 ["Wi;Mo"]
-lemmas = []
+lemmas = ["外母", "岳母"]
 proposed = ["外母"]
 jyutping = ["ngoi6 mou2"]
 confidence = ["high"]
 omniglot = ["外母 ngoihmóu \"mother-in-law\" wife's mother", "岳母 ngohkmóu \"mother-in-law\" wife's mother"]
-omniglot_new = ["外母", "岳母"]
 english = ["mother-in-law"]
 english_via = "Sp;Mo"
 label = "wife's mother"
 definition = "the mother of one's wife (an in-law)"
 hypernyms = ["Sp;Mo"]
 ancestors = ["Sp;Mo", "Sp;Pa", "InL", "Rel"]
+sources = ["外母 <- Omniglot", "岳母 <- Omniglot"]
 comment = ""
 
 ["Hu;Fa"]
-lemmas = []
+lemmas = ["老爺"]
 proposed = ["老爺"]
 jyutping = ["lou5 je4"]
 confidence = ["high"]
 notes = ["老爺: a wife's term for her husband's father"]
 omniglot = ["老爺 lóuhyèh \"father-in-law\" husband's father"]
-omniglot_new = ["老爺"]
 english = ["father-in-law"]
 english_via = "Sp;Fa"
 label = "husband's father"
 definition = "the father of one's husband (an in-law)"
 hypernyms = ["Sp;Fa"]
 ancestors = ["Sp;Fa", "Sp;Pa", "InL", "Rel"]
+sources = ["老爺 <- Omniglot"]
 comment = ""
 
 ["Fa;Ss;So|Mo;Br;So"]
@@ -1282,18 +1274,18 @@ ancestors = ["Fa;Ss;Ch|Mo;Br;Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;
 comment = ""
 
 ["Hu;Mo"]
-lemmas = []
+lemmas = ["奶奶", "家婆"]
 proposed = ["奶奶"]
 jyutping = ["naai4 naai2"]
 confidence = ["high"]
 notes = ["奶奶: a wife's term for her husband's mother"]
 omniglot = ["奶奶 nàaihnáai \"mother-in-law\" husband's mother", "家婆 gāpó \"mother-in-law\" husband's mother"]
-omniglot_new = ["奶奶", "家婆"]
 english = ["mother-in-law"]
 label = "husband's mother"
 definition = "the mother of one's husband (an in-law)"
 hypernyms = ["Sp;Mo"]
 ancestors = ["Sp;Mo", "Sp;Pa", "InL", "Rel"]
+sources = ["奶奶 <- Omniglot", "家婆 <- Omniglot"]
 comment = ""
 
 ["Pa;Sb;Ch|Sb"]
@@ -1341,19 +1333,19 @@ ancestors = ["Sb", "Pa;Sb;Ch|Sb", "Rel"]
 comment = ""
 
 ["Wi;Fa"]
-lemmas = []
+lemmas = ["外父", "岳父"]
 proposed = ["外父"]
 jyutping = ["ngoi6 fu2"]
 confidence = ["high"]
 notes = ["外父: a husband's term for his wife's father"]
 omniglot = ["外父 ngoihfú \"father-in-law\" wife's father", "岳父 ngohkfú \"father-in-law\" wife's father"]
-omniglot_new = ["外父", "岳父"]
 english = ["father-in-law"]
 english_via = "Sp;Fa"
 label = "wife's father"
 definition = "the father of one's wife (an in-law)"
 hypernyms = ["Sp;Fa"]
 ancestors = ["Sp;Fa", "Sp;Pa", "InL", "Rel"]
+sources = ["外父 <- Omniglot", "岳父 <- Omniglot"]
 comment = ""
 
 ["Ch|Sb;Ch"]
@@ -1450,7 +1442,7 @@ proposed = ["舅仔"]
 jyutping = ["kau5 zai2"]
 confidence = ["medium"]
 notes = ["舅仔: wife's (younger) brother"]
-omniglot = ["大舅 daaihkáuh \"brother-in-law\" wife’s elder brother (broader)", "舅仔 káuhjái \"brother-in-law\" wife’s younger brother (broader)"]
+omniglot = ["大舅 daaihkáuh \"brother-in-law\" wife’s elder brother (not built: broader)", "舅仔 káuhjái \"brother-in-law\" wife’s younger brother (not built: broader)"]
 omniglot_new = ["大舅", "舅仔"]
 english = ["brother-in-law"]
 english_via = "Sp;Br"
@@ -1462,7 +1454,7 @@ comment = ""
 
 ["Hu;Ss"]
 lemmas = []
-omniglot = ["姑奶 gùnāai \"sister-in-law\" husband's elder sister (broader)", "姑仔 gùjái \"sister-in-law\" husband's younger sister (broader)"]
+omniglot = ["姑奶 gùnāai \"sister-in-law\" husband's elder sister (not built: broader)", "姑仔 gùjái \"sister-in-law\" husband's younger sister (not built: broader)"]
 omniglot_new = ["姑奶", "姑仔"]
 english = ["sister-in-law"]
 english_via = "Sp;Ss"
@@ -1650,7 +1642,7 @@ comment = ""
 
 ["Hu;Br"]
 lemmas = []
-omniglot = ["大伯 daaihbaak \"brother-in-law\" husband’s elder brother (broader)", "叔仔 sūkhjái \"brother-in-law\" husband’s younger brother (broader)"]
+omniglot = ["大伯 daaihbaak \"brother-in-law\" husband’s elder brother (not built: broader)", "叔仔 sūkhjái \"brother-in-law\" husband’s younger brother (not built: broader)"]
 omniglot_new = ["大伯", "叔仔"]
 english = ["brother-in-law"]
 english_via = "Sp;Br"
@@ -1684,7 +1676,7 @@ comment = ""
 
 ["Wi;Ss"]
 lemmas = []
-omniglot = ["大姨 daaihyìh \"sister-in-law\" wife's elder sister (broader)", "姨仔 yìjái \"sister-in-law\" wife's younger sister (broader)"]
+omniglot = ["大姨 daaihyìh \"sister-in-law\" wife's elder sister (not built: broader)", "姨仔 yìjái \"sister-in-law\" wife's younger sister (not built: broader)"]
 omniglot_new = ["大姨", "姨仔"]
 english = ["sister-in-law"]
 english_via = "Sp;Ss"
@@ -1697,7 +1689,7 @@ comment = ""
 ["Fa;Sb;So"]
 lemmas = []
 status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["堂阿哥 tòhngagō \"cousin (paternal)\" +m (broader)", "堂細佬 tòhng sailóu \"cousin (paternal)\" m (broader)"]
+omniglot = ["堂阿哥 tòhngagō \"cousin (paternal)\" +m (not built: broader)", "堂細佬 tòhng sailóu \"cousin (paternal)\" m (not built: broader)"]
 omniglot_new = ["堂阿哥", "堂細佬"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
@@ -1710,7 +1702,7 @@ comment = ""
 ["Fa;Sb;Da"]
 lemmas = []
 status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["堂家姐 tòhnggājè \"cousin (paternal)\" +f (broader)", "堂細妹 tòhngsaimúi \"cousin (paternal)\" f (broader)"]
+omniglot = ["堂家姐 tòhnggājè \"cousin (paternal)\" +f (not built: broader)", "堂細妹 tòhngsaimúi \"cousin (paternal)\" f (not built: broader)"]
 omniglot_new = ["堂家姐", "堂細妹"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"

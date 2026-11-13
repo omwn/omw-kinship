@@ -7,9 +7,9 @@
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
 # `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its own knowledge, for a speaker to check.
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
@@ -17,7 +17,7 @@ lemmas = ["abuela", "abuelito", "abuelo", "abuelos"]
 proposed = ["abue"]
 confidence = ["medium"]
 notes = ["abue: colloquial, affectionate, either sex (Argentina, Uruguay, Mexico); build has it only on Pa;Mo"]
-omniglot = ["abuelos \"grandparents\""]
+omniglot = ["abuelos \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -43,7 +43,7 @@ existing_by_lemma = ["abuelito -> omw-es omw-es-10142391-n [i90287] abuelito, ab
 existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
 ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["abuelito <- Wiktionary, omw-es", "abuelo <- TUFS, Wiktionary, omw-es", "gramps <- omw-es", "yayo <- omw-es"]
+sources = ["abuelito <- Wiktionary, omw-es", "abuelo <- Omniglot, TUFS, Wiktionary, omw-es", "gramps <- omw-es", "yayo <- omw-es"]
 comment = ""
 
 ["Pa;Mo"]
@@ -52,7 +52,7 @@ proposed = ["nona", "mamá grande", "abuelo", "gran", "nan", "tata"]
 confidence = ["medium", "low", "check", "check", "check", "check"]
 notes = ["nona: colloquial, affectionate (Argentina, Uruguay; from Italian)", "mamá grande: regional (Mexico, Colombia, Venezuela)", "abuelo: masculine; already in build on Pa;Fa and Pa;Pa; drop from Pa;Mo", "gran: English loan carried over from omw-es; not Spanish for grandmother; drop", "nan: English, carried over from omw-es; drop", "tata: not a general Spanish word for grandmother (Spain: nanny or child-talk for elder sister; Chile: grandfather); probably drop"]
 omniglot = ["abuela \"grandmother\""]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["omw-es omw-es-10142747-n [i90289] abue, abuela, abuelita, abuelo, gran, nan, ...: madre del padre o la madre", "tufs-es tufs-es-10142747-n [i90289] abuela: (CILI) the mother of your father or mother"]
@@ -60,7 +60,7 @@ existing_by_lemma = ["abue -> omw-es omw-es-10142747-n [i90289] abue, abuela, ab
 existing_hidden = 9  # other senses of these lemmas
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["abue <- omw-es", "abuela <- TUFS, Wiktionary, omw-es", "abuelita <- Wiktionary, omw-es", "abuelo <- Wikidata L48476-S1, omw-es", "gran <- omw-es", "nan <- omw-es", "nana <- omw-es", "tata <- omw-es", "yaya <- omw-es"]
+sources = ["abue <- omw-es", "abuela <- Omniglot, TUFS, Wiktionary, omw-es", "abuelita <- Wiktionary, omw-es", "abuelo <- Wikidata L48476-S1, omw-es", "gran <- omw-es", "nan <- omw-es", "nana <- omw-es", "tata <- omw-es", "yaya <- omw-es"]
 comment = ""
 
 ["Fa;Fa"]
@@ -94,7 +94,7 @@ lemmas = []
 proposed = ["abuela paterna"]
 confidence = ["high"]
 notes = ["abuela paterna: compositional"]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "paternal grandmother"
 definition = "the mother of one's father (a grandparent)"
@@ -107,7 +107,7 @@ lemmas = []
 proposed = ["abuela materna"]
 confidence = ["high"]
 notes = ["abuela materna: compositional"]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -117,7 +117,7 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["nieto", "nietos"]
-omniglot = ["nietos \"grandchildren\""]
+omniglot = ["nietos \"grandchildren\" (not built: plural)"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
@@ -138,7 +138,7 @@ existing_by_ili = ["omw-es omw-es-10143299-n [i90293] nieto: (CILI) a male grand
 existing_by_lemma = ["nieto -> omw-es omw-es-10141590-n [i90280] nieto: (CILI) a child of your son or daughter", "nieto -> omw-es omw-es-10143299-n [i90293] nieto: (CILI) a male grandchild"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["nietito <- Native", "nieto <- Wikidata L1011282-S1, Wiktionary, omw-es"]
+sources = ["nietito <- Native", "nieto <- Omniglot, Wikidata L1011282-S1, Wiktionary, omw-es"]
 comment = ""
 
 ["Ch;Da"]
@@ -154,7 +154,7 @@ existing_by_ili = ["omw-es omw-es-10141732-n [i90281] nieta: nieto de sexo femen
 existing_by_lemma = ["nieta -> omw-es omw-es-10141732-n [i90281] nieta: nieto de sexo femenino", "nieto -> omw-es omw-es-10141590-n [i90280] nieto: (CILI) a child of your son or daughter", "nieto -> omw-es omw-es-10143299-n [i90293] nieto: (CILI) a male grandchild", "nieto -> omw-es omw-es-10141590-n [i90280] nieto: (CILI) a child of your son or daughter", "nieto -> omw-es omw-es-10143299-n [i90293] nieto: (CILI) a male grandchild"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["nieta <- Wiktionary, omw-es", "nietita <- Native", "nieto <- Wikidata L1011282-S1"]
+sources = ["nieta <- Omniglot, Wiktionary, omw-es", "nietita <- Native", "nieto <- Wikidata L1011282-S1"]
 comment = ""
 
 ["So;So"]
@@ -217,7 +217,7 @@ comment = ""
 ["Br"]
 lemmas = ["hermanito", "hermano"]
 omniglot = ["hermano \"brother\""]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["omw-es omw-es-10286084-n [i91174] hermano: (CILI) a sibling who is male", "tufs-es tufs-es-10286084-n [i91174] hermano: (CILI) a sibling who is male"]
@@ -225,7 +225,7 @@ existing_by_lemma = ["hermanito -> omw-es omw-es-10267311-n [i91053] hermanito, 
 existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["hermanito <- Native", "hermano <- TUFS, Wiktionary, omw-es"]
+sources = ["hermanito <- Native", "hermano <- Omniglot, TUFS, Wiktionary, omw-es"]
 comment = ""
 
 ["Ss"]
@@ -239,7 +239,7 @@ existing_by_lemma = ["hermana -> omw-es omw-es-10084181-n [i89922] hermana: (CIL
 existing_hidden = 5  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["hermana <- TUFS, Wiktionary, omw-es", "hermanita <- Native"]
+sources = ["hermana <- Omniglot, TUFS, Wiktionary, omw-es", "hermanita <- Native"]
 comment = ""
 
 ["El:Br"]
@@ -371,7 +371,7 @@ comment = ""
 ["Sb;Ch"]
 lemmas = []
 status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["sobrinos \"nephews & nieces\""]
+omniglot = ["sobrinos \"nephews & nieces\" (not built: plural)"]
 omniglot_new = ["sobrinos"]
 english = ["relation", "relative"]
 english_via = "Rel"
@@ -394,7 +394,7 @@ existing_by_ili = ["omw-es omw-es-10353355-n [i91586] sobrino: hijo de tu herman
 existing_by_lemma = ["sobrino -> omw-es omw-es-10353355-n [i91586] sobrino: hijo de tu hermano o hermana", "sobrino -> omw-es omw-es-10357613-n [i91615] sobrina, sobrino: hija de tu hermano o hermana"]
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["sobrinito <- Native", "sobrino <- Kinbank, Wiktionary, omw-es"]
+sources = ["sobrinito <- Native", "sobrino <- Kinbank, Omniglot, Wiktionary, omw-es"]
 comment = ""
 
 ["Sb;Da"]
@@ -410,7 +410,7 @@ existing_by_ili = ["omw-es omw-es-10357613-n [i91615] sobrina, sobrino: hija de 
 existing_by_lemma = ["sobrina -> omw-es omw-es-10357613-n [i91615] sobrina, sobrino: hija de tu hermano o hermana", "sobrino -> omw-es omw-es-10353355-n [i91586] sobrino: hijo de tu hermano o hermana", "sobrino -> omw-es omw-es-10357613-n [i91615] sobrina, sobrino: hija de tu hermano o hermana", "sobrino -> omw-es omw-es-10353355-n [i91586] sobrino: hijo de tu hermano o hermana", "sobrino -> omw-es omw-es-10357613-n [i91615] sobrina, sobrino: hija de tu hermano o hermana"]
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["sobrina <- Kinbank, Wiktionary, omw-es", "sobrinita <- Native", "sobrino <- omw-es"]
+sources = ["sobrina <- Kinbank, Omniglot, Wiktionary, omw-es", "sobrinita <- Native", "sobrino <- omw-es"]
 comment = ""
 
 ["Br;So"]
@@ -484,7 +484,7 @@ existing_by_lemma = ["primo -> omw-es omw-es-09972010-n [i89276] prima, primo, p
 existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["primito <- Native", "primo <- Kinbank, TUFS, Wiktionary"]
+sources = ["primito <- Native", "primo <- Kinbank, Omniglot, TUFS, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;Da"]
@@ -501,7 +501,7 @@ existing_by_lemma = ["prima -> omw-es omw-es-09972010-n [i89276] prima, primo, p
 existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["prima <- Kinbank, Wiktionary", "primita <- Native"]
+sources = ["prima <- Kinbank, Omniglot, Wiktionary", "primita <- Native"]
 comment = ""
 
 ["Pa;Sb;El:So"]
@@ -644,7 +644,7 @@ existing_by_lemma = ["tio -> omw-es omw-es-10736091-n [i93825] tio, tío: herman
 existing_hidden = 12  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["tio <- omw-es", "tío <- TUFS, omw-es"]
+sources = ["tio <- omw-es", "tío <- Omniglot, TUFS, omw-es"]
 comment = ""
 
 ["Aun"]
@@ -661,7 +661,7 @@ existing_by_lemma = ["tia -> omw-es omw-es-09823502-n [i88357] tia, tita, tiíta
 existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["tia <- omw-es", "tita <- omw-es", "tiíta <- omw-es", "tía <- TUFS, omw-es"]
+sources = ["tia <- omw-es", "tita <- omw-es", "tiíta <- omw-es", "tía <- Omniglot, TUFS, omw-es"]
 comment = ""
 
 ["Pa;Ss;Hu"]
@@ -669,7 +669,7 @@ lemmas = []
 proposed = ["tío político"]
 confidence = ["high"]
 notes = ["tío político: uncle by marriage; also used for the husband of any aunt"]
-omniglot = ["tío politico \"uncle-in-law (aunt's husband)\""]
+omniglot = ["tío politico \"uncle-in-law (aunt's husband)\" (not built: excluded)"]
 omniglot_new = ["tío politico"]
 english = ["in-law", "relative-in-law"]
 english_via = "InL"
@@ -684,7 +684,7 @@ lemmas = []
 proposed = ["tía política"]
 confidence = ["high"]
 notes = ["tía política: aunt by marriage"]
-omniglot = ["tía politica \"aunt-in-law (uncle's wife)\""]
+omniglot = ["tía politica \"aunt-in-law (uncle's wife)\" (not built: excluded)"]
 omniglot_new = ["tía politica"]
 english = ["aunt", "auntie", "aunty"]
 english_via = "Aun"
@@ -699,7 +699,7 @@ lemmas = ["padre", "padres", "progenitor"]
 proposed = ["padre"]
 confidence = ["check"]
 notes = ["padre: singular padre is 'father'; only the plural padres means 'parents'"]
-omniglot = ["padres \"parents\""]
+omniglot = ["padres \"parents\" (not built: plural)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -717,7 +717,7 @@ proposed = ["papa", "papito", "pa", "viejo", "jefe", "taita", "tata"]
 confidence = ["check", "medium", "low", "medium", "low", "medium", "low"]
 notes = ["papa: unaccented papa is archaic/regional for father (and 'pope', 'potato'); keep only if marked regional", "papito: affectionate diminutive (esp. Latin America)", "pa: colloquial clipping, mostly as address", "viejo: colloquial 'my old man' (Southern Cone, Mexico; mi viejo)", "jefe: slang (Mexico: mi jefe)", "taita: regional, rural (Andes: Ecuador, Colombia, Peru)", "tata: regional, rural (Mexico, Central America); in Chile 'grandfather'"]
 omniglot = ["padre \"father\"", "papá \"father\""]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["omw-es omw-es-10080869-n [i89901] padre, papa, papi, papá: (CILI) a male parent (also used as a term of address to your father)", "tufs-es tufs-es-10080869-n [i89901] padre: (CILI) a male parent (also used as a term of address to your father)"]
@@ -725,7 +725,7 @@ existing_by_lemma = ["padre -> omw-es omw-es-10080869-n [i89901] padre, papa, pa
 existing_hidden = 27  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["padre <- TUFS, Wikidata L221496-S1, omw-es", "papa <- Wikidata L718774-S3, omw-es", "papi <- omw-es", "papá <- Wikidata L656604-S1 (informal), omw-es"]
+sources = ["padre <- Omniglot, TUFS, Wikidata L221496-S1, omw-es", "papa <- Wikidata L718774-S3, omw-es", "papi <- omw-es", "papá <- Omniglot, Wikidata L656604-S1 (informal), omw-es"]
 comment = ""
 
 ["Mo"]
@@ -734,7 +734,7 @@ proposed = ["mami", "mamita", "mamaíta", "ma", "vieja", "jefa", "mama"]
 confidence = ["high", "medium", "low", "low", "medium", "low", "low"]
 notes = ["mami: colloquial, affectionate; parallel to papi already on Fa", "mamita: affectionate diminutive (esp. Latin America)", "mamaíta: affectionate (Spain)", "ma: colloquial clipping, mostly as address (also written má)", "vieja: colloquial 'my old lady' (Southern Cone, Mexico; mi vieja)", "jefa: slang (Mexico: mi jefa)", "mama: unaccented, rural/Andean and older usage"]
 omniglot = ["madre \"mother\"", "mamá \"mother\""]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["omw-es omw-es-10332385-n [i91462] madre, mamá, progenitora: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "tufs-es tufs-es-10332385-n [i91462] madre: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
@@ -742,7 +742,7 @@ existing_by_lemma = ["madre -> omw-es omw-es-10278128-n [i91123] ma, madre, mama
 existing_hidden = 18  # other senses of these lemmas
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["madre <- TUFS, Wikidata L47362-S1, omw-es", "mamá <- Wikidata L656603-S1 (informal), omw-es", "progenitora <- omw-es"]
+sources = ["madre <- Omniglot, TUFS, Wikidata L47362-S1, omw-es", "mamá <- Omniglot, Wikidata L656603-S1 (informal), omw-es", "progenitora <- omw-es"]
 comment = ""
 
 ["Ch"]
@@ -750,7 +750,7 @@ lemmas = ["hija", "hijo", "hijos", "ninzzo", "niña", "niño"]
 proposed = ["ninzzo", "niño", "niña", "vástago", "retoño"]
 confidence = ["check", "check", "check", "medium", "low"]
 notes = ["ninzzo: not a Spanish word (omw-es noise); drop", "niño: 'child' (age), not offspring; probably drop", "niña: 'child, girl' (age), not offspring; probably drop", "vástago: formal/literary 'offspring'", "retoño: literary/affectionate 'offspring'"]
-omniglot = ["hijos \"children\"", "niños \"children\""]
+omniglot = ["hijos \"children\" (not built: plural)", "niños \"children\" (not built: excluded)"]
 omniglot_new = ["niños"]
 english = ["child", "kid"]
 label = "child"
@@ -777,7 +777,7 @@ existing_by_lemma = ["hijo -> omw-es omw-es-09918248-n [i88965] hija, hijo, ninz
 existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["hijo <- Wikidata L306857-S1, omw-es"]
+sources = ["hijo <- Omniglot, Wikidata L306857-S1, omw-es"]
 comment = ""
 
 ["Da"]
@@ -794,7 +794,7 @@ existing_by_lemma = ["hija -> omw-es omw-es-09918248-n [i88965] hija, hijo, ninz
 existing_hidden = 14  # other senses of these lemmas
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["hija <- omw-es", "hijo <- Wikidata L306857-S1, omw-es", "niña <- omw-es"]
+sources = ["hija <- Omniglot, omw-es", "hijo <- Wikidata L306857-S1, omw-es", "niña <- omw-es"]
 comment = ""
 
 ["Sp"]
@@ -802,7 +802,7 @@ lemmas = ["consorte", "cónyuge", "esposa", "esposo"]
 proposed = ["pareja", "media naranja"]
 confidence = ["low", "low"]
 notes = ["pareja: 'partner'; covers unmarried partners too", "media naranja: colloquial, affectionate 'other half'"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["omw-es omw-es-10640620-n [i93233] consorte, cónyuge, esposa, esposo: (CILI) a person's partner in marriage"]
@@ -827,7 +827,7 @@ existing_by_lemma = ["esposo -> omw-es omw-es-10193967-n [i90626] esposo, hombre
 existing_hidden = 15  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["esposo <- Kinbank, omw-es", "hombre <- omw-es", "marido <- Kinbank, TUFS, omw-es"]
+sources = ["esposo <- Kinbank, Omniglot, omw-es", "hombre <- omw-es", "marido <- Kinbank, Omniglot, TUFS, omw-es"]
 comment = ""
 
 ["Wi"]
@@ -836,7 +836,7 @@ proposed = ["esposo", "marido", "cónyuge", "parienta", "vieja"]
 confidence = ["check", "check", "check", "medium", "low"]
 notes = ["esposo: masculine 'husband'; belongs on Hu/Sp", "marido: 'husband'; belongs on Hu", "cónyuge: sex-neutral 'spouse'; already on Sp; drop from Wi", "parienta: colloquial, humorous (Spain: la parienta)", "vieja: colloquial (mi vieja, Latin America); also 'mother'"]
 omniglot = ["mujer \"wife\"", "esposa \"wife\""]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["omw-es omw-es-10780632-n [i94123] cónyuge, esposa, esposo, marido, mujer, mujer casada, ...: una mujer casada; la pareja del hombre en el matrimonio", "tufs-es tufs-es-10780632-n [i94123] mujer: (CILI) a married woman; a man's partner in marriage"]
@@ -844,7 +844,7 @@ existing_by_lemma = ["cónyuge -> omw-es omw-es-10640620-n [i93233] consorte, c�
 existing_hidden = 10  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["cónyuge <- omw-es", "esposa <- Kinbank, omw-es", "esposo <- omw-es", "marido <- omw-es", "mujer <- Kinbank, TUFS, omw-es", "mujer casada <- omw-es", "señora <- omw-es"]
+sources = ["cónyuge <- omw-es", "esposa <- Kinbank, Omniglot, omw-es", "esposo <- omw-es", "marido <- omw-es", "mujer <- Kinbank, Omniglot, TUFS, omw-es", "mujer casada <- omw-es", "señora <- omw-es"]
 comment = ""
 
 ["InL"]
@@ -882,7 +882,7 @@ existing_by_ili = ["omw-es omw-es-10082043-n [i89906] padre político, suegro: p
 existing_by_lemma = ["padre político -> omw-es omw-es-10082043-n [i89906] padre político, suegro: padre de uno de los esposos", "suegro -> omw-es omw-es-10082043-n [i89906] padre político, suegro: padre de uno de los esposos"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["padre político <- omw-es", "suegro <- Kinbank, omw-es"]
+sources = ["padre político <- omw-es", "suegro <- Kinbank, Omniglot, omw-es"]
 comment = ""
 
 ["Sp;Mo"]
@@ -898,7 +898,7 @@ existing_by_ili = ["omw-es omw-es-10333317-n [i91467] madre politica, madre pol�
 existing_by_lemma = ["madre politica -> omw-es omw-es-10333317-n [i91467] madre politica, madre política, suegra: la madre de tu conyuge", "madre política -> omw-es omw-es-10333317-n [i91467] madre politica, madre política, suegra: la madre de tu conyuge", "suegra -> omw-es omw-es-10333317-n [i91467] madre politica, madre política, suegra: la madre de tu conyuge", "madre politica -> omw-es omw-es-10333317-n [i91467] madre politica, madre política, suegra: la madre de tu conyuge"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["madre politica <- omw-es", "madre política <- omw-es", "suegra <- Kinbank, omw-es"]
+sources = ["madre politica <- omw-es", "madre política <- omw-es", "suegra <- Kinbank, Omniglot, omw-es"]
 comment = ""
 
 ["Ch;Sp"]
@@ -954,22 +954,22 @@ existing_by_ili = ["omw-es omw-es-09877288-n [i88712] cuñado: hermano mediante 
 existing_by_lemma = ["cuñado -> omw-es omw-es-09877288-n [i88712] cuñado: hermano mediante un matrimonio"]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
-sources = ["cuñado <- omw-es"]
+sources = ["cuñado <- Omniglot, omw-es"]
 comment = ""
 
 ["SsL"]
-lemmas = []
+lemmas = ["cuñada"]
 proposed = ["cuñada", "hermana política"]
 confidence = ["high", "medium"]
 notes = ["cuñada: build has cuñada only on Sp;Ss, which is too narrow (it is also a brother's wife)", "hermana política: formal synonym of cuñada; build has it only on Sp;Ss"]
 omniglot = ["cuñada \"sister-in-law\""]
-omniglot_new = ["cuñada"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
-existing_by_lemma = ["cuñada -> omw-es omw-es-10603766-n [i93022] cuñada, hermana política: hermana de tu cónyuge", "hermana política -> omw-es omw-es-10603766-n [i93022] cuñada, hermana política: hermana de tu cónyuge"]
+existing_by_lemma = ["cuñada -> omw-es omw-es-10603766-n [i93022] cuñada, hermana política: hermana de tu cónyuge", "cuñada -> omw-es omw-es-10603766-n [i93022] cuñada, hermana política: hermana de tu cónyuge", "hermana política -> omw-es omw-es-10603766-n [i93022] cuñada, hermana política: hermana de tu cónyuge"]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["cuñada <- Omniglot"]
 comment = ""
 
 ["Sp;Ss"]

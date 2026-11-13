@@ -6,14 +6,14 @@
 #   lexicon id [ILI] lemmas: definition; (CILI) marks a definition taken from the ILI.
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["Großeltern", "Großelternteil", "Oma und Opa"]
-omniglot = ["Großeltern \"grandparents\""]
+omniglot = ["Großeltern \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -35,21 +35,21 @@ existing_by_ili = ["odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpa
 existing_by_lemma = ["Großpapa -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "Großvater -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "Großvater -> tufs-de tufs-de-10142391-n [i90287] Großvater: (CILI) the father of your father or mother", "Opa -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "Opi -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "grossvater -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "grossvater -> tufs-de tufs-de-10142391-n [i90287] Großvater: (CILI) the father of your father or mother", "großvater -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "großvater -> tufs-de tufs-de-10142391-n [i90287] Großvater: (CILI) the father of your father or mother", "opa -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter", "opi -> odenet odenet-24803-n [i90287] Opi, Opa, Großvater, Großpapa: der Vater deines Vaters oder deiner Mutter"]
 hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
 ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["Großpapa <- odenet", "Großvater <- TUFS, odenet", "Opa <- odenet", "Opi <- odenet", "grossvater <- Wiktionary", "großvater <- Wiktionary", "opa <- Wiktionary", "opi <- Wiktionary"]
+sources = ["Großpapa <- odenet", "Großvater <- Omniglot, TUFS, odenet", "Opa <- odenet", "Opi <- odenet", "grossvater <- Wiktionary", "großvater <- Wiktionary", "opa <- Wiktionary", "opi <- Wiktionary"]
 comment = ""
 
 ["Pa;Mo"]
 lemmas = ["Grossmutter", "Großmama", "Großmutter", "Oma", "Omama", "Omi", "großmutter", "oma", "omi"]
 pronunciations = ["Großmutter: ˈɡʀoːsˌmʊtɐ (IPA)"]
 omniglot = ["Großmutter \"grandmother\""]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "tufs-de tufs-de-10142747-n [i90289] Großmutter: (CILI) the mother of your father or mother"]
 existing_by_lemma = ["Grossmutter -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "Grossmutter -> tufs-de tufs-de-10142747-n [i90289] Großmutter: (CILI) the mother of your father or mother", "Großmama -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "Großmutter -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "Großmutter -> tufs-de tufs-de-10142747-n [i90289] Großmutter: (CILI) the mother of your father or mother", "Oma -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "Omama -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "Omi -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "großmutter -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "großmutter -> tufs-de tufs-de-10142747-n [i90289] Großmutter: (CILI) the mother of your father or mother", "oma -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter", "omi -> odenet odenet-9812-n [i90289] Oma, Großmutter, Großmama, Omama, Omi: die Mutter deines Vaters oder deiner Mutter"]
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["Grossmutter <- Wikidata L34048-S1", "Großmama <- odenet", "Großmutter <- TUFS, Wikidata L34048-S1, odenet", "Oma <- Wikidata L2350-S1 (informal), odenet", "Omama <- odenet", "Omi <- Wikidata L777208-S1 (diminutive, informal), odenet", "großmutter <- Wiktionary", "oma <- Wiktionary", "omi <- Wiktionary"]
+sources = ["Grossmutter <- Wikidata L34048-S1", "Großmama <- odenet", "Großmutter <- Omniglot, TUFS, Wikidata L34048-S1, odenet", "Oma <- Wikidata L2350-S1 (informal), odenet", "Omama <- odenet", "Omi <- Wikidata L777208-S1 (diminutive, informal), odenet", "großmutter <- Wiktionary", "oma <- Wiktionary", "omi <- Wiktionary"]
 comment = ""
 
 ["Fa;Fa"]
@@ -66,7 +66,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no de word; included for the hierarchy"
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -77,7 +77,7 @@ comment = ""
 ["Ch;Ch"]
 lemmas = ["Enkel", "Enkelkind", "Grosskind", "Großkind", "enkelkind"]
 pronunciations = ["Enkel: ˈɛŋkl̩ (IPA)"]
-omniglot = ["Enkelkinder \"grandchildren\""]
+omniglot = ["Enkelkinder \"grandchildren\" (not built: plural)"]
 omniglot_new = ["Enkelkinder"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
@@ -100,7 +100,7 @@ existing_by_ili = ["odenet odenet-19321-n [i90293] Enkel, Großsohn, Enkelsohn: 
 existing_by_lemma = ["Enkel -> odenet odenet-1774-n [i90280] Enkel, Großkind, Enkelkind: ein Kind Ihres Sohnes oder Ihrer Tochter", "Enkel -> odenet odenet-19321-n [i90293] Enkel, Großsohn, Enkelsohn: ein männliches Enkelkind", "Enkelsohn -> odenet odenet-19321-n [i90293] Enkel, Großsohn, Enkelsohn: ein männliches Enkelkind", "Grosssohn -> odenet odenet-19321-n [i90293] Enkel, Großsohn, Enkelsohn: ein männliches Enkelkind", "Großsohn -> odenet odenet-19321-n [i90293] Enkel, Großsohn, Enkelsohn: ein männliches Enkelkind", "enkel -> odenet odenet-1774-n [i90280] Enkel, Großkind, Enkelkind: ein Kind Ihres Sohnes oder Ihrer Tochter", "enkel -> odenet odenet-19321-n [i90293] Enkel, Großsohn, Enkelsohn: ein männliches Enkelkind"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["Enkel <- odenet", "Enkelsohn <- Wikidata L590792-S1, odenet", "Grosssohn <- Wikidata L936068-S1", "Großsohn <- Wikidata L936068-S1, odenet", "enkel <- Wiktionary"]
+sources = ["Enkel <- Omniglot, odenet", "Enkelsohn <- Wikidata L590792-S1, odenet", "Grosssohn <- Wikidata L936068-S1", "Großsohn <- Wikidata L936068-S1, odenet", "enkel <- Wiktionary"]
 comment = ""
 
 ["Ch;Da"]
@@ -114,7 +114,7 @@ existing_by_ili = ["odenet odenet-19320-n [i90281] Großtochter, Enkeltochter, E
 existing_by_lemma = ["Enkelin -> odenet odenet-19320-n [i90281] Großtochter, Enkeltochter, Enkelin: ein weibliches Enkelkind", "Enkeltochter -> odenet odenet-19320-n [i90281] Großtochter, Enkeltochter, Enkelin: ein weibliches Enkelkind", "Grosstochter -> odenet odenet-19320-n [i90281] Großtochter, Enkeltochter, Enkelin: ein weibliches Enkelkind", "Großtochter -> odenet odenet-19320-n [i90281] Großtochter, Enkeltochter, Enkelin: ein weibliches Enkelkind", "enkelin -> odenet odenet-19320-n [i90281] Großtochter, Enkeltochter, Enkelin: ein weibliches Enkelkind"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["Enkelin <- Wikidata L34036-S1, odenet", "Enkeltochter <- Wikidata L590790-S1, odenet", "Grosstochter <- Wikidata L936717-S1", "Großtochter <- Wikidata L936717-S1, odenet", "enkelin <- Wiktionary"]
+sources = ["Enkelin <- Omniglot, Wikidata L34036-S1, odenet", "Enkeltochter <- Wikidata L590790-S1, odenet", "Grosstochter <- Wikidata L936717-S1", "Großtochter <- Wikidata L936717-S1, odenet", "enkelin <- Wiktionary"]
 comment = ""
 
 ["So;Ch"]
@@ -203,7 +203,7 @@ comment = ""
 lemmas = ["Bruder", "Bruderherz", "Brüderchen", "bruder"]
 pronunciations = ["Bruder: bʀuːdɐ (IPA)"]
 omniglot = ["Bruder \"brother\""]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["tufs-de tufs-de-10286084-n [i91174] Geschwister: (CILI) a sibling who is male"]
@@ -211,7 +211,7 @@ existing_by_lemma = ["Bruder -> odenet odenet-13668-n [i88708] Bruder, Atze, Bru
 existing_hidden = 5  # other senses of these lemmas
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["Bruder <- TUFS, Wikidata L34031-S1", "Bruderherz <- Wikidata L641565-S1", "Brüderchen <- Wikidata L641564-S1 (diminutive)", "bruder <- Wiktionary"]
+sources = ["Bruder <- Omniglot, TUFS, Wikidata L34031-S1", "Bruderherz <- Wikidata L641565-S1", "Brüderchen <- Wikidata L641564-S1 (diminutive)", "bruder <- Wiktionary"]
 comment = ""
 
 ["Ss"]
@@ -225,7 +225,7 @@ existing_by_lemma = ["Schwester -> odenet odenet-13669-n [i93018] Schwester, Sch
 existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["Schwester <- TUFS, Wikidata L34032-S1", "Schwesterchen <- Wikidata L656532-S1 (diminutive)", "Schwesterherz <- Wikidata L656531-S1 (informal)", "schwester <- Wiktionary"]
+sources = ["Schwester <- Omniglot, TUFS, Wikidata L34032-S1", "Schwesterchen <- Wikidata L656532-S1 (diminutive)", "Schwesterherz <- Wikidata L656531-S1 (informal)", "schwester <- Wiktionary"]
 comment = ""
 
 ["El:Br"]
@@ -404,7 +404,7 @@ label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["Neffe <- Kinbank, Wikidata L34038-S1", "neffe <- Wiktionary"]
+sources = ["Neffe <- Kinbank, Omniglot, Wikidata L34038-S1", "neffe <- Wiktionary"]
 comment = ""
 
 ["Sb;Da"]
@@ -416,7 +416,7 @@ label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["Nichte <- Kinbank, Wikidata L34037-S1", "nichte <- Wiktionary"]
+sources = ["Nichte <- Kinbank, Omniglot, Wikidata L34037-S1", "nichte <- Wiktionary"]
 comment = ""
 
 ["Br;So"]
@@ -487,7 +487,7 @@ definition = "a son of one's parent's sibling (a cousin)"
 existing_by_lemma = ["Cousin -> odenet odenet-785-n [i89276] Cousin, Vetter: das Kind deiner Tante oder deines Onkels", "Cousin -> tufs-de tufs-de-09972010-n [i89276] Cousin, Cousine: (CILI) the child of your aunt or uncle", "Vetter -> odenet odenet-785-n [i89276] Cousin, Vetter: das Kind deiner Tante oder deines Onkels", "cousin -> odenet odenet-785-n [i89276] Cousin, Vetter: das Kind deiner Tante oder deines Onkels", "cousin -> tufs-de tufs-de-09972010-n [i89276] Cousin, Cousine: (CILI) the child of your aunt or uncle", "vetter -> odenet odenet-785-n [i89276] Cousin, Vetter: das Kind deiner Tante oder deines Onkels"]
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["Cousin <- Kinbank, TUFS", "Vetter <- Wikidata L400237-S1", "cousin <- Wiktionary", "vetter <- Wiktionary"]
+sources = ["Cousin <- Kinbank, Omniglot, TUFS", "Vetter <- Wikidata L400237-S1", "cousin <- Wiktionary", "vetter <- Wiktionary"]
 comment = ""
 
 ["Pa;Sb;Da"]
@@ -502,7 +502,7 @@ existing_by_lemma = ["Cousine -> tufs-de tufs-de-09972010-n [i89276] Cousin, Cou
 existing_hidden = 8  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["Base <- Wikidata L296922-S1", "Cousine <- Kinbank, Wikidata L34054-S1", "Kusine <- Wikidata L400228-S1", "Vetterin <- Wikidata L400238-S1", "base <- Wiktionary", "cousine <- Wiktionary", "kusine <- Wiktionary"]
+sources = ["Base <- Wikidata L296922-S1", "Cousine <- Kinbank, Omniglot, Wikidata L34054-S1", "Kusine <- Wikidata L400228-S1", "Vetterin <- Wikidata L400238-S1", "base <- Wiktionary", "cousine <- Wiktionary", "kusine <- Wiktionary"]
 comment = ""
 
 ["Pa;Sb;El:So"]
@@ -636,7 +636,7 @@ existing_by_ili = ["odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseit
 existing_by_lemma = ["Mutterbruder -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Muttersbruder -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Oheim -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Ohm -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Onkel -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Onkel -> tufs-de tufs-de-10736091-n [i93825] Onkel: (CILI) the brother of your father or mother; the husband of your aunt", "Onkel mütterlicherseits -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Onkel väterlicherseits -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante", "Vatersbruder -> odenet odenet-12357-n [i93825] Oheim, Onkel väterlicherseits, Muttersbruder, Onkel, Onkel mütterlicherseits, Mutterbruder, ...: der Bruder deines Vaters oder deiner Mutter; der Ehemann deiner Tante"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["Mutterbruder <- odenet", "Muttersbruder <- odenet", "Oheim <- odenet", "Ohm <- odenet", "Onkel <- TUFS, odenet", "Onkel mütterlicherseits <- odenet", "Onkel väterlicherseits <- odenet", "Vatersbruder <- odenet"]
+sources = ["Mutterbruder <- odenet", "Muttersbruder <- odenet", "Oheim <- odenet", "Ohm <- odenet", "Onkel <- Omniglot, TUFS, odenet", "Onkel mütterlicherseits <- odenet", "Onkel väterlicherseits <- odenet", "Vatersbruder <- odenet"]
 comment = ""
 
 ["Aun"]
@@ -651,12 +651,12 @@ existing_by_lemma = ["Tante -> tufs-de tufs-de-09823502-n [i88357] Tante: (CILI)
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["Tante <- TUFS"]
+sources = ["Tante <- Omniglot, TUFS"]
 comment = ""
 
 ["Pa"]
 lemmas = ["Elter", "Eltern", "Elternteil"]
-omniglot = ["Eltern \"parents\""]
+omniglot = ["Eltern \"parents\" (not built: plural)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -672,7 +672,7 @@ comment = ""
 lemmas = ["Alter", "Dad", "Daddy", "Erzeuger", "Kindsvater", "Pa", "Papa", "Papi", "Paps", "Senior", "Vater", "Vati", "alter Herr", "der Alte", "männlicher Elternteil"]
 pronunciations = ["Vater: ˈfaːtɐ (IPA)"]
 omniglot = ["Vater \"father\"", "Vati \"father\"", "Pa \"father\""]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["odenet odenet-8630-n [i89901] Senior, Alter, alter Herr, Kindsvater, männlicher Elternteil, Paps, ...: männliches Elternteil", "tufs-de tufs-de-10080869-n [i89901] Vater: (CILI) a male parent (also used as a term of address to your father)"]
@@ -680,14 +680,14 @@ existing_by_lemma = ["Alter -> odenet odenet-8630-n [i89901] Senior, Alter, alte
 existing_hidden = 12  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["Alter <- odenet", "Dad <- odenet", "Daddy <- odenet", "Erzeuger <- odenet", "Kindsvater <- odenet", "Pa <- odenet", "Papa <- Wikidata L612683-S1 (informal), odenet", "Papi <- Wikidata L585928-S1, odenet", "Paps <- odenet", "Senior <- odenet", "Vater <- TUFS, Wikidata L34042-S1, odenet", "Vati <- odenet", "alter Herr <- odenet", "der Alte <- odenet", "männlicher Elternteil <- odenet"]
+sources = ["Alter <- odenet", "Dad <- odenet", "Daddy <- odenet", "Erzeuger <- odenet", "Kindsvater <- odenet", "Pa <- Omniglot, odenet", "Papa <- Wikidata L612683-S1 (informal), odenet", "Papi <- Wikidata L585928-S1, odenet", "Paps <- odenet", "Senior <- odenet", "Vater <- Omniglot, TUFS, Wikidata L34042-S1, odenet", "Vati <- Omniglot, odenet", "alter Herr <- odenet", "der Alte <- odenet", "männlicher Elternteil <- odenet"]
 comment = ""
 
 ["Mo"]
 lemmas = ["Alte", "Gebärerin", "Lebensspenderin", "Ma", "Mam", "Mama", "Mami", "Muddern", "Muttchen", "Mutter", "Mutti", "Mütterchen", "alte Dame", "deine arme alte Mutter"]
 pronunciations = ["Mutter: ˈmʊtɐ (IPA)"]
 omniglot = ["Mutter \"mother\"", "Mutti \"mother\"", "Ma \"mother\""]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["odenet odenet-8936-n [i91462] Alte, Mutti, deine arme alte Mutter, alte Dame, Mami, Ma, ...: eine Frau, die ein Kind geboren hat", "tufs-de tufs-de-10332385-n [i91462] Mutter: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
@@ -695,12 +695,12 @@ existing_by_lemma = ["Alte -> odenet odenet-8936-n [i91462] Alte, Mutti, deine a
 existing_hidden = 9  # other senses of these lemmas
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["Alte <- odenet", "Gebärerin <- odenet", "Lebensspenderin <- odenet", "Ma <- odenet", "Mam <- odenet", "Mama <- Wikidata L641716-S1 (informal), odenet", "Mami <- odenet", "Muddern <- odenet", "Muttchen <- Wikidata L657323-S1 (diminutive)", "Mutter <- TUFS, Wikidata L34041-S1, odenet", "Mutti <- Wikidata L641710-S1 (informal), odenet", "Mütterchen <- Wikidata L656559-S1 (diminutive)", "alte Dame <- odenet", "deine arme alte Mutter <- odenet"]
+sources = ["Alte <- odenet", "Gebärerin <- odenet", "Lebensspenderin <- odenet", "Ma <- Omniglot, odenet", "Mam <- odenet", "Mama <- Wikidata L641716-S1 (informal), odenet", "Mami <- odenet", "Muddern <- odenet", "Muttchen <- Wikidata L657323-S1 (diminutive)", "Mutter <- Omniglot, TUFS, Wikidata L34041-S1, odenet", "Mutti <- Omniglot, Wikidata L641710-S1 (informal), odenet", "Mütterchen <- Wikidata L656559-S1 (diminutive)", "alte Dame <- odenet", "deine arme alte Mutter <- odenet"]
 comment = ""
 
 ["Ch"]
 lemmas = ["Kind"]
-omniglot = ["Kinder \"children\""]
+omniglot = ["Kinder \"children\" (not built: plural)"]
 omniglot_new = ["Kinder"]
 english = ["child", "kid"]
 label = "child"
@@ -725,7 +725,7 @@ existing_by_lemma = ["Bauer -> odenet odenet-5425-n [i93143] Bube, Junge, Wünsc
 existing_hidden = 8  # other senses of these lemmas
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["Bauer <- odenet", "Bube <- odenet", "Junge <- odenet", "Sohn <- Wikidata L400240-S1", "Söhnchen <- Wikidata L820857-S1 (diminutive)", "Söhnlein <- Wikidata L820811-S1 (diminutive)", "Unter <- odenet", "Wünscher <- odenet"]
+sources = ["Bauer <- odenet", "Bube <- odenet", "Junge <- odenet", "Sohn <- Omniglot, Wikidata L400240-S1", "Söhnchen <- Wikidata L820857-S1 (diminutive)", "Söhnlein <- Wikidata L820811-S1 (diminutive)", "Unter <- odenet", "Wünscher <- odenet"]
 comment = ""
 
 ["Da"]
@@ -740,12 +740,12 @@ existing_by_lemma = ["Tochter -> odenet odenet-12507-n [i89398] Töchterchen, To
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["Tochter <- Wikidata L400216-S1, odenet", "Töchterchen <- Wikidata L891899-S1 (diminutive), odenet"]
+sources = ["Tochter <- Omniglot, Wikidata L400216-S1, odenet", "Töchterchen <- Wikidata L891899-S1 (diminutive), odenet"]
 comment = ""
 
 ["Sp"]
 lemmas = ["Co.", "Compagnon", "Ehegatte", "Mitinhaber", "Partner"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["odenet odenet-9871-n [i93233] Co., Partner, Mitinhaber, Compagnon: der Ehepartner einer Person"]
@@ -767,13 +767,13 @@ existing_by_lemma = ["Alter -> odenet odenet-8630-n [i89901] Senior, Alter, alte
 existing_hidden = 13  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["Alter <- odenet", "Angetrauter <- odenet", "Ehegatte <- odenet", "Ehegespons <- odenet", "Ehemann <- Kinbank, Wikidata L484250-S1, odenet", "Ehepartner <- odenet", "Gatte <- odenet", "Gemahl <- odenet", "Gespons <- odenet", "Göttergatte <- odenet", "Kerl <- odenet", "Lebensgefährte <- odenet", "Macker <- odenet", "Mann <- Kinbank, TUFS, Wikidata L7302-S3, odenet", "Mustergatte <- odenet", "Männe <- odenet", "Partner <- odenet", "bessere Hälfte <- odenet"]
+sources = ["Alter <- odenet", "Angetrauter <- odenet", "Ehegatte <- odenet", "Ehegespons <- odenet", "Ehemann <- Kinbank, Wikidata L484250-S1, odenet", "Ehepartner <- odenet", "Gatte <- odenet", "Gemahl <- odenet", "Gespons <- odenet", "Göttergatte <- odenet", "Kerl <- odenet", "Lebensgefährte <- odenet", "Macker <- odenet", "Mann <- Kinbank, Omniglot, TUFS, Wikidata L7302-S3, odenet", "Mustergatte <- odenet", "Männe <- odenet", "Partner <- odenet", "bessere Hälfte <- odenet"]
 comment = ""
 
 ["Wi"]
 lemmas = ["Alte", "Angetraute", "Ehefrau", "Ehegattin", "Ehegemahlin", "Ehegespons", "Eheweib", "Frau", "Gattin", "Gebieterin", "Gemahlin", "Gespons", "Olle", "Weib", "bessere Hälfte", "frisch Vermählte"]
 omniglot = ["Frau \"wife\""]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["odenet odenet-9521-n [i94123] Alte, Gespons, bessere Hälfte, Ehegespons, Ehegattin, Eheweib, ...: Die weibliche Person in einer Ehe.", "tufs-de tufs-de-10780632-n [i94123] Frau: (CILI) a married woman; a man's partner in marriage"]
@@ -781,7 +781,7 @@ existing_by_lemma = ["Alte -> odenet odenet-8936-n [i91462] Alte, Mutti, deine a
 existing_hidden = 9  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["Alte <- odenet", "Angetraute <- odenet", "Ehefrau <- Kinbank, Wikidata L252570-S1, odenet", "Ehegattin <- odenet", "Ehegemahlin <- odenet", "Ehegespons <- odenet", "Eheweib <- odenet", "Frau <- Kinbank, TUFS, Wikidata L2945-S2, odenet", "Gattin <- odenet", "Gebieterin <- odenet", "Gemahlin <- odenet", "Gespons <- odenet", "Olle <- odenet", "Weib <- odenet", "bessere Hälfte <- odenet", "frisch Vermählte <- odenet"]
+sources = ["Alte <- odenet", "Angetraute <- odenet", "Ehefrau <- Kinbank, Wikidata L252570-S1, odenet", "Ehegattin <- odenet", "Ehegemahlin <- odenet", "Ehegespons <- odenet", "Eheweib <- odenet", "Frau <- Kinbank, Omniglot, TUFS, Wikidata L2945-S2, odenet", "Gattin <- odenet", "Gebieterin <- odenet", "Gemahlin <- odenet", "Gespons <- odenet", "Olle <- odenet", "Weib <- odenet", "bessere Hälfte <- odenet", "frisch Vermählte <- odenet"]
 comment = ""
 
 ["InL"]
@@ -812,7 +812,7 @@ label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["Schwiegervater <- Kinbank, Wikidata L590815-S2"]
+sources = ["Schwiegervater <- Kinbank, Omniglot, Wikidata L590815-S2"]
 comment = ""
 
 ["Sp;Mo"]
@@ -823,7 +823,7 @@ label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["Schwiegermutter <- Kinbank, Wikidata L590814-S1"]
+sources = ["Schwiegermutter <- Kinbank, Omniglot, Wikidata L590814-S1"]
 comment = ""
 
 ["Ch;Sp"]
@@ -849,25 +849,27 @@ sources = ["Eidam <- odenet", "Schwiegersohn <- odenet"]
 comment = ""
 
 ["BrL"]
-lemmas = []
-omniglot = ["Schwager \"brother-in-law\"", "Schwippschwager \"brother-in-law\" (spouse's sister's husband) (broader)"]
-omniglot_new = ["Schwager", "Schwippschwager"]
+lemmas = ["Schwager"]
+omniglot = ["Schwager \"brother-in-law\"", "Schwippschwager \"brother-in-law\" (spouse's sister's husband) (not built: broader)"]
+omniglot_new = ["Schwippschwager"]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["Schwager <- Omniglot"]
 comment = ""
 
 ["SsL"]
-lemmas = []
-omniglot = ["Schwägerin \"sister-in-law\"", "Schwippschwägerin \"sister-in-law\" (spouse's brother's wife) (broader)"]
-omniglot_new = ["Schwägerin", "Schwippschwägerin"]
+lemmas = ["Schwägerin"]
+omniglot = ["Schwägerin \"sister-in-law\"", "Schwippschwägerin \"sister-in-law\" (spouse's brother's wife) (not built: broader)"]
+omniglot_new = ["Schwippschwägerin"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["Schwägerin <- Omniglot"]
 comment = ""
 
 ["Fa|Fa;Br"]

@@ -31,4 +31,4 @@ Collaborative Interlingual Index. Until they are accepted, every synset's
 
 Sources: KinDiv (CC BY-SA 3.0); Kinbank (CC BY 4.0); Wikidata lexemes (CC0); TUFS Basic Vocabulary, Tokyo University of
 Foreign Studies (CC BY 4.0); Open English WordNet (CC BY 4.0); Wiktionary
-(CC BY-SA).
+(CC BY-SA); Omniglot family words, Simon Ager (CC BY-SA, by permission).

@@ -6,10 +6,11 @@
 """Read Omniglot's family-word pages into a table of words with concept codes.
 
 Omniglot (Simon Ager, https://www.omniglot.com/language/kinship/) lists about 30
-family words per language. Its licence does not allow reuse in the wordnet, so
-the words are used only to help reviewers: ``kin_review.py`` shows them as
-``omniglot`` lines. The pages are saved by hand (the site blocks automated
-access) to ``sources/omniglot/``, which is not committed.
+family words per language. Simon Ager gave permission to use its material under
+CC BY-SA (2015), so the words go into the build (`build.add_omniglot`) as well as
+the review files (``omniglot`` lines). The pages are saved by hand (the site
+blocks automated access) to ``sources/omniglot/``; only the extracted table is
+committed.
 
 Each page is one table of an English label and the language's words. A cell
 holds several words, each with qualifiers that narrow the label's concept:
@@ -22,9 +23,18 @@ holds several words, each with qualifiers that narrow the label's concept:
 
 A word gets the most specific of our concepts that its label and qualifiers
 allow; ``match`` is ``exact`` when every qualifier was used and ``broader`` when
-some were dropped to reach a concept.
+some were dropped to reach a concept. Then:
 
-Writes ``sources/omniglot/omniglot-words.tsv``.
+- a word listed under both sexes of a label (Indonesian *kakak* under "brother
+  (older)" and "sister (older)") goes on the concept that covers both
+  (``El:Sb``), which is what it means;
+- a word under a plural label ("children", "grandparents") in a language that
+  inflects for number is a plural form, not a lemma: ``plural``;
+- a word in ``data/omniglot-curation.tsv`` is left out (``excluded``): an
+  error, a typo, a joke or a phrase. Its ``feedback`` column holds the
+  corrections to send to Omniglot.
+
+Only ``exact`` rows are built. Writes ``data/candidates/omniglot-words.tsv``.
 
 Usage: uv run scripts/omniglot_words.py
 """
@@ -42,7 +52,32 @@ import build
 logger = logging.getLogger(__name__)
 
 PAGES = build.ROOT / "sources" / "omniglot"
-OUTPUT = PAGES / "omniglot-words.tsv"
+OUTPUT = build.CANDIDATES / "omniglot-words.tsv"
+CURATION = build.DATA / "omniglot-curation.tsv"
+#: labels whose words are plural forms where a language inflects for number
+PLURAL_LABELS = {
+    "children",
+    "child(-ren)",
+    "grandchildren",
+    "grandparents",
+    "parents",
+    "nephews & nieces",
+    "siblings",
+    "relatives",
+}
+#: languages on our pages that inflect nouns for number
+INFLECTING = {"cs", "de", "en", "es", "pl", "sk"}
+#: the term covering both sexes of a term
+BOTH = {
+    "Br": "Sb",
+    "Ss": "Sb",
+    "Fa": "Pa",
+    "Mo": "Pa",
+    "So": "Ch",
+    "Da": "Ch",
+    "Hu": "Sp",
+    "Wi": "Sp",
+}
 #: language named in the saved page's title -> our tag
 LANGUAGES = {
     "Cantonese": "yue",
@@ -395,6 +430,49 @@ def read_page(path: Path) -> list[tuple[str, str, str, str]]:
     return rows
 
 
+def merged(code: str, other: str) -> str:
+    """The code covering both `code` and `other` if they differ only in one
+    term's sex or relative age, else ''.
+
+    >>> merged("El:Br", "El:Ss"), merged("Sp;Fa", "Sp;Mo"), merged("Br", "Fa")
+    ('El:Sb', 'Sp;Pa', '')
+    >>> merged("Pa;El:Br", "Pa;Yn:Br")
+    'Pa;Br'
+    """
+    a, b = code.split(";"), other.split(";")
+    if len(a) != len(b):
+        return ""
+    diff = [i for i, (x, y) in enumerate(zip(a, b)) if x != y]
+    if len(diff) != 1:
+        return ""
+    i = diff[0]
+    *mods_a, term_a = a[i].split(":")
+    *mods_b, term_b = b[i].split(":")
+    if term_a == term_b and {*mods_a, *mods_b} == {"El", "Yn"}:
+        a[i] = term_a
+        return ";".join(a)
+    if mods_a != mods_b or term_a == term_b or BOTH.get(term_a) != BOTH.get(term_b):
+        return ""
+    a[i] = ":".join([*mods_a, BOTH[term_a]]) if term_a in BOTH else ""
+    return ";".join(a) if a[i] else ""
+
+
+def merge_sexes(rows: list[list[str]], concepts: dict) -> None:
+    """Put a word listed under both sexes of a concept on the one covering both."""
+    by_word: dict[tuple[str, str], list[list[str]]] = {}
+    for row in rows:
+        if row[6] == "exact":
+            by_word.setdefault((row[0], row[3]), []).append(row)
+    for group in by_word.values():
+        for one in group:
+            for two in group:
+                both = merged(one[5], two[5])
+                if both and both in concepts:
+                    labels = f"(under {one[2]} and {two[2]})"
+                    for row in (one, two):
+                        row[5], row[7] = both, f"{row[7]} {labels}".strip()
+
+
 def main() -> None:
     """Write omniglot-words.tsv."""
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -418,12 +496,21 @@ def main() -> None:
                 ((c, k) for c, k in candidates(label_code, found) if c in concepts),
                 ("", ""),
             )
-            out.append((LANGUAGES[name], label, word, roman, code, kind, note))
+            tag = LANGUAGES[name]
+            if kind == "exact" and tag in INFLECTING and label in PLURAL_LABELS:
+                kind = "plural"
+            out.append([tag, name, label, word, roman, code, kind, note])
+    merge_sexes(out, concepts)
+    excluded = {
+        (row["tag"], row["word"], row["code"]) for row in build.read_tsv(CURATION)
+    }
+    for row in out:
+        if (row[0], row[3], row[5]) in excluded:
+            row[6] = "excluded"
+    columns = ["tag", "language", "label", "word", "romanization", "code", "match"]
     with OUTPUT.open("w", encoding="utf8", newline="") as handle:
         writer = csv.writer(handle, delimiter="\t", lineterminator="\n")
-        writer.writerow(
-            ["tag", "label", "word", "romanization", "code", "match", "note"]
-        )
+        writer.writerow([*columns, "note"])
         writer.writerows(out)
     logger.info(
         "wrote %d words (%d languages); labels with no concept: %s",

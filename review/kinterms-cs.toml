@@ -9,15 +9,15 @@
 # ntumc: the concept's lemmas in the NTU wordnet (by ILI, so none for a
 #   concept without one). Not yet in it: new_senses, words it has but not
 #   for this concept; new_words, words it does not have at all.
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = []
 status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["prarodiče \"grandparents\""]
+omniglot = ["prarodiče \"grandparents\" (not built: plural)"]
 omniglot_new = ["prarodiče"]
 english = ["grandparent"]
 label = "grandparent"
@@ -36,20 +36,20 @@ definition = "the father of one's parent (a grandparent)"
 ntumc = ["děd <- 10142391-n", "děda <- 10142391-n", "dědeček <- 10142391-n"]
 hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
 ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["děd <- Wiktionary", "děda <- Wiktionary", "dědeček <- Kinbank, Wiktionary"]
+sources = ["děd <- Wiktionary", "děda <- Omniglot, Wiktionary", "dědeček <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Pa;Mo"]
 lemmas = ["babička", "bába", "bábinka"]
 omniglot = ["babička \"grandmother\""]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 ntumc = ["babička <- 10142747-n", "bábinka <- 10142747-n", "bábi <- 10142747-n", "babi <- 10142747-n"]
 new_senses = ["bába"]
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["babička <- Kinbank, Wikidata L407967-S1, Wiktionary", "bába <- Wikidata L407965-S2 (old-fashioned)", "bábinka <- Wikidata L407969-S1 (expressive term)"]
+sources = ["babička <- Kinbank, Omniglot, Wikidata L407967-S1, Wiktionary", "bába <- Wikidata L407965-S2 (old-fashioned)", "bábinka <- Wikidata L407969-S1 (expressive term)"]
 comment = ""
 
 ["Fa;Fa"]
@@ -66,7 +66,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no cs word; included for the hierarchy"
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -76,7 +76,7 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["vnouče", "vnúčě"]
-omniglot = ["vnoučata \"grandchildren\""]
+omniglot = ["vnoučata \"grandchildren\" (not built: plural)"]
 omniglot_new = ["vnoučata"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
@@ -98,7 +98,7 @@ ntumc = ["vnuk <- 10143299-n"]
 new_words = ["vnouček"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["vnouček <- Wikidata L407640-S1 (diminutive)", "vnuk <- Wikidata L407639-S1, Wiktionary"]
+sources = ["vnouček <- Wikidata L407640-S1 (diminutive)", "vnuk <- Omniglot, Wikidata L407639-S1, Wiktionary"]
 comment = ""
 
 ["Ch;Da"]
@@ -110,7 +110,7 @@ definition = "a daughter of one's child (a grandchild)"
 new_words = ["vnučka"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["vnučka <- Wikidata L407637-S1, Wiktionary"]
+sources = ["vnučka <- Omniglot, Wikidata L407637-S1, Wiktionary"]
 comment = ""
 
 ["So;So"]
@@ -171,14 +171,14 @@ comment = ""
 ["Br"]
 lemmas = ["bratr", "bratřík", "bratříček", "brácha", "bráška"]
 omniglot = ["bratr \"brother\""]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 new_senses = ["bratr"]
 new_words = ["bratřík", "bratříček", "brácha", "bráška"]
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["bratr <- Wikidata L408000-S1, Wiktionary", "bratřík <- Wikidata L408001-S1 (diminutive)", "bratříček <- Wikidata L408002-S1 (diminutive)", "brácha <- Wikidata L407994-S1 (Common Czech)", "bráška <- Wikidata L407995-S1 (Common Czech, diminutive)"]
+sources = ["bratr <- Omniglot, Wikidata L408000-S1, Wiktionary", "bratřík <- Wikidata L408001-S1 (diminutive)", "bratříček <- Wikidata L408002-S1 (diminutive)", "brácha <- Wikidata L407994-S1 (Common Czech)", "bráška <- Wikidata L407995-S1 (Common Czech, diminutive)"]
 comment = ""
 
 ["Ss"]
@@ -192,7 +192,7 @@ new_senses = ["sestra"]
 new_words = ["sestřička", "ségra"]
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["sestra <- Wikidata L221122-S1, Wiktionary", "sestřička <- Wikidata L407997-S1 (diminutive)", "ségra <- Wikidata L407996-S1 (Common Czech)"]
+sources = ["sestra <- Omniglot, Wikidata L221122-S1, Wiktionary", "sestřička <- Wikidata L407997-S1 (diminutive)", "ségra <- Wikidata L407996-S1 (Common Czech)"]
 comment = ""
 
 ["El:Br"]
@@ -266,7 +266,7 @@ definition = "a son of one's sibling (a nephew or niece)"
 ntumc = ["synovec <- 10353355-n"]
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["synovec <- Kinbank, Wikidata L408011-S1, Wiktionary"]
+sources = ["synovec <- Kinbank, Omniglot, Wikidata L408011-S1, Wiktionary"]
 comment = ""
 
 ["Sb;Da"]
@@ -279,7 +279,7 @@ ntumc = ["neteř <- 10357613-n"]
 new_words = ["neť"]
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["neteř <- Kinbank, Wikidata L408012-S1, Wiktionary", "neť <- Wikidata L408013-S1 (book expression)"]
+sources = ["neteř <- Kinbank, Omniglot, Wikidata L408012-S1, Wiktionary", "neť <- Omniglot, Wikidata L408013-S1 (book expression)"]
 comment = ""
 
 ["Br;So"]
@@ -336,7 +336,7 @@ definition = "a son of one's parent's sibling (a cousin)"
 new_senses = ["bratranec"]
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["bratranec <- Kinbank, Wikidata L408003-S1, Wiktionary"]
+sources = ["bratranec <- Kinbank, Omniglot, Wikidata L408003-S1, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;Da"]
@@ -350,7 +350,7 @@ new_senses = ["sestřenice"]
 new_words = ["sestřenka"]
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["sestřenice <- Kinbank, Wikidata L407999-S1, Wiktionary", "sestřenka <- Wikidata L407998-S1 (diminutive)"]
+sources = ["sestřenice <- Kinbank, Omniglot, Wikidata L407999-S1, Wiktionary", "sestřenka <- Wikidata L407998-S1 (diminutive)"]
 comment = ""
 
 ["Pa;Sb;El:So"]
@@ -475,32 +475,32 @@ ancestors = []
 comment = ""
 
 ["Unc"]
-lemmas = []
+lemmas = ["strýc"]
 omniglot = ["strýc \"uncle\""]
-omniglot_new = ["strýc"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 ntumc = ["strýc <- 10736091-n", "strýček <- 10736091-n", "strejda <- 10736091-n"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["strýc <- Omniglot"]
 comment = ""
 
 ["Aun"]
-lemmas = []
+lemmas = ["teta"]
 omniglot = ["teta \"aunt\""]
-omniglot_new = ["teta"]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 ntumc = ["teta <- 09823502-n"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["teta <- Omniglot"]
 comment = ""
 
 ["Pa"]
 lemmas = ["rodiče"]
-omniglot = ["rodiče \"parents\""]
+omniglot = ["rodiče \"parents\" (not built: plural)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -513,7 +513,7 @@ comment = ""
 ["Fa"]
 lemmas = ["fotr", "fotřík", "otec", "papá", "tatík", "tatínek", "tatíček", "táta"]
 omniglot = ["otec \"father\""]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 ntumc = ["otec <- 10080869-n", "původce <- 10080869-n", "ploditel <- 10080869-n"]
@@ -521,13 +521,13 @@ new_senses = ["tatík", "tatínek", "táta"]
 new_words = ["fotr", "fotřík", "papá", "tatíček"]
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["fotr <- Wikidata L407587-S1 (Common Czech, augmentative)", "fotřík <- Wikidata L407588-S1 (Common Czech, augmentative)", "otec <- Wikidata L5944-S1", "papá <- Wikidata L407589-S1 (informal, old-fashioned)", "tatík <- Wikidata L407584-S1 (diminutive, expressive term)", "tatínek <- Wikidata L407585-S1 (diminutive)", "tatíček <- Wikidata L407586-S1 (diminutive, expressive term)", "táta <- Wikidata L50763-S1 (informal)"]
+sources = ["fotr <- Wikidata L407587-S1 (Common Czech, augmentative)", "fotřík <- Wikidata L407588-S1 (Common Czech, augmentative)", "otec <- Omniglot, Wikidata L5944-S1", "papá <- Wikidata L407589-S1 (informal, old-fashioned)", "tatík <- Wikidata L407584-S1 (diminutive, expressive term)", "tatínek <- Wikidata L407585-S1 (diminutive)", "tatíček <- Wikidata L407586-S1 (diminutive, expressive term)", "táta <- Wikidata L50763-S1 (informal)"]
 comment = ""
 
 ["Mo"]
 lemmas = ["maminka", "mamička", "mamá", "matinka", "matička", "matka", "máma", "máti"]
 omniglot = ["matka \"mother\""]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 ntumc = ["matka <- 10332385-n", "matička <- 10332385-n"]
@@ -535,12 +535,12 @@ new_senses = ["maminka", "máma", "máti"]
 new_words = ["mamička", "mamá", "matinka"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["maminka <- Wikidata L407577-S1 (diminutive)", "mamička <- Wikidata L407574-S1 (diminutive, expressive term)", "mamá <- Wikidata L407576-S1 (informal, old-fashioned)", "matinka <- Wikidata L407572-S1 (diminutive, expressive term)", "matička <- Wikidata L407571-S1 (diminutive, expressive term)", "matka <- Wikidata L5945-S1", "máma <- Wikidata L407573-S1 (informal)", "máti <- Wikidata L407575-S1 (book expression, old-fashioned)"]
+sources = ["maminka <- Wikidata L407577-S1 (diminutive)", "mamička <- Wikidata L407574-S1 (diminutive, expressive term)", "mamá <- Wikidata L407576-S1 (informal, old-fashioned)", "matinka <- Wikidata L407572-S1 (diminutive, expressive term)", "matička <- Wikidata L407571-S1 (diminutive, expressive term)", "matka <- Omniglot, Wikidata L5945-S1", "máma <- Wikidata L407573-S1 (informal)", "máti <- Wikidata L407575-S1 (book expression, old-fashioned)"]
 comment = ""
 
 ["Ch"]
 lemmas = ["dítě"]
-omniglot = ["děti \"children\""]
+omniglot = ["děti \"children\" (not built: plural)"]
 omniglot_new = ["děti"]
 english = ["child", "kid"]
 label = "child"
@@ -561,7 +561,7 @@ ntumc = ["chlapec <- 10624074-n", "synek <- 10624074-n", "hoch <- 10624074-n", "
 new_words = ["syneček", "synátor", "synáček"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["syn <- Wikidata L407623-S1", "synek <- Wikidata L407625-S1 (diminutive)", "syneček <- Wikidata L407633-S1 (diminutive)", "synátor <- Wikidata L407636-S1 (expressive term)", "synáček <- Wikidata L407629-S1 (diminutive)"]
+sources = ["syn <- Omniglot, Wikidata L407623-S1", "synek <- Wikidata L407625-S1 (diminutive)", "syneček <- Wikidata L407633-S1 (diminutive)", "synátor <- Wikidata L407636-S1 (expressive term)", "synáček <- Wikidata L407629-S1 (diminutive)"]
 comment = ""
 
 ["Da"]
@@ -574,12 +574,12 @@ ntumc = ["dcerka <- 09992837-n", "dcera <- 09992837-n"]
 new_words = ["dcerunka", "dceruška"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["dcera <- Wikidata L407626-S1", "dcerka <- Wikidata L407628-S1 (diminutive)", "dcerunka <- Wikidata L407634-S1 (diminutive, expressive term)", "dceruška <- Wikidata L407630-S1 (diminutive, expressive term)"]
+sources = ["dcera <- Omniglot, Wikidata L407626-S1", "dcerka <- Wikidata L407628-S1 (diminutive)", "dcerunka <- Wikidata L407634-S1 (diminutive, expressive term)", "dceruška <- Wikidata L407630-S1 (diminutive, expressive term)"]
 comment = ""
 
 ["Sp"]
 lemmas = ["choť"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 ntumc = ["choť <- 10640620-n", "manžel <- 10640620-n", "manželka <- 10640620-n"]
@@ -599,13 +599,13 @@ new_senses = ["muž"]
 new_words = ["mužík", "mužíček"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["choť <- Wikidata L412002-S1", "manžel <- Wikidata L412004-S1", "muž <- Wikidata L411112-S2", "mužík <- Wikidata L411116-S2 (diminutive)", "mužíček <- Wikidata L411117-S2 (diminutive)"]
+sources = ["choť <- Wikidata L412002-S1", "manžel <- Omniglot, Wikidata L412004-S1", "muž <- Wikidata L411112-S2", "mužík <- Wikidata L411116-S2 (diminutive)", "mužíček <- Wikidata L411117-S2 (diminutive)"]
 comment = ""
 
 ["Wi"]
 lemmas = ["choť", "manželka", "žena", "ženuška", "žínka"]
 omniglot = ["manželka \"wife\""]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 ntumc = ["žena <- 10780632-n", "manželka <- 10780632-n", "stará <- 10780632-n"]
@@ -613,7 +613,7 @@ new_senses = ["choť", "žínka"]
 new_words = ["ženuška"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["choť <- Wikidata L412003-S1", "manželka <- Wikidata L412005-S1", "žena <- Wikidata L411078-S2", "ženuška <- Wikidata L411080-S2 (diminutive, expressive term)", "žínka <- Wikidata L411079-S2 (diminutive, expressive term)"]
+sources = ["choť <- Wikidata L412003-S1", "manželka <- Omniglot, Wikidata L412005-S1", "žena <- Wikidata L411078-S2", "ženuška <- Wikidata L411080-S2 (diminutive, expressive term)", "žínka <- Wikidata L411079-S2 (diminutive, expressive term)"]
 comment = ""
 
 ["InL"]
@@ -646,44 +646,44 @@ ntumc = ["tchán <- 10082043-n"]
 new_words = ["tschán"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["tchán <- Wikidata L407642-S1", "tschán <- Kinbank"]
+sources = ["tchán <- Omniglot, Wikidata L407642-S1", "tschán <- Kinbank"]
 comment = ""
 
 ["Sp;Mo"]
-lemmas = ["svegruše", "tchyně", "tschyně"]
+lemmas = ["svegruše", "tchyně", "tchýně", "tschyně"]
 omniglot = ["tchýně \"mother-in-law\""]
-omniglot_new = ["tchýně"]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
 ntumc = ["tchyně <- 10333317-n"]
-new_words = ["svegruše", "tschyně"]
+new_words = ["svegruše", "tchýně", "tschyně"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["svegruše <- Wikidata L1353930-S1", "tchyně <- Wikidata L407643-S1", "tschyně <- Kinbank"]
+sources = ["svegruše <- Wikidata L1353930-S1", "tchyně <- Wikidata L407643-S1", "tchýně <- Omniglot", "tschyně <- Kinbank"]
 comment = ""
 
 ["BrL"]
-lemmas = []
+lemmas = ["švagr"]
 omniglot = ["švagr \"brother-in-law\""]
-omniglot_new = ["švagr"]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
 ntumc = ["švagr <- 09877288-n"]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["švagr <- Omniglot"]
 comment = ""
 
 ["SsL"]
-lemmas = []
+lemmas = ["švagrová"]
 omniglot = ["švagrová \"sister-in-law\""]
-omniglot_new = ["švagrová"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
+new_words = ["švagrová"]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["švagrová <- Omniglot"]
 comment = ""
 
 ["Sp;Br"]

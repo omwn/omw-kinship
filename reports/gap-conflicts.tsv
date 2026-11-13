@@ -72,6 +72,7 @@ Cantonese	yue	Pa;Sb;Ch	表哥	cantown-yue:1.0	Wiktionary
 Cantonese	yue	Pa;Sb;Ch	表妹	cantown-yue:1.0	Wiktionary
 Cantonese	yue	Pa;Sb;Ch	表姐	cantown-yue:1.0	Wiktionary
 Cantonese	yue	Pa;Sb;Ch	表弟	cantown-yue:1.0	Wiktionary
+Cantonese	yue	Sb	兄弟姐妹	Omniglot	Wiktionary
 Catalan	ca	Ch;Ch	nét	omw-ca:2.0	Wiktionary
 Catalan	ca	Pa;Pa	avi	omw-ca:2.0	Wiktionary
 Catalan	ca	Pa;Pa	avis	omw-ca:2.0	Wiktionary
@@ -217,13 +218,19 @@ Italian	it	Pa;Sb;Ch	cugino	omw-iwn:2.0	Wiktionary & Native speaker
 Italian	it	Pa;Sb;Ch	cugino di primo grado	omw-it:2.0	Wiktionary & Native speaker
 Italian	it	Sb	sorellastra	Wikidata L1181248-S1	Wiktionary & Native speaker
 Japanese	ja	Br	きょうだい	Wikidata L626058-S2	Wiktionary
+Japanese	ja	Br	ご兄弟	Omniglot	Wiktionary
+Japanese	ja	Br	兄弟	Omniglot	Wiktionary
 Japanese	ja	Br	兄弟	Wikidata L626058-S2	Wiktionary
 Japanese	ja	Fa;El:Br	おじさん	Wikidata L1073117-S1	Wiktionary
 Japanese	ja	Fa;El:Br	伯父さん	Wikidata L1073117-S1	Wiktionary
 Japanese	ja	Fa;Yn:Br	おじ	Wikidata L626374-S1	Wiktionary
 Japanese	ja	Fa;Yn:Br	叔父	Wikidata L626374-S1	Wiktionary
+Japanese	ja	Pa;El:Br	伯父	Omniglot	Murdock data
+Japanese	ja	Pa;El:Ss	伯母	Omniglot	Murdock data
 Japanese	ja	Pa;Pa	祖父母	Kinbank v_japanesenucl1643: fPP;mPP	Wiktionary
 Japanese	ja	Pa;Pa	祖父母	wnja:2.1	Wiktionary
+Japanese	ja	Pa;Yn:Br	叔父	Omniglot	Murdock data
+Japanese	ja	Pa;Yn:Ss	叔母	Omniglot	Murdock data
 Japanese	ja	Sb	きょうだい	Kinbank v_japanesenucl1643: fG;mG	Wiktionary
 Japanese	ja	Sb	きょうだい	Wikidata L626058-S1	Wiktionary
 Japanese	ja	Sb	けいてい	Wikidata L1475602-S1 (standard language)	Wiktionary
@@ -231,9 +238,11 @@ Japanese	ja	Sb	兄弟	TUFS Basic Vocabulary (ja, word 1627)	Wiktionary
 Japanese	ja	Sb	兄弟	Wikidata L1475602-S1 (standard language)	Wiktionary
 Japanese	ja	Sb	兄弟	Wikidata L626058-S1	Wiktionary
 Japanese	ja	Sb	兄弟	wnja:2.1	Wiktionary
+Japanese	ja	Sb	兄弟姉妹	Omniglot	Wiktionary
 Japanese	ja	Sb	兄弟姉妹	wnja:2.1	Wiktionary
 Japanese	ja	Ss	しまい	Wikidata L406337-S1	Wiktionary
 Japanese	ja	Ss	シスター	Wikidata L1368723-S1	Wiktionary
+Japanese	ja	Ss	姉妹	Omniglot	Wiktionary
 Japanese	ja	Ss	姉妹	Wikidata L406337-S1	Wiktionary
 Javanese	jv	El:Sb	raka	Kinbank p_javanesejava1254: feB;feZ;meB;meZ	Wiktionary
 Kannada	kn	o;Yn:Ss	nǎnnǎ tǎngi	Kinbank p_morgan1871canaresenucl1305: fyZ	Native speaker
@@ -318,11 +327,14 @@ Lisu	lis	Pa;Mo	ajɛ	Kinbank p_lisulisu1250a: fFM;fMM;mFM;mMM	Murdock data
 Lisu	lis	Pa;Mo	ane	Kinbank p_lisulisu1250d: fFM;fMM;mFM;mMM	Murdock data
 Lisu	lis	Pa;Mo	aʐa	Kinbank p_lisulisu1250b: fFM;fMM;mFM;mMM	Murdock data
 Luxembourgish	lb	Pa;Pa	grousselteren	Kinbank v_luxembourgishluxe1241: fPP;mPP	Wiktionary
+Malay	ms	Br	saudara	Omniglot	Wiktionary
 Malay	ms	Pa;Pa	datuk	wnb-zsm:1.5	Wiktionary
 Malay	ms	Pa;Pa	nenek	wnb-zsm:1.5	Wiktionary
+Malay	ms	Sb	adik-beradik	Omniglot	Wiktionary
 Malay	ms	Sb	adik-beradik	TUFS Basic Vocabulary (ms, word 1627)	Wiktionary
 Malay	ms	Sb	adik-beradik	wnb-zsm:1.5	Wiktionary
 Malay	ms	Sb	saudara kandung	wnb-zsm:1.5	Wiktionary
+Malay	ms	Ss	saudari	Omniglot	Wiktionary
 Malayalam	ml	Mo;Pa	ammatu	Kinbank v_malayalammala1464: fMF;fMM;mMF;mMM	Native speaker
 Malayalam	ml	Mo;Pa	muttaccan	Kinbank v_malayalammala1464: fMF;fMM;mMF;mMM	Native speaker
 Manchu	mnc	Ch;Da	ᠣᠮᠣᠯᠣ ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ	Wiktionary	Murdock data

@@ -7,14 +7,14 @@
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
 # `proposed` lemmas are NOT in the build: written by Claude Opus 5.5 from its own knowledge, for a speaker to check.
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["starý rodič"]
-omniglot = ["starí rodičia \"grandparents\""]
+omniglot = ["starí rodičia \"grandparents\" (not built: plural)"]
 omniglot_new = ["starí rodičia"]
 english = ["grandparent"]
 label = "grandparent"
@@ -39,7 +39,7 @@ existing_by_ili = ["omw-sk omw-sk-10142391-n [i90287] deduško, dedko, dedo, sta
 existing_by_lemma = ["dedko -> omw-sk omw-sk-10142391-n [i90287] deduško, dedko, dedo, starý otec: (CILI) the father of your father or mother", "dedo -> omw-sk omw-sk-10142391-n [i90287] deduško, dedko, dedo, starý otec: (CILI) the father of your father or mother", "deduško -> omw-sk omw-sk-10142391-n [i90287] deduško, dedko, dedo, starý otec: (CILI) the father of your father or mother", "starý otec -> omw-sk omw-sk-10142391-n [i90287] deduško, dedko, dedo, starý otec: (CILI) the father of your father or mother"]
 hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
 ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["dedko <- Kinbank, Wiktionary, omw-sk", "dedo <- Wiktionary, omw-sk", "deduško <- omw-sk", "starý otec <- Kinbank, Wiktionary, omw-sk"]
+sources = ["dedko <- Kinbank, Omniglot, Wiktionary, omw-sk", "dedo <- Wiktionary, omw-sk", "deduško <- omw-sk", "starý otec <- Kinbank, Wiktionary, omw-sk"]
 comment = ""
 
 ["Pa;Mo"]
@@ -48,7 +48,7 @@ proposed = ["starká", "babi"]
 confidence = ["medium", "low"]
 notes = ["starká: regional/colloquial (central and western Slovakia)", "babi: colloquial, mostly vocative/address form"]
 omniglot = ["babička \"grandmother\""]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["omw-sk omw-sk-10142747-n [i90289] baba, stará mama, babka, babička: (CILI) the mother of your father or mother"]
@@ -56,7 +56,7 @@ existing_by_lemma = ["baba -> omw-sk omw-sk-10142747-n [i90289] baba, stará mam
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["baba <- omw-sk", "babička <- Wiktionary, omw-sk", "babka <- omw-sk", "stará mama <- Kinbank, omw-sk", "stará matka <- Wiktionary"]
+sources = ["baba <- omw-sk", "babička <- Omniglot, Wiktionary, omw-sk", "babka <- omw-sk", "stará mama <- Kinbank, omw-sk", "stará matka <- Wiktionary"]
 comment = ""
 
 ["Fa;Fa"]
@@ -73,7 +73,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no sk word; included for the hierarchy"
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -87,7 +87,7 @@ status = "KinDiv records a gap here, but there are words: check"
 proposed = ["vnúča", "vnúčatko"]
 confidence = ["high", "medium"]
 notes = ["vnúča: neutral, neuter noun; plural vnúčatá is the common general term for grandchildren", "vnúčatko: diminutive"]
-omniglot = ["vnúčatá \"grandchildren\""]
+omniglot = ["vnúčatá \"grandchildren\" (not built: plural)"]
 omniglot_new = ["vnúčatá"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
@@ -107,7 +107,7 @@ label = "grandson"
 definition = "a son of one's child (a grandchild)"
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["vnuk <- Kinbank, Wiktionary"]
+sources = ["vnuk <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Ch;Da"]
@@ -118,7 +118,7 @@ label = "granddaughter"
 definition = "a daughter of one's child (a grandchild)"
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["vnučka <- Kinbank, Wiktionary"]
+sources = ["vnučka <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["So;So"]
@@ -183,7 +183,7 @@ proposed = ["bratček", "braček", "brácho"]
 confidence = ["high", "medium", "low"]
 notes = ["bratček: diminutive, affectionate", "braček: diminutive, colloquial (also regional)", "brácho: slang, mostly in address; check whether the lemma form is acceptable"]
 omniglot = ["brat \"brother\""]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["omw-sk omw-sk-10286084-n [i91174] súrodenec mužského pohlavia: (CILI) a sibling who is male"]
@@ -191,7 +191,7 @@ existing_by_lemma = ["súrodenec mužského pohlavia -> omw-sk omw-sk-10286084-n
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["brat <- Kinbank, Wiktionary", "súrodenec mužského pohlavia <- omw-sk"]
+sources = ["brat <- Kinbank, Omniglot, Wiktionary", "súrodenec mužského pohlavia <- omw-sk"]
 comment = ""
 
 ["Ss"]
@@ -207,7 +207,7 @@ existing_by_ili = ["omw-sk omw-sk-10084181-n [i89922] sestra, súrodenec žensk�
 existing_by_lemma = ["sestra -> omw-sk omw-sk-10602985-n [i93018] sestra: (CILI) a female person who has the same parents as another person", "sestra -> omw-sk omw-sk-10084181-n [i89922] sestra, súrodenec ženského pohlavia: (CILI) a person's sister", "súrodenec ženského pohlavia -> omw-sk omw-sk-10084181-n [i89922] sestra, súrodenec ženského pohlavia: (CILI) a person's sister"]
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["sestra <- Kinbank, Wiktionary, omw-sk", "súrodenec ženského pohlavia <- omw-sk"]
+sources = ["sestra <- Kinbank, Omniglot, Wiktionary, omw-sk", "súrodenec ženského pohlavia <- omw-sk"]
 comment = ""
 
 ["El:Br"]
@@ -355,7 +355,7 @@ label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["synovec <- Kinbank"]
+sources = ["synovec <- Kinbank, Omniglot"]
 comment = ""
 
 ["Sb;Da"]
@@ -366,7 +366,7 @@ label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["neter <- Kinbank, Wikidata L460027-S1"]
+sources = ["neter <- Kinbank, Omniglot, Wikidata L460027-S1"]
 comment = ""
 
 ["Br;Ch"]
@@ -405,7 +405,7 @@ label = "male cousin"
 definition = "a son of one's parent's sibling (a cousin)"
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["bratanec <- Kinbank", "bratranec <- Wiktionary"]
+sources = ["bratanec <- Kinbank", "bratranec <- Omniglot, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;Da"]
@@ -420,7 +420,7 @@ label = "female cousin"
 definition = "a daughter of one's parent's sibling (a cousin)"
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["sesternica <- Kinbank, Wiktionary"]
+sources = ["sesternica <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;El:So"]
@@ -549,31 +549,31 @@ sources = ["príbuzná osoba <- omw-sk"]
 comment = ""
 
 ["Unc"]
-lemmas = []
+lemmas = ["strýko"]
 proposed = ["ujo", "strýko"]
 confidence = ["medium", "medium"]
 notes = ["ujo: also used for an aunt's husband (uncle by marriage)", "strýko: also used for an aunt's husband in some regions"]
 omniglot = ["strýko \"uncle\""]
-omniglot_new = ["strýko"]
 english = ["uncle"]
 label = "uncle (by blood or marriage)"
 definition = "the brother of your father or mother; the husband of your aunt"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["strýko <- Omniglot"]
 comment = ""
 
 ["Aun"]
-lemmas = []
+lemmas = ["teta"]
 proposed = ["teta"]
 confidence = ["medium"]
 notes = ["teta: also used for an uncle's wife (aunt by marriage); generic term for an adult woman in children's speech"]
 omniglot = ["teta \"aunt\""]
-omniglot_new = ["teta"]
 english = ["aunt", "auntie", "aunty"]
 label = "aunt (by blood or marriage)"
 definition = "the sister of your father or mother; the wife of your uncle"
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
+sources = ["teta <- Omniglot"]
 comment = ""
 
 ["Pa;Br;Wi"]
@@ -604,7 +604,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodič", "rodičia"]
-omniglot = ["rodičia \"parents\""]
+omniglot = ["rodičia \"parents\" (not built: plural)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -621,7 +621,7 @@ proposed = ["otecko", "ocko", "oco", "tato", "tatko", "tatino", "foter", "apa"]
 confidence = ["high", "high", "medium", "high", "high", "medium", "low", "low"]
 notes = ["otecko: diminutive, affectionate; common in address", "ocko: diminutive, colloquial; very common in address and in children's speech", "oco: colloquial", "tato: colloquial; main everyday address term", "tatko: diminutive, colloquial", "tatino: diminutive, colloquial, affectionate", "foter: slang, teenage speech; Bohemism (cf. Czech fotr)", "apa: regional (southern/eastern Slovakia, from Hungarian apa)"]
 omniglot = ["otec \"father\""]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["omw-sk omw-sk-10080869-n [i89901] ploditeľ, otec: (CILI) a male parent (also used as a term of address to your father)"]
@@ -629,7 +629,7 @@ existing_by_lemma = ["otec -> omw-sk omw-sk-10080869-n [i89901] ploditeľ, otec:
 existing_hidden = 4  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["otec <- Wikidata L245606-S1, omw-sk", "ploditeľ <- omw-sk"]
+sources = ["otec <- Omniglot, Wikidata L245606-S1, omw-sk", "ploditeľ <- omw-sk"]
 comment = ""
 
 ["Mo"]
@@ -638,14 +638,14 @@ proposed = ["mamička", "mamka", "mamina", "mati", "mater"]
 confidence = ["high", "high", "medium", "low", "low"]
 notes = ["mamička: diminutive, affectionate", "mamka: diminutive, colloquial; very common", "mamina: colloquial, affectionate", "mati: archaic/literary; also dialect; existing mať is the standard archaic form", "mater: slang, teenage speech"]
 omniglot = ["matka \"mother\""]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["omw-sk omw-sk-10332385-n [i91462] mať, matka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
 existing_by_lemma = ["mama -> omw-sk omw-sk-10278128-n [i91123] mama, maminka, mamička, mamka: (CILI) informal terms for a mother", "mama -> omw-sk omw-sk-10332385-n [i91462] mať, matka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "matka -> omw-sk omw-sk-10332385-n [i91462] mať, matka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mať -> omw-sk omw-sk-10332385-n [i91462] mať, matka, mama: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)", "mamička -> omw-sk omw-sk-10278128-n [i91123] mama, maminka, mamička, mamka: (CILI) informal terms for a mother", "mamka -> omw-sk omw-sk-10278128-n [i91123] mama, maminka, mamička, mamka: (CILI) informal terms for a mother"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["mama <- omw-sk", "matka <- Wikidata L226793-S1, omw-sk", "mať <- omw-sk"]
+sources = ["mama <- omw-sk", "matka <- Omniglot, Wikidata L226793-S1, omw-sk", "mať <- omw-sk"]
 comment = ""
 
 ["Ch"]
@@ -653,7 +653,7 @@ lemmas = ["dieťa", "potomok"]
 proposed = ["decko"]
 confidence = ["medium"]
 notes = ["decko: colloquial; Bohemism-like but widely used (\"naše decko\")"]
-omniglot = ["deti \"children\""]
+omniglot = ["deti \"children\" (not built: plural)"]
 omniglot_new = ["deti"]
 english = ["child", "kid"]
 label = "child"
@@ -679,7 +679,7 @@ existing_by_ili = ["omw-sk omw-sk-10624074-n [i93143] syn: (CILI) a male human o
 existing_by_lemma = ["syn -> omw-sk omw-sk-10624074-n [i93143] syn: (CILI) a male human offspring"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["syn <- omw-sk"]
+sources = ["syn <- Omniglot, omw-sk"]
 comment = ""
 
 ["Da"]
@@ -695,7 +695,7 @@ existing_by_ili = ["omw-sk omw-sk-09992837-n [i89398] dcéra: (CILI) a female hu
 existing_by_lemma = ["dcéra -> omw-sk omw-sk-09992837-n [i89398] dcéra: (CILI) a female human offspring"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["dcéra <- Wikidata L247659-S1, omw-sk"]
+sources = ["dcéra <- Omniglot, Wikidata L247659-S1, omw-sk"]
 comment = ""
 
 ["Sp"]
@@ -703,7 +703,7 @@ lemmas = ["druh", "družka", "lepšia polovička", "manžel", "manželka", "part
 proposed = ["choť", "polovička"]
 confidence = ["high", "low"]
 notes = ["choť: formal, elevated; used for either husband or wife", "polovička: colloquial, jocular (\"moja polovička\")"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["omw-sk omw-sk-10640620-n [i93233] partner, lepšia polovička, partnerka, druh, družka, manžel, ...: (CILI) a person's partner in marriage"]
@@ -728,7 +728,7 @@ existing_by_lemma = ["manžel -> omw-sk omw-sk-10640620-n [i93233] partner, lep�
 existing_hidden = 5  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["manžel <- Kinbank", "ženatý muž <- omw-sk", "ženáč <- omw-sk"]
+sources = ["manžel <- Kinbank, Omniglot", "ženatý muž <- omw-sk", "ženáč <- omw-sk"]
 comment = ""
 
 ["Wi"]
@@ -737,7 +737,7 @@ proposed = ["stará"]
 confidence = ["low"]
 notes = ["stará: slang, jocular or disrespectful (\"moja stará\")"]
 omniglot = ["manželka \"wife\""]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["omw-sk omw-sk-10780632-n [i94123] manželka, žena, vydatá žena: (CILI) a married woman; a man's partner in marriage"]
@@ -745,7 +745,7 @@ existing_by_lemma = ["manželka -> omw-sk omw-sk-10780632-n [i94123] manželka, 
 existing_hidden = 2  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["manželka <- Kinbank, omw-sk", "vydatá žena <- omw-sk", "žena <- Kinbank, omw-sk"]
+sources = ["manželka <- Kinbank, Omniglot, omw-sk", "vydatá žena <- omw-sk", "žena <- Kinbank, omw-sk"]
 comment = ""
 
 ["InL"]
@@ -777,33 +777,31 @@ ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Sp;Fa"]
-lemmas = ["test'"]
+lemmas = ["svokor", "test'"]
 proposed = ["svokor", "test'"]
 confidence = ["high", "check"]
 notes = ["svokor: standard modern term for either spouse's father", "test': existing lemma has an ASCII apostrophe; should be tesť; also more precisely Wi;Fa (see above)"]
 omniglot = ["svokor \"father-in-law\""]
-omniglot_new = ["svokor"]
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["test' <- Kinbank"]
+sources = ["svokor <- Omniglot", "test' <- Kinbank"]
 comment = ""
 
 ["Sp;Mo"]
-lemmas = ["testiná"]
+lemmas = ["svokra", "testiná"]
 proposed = ["svokra", "testiná"]
 confidence = ["high", "check"]
 notes = ["svokra: standard modern term for either spouse's mother", "testiná: existing assignment; strictly wife's mother (Wi;Mo); Sp;Mo should be svokra"]
 omniglot = ["svokra \"mother-in-law\""]
-omniglot_new = ["svokra"]
 english = ["mother-in-law"]
 label = "mother-in-law"
 definition = "the mother of one's spouse (an in-law)"
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["testiná <- Kinbank"]
+sources = ["svokra <- Omniglot", "testiná <- Kinbank"]
 comment = ""
 
 ["Ch;Sp"]
@@ -843,31 +841,31 @@ ancestors = ["Ch;Sp", "InL", "Rel"]
 comment = ""
 
 ["BrL"]
-lemmas = []
+lemmas = ["švagor"]
 proposed = ["švagor"]
 confidence = ["high"]
 notes = ["švagor: any brother-in-law (spouse's brother, sister's husband, spouse's sister's husband)"]
 omniglot = ["švagor \"brother-in-law\""]
-omniglot_new = ["švagor"]
 english = ["brother-in-law"]
 label = "brother-in-law"
 definition = "a brother by marriage: a brother of one's spouse or the husband of one's sister"
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["švagor <- Omniglot"]
 comment = ""
 
 ["SsL"]
-lemmas = []
+lemmas = ["švagriná"]
 proposed = ["švagriná"]
 confidence = ["high"]
 notes = ["švagriná: any sister-in-law (spouse's sister, brother's wife, spouse's brother's wife)"]
 omniglot = ["švagriná \"sister-in-law\""]
-omniglot_new = ["švagriná"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["švagriná <- Omniglot"]
 comment = ""
 
 ["Fa|Fa;Br"]

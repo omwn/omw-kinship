@@ -6,14 +6,14 @@
 #   lexicon id [ILI] lemmas: definition; (CILI) marks a definition taken from the ILI.
 #   Lemma matches keep only kinship senses (no ILI, or under an ILI KinDiv links to, by OEWN);
 #   existing_hidden counts the rest.
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
 lemmas = ["dziadkowie"]
-omniglot = ["dziadkowie \"grandparents\""]
+omniglot = ["dziadkowie \"grandparents\" (not built: plural)"]
 english = ["grandparent"]
 label = "grandparent"
 definition = "a parent of one's parent (a grandparent)"
@@ -34,13 +34,13 @@ existing_by_lemma = ["dziadek -> plwn plwn-syn-f84f61fc-aac4-11ed-aae5-0242ac130
 existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
 ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["dziadek <- Wiktionary, plwn", "dziadziuś <- Wiktionary"]
+sources = ["dziadek <- Omniglot, Wiktionary, plwn", "dziadziuś <- Wiktionary"]
 comment = ""
 
 ["Pa;Mo"]
 lemmas = ["babcia", "babka", "babunia"]
 omniglot = ["babka \"grandmother\" (frm)", "babcia \"grandmother\" (inf)"]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["plwn plwn-syn-f3ba3965-aac4-11ed-aae5-0242ac130002 [i90289] babka, babcia: matka któregoś z rodziców."]
@@ -48,7 +48,7 @@ existing_by_lemma = ["babcia -> plwn plwn-syn-f3ba3965-aac4-11ed-aae5-0242ac1300
 existing_hidden = 5  # other senses of these lemmas
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["babcia <- Wiktionary, plwn", "babka <- Wiktionary, plwn", "babunia <- Wiktionary"]
+sources = ["babcia <- Omniglot, Wiktionary, plwn", "babka <- Omniglot, Wiktionary, plwn", "babunia <- Wiktionary"]
 comment = ""
 
 ["Fa;Fa"]
@@ -65,7 +65,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no pl word; included for the hierarchy"
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -75,7 +75,7 @@ comment = ""
 
 ["Ch;Ch"]
 lemmas = ["wnuczę"]
-omniglot = ["wnukowie \"grandchildren\"", "wnuczęta \"grandchildren\""]
+omniglot = ["wnukowie \"grandchildren\" (not built: plural)", "wnuczęta \"grandchildren\" (not built: plural)"]
 omniglot_new = ["wnukowie", "wnuczęta"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
@@ -97,7 +97,7 @@ existing_by_ili = ["plwn plwn-syn-f3df80df-aac4-11ed-aae5-0242ac130002 [i90293] 
 existing_by_lemma = ["wnuczek -> plwn plwn-syn-f3df80df-aac4-11ed-aae5-0242ac130002 [i90293] wnuczek, wnuk: potomek czyjejś córki lub syna.", "wnuk -> plwn plwn-syn-f3df80df-aac4-11ed-aae5-0242ac130002 [i90293] wnuczek, wnuk: potomek czyjejś córki lub syna."]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["wnuczek <- Kinbank, Wiktionary, plwn", "wnuk <- Wiktionary, plwn"]
+sources = ["wnuczek <- Kinbank, Wiktionary, plwn", "wnuk <- Omniglot, Wiktionary, plwn"]
 comment = ""
 
 ["Ch;Da"]
@@ -110,7 +110,7 @@ existing_by_ili = ["plwn plwn-syn-f3df8132-aac4-11ed-aae5-0242ac130002 [i90281] 
 existing_by_lemma = ["wnuczka -> plwn plwn-syn-f3df8132-aac4-11ed-aae5-0242ac130002 [i90281] wnuczka: potomkini czyjegoś syna lub córki."]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["wnuczka <- Kinbank, Wiktionary, plwn"]
+sources = ["wnuczka <- Kinbank, Omniglot, Wiktionary, plwn"]
 comment = ""
 
 ["So;Ch"]
@@ -182,14 +182,14 @@ comment = ""
 ["Br"]
 lemmas = ["brat"]
 omniglot = ["brat \"brother\""]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_lemma = ["brat -> plwn plwn-syn-f35ff36b-aac4-11ed-aae5-0242ac130002 [i88708] braciak, brat: człowiek płci męskiej, będący krewnym drugiego stopnia w linii bocznej, należący do rodzeństwa."]
 existing_hidden = 5  # other senses of these lemmas
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["brat <- Kinbank, Wikidata L1227192-S1, Wiktionary"]
+sources = ["brat <- Kinbank, Omniglot, Wikidata L1227192-S1, Wiktionary"]
 comment = ""
 
 ["Ss"]
@@ -202,7 +202,7 @@ existing_by_lemma = ["siostra -> plwn plwn-syn-f3c18675-aac4-11ed-aae5-0242ac130
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["siostra <- Kinbank, Wiktionary"]
+sources = ["siostra <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["El:Br"]
@@ -301,7 +301,7 @@ definition = "a son of one's brother (a nephew or niece)"
 existing_by_lemma = ["bratanek -> plwn plwn-syn-f3df28da-aac4-11ed-aae5-0242ac130002 [-] bratanek"]
 hypernyms = ["Br;Ch", "Br;So|So", "Sb;So"]
 ancestors = ["Br;Ch", "Br;So|So", "Sb;So", "Br;Ch|Ch", "Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["bratanek <- Kinbank, Wiktionary"]
+sources = ["bratanek <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Br;Da"]
@@ -314,7 +314,7 @@ definition = "a daughter of one's brother (a nephew or niece)"
 existing_by_lemma = ["bratanica -> plwn plwn-syn-f3df292c-aac4-11ed-aae5-0242ac130002 [-] bratanica: córka brata."]
 hypernyms = ["Br;Ch", "Br;Da|Da", "Sb;Da"]
 ancestors = ["Br;Ch", "Br;Da|Da", "Sb;Da", "Br;Ch|Ch", "Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["bratanica <- Kinbank, Wiktionary"]
+sources = ["bratanica <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Ss;So"]
@@ -327,7 +327,7 @@ definition = "a son of one's sister (a nephew or niece)"
 existing_by_lemma = ["siostrzeniec -> plwn plwn-syn-f3df71d8-aac4-11ed-aae5-0242ac130002 [-] siostrzeniec: syn siostry."]
 hypernyms = ["Sb;So", "Ss;Ch"]
 ancestors = ["Sb;So", "Ss;Ch", "Mo;Br|Ss;Ch", "Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["siostrzeniec <- Kinbank, Wiktionary"]
+sources = ["siostrzeniec <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Ss;Da"]
@@ -340,7 +340,7 @@ definition = "a daughter of one's sister (a nephew or niece)"
 existing_by_lemma = ["siostrzenica -> plwn plwn-syn-f3df7186-aac4-11ed-aae5-0242ac130002 [-] siostrzenica: córka siostry."]
 hypernyms = ["Sb;Da", "Ss;Ch"]
 ancestors = ["Sb;Da", "Ss;Ch", "Da|Sb;Da", "Mo;Br|Ss;Ch", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["siostrzenica <- Kinbank, Wiktionary"]
+sources = ["siostrzenica <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;So"]
@@ -353,7 +353,7 @@ definition = "a son of one's parent's sibling (a cousin)"
 existing_by_lemma = ["kuzyn -> plwn plwn-syn-ff319478-aac4-11ed-aae5-0242ac130002 [-] krewny, kuzyn: coś podobnego do czegoś innego, pod względem pochodzenia, funkcji, budowy i innych cech.", "kuzyn -> plwn plwn-syn-02089a07-aac5-11ed-aae5-0242ac130002 [-] kuzyn: dalszy członek rodziny.", "kuzyn -> plwn plwn-syn-f3df440b-aac4-11ed-aae5-0242ac130002 [-] kuzyn: krewny linii bocznej, z którym ma się wspólnego przodka."]
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["kuzyn <- Kinbank, Wiktionary"]
+sources = ["kuzyn <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;Da"]
@@ -366,7 +366,7 @@ definition = "a daughter of one's parent's sibling (a cousin)"
 existing_by_lemma = ["kuzynka -> plwn plwn-syn-f3f64da7-aac4-11ed-aae5-0242ac130002 [-] kuzynka: córka rodzeństwa rodziców lub dalsza krewna z tego samego pokolenia, posiadająca wspólnego przodka.", "kuzynka -> plwn plwn-syn-ff5ea5d1-aac4-11ed-aae5-0242ac130002 [-] krewna, kuzynka: coś (o żeńskim rodzaju gramatycznym) podobnego do czegoś innego, pod względem pochodzenia, funkcji, budowy i innych cech, co istnieje równocześnie."]
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["kuzynka <- Kinbank, Wiktionary"]
+sources = ["kuzynka <- Kinbank, Omniglot, Wiktionary"]
 comment = ""
 
 ["Pa;Sb;El:So"]
@@ -499,7 +499,7 @@ existing_by_ili = ["plwn plwn-syn-f7f81751-aac4-11ed-aae5-0242ac130002 [i93825] 
 existing_by_lemma = ["wuj -> plwn plwn-syn-f7f81751-aac4-11ed-aae5-0242ac130002 [i93825] wuj, wujek, wujo: brat rodzica, mąż rodzeństwa rodzica albo dalszy krewny z pokolenia rodziców lub starszego.", "wujek -> plwn plwn-syn-ffae3acc-aac4-11ed-aae5-0242ac130002 [-] Wujek, kopalnia \"Wujek\", Kopalnia Węgla Kamiennego „Wujek”", "wujek -> plwn plwn-syn-00908994-aac5-11ed-aae5-0242ac130002 [-] wujek: przyjaciel domu, niebędący krewnym, ale traktowany na warunkach więzi rodzinnych.", "wujek -> plwn plwn-syn-ffae47dc-aac4-11ed-aae5-0242ac130002 [-] Wujek, Jakub Wujek", "wujek -> plwn plwn-syn-f7f81751-aac4-11ed-aae5-0242ac130002 [i93825] wuj, wujek, wujo: brat rodzica, mąż rodzeństwa rodzica albo dalszy krewny z pokolenia rodziców lub starszego.", "wujo -> plwn plwn-syn-f7f81751-aac4-11ed-aae5-0242ac130002 [i93825] wuj, wujek, wujo: brat rodzica, mąż rodzeństwa rodzica albo dalszy krewny z pokolenia rodziców lub starszego."]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["wuj <- plwn", "wujek <- plwn", "wujo <- plwn"]
+sources = ["wuj <- plwn", "wujek <- Omniglot, plwn", "wujo <- plwn"]
 comment = ""
 
 ["Aun"]
@@ -512,7 +512,7 @@ existing_by_ili = ["plwn plwn-syn-f3601da8-aac4-11ed-aae5-0242ac130002 [i88357] 
 existing_by_lemma = ["ciocia -> plwn plwn-syn-0275ed57-aac5-11ed-aae5-0242ac130002 [-] ciotka, ciocia: bliska znajoma rodziców, najczęściej matki, niebędąca krewnym, ale będąca traktowaną na warunkach więzi rodzinnych.", "ciocia -> plwn plwn-syn-f3601da8-aac4-11ed-aae5-0242ac130002 [i88357] ciotka, ciocia: krewna, najczęściej siostra matki lub ojca lub żona wujka, czasem dalsza krewna - siostra któregoś z dziadków lub kuzynka rodzica.", "ciotka -> plwn plwn-syn-f3601da8-aac4-11ed-aae5-0242ac130002 [i88357] ciotka, ciocia: krewna, najczęściej siostra matki lub ojca lub żona wujka, czasem dalsza krewna - siostra któregoś z dziadków lub kuzynka rodzica.", "ciotka -> plwn plwn-syn-0275ed57-aac5-11ed-aae5-0242ac130002 [-] ciotka, ciocia: bliska znajoma rodziców, najczęściej matki, niebędąca krewnym, ale będąca traktowaną na warunkach więzi rodzinnych.", "ciotka -> plwn plwn-syn-0275ecfd-aac5-11ed-aae5-0242ac130002 [-] ciotka: zdrobniale: ciota - zniewieściały gej.", "ciotka -> plwn plwn-syn-f574e42d-aac4-11ed-aae5-0242ac130002 [-] ciota, ciotka: okres, menstruacja."]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["ciocia <- plwn", "ciotka <- plwn"]
+sources = ["ciocia <- plwn", "ciotka <- Omniglot, plwn"]
 comment = ""
 
 ["Pa;Ss;Hu"]
@@ -552,7 +552,7 @@ comment = ""
 
 ["Pa"]
 lemmas = ["rodzic", "rodzice"]
-omniglot = ["rodzice \"parents\""]
+omniglot = ["rodzice \"parents\" (not built: plural)"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -567,7 +567,7 @@ comment = ""
 ["Fa"]
 lemmas = ["ojciec", "rodziciel", "tata", "tato"]
 omniglot = ["ojciec \"father\" (frm)", "tata \"father\" (inf)", "tato \"father\" (inf)"]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["plwn plwn-syn-f3bcb564-aac4-11ed-aae5-0242ac130002 [i89901] rodziciel, tato, tata, ojciec: mężczyzna, który jest rodzicem dziecka, sprawuje funkcję głównego, najważniejszego opiekuna dziecka, jest ważną figurą kształtującą młodego człowieka; najczęściej: najbliższy krewny, mężczyzna, który począł dziecko."]
@@ -575,13 +575,13 @@ existing_by_lemma = ["ojciec -> plwn plwn-syn-f3bcbe6e-aac4-11ed-aae5-0242ac1300
 existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["ojciec <- Wikidata L30898-S1, plwn", "rodziciel <- plwn", "tata <- plwn", "tato <- plwn"]
+sources = ["ojciec <- Omniglot, Wikidata L30898-S1, plwn", "rodziciel <- plwn", "tata <- Omniglot, plwn", "tato <- Omniglot, plwn"]
 comment = ""
 
 ["Mo"]
 lemmas = ["mama", "matka"]
 omniglot = ["matka \"mother\" (frm)", "mama \"mother\" (inf)"]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["plwn plwn-syn-f3bcb3c5-aac4-11ed-aae5-0242ac130002 [i91462] matka, mama: kobieta, która urodziła lub wychowuje dziecko."]
@@ -589,12 +589,12 @@ existing_by_lemma = ["mama -> plwn plwn-syn-f3bcb3c5-aac4-11ed-aae5-0242ac130002
 existing_hidden = 8  # other senses of these lemmas
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["mama <- plwn", "matka <- Wikidata L62050-S1, plwn"]
+sources = ["mama <- Omniglot, plwn", "matka <- Omniglot, Wikidata L62050-S1, plwn"]
 comment = ""
 
 ["Ch"]
 lemmas = ["dziecię", "dziecko", "latorośl", "pociecha", "pocieszka"]
-omniglot = ["dzieci \"children\""]
+omniglot = ["dzieci \"children\" (not built: plural)"]
 omniglot_new = ["dzieci"]
 english = ["child", "kid"]
 label = "child"
@@ -618,7 +618,7 @@ existing_by_lemma = ["chłopak -> plwn plwn-syn-f3ba5192-aac4-11ed-aae5-0242ac13
 existing_hidden = 6  # other senses of these lemmas
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["chłopak <- plwn", "chłopiec <- plwn", "syn <- plwn"]
+sources = ["chłopak <- plwn", "chłopiec <- plwn", "syn <- Omniglot, plwn"]
 comment = ""
 
 ["Da"]
@@ -632,12 +632,12 @@ existing_by_lemma = ["córka -> plwn plwn-syn-f3602206-aac4-11ed-aae5-0242ac1300
 existing_hidden = 3  # other senses of these lemmas
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["córka <- plwn", "dziewczynka <- plwn"]
+sources = ["córka <- Omniglot, plwn", "dziewczynka <- plwn"]
 comment = ""
 
 ["Sp"]
 lemmas = ["małżonek", "współmałżonek"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["plwn plwn-syn-ff4b261b-aac4-11ed-aae5-0242ac130002 [i93233] małżonek, współmałżonek: mąż lub żona."]
@@ -658,20 +658,20 @@ existing_by_lemma = ["małżonek -> plwn plwn-syn-ff4b261b-aac4-11ed-aae5-0242ac
 existing_hidden = 1  # other senses of these lemmas
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["małżonek <- plwn", "mąż <- Kinbank, plwn"]
+sources = ["małżonek <- Omniglot, plwn", "mąż <- Kinbank, Omniglot, plwn"]
 comment = ""
 
 ["Wi"]
 lemmas = ["małżonka", "współmałżonka", "żona"]
 omniglot = ["żona \"wife\"", "małżonka \"wife\""]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["plwn plwn-syn-0225f7db-aac5-11ed-aae5-0242ac130002 [i94123] małżonka, współmałżonka, żona: kobieta będąca w związku małżeńskim."]
 existing_by_lemma = ["małżonka -> plwn plwn-syn-0225f7db-aac5-11ed-aae5-0242ac130002 [i94123] małżonka, współmałżonka, żona: kobieta będąca w związku małżeńskim.", "współmałżonka -> plwn plwn-syn-0225f7db-aac5-11ed-aae5-0242ac130002 [i94123] małżonka, współmałżonka, żona: kobieta będąca w związku małżeńskim.", "żona -> plwn plwn-syn-0225f7db-aac5-11ed-aae5-0242ac130002 [i94123] małżonka, współmałżonka, żona: kobieta będąca w związku małżeńskim."]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["małżonka <- plwn", "współmałżonka <- plwn", "żona <- Kinbank, plwn"]
+sources = ["małżonka <- Omniglot, plwn", "współmałżonka <- plwn", "żona <- Kinbank, Omniglot, plwn"]
 comment = ""
 
 ["InL"]
@@ -704,7 +704,7 @@ existing_by_ili = ["plwn plwn-syn-f3df7aa1-aac4-11ed-aae5-0242ac130002 [i89906] 
 existing_by_lemma = ["teść -> plwn plwn-syn-f3df7aa1-aac4-11ed-aae5-0242ac130002 [i89906] teść: (CILI) the father of your spouse"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["teść <- Kinbank, plwn"]
+sources = ["teść <- Kinbank, Omniglot, plwn"]
 comment = ""
 
 ["Sp;Mo"]
@@ -717,7 +717,7 @@ existing_by_ili = ["plwn plwn-syn-f4010cbf-aac4-11ed-aae5-0242ac130002 [i91467] 
 existing_by_lemma = ["teściowa -> plwn plwn-syn-f4010cbf-aac4-11ed-aae5-0242ac130002 [i91467] teściowa: matka małżonka (dawniej tylko matka żony)."]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["teściowa <- Kinbank, plwn"]
+sources = ["teściowa <- Kinbank, Omniglot, plwn"]
 comment = ""
 
 ["Ch;Sp"]
@@ -764,18 +764,19 @@ existing_by_ili = ["plwn plwn-syn-f3df7901-aac4-11ed-aae5-0242ac130002 [i88712] 
 existing_by_lemma = ["szwagier -> plwn plwn-syn-f3df7901-aac4-11ed-aae5-0242ac130002 [i88712] szwagier: brat lub mąż małżonka, osoby z rodzeństwa albo innego szwagra; powinowaty drugiego stopnia w linii bocznej.", "szwagier -> plwn plwn-syn-017cdfc6-aac5-11ed-aae5-0242ac130002 [-] szwagier: żartobliwie o człowieku, który korzysta z usług prostytutek, który uprawia seks z kobietą mającą wielu partnerów."]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
-sources = ["szwagier <- plwn"]
+sources = ["szwagier <- Omniglot, plwn"]
 comment = ""
 
 ["SsL"]
-lemmas = []
+lemmas = ["szwagierka"]
 omniglot = ["szwagierka \"sister-in-law\""]
-omniglot_new = ["szwagierka"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"
 definition = "a sister by marriage: a sister of one's spouse or the wife of one's brother"
+existing_by_lemma = ["szwagierka -> plwn plwn-syn-f3df7954-aac4-11ed-aae5-0242ac130002 [i93022] szwagierka: (CILI) the sister of your spouse"]
 hypernyms = ["InL"]
 ancestors = ["InL", "Rel"]
+sources = ["szwagierka <- Omniglot"]
 comment = ""
 
 ["Sp;Ss"]
@@ -791,14 +792,15 @@ sources = ["szwagierka <- plwn"]
 comment = ""
 
 ["Br;Wi"]
-lemmas = []
+lemmas = ["bratowa"]
 omniglot = ["bratowa \"sister-in-law\" (brother's wife)"]
-omniglot_new = ["bratowa"]
 english = ["sister-in-law"]
 label = "brother's wife"
 definition = "the wife of one's brother (an in-law)"
+existing_by_lemma = ["bratowa -> plwn plwn-syn-f40b3416-aac4-11ed-aae5-0242ac130002 [-] bratowa: żona brata."]
 hypernyms = ["SsL"]
 ancestors = ["SsL", "InL", "Rel"]
+sources = ["bratowa <- Omniglot"]
 comment = ""
 
 ["Fa|Fa;Br"]

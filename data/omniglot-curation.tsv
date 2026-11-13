@@ -1,0 +1,54 @@
+tag	word	code	reason	feedback
+ja	お姉さん	Pa;Mo	error	grandmother: お姉さん (onē san) is "elder sister"; the polite word is お祖母さん/お婆さん (obāsan)
+ja	義理の野母	Sp;Mo	typo	mother-in-law: 義理の野母 should be 義理の母 (giri no haha)
+ja	嫁姑	So;Wi	error	daughter-in-law: 嫁姑 (yome shūtome) is "daughter-in-law and mother-in-law"; the word is 嫁 (yome)
+id	adik	El:Ss	error	sister: adik is a younger sibling, not an older sister
+id	buyut	Pa;Fa	error	grandfather: buyut is a great-grandparent
+id	isteri	Sp	error	spouse: isteri (istri) is "wife", not "spouse"
+id	suamiku	Hu	inflected	husband: suamiku is "my husband" (suami + -ku)
+id	istriku	Wi	inflected	wife: istriku is "my wife" (istri + -ku)
+id	cucunya	Ch;So	inflected	grandson: cucunya is "his/her grandchild" (cucu + -nya)
+id	keponakan laki-lak	Sb;So	typo	nephew: "keponakan laki-lak" should be "keponakan laki-laki"
+id	relatip	Rel	error	relatives: relatip, nisbi and sehubungan mean "relative" as an adjective (relative to), not a kinsman; the noun is saudara or kerabat
+id	nisbi	Rel	error
+id	sehubungan	Rel	error
+id	saudara perempuan	SsL	error	sister-in-law: saudara perempuan is "sister"; a sister-in-law is ipar (perempuan)
+id	bung	El:Br	address
+id	bani	Ch	archaic
+ms	pak su	Pa;Yn:Ss	typo	aunt: "pak su" under aunt should be "mak su"
+ms	pak long	Pa;El:Br	broader
+ms	pak ngah	Unc	broader
+ms	pak ucu	Pa;Yn:Br	broader
+ms	pak su	Pa;Yn:Br	broader
+ms	mak long	Pa;El:Ss	broader
+ms	mak ngah	Aun	broader
+ms	mak ucu	Pa;Yn:Ss	broader
+ms	dua pupu	Pa;Sb;Ch	broader
+ms	tiga pupu	Pa;Sb;Ch	broader
+ms	besan	InL	broader
+yue	表阿	Mo;Sb;El:So	typo	cousin (maternal): 表阿 (bíugò) should be 表哥
+yue	細蚊仔	Ch	error	children: 細蚊仔 is "little kids", young people, not one's offspring
+yue	小童	Ch	error	children: 小童 is "child" by age, not one's offspring
+cmn	儿童	Ch	error	children: 儿童 (értóng) is "children" by age, not one's offspring
+cmn	婶婶	Fa;Br;Wi	broader	aunt: 婶婶 (shěnshen) is the wife of the father's younger brother (叔叔); the elder brother's wife is 伯母
+es	niños	Ch	error
+es	tío politico	Pa;Ss;Hu	typo	uncle-in-law: "tío politico" should be "tío político"
+es	tía politica	Pa;Br;Wi	typo	aunt-in-law: "tía politica" should be "tía política"
+en	mum and dad	Pa	phrase
+en	mother and father	Pa	phrase
+en	mater and pater	Pa	phrase
+en	the parental units	Pa	jocular
+en	sprogs	Ch	slang
+en	rug-rats	Ch	jocular
+en	ankle biters	Ch	jocular
+en	little ones	Ch	phrase
+en	old man	Hu	jocular
+en	other half	Hu	idiom
+en	better half	Hu	idiom
+en	other half	Wi	idiom
+en	better half	Wi	idiom
+en	old lady	Wi	jocular
+en	her indoors	Wi	jocular
+en	trouble	Wi	jocular	wife: "trouble (and strife)" is rhyming slang; the line's "(and strife)" is shown against every word for wife
+en	grandpapppy	Pa;Fa	typo	grandfather: "grandpapppy" should be "grandpappy"
+en	granddaugther	Ch;Da	typo	granddaughter: "granddaugther" should be "granddaughter"

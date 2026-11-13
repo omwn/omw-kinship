@@ -38,6 +38,7 @@ uv run scripts/kinbank_concepts.py   # ../kinbank -> data/candidates/kinbank-new
 uv run scripts/wordnet_words.py      # Cygnet's wordnets -> data/candidates/wordnet-words.tsv
 uv run scripts/wikidata_concepts.py  # Wikidata kinship items -> data/candidates/wikidata-candidates.tsv
 uv run scripts/wikidata_words.py     # Wikidata lexemes and labels -> data/candidates/wikidata-words.tsv
+uv run scripts/omniglot_words.py     # Omniglot pages saved in sources/omniglot -> data/candidates/omniglot-words.tsv
 uv run scripts/build.py              # release/omw-kin-0.3/ and .tar.xz, reports/, docs/hierarchy/data.js
 uv run scripts/kin_review.py         # review/kinterms-<lang>.toml
 uv run scripts/facts.py              # every figure the paper cites -> reports/facts.json
@@ -267,6 +268,24 @@ descriptions or name the wrong sense (Telugu *akka* "elder sister" as the label
 of *sibling*). Like the wordnet words, the Wikidata words are unchecked: the
 hierarchy browser shows them only with "Include words from existing
 wordnets".
+
+## Omniglot
+
+Omniglot (Simon Ager, <https://www.omniglot.com/language/kinship/>) lists
+about 30 family words per language. Simon Ager gave permission to use them
+under CC BY-SA: "You have my permission to use material from Omniglot on your
+site. It's fine to use a CC BY SA license." (to Francis Bond, 2015).
+
+The site blocks automated access, so its pages are saved by hand to
+`sources/omniglot/`, which is not committed; `scripts/omniglot_words.py` writes
+the extracted words to `data/candidates/omniglot-words.tsv`. Each word goes on
+the concept its label and qualifiers name (relative age, sex, side, or a gloss
+such as "father's elder brother"); a word listed under both sexes goes on the
+concept covering both (Indonesian *kakak* is `El:Sb`). Only exact matches are
+built: words on a broader concept, plural forms ("children" in Czech is
+*děti*), and the words in `data/omniglot-curation.tsv` are left out. That file
+lists Omniglot's errors, typos, jokes and phrases, with the corrections we send
+back to Omniglot.
 
 ## Hmong
 

@@ -324,10 +324,10 @@ def honorific_lines(code: str, words: dict[str, set[str]], atoms: dict) -> list[
 def omniglot(tag: str) -> dict[str, list[dict[str, str]]]:
     """Omniglot's words for `tag`, by concept, if its pages have been read.
 
-    ``scripts/omniglot_words.py`` writes them from pages saved by hand; they are
-    for review only, as Omniglot's licence keeps them out of the build.
+    ``scripts/omniglot_words.py`` writes them from pages saved by hand. The
+    ``exact`` ones are in the build too; the others are shown with why not.
     """
-    path = ROOT / "sources" / "omniglot" / "omniglot-words.tsv"
+    path = build.CANDIDATES / "omniglot-words.tsv"
     found: dict[str, list[dict[str, str]]] = defaultdict(list)
     if path.exists():
         for row in build.read_tsv(path):
@@ -354,7 +354,7 @@ def omniglot_lines(rows: list[dict[str, str]], lemmas: set[str]) -> list[str]:
                 row["romanization"],
                 f'"{row["label"]}"',
                 note,
-                "(broader)" if row["match"] == "broader" else "",
+                "" if row["match"] == "exact" else f"(not built: {row['match']})",
             )
             if part
         )
@@ -450,9 +450,9 @@ def write(
         ]
     if omni:
         lines += [
-            "# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review",
-            '#   only, NOT in the build (licence), as word romanization "label" qualifiers;',
-            "#   (broader): on a broader concept than the qualifiers name.",
+            "# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by",
+            '#   permission), as word romanization "label" qualifiers. Built, except',
+            "#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).",
             "#   omniglot_new: those not in `lemmas`.",
         ]
     lines.append("")

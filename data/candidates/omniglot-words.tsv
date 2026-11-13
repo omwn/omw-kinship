@@ -1,0 +1,584 @@
+tag	language	label	word	romanization	code	match	note
+yue	Cantonese	relative	親戚	chānchìk	Rel	exact	
+yue	Cantonese	parents	父母	fuhmóuh	Pa	exact	
+yue	Cantonese	father	父親	fuhchàn	Fa	exact	frm
+yue	Cantonese	father	爸爸	bàhbā	Fa	exact	inf
+yue	Cantonese	father	阿爸	a bàh	Fa	exact	inf
+yue	Cantonese	mother	母親	móuhchàn	Mo	exact	frm
+yue	Cantonese	mother	媽媽	màhmà	Mo	exact	inf
+yue	Cantonese	mother	阿母	a mā	Mo	exact	inf
+yue	Cantonese	children	細蚊仔	saimānjáí	Ch	excluded	
+yue	Cantonese	children	小童	síutùhng	Ch	excluded	
+yue	Cantonese	son	仔	jái	So	exact	
+yue	Cantonese	daughter	女	néui	Da	exact	
+yue	Cantonese	spouse	愛人	ngoiyàhn	Sp	exact	
+yue	Cantonese	spouse	老伴	lóuhbun	Sp	exact	
+yue	Cantonese	spouse	配偶	puingáuh	Sp	exact	
+yue	Cantonese	husband	先生	sìnsàang	Hu	exact	frm
+yue	Cantonese	husband	丈夫	jeuhngfu	Hu	exact	frm
+yue	Cantonese	husband	老公	lóuhgùng	Hu	exact	inf
+yue	Cantonese	wife	太太	taaitáai	Wi	exact	frm
+yue	Cantonese	wife	妻子	chàjí	Wi	exact	
+yue	Cantonese	wife	老婆	lóuhpòh	Wi	exact	inf
+yue	Cantonese	siblings	兄弟姐妹	hìngdaih jímuih	Sb	exact	
+yue	Cantonese	brother	哥哥	gòhgō	El:Br	exact	+
+yue	Cantonese	brother	大佬	daailóu	El:Br	exact	+
+yue	Cantonese	brother	弟弟	dàihdái	Yn:Br	exact	-
+yue	Cantonese	brother	細佬	sailóu	Yn:Br	exact	-
+yue	Cantonese	sister	家姐	gajē	El:Ss	exact	+
+yue	Cantonese	sister	姐姐	jèhjè	El:Ss	exact	+
+yue	Cantonese	sister	妹妹	mùihmúi	Yn:Ss	exact	-
+yue	Cantonese	sister	細妹	saimúi	Yn:Ss	exact	-
+yue	Cantonese	uncle	阿伯	a baak	Fa;El:Br	exact	father's elder brother
+yue	Cantonese	uncle	伯父	baakfuh	Fa;El:Br	exact	father's elder brother
+yue	Cantonese	uncle	阿叔	a sūk	Fa;Yn:Br	exact	father's younger brother
+yue	Cantonese	uncle	叔父	sūkfuh	Fa;Yn:Br	exact	father's younger brother
+yue	Cantonese	uncle	姑丈	gùjéung	Fa;Ss;Hu	exact	father's sister's husband
+yue	Cantonese	uncle	舅父	káuhfú / káauhfú	Mo;Br	exact	mother's brother
+yue	Cantonese	uncle	姨丈	yìhjéung	Mo;Ss;Hu	exact	mother's sister's husband
+yue	Cantonese	uncle	叔叔	sūksùk	Unc	exact	general term
+yue	Cantonese	aunt	姑媽	gūmà	Fa;El:Ss	exact	father's elder sister
+yue	Cantonese	aunt	姑姐	gūjè	Fa;Yn:Ss	exact	father's younger sister
+yue	Cantonese	aunt	伯娘	baakleùhng	Fa;El:Br;Wi	exact	father's elder brother's wife
+yue	Cantonese	aunt	阿嬸	asám	Fa;Yn:Br;Wi	exact	father's younger brother's wife
+yue	Cantonese	aunt	姨媽	yìhmā	Mo;El:Ss	exact	mother's elder sister
+yue	Cantonese	aunt	阿姨	ayì	Mo;Yn:Ss	exact	mother's younger sister
+yue	Cantonese	aunt	舅姆	káuhmóuh	Aun	broader	mother's brother's wife
+yue	Cantonese	aunt	妗姆	káhmmóuh	Aun	broader	mother's brother's wife
+yue	Cantonese	aunt	阿姨	ayì	Aun	exact	general term
+yue	Cantonese	aunt	姨姨	yīyī	Aun	exact	general term
+yue	Cantonese	cousin (paternal)	堂阿哥	tòhngagō	Fa;Sb;So	broader	+m
+yue	Cantonese	cousin (paternal)	堂細佬	tòhng sailóu	Fa;Sb;So	broader	-m
+yue	Cantonese	cousin (paternal)	堂家姐	tòhnggājè	Fa;Sb;Da	broader	+f
+yue	Cantonese	cousin (paternal)	堂細妹	tòhngsaimúi	Fa;Sb;Da	broader	-f
+yue	Cantonese	cousin (maternal)	表阿	bíugò	Mo;Sb;El:So	excluded	+m
+yue	Cantonese	cousin (maternal)	表弟	bíudài	Mo;Sb;Yn:So	exact	-m
+yue	Cantonese	cousin (maternal)	表姐	bíujé	Mo;Sb;El:Da	exact	+f
+yue	Cantonese	cousin (maternal)	表妹	bíumúi	Mo;Sb;Yn:Da	exact	-f
+yue	Cantonese	nephew	侄	ját	Br;So	exact	brother's son
+yue	Cantonese	nephew	外甥	ngoihsàng	Ss;So	exact	sister's son
+yue	Cantonese	niece	侄女	jahtnéui	Br;Da	exact	brother's daughter
+yue	Cantonese	niece	外甥女	ngoihsàngnéui	Ss;Da	exact	sister's daughter
+yue	Cantonese	grandfather	爺爺	yèhyé	Fa;Fa	exact	pt
+yue	Cantonese	grandfather	阿爺	a yèh	Fa;Fa	exact	pt
+yue	Cantonese	grandfather	公公	gùnggùng	Mo;Fa	exact	mt
+yue	Cantonese	grandfather	外公	ngoihgùng	Mo;Fa	exact	mt
+yue	Cantonese	grandfather	阿公	a gung	Mo;Fa	exact	mt
+yue	Cantonese	grandmother	嫲嫲	màhmàh	Fa;Mo	exact	pt
+yue	Cantonese	grandmother	阿嫲	a màh	Fa;Mo	exact	pt
+yue	Cantonese	grandmother	婆婆	pòhpó	Mo;Mo	exact	mt
+yue	Cantonese	grandmother	外婆	ngoihpòh	Mo;Mo	exact	mt
+yue	Cantonese	grandmother	阿婆	a poh	Mo;Mo	exact	mt
+yue	Cantonese	grandson	孫	syùn	So;So	exact	son's son
+yue	Cantonese	grandson	外孫	ngoihsyùn	Da;So	exact	daughter's son
+yue	Cantonese	granddaughter	孫女	syùnnéui	So;Da	exact	son's daughter
+yue	Cantonese	granddaughter	外孫女	ngoihsyùnnéui	Da;Da	exact	daughter's daughter
+yue	Cantonese	father-in-law	老爺	lóuhyèh	Hu;Fa	exact	husband's father
+yue	Cantonese	father-in-law	外父	ngoihfú	Wi;Fa	exact	wife's father
+yue	Cantonese	father-in-law	岳父	ngohkfú	Wi;Fa	exact	wife's father
+yue	Cantonese	mother-in-law	奶奶	nàaihnáai	Hu;Mo	exact	husband's mother
+yue	Cantonese	mother-in-law	家婆	gāpó	Hu;Mo	exact	husband's mother
+yue	Cantonese	mother-in-law	外母	ngoihmóu	Wi;Mo	exact	wife's mother
+yue	Cantonese	mother-in-law	岳母	ngohkmóu	Wi;Mo	exact	wife's mother
+yue	Cantonese	brother-in-law	姐夫	jéfù	Ss;Hu	broader	elder sister's husband
+yue	Cantonese	brother-in-law	妹夫	muihfù	Ss;Hu	broader	younger sister's husband
+yue	Cantonese	brother-in-law	大舅	daaihkáuh	Wi;Br	broader	wife’s elder brother
+yue	Cantonese	brother-in-law	舅仔	káuhjái	Wi;Br	broader	wife’s younger brother
+yue	Cantonese	brother-in-law	大伯	daaihbaak	Hu;Br	broader	husband’s elder brother
+yue	Cantonese	brother-in-law	叔仔	sūkhjái	Hu;Br	broader	husband’s younger brother
+yue	Cantonese	sister-in-law	阿嫂	a sóu	Br;Wi	broader	elder brother's wife
+yue	Cantonese	sister-in-law	弟婦	daihfúh	Br;Wi	broader	younger brother's wife
+yue	Cantonese	sister-in-law	姑奶	gùnāai	Hu;Ss	broader	husband's elder sister
+yue	Cantonese	sister-in-law	姑仔	gùjái	Hu;Ss	broader	husband's younger sister
+yue	Cantonese	sister-in-law	大姨	daaihyìh	Wi;Ss	broader	wife's elder sister
+yue	Cantonese	sister-in-law	姨仔	yìjái	Wi;Ss	broader	wife's younger sister
+yue	Cantonese	son-in-law	女婿	néuihsai	Da;Hu	exact	
+yue	Cantonese	daughter-in-law	新抱	sànpóuh	So;Wi	exact	
+cs	Czech	parents	rodiče		Pa	plural	
+cs	Czech	father	otec		Fa	exact	
+cs	Czech	mother	matka		Mo	exact	
+cs	Czech	children	děti		Ch	plural	
+cs	Czech	son	syn		So	exact	
+cs	Czech	daughter	dcera		Da	exact	
+cs	Czech	husband	manžel		Hu	exact	
+cs	Czech	wife	manželka		Wi	exact	
+cs	Czech	brother	bratr		Br	exact	
+cs	Czech	sister	sestra		Ss	exact	
+cs	Czech	uncle	strýc		Unc	exact	
+cs	Czech	aunt	teta		Aun	exact	
+cs	Czech	cousin	bratranec		Pa;Sb;So	exact	(m)
+cs	Czech	cousin	sestřenice		Pa;Sb;Da	exact	(f)
+cs	Czech	nephew	synovec		Sb;So	exact	
+cs	Czech	niece	neť		Sb;Da	exact	
+cs	Czech	niece	neteř		Sb;Da	exact	
+cs	Czech	grandparents	prarodiče		Pa;Pa	plural	
+cs	Czech	grandfather	děda		Pa;Fa	exact	
+cs	Czech	grandfather	dědeček		Pa;Fa	exact	
+cs	Czech	grandmother	babička		Pa;Mo	exact	
+cs	Czech	grandchildren	vnoučata		Ch;Ch	plural	
+cs	Czech	grandson	vnuk		Ch;So	exact	
+cs	Czech	granddaughter	vnučka		Ch;Da	exact	
+cs	Czech	father-in-law	tchán		Sp;Fa	exact	
+cs	Czech	mother-in-law	tchýně		Sp;Mo	exact	
+cs	Czech	brother-in-law	švagr		BrL	exact	
+cs	Czech	sister-in-law	švagrová		SsL	exact	
+en	English	parents	parents		Pa	plural	
+en	English	parents	mum and dad		Pa	excluded	
+en	English	parents	mother and father		Pa	excluded	
+en	English	parents	mater and pater		Pa	excluded	
+en	English	parents	the parental units		Pa	excluded	
+en	English	father	father		Fa	exact	
+en	English	father	pater		Fa	exact	(frm)
+en	English	father	dad		Fa	exact	
+en	English	father	daddy		Fa	exact	
+en	English	father	da		Fa	exact	
+en	English	father	pa		Fa	exact	
+en	English	father	papa		Fa	exact	
+en	English	father	pop		Fa	exact	(s)
+en	English	mother	mother		Mo	exact	
+en	English	mother	mater		Mo	exact	(frm)
+en	English	mother	mum		Mo	exact	
+en	English	mother	mummy		Mo	exact	
+en	English	mother	mam		Mo	exact	
+en	English	mother	mammy		Mo	exact	
+en	English	mother	mom		Mo	exact	
+en	English	mother	mommy		Mo	exact	
+en	English	mother	ma		Mo	exact	
+en	English	mother	mama		Mo	exact	
+en	English	children	children		Ch	plural	
+en	English	children	offspring		Ch	plural	
+en	English	children	kids		Ch	plural	
+en	English	children	sprogs		Ch	excluded	
+en	English	children	rug-rats		Ch	excluded	
+en	English	children	ankle biters		Ch	excluded	
+en	English	children	little ones		Ch	excluded	
+en	English	son	son		So	exact	
+en	English	daughter	daughter		Da	exact	
+en	English	husband	husband		Hu	exact	
+en	English	husband	hubby		Hu	exact	
+en	English	husband	old man		Hu	excluded	
+en	English	husband	other half		Sp	exact	(under husband and wife)
+en	English	husband	better half		Sp	exact	(under husband and wife)
+en	English	wife	wife		Wi	exact	(and strife)
+en	English	wife	other half		Sp	exact	(and strife) (under husband and wife)
+en	English	wife	better half		Sp	exact	(and strife) (under husband and wife)
+en	English	wife	old lady		Wi	excluded	(and strife)
+en	English	wife	her indoors		Wi	excluded	(and strife)
+en	English	wife	missus		Wi	exact	(and strife)
+en	English	wife	trouble		Wi	excluded	(and strife)
+en	English	brother	brother		Br	exact	
+en	English	brother	bro		Br	exact	
+en	English	sister	sister		Ss	exact	
+en	English	sister	sis		Ss	exact	
+en	English	uncle	uncle		Unc	exact	
+en	English	aunt	aunt		Aun	exact	
+en	English	aunt	auntie		Aun	exact	
+en	English	cousin	cousin		Pa;Sb;Ch	exact	
+en	English	nephew	nephew		Sb;So	exact	
+en	English	niece	niece		Sb;Da	exact	
+en	English	grandparents	grandparents		Pa;Pa	plural	
+en	English	grandfather	grandfather		Pa;Fa	exact	
+en	English	grandfather	grandpa		Pa;Fa	exact	
+en	English	grandfather	granddad		Pa;Fa	exact	
+en	English	grandfather	granddaddy		Pa;Fa	exact	
+en	English	grandfather	grandpapppy		Pa;Fa	excluded	
+en	English	grandfather	gramps		Pa;Fa	exact	
+en	English	grandmother	grandmother		Pa;Mo	exact	
+en	English	grandmother	grandma		Pa;Mo	exact	
+en	English	grandmother	granny		Pa;Mo	exact	
+en	English	grandmother	gran		Pa;Mo	exact	
+en	English	grandmother	nan		Pa;Mo	exact	
+en	English	grandmother	nana		Pa;Mo	exact	
+en	English	grandmother	gramms		Pa;Mo	exact	
+en	English	grandchildren	grandchildren		Ch;Ch	plural	
+en	English	grandchildren	grandkids		Ch;Ch	plural	
+en	English	grandson	grandson		Ch;So	exact	
+en	English	granddaughter	granddaugther		Ch;Da	excluded	
+en	English	father-in-law	father-in-law		Sp;Fa	exact	
+en	English	mother-in-law	mother-in-law		Sp;Mo	exact	
+en	English	brother-in-law	brother-in-law		BrL	exact	
+en	English	sister-in-law	sister-in-law		SsL	exact	
+de	German	parents	Eltern		Pa	plural	
+de	German	father	Vater		Fa	exact	
+de	German	father	Vati		Fa	exact	
+de	German	father	Pa		Fa	exact	
+de	German	mother	Mutter		Mo	exact	
+de	German	mother	Mutti		Mo	exact	
+de	German	mother	Ma		Mo	exact	
+de	German	children	Kinder		Ch	plural	
+de	German	son	Sohn		So	exact	
+de	German	daughter	Tochter		Da	exact	
+de	German	husband	Mann		Hu	exact	
+de	German	wife	Frau		Wi	exact	
+de	German	brother	Bruder		Br	exact	
+de	German	sister	Schwester		Ss	exact	
+de	German	uncle	Onkel		Unc	exact	
+de	German	aunt	Tante		Aun	exact	
+de	German	cousin	Cousin		Pa;Sb;So	exact	(m)
+de	German	cousin	Cousine		Pa;Sb;Da	exact	(f)
+de	German	nephew	Neffe		Sb;So	exact	
+de	German	niece	Nichte		Sb;Da	exact	
+de	German	grandparents	Großeltern		Pa;Pa	plural	
+de	German	grandfather	Großvater		Pa;Fa	exact	
+de	German	grandmother	Großmutter		Pa;Mo	exact	
+de	German	grandchildren	Enkelkinder		Ch;Ch	plural	
+de	German	grandson	Enkel		Ch;So	exact	
+de	German	granddaughter	Enkelin		Ch;Da	exact	
+de	German	father-in-law	Schwiegervater		Sp;Fa	exact	
+de	German	mother-in-law	Schwiegermutter		Sp;Mo	exact	
+de	German	brother-in-law	Schwager		BrL	exact	
+de	German	brother-in-law	Schwippschwager		BrL	broader	(spouse's sister's husband)
+de	German	sister-in-law	Schwägerin		SsL	exact	
+de	German	sister-in-law	Schwippschwägerin		SsL	broader	(spouse's brother's wife)
+id	Indonesian	relatives	relatip		Rel	excluded	
+id	Indonesian	relatives	nisbi		Rel	excluded	
+id	Indonesian	relatives	sehubungan		Rel	excluded	
+id	Indonesian	parents	ibu-bapa		Pa	exact	
+id	Indonesian	father	ayahanda		Fa	exact	(vfrm)
+id	Indonesian	father	ayah		Fa	exact	(frm)
+id	Indonesian	father	bapak		Fa	exact	
+id	Indonesian	father	pak		Fa	exact	(inf)
+id	Indonesian	mother	ibunda		Mo	exact	(vfrm)
+id	Indonesian	mother	bunda		Mo	exact	(frm)
+id	Indonesian	mother	ibu		Mo	exact	(inf)
+id	Indonesian	child(-ren)	anak		Ch	exact	
+id	Indonesian	child(-ren)	bani		Ch	excluded	
+id	Indonesian	son	putra		So	exact	
+id	Indonesian	daughter	putri		Da	exact	
+id	Indonesian	spouse	pasangan hidup		Sp	exact	
+id	Indonesian	spouse	isteri		Sp	excluded	
+id	Indonesian	spouse	suami		Sp	exact	
+id	Indonesian	husband	suami		Hu	exact	
+id	Indonesian	husband	suamiku		Hu	excluded	
+id	Indonesian	wife	istri		Wi	exact	
+id	Indonesian	wife	istriku		Wi	excluded	
+id	Indonesian	sibling	saudara kandung		Sb	exact	
+id	Indonesian	brother	abang		El:Br	exact	(older)
+id	Indonesian	brother	bang		El:Br	exact	(older)
+id	Indonesian	brother	bung		El:Br	excluded	(older)
+id	Indonesian	brother	kakak		El:Sb	exact	(older) (under brother and sister)
+id	Indonesian	brother	kak		El:Sb	exact	(older) (under brother and sister)
+id	Indonesian	brother	adik laki-laki		Yn:Br	exact	(younger)
+id	Indonesian	sister	adik		El:Ss	excluded	(older)
+id	Indonesian	sister	kakak		El:Sb	exact	(older) (under brother and sister)
+id	Indonesian	sister	kak		El:Sb	exact	(older) (under brother and sister)
+id	Indonesian	sister	adik perempuan		Yn:Ss	exact	(younger)
+id	Indonesian	uncle	paman		Unc	exact	
+id	Indonesian	aunt	bibi		Aun	exact	
+id	Indonesian	cousin	saudara sepupu		Pa;Sb;Ch	exact	
+id	Indonesian	cousin	sepupu		Pa;Sb;Ch	exact	
+id	Indonesian	nephew, niece	keponakan		Sb;Ch	exact	
+id	Indonesian	nephew	kemenakan laki-laki		Sb;So	exact	
+id	Indonesian	nephew	keponakan laki-lak		Sb;So	excluded	
+id	Indonesian	niece	kemenakan perempuan		Sb;Da	exact	
+id	Indonesian	niece	keponakan perempuan		Sb;Da	exact	
+id	Indonesian	grandfather	kakek		Pa;Fa	exact	
+id	Indonesian	grandfather	buyut		Pa;Fa	excluded	
+id	Indonesian	grandmother	nenek		Pa;Mo	exact	
+id	Indonesian	grandchild	cucu		Ch;Ch	exact	(both genders)
+id	Indonesian	grandson	cucu lelaki		Ch;So	exact	
+id	Indonesian	grandson	cucunya		Ch;So	excluded	
+id	Indonesian	granddaughter	cucu perempuan		Ch;Da	exact	
+id	Indonesian	father-in-law	mertua		Sp;Pa	exact	(under father-in-law and mother-in-law)
+id	Indonesian	father-in-law	ayah mertua		Sp;Fa	exact	
+id	Indonesian	mother-in-law	mertua		Sp;Pa	exact	(under father-in-law and mother-in-law)
+id	Indonesian	mother-in-law	ibu mertua		Sp;Mo	exact	
+id	Indonesian	brother-in-law	saudara ipar		BrL	exact	
+id	Indonesian	sister-in-law	saudara perempuan		SsL	excluded	
+ja	Japanese	relative	親戚	shinseki	Rel	exact	
+ja	Japanese	parents	両親	ryōshin	Pa	exact	- inf
+ja	Japanese	parents	ご両親	go ryōshin	Pa	exact	- frm
+ja	Japanese	father	父	chichi	Fa	exact	- inf
+ja	Japanese	father	お父さん	otō san	Fa	exact	- frm
+ja	Japanese	mother	母	haha	Mo	exact	- inf
+ja	Japanese	mother	お母さん	okā san	Mo	exact	- frm
+ja	Japanese	children	子供	kodomo	Ch	exact	- inf
+ja	Japanese	children	お子さん	oko san	Ch	exact	- frm
+ja	Japanese	son	息子	musuko	So	exact	- inf
+ja	Japanese	son	息子さん	musuko san	So	exact	- frm
+ja	Japanese	daughter	娘	musume	Da	exact	- inf
+ja	Japanese	daughter	お嬢さん	ojō san	Da	exact	- frm
+ja	Japanese	spouse	配偶者	haigūsha	Sp	exact	
+ja	Japanese	spouse	伴侶	hanryo	Sp	exact	
+ja	Japanese	spouse	伉配	kōhai	Sp	exact	
+ja	Japanese	husband	夫	otto	Hu	exact	- inf
+ja	Japanese	husband	主人	shujin	Hu	exact	
+ja	Japanese	husband	亭主	teishu	Hu	exact	
+ja	Japanese	husband	ご主人	go shujin	Hu	exact	- frm
+ja	Japanese	wife	妻	tsuma	Wi	exact	- inf
+ja	Japanese	wife	家内	kanai	Wi	exact	
+ja	Japanese	wife	女房	nyōbō	Wi	exact	
+ja	Japanese	wife	奥さん	oku san	Wi	exact	- frm
+ja	Japanese	siblings	兄弟姉妹	kyōdaishimai	Sb	exact	
+ja	Japanese	siblings (brothers)	兄弟	kyōdai	Br	exact	- inf
+ja	Japanese	siblings (brothers)	ご兄弟	go kyōdai	Br	exact	- frm
+ja	Japanese	siblings (sisters)	姉妹	shimai	Ss	exact	
+ja	Japanese	older brother	兄	ani	El:Br	exact	- inf
+ja	Japanese	older brother	お兄さん	onī san	El:Br	exact	- frm
+ja	Japanese	older sister	姉	ane	El:Ss	exact	- inf
+ja	Japanese	older sister	お姉さん	onē san	El:Ss	exact	- frm
+ja	Japanese	younger brother	弟	otōto	Yn:Br	exact	- inf
+ja	Japanese	younger brother	弟さん	otōto san	Yn:Br	exact	- frm
+ja	Japanese	youger sister	妹	imōto	Yn:Ss	exact	- inf
+ja	Japanese	youger sister	妹さん	imōto san	Yn:Ss	exact	- frm
+ja	Japanese	uncle (older than parent)	伯父	oji	Pa;El:Br	exact	- inf
+ja	Japanese	uncle (older than parent)	おじさん	oji san	Pa;Br	exact	- frm (under uncle (older than parent) and uncle (younger than parent))
+ja	Japanese	uncle (younger than parent)	叔父	oji	Pa;Yn:Br	exact	- inf
+ja	Japanese	uncle (younger than parent)	おじさん	oji san	Pa;Br	exact	- frm (under uncle (older than parent) and uncle (younger than parent))
+ja	Japanese	aunt (older than parent)	伯母	oba	Pa;El:Ss	exact	- inf
+ja	Japanese	aunt (older than parent)	おばさん	oba san	Pa;Ss	exact	- frm (under aunt (older than parent) and aunt (younger than parent))
+ja	Japanese	aunt (younger than parent)	叔母	oba	Pa;Yn:Ss	exact	- inf
+ja	Japanese	aunt (younger than parent)	おばさん	oba san	Pa;Ss	exact	- frm (under aunt (older than parent) and aunt (younger than parent))
+ja	Japanese	cousin	いとこ	itoko	Pa;Sb;Ch	exact	
+ja	Japanese	cousin	従兄	jūkei	Pa;Sb;El:So	exact	- elder male
+ja	Japanese	cousin	従弟	jūtei	Pa;Sb;Yn:So	exact	- younger male
+ja	Japanese	cousin	従姉	jūshi	Pa;Sb;El:Da	exact	- elder female
+ja	Japanese	cousin	従妹	jūmei	Pa;Sb;Yn:Da	exact	- younger female
+ja	Japanese	cousin	従兄弟	jūkeitei	Pa;Sb;So	exact	- male (pl)
+ja	Japanese	cousin	従姉妹	jūshimei	Pa;Sb;Da	exact	- female (pl)
+ja	Japanese	nephew	甥	oi	Sb;So	exact	; - inf
+ja	Japanese	nephew	甥っ子	oikko	Sb;So	exact	; - inf
+ja	Japanese	nephew	甥御	oigo	Sb;So	exact	- frm
+ja	Japanese	niece	姪	mei	Sb;Da	exact	; - inf
+ja	Japanese	niece	姪っ子	meikko	Sb;Da	exact	; - inf
+ja	Japanese	niece	姪御	meigo	Sb;Da	exact	- frm
+ja	Japanese	grandfather	祖父	sofu	Pa;Fa	exact	; - inf
+ja	Japanese	grandfather	爺	jiji	Pa;Fa	exact	; - inf
+ja	Japanese	grandfather	お爺さん		Pa;Fa	exact	- frm
+ja	Japanese	grandfather	お祖父さん	ojī san	Pa;Fa	exact	- frm
+ja	Japanese	grandmother	祖母	sobo	Pa;Mo	exact	- inf
+ja	Japanese	grandmother	お姉さん	onē san	Pa;Mo	excluded	- frm
+ja	Japanese	grandchild	孫	mago	Ch;Ch	exact	- inf
+ja	Japanese	grandchild	お孫さん	omago san	Ch;Ch	exact	- frm
+ja	Japanese	grandson	孫息子	mago musuku	Ch;So	exact	
+ja	Japanese	granddaughter	孫娘	mago musume	Ch;Da	exact	
+ja	Japanese	father-in-law	義理の父	giri no chichi	Sp;Fa	exact	
+ja	Japanese	father-in-law	義父	gifu	Sp;Fa	exact	
+ja	Japanese	father-in-law	舅	shūto	Sp;Fa	exact	
+ja	Japanese	mother-in-law	義理の野母	giri no haha	Sp;Mo	excluded	
+ja	Japanese	mother-in-law	義母	gibo	Sp;Mo	exact	
+ja	Japanese	mother-in-law	姑	shūtome	Sp;Mo	exact	
+ja	Japanese	brother-in-law stepbrother	義兄	gikei	BrL	broader	- older
+ja	Japanese	brother-in-law stepbrother	義理の兄	giri no ani	BrL	broader	- older
+ja	Japanese	brother-in-law stepbrother	義弟	gitei	BrL	broader	- younger
+ja	Japanese	brother-in-law stepbrother	義理の弟	giri no otōto	BrL	broader	- younger
+ja	Japanese	sister-in-law stepsister	義姉	gishi	SsL	broader	- older
+ja	Japanese	sister-in-law stepsister	義理の姉	gishi no ane	SsL	broader	- older
+ja	Japanese	sister-in-law stepsister	義妹	gimei	SsL	broader	- younger
+ja	Japanese	sister-in-law stepsister	義理の妹	gishi no mai	SsL	broader	- younger
+ja	Japanese	son-in-law	義理の息子	giri no musuko	Da;Hu	exact	
+ja	Japanese	daughter-in-law	嫁姑	yome shūtome	So;Wi	excluded	
+ms	Malay	kin, relatives	saudara-mara		Rel	exact	
+ms	Malay	kin, relatives	sanak-saudara		Rel	exact	
+ms	Malay	parents	ibu-bapa		Pa	exact	
+ms	Malay	father	abah		Fa	exact	
+ms	Malay	father	ayah		Fa	exact	
+ms	Malay	father	bapa		Fa	exact	
+ms	Malay	mother	emak		Mo	exact	
+ms	Malay	mother	ibu		Mo	exact	
+ms	Malay	child(-ren)	anak		Ch	exact	(-anak)
+ms	Malay	son	anak lelaki		So	exact	
+ms	Malay	daughter	anak perempuan		Da	exact	
+ms	Malay	spouse, couple	pasangan		Sp	exact	
+ms	Malay	husband	suami		Hu	exact	
+ms	Malay	wife	isteri		Wi	exact	
+ms	Malay	siblings	adik-beradik		Sb	exact	
+ms	Malay	brother	saudara		Br	exact	(frm)
+ms	Malay	brother	abang		El:Br	exact	(older)
+ms	Malay	brother	adik		Yn:Sb	exact	(lelaki) (younger) (under brother and sister)
+ms	Malay	sister	saudari		Ss	exact	(frm)
+ms	Malay	sister	kakak		El:Ss	exact	(older)
+ms	Malay	sister	adik		Yn:Sb	exact	(perempuan) (younger) (under brother and sister)
+ms	Malay	uncle	bapa saudara		Unc	exact	(frm)
+ms	Malay	uncle	pak long		Pa;El:Br	excluded	(parent's eldest brother)
+ms	Malay	uncle	pak ngah		Unc	excluded	(parent's second oldest brother)
+ms	Malay	uncle	pak ucu		Pa;Yn:Br	excluded	(parent's youngest brother)
+ms	Malay	uncle	pak su		Pa;Yn:Br	excluded	(parent's youngest brother)
+ms	Malay	uncle	pak cik		Unc	exact	(generic)
+ms	Malay	aunt	ibu saudara		Aun	exact	frm
+ms	Malay	aunt	mak long		Pa;El:Ss	excluded	(parent's eldest sister)
+ms	Malay	aunt	mak ngah		Aun	excluded	(parent's second oldest sister)
+ms	Malay	aunt	mak ucu		Pa;Yn:Ss	excluded	(parent's youngest sister)
+ms	Malay	aunt	pak su		Pa;Yn:Ss	excluded	(parent's youngest sister)
+ms	Malay	aunt	mak cik		Aun	exact	(generic)
+ms	Malay	cousin	pupu		Pa;Sb;Ch	exact	(generic)
+ms	Malay	cousin	sepupu		Pa;Sb;Ch	exact	(first cousin)
+ms	Malay	cousin	dua pupu		Pa;Sb;Ch	excluded	(second cousin)
+ms	Malay	cousin	tiga pupu		Pa;Sb;Ch	excluded	(third cousin)
+ms	Malay	nephew, niece	anak saudara		Sb;Ch	exact	(both genders)
+ms	Malay	grandfather	datuk		Pa;Fa	exact	
+ms	Malay	grandmother	nenek		Pa;Mo	exact	
+ms	Malay	grandchild	cucu		Ch;Ch	exact	(both genders)
+ms	Malay	father-in-law	bapa mertua		Sp;Fa	exact	
+ms	Malay	mother-in-law	ibu mertua		Sp;Mo	exact	
+ms	Malay	brother-in-law	abang ipar		Sp;Br	broader	(spouse's older brother)
+ms	Malay	brother-in-law	adik ipar		Sp;Br	broader	(spouse's younger brother)
+ms	Malay	sister-in-law	kakak ipar		Sp;Ss	broader	(spouse's older sister)
+ms	Malay	sister-in-law	adik ipar		Sp;Ss	broader	(spouse's younger sister)
+ms	Malay	child-in-law	menantu		Ch;Sp	exact	(both genders)
+ms	Malay	parent of one's child's spouse	besan		InL	excluded	
+cmn	Mandarin	relative	亲戚	qīnqi	Rel	exact	[親戚]
+cmn	Mandarin	parents	父母	fùmǔ	Pa	exact	
+cmn	Mandarin	father	父親	fùqīn	Fa	exact	frm
+cmn	Mandarin	father	爸爸	bàba	Fa	exact	inf
+cmn	Mandarin	mother	母親	mǔqīn	Mo	exact	frm
+cmn	Mandarin	mother	妈妈	māma	Mo	exact	[媽媽] inf
+cmn	Mandarin	children	孩子	háizi	Ch	exact	
+cmn	Mandarin	children	儿童	értóng	Ch	excluded	[兒童]
+cmn	Mandarin	son	儿子	érzi	So	exact	[兒子]
+cmn	Mandarin	daughter	女儿	nǚ'ér	Da	exact	[女兒]
+cmn	Mandarin	spouse	配偶	pèi'ǒu	Sp	exact	
+cmn	Mandarin	husband	先生	xiānshēng	Hu	exact	frm
+cmn	Mandarin	husband	丈夫	zhàng fu	Hu	exact	frm
+cmn	Mandarin	husband	老公	lǎogong	Hu	exact	inf
+cmn	Mandarin	wife	太太	tàitài	Wi	exact	frm
+cmn	Mandarin	wife	妻子	qīzi	Wi	exact	
+cmn	Mandarin	wife	老婆	lǎopó	Wi	exact	inf
+cmn	Mandarin	siblings	兄弟姐妹	xiōngdì jiemèi	Sb	exact	
+cmn	Mandarin	brother	哥哥	gēge	El:Br	exact	+
+cmn	Mandarin	brother	弟弟	dìdi	Yn:Br	exact	-
+cmn	Mandarin	sister	姐姐	jiějie	El:Ss	exact	+
+cmn	Mandarin	sister	妹妹	mèimèi	Yn:Ss	exact	-
+cmn	Mandarin	uncle	伯伯	bóbo	Fa;El:Br	exact	father's elder brother
+cmn	Mandarin	uncle	叔叔	shūshu	Fa;Yn:Br	exact	father's younger brother
+cmn	Mandarin	uncle	姑丈	gūzhàng	Fa;Ss;Hu	exact	father's sister's husband
+cmn	Mandarin	uncle	舅舅	jiùjiu	Mo;Br	exact	mother's brother
+cmn	Mandarin	uncle	姨丈	yízhàng	Mo;Ss;Hu	exact	mother's sister's husband
+cmn	Mandarin	aunt	姑姑	gūgu	Fa;Ss	exact	father's sister
+cmn	Mandarin	aunt	婶婶	shěnshen	Fa;Br;Wi	excluded	father's brother's wife
+cmn	Mandarin	aunt	姨妈	yímā	Aun	exact	[姨媽] mother's sister
+cmn	Mandarin	aunt	舅妈	jiùmā	Aun	exact	[舅媽] mother's brother's wife
+cmn	Mandarin	cousin (paternal)	堂兄	tángxiōng	Fa;Sb;So	broader	+m
+cmn	Mandarin	cousin (paternal)	堂弟	tángdì	Fa;Sb;So	broader	-m
+cmn	Mandarin	cousin (paternal)	堂姐	tángjiě	Fa;Sb;Da	broader	+f
+cmn	Mandarin	cousin (paternal)	堂妹	tángmèi	Fa;Sb;Da	broader	-f
+cmn	Mandarin	cousin (maternal)	表兄	biǎoxiōng	Mo;Sb;El:So	exact	+m
+cmn	Mandarin	cousin (maternal)	表弟	biǎodì	Mo;Sb;Yn:So	exact	-m
+cmn	Mandarin	cousin (maternal)	表姐	biǎojiě	Mo;Sb;El:Da	exact	+f
+cmn	Mandarin	cousin (maternal)	表妹	biǎomèi	Mo;Sb;Yn:Da	exact	-f
+cmn	Mandarin	nephew	姪子	zhízi	Br;So	exact	brother's son
+cmn	Mandarin	nephew	外甥	wàishēng	Ss;So	exact	sister's son
+cmn	Mandarin	niece	姪女	zhínǚ	Br;Da	exact	brother's daughter
+cmn	Mandarin	niece	外甥女	wàishengnǚ	Ss;Da	exact	sister's daughter
+cmn	Mandarin	grandfather	祖父	zǔfù	Fa;Fa	exact	pt-frm
+cmn	Mandarin	grandfather	爷爷	yéye	Fa;Fa	exact	[爺爺] pt-inf
+cmn	Mandarin	grandfather	外公	wàigōng	Mo;Fa	exact	mt-frm
+cmn	Mandarin	grandfather	公公	gōnggōng	Mo;Fa	exact	mt-inf
+cmn	Mandarin	grandmother	祖母	zǔmǔ	Fa;Mo	exact	pt-frm
+cmn	Mandarin	grandmother	奶奶	nǎinai	Fa;Mo	exact	pt-inf
+cmn	Mandarin	grandmother	外婆	wài pó	Mo;Mo	exact	mt-frm
+cmn	Mandarin	grandmother	姥姥	lǎolǎo	Mo;Mo	exact	mt-inf
+cmn	Mandarin	grandson	孙子	sūnzi	Ch;So	exact	[孫子] son's son
+cmn	Mandarin	grandson	外孙子	wàisūn	Ch;So	exact	[外孫子] daughter's son
+cmn	Mandarin	granddaughter	孙女	sūnnǚ	Ch;Da	exact	[孫女] son's daughter
+cmn	Mandarin	granddaughter	外孙女	wàisūnnǚ	Ch;Da	exact	[外孫女] daughter's daughter
+cmn	Mandarin	father-in-law	公公	gōnggong	Hu;Fa	exact	husband's father
+cmn	Mandarin	father-in-law	岳父	yuèfù	Wi;Fa	exact	wife's father
+cmn	Mandarin	mother-in-law	婆婆	pópo	Hu;Mo	exact	husband's mother
+cmn	Mandarin	mother-in-law	岳母	yuèmǔ	Wi;Mo	exact	wife's mother
+cmn	Mandarin	brother-in-law	姐夫	jiěfu	Ss;Hu	broader	elder sister's husband
+cmn	Mandarin	brother-in-law	妹夫	mèifu	Ss;Hu	broader	younger sister's husband
+cmn	Mandarin	brother-in-law	大伯	dàbó	Hu;Br	broader	husband's elder brother
+cmn	Mandarin	brother-in-law	小叔	xiǎoshū	Hu;Br	broader	husband's younger brother
+cmn	Mandarin	sister-in-law	嫂子	sǎozi	Br;Wi	broader	elder brother's wife
+cmn	Mandarin	sister-in-law	弟妹	dìmèi	Br;Wi	broader	younger brother's wife
+cmn	Mandarin	sister-in-law	大姨子	dàyízi	Wi;Ss	broader	wife's elder sister
+cmn	Mandarin	sister-in-law	小姨子	xiǎoyízi	Wi;Ss	broader	wife's younger sister
+cmn	Mandarin	son-in-law	女婿	nǚxu	Da;Hu	exact	
+cmn	Mandarin	daughter-in-law	媳婦	xífù	So;Wi	exact	[媳妇]
+pl	Polish	parents	rodzice		Pa	plural	
+pl	Polish	father	ojciec		Fa	exact	(frm)
+pl	Polish	father	tata		Fa	exact	(inf)
+pl	Polish	father	tato		Fa	exact	(inf)
+pl	Polish	mother	matka		Mo	exact	(frm)
+pl	Polish	mother	mama		Mo	exact	(inf)
+pl	Polish	children	dzieci		Ch	plural	
+pl	Polish	son	syn		So	exact	
+pl	Polish	daughter	córka		Da	exact	
+pl	Polish	husband	mąż		Hu	exact	
+pl	Polish	husband	małżonek		Hu	exact	
+pl	Polish	wife	żona		Wi	exact	
+pl	Polish	wife	małżonka		Wi	exact	
+pl	Polish	brother	brat		Br	exact	
+pl	Polish	sister	siostra		Ss	exact	
+pl	Polish	uncle	wujek		Unc	exact	
+pl	Polish	aunt	ciotka		Aun	exact	
+pl	Polish	cousin	kuzyn		Pa;Sb;So	exact	(m)
+pl	Polish	cousin	kuzynka		Pa;Sb;Da	exact	(f)
+pl	Polish	nephew	bratanek		Br;So	exact	(brother's son)
+pl	Polish	nephew	siostrzeniec		Ss;So	exact	(sister's son)
+pl	Polish	niece	bratanica		Br;Da	exact	(brother's daughter)
+pl	Polish	niece	siostrzenica		Ss;Da	exact	(sister's daughter)
+pl	Polish	grandparents	dziadkowie		Pa;Pa	plural	
+pl	Polish	grandfather	dziadek		Pa;Fa	exact	
+pl	Polish	grandmother	babka		Pa;Mo	exact	(frm)
+pl	Polish	grandmother	babcia		Pa;Mo	exact	(inf)
+pl	Polish	grandchildren	wnukowie		Ch;Ch	plural	
+pl	Polish	grandchildren	wnuczęta		Ch;Ch	plural	
+pl	Polish	grandson	wnuk		Ch;So	exact	
+pl	Polish	granddaughter	wnuczka		Ch;Da	exact	
+pl	Polish	father-in-law	teść		Sp;Fa	exact	
+pl	Polish	mother-in-law	teściowa		Sp;Mo	exact	
+pl	Polish	brother-in-law	szwagier		BrL	exact	
+pl	Polish	sister-in-law	bratowa		Br;Wi	exact	(brother's wife)
+pl	Polish	sister-in-law	szwagierka		SsL	exact	
+sk	Slovak	parents	rodičia		Pa	plural	
+sk	Slovak	father	otec		Fa	exact	
+sk	Slovak	mother	matka		Mo	exact	
+sk	Slovak	children	deti		Ch	plural	
+sk	Slovak	son	syn		So	exact	
+sk	Slovak	daughter	dcéra		Da	exact	
+sk	Slovak	husband	manžel		Hu	exact	
+sk	Slovak	wife	manželka		Wi	exact	
+sk	Slovak	brother	brat		Br	exact	
+sk	Slovak	sister	sestra		Ss	exact	
+sk	Slovak	uncle	strýko		Unc	exact	
+sk	Slovak	aunt	teta		Aun	exact	
+sk	Slovak	cousin	bratranec		Pa;Sb;So	exact	(m)
+sk	Slovak	cousin	sesternica		Pa;Sb;Da	exact	(f)
+sk	Slovak	nephew	synovec		Sb;So	exact	
+sk	Slovak	niece	neter		Sb;Da	exact	
+sk	Slovak	grandparents	starí rodičia		Pa;Pa	plural	
+sk	Slovak	grandfather	dedko		Pa;Fa	exact	
+sk	Slovak	grandmother	babička		Pa;Mo	exact	
+sk	Slovak	grandchildren	vnúčatá		Ch;Ch	plural	
+sk	Slovak	grandson	vnuk		Ch;So	exact	
+sk	Slovak	granddaughter	vnučka		Ch;Da	exact	
+sk	Slovak	father-in-law	svokor		Sp;Fa	exact	
+sk	Slovak	mother-in-law	svokra		Sp;Mo	exact	
+sk	Slovak	brother-in-law	švagor		BrL	exact	
+sk	Slovak	sister-in-law	švagriná		SsL	exact	
+es	Spanish	parents	padres		Pa	plural	
+es	Spanish	father	padre		Fa	exact	
+es	Spanish	father	papá		Fa	exact	
+es	Spanish	mother	madre		Mo	exact	
+es	Spanish	mother	mamá		Mo	exact	
+es	Spanish	children	hijos		Ch	plural	
+es	Spanish	children	niños		Ch	excluded	
+es	Spanish	son	hijo		So	exact	
+es	Spanish	daughter	hija		Da	exact	
+es	Spanish	husband	marido		Hu	exact	
+es	Spanish	husband	esposo		Hu	exact	
+es	Spanish	wife	mujer		Wi	exact	
+es	Spanish	wife	esposa		Wi	exact	
+es	Spanish	brother	hermano		Br	exact	
+es	Spanish	sister	hermana		Ss	exact	
+es	Spanish	uncle	tío		Unc	exact	
+es	Spanish	aunt	tía		Aun	exact	
+es	Spanish	cousin	primo		Pa;Sb;So	exact	(m)
+es	Spanish	cousin	prima		Pa;Sb;Da	exact	(f)
+es	Spanish	nephews & nieces	sobrinos		Sb;Ch	plural	
+es	Spanish	nephew	sobrino		Sb;So	exact	
+es	Spanish	niece	sobrina		Sb;Da	exact	
+es	Spanish	grandparents	abuelos		Pa;Pa	plural	
+es	Spanish	grandfather	abuelo		Pa;Fa	exact	
+es	Spanish	grandmother	abuela		Pa;Mo	exact	
+es	Spanish	grandchildren	nietos		Ch;Ch	plural	
+es	Spanish	grandson	nieto		Ch;So	exact	
+es	Spanish	granddaughter	nieta		Ch;Da	exact	
+es	Spanish	father-in-law	suegro		Sp;Fa	exact	
+es	Spanish	mother-in-law	suegra		Sp;Mo	exact	
+es	Spanish	brother-in-law	cuñado		BrL	exact	
+es	Spanish	sister-in-law	cuñada		SsL	exact	
+es	Spanish	uncle-in-law (aunt's husband)	tío politico		Pa;Ss;Hu	excluded	
+es	Spanish	aunt-in-law (uncle's wife)	tía politica		Pa;Br;Wi	excluded	

@@ -17,9 +17,9 @@
 #   CC BY 4.0, NOT in the build (unchecked), as form "gloss" [items] uses, where
 #   uses are 1st/2nd (refers to speaker/addressee), address, title; (partial):
 #   the word's items match no concept. prosub_new: those not in `lemmas`.
-# omniglot: Omniglot's family words (Simon Ager, omniglot.com), for review
-#   only, NOT in the build (licence), as word romanization "label" qualifiers;
-#   (broader): on a broader concept than the qualifiers name.
+# omniglot: Omniglot's family words (Simon Ager, omniglot.com; CC BY-SA by
+#   permission), as word romanization "label" qualifiers. Built, except
+#   (not built: broader, plural or excluded: data/omniglot-curation.tsv).
 #   omniglot_new: those not in `lemmas`.
 
 ["Pa;Pa"]
@@ -38,32 +38,31 @@ honorific = ["祖父母: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Pa;Fa"]
-lemmas = ["おじいさん", "お爺ちゃん", "お祖父", "お祖父ちゃん", "お祖父様", "そふ", "御祖父", "御祖父さん", "御祖父様", "爺さん", "祖", "祖父", "祖父さま", "祖父上", "祖父君", "祖父御", "祖父様", "親"]
+lemmas = ["おじいさん", "お爺さん", "お爺ちゃん", "お祖父", "お祖父さん", "お祖父ちゃん", "お祖父様", "そふ", "御祖父", "御祖父さん", "御祖父様", "爺", "爺さん", "祖", "祖父", "祖父さま", "祖父上", "祖父君", "祖父御", "祖父様", "親"]
 prosub = ["祖父 \"grandfather\" [18,19] no person use", "おじいちゃん \"grandfather\" [18,19] 1st 2nd address title", "おじいさん \"grand father\" [18,19] 1st 2nd address title"]
 prosub_new = ["おじいちゃん"]
 omniglot = ["祖父 sofu \"grandfather\" inf", "爺 jiji \"grandfather\" inf", "お爺さん \"grandfather\" frm", "お祖父さん ojī san \"grandfather\" frm"]
-omniglot_new = ["爺", "お爺さん", "お祖父さん"]
 english = ["gramps", "grandad", "granddad", "granddaddy", "grandfather", "grandpa"]
 label = "grandfather"
 definition = "the father of one's parent (a grandparent)"
 existing_by_ili = ["wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "tufs-ja tufs-ja-10142391-n [i90287] おじいさん: (CILI) the father of your father or mother"]
-existing_by_lemma = ["おじいさん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "おじいさん -> tufs-ja tufs-ja-10142391-n [i90287] おじいさん: (CILI) the father of your father or mother", "お祖父 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "お祖父ちゃん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "お祖父様 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "そふ -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "御祖父 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "御祖父さん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "御祖父様 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "爺さん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "祖 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "祖 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "祖父 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父さま -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父上 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父君 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父御 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父様 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "親 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "親 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類"]
-existing_hidden = 8  # other senses of these lemmas
+existing_by_lemma = ["おじいさん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "おじいさん -> tufs-ja tufs-ja-10142391-n [i90287] おじいさん: (CILI) the father of your father or mother", "お爺さん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "お祖父 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "お祖父さん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "お祖父ちゃん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "お祖父様 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "そふ -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "御祖父 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "御祖父さん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "御祖父様 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "爺さん -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "祖 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "祖 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類", "祖父 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父さま -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父上 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父君 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父御 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "祖父様 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-09792555-n [i88207] ルーツ, 祖, 親, 世祖, 先つ祖, 先世, ...: 自分が系統を引く（通常、祖父母よりも遠い）人", "親 -> wnja wnja-10102369-n [i90031] 祖, 親, 先祖: あなたを子孫とする人", "親 -> wnja wnja-10142391-n [i90287] 祖, 親, お祖父, お祖父ちゃん, お祖父様, 御祖父, ...: 父あるいは母の父親", "親 -> wnja wnja-10399491-n [i91858] 親, ペアレント, 親, 親じゃ人, 親者人: 父親か母親; 子どもを生み出す、出産する、子供を養育して、あるいは育てる人; 保護者の役割を果たす親類"]
+existing_hidden = 14  # other senses of these lemmas
 ntumc = ["御祖父さん <- 10142391-n", "祖父さま <- 10142391-n", "祖父さん <- 10142391-n", "祖 <- 10142391-n", "御祖父様 <- 10142391-n", "お祖父さん <- 10142391-n", "お祖父ちゃん <- 10142391-n", "お祖父 <- 10142391-n", "祖父 <- 10142391-n", "お祖父さん・お爺さん <- 10142391-n", "祖父御 <- 10142391-n", "御祖父 <- 10142391-n", "祖父様 <- 10142391-n", "祖父君 <- 10142391-n", "祖父上 <- 10142391-n", "お祖父様 <- 10142391-n"]
-new_senses = ["爺さん", "親"]
+new_senses = ["お爺さん", "爺", "爺さん", "親"]
 new_words = ["おじいさん", "お爺ちゃん", "そふ"]
 hypernyms = ["Ch;So|Pa;Fa", "Pa;Pa"]
 ancestors = ["Ch;So|Pa;Fa", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["おじいさん <- TUFS, Wiktionary", "お爺ちゃん <- Wiktionary", "お祖父 <- wnja", "お祖父ちゃん <- wnja", "お祖父様 <- wnja", "そふ <- Wiktionary", "御祖父 <- wnja", "御祖父さん <- wnja", "御祖父様 <- wnja", "爺さん <- wnja", "祖 <- wnja", "祖父 <- wnja", "祖父さま <- wnja", "祖父上 <- wnja", "祖父君 <- wnja", "祖父御 <- wnja", "祖父様 <- wnja", "親 <- wnja"]
-honorific = ["おじいさん: Pol (-さん)", "お爺ちゃん: Fam;Infml (-ちゃん)", "お祖父: Pol (お-/御-)", "お祖父ちゃん: Fam;Infml (-ちゃん)", "お祖父様: Hon;Fml (-様)", "そふ: Fml;Hum (bare, senior)", "御祖父: Pol (お-/御-)", "御祖父さん: Pol (-さん)", "御祖父様: Hon;Fml (-様)", "爺さん: Pol (-さん)", "祖: Fml;Hum (bare, senior)", "祖父: Fml;Hum (bare, senior)", "祖父さま: Hon;Fml (-さま)", "祖父上: Hon;Arch (-上)", "祖父君: Hon;Arch (-君)", "祖父御: Hon (-御)", "祖父様: Hon;Fml (-様)", "親: Fml;Hum (bare, senior)"]
+sources = ["おじいさん <- TUFS, Wiktionary", "お爺さん <- Omniglot", "お爺ちゃん <- Wiktionary", "お祖父 <- wnja", "お祖父さん <- Omniglot", "お祖父ちゃん <- wnja", "お祖父様 <- wnja", "そふ <- Wiktionary", "御祖父 <- wnja", "御祖父さん <- wnja", "御祖父様 <- wnja", "爺 <- Omniglot", "爺さん <- wnja", "祖 <- wnja", "祖父 <- Omniglot, wnja", "祖父さま <- wnja", "祖父上 <- wnja", "祖父君 <- wnja", "祖父御 <- wnja", "祖父様 <- wnja", "親 <- wnja"]
+honorific = ["おじいさん: Pol (-さん)", "お爺さん: Pol (-さん)", "お爺ちゃん: Fam;Infml (-ちゃん)", "お祖父: Pol (お-/御-)", "お祖父さん: Pol (-さん)", "お祖父ちゃん: Fam;Infml (-ちゃん)", "お祖父様: Hon;Fml (-様)", "そふ: Fml;Hum (bare, senior)", "御祖父: Pol (お-/御-)", "御祖父さん: Pol (-さん)", "御祖父様: Hon;Fml (-様)", "爺: Fml;Hum (bare, senior)", "爺さん: Pol (-さん)", "祖: Fml;Hum (bare, senior)", "祖父: Fml;Hum (bare, senior)", "祖父さま: Hon;Fml (-さま)", "祖父上: Hon;Arch (-上)", "祖父君: Hon;Arch (-君)", "祖父御: Hon (-御)", "祖父様: Hon;Fml (-様)", "親: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Pa;Mo"]
 lemmas = ["おばあさん", "おばあちゃん", "お婆さん", "お婆ちゃん", "お祖母", "お祖母さま", "お祖母さん", "お祖母ちゃん", "お祖母様", "そぼ", "ばあちゃん", "ばば", "バアチャン", "婆さん", "御祖母", "御祖母さん", "御祖母ちゃん", "祖母", "祖母さま", "祖母ちゃん", "祖母様"]
 prosub = ["祖母 \"grandmother\" [20,21] no person use", "おばあさん \"grandmother\" [20,21] 1st 2nd address title", "おばあちゃん \"grandmother\" [20,21] 1st 2nd address title"]
-omniglot = ["祖母 sobo \"grandmother\" inf", "お姉さん onē san \"grandmother\" frm"]
+omniglot = ["祖母 sobo \"grandmother\" inf", "お姉さん onē san \"grandmother\" frm (not built: excluded)"]
 omniglot_new = ["お姉さん"]
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 label = "grandmother"
 definition = "the mother of one's parent (a grandparent)"
 existing_by_ili = ["wnja wnja-10142747-n [i90289] お祖母, お祖母さま, お祖母様, バアチャン, 婆さん, 御祖母, ...: 父あるいは母の母親", "tufs-ja tufs-ja-10142747-n [i90289] おばあさん: (CILI) the mother of your father or mother"]
@@ -74,7 +73,7 @@ new_senses = ["お婆さん", "ばば", "婆さん"]
 new_words = ["おばあさん", "お婆ちゃん", "そぼ", "バアチャン", "祖母ちゃん"]
 hypernyms = ["Ch;Da|Pa;Mo", "Pa;Pa"]
 ancestors = ["Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
-sources = ["おばあさん <- TUFS, Wikidata L1073126-S1", "おばあちゃん <- Wikidata L1073124-S1, Wikidata L1562356-S1 (informal, respectful language)", "お婆さん <- Wiktionary", "お婆ちゃん <- Wikidata L1073124-S1, Wiktionary", "お祖母 <- wnja", "お祖母さま <- wnja", "お祖母さん <- Wikidata L1073126-S1", "お祖母ちゃん <- Wikidata L1562356-S1 (informal, respectful language)", "お祖母様 <- wnja", "そぼ <- Wikidata L1317371-S1 (literary language), Wiktionary", "ばあちゃん <- Wikidata L1562353-S1 (informal)", "ばば <- Wiktionary", "バアチャン <- wnja", "婆さん <- wnja", "御祖母 <- wnja", "御祖母さん <- wnja", "御祖母ちゃん <- wnja", "祖母 <- Wikidata L1317371-S1 (literary language), wnja", "祖母さま <- wnja", "祖母ちゃん <- Wikidata L1562353-S1 (informal)", "祖母様 <- wnja"]
+sources = ["おばあさん <- TUFS, Wikidata L1073126-S1", "おばあちゃん <- Wikidata L1073124-S1, Wikidata L1562356-S1 (informal, respectful language)", "お婆さん <- Wiktionary", "お婆ちゃん <- Wikidata L1073124-S1, Wiktionary", "お祖母 <- wnja", "お祖母さま <- wnja", "お祖母さん <- Wikidata L1073126-S1", "お祖母ちゃん <- Wikidata L1562356-S1 (informal, respectful language)", "お祖母様 <- wnja", "そぼ <- Wikidata L1317371-S1 (literary language), Wiktionary", "ばあちゃん <- Wikidata L1562353-S1 (informal)", "ばば <- Wiktionary", "バアチャン <- wnja", "婆さん <- wnja", "御祖母 <- wnja", "御祖母さん <- wnja", "御祖母ちゃん <- wnja", "祖母 <- Omniglot, Wikidata L1317371-S1 (literary language), wnja", "祖母さま <- wnja", "祖母ちゃん <- Wikidata L1562353-S1 (informal)", "祖母様 <- wnja"]
 honorific = ["おばあさん: Pol (-さん)", "おばあちゃん: Fam;Infml (-ちゃん; Wikidata: informal, respectful language)", "お婆さん: Pol (-さん)", "お婆ちゃん: Fam;Infml (-ちゃん)", "お祖母: Pol (お-/御-)", "お祖母さま: Hon;Fml (-さま)", "お祖母さん: Pol (-さん)", "お祖母ちゃん: Fam;Infml (-ちゃん; Wikidata: informal, respectful language)", "お祖母様: Hon;Fml (-様)", "そぼ: Fml;Hum (bare, senior; Wikidata: literary language)", "ばあちゃん: Fam;Infml (-ちゃん; Wikidata: informal)", "ばば: Infml (lexical)", "バアチャン: Fam;Infml (-ちゃん)", "婆さん: Pol (-さん)", "御祖母: Pol (お-/御-)", "御祖母さん: Pol (-さん)", "御祖母ちゃん: Fam;Infml (-ちゃん)", "祖母: Fml;Hum (bare, senior; Wikidata: literary language)", "祖母さま: Hon;Fml (-さま)", "祖母ちゃん: Fam;Infml (-ちゃん; Wikidata: informal)", "祖母様: Hon;Fml (-様)"]
 comment = ""
 
@@ -92,7 +91,7 @@ comment = ""
 ["Mo;Mo"]
 lemmas = []
 status = "unlexicalized: no ja word; included for the hierarchy"
-english = ["gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nanna"]
+english = ["gramms", "gran", "grandam", "grandma", "grandmother", "grannam", "grannie", "granny", "nan", "nana", "nanna"]
 english_via = "Pa;Mo"
 label = "maternal grandmother"
 definition = "the mother of one's mother (a grandparent)"
@@ -101,22 +100,21 @@ ancestors = ["Mo;Pa", "Pa;Mo", "Ch;Da|Pa;Mo", "Pa;Pa", "Ch;Ch|Pa;Pa", "Rel"]
 comment = ""
 
 ["Ch;Ch"]
-lemmas = ["まご", "令孫", "孫", "御孫さん"]
+lemmas = ["お孫さん", "まご", "令孫", "孫", "御孫さん"]
 pronunciations = ["まご: maago (romanization)"]
 prosub = ["孫 \"grandchild\" [29] no person use"]
 omniglot = ["孫 mago \"grandchild\" inf", "お孫さん omago san \"grandchild\" frm"]
-omniglot_new = ["お孫さん"]
 english = ["grandchild", "grandkid"]
 label = "grandchild"
 definition = "a child of one's child (a grandchild)"
 existing_by_ili = ["wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供"]
-existing_by_lemma = ["まご -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "令孫 -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "孫 -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "御孫さん -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供"]
+existing_by_lemma = ["お孫さん -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "まご -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "令孫 -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "孫 -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供", "御孫さん -> wnja wnja-10141590-n [i90280] 令孫, 孫, 御孫さん: 息子または娘の子供"]
 ntumc = ["令孫 <- 10141590-n", "お孫さん <- 10141590-n", "御孫さん <- 10141590-n", "孫 <- 10141590-n"]
 new_words = ["まご"]
 hypernyms = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch"]
 ancestors = ["Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["まご <- Kinbank, Wikidata L622607-S1, Wiktionary", "令孫 <- wnja", "孫 <- Wikidata L622607-S1, wnja", "御孫さん <- wnja"]
-honorific = ["まご: - (bare, junior)", "令孫: Hon;Fml (令-)", "孫: - (bare, junior)", "御孫さん: Pol (-さん)"]
+sources = ["お孫さん <- Omniglot", "まご <- Kinbank, Wikidata L622607-S1, Wiktionary", "令孫 <- wnja", "孫 <- Omniglot, Wikidata L622607-S1, wnja", "御孫さん <- wnja"]
+honorific = ["お孫さん: Pol (-さん)", "まご: - (bare, junior)", "令孫: Hon;Fml (令-)", "孫: - (bare, junior)", "御孫さん: Pol (-さん)"]
 comment = ""
 
 ["Ch;So"]
@@ -131,7 +129,7 @@ ntumc = ["孫息子 <- 10143299-n"]
 new_words = ["まごむすこ"]
 hypernyms = ["Ch;Ch", "Ch;So|Pa;Fa"]
 ancestors = ["Ch;Ch", "Ch;So|Pa;Fa", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["まごむすこ <- Wikidata L1115610-S1", "孫息子 <- Wikidata L1115610-S1, wnja"]
+sources = ["まごむすこ <- Wikidata L1115610-S1", "孫息子 <- Omniglot, Wikidata L1115610-S1, wnja"]
 honorific = ["まごむすこ: - (bare, junior)", "孫息子: - (bare, junior)"]
 comment = ""
 
@@ -147,7 +145,7 @@ ntumc = ["孫娘 <- 10141732-n"]
 new_words = ["まごむすめ"]
 hypernyms = ["Ch;Ch", "Ch;Da|Pa;Mo"]
 ancestors = ["Ch;Ch", "Ch;Da|Pa;Mo", "Ch;Ch|Pa;Pa", "Ch;Ch|Sb;Ch", "Rel"]
-sources = ["まごむすめ <- Wikidata L1115611-S1", "孫娘 <- Wikidata L1115611-S1, wnja"]
+sources = ["まごむすめ <- Wikidata L1115611-S1", "孫娘 <- Omniglot, Wikidata L1115611-S1, wnja"]
 honorific = ["まごむすめ: - (bare, junior)", "孫娘: - (bare, junior)"]
 comment = ""
 
@@ -187,27 +185,26 @@ ntumc = ["兄弟 <- 10595164-n", "兄弟姉妹 <- 10595164-n"]
 new_words = ["きょうだい", "けいてい"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["きょうだい <- Kinbank, Wikidata L626058-S1", "けいてい <- Wikidata L1475602-S1 (standard language)", "兄弟 <- TUFS, Wikidata L1475602-S1 (standard language), Wikidata L626058-S1, wnja", "兄弟姉妹 <- wnja"]
+sources = ["きょうだい <- Kinbank, Wikidata L626058-S1", "けいてい <- Wikidata L1475602-S1 (standard language)", "兄弟 <- TUFS, Wikidata L1475602-S1 (standard language), Wikidata L626058-S1, wnja", "兄弟姉妹 <- Omniglot, wnja"]
 honorific = ["きょうだい: - (bare, junior)", "けいてい: - (bare, junior; Wikidata: standard language)", "兄弟: - (bare, junior; Wikidata: standard language)", "兄弟姉妹: - (bare, junior)"]
 comment = ""
 
 ["Br"]
-lemmas = ["きょうだい", "兄弟"]
+lemmas = ["きょうだい", "ご兄弟", "兄弟"]
 pronunciations = ["きょうだい: kyōdai (romanization)"]
 omniglot = ["兄弟 kyōdai \"siblings (brothers)\" inf", "ご兄弟 go kyōdai \"siblings (brothers)\" frm"]
-omniglot_new = ["ご兄弟"]
-english = ["brother", "male sibling"]
+english = ["bro", "brother", "male sibling"]
 label = "brother"
 definition = "a brother of a person (a sibling)"
 existing_by_ili = ["tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male"]
 existing_by_lemma = ["きょうだい -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "きょうだい -> wnja wnja-10602985-n [i93018] 姉妹, 姉妹: もう一人と同じ両親を持つ女性", "きょうだい -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "きょうだい -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "きょうだい -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else", "兄弟 -> wnja wnja-09876454-n [i88708] ブラザー, 兄, 兄い, 兄さん, 兄じゃ, 兄じゃ人, ...: 誰かと親を同じくする男性", "兄弟 -> wnja wnja-10595164-n [i92980] 兄弟, 兄弟, 兄弟姉妹, 兄弟姉妹: 兄弟や姉妹", "兄弟 -> tufs-ja tufs-ja-10286084-n [i91174] 兄弟: (CILI) a sibling who is male", "兄弟 -> tufs-ja tufs-ja-09876454-n [i88708] 兄弟: (CILI) a male with the same parents as someone else"]
 existing_hidden = 5  # other senses of these lemmas
 new_senses = ["兄弟"]
-new_words = ["きょうだい"]
+new_words = ["きょうだい", "ご兄弟"]
 hypernyms = ["Br|Pa;Sb;So", "Sb"]
 ancestors = ["Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["きょうだい <- Wikidata L626058-S2", "兄弟 <- Wikidata L626058-S2"]
-honorific = ["きょうだい: - (bare, junior)", "兄弟: - (bare, junior)"]
+sources = ["きょうだい <- Wikidata L626058-S2", "ご兄弟 <- Omniglot", "兄弟 <- Omniglot, Wikidata L626058-S2"]
+honorific = ["きょうだい: - (bare, junior)", "ご兄弟: Pol (お-/御-)", "兄弟: - (bare, junior)"]
 comment = ""
 
 ["Ss"]
@@ -222,7 +219,7 @@ new_senses = ["シスター", "姉妹"]
 new_words = ["しまい"]
 hypernyms = ["Pa;Sb;Da|Ss", "Sb"]
 ancestors = ["Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["しまい <- Wikidata L406337-S1", "シスター <- Wikidata L1368723-S1", "姉妹 <- Wikidata L406337-S1"]
+sources = ["しまい <- Wikidata L406337-S1", "シスター <- Wikidata L1368723-S1", "姉妹 <- Omniglot, Wikidata L406337-S1"]
 honorific = ["しまい: - (bare, junior)", "シスター: - (loanword)", "姉妹: - (bare, junior)"]
 comment = ""
 
@@ -241,7 +238,7 @@ ntumc = ["大兄 <- 09853467-n", "兄ちゃん <- 09853467-n", "兄貴 <- 098534
 new_words = ["あに", "お兄さん", "けい"]
 hypernyms = ["Br", "El:Br|Pa;Sb;El:So", "El:Sb"]
 ancestors = ["Br", "El:Br|Pa;Sb;El:So", "El:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["あに <- Wikidata L348184-S1, Wiktionary", "お兄さん <- TUFS, Wiktionary", "けい <- Wikidata L1414555-S1", "兄 <- TUFS, Wikidata L1414555-S1, Wikidata L348184-S1, wnja", "兄い <- wnja", "兄さん <- wnja", "兄じゃ <- wnja", "兄じゃ人 <- wnja", "兄ちゃん <- Wiktionary, wnja", "兄人 <- wnja", "兄君 <- wnja", "兄御 <- wnja", "兄様 <- wnja", "兄者 <- wnja", "兄者人 <- wnja", "兄貴 <- wnja", "大兄 <- wnja", "実兄 <- wnja"]
+sources = ["あに <- Wikidata L348184-S1, Wiktionary", "お兄さん <- Omniglot, TUFS, Wiktionary", "けい <- Wikidata L1414555-S1", "兄 <- Omniglot, TUFS, Wikidata L1414555-S1, Wikidata L348184-S1, wnja", "兄い <- wnja", "兄さん <- wnja", "兄じゃ <- wnja", "兄じゃ人 <- wnja", "兄ちゃん <- Wiktionary, wnja", "兄人 <- wnja", "兄君 <- wnja", "兄御 <- wnja", "兄様 <- wnja", "兄者 <- wnja", "兄者人 <- wnja", "兄貴 <- wnja", "大兄 <- wnja", "実兄 <- wnja"]
 honorific = ["あに: Fml;Hum (bare, senior)", "お兄さん: Pol (-さん)", "けい: Fml;Hum (bare, senior)", "兄: Fml;Hum (bare, senior)", "兄い: Infml (lexical)", "兄さん: Pol (-さん)", "兄じゃ: Fml;Hum (bare, senior)", "兄じゃ人: Hon;Arch (-じゃ人)", "兄ちゃん: Fam;Infml (-ちゃん)", "兄人: Fml;Hum (bare, senior)", "兄君: Hon;Arch (-君)", "兄御: Hon (-御)", "兄様: Hon;Fml (-様)", "兄者: Fml;Hum (bare, senior)", "兄者人: Hon;Arch (-者人)", "兄貴: Infml (-貴)", "大兄: Fml;Hum (bare, senior)", "実兄: Fml;Hum (bare, senior)"]
 comment = ""
 
@@ -261,7 +258,7 @@ new_senses = ["お姉さん"]
 new_words = ["あね", "おねえさん", "ねえ", "姉ちゃん"]
 hypernyms = ["El:Sb", "Ss"]
 ancestors = ["El:Sb", "Ss", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["あね <- Wikidata L348199-S1, Wiktionary", "おねえさん <- Wiktionary", "お姉さん <- TUFS", "ねえ <- Wikidata L984313-S1", "姉 <- TUFS, Wikidata L348199-S1, Wikidata L984313-S1, wnja", "姉ちゃん <- Wiktionary"]
+sources = ["あね <- Wikidata L348199-S1, Wiktionary", "おねえさん <- Wiktionary", "お姉さん <- Omniglot, TUFS", "ねえ <- Wikidata L984313-S1", "姉 <- Omniglot, TUFS, Wikidata L348199-S1, Wikidata L984313-S1, wnja", "姉ちゃん <- Wiktionary"]
 honorific = ["あね: Fml;Hum (bare, senior)", "おねえさん: Pol (-さん)", "お姉さん: Pol (-さん)", "ねえ: Infml (lexical)", "姉: Fml;Hum (bare, senior)", "姉ちゃん: Fam;Infml (-ちゃん)"]
 comment = ""
 
@@ -279,7 +276,7 @@ ntumc = ["実弟 <- 10267311-n", "弟 <- 10267311-n"]
 new_words = ["おと", "おとうと", "弟さん"]
 hypernyms = ["Br", "Yn:Sb"]
 ancestors = ["Br", "Yn:Sb", "Br|Pa;Sb;So", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["おと <- Wikidata L1414551-S1", "おとうと <- Wikidata L348183-S1, Wiktionary", "弟 <- TUFS, Wikidata L1414551-S1, Wikidata L348183-S1, wnja", "弟さん <- TUFS"]
+sources = ["おと <- Wikidata L1414551-S1", "おとうと <- Wikidata L348183-S1, Wiktionary", "弟 <- Omniglot, TUFS, Wikidata L1414551-S1, Wikidata L348183-S1, wnja", "弟さん <- Omniglot, TUFS"]
 honorific = ["おと: - (bare, junior)", "おとうと: - (bare, junior)", "弟: - (bare, junior)", "弟さん: Pol (-さん)"]
 comment = ""
 
@@ -297,7 +294,7 @@ ntumc = ["小妹 <- 10267865-n", "妹さん <- 10267865-n", "妹君 <- 10267865-
 new_words = ["いも", "いもうと", "いもうとご", "いもうとさん", "まい", "妹御"]
 hypernyms = ["Ss", "Yn:Sb"]
 ancestors = ["Ss", "Yn:Sb", "Pa;Sb;Da|Ss", "Sb", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["いも <- Wikidata L1414548-S1", "いもうと <- Wikidata L348198-S1, Wiktionary", "いもうとご <- Wikidata L626056-S1", "いもうとさん <- Wikidata L984315-S1", "まい <- Wikidata L1414549-S1", "妹 <- TUFS, Wikidata L1414548-S1, Wikidata L1414549-S1, Wikidata L348198-S1, wnja", "妹さん <- TUFS, Wikidata L984315-S1, wnja", "妹君 <- wnja", "妹御 <- Wikidata L626056-S1", "小妹 <- wnja"]
+sources = ["いも <- Wikidata L1414548-S1", "いもうと <- Wikidata L348198-S1, Wiktionary", "いもうとご <- Wikidata L626056-S1", "いもうとさん <- Wikidata L984315-S1", "まい <- Wikidata L1414549-S1", "妹 <- Omniglot, TUFS, Wikidata L1414548-S1, Wikidata L1414549-S1, Wikidata L348198-S1, wnja", "妹さん <- Omniglot, TUFS, Wikidata L984315-S1, wnja", "妹君 <- wnja", "妹御 <- Wikidata L626056-S1", "小妹 <- wnja"]
 honorific = ["いも: - (bare, junior)", "いもうと: - (bare, junior)", "いもうとご: - (bare, junior)", "いもうとさん: Pol (-さん)", "まい: - (bare, junior)", "妹: - (bare, junior)", "妹さん: Pol (-さん)", "妹君: Hon;Arch (-君)", "妹御: Hon (-御)", "小妹: - (bare, junior)"]
 comment = ""
 
@@ -305,6 +302,7 @@ comment = ""
 lemmas = ["おじ", "おじき", "おじさん"]
 prosub = ["おじ \"uncle\" [10,11,12,13] no person use", "おじさん \"uncle\" [10,11,12,13] 1st 2nd address title", "おじちゃん \"uncle\" [10,11,12,13] 1st 2nd address title"]
 prosub_new = ["おじちゃん"]
+omniglot = ["おじさん oji san \"uncle (older than parent)\" frm (under uncle (older than parent) and uncle (younger than parent))", "おじさん oji san \"uncle (younger than parent)\" frm (under uncle (older than parent) and uncle (younger than parent))"]
 english = ["uncle"]
 label = "uncle"
 definition = "a brother of one's parent (an uncle or aunt)"
@@ -314,75 +312,84 @@ new_senses = ["おじさん"]
 new_words = ["おじ", "おじき"]
 hypernyms = ["Pb", "Unc"]
 ancestors = ["Pb", "Unc", "Rel"]
-sources = ["おじ <- Wiktionary", "おじき <- Wiktionary", "おじさん <- TUFS, Wiktionary"]
+sources = ["おじ <- Wiktionary", "おじき <- Wiktionary", "おじさん <- Omniglot, TUFS, Wiktionary"]
 honorific = ["おじ: Fml;Hum (bare, senior)", "おじき: Fml;Hum (bare, senior)", "おじさん: Pol (-さん)"]
 comment = ""
 
 ["Pa;Ss"]
-lemmas = ["おば"]
+lemmas = ["おば", "おばさん"]
 prosub = ["おば \"aunt\" [14,15,16,17] no person use", "おばちゃん \"aunt\" [14,15,16,17] 1st 2nd address title", "おばさん \"aunt\" [14,15,16,17] 1st 2nd address title"]
-prosub_new = ["おばさん", "おばちゃん"]
+prosub_new = ["おばちゃん"]
+omniglot = ["おばさん oba san \"aunt (older than parent)\" frm (under aunt (older than parent) and aunt (younger than parent))", "おばさん oba san \"aunt (younger than parent)\" frm (under aunt (older than parent) and aunt (younger than parent))"]
 english = ["aunt"]
 label = "aunt"
 definition = "a sister of one's parent (an uncle or aunt)"
-existing_by_lemma = ["おば -> wnja wnja-09823502-n [i88357] 伯母, 伯母, 伯母さま, 伯母さん, 伯母御, 叔母, ...: 父や母の姉妹; おじの妻", "おば -> wnja wnja-80002349-n [-] 伯母, 伯母さま, 伯母さん, 伯母御: 父または母の姉; 父または母の兄の妻", "おば -> wnja wnja-80002350-n [-] 叔母, 叔母さま, 叔母御, 叔母様, 叔母さん: 父または母の妹; 父または母の弟の妻"]
-new_words = ["おば"]
+existing_by_lemma = ["おば -> wnja wnja-09823502-n [i88357] 伯母, 伯母, 伯母さま, 伯母さん, 伯母御, 叔母, ...: 父や母の姉妹; おじの妻", "おば -> wnja wnja-80002349-n [-] 伯母, 伯母さま, 伯母さん, 伯母御: 父または母の姉; 父または母の兄の妻", "おば -> wnja wnja-80002350-n [-] 叔母, 叔母さま, 叔母御, 叔母様, 叔母さん: 父または母の妹; 父または母の弟の妻", "おばさん -> wnja wnja-09823502-n [i88357] 伯母, 伯母, 伯母さま, 伯母さん, 伯母御, 叔母, ...: 父や母の姉妹; おじの妻", "おばさん -> wnja wnja-80002349-n [-] 伯母, 伯母さま, 伯母さん, 伯母御: 父または母の姉; 父または母の兄の妻", "おばさん -> tufs-ja tufs-ja-16192-n [-] おばさん: (someone else's) aunt"]
+new_words = ["おば", "おばさん"]
 hypernyms = ["Aun", "Mo|Pa;Ss", "Pb"]
 ancestors = ["Aun", "Mo|Pa;Ss", "Pb", "Rel"]
-sources = ["おば <- Wiktionary"]
-honorific = ["おば: Fml;Hum (bare, senior)"]
+sources = ["おば <- Wiktionary", "おばさん <- Omniglot"]
+honorific = ["おば: Fml;Hum (bare, senior)", "おばさん: Pol (-さん)"]
 comment = ""
 
 ["Pa;El:Br"]
-lemmas = []
-status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["伯父 oji \"uncle (older than parent)\" inf", "おじさん oji san \"uncle (older than parent)\" frm"]
-omniglot_new = ["伯父", "おじさん"]
+lemmas = ["伯父"]
+omniglot = ["伯父 oji \"uncle (older than parent)\" inf"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "parent's elder brother"
 definition = "an elder brother of one's parent (an uncle or aunt)"
+existing_by_lemma = ["伯父 -> wnja wnja-80002346-n [-] 伯父貴, 伯父君, 伯父上, 伯父, 伯父さん: 父または母の兄; 父または母の姉の夫"]
+new_senses = ["伯父"]
 hypernyms = ["Pa;Br"]
 ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
+sources = ["伯父 <- Omniglot"]
+honorific = ["伯父: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Pa;El:Ss"]
-lemmas = []
-status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["伯母 oba \"aunt (older than parent)\" inf", "おばさん oba san \"aunt (older than parent)\" frm"]
-omniglot_new = ["伯母", "おばさん"]
+lemmas = ["伯母"]
+omniglot = ["伯母 oba \"aunt (older than parent)\" inf"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "parent's elder sister"
 definition = "an elder sister of one's parent (an uncle or aunt)"
+existing_by_lemma = ["伯母 -> wnja wnja-09823502-n [i88357] 伯母, 伯母, 伯母さま, 伯母さん, 伯母御, 叔母, ...: 父や母の姉妹; おじの妻", "伯母 -> wnja wnja-80002349-n [-] 伯母, 伯母さま, 伯母さん, 伯母御: 父または母の姉; 父または母の兄の妻"]
+new_senses = ["伯母"]
 hypernyms = ["Pa;Ss"]
 ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+sources = ["伯母 <- Omniglot"]
+honorific = ["伯母: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Pa;Yn:Br"]
-lemmas = []
-status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["叔父 oji \"uncle (younger than parent)\" inf", "おじさん oji san \"uncle (younger than parent)\" frm"]
-omniglot_new = ["叔父", "おじさん"]
+lemmas = ["叔父"]
+omniglot = ["叔父 oji \"uncle (younger than parent)\" inf"]
 english = ["uncle"]
 english_via = "Pa;Br"
 label = "parent's younger brother"
 definition = "a younger brother of one's parent (an uncle or aunt)"
+existing_by_lemma = ["叔父 -> wnja wnja-80002347-n [-] 叔父上, 叔父君, 弟小父, 叔父, 叔父さん: 父または母の弟; 父または母の妹の夫"]
+new_senses = ["叔父"]
 hypernyms = ["Pa;Br"]
 ancestors = ["Pa;Br", "Pb", "Unc", "Rel"]
+sources = ["叔父 <- Omniglot"]
+honorific = ["叔父: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Pa;Yn:Ss"]
-lemmas = []
-status = "KinDiv records a gap here, but other sources suggest words: check"
-omniglot = ["叔母 oba \"aunt (younger than parent)\" inf", "おばさん oba san \"aunt (younger than parent)\" frm"]
-omniglot_new = ["叔母", "おばさん"]
+lemmas = ["叔母"]
+omniglot = ["叔母 oba \"aunt (younger than parent)\" inf"]
 english = ["aunt"]
 english_via = "Pa;Ss"
 label = "parent's younger sister"
 definition = "a younger sister of one's parent (an uncle or aunt)"
+existing_by_lemma = ["叔母 -> wnja wnja-09823502-n [i88357] 伯母, 伯母, 伯母さま, 伯母さん, 伯母御, 叔母, ...: 父や母の姉妹; おじの妻", "叔母 -> wnja wnja-80002350-n [-] 叔母, 叔母さま, 叔母御, 叔母様, 叔母さん: 父または母の妹; 父または母の弟の妻"]
+new_senses = ["叔母"]
 hypernyms = ["Pa;Ss"]
 ancestors = ["Pa;Ss", "Aun", "Mo|Pa;Ss", "Pb", "Rel"]
+sources = ["叔母 <- Omniglot"]
+honorific = ["叔母: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Fa;El:Br"]
@@ -416,11 +423,10 @@ honorific = ["おじ: Fml;Hum (bare, senior)", "叔父: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Sb;So"]
-lemmas = ["おい", "猶子", "甥", "甥御", "甥御さん"]
+lemmas = ["おい", "猶子", "甥", "甥っ子", "甥御", "甥御さん"]
 pronunciations = ["おい: oii (romanization)"]
 prosub = ["甥 \"nephew\" [32] no person use"]
 omniglot = ["甥 oi \"nephew\" inf", "甥っ子 oikko \"nephew\" inf", "甥御 oigo \"nephew\" frm"]
-omniglot_new = ["甥っ子"]
 english = ["nephew"]
 label = "nephew"
 definition = "a son of one's sibling (a nephew or niece)"
@@ -429,30 +435,30 @@ existing_by_lemma = ["おい -> wnja wnja-10353355-n [i91586] 猶子, 甥, 甥�
 existing_hidden = 5  # other senses of these lemmas
 ntumc = ["甥 <- 10353355-n", "猶子 <- 10353355-n", "甥御 <- 10353355-n", "甥御さん <- 10353355-n"]
 new_senses = ["おい"]
+new_words = ["甥っ子"]
 hypernyms = ["Sb;Ch", "Sb;So|So"]
 ancestors = ["Sb;Ch", "Sb;So|So", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["おい <- Kinbank, Wiktionary", "猶子 <- wnja", "甥 <- wnja", "甥御 <- wnja", "甥御さん <- wnja"]
-honorific = ["おい: - (bare, junior)", "猶子: - (bare, junior)", "甥: - (bare, junior)", "甥御: Hon (-御)", "甥御さん: Pol (-さん)"]
+sources = ["おい <- Kinbank, Wiktionary", "猶子 <- wnja", "甥 <- Omniglot, wnja", "甥っ子 <- Omniglot", "甥御 <- Omniglot, wnja", "甥御さん <- wnja"]
+honorific = ["おい: - (bare, junior)", "猶子: - (bare, junior)", "甥: - (bare, junior)", "甥っ子: - (bare, junior)", "甥御: Hon (-御)", "甥御さん: Pol (-さん)"]
 comment = ""
 
 ["Sb;Da"]
-lemmas = ["めい", "姪", "姪子", "姪御", "姪御さん"]
+lemmas = ["めい", "姪", "姪っ子", "姪子", "姪御", "姪御さん"]
 pronunciations = ["めい: mei (romanization)"]
 prosub = ["姪 \"niece\" [33] no person use"]
 omniglot = ["姪 mei \"niece\" inf", "姪っ子 meikko \"niece\" inf", "姪御 meigo \"niece\" frm"]
-omniglot_new = ["姪っ子"]
 english = ["niece"]
 label = "niece"
 definition = "a daughter of one's sibling (a nephew or niece)"
 existing_by_ili = ["wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘"]
-existing_by_lemma = ["めい -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪子 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪御 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪御さん -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘"]
+existing_by_lemma = ["めい -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪っ子 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪子 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪御 -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘", "姪御さん -> wnja wnja-10357613-n [i91615] 姪, 姪子, 姪子, 姪御, 姪御さん: 兄弟や姉妹の娘"]
 existing_hidden = 8  # other senses of these lemmas
 ntumc = ["姪御さん <- 10357613-n", "姪っ子 <- 10357613-n", "姪 <- 10357613-n", "姪御 <- 10357613-n"]
 new_words = ["めい", "姪子"]
 hypernyms = ["Da|Sb;Da", "Sb;Ch"]
 ancestors = ["Da|Sb;Da", "Sb;Ch", "Ch;Ch|Sb;Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["めい <- Kinbank, Wiktionary", "姪 <- wnja", "姪子 <- wnja", "姪御 <- wnja", "姪御さん <- wnja"]
-honorific = ["めい: - (bare, junior)", "姪: - (bare, junior)", "姪子: - (bare, junior)", "姪御: Hon (-御)", "姪御さん: Pol (-さん)"]
+sources = ["めい <- Kinbank, Wiktionary", "姪 <- Omniglot, wnja", "姪っ子 <- Omniglot", "姪子 <- wnja", "姪御 <- Omniglot, wnja", "姪御さん <- wnja"]
+honorific = ["めい: - (bare, junior)", "姪: - (bare, junior)", "姪っ子: - (bare, junior)", "姪子: - (bare, junior)", "姪御: Hon (-御)", "姪御さん: Pol (-さん)"]
 comment = ""
 
 ["Br;So"]
@@ -513,32 +519,38 @@ existing_hidden = 4  # other senses of these lemmas
 ntumc = ["いとこ <- 09972010-n", "従兄弟 <- 09972010-n", "従姉妹 <- 09972010-n", "従弟 <- 09972010-n", "従兄 <- 09972010-n", "従姉 <- 09972010-n", "従妹 <- 09972010-n"]
 hypernyms = ["Pa;Sb;Ch|Sb"]
 ancestors = ["Pa;Sb;Ch|Sb", "Rel"]
-sources = ["いとこ <- Kinbank, Wiktionary", "従兄 <- wnja", "従兄弟 <- wnja", "従妹 <- wnja", "従姉 <- wnja", "従姉妹 <- wnja", "従弟 <- wnja"]
+sources = ["いとこ <- Kinbank, Omniglot, Wiktionary", "従兄 <- wnja", "従兄弟 <- wnja", "従妹 <- wnja", "従姉 <- wnja", "従姉妹 <- wnja", "従弟 <- wnja"]
 honorific = ["いとこ: - (bare, junior)", "従兄: - (bare, junior)", "従兄弟: - (bare, junior)", "従妹: - (bare, junior)", "従姉: - (bare, junior)", "従姉妹: - (bare, junior)", "従弟: - (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;So"]
-lemmas = []
+lemmas = ["従兄弟"]
 omniglot = ["従兄弟 jūkeitei \"cousin\" male (pl)"]
-omniglot_new = ["従兄弟"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "male cousin"
 definition = "a son of one's parent's sibling (a cousin)"
+existing_by_lemma = ["従兄弟 -> wnja wnja-09972010-n [i89276] 従兄, 従兄, 従兄弟, 従兄弟, 従妹, 従妹, ...: おじやおばの子供"]
+new_senses = ["従兄弟"]
 hypernyms = ["Br|Pa;Sb;So", "Pa;Sb;Ch"]
 ancestors = ["Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
+sources = ["従兄弟 <- Omniglot"]
+honorific = ["従兄弟: - (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;Da"]
-lemmas = []
+lemmas = ["従姉妹"]
 omniglot = ["従姉妹 jūshimei \"cousin\" female (pl)"]
-omniglot_new = ["従姉妹"]
 english = ["cousin", "cousin-german", "first cousin", "full cousin"]
 english_via = "Pa;Sb;Ch"
 label = "female cousin"
 definition = "a daughter of one's parent's sibling (a cousin)"
+existing_by_lemma = ["従姉妹 -> wnja wnja-09972010-n [i89276] 従兄, 従兄, 従兄弟, 従兄弟, 従妹, 従妹, ...: おじやおばの子供"]
+new_senses = ["従姉妹"]
 hypernyms = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss"]
 ancestors = ["Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
+sources = ["従姉妹 <- Omniglot"]
+honorific = ["従姉妹: - (bare, junior)"]
 comment = ""
 
 ["Pa;Sb;El:Ch"]
@@ -575,7 +587,7 @@ new_senses = ["従兄"]
 new_words = ["従兄妹"]
 hypernyms = ["El:Br|Pa;Sb;El:So", "Pa;Sb;El:Ch", "Pa;Sb;So"]
 ancestors = ["El:Br|Pa;Sb;El:So", "Pa;Sb;El:Ch", "Pa;Sb;So", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["従兄 <- Wiktionary", "従兄妹 <- Wiktionary"]
+sources = ["従兄 <- Omniglot, Wiktionary", "従兄妹 <- Wiktionary"]
 honorific = ["従兄: Fml;Hum (bare, senior)", "従兄妹: Fml;Hum (bare, senior)"]
 comment = ""
 
@@ -591,7 +603,7 @@ new_senses = ["従姉"]
 new_words = ["従姉弟"]
 hypernyms = ["Pa;Sb;Da", "Pa;Sb;El:Ch"]
 ancestors = ["Pa;Sb;Da", "Pa;Sb;El:Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["従姉 <- Wiktionary", "従姉弟 <- Wiktionary"]
+sources = ["従姉 <- Omniglot, Wiktionary", "従姉弟 <- Wiktionary"]
 honorific = ["従姉: Fml;Hum (bare, senior)", "従姉弟: Fml;Hum (bare, senior)"]
 comment = ""
 
@@ -607,7 +619,7 @@ new_senses = ["従弟"]
 new_words = ["従姉弟"]
 hypernyms = ["Pa;Sb;So", "Pa;Sb;Yn:Ch"]
 ancestors = ["Pa;Sb;So", "Pa;Sb;Yn:Ch", "Br|Pa;Sb;So", "Pa;Sb;Ch", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["従姉弟 <- Wiktionary", "従弟 <- Wiktionary"]
+sources = ["従姉弟 <- Wiktionary", "従弟 <- Omniglot, Wiktionary"]
 honorific = ["従姉弟: - (bare, junior)", "従弟: - (bare, junior)"]
 comment = ""
 
@@ -623,7 +635,7 @@ new_senses = ["従妹"]
 new_words = ["従兄妹"]
 hypernyms = ["Pa;Sb;Da", "Pa;Sb;Yn:Ch"]
 ancestors = ["Pa;Sb;Da", "Pa;Sb;Yn:Ch", "Pa;Sb;Ch", "Pa;Sb;Da|Ss", "Pa;Sb;Ch|Sb", "Rel"]
-sources = ["従兄妹 <- Wiktionary", "従妹 <- Wiktionary"]
+sources = ["従兄妹 <- Wiktionary", "従妹 <- Omniglot, Wiktionary"]
 honorific = ["従兄妹: - (bare, junior)", "従妹: - (bare, junior)"]
 comment = ""
 
@@ -728,7 +740,7 @@ ntumc = ["縁戚 <- 10235549-n", "身寄 <- 10235549-n", "縁故 <- 10235549-n",
 new_words = ["にくえん"]
 hypernyms = []
 ancestors = []
-sources = ["にくえん <- wnja", "族戚 <- wnja", "族親 <- wnja", "眷属 <- wnja", "縁戚 <- wnja", "縁故 <- wnja", "縁者 <- wnja", "縁辺 <- wnja", "縁類 <- wnja", "血族 <- wnja", "親せき <- wnja", "親戚 <- wnja", "親族 <- wnja", "親眷 <- wnja", "親類 <- wnja", "親類筋 <- wnja", "身より <- wnja", "身寄 <- wnja", "身寄り <- wnja", "類縁 <- wnja"]
+sources = ["にくえん <- wnja", "族戚 <- wnja", "族親 <- wnja", "眷属 <- wnja", "縁戚 <- wnja", "縁故 <- wnja", "縁者 <- wnja", "縁辺 <- wnja", "縁類 <- wnja", "血族 <- wnja", "親せき <- wnja", "親戚 <- Omniglot, wnja", "親族 <- wnja", "親眷 <- wnja", "親類 <- wnja", "親類筋 <- wnja", "身より <- wnja", "身寄 <- wnja", "身寄り <- wnja", "類縁 <- wnja"]
 honorific = ["にくえん: - (bare, junior)", "族戚: - (bare, junior)", "族親: - (bare, junior)", "眷属: - (bare, junior)", "縁戚: - (bare, junior)", "縁故: - (bare, junior)", "縁者: - (bare, junior)", "縁辺: - (bare, junior)", "縁類: - (bare, junior)", "血族: - (bare, junior)", "親せき: - (bare, junior)", "親戚: - (bare, junior)", "親族: - (bare, junior)", "親眷: - (bare, junior)", "親類: - (bare, junior)", "親類筋: - (bare, junior)", "身より: - (bare, junior)", "身寄: - (bare, junior)", "身寄り: - (bare, junior)", "類縁: - (bare, junior)"]
 comment = ""
 
@@ -765,10 +777,9 @@ honorific = ["おばさん: Pol (-さん)", "伯母: Fml;Hum (bare, senior)", "�
 comment = ""
 
 ["Pa"]
-lemmas = ["おや", "りょうしん", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
+lemmas = ["おや", "ご両親", "りょうしん", "ペアレント", "両親", "親", "親じゃ人", "親者人"]
 pronunciations = ["りょうしん: ryōshin (romanization)"]
 omniglot = ["両親 ryōshin \"parents\" inf", "ご両親 go ryōshin \"parents\" frm"]
-omniglot_new = ["ご両親"]
 english = ["parent", "parents"]
 label = "parent"
 definition = "a father or mother of a person"
@@ -777,11 +788,11 @@ existing_by_lemma = ["おや -> wnja wnja-09792555-n [i88207] ルーツ, 祖, �
 existing_hidden = 4  # other senses of these lemmas
 ntumc = ["親者人 <- 10399491-n", "ペアレント <- 10399491-n", "親 <- 10399491-n", "親じゃ人 <- 10399491-n"]
 new_senses = ["おや"]
-new_words = ["りょうしん", "両親"]
+new_words = ["ご両親", "りょうしん", "両親"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["おや <- Wikidata L1080964-S1", "りょうしん <- Kinbank, Wikidata L348238-S1", "ペアレント <- wnja", "両親 <- TUFS, Wikidata L348238-S1", "親 <- Wikidata L1080964-S1, wnja", "親じゃ人 <- wnja", "親者人 <- wnja"]
-honorific = ["おや: Fml;Hum (bare, senior)", "りょうしん: Fml;Hum (bare, senior)", "ペアレント: - (loanword)", "両親: Fml;Hum (bare, senior)", "親: Fml;Hum (bare, senior)", "親じゃ人: Hon;Arch (-じゃ人)", "親者人: Hon;Arch (-者人)"]
+sources = ["おや <- Wikidata L1080964-S1", "ご両親 <- Omniglot", "りょうしん <- Kinbank, Wikidata L348238-S1", "ペアレント <- wnja", "両親 <- Omniglot, TUFS, Wikidata L348238-S1", "親 <- Wikidata L1080964-S1, wnja", "親じゃ人 <- wnja", "親者人 <- wnja"]
+honorific = ["おや: Fml;Hum (bare, senior)", "ご両親: Pol (お-/御-)", "りょうしん: Fml;Hum (bare, senior)", "ペアレント: - (loanword)", "両親: Fml;Hum (bare, senior)", "親: Fml;Hum (bare, senior)", "親じゃ人: Hon;Arch (-じゃ人)", "親者人: Hon;Arch (-者人)"]
 comment = ""
 
 ["Fa"]
@@ -789,7 +800,7 @@ lemmas = ["おとうさん", "おとっつあん", "おやじ様", "お父さん
 prosub = ["父 \"father\" [8] no person use", "おやじ \"father\" [8] 2nd address", "パパ \"dad\" [8] 1st 2nd address", "お父さん \"father\" [8] 1st 2nd address"]
 prosub_new = ["おやじ"]
 omniglot = ["父 chichi \"father\" inf", "お父さん otō san \"father\" frm"]
-english = ["begetter", "dad", "father", "male parent", "old man", "pa", "pap", "papa", "pop"]
+english = ["begetter", "da", "dad", "daddy", "father", "male parent", "old man", "pa", "pap", "papa", "pater", "pop"]
 label = "father"
 definition = "the father of a person (a parent)"
 existing_by_ili = ["wnja wnja-10080869-n [i89901] 父, 父っつぁん, おとっつあん, おやじ様, お父っさん, お父っつぁん, ...: 男親（父親の呼称としても使われる）", "tufs-ja tufs-ja-10080869-n [i89901] お父さん, 父: (CILI) a male parent (also used as a term of address to your father)"]
@@ -800,7 +811,7 @@ new_senses = ["パパ"]
 new_words = ["おとうさん", "ちち", "とうさん"]
 hypernyms = ["Fa|Fa;Br", "Pa"]
 ancestors = ["Fa|Fa;Br", "Pa", "Rel"]
-sources = ["おとうさん <- Wikidata L405866-S1 (formal register)", "おとっつあん <- wnja", "おやじ様 <- wnja", "お父さん <- TUFS, Wikidata L405866-S1 (formal register)", "お父っさん <- wnja", "お父っつぁん <- wnja", "ちち <- Wikidata L349088-S1 (informal)", "てて親 <- wnja", "とうさん <- Wikidata L1462990-S1", "パパ <- Wikidata L1398751-S1 (informal)", "ファーザー <- wnja", "乃父 <- wnja", "厳親 <- wnja", "垂乳根 <- wnja", "実父 <- wnja", "師父 <- wnja", "御父さん <- wnja", "御父っさん <- wnja", "御父っつぁん <- wnja", "御父様 <- wnja", "椿堂 <- wnja", "父 <- TUFS, Wikidata L349088-S1 (informal), wnja", "父さん <- Wikidata L1462990-S1, wnja", "父っつぁん <- wnja", "父上 <- wnja", "父君 <- wnja", "父御 <- wnja", "父様 <- wnja", "父親 <- wnja", "男親 <- wnja", "親父 <- wnja", "親父さま <- wnja"]
+sources = ["おとうさん <- Wikidata L405866-S1 (formal register)", "おとっつあん <- wnja", "おやじ様 <- wnja", "お父さん <- Omniglot, TUFS, Wikidata L405866-S1 (formal register)", "お父っさん <- wnja", "お父っつぁん <- wnja", "ちち <- Wikidata L349088-S1 (informal)", "てて親 <- wnja", "とうさん <- Wikidata L1462990-S1", "パパ <- Wikidata L1398751-S1 (informal)", "ファーザー <- wnja", "乃父 <- wnja", "厳親 <- wnja", "垂乳根 <- wnja", "実父 <- wnja", "師父 <- wnja", "御父さん <- wnja", "御父っさん <- wnja", "御父っつぁん <- wnja", "御父様 <- wnja", "椿堂 <- wnja", "父 <- Omniglot, TUFS, Wikidata L349088-S1 (informal), wnja", "父さん <- Wikidata L1462990-S1, wnja", "父っつぁん <- wnja", "父上 <- wnja", "父君 <- wnja", "父御 <- wnja", "父様 <- wnja", "父親 <- wnja", "男親 <- wnja", "親父 <- wnja", "親父さま <- wnja"]
 honorific = ["おとうさん: Pol (-さん; Wikidata: formal register)", "おとっつあん: Infml (-っつあん)", "おやじ様: Hon;Fml (-様)", "お父さん: Pol (-さん; Wikidata: formal register)", "お父っさん: Infml (-っさん)", "お父っつぁん: Infml (-っつぁん)", "ちち: Fml;Hum (bare, senior; Wikidata: informal)", "てて親: Fml;Hum (bare, senior)", "とうさん: Pol (-さん)", "パパ: Infml (lexical; Wikidata: informal)", "ファーザー: - (loanword)", "乃父: Fml;Hum (bare, senior)", "厳親: Fml;Hum (bare, senior)", "垂乳根: Fml;Hum (bare, senior)", "実父: Fml;Hum (bare, senior)", "師父: Fml;Hum (bare, senior)", "御父さん: Pol (-さん)", "御父っさん: Infml (-っさん)", "御父っつぁん: Infml (-っつぁん)", "御父様: Hon;Fml (-様)", "椿堂: Hon;Fml (lexical: someone else's father)", "父: Fml;Hum (bare, senior; Wikidata: informal)", "父さん: Pol (-さん)", "父っつぁん: Infml (-っつぁん)", "父上: Hon;Arch (-上)", "父君: Hon;Arch (-君)", "父御: Hon (-御)", "父様: Hon;Fml (-様)", "父親: Fml;Hum (bare, senior)", "男親: Fml;Hum (bare, senior)", "親父: Infml (lexical)", "親父さま: Hon;Fml (-さま)"]
 comment = ""
 
@@ -808,7 +819,7 @@ comment = ""
 lemmas = ["おかあさん", "おっ母", "お母さん", "かあ様", "はは", "ははおや", "マザー", "ママ", "ムッター", "垂乳女", "垂乳根", "女親", "実母", "御母さん", "御母様", "御袋", "慈母", "母", "母さん", "母じゃ人", "母ちゃん", "母上", "母君", "母御", "母様", "母者人", "母親"]
 prosub = ["ママ \"mom\" [9] 1st 2nd address", "母 \"mother\" [9] no person use", "お母さん \"mother\" [9] 1st 2nd address"]
 omniglot = ["母 haha \"mother\" inf", "お母さん okā san \"mother\" frm"]
-english = ["female parent", "ma", "mam", "mama", "mammy", "mom", "momma", "mommy", "mother", "mum", "mummy"]
+english = ["female parent", "ma", "mam", "mama", "mammy", "mater", "mom", "momma", "mommy", "mother", "mum", "mummy"]
 label = "mother"
 definition = "the mother of a person (a parent)"
 existing_by_ili = ["wnja wnja-10332385-n [i91462] 御母さん, 母, 母, 垂乳根, おっ母, 御袋, ...: 子供を生んだ女性（また人の母親を指す言葉にも使われる）", "tufs-ja tufs-ja-10332385-n [i91462] 母, お母さん: (CILI) a woman who has given birth to a child (also used as a term of address to your mother)"]
@@ -819,7 +830,7 @@ new_senses = ["ママ"]
 new_words = ["おかあさん", "はは", "ははおや", "御袋"]
 hypernyms = ["Mo|Mo;Ss", "Pa"]
 ancestors = ["Mo|Mo;Ss", "Pa", "Mo|Pa;Ss", "Rel"]
-sources = ["おかあさん <- Wikidata L405867-S1 (polite language)", "おっ母 <- wnja", "お母さん <- TUFS, Wikidata L405867-S1 (polite language)", "かあ様 <- wnja", "はは <- Wikidata L349087-S1", "ははおや <- Wikidata L1080968-S1", "マザー <- wnja", "ママ <- Wikidata L1398750-S1", "ムッター <- wnja", "垂乳女 <- wnja", "垂乳根 <- wnja", "女親 <- wnja", "実母 <- wnja", "御母さん <- wnja", "御母様 <- wnja", "御袋 <- wnja", "慈母 <- wnja", "母 <- TUFS, Wikidata L349087-S1, wnja", "母さん <- wnja", "母じゃ人 <- wnja", "母ちゃん <- wnja", "母上 <- wnja", "母君 <- wnja", "母御 <- wnja", "母様 <- wnja", "母者人 <- wnja", "母親 <- Wikidata L1080968-S1, wnja"]
+sources = ["おかあさん <- Wikidata L405867-S1 (polite language)", "おっ母 <- wnja", "お母さん <- Omniglot, TUFS, Wikidata L405867-S1 (polite language)", "かあ様 <- wnja", "はは <- Wikidata L349087-S1", "ははおや <- Wikidata L1080968-S1", "マザー <- wnja", "ママ <- Wikidata L1398750-S1", "ムッター <- wnja", "垂乳女 <- wnja", "垂乳根 <- wnja", "女親 <- wnja", "実母 <- wnja", "御母さん <- wnja", "御母様 <- wnja", "御袋 <- wnja", "慈母 <- wnja", "母 <- Omniglot, TUFS, Wikidata L349087-S1, wnja", "母さん <- wnja", "母じゃ人 <- wnja", "母ちゃん <- wnja", "母上 <- wnja", "母君 <- wnja", "母御 <- wnja", "母様 <- wnja", "母者人 <- wnja", "母親 <- Wikidata L1080968-S1, wnja"]
 honorific = ["おかあさん: Pol (-さん; Wikidata: polite language)", "おっ母: Infml (lexical)", "お母さん: Pol (-さん; Wikidata: polite language)", "かあ様: Hon;Fml (-様)", "はは: Fml;Hum (bare, senior)", "ははおや: Fml;Hum (bare, senior)", "マザー: - (loanword)", "ママ: Infml (lexical)", "ムッター: - (loanword)", "垂乳女: Fml;Hum (bare, senior)", "垂乳根: Fml;Hum (bare, senior)", "女親: Fml;Hum (bare, senior)", "実母: Fml;Hum (bare, senior)", "御母さん: Pol (-さん)", "御母様: Hon;Fml (-様)", "御袋: Infml (lexical)", "慈母: Fml;Hum (bare, senior)", "母: Fml;Hum (bare, senior)", "母さん: Pol (-さん)", "母じゃ人: Hon;Arch (-じゃ人)", "母ちゃん: Fam;Infml (-ちゃん)", "母上: Hon;Arch (-上)", "母君: Hon;Arch (-君)", "母御: Hon (-御)", "母様: Hon;Fml (-様)", "母者人: Hon;Arch (-者人)", "母親: Fml;Hum (bare, senior)"]
 comment = ""
 
@@ -839,7 +850,7 @@ new_senses = ["児"]
 new_words = ["おこさん", "こ", "こども"]
 hypernyms = ["Br;Ch|Ch"]
 ancestors = ["Br;Ch|Ch", "Ch|Sb;Ch", "Rel"]
-sources = ["おこさん <- Wikidata L622609-S1", "お子さん <- Wikidata L622609-S1, wnja", "お子様 <- wnja", "こ <- Wikidata L690624-S1", "こども <- Kinbank, Wikidata L55-S1", "児 <- wnja", "子 <- Wikidata L690624-S1", "子供 <- Wikidata L55-S1, wnja", "子女 <- wnja", "子弟 <- wnja", "子種 <- wnja", "愛児 <- wnja"]
+sources = ["おこさん <- Wikidata L622609-S1", "お子さん <- Omniglot, Wikidata L622609-S1, wnja", "お子様 <- wnja", "こ <- Wikidata L690624-S1", "こども <- Kinbank, Wikidata L55-S1", "児 <- wnja", "子 <- Wikidata L690624-S1", "子供 <- Omniglot, Wikidata L55-S1, wnja", "子女 <- wnja", "子弟 <- wnja", "子種 <- wnja", "愛児 <- wnja"]
 honorific = ["おこさん: Pol (-さん)", "お子さん: Pol (-さん)", "お子様: Hon;Fml (-様)", "こ: - (bare, junior)", "こども: - (bare, junior)", "児: - (bare, junior)", "子: - (bare, junior)", "子供: - (bare, junior)", "子女: - (bare, junior)", "子弟: - (bare, junior)", "子種: - (bare, junior)", "愛児: - (bare, junior)"]
 comment = ""
 
@@ -858,47 +869,45 @@ new_senses = ["小童", "男"]
 new_words = ["なん", "むすこ", "御坊ちゃん"]
 hypernyms = ["Br;So|So", "Ch"]
 ancestors = ["Br;So|So", "Ch", "Br;Ch|Ch", "Sb;So|So", "Ch|Sb;Ch", "Rel"]
-sources = ["なん <- Wikidata L1343450-S2", "むすこ <- Wikidata L622605-S1", "ジュニア <- wnja", "令息 <- wnja", "倅 <- wnja", "和郎 <- wnja", "坊 <- wnja", "坊さん <- wnja", "坊ち <- wnja", "坊っちゃん <- wnja", "坊や <- wnja", "坊主 <- wnja", "坊様 <- wnja", "子息 <- wnja", "小僧 <- wnja", "小僮 <- wnja", "小童 <- wnja", "御令息 <- wnja", "御坊ちゃん <- wnja", "息 <- wnja", "息子 <- Wikidata L622605-S1, wnja", "息子さん <- wnja", "息男 <- wnja", "悴 <- wnja", "愚息 <- wnja", "男 <- Wikidata L1343450-S2", "男の子 <- wnja", "男児 <- wnja", "男子 <- wnja", "童男 <- wnja"]
+sources = ["なん <- Wikidata L1343450-S2", "むすこ <- Wikidata L622605-S1", "ジュニア <- wnja", "令息 <- wnja", "倅 <- wnja", "和郎 <- wnja", "坊 <- wnja", "坊さん <- wnja", "坊ち <- wnja", "坊っちゃん <- wnja", "坊や <- wnja", "坊主 <- wnja", "坊様 <- wnja", "子息 <- wnja", "小僧 <- wnja", "小僮 <- wnja", "小童 <- wnja", "御令息 <- wnja", "御坊ちゃん <- wnja", "息 <- wnja", "息子 <- Omniglot, Wikidata L622605-S1, wnja", "息子さん <- Omniglot, wnja", "息男 <- wnja", "悴 <- wnja", "愚息 <- wnja", "男 <- Wikidata L1343450-S2", "男の子 <- wnja", "男児 <- wnja", "男子 <- wnja", "童男 <- wnja"]
 honorific = ["なん: - (bare, junior)", "むすこ: - (bare, junior)", "ジュニア: - (loanword)", "令息: Hon;Fml (令-)", "倅: - (bare, junior)", "和郎: - (bare, junior)", "坊: - (bare, junior)", "坊さん: Pol (-さん)", "坊ち: - (bare, junior)", "坊っちゃん: Fam;Infml (-ちゃん)", "坊や: - (bare, junior)", "坊主: - (bare, junior)", "坊様: Hon;Fml (-様)", "子息: - (bare, junior)", "小僧: - (bare, junior)", "小僮: - (bare, junior)", "小童: - (bare, junior)", "御令息: Hon;Fml (令-)", "御坊ちゃん: Fam;Infml (-ちゃん)", "息: - (bare, junior)", "息子: - (bare, junior)", "息子さん: Pol (-さん)", "息男: - (bare, junior)", "悴: - (bare, junior)", "愚息: Fml;Hum (愚-)", "男: - (bare, junior)", "男の子: - (bare, junior)", "男児: - (bare, junior)", "男子: - (bare, junior)", "童男: - (bare, junior)"]
 comment = ""
 
 ["Da"]
-lemmas = ["むすめ", "令嬢", "娘", "娘さん", "嬢子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
+lemmas = ["お嬢さん", "むすめ", "令嬢", "娘", "娘さん", "嬢子", "御令嬢", "御嬢さん", "息女", "愛嬢"]
 prosub = ["娘 \"daughter\" [28] no person use"]
 omniglot = ["娘 musume \"daughter\" inf", "お嬢さん ojō san \"daughter\" frm"]
-omniglot_new = ["お嬢さん"]
 english = ["daughter", "girl"]
 label = "daughter"
 definition = "a daughter of a person (a child)"
 existing_by_ili = ["wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供"]
-existing_by_lemma = ["むすめ -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "御嬢さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "息女 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "愛嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供"]
-existing_hidden = 13  # other senses of these lemmas
+existing_by_lemma = ["お嬢さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "むすめ -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "娘さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "嬢子 -> wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "御令嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "御嬢さん -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "息女 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供", "愛嬢 -> wnja wnja-09992837-n [i89398] 令嬢, 娘, 娘, 娘さん, 嬢子, 御令嬢, ...: 女性の子供"]
+existing_hidden = 15  # other senses of these lemmas
 ntumc = ["ご令嬢 <- 09992837-n", "息女 <- 09992837-n", "御嬢さん <- 09992837-n", "娘子 <- 09992837-n", "娘さん <- 09992837-n", "御令嬢 <- 09992837-n", "お嬢さん <- 09992837-n", "娘 <- 09992837-n", "愛嬢 <- 09992837-n", "令嬢 <- 09992837-n"]
 new_senses = ["嬢子"]
 new_words = ["むすめ"]
 hypernyms = ["Br;Da|Da", "Ch"]
 ancestors = ["Br;Da|Da", "Ch", "Br;Ch|Ch", "Da|Sb;Da", "Ch|Sb;Ch", "Rel"]
-sources = ["むすめ <- Wikidata L622606-S1", "令嬢 <- wnja", "娘 <- Wikidata L622606-S1, wnja", "娘さん <- wnja", "嬢子 <- wnja", "御令嬢 <- wnja", "御嬢さん <- wnja", "息女 <- wnja", "愛嬢 <- wnja"]
-honorific = ["むすめ: - (bare, junior)", "令嬢: Hon;Fml (令-)", "娘: - (bare, junior)", "娘さん: Pol (-さん)", "嬢子: - (bare, junior)", "御令嬢: Hon;Fml (令-)", "御嬢さん: Pol (-さん)", "息女: - (bare, junior)", "愛嬢: - (bare, junior)"]
+sources = ["お嬢さん <- Omniglot", "むすめ <- Wikidata L622606-S1", "令嬢 <- wnja", "娘 <- Omniglot, Wikidata L622606-S1, wnja", "娘さん <- wnja", "嬢子 <- wnja", "御令嬢 <- wnja", "御嬢さん <- wnja", "息女 <- wnja", "愛嬢 <- wnja"]
+honorific = ["お嬢さん: Pol (-さん)", "むすめ: - (bare, junior)", "令嬢: Hon;Fml (令-)", "娘: - (bare, junior)", "娘さん: Pol (-さん)", "嬢子: - (bare, junior)", "御令嬢: Hon;Fml (令-)", "御嬢さん: Pol (-さん)", "息女: - (bare, junior)", "愛嬢: - (bare, junior)"]
 comment = ""
 
 ["Sp"]
-lemmas = ["はいぐうしゃ", "パートナー", "ベターハーフ", "伴侶", "配偶者"]
+lemmas = ["はいぐうしゃ", "パートナー", "ベターハーフ", "伉配", "伴侶", "配偶者"]
 pronunciations = ["はいぐうしゃ: haigūsha (romanization)"]
 omniglot = ["配偶者 haigūsha \"spouse\"", "伴侶 hanryo \"spouse\"", "伉配 kōhai \"spouse\""]
-omniglot_new = ["伉配"]
-english = ["better half", "married person", "mate", "partner", "spouse"]
+english = ["better half", "married person", "mate", "other half", "partner", "spouse"]
 label = "spouse"
 definition = "a husband or wife of a person"
 existing_by_ili = ["wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー"]
 existing_by_lemma = ["はいぐうしゃ -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "パートナー -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "ベターハーフ -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "伴侶 -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー", "配偶者 -> wnja wnja-10640620-n [i93233] 伴侶, パートナー, ベターハーフ, 配偶者: 結婚における人のパートナー"]
 existing_hidden = 3  # other senses of these lemmas
 ntumc = ["パートナー <- 10640620-n", "ベターハーフ <- 10640620-n", "配偶者 <- 10640620-n", "伴侶 <- 10640620-n"]
-new_words = ["はいぐうしゃ"]
+new_words = ["はいぐうしゃ", "伉配"]
 hypernyms = ["Rel"]
 ancestors = ["Rel"]
-sources = ["はいぐうしゃ <- Kinbank, Wikidata L1411567-S1", "パートナー <- wnja", "ベターハーフ <- wnja", "伴侶 <- wnja", "配偶者 <- Wikidata L1411567-S1, wnja"]
-honorific = ["はいぐうしゃ: - (bare, junior)", "パートナー: - (loanword)", "ベターハーフ: - (loanword)", "伴侶: - (bare, junior)", "配偶者: - (bare, junior)"]
+sources = ["はいぐうしゃ <- Kinbank, Wikidata L1411567-S1", "パートナー <- wnja", "ベターハーフ <- wnja", "伉配 <- Omniglot", "伴侶 <- Omniglot, wnja", "配偶者 <- Omniglot, Wikidata L1411567-S1, wnja"]
+honorific = ["はいぐうしゃ: - (bare, junior)", "パートナー: - (loanword)", "ベターハーフ: - (loanword)", "伉配: - (bare, junior)", "伴侶: - (bare, junior)", "配偶者: - (bare, junior)"]
 comment = ""
 
 ["Hu"]
@@ -915,14 +924,14 @@ new_senses = ["お父さん", "主"]
 new_words = ["おっと", "おとうさん", "ごしゅじん", "ご主人", "しゅじん"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["おっと <- Wikidata L622610-S1", "おとうさん <- Wikidata L405866-S2 (formal register)", "お父さん <- Wikidata L405866-S2 (formal register)", "ごしゅじん <- Wikidata L626373-S1 (honorific)", "ご主人 <- TUFS, Wikidata L626373-S1 (honorific)", "ご亭主 <- wnja", "しゅじん <- Wikidata L1017746-S1", "ハズ <- wnja", "ハズバンド <- wnja", "主 <- wnja", "主人 <- Wikidata L1017746-S1, wnja", "亭主 <- wnja", "入夫 <- wnja", "夫 <- Wikidata L622610-S1, wnja", "夫の君 <- wnja", "女房持ち <- wnja", "妻帯者 <- wnja", "宅 <- wnja", "宿六 <- wnja", "御亭主 <- wnja", "既婚男性 <- wnja", "旦つく <- wnja", "旦那 <- wnja", "背子 <- wnja", "良人 <- wnja"]
+sources = ["おっと <- Wikidata L622610-S1", "おとうさん <- Wikidata L405866-S2 (formal register)", "お父さん <- Wikidata L405866-S2 (formal register)", "ごしゅじん <- Wikidata L626373-S1 (honorific)", "ご主人 <- Omniglot, TUFS, Wikidata L626373-S1 (honorific)", "ご亭主 <- wnja", "しゅじん <- Wikidata L1017746-S1", "ハズ <- wnja", "ハズバンド <- wnja", "主 <- wnja", "主人 <- Omniglot, Wikidata L1017746-S1, wnja", "亭主 <- Omniglot, wnja", "入夫 <- wnja", "夫 <- Omniglot, Wikidata L622610-S1, wnja", "夫の君 <- wnja", "女房持ち <- wnja", "妻帯者 <- wnja", "宅 <- wnja", "宿六 <- wnja", "御亭主 <- wnja", "既婚男性 <- wnja", "旦つく <- wnja", "旦那 <- wnja", "背子 <- wnja", "良人 <- wnja"]
 honorific = ["おっと: - (bare, junior)", "おとうさん: Pol (-さん; Wikidata: formal register)", "お父さん: Pol (-さん; Wikidata: formal register)", "ごしゅじん: Pol (お-/御-; Wikidata: honorific)", "ご主人: Pol (お-/御-; Wikidata: honorific)", "ご亭主: Pol (お-/御-)", "しゅじん: - (bare, junior)", "ハズ: - (loanword)", "ハズバンド: - (loanword)", "主: - (bare, junior)", "主人: - (bare, junior)", "亭主: - (bare, junior)", "入夫: - (bare, junior)", "夫: - (bare, junior)", "夫の君: Hon;Arch (-君)", "女房持ち: - (bare, junior)", "妻帯者: - (bare, junior)", "宅: - (bare, junior)", "宿六: NHon;Infml (lexical)", "御亭主: Pol (お-/御-)", "既婚男性: - (bare, junior)", "旦つく: - (bare, junior)", "旦那: - (bare, junior)", "背子: - (bare, junior)", "良人: - (bare, junior)"]
 comment = ""
 
 ["Wi"]
 lemmas = ["おかあさん", "おくさん", "おっ母", "おなご", "お母さん", "かない", "こゆび", "ご内儀", "ご内室", "つま", "め", "フラウ", "ミセス", "ワイフ", "上さん", "上様", "亭主もち", "亭主持", "亭主持ち", "人妻", "令夫人", "令室", "令閨", "刀自", "嚊", "嚊左衛門", "夫人", "奥さん", "奥様", "女", "女子", "女性", "女房", "妻", "妻君", "妻女", "妻室", "婦人", "嫁", "嫁さん", "嫁はん", "嬢子", "室", "室家", "家内", "家妻", "家桜", "小指", "御っ母", "御上", "御内", "御内儀", "御内儀さん", "御内室", "御新造", "御方", "愚妻", "細君", "裏方"]
 omniglot = ["妻 tsuma \"wife\" inf", "家内 kanai \"wife\"", "女房 nyōbō \"wife\"", "奥さん oku san \"wife\" frm"]
-english = ["married woman", "wife"]
+english = ["married woman", "missus", "wife"]
 label = "wife"
 definition = "the wife of a person (a spouse)"
 existing_by_ili = ["wnja wnja-10780632-n [i94123] 室, 室家, 妻, 御内, 室, 女性, ...: 結婚している女性; 結婚における男性のパートナー", "tufs-ja tufs-ja-10780632-n [i94123] 奥さん: (CILI) a married woman; a man's partner in marriage"]
@@ -933,7 +942,7 @@ new_senses = ["おなご", "お母さん", "女子", "小指", "御方"]
 new_words = ["おかあさん", "おくさん", "かない", "こゆび", "つま", "め", "妻君", "御内儀さん", "御新造"]
 hypernyms = ["Sp"]
 ancestors = ["Sp", "Rel"]
-sources = ["おかあさん <- Wikidata L405867-S2", "おくさん <- Wikidata L626379-S1", "おっ母 <- wnja", "おなご <- Wikidata L1460438-S1", "お母さん <- Wikidata L405867-S2", "かない <- Wikidata L1017748-S1", "こゆび <- Wikidata L1221483-S5", "ご内儀 <- wnja", "ご内室 <- wnja", "つま <- Wikidata L622608-S1", "め <- Wikidata L1338947-S3", "フラウ <- wnja", "ミセス <- wnja", "ワイフ <- wnja", "上さん <- wnja", "上様 <- wnja", "亭主もち <- wnja", "亭主持 <- wnja", "亭主持ち <- wnja", "人妻 <- wnja", "令夫人 <- wnja", "令室 <- wnja", "令閨 <- wnja", "刀自 <- wnja", "嚊 <- wnja", "嚊左衛門 <- wnja", "夫人 <- wnja", "奥さん <- TUFS, Wikidata L626379-S1, wnja", "奥様 <- wnja", "女 <- Wikidata L1338947-S3, wnja", "女子 <- Wikidata L1460438-S1", "女性 <- wnja", "女房 <- wnja", "妻 <- Wikidata L622608-S1, wnja", "妻君 <- wnja", "妻女 <- wnja", "妻室 <- wnja", "婦人 <- wnja", "嫁 <- wnja", "嫁さん <- wnja", "嫁はん <- wnja", "嬢子 <- wnja", "室 <- wnja", "室家 <- wnja", "家内 <- Wikidata L1017748-S1, wnja", "家妻 <- wnja", "家桜 <- wnja", "小指 <- Wikidata L1221483-S5", "御っ母 <- wnja", "御上 <- wnja", "御内 <- wnja", "御内儀 <- wnja", "御内儀さん <- wnja", "御内室 <- wnja", "御新造 <- wnja", "御方 <- wnja", "愚妻 <- wnja", "細君 <- wnja", "裏方 <- wnja"]
+sources = ["おかあさん <- Wikidata L405867-S2", "おくさん <- Wikidata L626379-S1", "おっ母 <- wnja", "おなご <- Wikidata L1460438-S1", "お母さん <- Wikidata L405867-S2", "かない <- Wikidata L1017748-S1", "こゆび <- Wikidata L1221483-S5", "ご内儀 <- wnja", "ご内室 <- wnja", "つま <- Wikidata L622608-S1", "め <- Wikidata L1338947-S3", "フラウ <- wnja", "ミセス <- wnja", "ワイフ <- wnja", "上さん <- wnja", "上様 <- wnja", "亭主もち <- wnja", "亭主持 <- wnja", "亭主持ち <- wnja", "人妻 <- wnja", "令夫人 <- wnja", "令室 <- wnja", "令閨 <- wnja", "刀自 <- wnja", "嚊 <- wnja", "嚊左衛門 <- wnja", "夫人 <- wnja", "奥さん <- Omniglot, TUFS, Wikidata L626379-S1, wnja", "奥様 <- wnja", "女 <- Wikidata L1338947-S3, wnja", "女子 <- Wikidata L1460438-S1", "女性 <- wnja", "女房 <- Omniglot, wnja", "妻 <- Omniglot, Wikidata L622608-S1, wnja", "妻君 <- wnja", "妻女 <- wnja", "妻室 <- wnja", "婦人 <- wnja", "嫁 <- wnja", "嫁さん <- wnja", "嫁はん <- wnja", "嬢子 <- wnja", "室 <- wnja", "室家 <- wnja", "家内 <- Omniglot, Wikidata L1017748-S1, wnja", "家妻 <- wnja", "家桜 <- wnja", "小指 <- Wikidata L1221483-S5", "御っ母 <- wnja", "御上 <- wnja", "御内 <- wnja", "御内儀 <- wnja", "御内儀さん <- wnja", "御内室 <- wnja", "御新造 <- wnja", "御方 <- wnja", "愚妻 <- wnja", "細君 <- wnja", "裏方 <- wnja"]
 honorific = ["おかあさん: Pol (-さん)", "おくさん: Pol (-さん)", "おっ母: Infml (lexical)", "おなご: Pol (お-/御-)", "お母さん: Pol (-さん)", "かない: - (bare, junior)", "こゆび: - (bare, junior)", "ご内儀: Pol (お-/御-)", "ご内室: Pol (お-/御-)", "つま: - (bare, junior)", "め: - (bare, junior)", "フラウ: - (loanword)", "ミセス: - (loanword)", "ワイフ: - (loanword)", "上さん: Pol (-さん)", "上様: Hon;Fml (-様)", "亭主もち: - (bare, junior)", "亭主持: - (bare, junior)", "亭主持ち: - (bare, junior)", "人妻: - (bare, junior)", "令夫人: Hon;Fml (令-)", "令室: Hon;Fml (令-)", "令閨: Hon;Fml (令-)", "刀自: - (bare, junior)", "嚊: Infml (lexical)", "嚊左衛門: - (bare, junior)", "夫人: - (bare, junior)", "奥さん: Pol (-さん)", "奥様: Hon;Fml (-様)", "女: - (bare, junior)", "女子: - (bare, junior)", "女性: - (bare, junior)", "女房: - (bare, junior)", "妻: - (bare, junior)", "妻君: Fml;Hum (lexical: one's own wife)", "妻女: - (bare, junior)", "妻室: - (bare, junior)", "婦人: - (bare, junior)", "嫁: - (bare, junior)", "嫁さん: Pol (-さん)", "嫁はん: Pol (-はん)", "嬢子: - (bare, junior)", "室: - (bare, junior)", "室家: - (bare, junior)", "家内: Fml;Hum (lexical: one's own wife)", "家妻: Fml;Hum (家-)", "家桜: Fml;Hum (家-)", "小指: - (bare, junior)", "御っ母: Pol (お-/御-)", "御上: Hon;Arch (-上)", "御内: Pol (お-/御-)", "御内儀: Pol (お-/御-)", "御内儀さん: Pol (-さん)", "御内室: Pol (お-/御-)", "御新造: Pol (お-/御-)", "御方: Pol (お-/御-)", "愚妻: Fml;Hum (愚-)", "細君: Fml;Hum (lexical: one's own wife)", "裏方: - (bare, junior)"]
 comment = ""
 
@@ -962,10 +971,9 @@ ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Sp;Fa"]
-lemmas = ["girinochichi", "岳父", "義父", "舅"]
+lemmas = ["girinochichi", "岳父", "義父", "義理の父", "舅"]
 transcribed = ["girinochichi"]  # romanized in the source; no word in the native script here
 omniglot = ["義理の父 giri no chichi \"father-in-law\"", "義父 gifu \"father-in-law\"", "舅 shūto \"father-in-law\""]
-omniglot_new = ["義理の父"]
 english = ["father-in-law"]
 label = "father-in-law"
 definition = "the father of one's spouse (an in-law)"
@@ -973,17 +981,17 @@ existing_by_ili = ["wnja wnja-10082043-n [i89906] 岳父, 義父, 舅, 舅: 配�
 existing_by_lemma = ["岳父 -> wnja wnja-10082043-n [i89906] 岳父, 義父, 舅, 舅: 配偶者の父親", "義父 -> wnja wnja-10082043-n [i89906] 岳父, 義父, 舅, 舅: 配偶者の父親", "義父 -> wnja wnja-10654701-n [i93310] 義父, 継父: 母の再婚による夫", "舅 -> wnja wnja-10082043-n [i89906] 岳父, 義父, 舅, 舅: 配偶者の父親"]
 existing_hidden = 1  # other senses of these lemmas
 ntumc = ["舅 <- 10082043-n", "岳父 <- 10082043-n", "義父 <- 10082043-n"]
-new_words = ["girinochichi"]
+new_words = ["girinochichi", "義理の父"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["girinochichi <- Kinbank", "岳父 <- wnja", "義父 <- wnja", "舅 <- wnja"]
-honorific = ["girinochichi: Fml;Hum (bare, senior)", "岳父: Fml;Hum (bare, senior)", "義父: Fml;Hum (bare, senior)", "舅: Fml;Hum (bare, senior)"]
+sources = ["girinochichi <- Kinbank", "岳父 <- wnja", "義父 <- Omniglot, wnja", "義理の父 <- Omniglot", "舅 <- Omniglot, wnja"]
+honorific = ["girinochichi: Fml;Hum (bare, senior)", "岳父: Fml;Hum (bare, senior)", "義父: Fml;Hum (bare, senior)", "義理の父: Fml;Hum (bare, senior)", "舅: Fml;Hum (bare, senior)"]
 comment = ""
 
 ["Sp;Mo"]
 lemmas = ["girinohaha", "ぎぼ", "姑", "義母"]
 transcribed = ["girinohaha"]  # romanized in the source; no word in the native script here
-omniglot = ["義理の野母 giri no haha \"mother-in-law\"", "義母 gibo \"mother-in-law\"", "姑 shūtome \"mother-in-law\""]
+omniglot = ["義理の野母 giri no haha \"mother-in-law\" (not built: excluded)", "義母 gibo \"mother-in-law\"", "姑 shūtome \"mother-in-law\""]
 omniglot_new = ["義理の野母"]
 english = ["mother-in-law"]
 label = "mother-in-law"
@@ -995,7 +1003,7 @@ ntumc = ["姑 <- 10333317-n", "義母 <- 10333317-n"]
 new_words = ["girinohaha", "ぎぼ"]
 hypernyms = ["Sp;Pa"]
 ancestors = ["Sp;Pa", "InL", "Rel"]
-sources = ["girinohaha <- Kinbank", "ぎぼ <- Wikidata L1352740-S1", "姑 <- wnja", "義母 <- Wikidata L1352740-S1, wnja"]
+sources = ["girinohaha <- Kinbank", "ぎぼ <- Wikidata L1352740-S1", "姑 <- Omniglot, wnja", "義母 <- Omniglot, Wikidata L1352740-S1, wnja"]
 honorific = ["girinohaha: Fml;Hum (bare, senior)", "ぎぼ: Fml;Hum (bare, senior)", "姑: Fml;Hum (bare, senior)", "義母: Fml;Hum (bare, senior)"]
 comment = ""
 
@@ -1010,10 +1018,9 @@ ancestors = ["InL", "Rel"]
 comment = ""
 
 ["Da;Hu"]
-lemmas = ["婿"]
+lemmas = ["婿", "義理の息子"]
 prosub = ["婿 \"son in law\" [31] no person use"]
 omniglot = ["義理の息子 giri no musuko \"son-in-law\""]
-omniglot_new = ["義理の息子"]
 english = ["son-in-law"]
 label = "son-in-law"
 definition = "the husband of one's daughter (an in-law)"
@@ -1021,16 +1028,17 @@ existing_by_ili = ["wnja wnja-10624915-n [i93147] 婿: 娘の夫"]
 existing_by_lemma = ["婿 -> wnja wnja-10147935-n [i90331] 別当, 婿, 新郎, 花婿: 最近結婚した男性", "婿 -> wnja wnja-10624915-n [i93147] 婿: 娘の夫"]
 existing_hidden = 1  # other senses of these lemmas
 ntumc = ["婿 <- 10624915-n"]
+new_words = ["義理の息子"]
 hypernyms = ["Ch;Sp"]
 ancestors = ["Ch;Sp", "InL", "Rel"]
-sources = ["婿 <- wnja"]
-honorific = ["婿: - (bare, junior)"]
+sources = ["婿 <- wnja", "義理の息子 <- Omniglot"]
+honorific = ["婿: - (bare, junior)", "義理の息子: - (bare, junior)"]
 comment = ""
 
 ["So;Wi"]
 lemmas = ["嫁"]
 prosub = ["嫁 \"daughter in law\" [30] no person use"]
-omniglot = ["嫁姑 yome shūtome \"daughter-in-law\""]
+omniglot = ["嫁姑 yome shūtome \"daughter-in-law\" (not built: excluded)"]
 omniglot_new = ["嫁姑"]
 english = ["daughter-in-law"]
 label = "daughter-in-law"
@@ -1047,7 +1055,7 @@ comment = ""
 
 ["BrL"]
 lemmas = []
-omniglot = ["義兄 gikei \"brother-in-law stepbrother\" older (broader)", "義理の兄 giri no ani \"brother-in-law stepbrother\" older (broader)", "義弟 gitei \"brother-in-law stepbrother\" younger (broader)", "義理の弟 giri no otōto \"brother-in-law stepbrother\" younger (broader)"]
+omniglot = ["義兄 gikei \"brother-in-law stepbrother\" older (not built: broader)", "義理の兄 giri no ani \"brother-in-law stepbrother\" older (not built: broader)", "義弟 gitei \"brother-in-law stepbrother\" younger (not built: broader)", "義理の弟 giri no otōto \"brother-in-law stepbrother\" younger (not built: broader)"]
 omniglot_new = ["義兄", "義理の兄", "義弟", "義理の弟"]
 english = ["brother-in-law"]
 label = "brother-in-law"
@@ -1060,7 +1068,7 @@ comment = ""
 
 ["SsL"]
 lemmas = []
-omniglot = ["義姉 gishi \"sister-in-law stepsister\" older (broader)", "義理の姉 gishi no ane \"sister-in-law stepsister\" older (broader)", "義妹 gimei \"sister-in-law stepsister\" younger (broader)", "義理の妹 gishi no mai \"sister-in-law stepsister\" younger (broader)"]
+omniglot = ["義姉 gishi \"sister-in-law stepsister\" older (not built: broader)", "義理の姉 gishi no ane \"sister-in-law stepsister\" older (not built: broader)", "義妹 gimei \"sister-in-law stepsister\" younger (not built: broader)", "義理の妹 gishi no mai \"sister-in-law stepsister\" younger (not built: broader)"]
 omniglot_new = ["義姉", "義理の姉", "義妹", "義理の妹"]
 english = ["sister-in-law"]
 label = "sister-in-law (by marriage)"

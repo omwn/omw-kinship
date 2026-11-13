@@ -594,6 +594,25 @@ def add_wikidata(languages: dict[str, Language], concepts: dict[str, Concept]) -
             )
 
 
+#: the source of Omniglot's words
+OMNIGLOT = "Omniglot"
+
+
+def add_omniglot(languages: dict[str, Language], concepts: dict[str, Concept]) -> None:
+    """Add Omniglot's family words that match a concept exactly.
+
+    `omniglot_words.py` reads them from Omniglot's pages (Simon Ager, used under
+    CC BY-SA by his permission) into `omniglot-words.tsv`, placing each on the
+    concept its label and qualifiers name. Words placed on a broader concept,
+    plural forms and the words in `omniglot-curation.tsv` (errors, typos, jokes)
+    are left out.
+    """
+    for row in read_tsv(CANDIDATES / "omniglot-words.tsv"):
+        if row["match"] == "exact":
+            name = register_language(row["language"], row["tag"])
+            add_word(languages, name, row["word"], concepts[row["code"]], OMNIGLOT)
+
+
 def add_kinbank(languages: dict[str, Language], concepts: dict[str, Concept]) -> None:
     """Add the Kinbank terms that match a concept exactly (`kinbank-candidates.tsv`).
 
@@ -1152,6 +1171,7 @@ def pipeline() -> tuple[dict[str, Concept], dict[str, set[str]], dict[str, Langu
     add_attestations(languages, concepts)
     add_wordnets(languages, concepts)
     add_wikidata(languages, concepts)
+    add_omniglot(languages, concepts)
     add_kinbank(languages, concepts)
     add_gaps(languages, concepts)
     add_phrases(languages["English"], concepts)
