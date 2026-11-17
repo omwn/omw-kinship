@@ -52,8 +52,8 @@ inputs from clones of TUFS and Kinbank next to this repository.
 (`../ProSub`) if there is one: for Japanese, Korean, Indonesian, Malay, Javanese,
 Thai, Vietnamese and Burmese, its 27 kin items give suggested words, with whether
 each can refer to the speaker or addressee or serve as an address term or title
-(`prosub` in the review files). ProSub has no licence yet, so these words are for
-review only and are not in the build.
+(`prosub` in the review files). ProSub is CC BY 4.0, but its words are not
+checked, so they are for review only and are not in the build.
 
 `docs/hierarchy/index.html` browses the concept hierarchy, drawing each concept
 as its kin-type features (FEATURES.md), with one language's words and gaps
